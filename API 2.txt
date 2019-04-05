@@ -1,0 +1,5 @@
+API 2
+
+  ALIMENTOS \ ENFERMEDADES
+   https://www.programmableweb.com/api/personal-remedies
+   https://api.nutridigm.com/
