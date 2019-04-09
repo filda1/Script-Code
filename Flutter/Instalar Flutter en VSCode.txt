@@ -1,0 +1,33 @@
+ INSTALAR FLUTTER EN VSCODE
+    
+   youtube (Gyga Code)
+
+    Obligatorio:
+      * Instalar Java JDK
+      * Bajar carpeta Android SDK 
+      * Instalar Android Studio
+      * Instalar Git 
+      * Instalar Genyemotion
+      * Poner carpeta Flutter SDK en PC
+      * Instalar Plugin Flutter en VSCode
+      * Instalar Flutter en Android Studio
+
+
+      1.
+      2.
+      3.
+      4. Dowload de Git.com  (ojo , configuracion seleccionar: CHECKOUT  as-is , Commit Unix Style)
+      5.
+      6. Dowload Flutter SDK (https://flutter.io/docs/get-started/install/windows)
+         6.1 Poner la carpeta en un sitio por eljemplo C:/
+         6.2 Dentro de la carpeta, Ejecutar Flutter console bat
+         6.3  Poner variable de ambiente apuntando carpeta bin de Flutter (Es para poder utilizar Flutter desde Linea de comando)
+           Panel Control  ======> Sistema =====> Configuarcion avanzadas de sistema  ======> variable del ambiente 
+           Agregar en  Path:  =========> Y Buscar carpeta Bin de Flutter  (Ejemplo C:\Flutter\Bin)
+      7. En VSCODE , extensiones, Buscar Flutter e instalar. Tambien Android Studio instalar Flutter
+      8. Examinar instalacion: en Power Shell en flutter (Shift + boton derecho, dentro de carpeta flutter   ======> Abrrir Power Shell):
+
+         flutter doctor
+
+         * En Power Shell, instalar, flutter doctor --android-licenses
+
