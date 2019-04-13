@@ -3,3 +3,11 @@ API 2
   ALIMENTOS \ ENFERMEDADES
    https://www.programmableweb.com/api/personal-remedies
    https://api.nutridigm.com/
+
+  SMS EN MASAS
+   https://www.programmableweb.com/api/bulksmsplans
+   API do Bulksmsplans
+
+  GERENCIA MEDICA
+   https://www.programmableweb.com/api/google-cloud-healthcare-rpc
+   API RPC do Google Cloud Healthcare

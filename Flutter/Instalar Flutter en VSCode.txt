@@ -38,6 +38,19 @@
 
 
 
-      ** EMULADOR VSCode
+
+--------------------------------------------------------------------------------------------------------------------------
+
+      ** EMULADOR en VSCode
            1- Instalar un celular en Android Studio
-           2- Luego ver en, Debug (Icono de Insecto y buscar el celular)
+           2- Luego ver VsCode en, Debug (Icono de Insecto y buscar el celular)
+
+***************************************************************************************************************************
+
+   DiFERENCIAS EN FLUTTER
+
+   - Widget
+   - IntermedioZ     =====================> void...... (Llama a metodo)
+   - Intermedio()    =====================> class..... (llama a classe)
+   
+   - $Inermedio      ======================> Variable
