@@ -1,0 +1,91 @@
+import 'package:flutter/material.dart';
+
+void main () => runApp(MyApp());
+
+class MyApp extends StatelessWidget {
+ 
+  @override
+  Widget build(BuildContext context) { 
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: "Flutter demo",
+      theme: ThemeData(
+        canvasColor: Colors.lightGreenAccent,
+        accentColor: Colors.redAccent,
+      ),
+
+      home: MyHomePage(),
+    );
+  }     
+} 
+
+class MyHomePage extends StatefulWidget {
+  @override
+  State<StatefulWidget> createState() => MyHomePageState();   
+}
+
+class MyHomePageState extends State<MyHomePage>{
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+
+      body: Center(
+        child: FlatButton(
+          onPressed:() {
+             Navigator.push(context, PageTwo());
+          },
+          child: Text ("Go to Page two"),
+        ),
+      ),
+    );
+  }  
+}
+
+class PageTwo extends MaterialPageRoute<Null>{
+  PageTwo(): super(builder:(BuildContext ctx){
+    return Scaffold(
+    appBar: AppBar(
+      backgroundColor: Theme.of(ctx).canvasColor,
+      elevation: 1.0,
+    ),
+    body: Center(
+      child: RaisedButton(
+        onPressed: (){
+          Navigator.push(ctx, PageThree());          
+        },
+        child: Text('Go to Three'),
+      ),
+    ),
+    );
+  });
+}
+
+class PageThree extends MaterialPageRoute<Null>{
+ PageThree(): super(builder:(BuildContext ctx){
+  
+  return Scaffold(
+    appBar: AppBar(
+      backgroundColor: Theme.of(ctx).accentColor,
+      title: Text('Last Page'),
+      elevation: 2.0,
+      actions: <Widget>[
+        IconButton(
+          icon: Icon(Icons.close),
+          onPressed: (){
+            Navigator.pop(ctx);
+          },
+        )
+      ],
+    ),
+    body: Center(
+      child: MaterialButton(
+        onPressed:(){
+         Navigator.popUntil(ctx,ModalRoute.withName(Navigator.defaultRouteName));
+        },
+        child: Text('Go home'),
+      ),
+    ),
+  );
+
+ });
+}
