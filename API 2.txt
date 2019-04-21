@@ -11,3 +11,9 @@ API 2
   GERENCIA MEDICA
    https://www.programmableweb.com/api/google-cloud-healthcare-rpc
    API RPC do Google Cloud Healthcare
+
+  API MasterTables (Almacena datos en tablas)
+   https://www.programmableweb.com/api/mastertables
+
+  https://edgybees.com/public-safety/ ===================> REALIDAD AUMENTADA
+  https://www.programmableweb.com/news/edgybees-announces-augmented-reality-api-kit/brief/2019/04/12

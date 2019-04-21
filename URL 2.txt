@@ -3,6 +3,18 @@ FLUTER
    FLUTTER STUDIO 2017 -----------  http://mutisya.com/
    FLUTTER STUDO  2018  ---------- https://flutterstudio.app/
 
+ FLUTTER CON ONE SIGNAL + PUSH NOTIFICATION
+  https://www.youtube.com/watch?v=GfvymU4xd0A
+  https://medium.com/flutterpub/flutter-and-onesignal-notifications-22bbb706e025
+  https://github.com/AseemWangoo/flutter_programs/blob/master/OneSignal.dart
+
+ FLUTTER PIZZA
+  https://www.youtube.com/watch?v=roDNz7UZ9eE
+  https://github.com/voidrealms/Flutter-41/tree/master/pizzademo
+
+ FLUTTER PROYECTOS
+  https://github.com/iampawan/FlutterExampleApps
+
 *******************************************************************************************************************
 
 UNITY
@@ -69,3 +81,15 @@ Silly Symphony King Neptune
 **************************************************************************************************************************
 https://file.wikileaks.org/file/?fbclid=IwAR1pMlHTrqLiO2GgxquhOKJmLLqcyLV9iTedTP8l7O-eqs2ImBNm698L0JM
 **************************************************************************************************************************
+
+ LER AR  ======================================> https://creator.leoapp.com/about/
+
+***************************************************************************************************************************
+CRIPTOMONEDA
+ https://www.youtube.com/watch?v=hCsnAfsly8w
+*****************************************************************************************************************************
+
+ FOTOGRAMETRIA
+    Qlone o Trnio, SCANN3D -
+    https://play.google.com/store/apps/details?id=com.Xplorazzi.FurnitureARCore
+    Bill Monroe And The Bluegrass Boys Sing "In The Pines"
