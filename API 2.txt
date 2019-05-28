@@ -17,3 +17,14 @@ API 2
 
   https://edgybees.com/public-safety/ ===================> REALIDAD AUMENTADA
   https://www.programmableweb.com/news/edgybees-announces-augmented-reality-api-kit/brief/2019/04/12
+
+
+  ALERTA CRIPTOMONEDA
+   https://www.programmableweb.com/api/cryptocurrency-alerting
+
+
+  API de similaridade de texto DigitalOwl
+   https://www.programmableweb.com/api/digitalowl-text-similarity
+
+  API de classificação de texto DigitalOwl
+   https://www.programmableweb.com/api/digitalowl-text-classification

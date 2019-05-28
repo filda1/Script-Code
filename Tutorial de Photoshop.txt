@@ -1,0 +1,28 @@
+TUTORIAL PHOTOSHOP
+
+  *  Mesa de Trabajo    =============================> para hacer con muchas hojas
+
+  * Archivo 
+         ===> Incrustar Imagen 
+
+  * Edicion
+       =====> Escalar segun contenido (No deforma Imagen)
+       =====> Deformacion de posicion libre  (Malla con ptos, para modificar)
+       =====> deformacion de perpectiva ====> se seleciona el cuadro en la imagen y luego Link DEFORMAR y se mueve
+       =====> Transformacion Libre 
+       ======> Ajustes de color ====> Cambia configuracion de hoja
+
+  * Capas
+
+     crear capa
+     crear Mascara ==================> Mascara es ocultar imagen o parte de imagen, estando una encima de la otra
+       * Primero, creo capa
+       * Luego una mascara
+          - Mascara 1, oculta todo la de arriba o debajo, tiene que pintar seleccionando la parte de frente o de fondo del color
+          - Mascara 2 por corte, puedes ver una parte de la imagen de arriba haciendo un figura y luego pintado como la anterior y seleccionando frente o fondo
+          - Mascara 3 por Arrastre, puede arrastrar la mascara directamente (ALT +boton izq) hacia la capa
+
+
+     Fusion ==============> Mezcla dos capas
+
+   
