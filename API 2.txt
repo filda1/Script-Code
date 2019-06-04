@@ -28,3 +28,7 @@ API 2
 
   API de classificação de texto DigitalOwl
    https://www.programmableweb.com/api/digitalowl-text-classification
+
+
+  ENVIO DE CORREO FISICO MEDIANTE PROGRAMACION
+   https://www.programmableweb.com/api/seeuletter
