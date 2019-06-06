@@ -32,3 +32,6 @@ API 2
 
   ENVIO DE CORREO FISICO MEDIANTE PROGRAMACION
    https://www.programmableweb.com/api/seeuletter
+
+  BUSCADOR DE PALABRAS MEDICAS EN UN TEXTO
+   https://www.programmableweb.com/api/innoplexus-queryparser-analyse

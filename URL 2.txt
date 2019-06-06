@@ -1,4 +1,5 @@
 FLUTER 
+    tutorial =========> Tensor Programming  en Youtube
 
    FLUTTER STUDIO 2017 -----------  http://mutisya.com/
    FLUTTER STUDO  2018  ---------- https://flutterstudio.app/
@@ -142,3 +143,10 @@ https://series24.to/serie/heridas-abiertas/season-1/episodio-2-524/
 
   0.02887853 BTC / $166.96
    21.66
+
+*********************************************************************************************************
+ FLUTTER + NODE.JS (api) + MONGOdb
+
+https://www.youtube.com/watch?v=SBDI53ECgVk
+
+********************************************************************************************************
