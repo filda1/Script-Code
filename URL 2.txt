@@ -161,7 +161,10 @@ https://www.youtube.com/watch?v=SBDI53ECgVk
   https://community.arm.com/developer/tools-software/graphics/b/blog/posts/indoor-real-time-navigation-with-slam-on-your-mobile
 
 
-  EJEMPLO = https://www.youtube.com/watch?v=yYPod99aBjQ
+  EJEMPLO = Tangar = https://www.youtube.com/watch?v=yYPod99aBjQ
+            https://immersal.com/
+
+  TUTORIAL = https://immersal.gitbook.io/sdk/tutorials/using-the-indoor-navigation-sample
 
 ANYPLACE
     https://github.com/dmsl/anyplace
@@ -224,3 +227,5 @@ ANYPLACE
  LOCAL BITCOIN
   sina2652
   riclas
+
+ WEB DESIGN = https://navigine.com/developers/
