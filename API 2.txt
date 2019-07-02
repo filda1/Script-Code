@@ -35,3 +35,12 @@ API 2
 
   BUSCADOR DE PALABRAS MEDICAS EN UN TEXTO
    https://www.programmableweb.com/api/innoplexus-queryparser-analyse
+
+ ANIME
+  https://anilist.gitbook.io/anilist-apiv2-docs/overview/graphql/getting-started
+
+ FACTURAS
+  https://www.programmableweb.com/api/space-invoices
+
+ CRIPTO
+   https://www.programmableweb.com/api/paradigm

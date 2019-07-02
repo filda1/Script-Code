@@ -106,6 +106,7 @@ La Fórmula Secreta de Amazon | Flywheel de Jim Collins = Circulo vicio ==> circu
 https://series24.to/serie/heridas-abiertas/season-1/episodio-2-524/
 ------- https://playwarez.com/episode/sharp-objects-season-1-episode-3/
         http://pelisplus.co/serie/la-verdad-sobre-el-caso-harry-quebert/
+       http://pelisplus.co/serie/big-little-lies/temporada-2/capitulo-1/
 **************************************************************************************************************************
   PUSH NOTICATION + UNITY
    https://www.youtube.com/watch?v=rgkIGR4DHng
@@ -149,4 +150,77 @@ https://series24.to/serie/heridas-abiertas/season-1/episodio-2-524/
 
 https://www.youtube.com/watch?v=SBDI53ECgVk
 
-********************************************************************************************************
+**********************************************************************************************************
+
+ INDOOR NAVIGATION AR
+  https://blog.mapbox.com/indoor-navigation-in-ar-with-unity-6078afe9d958
+
+  https://docs.unity3d.com/es/current/Manual/nav-InnerWorkings.html
+  https://www.youtube.com/watch?v=V3-yBc6Os8A
+
+  https://community.arm.com/developer/tools-software/graphics/b/blog/posts/indoor-real-time-navigation-with-slam-on-your-mobile
+
+
+  EJEMPLO = https://www.youtube.com/watch?v=yYPod99aBjQ
+
+ANYPLACE
+    https://github.com/dmsl/anyplace
+**********************************************************************************************************
+ ARCORE
+  Unity+ ArCore ==========> https://medium.com/coding-blocks/introduction-to-motion-tracking-in-arcore-f3e584ce0ba0
+  https://codelabs.developers.google.com/codelabs/arcore-intro/#0
+  Ejemplos ===========> https://www.andreasjakl.com/remote-arcore-unitys-experimental-arinterface/
+                        Juegos========A>    https://www.raywenderlich.com/5485-arcore-sceneform-sdk-getting-started
+                        Dibujar lineas ======>https://heartbeat.fritz.ai/the-subtle-art-of-making-lines-in-augmented-reality-using-arcore-and-unity3d-e26718dffa03
+                        https://docs.mapbox.com/unity/maps/examples/tabletop-ar/
+************************************************************************************************************************
+ AR FURNITURE ---VIEWAR
+
+   https://www.youtube.com/watch?v=mXfLlff0DsQ
+*************************************************************************************************************************
+ AR + UNTITY + BOTONES ECRA
+  https://www.youtube.com/watch?v=n9xXPndegK0
+  https://www.youtube.com/watch?v=lhHliig-W-g
+  https://www.youtube.com/watch?v=HGgyJdEniUc
+*************************************************************************************************************************
+ AR + UNITY + MENU
+  https://www.youtube.com/watch?v=SamtQ35l08g
+
+ AR + UNITY + Escala Objetos
+ https://www.youtube.com/watch?v=KoPI1-V07aw
+
+  AR + UNITY + Cambiar Textura Objetos
+ https://www.youtube.com/watch?v=RNsHGGMND6k
+
+  UNITY + Toucht
+   https://www.youtube.com/watch?v=v72cvDeMPaI
+----------------------------------------------------------------------------------------------------------*****************
+
+ ZAPATOS 3D
+  https://www.youtube.com/watch?v=_G5XRetAfEQ
+  https://www.thingiverse.com/thing:2221619
+
+
+  https://feetz.com/men-Axis
+
+-------------------------------------------------------------------------------------------------------------------
+
+  DROID Studio + ONESIGANAL + FIREBASE
+  Enviar entre 2 mobiles ========> https://www.youtube.com/watch?v=EWLRtwpJ6cQ&t=1s
+
+ UNITY + ONESIGANAL + FIREBASE
+ https://www.youtube.com/watch?v=4H0tic78DuY
+
+
+*********************************************************************************************************************
+
+ FLUTTER + SEND PUSH NOTFICATION
+   https://flatteredwithflutter.com/send-notifications-in-flutter/
+   
+  FLUTTER + PUSH NOTFICATION
+ https://medium.com/@gbrlsavio2/push-notifications-flutter-com-onesignal-fd5f68ead24d
+
+**********************************************************************************************************************
+ LOCAL BITCOIN
+  sina2652
+  riclas
