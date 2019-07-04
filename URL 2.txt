@@ -154,6 +154,7 @@ https://www.youtube.com/watch?v=SBDI53ECgVk
 
  INDOOR NAVIGATION AR
   https://blog.mapbox.com/indoor-navigation-in-ar-with-unity-6078afe9d958
+  * https://www.youtube.com/watch?v=V3-yBc6Os8A&t=71s
 
   https://docs.unity3d.com/es/current/Manual/nav-InnerWorkings.html
   https://www.youtube.com/watch?v=V3-yBc6Os8A
@@ -165,6 +166,7 @@ https://www.youtube.com/watch?v=SBDI53ECgVk
             https://immersal.com/
 
   TUTORIAL = https://immersal.gitbook.io/sdk/tutorials/using-the-indoor-navigation-sample
+  INFO = https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4732050/
 
 ANYPLACE
     https://github.com/dmsl/anyplace
@@ -226,6 +228,7 @@ ANYPLACE
 **********************************************************************************************************************
  LOCAL BITCOIN
   sina2652
+  JOSEPIERRE1
   riclas
 
  WEB DESIGN = https://navigine.com/developers/
