@@ -257,6 +257,7 @@ ANYPLACE
   https://fontawesome.com/
 
 ***************************************************************************************
+    php artisan migrate:refresh
 
  CARRITO LARAVEL
   
@@ -286,3 +287,22 @@ Academind
 
 
 *******************************************************************************************************
+
+ LARAVEL CREAR LOGIN ADMIN Y USER
+  
+  https://www.youtube.com/watch?v=iKRLrJXNN4M
+  https://github.com/DevMarketer/multiauth_tutorial
+
+
+  CREAR ADMIN x Consola
+C:\xampp\htdocs\LaravelProyecto>php artisan tinker
+Psy Shell v0.9.9 (PHP 7.3.7 — cli) by Justin Hileman
+>>> $admin = new App\Admin
+=> App\Admin {#2971}
+>>> $admin->name ="filinto"
+=> "filinto"
+>>> $admin->email="manuel@gmail.com"
+=> "manuel@gmail.com"
+>>> $admin->password = Hash::make('12345678')
+=> "$2y$10$XYQuVbK8M/FgNGxTMgiRdOPvC.irB2NYl8htOMMV2MiLB5JhaUZRG"
+>>> $admin->save()             
