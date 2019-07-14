@@ -305,4 +305,41 @@ Psy Shell v0.9.9 (PHP 7.3.7 — cli) by Justin Hileman
 => "manuel@gmail.com"
 >>> $admin->password = Hash::make('12345678')
 => "$2y$10$XYQuVbK8M/FgNGxTMgiRdOPvC.irB2NYl8htOMMV2MiLB5JhaUZRG"
->>> $admin->save()             
+>>> $admin->save()    
+
+-------------------------------------------------------------**-***************************************
+
+
+ ESTRUCTURA DE PAGINA WEB LARAVEL
+  @extends('user/layouts/app')
+
+        @section('main-content')
+          
+            CUERPO
+
+        @endsection
+ ***********************************************************************//////////////////
+
+ PASAR UNA DATO DE BASEDEDATOS A PAGINA
+
+   public function index()
+   {
+    $about = Page::where('page', 'about-me')->get(); //id = 3
+
+    return view('about', compact('about'));
+    }
+
+     Cuando estás usando get()obtienes una colección . En este caso, debe iterar sobre él para obtener propiedades:
+
+@foreach ($collection as $object)
+    {{ $object->title }}
+@endforeach
+O simplemente puedes obtener uno de los objetos por su índice:
+
+{{ $collection[0]->title }}
+O consigue el primer objeto de la colección:
+
+{{ $collection->first() }}
+Cuando estás usando find()o first()obtienes un objeto , así puedes obtener propiedades con simples:
+
+{{ $object->title }}   

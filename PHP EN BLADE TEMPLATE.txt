@@ -1,0 +1,103 @@
+PHP EN BLADE TEMPLATE
+
+   @if($user->status =='waiting')         
+      <td><a href="#" class="viewPopLink btn btn-default1" role="button" data-id="{{ $user->travel_id }}" data-toggle="modal" data-target="#myModal">Approve/Reject<a></td>         
+   @else
+      <td>{{ $user->status }}</td>        
+   @endif
+
+
+  
+      @if( !empty ( $$post ) ) {
+
+        <div><{{ $post[0]->title }}</div>         
+           @else
+      <div> </div> 
+
+       
+           @if( !empty( $post )) 
+
+                <div><p><{{ $post[0]->title }}</p></div>         
+          @else
+                <div> </div> 
+
+           @endif
+*********************0*********************
+    Route::get('greeting', function () {
+     return view('welcome', ['name' => 'Samantha']);
+
+      });
+
+
+      Y         ou may display the contents of the name variable like so:
+
+        Hello, {{ $name }}.
+
+*****************************************************************************
+
+public function store(Request $request)
+{
+    // Define o valor default para a variável que contém o nome da imagem 
+    $nameFile = null;
+ 
+    // Verifica se informou o arquivo e se é válido
+    if ($request->hasFile('image') && $request->file('image')->isValid()) {
+         
+        // Define um aleatório para o arquivo baseado no timestamps atual
+        $name = uniqid(date('HisYmd'));
+ 
+        // Recupera a extensão do arquivo
+        $extension = $request->image->extension();
+ 
+        // Define finalmente o nome
+        $nameFile = "{$name}.{$extension}";
+ 
+        // Faz o upload:
+        $upload = $request->image->storeAs('categories', $nameFile);
+        // Se tiver funcionado o arquivo foi armazenado em storage/app/public/categories/nomedinamicoarquivo.extensao
+ 
+        // Verifica se NÃO deu certo o upload (Redireciona de volta)
+        if ( !$upload )
+            return redirect()
+                        ->back()
+                        ->with('error', 'Falha ao fazer upload')
+                        ->withInput();
+ 
+    }
+}
+ 
+ 
+ 
+
+Como exibir?
+Como criamos um link simbólico de public/storage que aponta para storage/app/public é possível exibir facilmente na view o arquivo de imagem, veja um exemplo de uma listagem dinâmica de categorias:
+
+1
+2
+3
+4
+5
+@foreach( $categories as $category )
+    {{ $category->name }}
+ 
+    <img src="{{ url("categories/{$category->image}") }}" alt="{{ $category->name }}">
+@endforeach
+
+
+********************************************************************
+ CREAR ENLACE CON STORAGE para IMAGENES
+
+ php artisan storage:link
+
+***************************************************
+ <img class="img-fluid" src= "{{ asset('storage/'.$post[0]->image) }}"  alt="">
+
+ src="{{ asset($post[0]->image) }}"
+
+<img  src="{{ asset('storage/app/' .'PlSZ83qN1HH4Sz1YKAZj2owRjNgw1BaMGbFKY5we.jpg' ) }} "  alt="">
+
+ src="{{ asset('public/storage/AnmK9oAt0qewAfGRSDFP8dI6BmiogYKmcnjWKyTe.png' ) }} "
+
+
+  FUNCIONA BIEN 
+      <img src={{url('/storage/AnmK9oAt0qewAfGRSDFP8dI6BmiogYKmcnjWKyTe.png')}} width="" height="" alt=""/>

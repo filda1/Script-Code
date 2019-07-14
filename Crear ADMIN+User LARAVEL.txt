@@ -1,0 +1,44 @@
+ https://github.com/DevMarketer/multiauth_tutorial
+
+tabla = php artisan make:migration create_professions_table
+
+php artisan make:auth
+
+  2. Admin.php (app)
+
+  3- config -> auth.php
+
+  4- Route, /admin , AdminControlller
+
+  5- crear AdminController en Controlller
+
+  6 -crear Admin.blade.php, en resoureces->view
+
+  7- Provar User
+
+
+  8- crear Controller AdminLoginController en Auth
+
+  9- crear vista, admin-login, en view-> auth
+
+  10- en web,
+  Route::get('admin/login', 'Auth\AdminLoginController@showLoginForm')->name('admin.login');
+  Route::post('admin/login', 'Auth\AdminLoginController@login')->name('admin.login.submit');
+
+
+  
+  11- CREAR ADMIN x Consola
+C:\xampp\htdocs\LaravelProyecto>php artisan tinker
+Psy Shell v0.9.9 (PHP 7.3.7 — cli) by Justin Hileman
+>>> $admin = new App\Admin
+=> App\Admin {#2971}
+>>> $admin->name ="filinto"
+=> "filinto"
+>>> $admin->email="manuel@gmail.com"
+=> "manuel@gmail.com"
+>>> $admin->password = Hash::make('12345678')
+=> "$2y$10$XYQuVbK8M/FgNGxTMgiRdOPvC.irB2NYl8htOMMV2MiLB5JhaUZRG"
+>>> $admin->save()  
+
+
+ OJO . modificar Hadler.php (Exception y confi -> auth.php, y RedirectIfAuthenticated.php (middleware)
