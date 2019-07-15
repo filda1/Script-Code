@@ -41,4 +41,4 @@ Psy Shell v0.9.9 (PHP 7.3.7 — cli) by Justin Hileman
 >>> $admin->save()  
 
 
- OJO . modificar Hadler.php (Exception y confi -> auth.php, y RedirectIfAuthenticated.php (middleware)
+ OJO . modificar Hadnler.php (Exception y confi -> auth.php, y RedirectIfAuthenticated.php (middleware)

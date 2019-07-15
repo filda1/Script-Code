@@ -1,5 +1,40 @@
 PHP EN BLADE TEMPLATE
 
+------------------------------------------------------------------------------------------------------------------
+ IMAGENES DE PUBLIC/STORAGE  
+    
+    Funciona bien, exito  ==     <img class="d-block w-100" src= "{{url('/storage/'. $posts[1]->body )}}" >
+
+    Controlador = 
+        if ($request->hasFile('image')) {
+            $imageName = $request->image->store('public');
+
+            //$path = $request->image->getClientOriginalName();
+            
+        
+
+        }else{
+            return 'No';
+        }
+
+        
+        $name_imag_md5 = $request->image->hashName(); /// OBTIENE NOMBRE ENCRIPTADO
+        
+
+        $post = new post;
+        $post->image = $imageName ;
+        $post->title =  $request->title;
+        $post->subtitle = $request->subtitle;
+        $post->slug = $request->slug;
+        $post->body = $name_imag_md5 ;
+        $post->status = $request->status;
+        $post->save();
+
+ OTRA FORMA
+
+    <img class="d-block w-100" src="" style="background-image: url(@yield('bg-img2'));  background-repeat:no-repeat;background-size:100%;" alt="Third slide" height="320">
+
+---------------------------------------------------------------------------------------------------------------------
    @if($user->status =='waiting')         
       <td><a href="#" class="viewPopLink btn btn-default1" role="button" data-id="{{ $user->travel_id }}" data-toggle="modal" data-target="#myModal">Approve/Reject<a></td>         
    @else
