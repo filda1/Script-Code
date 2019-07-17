@@ -35,6 +35,67 @@ PHP EN BLADE TEMPLATE
     <img class="d-block w-100" src="" style="background-image: url(@yield('bg-img2'));  background-repeat:no-repeat;background-size:100%;" alt="Third slide" height="320">
 
 ---------------------------------------------------------------------------------------------------------------------
+ BUSCADOR     por http://jquery-manual.blogspot.com/2015/12/18-tutorial-de-laravel-5-search-form.html
+
+    1. Poner, confi/app  -> en  'aliases' => [
+               'Input' => Illuminate\Support\Facades\Input::class,
+
+    2. poner si es necesario  en el controlador:
+       use Illuminate\Support\Facades\Input;
+
+
+   3. 
+Route::get('home/searchredirect', function(){
+     
+    /* Nuevo: si el argumento search está vacío regresar a la página anterior */
+    if (empty(Input::get('search'))) return redirect()->back();
+    
+    $search = urlencode(e(Input::get('search')));
+    $route = "home/search/$search";
+    return redirect($route);
+});
+
+Route::get("home/search/{search}", "OtroController@search");
+
+   4.   public function search($search){
+
+        $search = urldecode($search);
+
+        $ticket = post::where('id',$search)->first();
+        
+
+        return view('user.welcome', compact('ticket'));
+
+    }
+
+
+  5.
+<form class="navbar-form navbar-left" role="search" action="{{url('home/searchredirect')}}">
+ <div class="form-group">
+  <input type="text" class="form-control" name='search' placeholder="Buscar ..." />
+ </div>
+ <button type="submit" class="btn btn-default">Buscar</button>
+</form>
+
+
+ <p> {{ $ticket->id }}</p>
+
+
+ ejemplo de Cart
+
+        <div class="card" style="width: 18rem; heith: 45rem;">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+    <p class="card-text">
+    </p>
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+</div>
+   
+
+--------------------------------------------------------------------------------------------------------------------
    @if($user->status =='waiting')         
       <td><a href="#" class="viewPopLink btn btn-default1" role="button" data-id="{{ $user->travel_id }}" data-toggle="modal" data-target="#myModal">Approve/Reject<a></td>         
    @else
