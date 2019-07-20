@@ -343,3 +343,69 @@ O consigue el primer objeto de la colección:
 Cuando estás usando find()o first()obtienes un objeto , así puedes obtener propiedades con simples:
 
 {{ $object->title }}   
+
+------------------------//-/****************************************************************************
+ CURSO DE LARAVEL ======> codigo facilito.com
+https://www.youtube.com/watch?v=gm_c93sH7wQ&list=PLK0Qy1n0iBQSis3AJUBUlMUyJdlYQ7VX2&index=31
+
+---------------------------------------------------------------------------------------------------------
+
+   SUBIR SERVIDOR LARAVEL A HEROCU
+    https://www.youtube.com/watch?v=639Pe0PpVLQ
+
+*********************************************************************************************************
+   BUSCADOR LARAVEL https://github.com/avinashn/searchexamplelaravel/blob/master/resources/views/welcome.blade.php
+                    https://medium.com/justlaravel/search-functionality-in-laravel-a2527282150b
+
+{!! Form::open(['route' =>'user.directorio.index' , 'method'=> 'GET', 'class'=> 'navbar-form-pull-right']) !! }
+
+    <div class='form-group'>
+	{!! Form::text( 'name', null ['class' => 'form-control']) !! }
+	</div>
+
+{ !! Form::close() !!}
+
+*************************************************************
+
+			<div class="container" id="minhaDiv" style="display:none" >
+
+
+<div class="container">
+		<form action="/search" method="POST" role="search">
+			{{ csrf_field() }}
+			<div class="input-group">
+				<input type="text" class="form-control" name="q"
+					placeholder="Search users"> <span class="input-group-btn">
+					<button type="submit" class="btn btn-default">
+						<span class="glyphicon glyphicon-search"></span>
+					</button>
+				</span>
+			</div>
+		</form>
+		<div class="container">
+			@if(isset($details))
+			<p> The Search results for your query <b> {{ $query }} </b> are :</p>
+			<h2>Sample User details</h2>
+			<table class="table table-striped">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Email</th>
+					</tr>
+				</thead>
+				<tbody>
+					@foreach($details as $user)
+					<tr>
+						<td>{{$user->name}}</td>
+						<td>{{$user->email}}</td>
+					</tr>
+					@endforeach
+				</tbody>
+			</table>
+			@elseif(isset($message))
+			<p>{{ $message }}</p>
+			@endif
+		</div>
+  -------------------------------------------------------------------------------------------------------
+  EFECTOS IMAGEN
+ https://blog.interactius.com/12-efectos-css-en-una-imagen-con-el-evento-hover-5026b5cf1983
