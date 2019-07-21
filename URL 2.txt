@@ -15,7 +15,20 @@ FLUTER
 
  FLUTTER PROYECTOS
   https://github.com/iampawan/FlutterExampleApps
+******************************************************************************************************************
+  WEBHOST    https://www.000webhost.com/cpanel-login?from=panel  ( credenciales gooogle)
 
+ 000WEbHOST ==> https://www.youtube.com/watch?v=GQknBIMk_40
+   Prestador100
+   A!72qUDYmJy(DLoe*5Hd
+
+  base64:jWFwtBuhKxNa9qJZH3U8f9SfDMHIYXAcq/77y7BQezM=
+   'options' => extension_loaded('pdo_mysql') ? array_filter([
+                PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
+            ]) : [],
+
+
+'options' => [PDO :: ATTR_EMULATE_PREPARES => true], 
 *******************************************************************************************************************
 
 UNITY
@@ -350,6 +363,8 @@ https://www.youtube.com/watch?v=gm_c93sH7wQ&list=PLK0Qy1n0iBQSis3AJUBUlMUyJdlYQ7
 
 ---------------------------------------------------------------------------------------------------------
 
+
+
    SUBIR SERVIDOR LARAVEL A HEROCU
     https://www.youtube.com/watch?v=639Pe0PpVLQ
 
@@ -409,3 +424,7 @@ https://www.youtube.com/watch?v=gm_c93sH7wQ&list=PLK0Qy1n0iBQSis3AJUBUlMUyJdlYQ7
   -------------------------------------------------------------------------------------------------------
   EFECTOS IMAGEN
  https://blog.interactius.com/12-efectos-css-en-una-imagen-con-el-evento-hover-5026b5cf1983
+
+---------------------------------------------------------------------------------------------------------
+  ENVIOS DE E_MAIL
+  \
