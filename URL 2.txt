@@ -16,6 +16,10 @@ FLUTER
  FLUTTER PROYECTOS
   https://github.com/iampawan/FlutterExampleApps
 ******************************************************************************************************************
+
+   SUBIR LARAVEL = https://www.youtube.com/watch?v=0SwPty-61iQ 
+     DAVIA WP = https://www.youtube.com/watch?v=Pd4JzpnjIFM&t=289s
+
   WEBHOST    https://www.000webhost.com/cpanel-login?from=panel  ( credenciales gooogle)
 
  000WEbHOST ==> https://www.youtube.com/watch?v=GQknBIMk_40
