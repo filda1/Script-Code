@@ -16,6 +16,13 @@ FLUTER
  FLUTTER PROYECTOS
   https://github.com/iampawan/FlutterExampleApps
 ******************************************************************************************************************
+  HEROKU
+    filintomeireles@gmail.com
+    Portugal@1979
+
+  Publicar Laravel = https://www.youtube.com/watch?v=R8A3h3y5Z8c&t=111s
+
+   ******************************************************************************************************************
 
    SUBIR LARAVEL = https://www.youtube.com/watch?v=0SwPty-61iQ 
      DAVIA WP = https://www.youtube.com/watch?v=Pd4JzpnjIFM&t=289s
