@@ -14,7 +14,10 @@ FLUTER
   https://github.com/voidrealms/Flutter-41/tree/master/pizzademo
 
  FLUTTER PROYECTOS
-  https://github.com/iampawan/FlutterExampleApps
+  https://github.com/iampawan/FlutterExampleAppsç
+*****************************************************************************************************************
+   PG ADMIN
+     https://medium.com/@vapurrmaid/getting-started-with-heroku-postgres-and-pgadmin-run-on-part-2-90d9499ed8fb
 ******************************************************************************************************************
   HEROKU
     filintomeireles@gmail.com
