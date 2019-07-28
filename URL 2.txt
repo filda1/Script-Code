@@ -442,3 +442,19 @@ https://www.youtube.com/watch?v=gm_c93sH7wQ&list=PLK0Qy1n0iBQSis3AJUBUlMUyJdlYQ7
 ---------------------------------------------------------------------------------------------------------
   ENVIOS DE E_MAIL
   \
+
+---------------------------------------------------------------------------------------------------------
+  Laravel + amazon s3     ====================> Carga archivos e images
+
+  https://www.youtube.com/watch?v=nMDIVQsESBY     ,   Upload file to Amazon AWS S3 Bucket with Laravel #1
+
+----------------------------------------------------------------------------------------------------------
+
+  HEROKU COLABORARA
+   https://devcenter.heroku.com/articles/collab
+
+-----------------------------------------------------------------------------------------------------------
+    BUSCADOR LARAVEL +Ajax
+
+    https://www.youtube.com/watch?v=ld5HwiENA8k 
+    https://www.webslesson.info/2018/04/live-search-in-laravel-using-ajax.html

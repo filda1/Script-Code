@@ -1,0 +1,16 @@
+  Como Subir laravel a Heroku
+
+  1. Creera en heroku App
+  2. En cmd, antes tener git y heroku cli
+      git init
+
+      heroku git:remote -a project
+    
+      git add .
+      git commit -am "make it better"
+      git push heroku master
+
+---------------------------------
+  Heroku run php artisan migrate
+
+    'unix_socket' => getenv ('UNIX_SOCKET')
