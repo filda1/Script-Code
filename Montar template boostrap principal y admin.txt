@@ -1,0 +1,57 @@
+  
+
+    TEMPLATE Start Boostrapt (PAG principal)
+
+    1- public ========================> colocar:
+
+       1.1 crear carpeta user, colocar:
+         img
+         css
+         vendor
+         fonts
+         scss
+         js
+
+
+       1.2 Colocar en vista principal, ===============>  user/**************** (direccion: user alante , a veces es necesario asset)
+
+
+
+
+
+    TEMPLATE ADMIN
+
+       1- public ========================> colocar:
+ 
+          1.1 crear carpeta admin, colocar:
+
+           Boostrapt
+           dist
+           plugins
+           
+           bower_components
+           ckeditor
+
+
+      1.2 Colocar en vista principal, ===============>  admin/**************** 
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+          ESTRUCTURA LARAVEL
+
+
+        * La view carga con todo, llama ==========> app.blade.php, y app  ==================> a los otros footer, side bar head, header
+
+        * OJO : para indroducir contenido en la app,se tiene @section : ejemplo 
+
+                    Vista principal  llama =================> @section('main-content') que esta en header.blade.php
+
+                    <header class="main-header"> ===========> header.blade.php
+       
