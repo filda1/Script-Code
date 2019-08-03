@@ -1,0 +1,23 @@
+ CERTIFICADO SSL
+
+   crear ========>   https://www.youtube.com/watch?v=JzhiVSmO4Uk
+    certificado ssl en wordpres ====>  https://www.youtube.com/watch?v=9rlJp8OXyKE
+ 
+   ***Actualizar y instalar ssl ======> https://www.youtube.com/watch?v=Yt81ldeRuwo
+
+
+  https://www.sslforfree.com/
+
+
+      DOS METODOS EN CPANEL
+
+      1. Automatico (FREE):   SSTL/ TLS  status  ===>  RUN AUTOSSL
+ 
+      2. Manual :  SSL/ TLS ====>  Manage ssl  
+
+                                        ====> Certificado CRT (comparado o gratis. Gratis se puede hacer www.sslforfree.com/)
+   
+                                        ====> Certificate Signing Requests (CSR) (Pedido de certificado) (esta SSL/TLS)
+
+
+     NOTA: www.sslforfree.com/ (gratis)  =========> hace todo solo es introduzir en Manage ssl. ver ***

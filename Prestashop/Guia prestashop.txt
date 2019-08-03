@@ -1,0 +1,34 @@
+  Manual Prestashop
+
+   https://covalenciawebs.com/configurar-menu-prestashop/
+    tutorial = http://doc.prestashop.com/pages/viewpage.action?pageId=26148902
+
+    * Modulos y servicios
+        
+          Fronend office furniture
+             
+              Module top menu    =============================> Menu
+         
+              Module  image slaide homepage    ===============> Slaides
+
+
+          THEMES.....(Tema grafico) ==================================> oCULTA COSAS DE LA PARTE DE FRENTE
+
+    
+    * category  =================> editas
+
+
+    * CREAR CATEGORIA (CREAS UNA DENTRO DE OTRA)
+      * Luego, Pasas a menu (en Module services/ menu horizontal lateral)
+      * luego agregas un producto a la categoria ( en Asociar a categoria)
+
+
+ wp core update
+
+
+
+
+ https://www.amen.pt/help/como-configurar-certificado-ssl-em-cpanel/
+
+  	
+An error occurred the last time AutoSSL ran
