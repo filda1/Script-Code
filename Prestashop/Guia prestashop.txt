@@ -32,3 +32,59 @@
 
   	
 An error occurred the last time AutoSSL ran
+
+-------------------------------------------------------------------------------------------------------------------
+  TAMNOS DE IMAGENES PRESTASHOP
+     https://www.prestashop.com/es/blog/tamanos-y-formatos-de-imagenes-para-la-plantilla-predeterminada-de-prestashop
+----------------------------------------------------------------------------------------
+
+  CAMBIAR PINGUINO  ==============================================> https://victor-rodenas.com/eliminar-logo-del-panel-de-administracion-en-prestashop-1-7/
+                                                                    https://www.youtube.com/watch?v=LIp0KX9q02s
+
+
+    Además, te comento lo siguiente a modo adicional:
+
+URL imagen logo BackOffice:
+
+/admin_carpeta/themes/default/img/prestashop-avatar-header_shopname.png
+/admin_carpeta/themes/new-theme/public/8a486134dd38f7185b6dda1e09ad091e.png
+
+CSS: 
+
+File: /admin_carpeta/themes/default/css/admin-theme.css
+
+ 
+
+#header_logo {
+    font-size: 1.3em !important;
+    position: relative;
+    height: 36px;
+    background: url(../img/prestashop-avatar-header_shopname.png) no-repeat top left;
+    background-size: auto 36px;
+    padding-left: 205px !important;
+    margin: 0 5px 0 0;
+}
+
+File: /administracion/themes/new-theme/public/theme.css
+
+ 
+
+.main-header>.logo {
+    display: inline-block;
+    background: url(8a486134dd38f7185b6dda1e09ad091e.png) no-repeat 50%;
+    height: 100%;
+    width: 210.08px;
+    width: 13.13rem;
+}
+
+ 
+
+------------
+
+Url Imagen logo Pinguino acceso:
+
+/img/preston-login@2x.png
+
+---
+
+Revisa tanto lo del enlace como lo que te comento aquí y haz lo que veas mas convenient
