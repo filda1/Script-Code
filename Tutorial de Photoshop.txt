@@ -1,5 +1,20 @@
 TUTORIAL PHOTOSHOP
 
+**************************************************************************************************
+
+  MODIFICAR UNA IMAGEN
+   * Selecion CUADRADO punteado y envolver la imagen
+   *  Despues el Nueva pagi , con nuevas medidas y Pegar
+   * Seleccionar transformacion libre( crl +t) para escalar
+
+  CAMBIAR COLOR DE TITULO =======> Con la varita magica
+
+  QUITAR MARCA DE AGUA
+    Con el LAZO , vas clicando hasta envolver y luego Boton derecho RELLENAR , y despues segun contenido
+
+
+
+**************************************************************************************************
   *  Mesa de Trabajo    =============================> para hacer con muchas hojas
 
   * Archivo 

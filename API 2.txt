@@ -44,3 +44,8 @@ API 2
 
  CRIPTO
    https://www.programmableweb.com/api/paradigm
+
+  PERSONALIDAD MEDIANTE TEXTO
+
+  https://www.programmableweb.com/api/crystal
+  https://www.crystalknows.com/developers/text-analysis

@@ -465,3 +465,49 @@ https://www.youtube.com/watch?v=gm_c93sH7wQ&list=PLK0Qy1n0iBQSis3AJUBUlMUyJdlYQ7
 
    SUBIR PRESTASHOP A SERVIDOR ONLINE
    https://www.youtube.com/watch?v=QQpOcVvSukk
+
+*************************************************************************************************************
+  VUE JS ESPANOL
+ https://es-vuejs.github.io/vuejs.org/v2/guide/computed.html
+
+  VUEX 
+  https://vuex.vuejs.org/
+
+  CLI VUE  (CONFIGURACION)
+  https://cli.vuejs.org/
+
+  BOOSTRAPT CON VUE
+  https://bootstrap-vue.js.org/
+
+  VUETIFY
+  https://vuetifyjs.com/es-MX/
+
+  VUE-AXIO (AXIOS)  ================================> Json/http
+
+
+  MATERIAL DESIGN 
+   https://material.io/
+
+
+  tutorial = https://www.bluuweb.org/
+**************------------------------------------------------------------------------------------------------------------------
+  LARAVEL +VUE 
+
+    BLUUWEB ======  https://bluuweb.github.io/tutorial-laravel/vue/#intalaciones
+                    https://www.youtube.com/watch?v=QW4dMbFxv3c&list=PLPl81lqbj-4J-gfAERGDCdOQtVgRhSvIT&index=41
+
+    https://www.youtube.com/watch?v=v4F4EDy5ErQ
+-------------------------------------------------------------------------------------------------------------------------********
+
+ PLANTILLA DE BOOSTRAPT DENTRO VUE.JS
+   https://www.youtube.com/watch?v=sMkIC1Ovfa8
+
+-----------------------------------------------------------------------------------------------------------------------------------------**
+  TEMPLATES VUE.JS
+   https://vuetifyjs.com/en/themes/premium
+   https://madewithvuejs.com/inkline  TECNO
+   https://madewithvuejs.com/vuesion
+---------------------------------------------------------------------------------------------------------------------------------------------***
+
+  INSTALAR VUETIFY + VUE + LARAVEL
+   https://www.youtube.com/watch?v=Ble43gHJhHM
