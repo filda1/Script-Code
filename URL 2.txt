@@ -294,8 +294,9 @@ Academind
 
  ----------------------------------------------------------------------------------------
 
- BLOCK LARAVEL + ADMIN
-  https://www.youtube.com/watch?v=FYsjMSjwNL4&list=PLe30vg_FG4OTELVqQgHaMaq2oELjpSWy_&index=10
+ BLOC LARAVEL + ADMIN
+
+  BITFUMES ===== https://www.youtube.com/watch?v=FYsjMSjwNL4&list=PLe30vg_FG4OTELVqQgHaMaq2oELjpSWy_&index=10
   https://github.com/bitfumes/Create-Blog-with-Admin-Panel
 
 **************************************************************************************************
@@ -507,7 +508,20 @@ https://www.youtube.com/watch?v=gm_c93sH7wQ&list=PLK0Qy1n0iBQSis3AJUBUlMUyJdlYQ7
    https://vuetifyjs.com/en/themes/premium
    https://madewithvuejs.com/inkline  TECNO
    https://madewithvuejs.com/vuesion
+   https://madewithvuejs.com/kawanime ANIME
+   https://madewithvuejs.com/photoprism FOTOS
+    https://madewithvuejs.com/laravel-tenancy  PAGA TECNO
+   https://madewithvuejs.com/twill  TECNO
 ---------------------------------------------------------------------------------------------------------------------------------------------***
 
   INSTALAR VUETIFY + VUE + LARAVEL
    https://www.youtube.com/watch?v=Ble43gHJhHM
+***************************************************************************************************************************
+   TUTORIAL DE CPANEL
+    https://www.youtube.com/watch?v=xRZpm4OXusY
+---------------------------------------------------------------------------------------------------------------------------
+   CPANEL
+    https://www.inmotionhosting.com/support/edu/cpanel-edu/create-custom-error-pages
+
+   CHAT 
+    https://www.hostwinds.com/guide/404-error-page-not-found/
