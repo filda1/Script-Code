@@ -525,3 +525,17 @@ https://www.youtube.com/watch?v=gm_c93sH7wQ&list=PLK0Qy1n0iBQSis3AJUBUlMUyJdlYQ7
 
    CHAT 
     https://www.hostwinds.com/guide/404-error-page-not-found/
+----------------------------------------------------------------------------------------------------------------------------
+ MOVER DIV
+  Draggable DIV Element
+   https://www.w3schools.com/howto/howto_js_draggable.asp
+
+---------------------------------------------------------------------------------------------------------------------------
+ COMAPARADOR DE CODIGO
+   https://winmerge.org/?lang=es
+---------------------------------------------------------------------------------------------------------------------
+  CERTBOT PARA SSL
+
+  https://www.youtube.com/watch?v=XD0JAx4G_7k
+  https://medium.com/@alonsus91/que-es-lets-encrypt-y-como-configurarlo-dae155f62a57
+  https://certbot.eff.org/

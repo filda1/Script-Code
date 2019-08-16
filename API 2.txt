@@ -49,3 +49,7 @@ API 2
 
   https://www.programmableweb.com/api/crystal
   https://www.crystalknows.com/developers/text-analysis
+
+
+  VOZ
+   https://www.programmableweb.com/api/melrose-labs-voice-gateway
