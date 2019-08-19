@@ -468,8 +468,11 @@ https://www.youtube.com/watch?v=gm_c93sH7wQ&list=PLK0Qy1n0iBQSis3AJUBUlMUyJdlYQ7
    https://www.youtube.com/watch?v=QQpOcVvSukk
 
 *************************************************************************************************************
+  VUE
+  https://vuejs.org/v2/guide/installation.html#NPM
+
   VUE JS ESPANOL
- https://es-vuejs.github.io/vuejs.org/v2/guide/computed.html
+   https://es-vuejs.github.io/vuejs.org/v2/guide/computed.html
 
   VUEX 
   https://vuex.vuejs.org/
@@ -558,3 +561,25 @@ https://www.youtube.com/watch?v=gm_c93sH7wQ&list=PLK0Qy1n0iBQSis3AJUBUlMUyJdlYQ7
 
   FREE CODE CAMP    =========> COMUNIDAD DE CODIGO ABIERTO
    https://www.freecodecamp.org/news/
+*****************************************************************************************************************
+
+ LENGUAJES DE PROGRAMACION
+   https://www.xataka.com/aplicaciones/en-lenguajes-programacion-los-que-mas-gustan-no-son-los-mas-populares-ni-los-que-dan-mas-dinero
+------------------------------------------------------------------------------------------------------------------
+  MUÑECOS
+   Un Cubeecraft  ====> MINICRAFT
+   http://www.cubeecraft.com/blog/
+   https://www.deviantart.com/cubeecraft/art/Nes-Controller-Minibosses-Ver-133957478?comment=1%3A133957478%3A3139725433
+   
+
+---------------------------------------------------------------------------------------------------------------------
+
+   MULTIBANCO PT
+    esaypay
+    eupago
+    https://jumpseller.pt/payment-gateways/
+
+-----------------------------------------------------------------------------------------------------------------------
+
+  BITFUMMES -  LARAVEL + VUE.JS + BULMA
+   https://www.youtube.com/watch?v=z1ZvmV0E2Ns&list=PLe30vg_FG4OSl8zlikYc_RLkfueqAMUb_&index=2
