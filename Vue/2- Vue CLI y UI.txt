@@ -35,18 +35,10 @@ https://cli.vuejs.org/
 
    EJEMPLO DE LISTA DE FRUTAS, Click en cantida y oredena por cantidad
 
- 
-
 
 Lista.vue
  
-  template: 
-    `
-     <div>
-       <Button @click=" aumentar ">+</Button>
-       <Button @click=" disminuir(2) ">-</Button>
-       <Button @click=" ObtenerCursos ">Ver Cursos</Button>
-
+  <template>
         <ul v-if="frutas != []">
 
            <li v-for="(item,index) in arrayOrdena :Key="item.id" @click="aumentar(index)">
@@ -57,6 +49,7 @@ Lista.vue
         </ul>
          <button @click="reiniciar"> Reiniciar </button>
      </div>
+  </template>
 
      import {mapState,mapMutations} from 'vuex';
 
