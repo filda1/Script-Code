@@ -103,10 +103,27 @@ Store
                }
   })
 
+-------------------------------------------------------------------------------------------------------------
+     ROUTES Y VIEWS (Como en Laravel)
 
+
+     App.js (Nav ) ======> llama ROUTE =====> VIEW
+
+
+    ** Pasar un id por Route ( Route ===> va Componente ====> VIEW llama componente )
+
+      En Route :     path : "/Foto/: id".......
+
+      Creamos Componente X:  <Template>     <h1> {{  $route.params.id}}</h1>  =========> recibe el id
 
   
-     
+      En VIEW:  <Template>  <Foto/>.....
+
+                import foto from "@/components/Componente X.vue";  ==========> llamo al componente
+
+               
+             export defat...
+              name: Foto
 
 
 
