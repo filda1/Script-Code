@@ -583,3 +583,7 @@ https://www.youtube.com/watch?v=gm_c93sH7wQ&list=PLK0Qy1n0iBQSis3AJUBUlMUyJdlYQ7
 
   BITFUMMES -  LARAVEL + VUE.JS + BULMA
    https://www.youtube.com/watch?v=z1ZvmV0E2Ns&list=PLe30vg_FG4OSl8zlikYc_RLkfueqAMUb_&index=2
+
+-----------------------------------------------------------------------------------------------------------------------
+   TIMELINE BOOSTRAPT
+    http://www.bestjquery.com/lab/timeline/
