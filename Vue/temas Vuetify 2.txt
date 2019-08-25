@@ -1,0 +1,55 @@
+
+ Themes vuetify
+
+ https://madewithvuejs.com/vuefront             =========>  Vue tipico
+
+ https://madewithvuejs.com/aura                =====================> Google simple
+
+ https://madewithvuejs.com/twill               ========================> Cambia de color al bajar con scroll (Hecho con laravel)
+
+
+ https://madewithvuejs.com/cion-design-system-boilerplate       =========>  Material
+
+ ***https://madewithvuejs.com/guardians-of-dreams               ==========> tipo Periodico
+ *** https://madewithvuejs.com/elescore                         ==========> apartamentos
+
+ https://madewithvuejs.com/aether                               ==========>   Gris/negro tema oscuro 
+
+ https://madewithvuejs.com/ag-grid                              ==========> Electricidad
+
+ https://madewithvuejs.com/vue-perfect-scrollbar                ==========>  Verde
+
+ https://madewithvuejs.com/maeve                                ==========>  Music tipo apple
+
+ https://madewithvuejs.com/vue-burger-menu-off-canvas           ==========>  Tipo menu
+
+ https://madewithvuejs.com/periodicity                          ==========>  Tabla periodica         
+
+
+  https://madewithvuejs.com/laravue                             =============> ADMIN en Laravel
+
+  https://madewithvuejs.com/awesio                              =============> Tecno en Laravel
+
+  https://madewithvuejs.com/cosmicjs                            =============> Store , Libros
+
+  https://madewithvuejs.com/vue-page-transition                 =============> Vue simple , cambio de arriba y abajo ,varias posiciones
+
+  https://madewithvuejs.com/inkline                             ==============> Framework
+
+  https://madewithvuejs.com/vuesion                             ==============> Menu,animado, tipo electricidad, web y pda
+
+  ***https://madewithvuejs.com/functional-vuetify-admin-dashboard     ========> Admin 
+
+  https://madewithvuejs.com/repo-remover                        ==============> tipo solidaridad
+
+  https://madewithvuejs.com/vueplotly                           ==============> Grafica
+
+  https://vue-demo.daniel-avellaneda.com/login                  ==============> Negro/Marron
+
+  https://madewithvuejs.com/harry-potter-movies-quiz            ==============> Game Harry potter Quiz
+
+  https://madewithvuejs.com/wip-menubar-app                     ==============> Music toda negra y roja
+
+  https://www.asciiur.com/?ref=madewithvuejs.com                ==============> Memes
+
+  https://madewithvuejs.com/happyplants                         ==============> Entrada

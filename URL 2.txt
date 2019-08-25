@@ -487,10 +487,12 @@ https://www.youtube.com/watch?v=gm_c93sH7wQ&list=PLK0Qy1n0iBQSis3AJUBUlMUyJdlYQ7
   https://vuetifyjs.com/es-MX/
 
   VUE-AXIO (AXIOS)  ================================> Json/http
+    https://www.npmjs.com/package/axios
 
 
   MATERIAL DESIGN 
    https://material.io/
+
 
 
   tutorial = https://www.bluuweb.org/
@@ -515,6 +517,11 @@ https://www.youtube.com/watch?v=gm_c93sH7wQ&list=PLK0Qy1n0iBQSis3AJUBUlMUyJdlYQ7
    https://madewithvuejs.com/photoprism FOTOS
     https://madewithvuejs.com/laravel-tenancy  PAGA TECNO
    https://madewithvuejs.com/twill  TECNO
+------------------------------------------------------------------------------------------------------------------------------------------***
+
+  RECURSOS VUE.js
+   https://awesome-vue.js.org/resources/examples.html
+  
 ---------------------------------------------------------------------------------------------------------------------------------------------***
 
   INSTALAR VUETIFY + VUE + LARAVEL
@@ -587,3 +594,7 @@ https://www.youtube.com/watch?v=gm_c93sH7wQ&list=PLK0Qy1n0iBQSis3AJUBUlMUyJdlYQ7
 -----------------------------------------------------------------------------------------------------------------------
    TIMELINE BOOSTRAPT
     http://www.bestjquery.com/lab/timeline/
+-----------------------------------------------------------------------------------------------------------------------
+
+   TUTORIAL OPECART
+  http://docs.opencart.com/en-gb/administration/

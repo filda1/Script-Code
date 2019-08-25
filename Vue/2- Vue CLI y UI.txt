@@ -3,7 +3,7 @@
 
 https://cli.vuejs.org/
     
- INSTALACION
+ INSTALACION VUE CLI
 
   1- Instalar NODE Ltc
   2 - En consola, en tu proyecto:  npm install -g @vue/cli
@@ -20,6 +20,32 @@ https://cli.vuejs.org/
 
 
       - Ver Proyecto, Tareas ====> Serve ====> Ejecutar Tarea =======> espera circulo verde carge, clik
+
+
+
+  INSTALAR VUE + BOOSTRAPT
+
+    *Antes tener un proyecto Vue
+
+    Seguir pasos:     https://bootstrap-vue.js.org/docs
+
+
+  INSTALAR VUE + VUETIFY
+
+     Por Vue UI , o cli se puede instalar complementos,  O CDN
+
+     Pasos a seguir: https://vuetifyjs.com/es-MX/getting-started/quick-start
+
+  INSTALAR AXIOS
+    https://www.npmjs.com/package/axios
+
+   poner en VUE:
+                en main.js:
+
+                      import axios from 'axios'
+                      import VueAxios from 'vue-axios'
+               
+                      Vue.use(VueAxios,axios)
 
 ----------------------------------------------------------------------------------------------------------
   ESTRUCTURA HECHA
@@ -48,6 +74,7 @@ Lista.vue
 
         </ul>
          <button @click="reiniciar"> Reiniciar </button>
+        
      </div>
   </template>
 
@@ -107,14 +134,33 @@ Store
      ROUTES Y VIEWS (Como en Laravel)
 
 
-     App.js (Nav ) ======> llama ROUTE =====> VIEW
+     App.vue (Nav ) ======> llama ROUTE =====> VIEW
 
 
     ** Pasar un id por Route ( Route ===> va Componente ====> VIEW llama componente )
 
       En Route :     path : "/Foto/: id".......
 
-      Creamos Componente X:  <Template>     <h1> {{  $route.params.id}}</h1>  =========> recibe el id
+      Creamos Componente X: 
+              
+                    <Template>   
+                              <route-link to="1">    ===========> Ejemplo: este 1 es asignado a vista actual, si estamos en Fotos, queda Fotos/1
+                                <h1> {{  $route.params.id}}</h1>  =========> recibe el id de Url
+                              </route-link>
+
+
+                                 ************* LINK DENTRO COMO POR CLICK*************
+                                <route-link :to="name: fotos , params {id: item }"   ===========> Ejemplo: fotos/1 , o fotos/2, o fotos/3
+                                 v-for="(item,index) in fotoArregglo :Key="item.id">
+                                <Button> fotos {{item}}</Button>  =========> 
+                              </route-link>
+
+
+
+                             <button @click="Home"> Home </button>
+                             <button @click="Anterior"> Anterior </button>
+                             <button @click="Siguiente"> Siguiente </button>
+
 
   
       En VIEW:  <Template>  <Foto/>.....
@@ -125,11 +171,86 @@ Store
              export defat...
               name: Foto
 
+             data() {   
+                       return {
+                     fotosArreglo: [1,2,3]
+                      }
+                    }
+                 
 
 
+                     
+         methods:    {     
+                      home(){
+                         this.$route.push('/')
+                        }
+                   
+                        anterior(){
+                         this.$route.go(-1)
+                        }
+                   
+
+                        siguiente(){
+                         this.$route.go(1)
+                        }
+                   
+
+                    }
 
 
+----------------------------------------------------------------------------------------------------------
 
+   AXIOS EN VIEW
+
+         * Configurar antes axios
+
+                en main.js:
+
+                      import axios from 'axios'
+                      import VueAxios from 'vue-axios'
+               
+                      Vue.use(VueAxios,axios)
+
+
+            EN VIEW ; ENCIMA export
+                       import {axios} from "axios"
+
+
+   data (){
+
+         retrun{
+                  valor = null    ====================================> esta variable es carga desde abajo abajo, ahora la podemos utlizar en template arriba
+             }
+     }
+
+    methods:{
+               ...MapMutations(['MostrarLoadindg', 'OcultatrLoading'])  =================> conecto con VUEX, para activar
+                async getDolar(dia){
+
+                               let arrayFecha = dia.split(['-'])
+                               let ddmmyy =  arrayFecha[2]+arrayFecha[1]+arrayFecha[0]
+
+                    try {
+                               this.MostrarLoading ({titulo: 'kklkklk' , color: 'ghghh'}) ===================> Paso valores a VUEX
+                               let datos= await axios.get (`http..../${ddmmyy}`)
+                               console.log(datos);
+                               this.valor= dat.serie
+                        }
+                    catch (error){ 
+                                 }
+                    finally{ 
+                             this.OcultarLoading ========================================> llamo a los valores VUEX
+                                 }
+                      
+                            
+             }
+
+               created (){
+                               this.getDolar('1-10-2010')
+                            }
+
+            }
+           c
 
 
 
