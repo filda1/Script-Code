@@ -591,6 +591,12 @@ https://www.youtube.com/watch?v=gm_c93sH7wQ&list=PLK0Qy1n0iBQSis3AJUBUlMUyJdlYQ7
   BITFUMMES -  LARAVEL + VUE.JS + BULMA
    https://www.youtube.com/watch?v=z1ZvmV0E2Ns&list=PLe30vg_FG4OSl8zlikYc_RLkfueqAMUb_&index=2
 
+   LARAVEL + VUE
+    Bluuweb ! = https://www.youtube.com/watch?v=QW4dMbFxv3c&t=2151s
+    https://laravel.com/docs/5.7/frontend#writing-javascript
+    Raul Palacios === https://www.youtube.com/watch?v=sAms4asfbHw&list=PLIddmSRJEJ0sxS-RmqdRMlkyWOQWvEGEt&index=40
+      
+
 -----------------------------------------------------------------------------------------------------------------------
    TIMELINE BOOSTRAPT
     http://www.bestjquery.com/lab/timeline/
