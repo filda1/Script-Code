@@ -504,7 +504,11 @@ https://www.youtube.com/watch?v=gm_c93sH7wQ&list=PLK0Qy1n0iBQSis3AJUBUlMUyJdlYQ7
 
     https://www.youtube.com/watch?v=v4F4EDy5ErQ
 -------------------------------------------------------------------------------------------------------------------------********
+   LARAVEL + VUE + VUETIFY + VUEROUTER
 
+    https://medium.com/@weehong/laravel-5-7-vue-vue-router-spa-5e07fd591981
+
+------------------------------------------------------------------------------------------------------------------------***
  PLANTILLA DE BOOSTRAPT DENTRO VUE.JS
    https://www.youtube.com/watch?v=sMkIC1Ovfa8
 
@@ -595,7 +599,10 @@ https://www.youtube.com/watch?v=gm_c93sH7wQ&list=PLK0Qy1n0iBQSis3AJUBUlMUyJdlYQ7
     Bluuweb ! = https://www.youtube.com/watch?v=QW4dMbFxv3c&t=2151s
     https://laravel.com/docs/5.7/frontend#writing-javascript
     Raul Palacios === https://www.youtube.com/watch?v=sAms4asfbHw&list=PLIddmSRJEJ0sxS-RmqdRMlkyWOQWvEGEt&index=40
-      
+-----------------------------------------------------------------------------------------------------------------------
+  VUEX + VUE + LARAVEL
+   We Code  = https://www.youtube.com/watch?v=Jd1RW-0lQOs&list=PLCvWt-LWhKqZlAY2QvyKR4PFsGnNnm2eN
+   https://www.youtube.com/watch?v=CiXCubwd5cM     
 
 -----------------------------------------------------------------------------------------------------------------------
    TIMELINE BOOSTRAPT
@@ -604,3 +611,7 @@ https://www.youtube.com/watch?v=gm_c93sH7wQ&list=PLK0Qy1n0iBQSis3AJUBUlMUyJdlYQ7
 
    TUTORIAL OPECART
   http://docs.opencart.com/en-gb/administration/
+
+---------------------------------------------------------------------------------------
+  W3SCHOOLS
+  https://www.w3schools.com/howto/howto_js_popup.asp

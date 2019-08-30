@@ -1,0 +1,11 @@
+  
+   INSTALAR VUETIFY + VUE + VUE-ROUTER (SPA) + AXIOS + LARAVEL
+
+   https://medium.com/@weehong/laravel-5-7-vue-vue-router-spa-5e07fd591981
+   https://codersdiaries.com/laravel-vuetify/
+  
+   1- Instalar NODE
+   2 - CREAR LARAVEL;     composer create-project --prefer-dist laravel/laravel NombreProyecto
+   3 - Instalar dentro del proyecto de Laravel,    npm install vue vue-router vuetify  ========>> (Esta node_modules)
+   4 - Instalar,     php artisan make:auth
+   5 - Instalar, dentro del proyecto,     npm install axios
