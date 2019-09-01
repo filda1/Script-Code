@@ -1,11 +1,189 @@
   
    INSTALAR VUETIFY + VUE + VUE-ROUTER (SPA) + AXIOS + LARAVEL
 
+ https://qiita.com/nobu-maple/items/43c1228b8f04837d753b
+  https://medium.com/carbono/create-a-single-page-application-12133951b49f
+
    https://medium.com/@weehong/laravel-5-7-vue-vue-router-spa-5e07fd591981
+https://threenine.co.uk/how-to-add-vuetify-to-laravel-project/
    https://codersdiaries.com/laravel-vuetify/
   
    1- Instalar NODE
    2 - CREAR LARAVEL;     composer create-project --prefer-dist laravel/laravel NombreProyecto
+   2.1 - npm i (Dependencias)
    3 - Instalar dentro del proyecto de Laravel,    npm install vue vue-router vuetify  ========>> (Esta node_modules)
    4 - Instalar,     php artisan make:auth
    5 - Instalar, dentro del proyecto,     npm install axios
+    
+   6- en welcome.blake.php:
+
+   7- EN WEb.php, remplazar la ruta principal Welcome, por:
+                  Route::get('/{any}', 'SinglePageController@index')->where('any', '.*');
+
+   8- php artisan make:controller SinglePageController
+        public function index() {
+        return view('welcome');
+    }
+
+
+   9- Resource/js/app.js:
+                          import Vue from 'vue'
+                          import Vuetify from 'vuetify'
+
+                          import Routes from '@/js/routes.js';
+                          import App from '@/js/views/App';
+
+                          Vue.use(Vuetify);
+
+                          const app = new Vue({
+                              el: '#app',
+                              router:Routes,
+                              render: h=>h(App),
+                           });
+
+                           export default app;
+
+
+  10 - Crear en Resource/js.....Carpetas:   layouts, pages, views y stores
+  11 - Crear App.vue  , en resources/js/views/
+
+
+                  <template>
+                    <v-app>
+                     <v-navigation-drawer app></v-navigation-drawer>
+                       <v-toolbar></v-toolbar>
+                        <v-content>
+                         <v-container fluid>
+                    
+                            <router-link to="/">Home</router-link> |
+                            <router-link to="/cats">Cats</router-link> |
+                            <router-link to="/dogs">Dogs</router-link> |
+                     
+                                <router-view/>
+                
+                            </v-container>
+                           </v-content>
+
+                             <v-footer app> </v-footer>
+                         </v-app>
+                    </template>
+                     
+                     <script>
+
+                       export default {};
+
+                     </script>
+               
+
+   11 - routes.js, en resources/js/
+               
+                import Vue from 'vue';
+               import Router from 'vue-router';
+                import HelloWorld from '@/components/HelloWorld'
+                import Account from '@/components/Account'
+                 import Contact from '@/components/Contact'
+                    import Friends from '@/components/Friends'
+
+                 Vue.use(VueRouter);
+
+                   const router = new VueRouter({
+                        mode:history,
+                        routes: [
+                          {
+                                path: '/',
+                               name: 'Hello',
+                                component: HelloWorld
+                             },
+                            {
+                               path: '/friends/:id/:age/:weight',
+                               name: 'Friends',
+                                 props: true,
+                              component: Friends
+                              },
+                                {
+                                  path: '/contact',
+                                 name: 'Contact',
+                                component: Contact
+                                 },
+                                {
+                                  path: '/account',
+                                  name: 'Account',
+                                component: Account
+                                }
+                              ]
+                           });
+
+                            
+                       export default router;
+
+   12 - Ir a webpack.mix.js:
+
+          
+         mix.webpackConfig({
+
+             resolve: {
+                  extensions: ['.js', '.vue'],
+                   alias: {
+
+                '@': __dirname + '/resources'
+
+                }
+           }
+      });
+
+    13 - npm run watch     (Mantenerlo abierto CMD aparte para Javascript)
+    
+    *** Welcome.blade.php   (VUETIFY POR CDN)
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/@mdi/font@3.x/css/materialdesignicons.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+</head>
+<body>
+  <div id="app">
+  <v-app>
+    <div>        
+    <v-toolbar>
+      <v-toolbar-title>Title</v-toolbar-title>
+      <div class="flex-grow-1"></div>
+      <v-toolbar-items>
+        <v-btn flat to="" exact>shop</v-btn>
+        <v-btn text>Link 3</v-btn>
+     
+      </v-toolbar-items>
+
+      <template v-if="$vuetify.breakpoint.smAndUp">
+        <v-btn icon>
+          <v-icon>mdi-export-variant</v-icon>
+        </v-btn>
+        <v-btn icon>
+          <v-icon>mdi-delete-circle</v-icon>
+        </v-btn>
+        <v-btn icon>
+          <v-icon>mdi-plus-circle</v-icon>
+        </v-btn>
+      </template>
+    </v-toolbar>
+  </div>
+      <v-content>
+        <v-container><example-component></example-component></v-container>
+      </v-content>
+    </v-app>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+  <script>
+    new Vue({
+      el: '#app',
+      vuetify: new Vuetify(),
+    })
+  </script>
+</body>
+</html>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
