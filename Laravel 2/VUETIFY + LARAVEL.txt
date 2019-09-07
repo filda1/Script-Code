@@ -1,0 +1,76 @@
+ VUETIFY + LARAVEL
+
+     VUETIFY CLI + LARAVEL
+
+    1- cd ..../proyecto >    npm i vuetify --save
+
+    2 - Colocar =====>en    app.js  (resorces/js)
+
+          import Vuetify from 'vuetify'
+          Vue.use(Vuetify)
+
+          const app = new Vue({
+          el: '#app',
+          vuetify: new Vuetify(),   ==============================> Y esto
+          });
+
+    3- Colocar en ============> app.scss ( resoruces/scss)
+
+        @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+        @import url('https://cdn.jsdelivr.net/npm/@mdi/font@3.x/css/materialdesignicons.min.css');
+
+        @import '~vuetify/dist/vuetify.min.css';
+
+
+    4- En app.blade.php:
+
+        <div id="app">
+  
+     <v-app>
+      <div>        
+      <v-toolbar class="green">       ==============================================> Colors SASS (https://vuetifyjs.com/en/styles/colors#sass-color-pack)
+      <v-toolbar-title>VUELAR</v-toolbar-title>
+      <div class="flex-grow-1"></div>
+      <v-toolbar-items>
+        <v-btn flat to="" exact>shop</v-btn>
+        <v-btn text>Link 3</v-btn>
+     
+      </v-toolbar-items>
+      <template v-if="$vuetify.breakpoint.smAndUp">
+        <v-btn icon>
+          <v-icon>mdi-export-variant</v-icon>
+        </v-btn>
+        <v-btn icon>
+          <v-icon>mdi-delete-circle</v-icon>
+        </v-btn>
+        <v-btn icon>
+          <v-icon>mdi-plus-circle</v-icon>
+        </v-btn>
+      </template>
+    </v-toolbar>
+    </div>
+       
+        @section('content')
+            @show
+    </v-app>
+  </div>
+-------------------------------------------------------------------------------------------
+  4.1-  welcome.blade.php :
+    
+   @extends('layouts.app')
+
+      @section('content')
+
+          <v-content>
+
+             <v-container>
+             <example-component>
+                </example-component>
+             </v-container> 
+
+            </v-content>
+
+      @endsection
+
+
+    5- RUN ====> npm run watch,   de un lado y de otro    php artisan serve

@@ -53,3 +53,17 @@ API 2
 
   VOZ
    https://www.programmableweb.com/api/melrose-labs-voice-gateway
+
+  TOM TOM
+  https://www.programmableweb.com/api/tomtom-extended-routing
+
+
+  TELEMEDICINA
+  https://www.programmableweb.com/api/mytelemedicine
+
+  PENSIONES 
+  https://www.programmableweb.com/api/smartpension
+
+
+ ADMINISTRAR BD
+  https://www.programmableweb.com/api/aito

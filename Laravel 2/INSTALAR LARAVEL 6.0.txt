@@ -1,0 +1,43 @@
+ LARAVEL 6.0
+
+
+  INSTALAR LARAVEL 6.0
+
+  * Tener instalado Composer y Node.js
+  * CONTROL+ C ========> Pausar el servidor em CMD
+
+
+  1-    cd C:\xampp\htdocs >  composer create-project --prefer-dist laravel/laravel NombreProyecto
+
+  2-    C:\xampp\htdocs\Proyecto>   composer require laravel/ui
+
+  3-    C:\xampp\htdocs\Proyecto>  php artisan ui vue --auth
+
+  4-    C:\xampp\htdocs\Proyecto>   npm Install ( =  npm i)
+
+  5 -   C:\xampp\htdocs\Proyecto>     npm run dev (Compilar Vue para Js)
+
+
+---------------------------------------------------------------------------------------------------------------
+  NOTA VUE
+
+  VUE esta resource/js, por default =============> la view , es app.blade.php (View/layouts)
+
+  EJEMPLO : en Welcome.blade.php  ponemos esto y vemos el componente:
+
+                        @extends('layouts.app')
+
+                        @section('content')
+                        <example-component></example-component>
+                        @endsection
+
+ * El primer componente ya esta compilado, pero los siguientes hay que compilar:
+   - Abrir 2 CMD una Javascript y otro para artisan php
+
+     - El de javascript simpre prendido poner: npm run watch
+
+     Para descativar la info de Laravel Mix ======> webpack.mix.js ====> poner: 
+         mix.disableNotifications();
+
+
+----------------------------------------------------------------------------------------------------------------
