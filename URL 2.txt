@@ -619,3 +619,7 @@ https://www.youtube.com/watch?v=gm_c93sH7wQ&list=PLK0Qy1n0iBQSis3AJUBUlMUyJdlYQ7
    THEMES BOOSTRAPT
     starbostrapt
     https://hackerthemes.com/new-bootstrap-themes/
+-----------------------------------------------------------------------------------------
+   VUE + api + Laravel
+
+   https://developer.okta.com/blog/2019/01/15/crud-app-laravel-vue

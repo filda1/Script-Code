@@ -41,3 +41,14 @@
 
 
 ----------------------------------------------------------------------------------------------------------------
+
+ Instalar una versión especifica de Laravel:
+
+composer create–project laravel/laravel MiProyecto 5.3.*
+
+
+composer create–project laravel/laravel=5.3.* MiProyecto
+
+Instalar la ultima versión de Laravel:
+
+composer create–project laravel/laravel MiProyecto
