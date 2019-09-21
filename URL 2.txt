@@ -623,3 +623,8 @@ https://www.youtube.com/watch?v=gm_c93sH7wQ&list=PLK0Qy1n0iBQSis3AJUBUlMUyJdlYQ7
    VUE + api + Laravel
 
    https://developer.okta.com/blog/2019/01/15/crud-app-laravel-vue
+
+------------------------------------------------------------------------------------------
+  BUSQUEDA O FILTRO CON VUE
+
+  https://rimorsoft.com/filtros-en-vue-js-usando-computed-properties

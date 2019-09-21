@@ -1,9 +1,14 @@
 
-   Vue CRUD  y Laravel
+   VUE CRUD  y LARAVEL
 
+-----------------------------------------------------------------------------------------------------------------
+
+     https://www.youtube.com/watch?v=QW4dMbFxv3c&list=PLPl81lqbj-4J-gfAERGDCdOQtVgRhSvIT&index=40
      https://bluuweb.github.io/tutorial-laravel/vue/#componente-con-vue-js
 
      Archivo GITHUB ejemplo ==============> Laravel_Vue_Crud
+
+-----------------------------------------------------------------------------------------------------------------
 
 
  1. IMPORTANTE: en AppServiceProvider
