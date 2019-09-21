@@ -1,0 +1,29 @@
+
+   Vue CRUD  y Laravel
+
+     https://bluuweb.github.io/tutorial-laravel/vue/#componente-con-vue-js
+
+     Archivo GITHUB ejemplo ==============> Laravel_Vue_Crud
+
+
+ 1. IMPORTANTE: en AppServiceProvider
+
+         use Illuminate\Support\Facades\Schema;
+
+          public function boot()
+           {
+             Schema::defaultStringLength(191);
+           }
+
+  2. CMD
+
+     * php artisan make:model Nota -m
+   
+     * php artisan migrate
+
+     * php artisan make:migration create_notas_table
+
+     * Controlller,     php artisan make:controller NotaController --resource
+
+     * Web.php,         Route::resource('/notas', 'NotaController')->middleware('auth');
+
