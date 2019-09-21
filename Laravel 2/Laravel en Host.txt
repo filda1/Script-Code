@@ -1,0 +1,20 @@
+
+ LARAVEL EN UN SERVIDOR
+
+        SUBIR LARAVEL A HOST, EN UNA CARPETA DE DOMINIO
+         1- Poner todo el proyecto laravel en la carpeta domnio ( universo-rh.com)
+             Se accede www.universo-rh.com/public
+   
+         2- Para acceder directamente www.universo-rh. (Fuera de public) com sin public, para redireccionar
+            en .htaccess :
+
+                <IfModule mod_rewrite.c>  
+                 RewriteEngine On 
+                RewriteRule ^(.*)$ public/$1 [L]
+                </IfModule>
+
+
+
+         OTRA FORMA DE SUBLIR A LARAVEL (Dentro de public)
+           - Es poner el proyecto afuera , en principal sin la carpeta public. 
+             Y los archivos de public ponerlos afuera , public_html
