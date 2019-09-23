@@ -1,0 +1,57 @@
+ BD ee29v3og_ocar636
+  
+
+ admin
+ 12345678
+ admin@local.urh.pt
+
+  v3.02
+
+ 
+OpenCart foi instalado com sucesso em :
+https://local.urh.pt
+Endereço de Administração : https://local.urh.pt/admin
+
+
+ACTIVAR DEBUG V3.3
+
+ linea 110:
+
+    system/library/template/Twig/Environment.php Find
+
+    $this->debug = (bool) $options['debug']; Replace:
+ 
+      $this->debug = (bool) true
+
+
+----------------------------------
+pIN : 0987 ==================> Opencart
+
+ filda
+ 12345678
+
+
+
+ theme NOU FREE : https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=36872&filter_category_id=1&filter_license=0&sort=date_added
+ 
+ theme FlatCard = http://explosiveweb.co.za/demo/flatcart/
+ 
+ themes................ https://www.opencart.com/index.php?route=marketplace/extension&filter_category_id=1&filter_license=0&sort=date_added
+
+ CAMBIAR THEME
+
+ 1. Bajar zip
+ 2. en Admin, installer y cargar zip
+ 3. Luego, extension,  themes,  Your Store (editas y cambias theme Directory) 
+
+----------------------------------------------------------------------------------------------------------------
+
+   GOOGLE MY BUSSINES
+
+Cómo crear tu ficha de Google My Business
+https://www.youtube.com/watch?v=sOiOClCErjo
+
+
+https://metricool.com/es/como-crear-ficha-google-my-business/
+
+

@@ -1,0 +1,13 @@
+ IDEAS NEGOCIO
+  
+   * Square  ==================> todo tipo de pagos
+
+   * AnchorFree ==============> Internet gratis seguro
+
+   * Plaid  ===================> Api para conectar a Bancos para apps
+
+   * Zola ======================> Crear sitios web gratis de Boda
+
+   * Beautycounter ==============> proteccion de piel
+
+   * Comparador de seguros

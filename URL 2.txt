@@ -628,3 +628,5 @@ https://www.youtube.com/watch?v=gm_c93sH7wQ&list=PLK0Qy1n0iBQSis3AJUBUlMUyJdlYQ7
   BUSQUEDA O FILTRO CON VUE
 
   https://rimorsoft.com/filtros-en-vue-js-usando-computed-properties
+
+  https://www.groloop.com/vue-js-2-7-consumir-una-api-la-libreria-axios-crear-filtros-personalizados/
