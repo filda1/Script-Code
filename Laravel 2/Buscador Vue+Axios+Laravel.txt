@@ -1,0 +1,104 @@
+
+  BUSCADOR VUE+AXIOS+LARAVEL
+
+-------------------------------------------------------------------------------------------------------
+ NotaComponente.vue
+-------------------------------------------------------------------------------------------------------
+ <template> 
+ <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header">Example Component</div>
+
+                      <form @submit.prevent="getData" >
+                         <h3>Agregar nota</h3>
+                         <input type="text" class="form-control mb-2" 
+                         placeholder="Nombre de la nota" v-model="nota.nombre">
+                        <input type="text" class="form-control mb-2" 
+                        placeholder="Descripción de la nota" v-model="nota.descripcion">
+                            <button class="btn btn-primary" type="submit">Agregar</button>
+                   </form>
+                   <hr>
+
+                   <h3>Lista de notas:</h3>
+                   <ul class="list-group">
+                       <li class="list-group-item" 
+                          v-for="(item, index) in notas" :key="index" >
+                            <span class="badge badge-primary float-right">
+                                 {{item.updated_at}}
+                             </span>
+                              <p>{{item.nombre}}</p>
+                            <p>{{item.descripcion}}</p>
+                      <p>
+                       <button class="btn btn-warning btn-sm" 
+                       @click="editarFormulario(item)">Editar</button>
+                       <button class="btn btn-danger btn-sm" 
+                       @click="eliminarNota(item, index)">Eliminar</button>
+                       </p>
+                  </li>
+                </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template> 
+ 
+<script> 
+ export default { 
+   data() {
+    return {
+      notas: [],
+      modoEditar: false,
+      nota: {nombre: '', descripcion: ''}
+    }
+  },
+   // Carga al incio, los datos BD
+   /*  created(){
+    axios.get('/notas').then(res=>{
+      this.notas = res.data;
+    })
+  },*/
+
+   methods:{
+
+     getData(){
+      
+       axios.get('/notas?search=Nota1&search2=Descripcion5')
+        .then((res) =>{
+          //const notaServidor = res.data;
+          this.notas=res.data;
+        })
+
+     }
+ } 
+</script>
+
+-------------------------------------------------------------------------------------------------------------------
+ NotaController.php
+-------------------------------------------------------------------------------------------------------------------
+
+ class NotaController extends Controller
+{
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function index(Request $request)
+    {   
+        $search = $request->search;
+        $search2 = $request->search2;
+        $nota = Nota::where ( 'nombre', 'LIKE', '%' . $search . '%' )
+                      -> Orwhere ( 'descripcion', 'LIKE', '%' . $search2 . '%' )
+                      ->get();
+        return $nota;
+  
+    } .......
+
+
+---------------------------------------------------------------------------------------------------------------------
+   
+Route::resource('/notas', 'NotaController');
+
