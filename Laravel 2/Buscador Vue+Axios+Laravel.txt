@@ -52,6 +52,8 @@
       notas: [],
       modoEditar: false,
       nota: {nombre: '', descripcion: ''}
+      // url: '/notas'
+
     }
   },
    // Carga al incio, los datos BD
@@ -65,6 +67,7 @@
 
      getData(){
       
+       // axios.get(`${this.url}?search=${this.nota.nombre}`)
        axios.get('/notas?search=Nota1&search2=Descripcion5')
         .then((res) =>{
           //const notaServidor = res.data;
