@@ -1,0 +1,20 @@
+
+  buscador Booking = https://bootsnipp.com/snippets/7nQZx
+                     https://bootsnipp.com/snippets/WMlMa
+
+                      https://bootsnipp.com/snippets/bx65A
+
+
+ Fotos booking = https://bootsnipp.com/snippets/yyNda
+
+ Room = https://bootsnipp.com/snippets/exX0y
+
+ Hotel reservation = https://bootsnipp.com/snippets/bplPe
+
+  
+ VUEX = https://webmobtuts.com/backend-development/learn-how-to-make-crud-pages-with-laravel-and-vuejs-part-1/
+ 
+ Form Laravel = https://vegibit.com/how-to-set-up-form-submission-in-laravel/
+
+ Tutorial Full de Vuex + Laravel ===== https://www.youtube.com/watch?v=FU9fNNQphjY
+                                       https://www.youtube.com/watch?v=cI7g4x5Tl14
