@@ -1,0 +1,47 @@
+ 
+   MULTILENGUAJE EN LARAVEL
+
+    A- MULTILENGUAJE ESTATICO
+     
+       1. Instalar Traslate laravel (Larevel-lang)en proyecto =====> composer require caouecs/laravel-lang:~4.0
+       2. Copia en (Vendor/caouecs) la carpeta del idioma y pegar en la caperta la resources/lang=====> el idioma selecionado
+
+       3.php artisan make:middleware Localization
+       4. En "project_name/app/Http/Middleware/Localization.php" =======> poner:
+
+             public function handle($request, Closure $next)
+               {
+                if(\Session::has('locale'))
+                {
+                  \App::setlocale(\Session::get('locale'));
+                  }
+                    return $next($request);
+               }
+       5- En las carpetas de idiomas crear para cada uno :  "messages.php" y colocae en cauda uno :
+
+          return [
+          'welcome'       => 'Welcome to our application'
+         ];
+
+
+       6. En  "project_name/app/Http/Kernel.php"  poner en web:
+           \App\Http\Middleware\Localization::class,
+
+  
+       7. en web.php :
+               Route::get('locale/{locale}', function ($locale){
+               Session::put('locale', $locale);
+               return redirect()->back();
+               });
+
+       8. En las pag :       <html lang="{{ app()->getLocale() }}">
+
+
+       9.<li><a href="{{ url('locale/en') }}" ><i class="fa fa-language"></i> EN</a></li>
+
+        <li><a href="{{ url('locale/fr') }}" ><i class="fa fa-language"></i> FR</a></li>
+
+
+             <h1>{{ __('messages.welcome') }}</h1> =======> en cada pag
+  
+

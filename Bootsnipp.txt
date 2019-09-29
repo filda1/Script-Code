@@ -11,6 +11,38 @@
 
  Hotel reservation = https://bootsnipp.com/snippets/bplPe
 
+ Carousel Extended = https://bootsnipp.com/snippets/v8lxB
+
+ Card de casas = https://bootsnipp.com/snippets/PEyWl
+
+ Lista de casa = https://bootsnipp.com/snippets/29o2
+
+ Descripcion de casa = https://bootsnipp.com/snippets/GanRg
+
+ 
+ 
+ Botones de borde = https://bootsnipp.com/snippets/O8V
+                    ******https://bootsnipp.com/snippets/V0aQd
+ Productos modal lista = https://bootsnipp.com/snippets/0Bb74
+
+ Galeria = http://ashleydw.github.io/lightbox/
+
+ Cartd float = https://bootsnipp.com/snippets/yyNda
+
+ Booking = https://bootsnipp.com/snippets/O50pZ
+           https://bootsnipp.com/snippets/7nQZx
+
+ Reserver hotel = https://bootsnipp.com/snippets/exX0y
+
+ Descripcion cards = https://bootsnipp.com/snippets/BE28p
+
+ List = https://bootsnipp.com/snippets/MaeN9
+
+ Foto = https://www.pexels.com/photo/black-outdoor-lounge-chair-in-between-blue-swimming-pool-under-white-cloudy-blue-sky-189296/
+        https://www.pexels.com/photo/parked-boat-1450353/
+
+        https://www.pexels.com/photo/beach-birds-calm-clouds-219998/
+-----------------------------------------------------------------------------------------------------------------
   
  VUEX = https://webmobtuts.com/backend-development/learn-how-to-make-crud-pages-with-laravel-and-vuejs-part-1/
  

@@ -52,3 +52,8 @@ composer create–project laravel/laravel=5.3.* MiProyecto
 Instalar la ultima versión de Laravel:
 
 composer create–project laravel/laravel MiProyecto
+
+-----------------------------------------------------------------------------------------------------------------
+ MULTILENGUAJE
+  Traduccion estatica = http://www.aesolucionesweb.com.ar/blog/sitios-web-multilenguaje-en-laravel-5-primera-parte
+  Traduccion de info de validacion , pss... = https://www.youtube.com/watch?v=h-5760EN2Eo
