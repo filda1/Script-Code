@@ -66,3 +66,14 @@ composer create–project laravel/laravel MiProyecto
    1. Pasar imgenes de storage a  ============> public/storage ,   php artisan storage:link
 
      # https://blog.especializati.com.br/upload-de-arquivos-no-laravel-com-request/
+
+   2. Email ===============>  php artisan make:mail NewUserNotification
+
+         MAIL_DRIVER=smtp
+         MAIL_HOST=smtp.gmail.com 
+         MAIL_PORT=587  
+         MAIL_USERNAME=filinto.urh@gmail.com
+         MAIL_PASSWORD=FilintoSilva@urh@2018
+         MAIL_ENCRYPTION=tls
+
+   3. Cache   ===================================> php artisan config:cache
