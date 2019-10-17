@@ -1,0 +1,24 @@
+public function store(Request $request)
+    {
+        $user=new UserReg;
+        $mobile=$request->mobile;
+        $check_mobile=UserReg::where('mobile',$mobile)->value('mobile');
+
+        if($check_mobile==null){
+         $user->username=$request->input('username');
+         $user->mobile=$request->input('mobile');
+         $user->city=$request->input('city');
+         $user->email=$request->input('email');
+         $user->save();
+        $message="Registered successfully";
+         return Redirect::to('layouts.home',compact('message'));
+
+        }
+
+// view 
+
+@isset($message)
+<div class="alert alert-success">
+<strong>{{@message}}</strong>
+</div>
+@endif
