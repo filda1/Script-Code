@@ -44,12 +44,7 @@
         https://www.pexels.com/photo/beach-birds-calm-clouds-219998/
 -----------------------------------------------------------------------------------------------------------------
   
- VUEX = https://webmobtuts.com/backend-development/learn-how-to-make-crud-pages-with-laravel-and-vuejs-part-1/
- 
- Form Laravel = https://vegibit.com/how-to-set-up-form-submission-in-laravel/
 
- Tutorial Full de Vuex + Laravel ===== https://www.youtube.com/watch?v=FU9fNNQphjY
-                                       https://www.youtube.com/watch?v=cI7g4x5Tl14
 
  Photo = https://unsplash.com/photos/AralL_A3-7o
           https://unsplash.com/photos/ueBIGLmiI5A

@@ -16,7 +16,7 @@ FLUTER
  FLUTTER PROYECTOS
   https://github.com/iampawan/FlutterExampleAppsç
 *****************************************************************************************************************
-   PG ADMIN
+   PG ADMIN BD postgres
      https://medium.com/@vapurrmaid/getting-started-with-heroku-postgres-and-pgadmin-run-on-part-2-90d9499ed8fb
 ******************************************************************************************************************
   HEROKU
@@ -609,7 +609,7 @@ https://www.youtube.com/watch?v=gm_c93sH7wQ&list=PLK0Qy1n0iBQSis3AJUBUlMUyJdlYQ7
     http://www.bestjquery.com/lab/timeline/
 -----------------------------------------------------------------------------------------------------------------------
 
-   TUTORIAL OPECART
+   TUTORIAL OPENCART
   http://docs.opencart.com/en-gb/administration/
 
 ---------------------------------------------------------------------------------------
@@ -636,3 +636,11 @@ https://www.youtube.com/watch?v=gm_c93sH7wQ&list=PLK0Qy1n0iBQSis3AJUBUlMUyJdlYQ7
    TOAST LARAVEL
       https://www.youtube.com/watch?v=_6Uu76LqGds
       https://github.com/tjgazel/laravel-toastr
+
+-----------------------------------------------------------------------------------------------
+
+  TEMPLATES
+   StartBoostrapt
+   w3schooll
+   http://www.freetimelearning.com/bootstrap-3-plugins.php#
+

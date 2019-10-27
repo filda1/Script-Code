@@ -1,0 +1,41 @@
+
+
+ LARAVEL +  ADMIN VOYAGER
+
+   https://www.youtube.com/watch?v=gN3BCi0emVA
+   Laravel E-Commerce - Admin Backend w/ Laravel Voyager - Part 10
+   https://github.com/drehimself/laravel-ecommerce-example
+
+*****************************************************************************************************
+
+ LARAVEL E-COMMERCE
+
+ canal==https://www.youtube.com/channel/UCtb40EQj2inp8zuaQlLx3iQ/featured
+  https://github.com/drehimself/laravel-ecommerce-example
+         
+******************************************************************************************************
+  CARRITO LARAVEL
+  
+ Academind
+ https://www.youtube.com/watch?v=L_5BZKe0Ab4
+ https://github.com/mschwarzmueller/laravel-shopping-cart-tutorial
+
+***************************************************************************************************************
+
+ BLOC LARAVEL + ADMIN
+
+  BITFUMES ===== https://www.youtube.com/watch?v=FYsjMSjwNL4&list=PLe30vg_FG4OTELVqQgHaMaq2oELjpSWy_&index=10
+  https://github.com/bitfumes/Create-Blog-with-Admin-Panel
+
+****************************************************************************************************************
+
+ LARAVEL + VUEX
+
+ Tutorial Full de Vuex + Laravel ===== https://www.youtube.com/watch?v=FU9fNNQphjY
+                                       https://www.youtube.com/watch?v=cI7g4x5Tl14
+
+ VUEX = https://webmobtuts.com/backend-development/learn-how-to-make-crud-pages-with-laravel-and-vuejs-part-1/
+ 
+ Form Laravel = https://vegibit.com/how-to-set-up-form-submission-in-laravel/
+
+******************************************************************************************************************

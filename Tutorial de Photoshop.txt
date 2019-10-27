@@ -1,5 +1,13 @@
 TUTORIAL PHOTOSHOP
 
+
+**************************************************************************************************
+  FONDO TRASPARENTE
+
+  1. crear nueva capa
+  2. selecionar varita magica
+  3. tecla, DELETE
+
 **************************************************************************************************
 
   MODIFICAR UNA IMAGEN
