@@ -67,3 +67,9 @@ API 2
 
  ADMINISTRAR BD
   https://www.programmableweb.com/api/aito
+
+  LEE LOS LABIOS
+   https://www.programmableweb.com/api/liopa-lipread
+
+  TV
+   https://www.programmableweb.com/api/otnettv

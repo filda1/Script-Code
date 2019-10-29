@@ -39,3 +39,7 @@
  Form Laravel = https://vegibit.com/how-to-set-up-form-submission-in-laravel/
 
 ******************************************************************************************************************
+ VUEX
+
+ https://www.youtube.com/channel/UCj9VatwdukZjNOnIKcpWcsA
+ We Code
