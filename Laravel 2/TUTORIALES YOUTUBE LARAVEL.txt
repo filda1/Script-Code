@@ -9,11 +9,16 @@
 *****************************************************************************************************
 
  LARAVEL E-COMMERCE
+  
+ Andre Madarang
+  canal==https://www.youtube.com/channel/UCtb40EQj2inp8zuaQlLx3iQ/featured
+   https://github.com/drehimself/laravel-ecommerce-example
+    https://codepen.io/challenges/
 
- canal==https://www.youtube.com/channel/UCtb40EQj2inp8zuaQlLx3iQ/featured
-  https://github.com/drehimself/laravel-ecommerce-example
-         
-******************************************************************************************************
+  
+         LaravelShoppingcart ==========> codigo reutilizable
+           https://github.com/hardevine/LaravelShoppingcart
+****************************************************************   **************************************
   CARRITO LARAVEL
   
  Academind

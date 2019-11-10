@@ -1,2 +1,51 @@
-https://voyager-docs.devdojo.com/getting-started/installation
-https://inside.contabilizei.com.br/otimizando-a-cria%C3%A7%C3%A3o-de-cruds-com-o-laravel-voyager-parte-1-5a8d7f438740
+ VOYAGER == https://voyager.devdojo.com/
+
+  https://inside.contabilizei.com.br/otimizando-a-cria%C3%A7%C3%A3o-de-cruds-com-o-laravel-voyager-parte-1-5a8d7f438740
+
+---------------------------------------------------------------------------------------------------------------
+
+ INSTALAR VOYAGER   (https://voyager-docs.devdojo.com/getting-started/installation)
+
+  1- composer require tcg/voyager
+
+  2- APP_URL=http://localhost   ====================================> Cambiar por tu URL
+     DB_HOST=localhost
+     DB_DATABASE=homestead
+     DB_USERNAME=homestead
+     DB_PASSWORD=secret
+
+  3 - php artisan voyager:install --with-dummy
+
+
+  4- entrar  www.xxxxxx.com/admin/login
+
+       email: admin@admin.com
+       password: password
+
+----------------------------------------------------------------------------------------
+
+  FUNCIONAMIENTO VOYAGER
+
+    Tutorial = https://www.youtube.com/watch?v=gN3BCi0emVA
+
+   1- CREAR UNA VISTA DE LA TABLA EN VOYAGER (Aparece en afuera sidebar)
+
+     1.1 - ir TOOLS=>DATBASES ===========> Table que quieres ===> ir, add bread /o edit Bread ===> luego SUBMIT 
+
+------------------------------------------------------------------------------------------------------------------
+
+  MENUS DINAMICOS ===== Admin controla el menu del la vista
+   https://www.youtube.com/watch?v=mhfSFAncIzg
+
+------------------------------------------------------------------------------------------------------------------
+  
+  CARGAR IMAGENES
+    https://www.youtube.com/watch?v=94EEHKrU3ao&list=PLEhEHUEU3x5oPTli631ZX9cxl6cU_sDaR&index=13
+
+-----------------------------------------------------------------------------------------------------------------
+
+  GALERIA DE IMAGENES
+    https://www.youtube.com/watch?v=lK6lkYkGQec&list=PLEhEHUEU3x5oPTli631ZX9cxl6cU_sDaR&index=14
+
+
+

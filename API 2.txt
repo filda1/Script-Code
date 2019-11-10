@@ -73,3 +73,6 @@ API 2
 
   TV
    https://www.programmableweb.com/api/otnettv
+
+  INTEGRAR PAGO DE CRIPTO
+   https://www.programmableweb.com/api/coinpush

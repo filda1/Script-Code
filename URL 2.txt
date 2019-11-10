@@ -643,4 +643,23 @@ https://www.youtube.com/watch?v=gm_c93sH7wQ&list=PLK0Qy1n0iBQSis3AJUBUlMUyJdlYQ7
    StartBoostrapt
    w3schooll
    http://www.freetimelearning.com/bootstrap-3-plugins.php#
+-----------------------------------------------------------------------------------------------
+   BLOCKCHAING
+   https://www.youtube.com/channel/UC0fQ577yKrm1s8tT67Afu_w/videos
 
+  TEnsor = https://www.youtube.com/watch?v=mYlHT9bB6OE
+
+-----------------------------------------------------------------------------------------------
+
+   CONTROL DE HORARIO  LARAVEL
+
+    https://controlhorario.io/demo/
+
+-----------------------------------------------------------------------------------------------
+
+  SMART CONTRACTS, empresa BLOCKNAPS
+  
+  https://www.blocknap.com/
+  https://www.youtube.com/watch?v=3SeI0xGYtEc
+   https://github.com/warsclon/blocknap
+-------------------------------------------------------------------------------------------------
