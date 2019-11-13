@@ -654,7 +654,16 @@ https://www.youtube.com/watch?v=gm_c93sH7wQ&list=PLK0Qy1n0iBQSis3AJUBUlMUyJdlYQ7
    CONTROL DE HORARIO  LARAVEL
 
     https://controlhorario.io/demo/
+-----------------------------------------------------------------------------------------------
 
+  SMART CONTRATS TUTORIAL
+     Dapp University == https://www.youtube.com/watch?v=VH9Q2lf2mNo
+    https://medium.com/blockchainbh-pesquisa/smart-contracts-5-criando-e-publicando-o-dapp-ae00707e46a7
+
+   FRONT END SMART CONTRATS
+    Telusko
+    https://www.youtube.com/watch?v=jUpyJhnXRFE
+     https://www.youtube.com/watch?v=UqQMSVfugFA&list=PLsyeobzWxl7oY6tZmnZ5S7yTDxyu4zDW-
 -----------------------------------------------------------------------------------------------
 
   SMART CONTRACTS, empresa BLOCKNAPS
@@ -663,3 +672,7 @@ https://www.youtube.com/watch?v=gm_c93sH7wQ&list=PLK0Qy1n0iBQSis3AJUBUlMUyJdlYQ7
   https://www.youtube.com/watch?v=3SeI0xGYtEc
    https://github.com/warsclon/blocknap
 -------------------------------------------------------------------------------------------------
+
+  HOSTING GRATIS PHP
+  https://infinityfree.net/
+  000webhost
