@@ -643,6 +643,8 @@ https://www.youtube.com/watch?v=gm_c93sH7wQ&list=PLK0Qy1n0iBQSis3AJUBUlMUyJdlYQ7
    StartBoostrapt
    w3schooll
    http://www.freetimelearning.com/bootstrap-3-plugins.php#
+   https://themes.gohugo.io/
+   https://bootswatch.com/
 -----------------------------------------------------------------------------------------------
    BLOCKCHAING
    https://www.youtube.com/channel/UC0fQ577yKrm1s8tT67Afu_w/videos
@@ -676,3 +678,23 @@ https://www.youtube.com/watch?v=gm_c93sH7wQ&list=PLK0Qy1n0iBQSis3AJUBUlMUyJdlYQ7
   HOSTING GRATIS PHP
   https://infinityfree.net/
   000webhost
+
+-------------------------------------------------------------------------------------------------
+  TEMPLATE Boostrapt
+   
+   * Starboostrapt
+   * https://bootstrapmade.com/demo/themes/EstateAgency/index.html
+
+--------------------------------------------------------------------------------------------------
+  NASA
+  https://science.nasa.gov/citizenscience
+  https://podaac.jpl.nasa.gov/datasetlist
+  https://data.nasa.gov/
+---------------------------------------------------------------------------------------------------
+ LARAVEL PDF
+   
+   importar = Files form
+   Exportar = https://www.youtube.com/watch?v=oN9PsbFhNKY
+              https://www.itechempires.com/2019/09/how-to-secure-pdf-files-in-laravel-and-allow-access-to-authenticated-users/amp/
+   Read = https://github.com/goodnesskay/LARAVEL-PDF-VIEWER
+   Create = https://pineco.de/simple-pdf-rendering-laravel/
