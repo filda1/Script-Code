@@ -1,0 +1,32 @@
+  COMANDOS  
+
+    Model       =======================>   php artisan make:model Flight / php artisan make:model  Otronombre  -m
+
+    Controller  =======================>   php artisan make:controller NombreControlador
+
+    Resource    =======================>   php artisan make:resource Usercollection
+
+    CRL + C    =======================>    Sale de sistema de comando, sin cerrarlo
+
+
+    Table       =======================>   php artisan make:migration create_users_table
+
+    Save Tables =======================>   php artisan migrate
+
+    Elimina y Crea Tablas nuevas  =====>   php artisan migrate:refresh
+    
+    Elimina Tablas ====================>   php artisan migrate:rollback 
+
+ 
+    Email       =======================>   php artisan make:mail SendMail
+
+    Cache       =======================>   php artisan cache:clear
+                                           php artisan view:clear 
+                                           php artisan route:clear
+                                           php artisan config:clear
+
+                                           Route::get('/clear-cache', function() {
+                                           Artisan::call('cache:clear');
+                                           return "Cache is cleared";
+                                           });
+

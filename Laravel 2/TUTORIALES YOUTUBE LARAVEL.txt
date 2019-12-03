@@ -8,7 +8,7 @@
 
 *****************************************************************************************************
 
- LARAVEL E-COMMERCE
+  * LARAVEL E-COMMERCE (Bueno)
   
  Andre Madarang
   canal==https://www.youtube.com/channel/UCtb40EQj2inp8zuaQlLx3iQ/featured
@@ -19,7 +19,7 @@
          LaravelShoppingcart ==========> codigo reutilizable
            https://github.com/hardevine/LaravelShoppingcart
 ****************************************************************   **************************************
-  CARRITO LARAVEL
+  CARRITO LARAVEL (bueno)
   
  Academind
  https://www.youtube.com/watch?v=L_5BZKe0Ab4
@@ -44,7 +44,22 @@
  Form Laravel = https://vegibit.com/how-to-set-up-form-submission-in-laravel/
 
 ******************************************************************************************************************
+  SPA+VUEX (Bueno)
+
+     we code = https://www.youtube.com/watch?v=Jd1RW-0lQOs&list=PLJpBh2VJhy5wPhAmjDB42pkHUnqolqxxq&index=1
+     https://github.com/AfikDeri/Vue-Laravel-SPA
+
  VUEX
 
  https://www.youtube.com/channel/UCj9VatwdukZjNOnIKcpWcsA
  We Code
+******************************************************************************************************************
+  SPA+VUEX =
+         https://www.youtube.com/watch?v=fxxhe6wB3yo
+         https://medium.com/@weehong/laravel-5-7-vue-vue-router-spa-5e07fd591981
+-----------------------------------------------------------------------------------------------------------------
+
+  TUTORIAL LARAVEL EN ESPANOL (Bueno)
+    https://documentacion-laravel.com/migrations.html#indices
+
+    https://bluuweb.github.io/tutorial-laravel/bases-datos/#validaciones

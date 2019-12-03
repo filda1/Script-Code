@@ -1,0 +1,191 @@
+    EMAIL EN LARAVEL ===================> https://www.webslesson.info/2018/09/simple-way-to-sending-an-email-in-laravel.html
+
+
+    1. php artisan make:controller SendEmailController
+    2. View (Form contacto), welcome.blade.php :
+  
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>How Send an Email in Laravel</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style type="text/css">
+   .box{
+    width:600px;
+    margin:0 auto;
+    border:1px solid #ccc;
+   }
+   .has-error
+   {
+    border-color:#cc0000;
+    background-color:#ffff99;
+   }
+  </style>
+ </head>
+ <body>
+  <br />
+  <br />
+  <br />
+  <div class="container box">
+   <h3 align="center">How Send an Email in Laravel</h3><br />
+   @if (count($errors) > 0)
+    <div class="alert alert-danger">
+     <button type="button" class="close" data-dismiss="alert">×</button>
+     <ul>
+      @foreach ($errors->all() as $error)
+       <li>{{ $error }}</li>
+      @endforeach
+     </ul>
+    </div>
+   @endif
+   @if ($message = Session::get('success'))
+   <div class="alert alert-success alert-block">
+    <button type="button" class="close" data-dismiss="alert">×</button>
+           <strong>{{ $message }}</strong>
+   </div>
+   @endif
+   <form method="post" action="{{url('sendemail/send')}}">
+    {{ csrf_field() }}
+    <div class="form-group">
+     <label>Enter Your Name</label>
+     <input type="text" name="name" class="form-control" value="" />
+    </div>
+    <div class="form-group">
+     <label>Enter Your Email</label>
+     <input type="text" name="email" class="form-control" value="" />
+    </div>
+    <div class="form-group">
+     <label>Enter Your Message</label>
+     <textarea name="message" class="form-control"></textarea>
+    </div>
+    <div class="form-group">
+     <input type="submit" name="send" class="btn btn-info" value="Send" />
+    </div>
+   </form>
+   
+  </div>
+ </body>
+</html>
+
+     3. En Web/Route:
+           Route::get('/sendemail', 'SendEmailController@index');
+           Route::post('/sendemail/send', 'SendEmailController@send');
+
+
+     4. En env:
+
+         MAIL_DRIVER=smtp
+         MAIL_HOST=smtp.gmail.com 
+         MAIL_PORT=587  
+         MAIL_USERNAME=filinto.urh@gmail.com
+         MAIL_PASSWORD=xxxxxxxxxxxxxxxxx
+         MAIL_ENCRYPTION=tls
+      
+
+
+        *NOta, si no funciona ir Confi => mail.php
+
+
+             'host' => env('MAIL_HOST', 'smtp.gmail.com'),
+             'port' => env('MAIL_PORT', 587),
+
+
+              'from' => [        
+                          'address' => env('MAIL_FROM_ADDRESS', 'filinto.urh@gmail.com'),
+                          'name' => env('MAIL_FROM_NAME', 'Example'),
+                        ],
+
+
+       5. php artisan make:mail SendMail
+       6. Y en SendMailcolocar:
+
+              <?php
+
+namespace App\Mail;
+
+use Illuminate\Bus\Queueable;
+use Illuminate\Mail\Mailable;
+use Illuminate\Queue\SerializesModels;
+use Illuminate\Contracts\Queue\ShouldQueue;
+
+class SendMail extends Mailable
+{
+    use Queueable, SerializesModels;
+    public $data;
+    /**
+     * Create a new message instance.
+     *
+     * @return void
+     */
+    public function __construct($data)
+    {
+        $this->data = $data;
+    }
+
+    /**
+     * Build the message.
+     *
+     * @return $this
+     */
+    public function build()
+    {
+        return $this->from('filinto.urh@gmail.com')->subject('UniversoRH')->view('sendemail')->with('data', $this->data);
+    }
+}
+
+?>
+
+
+       7. View sendemail.blade.php (Lo que va aparecer en el corrreo )
+
+
+          <p> Olá, sou {{ $data['name'] }}</p>
+          <p>Eu tenho uma consulta como: {{ $data['message'] }}.</p>
+           <p> Obrigado.</p>
+           <p> <h5>{{ $data['email'] }}.</h5></p>
+           <br>
+           <h1><a href="https://plataformaurh.pt/">Universo RH</a> </h1>
+
+
+       8. En SendEmailControlller:
+
+               <?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\SendMail;
+
+class SendEmailController extends Controller
+{
+    function index()
+    {
+     return view('send_email');
+    }
+
+    function send(Request $request)
+    {
+     $this->validate($request, [
+      'name'     =>  'required',
+      'email'  =>  'required|email',
+      'message' =>  'required'
+     ]);
+
+        $data = array(
+            'name'      =>  $request->name,
+            'message'   =>   $request->message
+        );
+
+     Mail::to('web-tutorial@programmer.net')->send(new SendMail($data));
+     return back()->with('success', 'Thanks for contacting us!');
+
+    }
+}
+
+?>
+
+   
+   

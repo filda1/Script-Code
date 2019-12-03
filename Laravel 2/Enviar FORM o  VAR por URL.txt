@@ -1,0 +1,57 @@
+  3 METODOS PARA ENVIAR/RECIBIR
+
+
+
+   1. Enviar FORM o VAR por URL
+
+      1.1 Enviar Var por URL
+
+                * <a href="{{ route('nota', $k,$parcelas) }}">link</a>
+
+                * Route::get('nota/{k}/{parcelas?}', 'CaixaController@nota');
+
+                * En Controller: 
+                               public function nota($k,$parcelas)
+                               {
+                                }
+
+
+      1.2  Enviar FORM por URL:
+
+             *   <form method="post" action="{{url('sendemail/send')}}">
+               {{ csrf_field() }}.......
+
+             * Route::post('/sendemail/send', 'SendEmailController@send');
+
+             *  En Controller:
+
+                 function send(Request $request)
+                        {
+    
+                      $data = array(
+                          'name'      =>  $request->name,
+                          'message'   =>   $request->message
+                            );....................................................
+
+      1.3   Recibir FORM po URL:
+
+                    *   <form method="get" action="{{url('sendemail')}}">
+                       {{ csrf_field() }}.......   ==========================================> No estoy seguro, provar
+
+                    * Route::get('/sendemail', 'SendEmailController@index');
+
+                    * En Controller:
+
+                           function index()
+                                {
+                                   return view('send_email');
+                                }
+
+ 
+   2. Enviar FORM o VAR por URL, en Resource
+
+      2.1  VAR por URL es recibida en, show
+      2.2  FORM por URL es recibida en, store
+
+
+   3. Enviar por INPUT(Ver si funciona en Laravel 6.0)

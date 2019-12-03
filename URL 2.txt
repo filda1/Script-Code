@@ -645,6 +645,13 @@ https://www.youtube.com/watch?v=gm_c93sH7wQ&list=PLK0Qy1n0iBQSis3AJUBUlMUyJdlYQ7
    http://www.freetimelearning.com/bootstrap-3-plugins.php#
    https://themes.gohugo.io/
    https://bootswatch.com/
+   https://bootstrapmade.com/demo/themes/EstateAgency/index.html
+   https://mdbootstrap.com/freebies/
+    
+   
+  Boosnippt
+  https://mdbootstrap.com/docs/jquery/javascript/carousel/
+
 -----------------------------------------------------------------------------------------------
    BLOCKCHAING
    https://www.youtube.com/channel/UC0fQ577yKrm1s8tT67Afu_w/videos
@@ -680,10 +687,7 @@ https://www.youtube.com/watch?v=gm_c93sH7wQ&list=PLK0Qy1n0iBQSis3AJUBUlMUyJdlYQ7
   000webhost
 
 -------------------------------------------------------------------------------------------------
-  TEMPLATE Boostrapt
-   
-   * Starboostrapt
-   * https://bootstrapmade.com/demo/themes/EstateAgency/index.html
+  
 
 --------------------------------------------------------------------------------------------------
   NASA
@@ -698,3 +702,23 @@ https://www.youtube.com/watch?v=gm_c93sH7wQ&list=PLK0Qy1n0iBQSis3AJUBUlMUyJdlYQ7
               https://www.itechempires.com/2019/09/how-to-secure-pdf-files-in-laravel-and-allow-access-to-authenticated-users/amp/
    Read = https://github.com/goodnesskay/LARAVEL-PDF-VIEWER
    Create = https://pineco.de/simple-pdf-rendering-laravel/
+
+---------------------------------------------------------------------------------------------------------
+
+  GUITAR
+   https://chordu.com/chords-tabs-radiohead-exit-music-for-a-film-lyrics-id_50rlHVe6g9Q
+
+     exit music = https://tabs.ultimate-guitar.com/tab/radiohead/exit-music-for-a-film-chords-117554
+
+-------------------------------------------------------------------------------------------------------
+   eMAIL lARAVEL
+  https://www.webslesson.info/2018/09/simple-way-to-sending-an-email-in-laravel.html
+
+--------------------------------------------------------------------------------------------------------
+   BUSCADOR BOOKING
+    https://colorlib.com/wp/free-booking-form-templates/
+    https://uicookies.com/bootstrap-datepicker/
+--------------------------------------------------------------------------------------------------------
+
+   INSTALAR TEMPLATE EN NODE.JS
+     https://www.youtube.com/watch?v=yahItkfASL4
