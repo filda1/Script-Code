@@ -1,0 +1,47 @@
+ public function update(Request $request, $id)
+    {
+      /*  $this->validate($request,[
+            'title'=>'required',
+            'image'=>'required'
+            ]);*/
+
+            $post = property::find($id);
+
+            $post->id_Property =  1;
+            $post->id_Property_gallery = 1;
+            $post->id_Agent = Auth::user()->id;
+            $post->name = $request->name ;
+            $post->type = $request->type ;
+            $post->ground = $request->ground;
+            $post->bedrooms = strval($request->bedrooms);
+            $post->location = $request->location;
+            $post->description = $request->description;
+            $post->features = $request->features;
+            //$post->picrture = "Change";      
+            //$post->picture2 = $imageName;
+            $post->area =  $request->area;
+            $post->bed =  strval($request->bed);
+            $post->baths =  strval($request->baths);
+            $post->garages = strval ($request->garage);
+            $post->price =  strval($request->price);
+            $post->services =  $request->service;
+            $post->status =  $request->status;
+            $post->info =  $request->alert;
+            //$post->active =  $request->active;
+
+
+            if ($request->hasfile('image')){
+                $file = $request->file('image');
+                $extension = $file->getClientOriginalExtension();
+                $filename = md5(time()).'.'.$extension;
+                $file->move(public_path().'\storage',$filename);
+                $post->picture2 =$filename;
+            } else {
+                //return $request;
+                //$post->picture2 ='';
+            }
+
+            $post->save();
+        return redirect(route('post.index'));
+    }
+

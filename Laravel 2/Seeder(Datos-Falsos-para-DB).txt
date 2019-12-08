@@ -1,0 +1,43 @@
+  1 .php artisan make:seeder ApartmentsTableSeeder
+
+
+   2.              public function run()
+    {
+        Property::create([
+            'name'      => 'Carlos Ferreira',
+            'email'     => 'carlos@especializati.com.br',
+            'password'  => bcrypt('MinhaSenhaAqui'),
+        ]);
+    }',
+
+
+
+     3. DATBASEseeder
+ 
+             public function run()
+    {
+        // $this->call(UsersTableSeeder::class);
+       
+        $this->call(PropertiesTableSeeder::class);
+    }
+
+
+
+  odar a Seeder:
+Uma vez que criou a classe de Seeder, e registrou o pr?ximo passo ? simplesmente rodar e criar o novo registro, em nosso caso criar um novo usu?rio, para isso rode este comando:
+
+1
+php artisan db:seed
+Este comando vai rodar todas as classes de Seeders registradas na classe DatabaseSeeder.
+
+? poss?vel tamb?m especificar qual classe de seeder vai rodar ao executar o comando, veja:
+
+1
+php artisan db:seed --class=UsersTableSeeder
+Neste caso mesmo que tenha v?rias classes de Seeders registradas vai rodar apenas a UsersTableSeeder.
+
+Tamb?m ? poss?vel criar as Seeders no momento que criar as tabelas atrav?s do recurso de migration, veja como:
+
+1
+php artisan migrate:refresh --seed
+Este comando vai recriar as tabelas e automaticamente rodas as Seeders registradas.

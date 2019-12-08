@@ -722,3 +722,23 @@ https://www.youtube.com/watch?v=gm_c93sH7wQ&list=PLK0Qy1n0iBQSis3AJUBUlMUyJdlYQ7
 
    INSTALAR TEMPLATE EN NODE.JS
      https://www.youtube.com/watch?v=yahItkfASL4
+--------------------------------------------------------------------------------------------------------
+   Tutorial Node.js
+     ******************Academind =  https://www.youtube.com/watch?v=YDpso0S2FDA&list=PL55RiY5tL51rajp7Xr_zk-fCFtzdlGKUp&index=21
+    https://appdividend.com/2018/11/21/mevn-stack-tutorial-with-example-from-scratch/
+
+   MEVN STACK
+     https://medium.com/@jaouad_45834/full-stack-shopping-cart-with-mevn-stack-part-1-89dae1f35378
+     LOGIN == https://www.youtube.com/watch?v=F9cvPtMI7JI&list=PLpGo-Y3em4SVm1u4RKTdtOXblDWzAhf-N
+
+   DEPLOY NODE+MONGO ; HEROKU + MONGODB ATLAS = https://www.youtube.com/watch?v=dr-vDIOw2As
+    
+ DIGITAL OCEAN jose vladimir= https://www.youtube.com/channel/UCA5KsvinttFxIMPTDNYXijg/videos
+                              https://www.youtube.com/watch?v=ovx6SuB_Wt4
+
+ SKELETO MEVN = https://github.com/anaida07/MEVN-boilerplate
+
+--------------------------------------------------------------------------------------------------------------
+ LARAVEL COMENTARIOS
+   https://www.youtube.com/watch?v=03v8vk7EGno
+   http://jquery-manual.blogspot.com/2015/11/15-tutorial-de-laravel-5-crud-create.html
