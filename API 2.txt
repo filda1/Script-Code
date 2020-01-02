@@ -80,3 +80,6 @@ API 2
    AGENCIA PARA SABER CARROS:::::
     https://www.programmableweb.com/api/sabre-car-availability
     https://developer.sabre.com/docs/rest_apis/ground/search/car_availability
+
+   OPEN STREET MAP
+     https://www.programmableweb.com/api/openstreetmap

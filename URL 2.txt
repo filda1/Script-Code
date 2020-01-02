@@ -742,3 +742,40 @@ https://www.youtube.com/watch?v=gm_c93sH7wQ&list=PLK0Qy1n0iBQSis3AJUBUlMUyJdlYQ7
  LARAVEL COMENTARIOS
    https://www.youtube.com/watch?v=03v8vk7EGno
    http://jquery-manual.blogspot.com/2015/11/15-tutorial-de-laravel-5-crud-create.html
+
+--------------------------------------------------------------------------------------------------------------
+  JAVASCRIPT ANIME
+   https://animejs.com/
+   https://vincentgarreau.com/particles.js/
+
+---------------------------------------------------------------------------------------------------------------
+  CAJA DE COMENTARIOS
+    https://bootsnipp.com/snippets/lVP32
+    https://www.bootdey.com/snippets/view/Simple-Comment-panel
+
+---------------------------------------------------------------------------------------------------------------
+   CARRUSEL INFINITE
+     https://www.solodev.com/blog/web-design/adding-an-infinite-client-logo-carousel-to-your-website.stml
+https://github.com/solodev/infinite-carousel
+
+ https://codepen.io/lucasmotta/pen/ujKbF
+
+----------------------------------------------------------------------------------------------------------------
+ LARAVEL STAR RATING
+  code tube ========>  https://www.youtube.com/watch?v=M8vZaFm3R-g
+   https://github.com/tedirghazali/CodeTube-Laravel
+
+   DB_DATABASE= turismo_san_tome
+
+-------------------------------------------------------------------------------------------------------------
+ LIsta ICONS
+ https://bootsnipp.com/snippets/klkbV
+
+-----------------------------------------------------------
+Lancia Lybra 2.4 JTD 140cv NAC - 99
+https://www.custojusto.pt/porto/ligeiros-passageiros/lancia-lybra-2-4-jtd-140cv-nac-30653316
+
+----------------------------------------------
+  MAPS puntos cercanos PHP
+
+   http://www.michael-pratt.com/blog/7/Encontrar-Lugares-cercanos-con-MySQL-y-PHP/
