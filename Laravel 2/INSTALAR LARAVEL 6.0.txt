@@ -18,6 +18,9 @@
   5 -   C:\xampp\htdocs\Proyecto>     npm run dev (Compilar Vue para Js)
 
 
+   * - Instalar Voyager al principio
+   * - Probar al principio compnentes vue.js en template por a veces no aprece
+
 ---------------------------------------------------------------------------------------------------------------
   NOTA VUE
 
