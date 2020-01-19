@@ -1,0 +1,30 @@
+aoseguros.pt/
+
+  1-  quantas caixas de correio tem activas  (1 uma : 
+     geral@aoseguros.pt 
+
+   2- Recordo que o mesmo deverá ser eliminado do presente Hosting Linux Enterprise.
+
+   3-  solicitar a migração do domínio para area cliente (Paulo Gonçalves)
+   Código de Cliente: PG1369-AMPT
+
+-----------------------------------------------------------------------
+
+   Boas, Tenho a intenção gradualmente  de  fazer  migrações de cuatro sites no tempo y devagar para area do cliente  PG1369-AMPT.
+   Hoje, por exemplo Quero solicitar a migração do domínio (grupoasa.pt) para area cliente (Paulo Gonçalves)
+   Código de Cliente: PG1369-AMPT. Y depois outro dia com tempo outro, eu aviso.
+
+    Tenho uma dúvida, sei que tenho que fazer Backups y apagar DSN do dominio na area de cliente, y apagar dominio no cpanel. Tudo bem.
+    O que não  tenho a certeça são as caixas de correio, apago as ativas y depois da migração  aparecem visibles ? y trabalhan corretamente com o password ?,isso e que não sei,  e a dúvida
+   
+    caixas ativas:
+       geral.asa@grupoasa.pt
+       geral.lord@grupoasa.pt
+
+
+      password : grupoasa.pt , UniversoAsa
+      https://grupoasa.pt/
+
+     mail.grupoasa.pt.ext
+
+     Depois de uma resposta OK para migração, eu apago os Dominio/caixas.... y depois aviso para continuar.

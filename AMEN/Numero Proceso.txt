@@ -1,0 +1,11 @@
+Numero do Ticket ------: 360115 (QUESTAO - PG1315-AMPT: TRANSFER DOMINIOS)
+ID de Contacto --------: (92226)
+Problema --------------: QUESTAO - PG1315-AMPT: TRANSFER DOMINIOS
+Aberto por ------------: () on 11:30:03 09/01/20
+Atribuido a -----------: rpaiva (Ricardo Paiva)
+
+
+Número do Processo: 360115
+
+Disculpe o incômodo, antes de fazer a migração ,estou a ter problemas com respeito a  os backups  dos mails não se como fazer , Onde y como efetuo backups dos conteúdos de email.
+Acho que normalmente na area do email , na caixa click direito exportar mais não  sai esta opçao (ver anexo). Alguma ajuda, Obrigada.

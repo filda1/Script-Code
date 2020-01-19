@@ -1,0 +1,113 @@
+ Estimado Cliente ,muito bom dia,
+
+
+
+No seguimento da sua comunicação, informo que de forma a migrar os conteúdos deverá realizar o backup dos conteúdos ( Ficheiros e base de dados) .
+
+
+
+Uma vez que tenha realizado e salvaguardado os backups deverá restaurar/importar os conteudos para o alojamento realizando os seguintes passos:
+
+
+
+::Restaurar Ficheiros::
+
+a) criar conta FTP
+
+- aceda ao cPanel;
+
+- clique em "Contas FTP"
+
+- preencha os campos necessários e clique em "Create FTP Account"(tome nota dos acessos)
+
+
+
+b) Restore (via FilleZilla)
+
+- No filezilla, aceda ao seu alojamento com os dados da sua conta FTP do cPanel
+
+.Servidor: ip_do_cpanel_amen
+
+.User: o seu user FTP do cPanel
+
+.Password: a password do seu user FTP do cPanel
+
+.Porta: 21
+
+- navegue até a pasta /public_html e faça o upload de todos os ficheiros
+
+
+
+::Restaurar base de dados::
+
+
+
+a) criar nova Base de dados
+
+- no cPanel, tabela "Base de Dados"
+
+- clique em "MySQL Databases"
+
+- Em "Create New Database", de um nome à nova base dados e clique em "Create"
+
+- Em "MySQL Users", de um nome ao user e uma nova password e clique em "Create"
+
+- Em "Add User To Database", associe utilizador criado à nova base de dados
+
+
+
+b) importar base de dados
+
+- no cPanel, tabela "Base de Dados"
+
+- clique no ícone phpMyadmin
+
+
+
+- no phpMyadmin clique em Importar
+
+- escolha o ficheiro .sql previamente gravado e importe a base de dados (pode levar alguns minutos)
+
+
+
+- tome nota dos novos dados e preencha o ficheiro de configuração da aplicação com esses mesmos dados.
+
+
+
+c) Alterar DNS
+
+
+
+- Na sua área de cliente, clique no domínio
+
+- Clique no ícone "Domínio & DNS"
+
+- Localize e clique em "Configuração DNS"
+
+- Clique no separador em gestão avançada
+
+- Localize o registo do tipo A e altere o seu valor para ip_do_cpanel_amen
+
+- Clique em aplicar para salvar as alterações
+
+
+
+Relativamente à migração dos emails, deverá criar as caixas de correio na nossa plataforma e posteriormente, poderá utilizar uma ferramenta externa que se encontra disponível em https://i005.lamiral.info/X/ para migrar os conteúdos de um servidor externo para o nosso.
+
+
+
+ATENÇÃO: A ferramenta sugerida é uma plataforma externa à Amen.PT, pelo que não nos responsabilizamos por qualquer anomalia sentida durante o processo de migração.
+
+
+
+Alertamos que, para poder utilizar o serviço de email da Amen.PT o domínio deverá se encontrar sob gestão da Amen.PT e o o mesmo deverá se encontrar configurado com os nossos servidores.
+
+
+
+Caso verifique que surgiu alguma nova duvida, não hesite , responda a esta comunicação pois terei todo o gosto em ajudar.
+
+
+
+Porque a sua opinião é importante para nós, avalie o meu Suporte.
+
+Aguarde pelo nosso email na segunda-feira e em menos de 1 minuto, responda-nos com a pontuação que melhor classifica o meu suporte.

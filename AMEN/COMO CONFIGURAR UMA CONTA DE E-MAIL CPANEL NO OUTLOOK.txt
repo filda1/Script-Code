@@ -1,0 +1,26 @@
+COMO CONFIGURAR UMA CONTA DE E-MAIL CPANEL NO OUTLOOK | YANGMÍDIA - AULA GRÁTIS
+
+
+ https://www.youtube.com/watch?v=NKhyDzK6FnY
+
+
+ OUTLOOK
+
+ CONFIGUACION AMEN con SSL
+  POP3
+   ENTRADA
+  Username / email: pedro.bento@omeudominio.ext
+  Password: a que escolheu durante a ativação de seu email
+   Porta: 995
+   Nome Servidor: mail-pt.securemail.pro
+
+   SAIDA
+   Username / email: smtp@omeudominio.ext
+   Password: a que escolheu durante a ativação de seu email
+   Porta: 465
+   Nome Servidor: smtp-pt.securemail.pro
+
+  * Ambos SSL/TTS, esta activados
+
+
+  https://www.amen.pt/assistencia/configuracao-email/
