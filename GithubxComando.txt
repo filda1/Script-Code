@@ -1,0 +1,12 @@
+  
+ 1- Crear REpositorio en cuenta Github
+
+ 2-IR/Estar DENTRO DEL PROYECTO .....
+
+ git init
+ git add README.md
+ * Aparecen listas rojas
+ git add  .
+ git commit -m "first commit"
+ git remote add origin https://github.com/filda1/RsaEcolodge-Hotel-Final.git  ( * Ojo: si sale ja existe, saltar este comando)
+ git push -u origin master 
