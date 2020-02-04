@@ -1,4 +1,18 @@
-  
+COLOCAR TEMPLATE  ADMIN Y TEMPLATE BOOSTRAPT
+
+ 1- TEMPLATE ADMIN
+    A- En public, Crear carpeta ,admin  =================> poner todas las carpetas del Template Admin dentro de admin(en public)
+
+     la direccion en vista ===========>  / admin/.................
+
+
+ 2- TEMPLATE BOOSTRAPT
+
+     A- En public, Crear carpeta , user  =================> poner todas las carpetas del Template Boostrapt dentro de user(en public)
+
+      la direccion en vista ===========>  / user/................  
+-----------------------------------------------------------------------------------------------
+
 
     TEMPLATE Start Boostrapt (PAG principal)
 

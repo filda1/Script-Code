@@ -42,3 +42,4 @@ Psy Shell v0.9.9 (PHP 7.3.7 — cli) by Justin Hileman
 
 
  OJO . modificar Hadnler.php (Exception y confi -> auth.php, y RedirectIfAuthenticated.php (middleware)
+     . Copiar Admin.php (modelo)

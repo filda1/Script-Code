@@ -1,0 +1,9 @@
+ Router
+
+ 1* IP ROUTER
+  en CMD:
+    ipconfig, enter
+
+    La direccion es, en Adapatador Lan... ====> Puerta de enlace pre(Default Gateway) 192....
+
+ docu============>  https://www.youtube.com/watch?v=9bRLtoUe79M

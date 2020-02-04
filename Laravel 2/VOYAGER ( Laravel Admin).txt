@@ -22,6 +22,9 @@
        email: admin@admin.com
        password: password
 
+
+    OJO == si el servidor no reconoce/no trasnfiere/no carga las imagenes( storage link, en public ==>storage) 
+           Solucion: cambiar el nombre de la carpeta storage (en public ==> storage)
 ----------------------------------------------------------------------------------------
 
   FUNCIONAMIENTO VOYAGER
