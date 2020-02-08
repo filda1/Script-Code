@@ -91,3 +91,19 @@ API 2
 
     WEBSCRAPING
       https://indigopilot.com/
+
+    SALA DE REUNIONES
+     https://www.programmableweb.com/api/docusign-rooms-rest-api-v20
+
+
+     Poner los datos de un proyecto de #arduino en una página web
+Copiado de: https://descubrearduino.com/
+https://www.instructables.com/id/Getting-Arduino-data-to-a-web-Page/
+
+Imagnes = https://www.linkapi.solutions/uploads/2019/10/LinkApi-eBook-APIs-RESTful.pdf
+
+
+Api (Verificacion de emails, tlf....) ==  https://cloudmersive.com/validate-api
+ Api (Text en fala ) == https://www.ipify.org/
+ Api (Copia email de URL) Scrape Website Email = https://rapidapi.com/tommytcchan/api/scrape-website-email?utm_source=mashape&utm_medium=301
+ Api avatares aleatorios = http://avatars.adorable.io/

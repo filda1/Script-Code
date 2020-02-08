@@ -648,7 +648,9 @@ https://www.youtube.com/watch?v=gm_c93sH7wQ&list=PLK0Qy1n0iBQSis3AJUBUlMUyJdlYQ7
    https://bootstrapmade.com/demo/themes/EstateAgency/index.html
    https://mdbootstrap.com/freebies/
     
-   
+   TEMPLATES ADMIN
+   https://themeselection.com/bootstrap-4-admin-template-github/
+
   Boosnippt
   https://mdbootstrap.com/docs/jquery/javascript/carousel/
 
@@ -783,3 +785,17 @@ https://www.custojusto.pt/porto/ligeiros-passageiros/lancia-lybra-2-4-jtd-140cv-
 --------------------------------------------------------------------------------------------
   CUBECRAFT MINI
   http://minipapercraft.blogspot.com/search/label/wolf
+
+ -----------------------------------------------------------------------------------------------
+   ADMIN NODE.JS
+
+   https://strapi.io/demo
+
+-------------------------------------------------------------------------------------------------
+ API GEOLOCALIZACION FREE
+ https://developer.mapquest.com/
+ https://developer.mapquest.com/documentation/
+
+ Excel VBA: Google map API
+  https://www.youtube.com/watch?v=U_Mi-FEajZY
+  *https://excelforo.blogspot.com/2015/09/vba-latitud-y-longitud-de-una-direccion.html
