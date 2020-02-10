@@ -1,0 +1,4 @@
+ TUTORIAL FLUTTER
+
+   + Todos los Objetos tienen la propiedad =============> child
+   + Hay 2 tipos de Objetos  =============> los tienen las propiedad unicas Y los objetos que repiten las proìedades (Children)

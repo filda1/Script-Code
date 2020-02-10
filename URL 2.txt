@@ -799,3 +799,11 @@ https://www.custojusto.pt/porto/ligeiros-passageiros/lancia-lybra-2-4-jtd-140cv-
  Excel VBA: Google map API
   https://www.youtube.com/watch?v=U_Mi-FEajZY
   *https://excelforo.blogspot.com/2015/09/vba-latitud-y-longitud-de-una-direccion.html
+-------------------------------------------------------------------------------------------------
+ REACT
+  https://www.youtube.com/user/leighhalliday/videos
+
+-------------------------------------------------------------------------------------------------
+ NESTING CNC
+  https://deepnest.io/
+  https://svgnest.com/           ======================> https://github.com/Jack000/SVGnest
