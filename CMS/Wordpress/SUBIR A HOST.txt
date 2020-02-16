@@ -1,0 +1,4 @@
+ SUBIR A HOST
+
+ 1- en site , carpeta ============> wp-config
+ 2 - En BD ======================>   ... options

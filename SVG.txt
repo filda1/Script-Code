@@ -1,0 +1,18 @@
+Filinto da Silva <filinto.urh@gmail.com>
+	
+quarta, 12/02, 16:18 (há 4 dias)
+	
+para mim
+ 
+https://books.google.pt/books?id=zWNyDgAAQBAJ&pg=PA613&lpg=PA613&dq=como+convertir+coordenadas+en+svg&source=bl&ots=IzCcB-P5kR&sig=ACfU3U1yGV-fuM8IBwiiovN8FTIelULh2A&hl=pt-PT&sa=X&ved=2ahUKEwi5ipHa-MvnAhXMzYUKHbCeAxQ4ChDoATAMegQIChAB#v=onepage&q=como%20convertir%20coordenadas%20en%20svg&f=false
+ Canvas Javascript = http://braziljs.github.io/eloquente-javascript/chapters/desenhando-com-canvas/
+ https://willianjusten.com.br/criando-e-exportando-svg-para-web/
+
+ Tutorial = https://willianjusten.com.br/series/
+
+ site con svg = http://makeyourmoneymatter.org/
+
+ codepen.io === https://codepen.io/pen/
+                            https://codepen.io/willianjusten/pen/YPVYOO/
+
+ Tutorial Inline SVG = https://github.com/jonitrythall/svgpocketguide/blob/master/svgpocketguide-ptbr.md
