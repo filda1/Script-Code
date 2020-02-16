@@ -1,0 +1,8 @@
+Getaddresapi’s Keys
+Consumer Key	knrblxpq4aN5G6ZKEbgItqCE15v2xgyb
+Consumer Secret	A3ZWuSGu82qxVmcN
+Key Issued	Sun, 02/09/2020 - 04:33
+Key Expires	Never
+
+
+http://www.mapquestapi.com/geocoding/v1/address?key=knrblxpq4aN5G6ZKEbgItqCE15v2xgyb&location=1600+Pennsylvania+Ave+NW,Washington,DC,20500
