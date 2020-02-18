@@ -1,0 +1,9 @@
+return back()->withErrors(['Error: As datas não podem ser menor que a data de  hoje / Dates cannot be less than today s date', 'The Message']);
+
+  @if($errors->any())
+         
+<h5 style="color:red;">{{$errors->first()}}</h5>
+           
+@endif
+
+&nbsp;
