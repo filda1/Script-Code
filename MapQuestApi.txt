@@ -1,3 +1,6 @@
+
+DEVUELVE LATITUD Y LONGITUD
+
 Getaddresapi’s Keys
 Consumer Key	knrblxpq4aN5G6ZKEbgItqCE15v2xgyb
 Consumer Secret	A3ZWuSGu82qxVmcN

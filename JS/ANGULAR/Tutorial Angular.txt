@@ -1,0 +1,25 @@
+ANGULAR
+******************************************************************************************************************************************
+ CURSO FAZT ====> https://www.youtube.com/watch?v=OrCdt865WOg  (Parte 2)
+                  https://www.youtube.com/watch?v=HxlNxDVUSDQ  (Parte 1)
+                 * Ver https://blog.faztweb`
+
+ EJEMPLO DE VOTOS DE LINKS (FATZ) ========> https://www.youtube.com/watch?v=WriMvn-xqug&t=3s
+                                  ========> https://github.com/FaztWeb/angular-votes-app/blob/master/src/app/link/link.model.ts
+------------------------------------------------------------------------------------------------------------------------------------------
+
+ INSTALACION:
+   Utilizar ========>  angular cli  (https://cli.angular.io/), https://github.com/angular/angular-cli/wiki
+
+    npm install -g @angular/cli
+    ng new my-dream-app
+    cd my-dream-app
+    ng serve
+
+    Crear Componente ==============> ng g c nombre (== ng generate component nombre)
+    Compilar ======================> ng build --prod
+------------------------------------------------------------------------------------------------------------
+
+  * INput =======> el momento que tu form reconoce la la variable y la envia a  TS del componente
+  * Doble enlace   ===========> dos componentes en la misma pagi html, estan enlazados
+  * Api
