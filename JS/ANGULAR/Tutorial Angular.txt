@@ -18,6 +18,20 @@ ANGULAR
 
     Crear Componente ==============> ng g c nombre (== ng generate component nombre)
     Compilar ======================> ng build --prod
+
+
+***************************************************************************************************************
+
+     Funcionamiento:
+
+      1- Con angular cli ==========> se crear el 1 componente central(carpeta app)
+            app.component.html ==============> Vista general
+            app.component.ts  ===============> Procesador central 
+
+      2-  Al crear un compente(ng g c nombre) se crea un carpeta nombre
+           nombre.componente.html ==============> es compenente que va dentro de =====> app.component.html 
+           nombre.component.ts  ================> componente procesador
+
 ------------------------------------------------------------------------------------------------------------
 
   * INput =======> el momento que tu form reconoce la la variable y la envia a  TS del componente

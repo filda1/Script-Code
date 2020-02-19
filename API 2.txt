@@ -83,8 +83,10 @@ API 2
     https://www.programmableweb.com/api/sabre-car-availability
     https://developer.sabre.com/docs/rest_apis/ground/search/car_availability
 
-   OPEN STREET MAP
+   GEOLOCALIZACION
      https://www.programmableweb.com/api/openstreetmap
+     https://positionstack.com/
+     Mapquest
 
     PRECIOS DE VUELO GRATIS
     https://skyscanner.github.io/slate/
