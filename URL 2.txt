@@ -647,8 +647,14 @@ https://www.youtube.com/watch?v=gm_c93sH7wQ&list=PLK0Qy1n0iBQSis3AJUBUlMUyJdlYQ7
    https://bootswatch.com/
    https://bootstrapmade.com/demo/themes/EstateAgency/index.html
    https://mdbootstrap.com/freebies/
+   https://all-free-download.com/
+   https://www.free-css.com/template-categories
+
+   MATERALIZE ======> http://swarnakishore.github.io/MaterializeThemes/
+
     
    TEMPLATES ADMIN
+   ****https://cssauthor.com/material-design-admin-templates/
    https://themeselection.com/bootstrap-4-admin-template-github/
 
   Boosnippt

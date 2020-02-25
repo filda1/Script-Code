@@ -1,0 +1,220 @@
+  
+  CodigoMentor = https://www.youtube.com/watch?v=vzkSp4HSL3s&list=PLK7sa90aSLe7RW_7qotGlmBxMtm-jajCG&index=11
+
+
+   **************************************************************
+   *    {{ }}  ===============> Imprime                         *
+   *    [ ]    ===============> Propiedade de un componente     *
+   *    ( )    ===============> Evento de un componente         *
+   **************************************************************
+
+ 1- Componentes 
+ 
+ 2 -  String Interpolation (Interpolación) =============> le passas desde TS la variable o metodo a la VIEW
+
+   *en app.component.ts
+
+     export class AppComponent{
+
+      nombre= 'Luis';
+     
+      getNombre(){
+  
+       return this.nombre;
+      }
+     }
+
+
+
+   *en app.component.html
+
+    {{ 'Mi nombre es' + getNombre()  }}
+
+
+ 3- Property Binding   ===================================> le passas el valor de TS a la VIEW
+
+   *en app.component.ts
+
+     export class AppComponent{
+
+      MiBoton=false;
+     
+    
+     }
+
+   *en app.component.html
+
+    <Button [disable]="MiBoton"> </Button>
+
+
+
+ 4. Class Binding   ================================================> CSS, le passas css al componente y lo puedes controlar
+
+   *en app.component.html
+
+    <Button [class.nombrecss]="MiBoton"> </Button>
+
+
+
+ 5. Style Binding  ==================================================> CSS directo, Pasando valores a la propiedades css, y evaluando
+
+    *en app.component.html
+
+    <Button [style.backgroundColor]="MiBoton? 'green': 'white' "> </Button>
+
+
+ 
+ 6. Event Binding ========================================================> Acciones del user sobre el componente
+
+     *en app.component.ts
+
+     export class AppComponent{
+
+      save(e) {
+        console.log(e);
+      }
+     
+    
+     }
+
+     *en app.component.html
+
+       <Button (click) = "save($event)"> </Button>
+
+
+
+  7.  Event Filtering
+      
+      *en app.component.html
+
+       <input type="text" (keyup) = "onKeyUp($event)"> </input>
+
+
+
+  8. Template variable
+
+       *en app.component.html
+
+       <input type="text" (keyup.enter) = "onKeyUp(nombre)"  #nombre> </input>
+
+
+
+  9. Two way binding - ngModel  ===================================================> actualiza la propiedad directamente en el OBJ
+
+    * Ojo registar FormModule en appp.module.ts
+
+
+
+     *en app.component.ts
+
+     export class AppComponent{
+
+      persona {
+       nombre : 'Luis',
+       edad : 20,
+        
+      }
+     
+     }
+
+     *en app.component.html
+
+       <input type="text" [( ngModel)]= "persona.nombre"> </input>
+       <p>{{ persona.nombre }}</p>
+
+
+
+  10. Servicios HTTP (Consumir API)   =========================================> este metodo no usar, dependiente todo al hacer un cambio (Utilizar 11.)
+
+   - Crear x.services.ts :
+      
+      export class UsuariosServices {
+        getUsuarios() {
+
+             return [
+              {
+                "Nombre":"Luis",
+                "Edad":123
+              },
+              {
+                "Nombre":" Pedro",
+                "Edad":123
+              },
+              ]
+
+      }}
+     
+    * en app.component.ts
+
+        expport class AppCpmponent {
+               
+             list:any:[];
+
+            contructor(){
+
+             let usuarios = new UsuariosServices();
+             this.list = usuarios.getUsuarios();
+
+
+            }
+
+     * en app.component.html
+
+        <li *ngFor=" let persona of list"> 
+          {{ persona.nombre  }}     
+        </li>
+   
+
+
+     11. Dependency Injection
+
+       *Tienes que registrar La Injeccion (3 formas), en app.module.ts o/en services o/ en app.component.ts
+
+         1- En app.module.ts===> providers[nombredelServicio]
+
+         export class UsuariosServices {
+        getUsuarios() {
+
+             return [
+              {
+                "Nombre":"Luis",
+                "Edad":123
+              },
+              {
+                "Nombre":" Pedro",
+                "Edad":123
+              },
+              ]
+
+      }}
+     
+    * en app.component.ts
+
+        expport class AppCpmponent {
+               
+             list:any:[];
+
+            contructor(private usuairoservices:UsuariosServices){
+
+              usuarioservices.getUsuarios();
+
+
+            }
+
+
+
+        
+     
+
+
+
+
+
+     
+   
+
+
+
+
+
+
