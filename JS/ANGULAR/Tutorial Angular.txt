@@ -7,8 +7,10 @@ ANGULAR
  EJEMPLO DE VOTOS DE LINKS (FATZ) ========> https://www.youtube.com/watch?v=WriMvn-xqug&t=3s
                                   ========> https://github.com/FaztWeb/angular-votes-app/blob/master/src/app/link/link.model.ts
 ------------------------------------------------------------------------------------------------------------------------------------------
+
    * C/COMPONENTE esta vivo y tiene un mundo dentro (MicroUniverso).
    * Las CLASSES son la que conectan a los componentes, almacenamiento central
+
   
  INSTALACION:
    Utilizar ========>  angular cli  (https://cli.angular.io/), https://github.com/angular/angular-cli/wiki

@@ -203,6 +203,102 @@
 
 
 
+  12. Reactive Forms - Formularios ======================> Conecta de view a TS y viceversa, en tiempo real
+
+
+     * app.component.htm
+       *Registar em module, import: ReactiveFormsModule
+    
+     <form [formGroup]="miFormulario" >
+        User: <input type="text"
+              [class.is-invalid] = "miFormulario.get('usuario').touched && miFormulario.get('usuario').invalid"
+              formControlName="usuario" />  
+        Pass: <input type="password" 
+                [class.is-invalid] = "miFormulario.get('pass').touched && miFormulario.get('pass').invalid"
+              formControlName="pass"/>
+        <button type="submit" >Enviar</button>
+     </form>
+
+      
+         {{ miFormulario.value | json }}
+
+
+     * app.component.ts
+
+     expport class AppCpmponent {
+               
+
+            contructor(){
+
+              miFormulario = new FormGroup ({    ==========================================> Leer, El formulario es OBj tal...y se conecta con view
+    
+                 usuario: new FormControl('', Validators.required);
+
+                 pass: new FormControl('', Validators.required);
+             });
+
+            }
+
+
+
+   13. ng-content - Content Projection   =========================================> Pasar info de View App a  View Child
+
+
+       * app.component.html
+
+        <app-child>
+          Ola
+        </app-child>
+
+
+       * child.component.html
+
+        <ng-content> </ng-content>
+
+
+
+
+   14. Slot Content Projection - SELECT ====================================> Pasar info especifico del componente de View App a View Child
+
+      
+       * app.component.html
+
+        <app-child>
+          <h1> Ola </h1>
+          <h2> Mundo </h2>
+        </app-child>
+
+
+       * child.component.html
+
+        <ng-content select = "h1"> </ng-content>    =====================================> puede ser nombre, id , etiqueta, class.... en ejemplo h1
+
+
+
+    16. ViewChild
+    17. ViewChildren
+    18. QueryList
+    19. ContentChild
+    20. ContentChildren
+
+     
+
+     
+
+
+      
+  
+      
+
+
+
+
+
+
+
+
+
+
         
      
 
