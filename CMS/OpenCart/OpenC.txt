@@ -1,4 +1,12 @@
+ SUBIR a HOST
 
+ - Cambiar dominio en config.php
+ - En Admin, Cambiar dominio en config.php 
+
+ * Ojo: si falta css, bosstrapt.... =================> Cambiar dominio/s en header.tls
+
+
+----------------------------------------------------
 
    OPEN CART instalacion 
    

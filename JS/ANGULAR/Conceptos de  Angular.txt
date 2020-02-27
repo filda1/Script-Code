@@ -275,8 +275,108 @@
 
 
 
-    16. ViewChild
-    17. ViewChildren
+    16. ViewChild      =============================> traer compoente de VIEW a TS === getElemenByID('id')
+      
+     https://www.youtube.com/watch?v=AyuIaJTqBLs&list=PLezsbUDiwcpmhNiMzVPYJXV0Rqn71G4PU&index=17
+
+      * app.component.htm
+       
+      <input #nombre type="text" />
+
+     
+
+
+     * app.component.ts
+
+     expport class AppCpmponent {
+               
+           @ViewChild ('nombre'{static:true}) nombre:ElementRef   ===========================> desde vieww app a ts app
+           @ViewChild ( HijoComponent {static:true}) hijo:ElementRef   ===========================> desde vieww hijo componente a ts app
+      
+           usuario = this.nombre.nativeElement.value;
+            son = this.hijo.nativeElement.value;
+
+            contructor(){
+
+              
+             });
+
+            }
+     
+    17. ViewChildren  ===========================================> traer compoentes de VIEW a TS === getElemenByID('id')
+
+        https://medium.com/better-programming/angular-viewchild-and-viewchildren-fde2d252b9ab
+
+
+       A - @Component({
+                selector: 'accessing-template-reference',
+                template: `
+               <div>
+                 <input type="text" [(ngModel)]="userName" />
+                 <input type="text" [(ngModel)]="userAge" />
+                 <input type="text" [(ngModel)]="userDesignation" />
+               </div>
+               `
+            })
+
+          export class HeroListComponent implements OnInit {
+         @ViewChildren("NgModel") domReference: QueryList<NgModel>;
+  
+          ngAfterViewInit(): void {
+          console.log("Element List: " + this.domReference.length);
+
+           ************************
+        
+       B - TRAER Child Componente
+
+         export class HeroListComponent implements OnInit {
+         @ViewChildren("UserDetailComponent") userDetailReferences: QueryList<NgModel>;
+  
+         ngAfterViewInit(): void {
+          console.log("Element List: " + this.userDetailReferences.length);
+          }
+         }
+
+       C - 
+              @Component({
+               selector: 'accessing-template-reference',
+              template: `
+                <div>
+                 <input type="text" #applicationInfo />
+                 <input type="text" #applicationInfo />
+                 <input type="text" #applicationInfo />
+              </div>
+              `
+              })
+
+           export class HeroListComponent implements OnInit {
+           @ViewChildren("applicationInfo") applicationInfo: QueryList<NgModel>;
+  
+            ngAfterViewInit(): void {
+            console.log("Element List: " + this.applicationInfo.length);
+            }
+           }
+
+        D-
+          @Component({
+              selector: 'accessing-template-reference',
+              template: `
+            <div>
+               <input type="text" #userName />
+                <input type="text" #userAge />
+               <input type="text" #userDesignation />
+            </div>
+            `
+           })
+
+        export class HeroListComponent implements OnInit {
+         @ViewChildren("userName, userAge, userDesignation") userInfoReference: QueryList<NgModel>;
+  
+          ngAfterViewInit(): void {
+         console.log("Element List: " + this.userInfoReference.length);
+         }
+        }
+        
     18. QueryList
     19. ContentChild
     20. ContentChildren
