@@ -109,3 +109,10 @@ Api (Verificacion de emails, tlf....) ==  https://cloudmersive.com/validate-api
  Api (Text en fala ) == https://www.ipify.org/
  Api (Copia email de URL) Scrape Website Email = https://rapidapi.com/tommytcchan/api/scrape-website-email?utm_source=mashape&utm_medium=301
  Api avatares aleatorios = http://avatars.adorable.io/
+
+
+ POSTCARD
+ Mypostcard = https://www.programmableweb.com/api/mypostcard-rest-api-v11
+
+ RASBERRY PI
+  Monitoreo y + =  https://www.programmableweb.com/api/info-beamer
