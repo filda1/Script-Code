@@ -381,9 +381,71 @@
     19. ContentChild
     20. ContentChildren
 
-     
+
+    21. @Input  ==============> pasa dato de  View padre a View hijo
 
      
+     *hijo.component.html
+   
+      {{ entrada}}  =========> imprime nuevo dato
+
+   
+
+     * hijo.component.ts
+
+      * importar input.....
+
+     export HijoComponente implements OnInit {
+     
+       @input('entrada') entrada= "dato temporal";
+
+
+     
+     * app.componente,html
+
+      <app-hijo  [entrada] = "'nuevo dato'"> </app-hijo>
+
+
+
+   22. @Output  ==============> pasa dato de  View hijo a View Padre 
+   
+  EJ Proceso:  Click View hijo =======> Recibe  TS Hijo y envia a ===========> Recibe View Padre ====== Obtiene TS Padre
+
+     
+     *hijo.component.html
+       
+      <a (click)="cambiar()"> </a>
+
+   
+
+     * hijo.component.ts
+
+      * importar input, evenemiter.....
+
+     export HijoComponente implements OnInit {
+     
+       @Output('') cambio = new EventEmiter();
+
+
+       cambiar(){
+       
+             this.cambio.emit('Nuevo dato')
+       }
+
+
+     * app.componente.ts
+
+        export....
+          funcambio(e){
+
+          console.log(e);
+
+          }
+
+
+     * app.componente.html
+
+      <app-hijo  (cambio)="funcambio($event)"> </app-hijo>
 
 
       
