@@ -4,13 +4,74 @@
                             https://github.com/CoreyMSchafer/code_snippets/tree/master/Django_Blog
 
 ************************************************************************************************************************
+NOTA: Python tiene admin y frontend incluido
+
+
 
     *   Donwload Python
     *   Terminal: pip install django
     *   python -m django --version
-    *   django-admin xxxxx
+    *   django-admin nombreAdmin                 ==========================================> El Admin es el proyecto General que controla todo
 
-    *   dajango-admin startproject nombreapp
+    *   django-admin startproject nombreAdmin
     *   cd nombreapp/
     
     *   python manage.py runserver
+
+    *   python manage.py startapp nombreApp      ==========================================> proyecto FRONTEND
+
+
+
+
+
+ ***************************************************************************************************************************
+
+
+    FUNCIONAMIENTO:
+ 
+      1- EN ADMIN,
+        urls.py:
+
+                from django.contrib import admin
+                from django.urls import path
+
+                from django.contrib import admin
+                from django.urls import path, include
+
+
+                  urlpatterns = [
+                    path('admin/', admin.site.urls),
+                    path('', include('nombreApp.urls')),  ==================================================> RUTA PRINCIPAL
+                  ]
+
+
+      2- EN FRONTEND,
+        urls.py:
+
+                from django.urls import path
+                from . import views
+
+                urlpatterns = [
+
+                path('', views.home, name='blog-home'),
+                path('about/', views.about, name='blog-about'),      ========================================> SUb-Ruta (EJ: localhost:8000/about/)
+
+                ]
+
+      
+         views.py:
+
+                from django.shortcuts import render
+                from django.http import HttpResponse
+
+
+                def home(request):
+                    return HttpResponse('<h1>Blog Home</h1>')
+
+
+                def about(request):
+                    return HttpResponse('<h1>Blog About</h1>')
+
+
+
+
