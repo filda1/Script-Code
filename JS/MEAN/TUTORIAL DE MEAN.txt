@@ -1,0 +1,99 @@
+TUTORIAL DE MEAN
+
+
+  FAZT == https://www.youtube.com/watch?v=khCIunNAEHI (Parte 1)          33
+       == https://www.youtube.com/watch?v=ccBtSAMFjto (Parte 2)
+
+       == https://github.com/FaztWeb/mean-employees
+
+  -------------------------------------------------------------------
+  EN SERVER: - Utiliza MVC
+             - Al crear una clase (Model) == crea una TABLE BD + conexion BD
+             - Los CONTROLLER votan json
+
+
+****************************************************************************************************************
+  
+   A. EJEMPLO CRUD (Formulario envia datos en la misma pagina, en la que se ve los datos)
+
+    1. Crear Carpetas/archivos:     =====================================================================>SERVER
+
+         server        
+             controllers
+             models
+             routes
+               employee.routes.js
+             database.js
+             index.js
+
+           
+        1.1 Terminal (Afuera de la carpeta server):       npm init --yes
+        1.2 Terminal (Afuera de la carpeta server):       npm install express
+
+        1.3 en index.js
+
+             const express = require('express');
+             const cors = require('cors');               ...........................................> se puede usar morgan: const morgan = require('morgan');
+             const app = express();
+
+             const { mongoose } = require('./database');
+
+              // Settings
+             app.set('port', process.env.PORT || 3000);
+
+             // Middlewares
+             app.use(cors({origin: 'http://localhost:4200'}));      ...................................> se puede utilizar morgan:  app.use(morgan('dev'))
+            (express.json());
+
+             // Routes
+             app.use('/api/employees', require('./routes/employee.routes'));
+
+            // starting the server
+            app.listen(app.get('port'), () => {
+            console.log(`server on port ${app.get('port')}`);
+            });
+
+
+
+        1.4 Terminal: 
+                     npm server/index.js (RUN)
+                     npm install nodemon -D   ..........................................................................> RUN AUTOMATICO
+                         (configurar: package.json : en "scripts"  ===============> borrar no q esta adentro y poner:  "dev":"nodemon server/index.js"
+
+                     npm run dev ........................................................................................>(RUN NUEVO AUTOMATICO)
+
+                 
+                     npm install morgar .................................................................................> Ver por consola Peticiones/respuesas
+
+
+                     npm install mongoose ................................................................................> DRIVER BD
+
+
+                     mongod ...............................................................................................> INICIAR MONGODB
+
+                        pass y luego exit....
+
+
+
+
+        1.5 database.js:   
+
+
+                        const mongoose = require('mongoose');
+                        const URI = 'mongodb://localhost/nombreDB';
+
+                        mongoose.connect(URI)
+                        .then(db => console.log('db is connected'))
+                        .catch(err => console.error(err));
+
+                        module.exports = mongoose;
+
+
+
+
+
+
+
+
+                        
+                      
