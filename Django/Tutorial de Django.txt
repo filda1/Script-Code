@@ -27,6 +27,31 @@ NOTA: Python tiene admin y frontend incluido
  ***************************************************************************************************************************
 
 
+    ESTRUCTURA carpetas/archivos:
+
+       django-proyect     =====================================================> EL Admin (Controlo el proyecto general)
+         urls.py          ====================================================================> Rutas principal
+         settings.py
+         ....
+
+
+        Bloc              ======================================================> El proyecto 
+         urls.py          ====================================================================> Sub -Rutas
+         views.py         ==============================================================================================> View o Controller
+         template         ===================================================================================================================> View
+            blog
+             base.html
+             home.html
+             about.html 
+         static
+             bloc
+              main.css
+         apps.py
+
+
+
+       
+
     FUNCIONAMIENTO:
  
       1- EN ADMIN,
@@ -59,7 +84,7 @@ NOTA: Python tiene admin y frontend incluido
                 ]
 
       
-         views.py:
+         views.py  (Como View):                                                ============================================> Puede ser vista o Controller
 
                 from django.shortcuts import render
                 from django.http import HttpResponse
@@ -73,5 +98,122 @@ NOTA: Python tiene admin y frontend incluido
                     return HttpResponse('<h1>Blog About</h1>')
 
 
+        3. TEMPLATE:
+
+
+                Crear Carpetas template y dentro bloc (dentro del proyecto Ej Bloc):
+
+                3.1 Cconfigurar:
+
+                  - En setting.py(admin) poner ===============>   INSTALLED_APPS = [
+                                                                             'blog.apps.BlogConfig', ===================> aparece en app.py(Bloc )
+
+
+               3.2  En views.py  (Como Controller) en Bloc: 
+
+
+                from django.shortcuts import render
+
+                 posts = [
+                                {
+                                 'author': 'CoreyMS',
+                                 'title': 'Blog Post 1',
+                                 'content': 'First post content',
+                                 'date_posted': 'August 27, 2018'
+                                 },
+    
+                         ]
+
+
+                       def home(request):
+                          context = {
+                                      'posts': posts
+                                     }
+
+                          return render(request, 'blog/home.html', context)     =====================> puedes pasae un lista de objetos a View
+
+
+                       def about(request):
+
+                         return render(request, 'blog/about.html', {'title': 'About'})    ===================> puedes pasar un variable a view
+
+
+
+
+                 3.3 Views, dentro de (template =========> bloc):
+
+                      base.html :
+
+     
+                      {% load static %}
+                     <!DOCTYPE html>
+                       <html>
+                       <head>
+
+                     <!-- Required meta tags -->
+                        <meta charset="utf-8">
+                        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+                         <!-- Bootstrap CSS -->
+                      
+
+                          <link rel="stylesheet" type="text/css" href="{% static 'blog/main.css' %}">
+
+                          {% if title %}
+                           <title>Django Blog - {{ title }}</title>
+                           {% else %}
+                           <title>Django Blog</title>
+                            {% endif %}
+                       </head> 
+
+                         <body>
+                                <a class="navbar-brand mr-4" href="{% url 'blog-home' %}">Django Blog</a>
+                         </body>   
+
+
+
+                             <div class="col-md-8">
+                                  {% block content %}{% endblock %}  ==========================================> importa demas paginas que tiene una extension
+                             </div>
+
+
+                  
+                        home.hml:
+
+                          {% extends "blog/base.html" %}
+
+                             {% block content %}
+                                 {% for post in posts %}
+
+                               <article class="media content-section">
+                                 <div class="media-body">
+                                 <div class="article-metadata">
+                                 <a class="mr-2" href="#">{{ post.author }}</a>
+                                 <small class="text-muted">{{ post.date_posted }}</small>
+                               </div>
+                                <h2><a class="article-title" href="#">{{ post.title }}</a></h2>
+                              <p class="article-content">{{ post.content }}</p>
+                              </div>
+                            </article>
+
+                               {% endfor %}
+
+                          {% endblock content %}
+
+
+
+
+
+
+
+
+
+                 
+
+
+
+              
+
+      
 
 

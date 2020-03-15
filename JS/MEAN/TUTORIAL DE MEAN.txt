@@ -1,7 +1,7 @@
 TUTORIAL DE MEAN
 
 
-  FAZT == https://www.youtube.com/watch?v=khCIunNAEHI (Parte 1)          33
+  FAZT == https://www.youtube.com/watch?v=khCIunNAEHI (Parte 1)          
        == https://www.youtube.com/watch?v=ccBtSAMFjto (Parte 2)
 
        == https://github.com/FaztWeb/mean-employees
@@ -9,7 +9,7 @@ TUTORIAL DE MEAN
   -------------------------------------------------------------------
   EN SERVER: - Utiliza MVC
              - Al crear una clase (Model) == crea una TABLE BD + conexion BD
-             - Los CONTROLLER votan json
+             - Los CONTROLLER pinta json
 
 
 ****************************************************************************************************************
@@ -20,6 +20,7 @@ TUTORIAL DE MEAN
 
          server        
              controllers
+              employee.controller.js
              models
              routes
                employee.routes.js
@@ -87,6 +88,127 @@ TUTORIAL DE MEAN
                         .catch(err => console.error(err));
 
                         module.exports = mongoose;
+
+
+
+
+   
+         1.6 Routes, en Routes => emplyeed.routes:
+
+
+            const express = require('express');
+            const router = express.Router();
+              
+
+             **********************************************************
+            // route.get('/xxx', (req,res) => {
+               res.send('Hello World');
+            )}
+
+             O
+
+            // route.get('/xxx', (req,res) => {
+               res.json(
+                   status:'Hello World');
+              )}
+
+
+            ***********************************************************
+
+             const employee = require('../controllers/employee.controller');
+
+             router.get('/', employee.getEmployees);              ============================================> '/' no es la ruta verdadera, la verdadera esta index.js
+             router.post('/', employee.createEmployee);
+             router.get('/:id', employee.getEmployee);
+             router.put('/:id', employee.editEmployee);
+             router.delete('/:id', employee.deleteEmployee);
+
+             module.exports = router;
+
+
+
+
+           1.7 En models , crear TablaBD (EJ: employee.js):
+
+
+            const mongoose = require('mongoose');
+            const { Schema } = mongoose;
+
+            const employeeSchema = new Schema({
+                                   name: { type: String, required: true},
+                                   position: { type: String, required: true },
+                                   office: { type: String, required: true },
+                                   salary: { type: Number, required: true}
+            });
+
+            module.exports = mongoose.model('Employee', employeeSchema);
+
+            
+
+
+          
+            1.8 En Controlller, employee.controller.js:
+
+
+                    const Employee = require('../models/employee');
+
+                      const employeeCtrl = {};
+
+
+                      employeeCtrl.getEmployees = async (req, res, next) => {
+                      const employees = await Employee.find();
+                      res.json(employees);
+                      };
+
+
+                     employeeCtrl.createEmployee = async (req, res, next) => {
+                     const employee = new Employee({
+                                      name: req.body.name,
+                                      position: req.body.position,
+                                      office: req.body.office,
+                                      salary: req.body.salary
+                                      });
+                             await employee.save();
+                            res.json({status: 'Employee created'});
+                       };
+
+
+                    employeeCtrl.getEmployee = async (req, res, next) => {
+                    const { id } = req.params;
+                    const employee = await Employee.findById(id);
+                    res.json(employee);
+                    };
+
+
+
+                    employeeCtrl.editEmployee = async (req, res, next) => {
+                    const { id } = req.params;
+                    const employee = {
+                    name: req.body.name,
+                    position: req.body.position,
+                    office: req.body.office,
+                    salary: req.body.salary
+                    };
+
+                    await Employee.findByIdAndUpdate(id, {$set: employee}, {new: true});
+                    res.json({status: 'Employee Updated'});
+                    };
+
+
+
+
+                    employeeCtrl.deleteEmployee = async (req, res, next) => {
+                    await Employee.findByIdAndRemove(req.params.id);
+                    res.json({status: 'Employee Deleted'});
+                    };
+
+
+
+                    module.exports = employeeCtrl;
+
+
+
+
 
 
 

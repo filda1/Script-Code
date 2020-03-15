@@ -2,3 +2,8 @@
 
    + Todos los Objetos tienen la propiedad =============> child
    + Hay 2 tipos de Objetos  =============> los tienen las propiedad unicas Y los objetos que repiten las proìedades (Children)
+
+************************************************************************************
+ Santos Enoke (Flutter e-comerce)  ======= https://www.youtube.com/watch?v=Dy_zBF6rJFc&list=PLmnT6naTGy2SC82FMSCrvZNogg5T1H7iF
+
+                                   ======= https://github.com/Santos-Enoque/complete_flutter_ecommerce/tree/video29
