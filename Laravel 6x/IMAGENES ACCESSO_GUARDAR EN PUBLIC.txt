@@ -1,0 +1,18 @@
+
+ IMAGENES EN PUBLIC
+   * Imagenes acceden/y guardan directamente de la carpeta public sim problemas
+
+ 1. Config ====> filesystem.php
+
+
+ 'disks' => [
+
+        'local' => [
+            'driver' => 'local',
+            //'root' => storage_path('app'),
+            'root' => public_path('app'),¡
+
+        ],
+
+
+  <img src="{{url('/http://www.domnio.com/app/public/'. $posts[12]->picturehotel )}}" class="img-fluid">
