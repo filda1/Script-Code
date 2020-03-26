@@ -206,15 +206,140 @@ TUTORIAL DE MEAN
 
                     module.exports = employeeCtrl;
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+      PARTE 2 (Angular)
+
+            1. npm install -g @angular/cli
+            2. cd carpeta/proyecto  ng new frontend
+            3. cd carpeta/proyecto/frontend ng serve       ========================================> localhost:4200
+
+
+
+            OTRA TERMINAL Para Servidor                    ========================================> localhost:3000
+             A.   npm run dev
+             B.   cd service mongod start                  ============================> inciar MongoDB
+             C.   npm run dev
+
+
+                     
+
+                    4. carpetas/archivos:
+
+
+                         src
+                          app
+                            components
+
+                            models
+
+                            services
 
 
 
 
+            5. Terminal: 
+                   en:  
+                         src/app/components ng g c employees                     ==================================================> Crear componente
+
+                         cd..
+                         cd/models
+       
+                         src/app/models   ng g class employee                    ==================================================> Crear Modelo   
+
+                          cd..
+                         cd/services   
+
+                         src/app/services  ng g s  employee                       ==================================================>  Crear servicio  
+
+ 
+
+
+            6. En index.html       ==================================================> poner css ( Ej: Boostrapt, materializecss)   
+
+    
+
+                         
+            7. employee.html:
+                      <div class="card-content">
+                       <form #employeeForm="ngForm" (ngSubmit)="addEmployee(employeeForm)">
+                         <input type="hidden" name="_id" #_id="ngModel" [(ngModel)]="employeeService.selectedEmployee._id"> 
+                             
+                                       ===========> ngModel: llama a class en                                                                                                                                          service ===> va a la varible q                                                                                                                                          tiene el obeto y accede a la propiedad
 
 
 
+            
+            8. app.module.ts                  ===========================================================> configurar
+
+                   import { BrowserModule } from '@angular/platform-browser';
+                   import { NgModule } from '@angular/core';
+                   import { FormsModule } from '@angular/forms';
+                   import { HttpClientModule } from '@angular/common/http';
 
 
+
+            9. modules/employee.ts:
+
+                      
+                     export class Employee {
+
+                        
+                         _id: string;
+                         name: string;
+                         position: string;
+                         office: string;
+                         salary: number;
+
+                        constructor(_id = '', name = '', position = '', office = '', salary = 0) {
+                                    this._id = _id;
+                                    this.name = name;
+                                    this.position = position;
+                                    this.office = office;
+                                    this.salary = salary;
+                        }
+
+                     }  
+
+             10. services/employees.ts                             =======================================================> Consumir API
+
+                         import { Injectable } from '@angular/core';
+                         import { HttpClient } from '@angular/common/http';
+
+                         import { Employee } from '../models/employee';
+
+                        @Injectable({
+                            providedIn: 'root'
+                                   })
+
+                      export class EmployeeService {
+
+                            selectedEmployee: Employee;
+                            employees: Employee[];
+  
+                             readonly URL_API = 'http://localhost:3000/api/employees';
+
+                             constructor(private http: HttpClient) {
+
+                             this.selectedEmployee = new Employee();
+                             }
+
+                             postEmployee(employee: Employee) {
+                             return this.http.post(this.URL_API, employee);
+                             }
+
+                             getEmployees() {
+                             return this.http.get(this.URL_API);
+                             }
+
+                             putEmployee(employee: Employee) {
+                             return this.http.put(this.URL_API + `/${employee._id}`, employee);
+                             }
+
+                             deleteEmployee(_id: string) {
+                             return this.http.delete(this.URL_API + `/${_id}`);
+                              }
+                        } 33:34
 
 
                         

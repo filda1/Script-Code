@@ -1,0 +1,33 @@
+ PAYMENTCONTROLLER
+
+  ////////////////////////////// STRIPE /////////////////////////////////////////////////////////////
+// \Stripe\Stripe::setApiKey("sk_test_3RTyudVkKAzEVzkFg8uxSUgB00AZEFQXVa");
+
+	  // Set your secret key: remember to change this to your live secret key in production
+		// See your keys here: https://dashboard.stripe.com/account/apikeys
+		//\Stripe\Stripe::setApiKey("sk_test_OOqL6MGROcrlKiuHMdAomds800W3HSpmrT");
+		\Stripe\Stripe::setApiKey("sk_test_OOqL6MGROcrlKiuHMdAomds800W3HSpmrT");
+		// Token is created using Checkout or Elements!
+		// Get the payment token ID submitted by the form:
+		$token = $_POST['stripeToken'];
+		$charge = \Stripe\Charge::create([
+		    'amount' => $amount,
+		    'currency' => 'eur',
+		    'description' => 'Reserve',
+		    'source' => $token,
+    ]);
+//////////////////////////////// STRIPE ////////////////////////////////////////////////////////////
+
+
+ VIEW
+
+  <script
+                        src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                        data-key="pk_test_305GJztrSCnefLwU8m5tb9Et00ROKOGt3W"
+                        data-amount={{ round($totalfinal*100)}} 
+                        data-name="RSA Ecolodge"
+                        data-description="Reserve"
+                        data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+                        data-locale="auto"
+                        data-currency="eur">
+                      </script>
