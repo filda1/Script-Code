@@ -13,6 +13,14 @@ TUTORIAL DE MEAN
 
 
 ****************************************************************************************************************
+
+ IDEA GENERAL:
+
+     * Cuando bajas datos(jason) lo cargas en un objeto directamente
+     * Cuando subes datos lo cargas en un objeto
+     * Y cuando quiers ver los datos recorres el objeto directamente
+
+-----------------------------------------------------------------------------------------------------------------
   
    A. EJEMPLO CRUD (Formulario envia datos en la misma pagina, en la que se ve los datos)
 
@@ -325,7 +333,7 @@ TUTORIAL DE MEAN
                              }
 
                              postEmployee(employee: Employee) {
-                             return this.http.post(this.URL_API, employee);
+                             return this.http.post(this.URL_API, employee);    =========================> envio form a  employee.ts se pasa los datos a  la classe(en                                                                                                             emplooyeeService) ====> carga el objeto
                              }
 
                              getEmployees() {
@@ -339,7 +347,179 @@ TUTORIAL DE MEAN
                              deleteEmployee(_id: string) {
                              return this.http.delete(this.URL_API + `/${_id}`);
                               }
-                        } 33:34
+                        } 
+
+                   
+                      * No olvidar configurar app.module.ts
+
+
+
+                    11. FURMULARIO PASA DATOS A TS del subcomponente
+                         
+ <div class="container">
+  <div class="row">
+    <div class="col s5">
+      <div class="card">
+        <div class="card-content">
+          <form #employeeForm="ngForm" (ngSubmit)="addEmployee(employeeForm)">
+            <input type="hidden" name="_id" #_id="ngModel" [(ngModel)]="employeeService.selectedEmployee._id">
+            <div class="row">
+              <div class="input-field col-s12">
+                <input type="text" name="name" #name="ngModel" [(ngModel)]="employeeService.selectedEmployee.name" placeholder="Enter your FullName">
+              </div>
+              <div class="input-field col-s12">
+                <input type="text" name="position" #name="ngModel" [(ngModel)]="employeeService.selectedEmployee.position" placeholder="Enter your Position">
+              </div>
+              <div class="input-field col-s12">
+                <input type="text" name="office" #name="ngModel" [(ngModel)]="employeeService.selectedEmployee.office" placeholder="Enter your Office">
+              </div>
+              <div class="input-field col-s12">
+                <input type="text" name="salary" #name="ngModel" [(ngModel)]="employeeService.selectedEmployee.salary" value="0" placeholder="Enter your Salary">
+              </div>
+              <div class="card-action">
+                <div class="input-field col-s12">
+                  <button class="btn right" style="margin-left: 2px;" (click)="resetForm(employeeForm)">Clean</button>
+                  <button class="btn right">Save</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="col s7">
+      <table class="striped highlight black-text">
+        <thead>
+          <th>Name</th>
+          <th>Position</th>
+          <th>Office</th>
+          <th>Operations</th>
+        </thead>
+        <tbody>
+          <tr *ngFor="let employee of employeeService.employees">
+            <td>{{ employee.name }}</td>
+            <td>{{ employee.position }}</td>
+            <td>{{ employee.office }}</td>
+            <td>
+              <a (click)="editEmployee(employee)">
+                <i class="material-icons">edit</i>
+              </a>
+              <a (click)="deleteEmployee(employee._id, employeeForm)">
+                <i class="material-icons">delete</i>
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+                    12. RECIBO LOS DATOS DEL FORMULARIO, employee.ts
+
+
+                         import { Component, OnInit } from '@angular/core';
+                         import { EmployeeService } from '../../services/employee.service';
+                         import { NgForm } from '@angular/forms';
+                         import { Employee } from '../../models/employee';
+
+                         declare var M: any;
+
+                        @Component({
+                                    selector: 'app-employee',
+                                    templateUrl: './employee.component.html',
+                                    styleUrls: ['./employee.component.css'],
+                                    providers: [ EmployeeService ]
+                                    })
+
+                       export class EmployeeComponent implements OnInit {
+
+                                  constructor(private employeeService: EmployeeService) { }
+
+                                              ngOnInit() {
+
+                                                   this.getEmployees();
+                                               }
+
+                                   addEmployee(form?: NgForm) {
+
+                                         console.log(form.value);
+
+                                           if(form.value._id) {
+                                               this.employeeService.putEmployee(form.value)
+                                               .subscribe(res => {                           =======================> subcribe: es para escuchar respuesta de servidor
+                                                this.resetForm(form);
+                                                this.getEmployees();
+                                                M.toast({html: 'Updated Successfully'});
+                                             });
+
+                                             } else {
+                                                     this.employeeService.postEmployee(form.value)
+                                                     .subscribe(res => {
+                                                     this.getEmployees();
+                                                     this.resetForm(form);
+                                                     M.toast({html: 'Save successfully'});
+                                                   });
+                                                }
+    
+                                            }
+
+                                            getEmployees() {
+                                                             this.employeeService.getEmployees()
+                                                            .subscribe(res => {
+                                                             this.employeeService.employees = res as Employee[]; ==============> vas a service y mete los datos en lista de obejetos                                             console.log(res);
+                                                            });
+                                                           }
+
+                                           editEmployee(employee: Employee) {
+                                                              this.employeeService.selectedEmployee = employee;
+                                           }
+
+
+                                           deleteEmployee(_id: string, form: NgForm) {
+                                                       if(confirm('Are you sure you want to delete it?')) {
+
+                                                               this.employeeService.deleteEmployee(_id)
+                                                               .subscribe(res => {
+                                                               this.getEmployees();
+                                                               this.resetForm(form);
+                                                               M.toast({html: 'Deleted Succesfully'});
+                                                               });
+                                                          }
+                                            }
+
+                                          resetForm(form?: NgForm) {
+
+                                                               if (form) {
+                                                                   form.reset();
+                                                                      this.employeeService.selectedEmployee = new Employee();
+                                                                  }
+                                                            }
+
+                                  }
+
+
+                        13. Conectar puerto 4200 y puerto 3000 ===============> utlizo CORS
+
+                          terminal: install npm cors
+
+                          En index.js poner:
+
+                                         const cors = require('cors');
+ 
+                                         //Middlewares
+                                         app.use(cors({ origin:'hhtp: localhost:4200'}));
+
+
+                        * npm run dev
+
+
+
 
 
                         

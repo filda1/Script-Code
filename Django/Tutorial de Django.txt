@@ -113,12 +113,12 @@ NOTA: Python tiene admin y frontend incluido
 
 
                 from django.shortcuts import render
-
+                from .models import Posts                ==============================> viene de la base de datos sqlite
                  posts = [
                                 {
                                  'author': 'CoreyMS',
                                  'title': 'Blog Post 1',
-                                 'content': 'First post content',
+                                 'content': 'First post content',    ========================> tambien viene puede venir de la base de datos SQLite
                                  'date_posted': 'August 27, 2018'
                                  },
     
@@ -127,7 +127,8 @@ NOTA: Python tiene admin y frontend incluido
 
                        def home(request):
                           context = {
-                                      'posts': posts
+                                      'posts': posts  
+                                      // 'posts': Post.objects.all()      ==========================> de la base de datos Sqlite
                                      }
 
                           return render(request, 'blog/home.html', context)     =====================> puedes pasae un lista de objetos a View
@@ -200,6 +201,47 @@ NOTA: Python tiene admin y frontend incluido
 
                           {% endblock content %}
 
+
+
+
+                   4. CREAR ADMIN
+                         terminal:
+                                     *  python manage.py migrate
+                                     *  python manage.py createsuperuser ...
+                                     *  python manage.py runserver
+
+
+
+
+                  5. BASE DE DATOS INTEGRADA (SQLITE3)
+
+
+                  5.1 En proyecto/models.py:
+
+
+                         from django.db import models
+                         from django.utils import timezone
+                         from django.contrib.auth.models import User
+
+
+                        class Post(models.Model):
+                               title = models.CharField(max_length=100)
+                               content = models.TextField()
+                               date_posted = models.DateTimeField(default=timezone.now)
+                               author = models.ForeignKey(User, on_delete=models.CASCADE)
+
+                         def __str__(self):
+                           return self.title
+
+
+
+                    5.2 terminal:
+                    
+                      >>> pythom manage.py makemigrations
+
+                      >>> python manage.py sqlmigrate nombreproyecto numerodemigracion
+
+                      >>> python manage.py shell  ========================================> puedes ingresar datos en tabla de Sqlite y accessos
 
 
 
