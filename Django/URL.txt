@@ -1,0 +1,15 @@
+https://docs.hektorprofe.net/django/web-personal/patron-mvt-modelo-vista-template/
+
+ web empresarial + boostrapt == https://docs.hektorprofe.net/django/web-empresarial/
+
+  + tutorial= https://openwebinars.net/blog/tutorial-django-vistas-url-procesar-datos/
+
+  oFICIAL== https://docs.djangoproject.com/es/3.0/intro/tutorial01/
+
+   otro = https://developer.mozilla.org/pt-BR/docs/Learn/Server-side/Django/skeleton_website
+
+   Emails codigo facilito = https://www.youtube.com/watch?v=XPa_duOg2Ko
+
+   Django REST = https://www.paradigmadigital.com/dev/introduccion-django-rest-framework/
+
+   Django + Vue.js = https://www.youtube.com/watch?v=WbAqnp-zqPU&list=PLpOqH6AE0tNh7-Z-Lka9e0hRA2OdNB0dx&index=2

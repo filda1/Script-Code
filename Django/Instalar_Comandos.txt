@@ -1,0 +1,3 @@
+  Pipeenv = https://www.youtube.com/watch?v=-XIsKyNWILo
+
+   PIPENV     -------------------------------> nuevo entorno virtual (para saltar versiones, en caso hubise un problema)

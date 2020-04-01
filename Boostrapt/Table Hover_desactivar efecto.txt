@@ -1,0 +1,16 @@
+
+   TABLE HOVER == DESACTIVAR EL ECETO DE MOUSE
+
+<style>	
+ .table-hover>tbody>tr.no-hover:hover {
+    background-color: #ffffff;
+}
+ </style>
+
+     <table class="table-hover">
+
+          <thead>
+          <tr class="no-hover">
+
+           </tr>
+          </thead>

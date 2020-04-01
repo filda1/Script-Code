@@ -1,0 +1,43 @@
+ 
+
+  VIRTUALENV      =============================================> trabajar varias versiones de python(Ej. cuando no exite una libreria). *La version global por defecto
+                                                                 * Donde ? los paquetes en version global =======> lib/site-package
+                                                                 * ES PARA SALTAR DE UNA VERSION A OTRA VERSION
+
+    1- Download Python
+
+    2. >> python python_info.py    ----------------------------------------------------------------------------> paquetes
+
+    3. >> pip install virtualenv
+
+    4. >> virtualenv env27          ----------------------------------------------------------------------------> va al entorno python 2.7
+                                                                                                                  *Ja tenemos el entorno global por defecto
+
+    5. >>  cd env27
+           ls
+
+    6. >> cd Scripts
+            ls
+
+    7. >> activate.bat             ------------------------------------------------------------------------------> activar el entorno
+
+    8. >> cd python python_info.py
+
+    9. Ej:  >> pip install -r requeriments.txt  ----------------------------------------------------------> dentro del entorno traemos lo que queramos de la global
+
+    10. python python_info.py                 ------------------------------------------------------------> vemos el paquete
+
+    11. deactivate.bat                       -------------------------------------------------------------> desactivamos y pasamos a  otro entorno
+
+
+*********************************************************************************************************************************************************************
+   
+    12. virtualenv --help
+
+    13. >> virtualenv -p "C:Program Files\Python35\Python.exe" env35   ---------------------------------------------> INstalar Otra version
+
+    14 >> Todo igual al anterior
+
+    15. >> python main.py                 ----------------------------------------------------------------------------------> RUN
+
+ 
