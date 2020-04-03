@@ -1,0 +1,52 @@
+
+  -App para cabelereiros
+Publicado: há 2 meses Propostas: 5
+O meu projeto é a criação de um app para cabelereiros profissionais de forma a que os clientes possam fazer reservas, pagamentos online, horários do mesmo e localização dos salões na zona de Lisboa.
+
+
+ -Transformar conteúdo do Instagram em Post para Blog
+
+ -Whastapp e Facebook marketing digital
+Publicado: há 4 meses Propostas: 0
+Preciso de um software de marketing digital que capte links de grupos na internet(facebook, google, websites) e que faça a maioria destas funçoes:
+• Filtro de Números
+• Extração de Contatos em Grupos
+• Auto Post em Grupos
+• Enviar para vários números
+• Setup de Envio Avançado
+• Tempo de Espera entre envios
+• Gerador de Número
+• Tipo de Mensagem Múltipla
+• Enviar Imagens, Vídeos e Audios ao mesmo tempo
+• Correr várias campanhas ao mesmo tempo
+• Trabalha com qualquer anti vírus instalado no computador
+• Este software pode ser usado para encontrar nomes de negócios, endereços, cidades, estados, código
+postal, telefones, classificação, sites, latitude, longitude e horário de funcionamento Em super
+velocidade, o programa irá ajudá lo a converter dados da Web em CSV ou outro formato
+• Também podem usar a opção de e mail de localização para procurar os endereços de e mail dos seus
+contatos
+• Permite colocar os tipos de email que quero, por exemplo gmail e Hotmail, profissão, palavras chave
+ligadas à profissão e subsector de atividade dentro da profissão
+
+• Selecionando todas estas opções o software vai varrer todo o LinkedIn e vai extrair todos os contactos
+de email segmentados pela nossa pesquisa, depois podemos extraí los para um ficheiro txt
+• Software que permite enviar emails de forma massiva quase como se fosse um autorresponder
+
+- App para gerar telefones virtuais para recebimento de sms
+
+
+- Site de investimento em bitcoins
+Publicado: há 8 meses Prazo de Entrega: 30 Propostas: 2
+Preciso de um site de investimento em bitcoins, que tenha um dashboard de cliente que registe os pagamentos e levantamentos do cliente, que tenha uma api de pagamentos e levantemento em bitcoins e um contador de lucros diarios de 5% ao dia, o site deve ser em ingles e ter uma pagina principal, uma de termos, faq e contactos, resumidamente é isto que preciso.
+Exemplo do site que pretendo : gooddeposit.biz e bestinvestment.io
+Só liberto o pagamento quando testar o site e estiver tudo a funcionar, este projeto deve começar no dia 10 de agosto e acabar no dia 10 de setembro. Obrigado
+
+
+-Software para Kiosk Self-service com ligação a Shopify
+
+- Desenvolvimento De Site De Redirecionamento De Encomendas
+Publicado: há 8 meses Prazo de Entrega: 30 Propostas: 4
+Faço um serviço de redirecionamento de encomendas da europa para o mundo , preciso de um site para gerenciamento de tudo, tenho todas as especficaçoes de como será feita cada função do site. Abaixo envio alguns sites de exemplos
+uscloser.com
+ficadicaeua.com
+box4world.com

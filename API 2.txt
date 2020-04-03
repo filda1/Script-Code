@@ -106,8 +106,11 @@ Imagnes = https://www.linkapi.solutions/uploads/2019/10/LinkApi-eBook-APIs-RESTf
 
 
 Api (Verificacion de emails, tlf....) ==  https://cloudmersive.com/validate-api
+
  Api (Text en fala ) == https://www.ipify.org/
+
  Api (Copia email de URL) Scrape Website Email = https://rapidapi.com/tommytcchan/api/scrape-website-email?utm_source=mashape&utm_medium=301
+
  Api avatares aleatorios = http://avatars.adorable.io/
 
 
@@ -116,3 +119,6 @@ Api (Verificacion de emails, tlf....) ==  https://cloudmersive.com/validate-api
 
  RASBERRY PI
   Monitoreo y + =  https://www.programmableweb.com/api/info-beamer
+
+ METRICAS DE COMAPNIAS
+ https://www.programmableweb.com/api/zirra-rest-api-v1

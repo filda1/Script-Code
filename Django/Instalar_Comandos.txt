@@ -1,3 +1,36 @@
-  Pipeenv = https://www.youtube.com/watch?v=-XIsKyNWILo
+  Fatz= Pipenv = https://www.youtube.com/watch?v=-XIsKyNWILo
+
+  manual = https://platzi.com/tutoriales/1104-python/2292-pipenv-virtualenv-y-pip-en-un-solo-comando/
+
+
 
    PIPENV     -------------------------------> nuevo entorno virtual (para saltar versiones, en caso hubise un problema)
+
+   
+   >> python --version
+
+   >> pip3 install pipenv
+
+   >> pipenv shell         -------------------------------------------> crea entorno/activar, tambien aprece un archivo Pipfile
+
+   >> exit                ----------------------------------------------> desactivar
+
+   >> pipenv --rm         ----------------------------------------------> remover
+
+
+   ej: instalar paquete:   >> pipen install colorama
+
+     en Pipfile : aparece en [packages] (es para poduccion) . Y tambien para desarrollo [dev-packages]. Puedes instalar directamente dentro
+
+
+   >> pipenv lock -r           ----------------------------------------------> ver paquetes
+
+   >> pipenv uninstall colorama
+
+   >> pipenv install django          o       crear arichivo requeriments.tx ==========> poner Danjo==2.1.2 y    >> pipen install -r requeriments.tx
+
+   >> pipenv check        , se corrige y luego >> pipen install            -------------------------------------------------------> revision de problemas
+
+   >> pipenv lock                  --------------------------------------------------------------------> actualiza para deploy
+
+   >> pipenv  install --ignore-pipfile             -----------------------------------------------------> en caso de problemas packetes ignora
