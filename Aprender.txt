@@ -6,3 +6,5 @@
  4 Flutter
  5 Go
  6 React
+ 7 Python
+ 8 MEAN

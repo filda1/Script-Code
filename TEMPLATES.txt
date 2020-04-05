@@ -1,0 +1,23 @@
+TEMPLATES
+   StartBoostrapt
+   https://colorlib.com
+   w3schooll
+   http://www.freetimelearning.com/bootstrap-3-plugins.php#
+   https://themes.gohugo.io/
+   https://bootswatch.com/
+   https://bootstrapmade.com/demo/themes/EstateAgency/index.html
+   https://mdbootstrap.com/freebies/
+   https://all-free-download.com/
+   https://www.free-css.com/template-categories
+
+   MATERALIZE ======> http://swarnakishore.github.io/MaterializeThemes/
+
+    
+   TEMPLATES ADMIN
+   ****https://cssauthor.com/material-design-admin-templates/
+   https://themeselection.com/bootstrap-4-admin-template-github/
+
+
+
+   TEMPLATES ANGULAR
+    https://colorlib.com/wp/angularjs-website-templates/?v=35357b9c8fe4
