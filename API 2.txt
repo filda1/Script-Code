@@ -122,3 +122,27 @@ Api (Verificacion de emails, tlf....) ==  https://cloudmersive.com/validate-api
 
  METRICAS DE COMAPNIAS
  https://www.programmableweb.com/api/zirra-rest-api-v1
+
+
+  DRONE + net
+  https://support.dronedeploy.com/docs/map-engine-as-a-service
+
+
+   Appruve API
+  Track esta API se utiliza para habilitar la verificación de identidad en las aplicaciones. Esta interfaz permite a los desarrolladores verificar la documentación de identificación del votante nigeriano, verificar las imágenes selfie, verificar el uso del video y recuperar los resultados de la verificación. La API aparece en la categoría Verificación.
+
+  Netless 
+ es una solución de pizarra interactiva. La API Netless Rastrea esta API presenta arquitectura REST, y se puede usar para administrar salas de pizarra, recuperar datos de pizarra, convertir escenas en imágenes y permitir la conversión de documentos. Está incluido en la categoría Colaboración.
+
+ TeamWave 
+ es una plataforma para CRM, gestión de recursos humanos y gestión de proyectos. La API de TeamWave Track esta API permite a los desarrolladores administrar informes, tareas, organizaciones, paneles, proyectos, formularios web, registros, política de tiempo libre y cosas que hacer (tareas). Está archivado en Recursos Humanos .
+
+Beetrack proporciona seguimiento de entregas en tiempo real para envíos. La API de Beetrack Rastrear esta API permite a los desarrolladores administrar datos de entrega y logística, incluidas rutas, despacho, vehículo, GPS, datos, contactos, grupos y elementos de guía. Beetrack tiene su sede en Santiago, Chile. La API aparece en Envío .
+
+Applitools 
+
+habilita herramientas para crear y monitorear aplicaciones móviles, web y nativas. Applitools es un motor de nube basado en inteligencia artificial que valida los aspectos visuales de cualquier aplicación de forma totalmente automatizada. Esta plataforma garantiza que las pantallas no cambien inesperadamente mediante el uso de pruebas de regresión. La API REST de Applitools Track esta API integra flujos de pruebas visuales con aplicaciones. Está archivado en nuestra categoría DevOps .
+
+
+API de comprador profesional: Acquestizer 
+Track esta API es una interfaz de navegador cruzado que selecciona productos y servicios para comprar. Admite un máximo de 1000 productos por solicitud y cada producto tiene un máximo de 500 características. Esta API está archivada en Productos .

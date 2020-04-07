@@ -38,3 +38,82 @@
 
 
 ***********************************************************************************************************************************************************************
+
+
+   DJANGO + VUE.js
+
+    Django + Vue.js = codigo facilito = https://www.youtube.com/watch?v=WbAqnp-zqPU&list=PLpOqH6AE0tNh7-Z-Lka9e0hRA2OdNB0dx&index=2
+
+
+
+   .... despues de instalar entorno , statproyect y apps
+
+   1. >> pip  install django djangorestframework
+
+   2. en settings.py :                ------------------------------------------------------------------------------> registrar aplicacion
+
+     INSTALED_APP = [
+
+        'rest_framework',
+
+   3. El proyecto crear:
+
+
+       3.1 serializers.py:             -----------------------------------------------------------------------------------> JSON
+
+
+             from .models import Mimodelo
+             from rest_framework import serializers
+
+                  class NombreSerializer(serializers.ModelSerializer):
+                       class Meta:
+                           model Mimodelo
+                           fields= '_all_'
+
+
+
+       3.2 viewsets.py:               -------------------------------------------------------------------------------------------> Consumir API
+
+                    from rest_framework import viewsets
+                    from .model import Mimodelo
+                    from serializer import NombreSerializer
+                    
+                    class NombreViewSet(viewsets.Models.ViewSet):
+                      queryset= Mimodelo.objects.all();
+                      serializer_class = NombreSerializaer
+
+
+      3.3 urls.py:                                 -----------------------------------------------------------------------------> url api
+
+
+                       from rest_framework import routers
+                       from viewsets import NombreViewSets
+
+                       router = routers.SimpleRouter()
+                       router = register('nombres', NombreViewSet)          ---------------------------------------------------->Ej:  api/v1.0/nombres
+
+
+                       urlpatterns = router.urls
+
+
+     4. En urls.py del proyecto:                    ---------------------------------------------------------------------------> registrar
+
+
+           urlpatterns=[
+
+              path('api/v1.0/' include('nombreapp.urls'))
+
+                  
+
+
+                 
+ 
+
+                    
+
+
+
+
+
+
+

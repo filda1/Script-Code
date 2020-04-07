@@ -10,3 +10,15 @@
  git commit -m "first commit"
  git remote add origin https://github.com/........git  ( * Ojo: si sale ja existe, saltar este comando)
  git push -u origin master 
+
+
+------------------------------------------------------------------------------------------
+  DEPLOY LARAVEL DE GITHUB A SERVIDOR = https://www.youtube.com/watch?v=NhOgAe8TrBc
+
+
+    cPanel Tutorials - How to Use Push (Automatic) Deployment with Git Version Control===https://www.youtube.com/watch?v=18tXFctuqQ0
+
+
+   **** Ambiente de Produção com Git + Host // Mão no Código #8  =====https://www.youtube.com/watch?v=zoo0jtc79Rk
+
+   vscode a github  == https://www.youtube.com/watch?v=H0SQAW9tmmE
