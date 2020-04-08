@@ -1,0 +1,24 @@
+https://dev.to/thegeoffstevens/50-vs-code-themes-for-2020-45cc
+ Leatra= https://marketplace.visualstudio.com/items?itemName=XephAlpha.syntax
+
+ One Dark pro 21
+
+ shades of pro 41
+
+ code blue 43
+
+
+******************************************************************************************************
+
+ Conectar Vscode a Github = https://www.youtube.com/watch?v=Fk12ELJ9Bww
+  
+ 1 Forma:  
+   - crear repositorio en Web
+   - clonar en:   >> git clone htps.....
+   - Abrir el proyecto con Vscode
+
+ 2 Forma
+    - crear repositorio en Web
+    - en view ___> command linne -------> git clone htts....
+    - ir a simbolo mecanico--------> y .... , push
+    - Para refrescar es en la barra de abajo

@@ -10,8 +10,22 @@ TEMPLATES
    https://all-free-download.com/
    https://www.free-css.com/template-categories
 
+   Template CSS = https://templated.co
+                https://www.free-css.com/free-css-templates
+                https://www.tooplate.com/
+                https://html5up.net/
+
    MATERALIZE ======> http://swarnakishore.github.io/MaterializeThemes/
 
+   template Admin = starangular
+
+   Favoritos Template
+    https://html5up.net/photon
+    https://html5up.net/landed
+    https://html5up.net/directive
+    https://html5up.net/aerial
+    https://html5up.net/overflow
+    https://html5up.net/telephasic
     
    TEMPLATES ADMIN
    ****https://cssauthor.com/material-design-admin-templates/
