@@ -1,0 +1,83 @@
+
+ desde VSCODE _____________> conectar Github _________________> y de gitgub conectar A CPANEL
+
+
+
+1- Download d putty
+2. abrir puttygen ------------> generate          copiar key (Todo es lo puedes hacer en el servidor Punto 5)
+
+*******************************************************************************
+ CPANEL
+5 En cpanel-----> ssh Access ---> Manage ----->  generar ssh Key
+
+         . Poner un nombre
+         . Password 
+         
+
+ 7. en Gerenciar     -----------> Autorizar
+ 8 . en Private key------> gerenciar -----------> convertir password a ppk (poner password) ----------->  Donwload de key
+
+********************************************************************************
+
+  PUTTY
+ 10 . En putty host: 185.2.4.99   port:25088 y cargar en Auth (browser) ---------> la Key bajada ppk
+
+ 11. >> login: ee29v3og (usuario de la cuenta).  Y el password de la key (Portugal2020)  
+
+***************************************************************************************
+
+ GITHUB
+  
+ 12. crear un proyecto github y ponerlo en local y abrir con VScode .  O tambien clonarlo un proyecto github abajo    ,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEApz1vDIzYaMcDojVwi9DGV6bNzNQzdUJDhlPEYv6adDsgRMDmD4dmJPOOxTty3nRanQeu1JmLvE7+63xMw7Pvp1Itrzn6qLEwVKlnN8m0TAqMO7TSg4yt73eNGA6oyZOrcbC6HCFC62dJscxnueU6bHJxRScHzm970zWSWbW2Yy07wD239YqhxtbziULOnfCa08vSf+zkIpE7D0Yzlv6VoAuW/QARGesLD8BFGvxafid+o0NUlBZ07ljC+ZYNPC8L1qIQKPB2sEdiSUlKSPpGJ7tS2N1FqRSAggn/KqyiGvV/bdPxXdyjHRTm6a1kG4T244NEHTJPjMfMBOQQeXG4Q== rsa-key-20200409                

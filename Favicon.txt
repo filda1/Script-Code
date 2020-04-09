@@ -2,4 +2,6 @@ FAVICON
 
  1 Convertir mi primero imagen a ico
 
- <link rel="shortcut icon" href="/user/img/rsa.png" sizes="32x32">
+ <link rel="shortcut icon" href="/user/img/rsa.ico" sizes="32x32">
+ O
+<link rel="shortcut icon" href="/user/img/rsa.png" sizes="32x32">
