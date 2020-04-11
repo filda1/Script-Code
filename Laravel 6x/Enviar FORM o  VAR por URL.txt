@@ -27,12 +27,9 @@
 
                  function send(Request $request)
                         {
-    
-                      $data = array(
-                          'name'      =>  $request->name,
-                          'message'   =>   $request->message
-                            );....................................................
 
+                        $Nombre=  $request->name;
+    
       1.3   Recibir FORM po URL:
 
                     *   <form method="get" action="{{url('sendemail')}}">

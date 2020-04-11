@@ -29,6 +29,33 @@
  GITHUB
   
  12. crear un proyecto github y ponerlo en local y abrir con VScode .  O tambien clonarlo un proyecto github abajo    ,
+ 
+ 13. Despues buscar la Key bajada o (en cpanel-----> administrador de archivos--> ssh --> usuario.pub)
+ 14. Y copiarla en ssh key de github
+
+******************************************************************************************************
+
+  PUTTY
+
+  git clone --bare https://github.com/filda1/test.git repo    ---------------------------> crear reposotorio (nombre repo)
+
+ cd repo
+
+ ls
+
+ cd hooks           ______________________________________________> inyecta codigo en otra pasta
+
+ls
+
+
+ touch post-receive
+
+ nano post-receive
+
+ #!/bin/sh
+ GIT_WORK_TREE~/home/ee29v3og/principal.urh.pt git checkout -f    ------------------------------> destino
+
+ chmod +x post-receive                        ----------------------------------------->permisos
 
 
 
@@ -39,6 +66,10 @@
 
 
 
+
+foro= https://stackoverflow.com/questions/27978317/git-push-to-cpanel-account-push-did-not-update-modified-file
+      http://monkeylogic.com/using-cpanel-to-host-your-git-repository-and-deploy-automatically/
+      https://pt.wikiversity.org/wiki/Automatizando_a_instala%C3%A7%C3%A3o_(deploy)_e_atualiza%C3%A7%C3%A3o_de_sites_com_Git.
 
 
 

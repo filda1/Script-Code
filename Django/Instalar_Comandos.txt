@@ -105,8 +105,59 @@
 
                   
 
+----------------------------------------------------------------------------------------
+      VUE
 
-                 
+    >> vue init webpack nombre proyecto
+    >> nps run dev
+
+----------------------------------------------------------------------------------------
+    BOSTRAPT-VUE  ----          https://bootstrap-vue.js.org/docs
+
+    >> npm install boostrapt-vue   
+
+    5. Dentro de proyecto frontend--->main.js:
+
+                import Vue from 'vue'
+                import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+
+                 Vue.use(BootstrapVue)
+
+                 import 'bootstrap/dist/css/bootstrap.css'
+                 import 'bootstrap-vue/dist/bootstrap-vue.css'
+
+    6. Crar componente  igual a que laravel (Ojo si no pinta el componente, en el componente poner mode:'history', fuera de export
+
+    7. npm install axios
+    8. pip install django-cors-headers  ---------------------------> Problemas de conexion entre 2 servidores
+
+    9. registrar en settings:
+             
+             CORS_ORIGIN_ALLOW_ALL=true
+             CORS_ORIGIN_WHITELIST = (
+                'localhost:8080'
+
+             )
+
+              
+              INSTALL_APP...
+         
+                'corsheaders',
+
+             MIDDLEWARE
+                'corsheaders.middleware.CorsMiddleware',
+
+
+  6.  npm install sweetalert
+                  
+
+
+
+
+
+
+
+                      
  
 
                     
