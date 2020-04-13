@@ -52,18 +52,55 @@ ls
 
  nano post-receive
 
+  
+ EScribir:
+
+
  #!/bin/sh
- GIT_WORK_TREE~/home/ee29v3og/principal.urh.pt git checkout -f    ------------------------------> destino
+ GIT_WORK_TREE=/home/ee29v3og/principal.urh.pt git checkout -f    ------------------------------> destino
 
  chmod +x post-receive                        ----------------------------------------->permisos
 
 
 
 
+ 15-  CTRL + O  y Enter        ----------------------------------------------> Guardar
+
+ 16-  CTRL + x   ------------------------------------------------------------> Salir
+
+
+********************************************************************************************************************************
+
+ VSCODE, REMOTE SSH                                     (Fatz== https://www.youtube.com/watch?v=b5wPlBH9rEg)
+
+  17. En Vscode:   install Remote ssh
+  18. Comand line  o CTRL + SHIHT +P,   add host =====> 185.2.4.99 y  guardar en  .....ssh/Config , Enter     ========> open
+
+
+                  Host 185.2.4.99
+                     HostName 185.2.4.99
+
+                        User ee29v3og
+                        PasswordAuthentication Portugal2020
+                        Port 25088
+                        IdentityFile C:\KEY SSH original\doe
+
+ 
+
+  19. CRT +SHIPT + P, Remote connection to host ============> seleciona el  ip (185.2.4.99) y despues linux
 
 
 
 
+
+
+
+
+
+
+
+
+ssh fs = https://www.youtube.com/watch?v=4S4uaoP2jd0&vl=en
 
 
 
@@ -80,9 +117,12 @@ foro= https://stackoverflow.com/questions/27978317/git-push-to-cpanel-account-pu
 
 
 
+TERMINAL
+cmd : ssh -p 25088 ee29v3og@185.2.4.99
+   
+      Portugal 2020
 
-
-
+ssh://ee29v3og@185.2.4.99/home/ee29v3og/repo
 
 
 

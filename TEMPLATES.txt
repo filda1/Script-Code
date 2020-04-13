@@ -11,7 +11,7 @@ TEMPLATES
    https://www.free-css.com/template-categories
 
    Template CSS = https://templated.co
-                https://www.free-css.com/free-css-templates
+                https://www.free-css.com/free-css-templates 81
                 https://www.tooplate.com/
                 https://html5up.net/
 
@@ -25,7 +25,28 @@ TEMPLATES
     https://html5up.net/directive
     https://html5up.net/aerial
     https://html5up.net/overflow
-    https://html5up.net/telephasic
+    https://html5up.net/telephasic ***
+
+////////////////////////// FABORITOS////////////////////////////////////////////
+    https://www.free-css.com/free-css-templates/page201/digishop-mini***
+    https://www.free-css.com/free-css-templates/page201/shopper***
+    https://www.free-css.com/free-css-templates/page200/sell-anything***
+
+    https://www.free-css.com/free-css-templates/page184/yourhome***
+    https://www.free-css.com/free-css-templates/page217/aurora***
+    https://www.free-css.com/free-css-templates/page196/big-template***
+    https://www.free-css.com/free-css-templates/page193/mpurpose***
+    https://www.free-css.com/free-css-templates/page189/stable***
+
+    https://templated.co/hyacinth **
+    https://www.free-css.com/free-css-templates/page184/ceevee-1.0**
+    https://www.free-css.com/free-css-templates/page180/memento**
+    https://www.free-css.com/free-css-templates/page173/helios**
+    https://www.free-css.com/free-css-templates/page246/scaffold**
+    https://www.free-css.com/free-css-templates/page241/flaxseo**
+    https://www.free-css.com/free-css-templates/page231/weather-apps**
+
+////////////////////////////////////////////////////////////////////////////////
     
    TEMPLATES ADMIN
    ****https://cssauthor.com/material-design-admin-templates/
