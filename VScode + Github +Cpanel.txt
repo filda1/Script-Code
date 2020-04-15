@@ -103,7 +103,7 @@ ls
 ssh fs = https://www.youtube.com/watch?v=4S4uaoP2jd0&vl=en
 
 
-
+foro= https://medium.com/agits/deploy-com-git-configurando-e-executando-um-deploy-automatizado-156e3e1bc374#.pveer1hdo
 foro= https://stackoverflow.com/questions/27978317/git-push-to-cpanel-account-push-did-not-update-modified-file
       http://monkeylogic.com/using-cpanel-to-host-your-git-repository-and-deploy-automatically/
       https://pt.wikiversity.org/wiki/Automatizando_a_instala%C3%A7%C3%A3o_(deploy)_e_atualiza%C3%A7%C3%A3o_de_sites_com_Git.
@@ -111,10 +111,9 @@ foro= https://stackoverflow.com/questions/27978317/git-push-to-cpanel-account-pu
 
 
 
+------------------------------------------------------------------------------------
 
-
-
-
+git remote set-url ssh://ee29v3og:25088@185.2.4.99/home/ee29v3og/repo
 
 
 TERMINAL

@@ -50,3 +50,12 @@ Faço um serviço de redirecionamento de encomendas da europa para o mundo , preci
 uscloser.com
 ficadicaeua.com
 box4world.com
+
+   RELLENAR PDF DESDE WEB
+    Necisto poder rellenar un formulario pdf previamente consevido (plantilla ) y que con los datos de la web se puedan rellenar y que el usuario termine de rellenar algunos campos. Luego se puedan también transferir estos datos del formulario pdf al servidor.
+
+  VIDEOCONFERENCIA
+   Necesitamos un desarrollador para crear un servicio de videoconferencia y comunicaciones unificadas basado en Kurento
+
+
+  PAGINA WEB https://www.electrode.io/site/web.html
