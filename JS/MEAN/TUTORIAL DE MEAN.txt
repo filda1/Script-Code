@@ -6,6 +6,12 @@ TUTORIAL DE MEAN
 
        == https://github.com/FaztWeb/mean-employees
 
+    David Acosta (completo) = https://www.youtube.com/watch?v=c9M-CHPaQtI&list=PL3vQyqzqjZ637sWpKvniMCxdqZhnMJC1d&index=11
+
+  ACADEMIND (BUENO) = https://www.youtube.com/watch?v=-3vvxn78MH4&list=PLAT69vw4iQZ4ieLT_X3LfDuyqxmmnYnQf
+
+   Javascript=== https://www.youtube.com/watch?v=023Psne_-_4
+   NODE + STRIPE === https://www.youtube.com/watch?v=QT3_zT97_1g
   -------------------------------------------------------------------
   EN SERVER: - Utiliza MVC
              - Al crear una clase (Model) == crea una TABLE BD + conexion BD
@@ -19,6 +25,8 @@ TUTORIAL DE MEAN
      * Cuando bajas datos(jason) lo cargas en un objeto directamente
      * Cuando subes datos lo cargas en un objeto
      * Y cuando quiers ver los datos recorres el objeto directamente
+
+     * La ide a de angular solo es guardar datos temporalmente
 
 -----------------------------------------------------------------------------------------------------------------
   

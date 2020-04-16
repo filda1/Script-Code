@@ -59,8 +59,8 @@ ls
  #!/bin/sh
  GIT_WORK_TREE=/home/ee29v3og/principal.urh.pt git checkout -f    ------------------------------> destino
 
- chmod +x post-receive                        ----------------------------------------->permisos
-
+  >> chmod +x post-receive                        ----------------------------------------->permisos (Dentro de hooks)
+  >> ./ post-receive                              -----------------------------------------> runn
 
 
 
@@ -87,7 +87,7 @@ ls
 
  
 
-  19. CRT +SHIPT + P, Remote connection to host ============> seleciona el  ip (185.2.4.99) y despues linux
+  19. CRT +SHIPT + P, Remote connection to host ============> seleciona el  ip (185.2.4.99) y despues linux, Password
 
 
 
@@ -110,10 +110,18 @@ foro= https://stackoverflow.com/questions/27978317/git-push-to-cpanel-account-pu
 
 
 
-
+http://monkeylogic.com/using-cpanel-to-host-your-git-repository-and-deploy-automatically/
+https://pt.wikiversity.org/wiki/Automatizando_a_instala%C3%A7%C3%A3o_(deploy)_e_atualiza%C3%A7%C3%A3o_de_sites_com_Git.
 ------------------------------------------------------------------------------------
+git remote --v
 
 git remote set-url ssh://ee29v3og:25088@185.2.4.99/home/ee29v3og/repo
+
+git remote add prod4 ssh://ee29v3og:25088@185.2.4.99/home/ee29v3og/repo
+
+git remote add prod2 ssh://ee29v3og:25088@185.2.4.99/home/ee29v3og/repo/test.git
+
+git push ssh://ee29v3og:25088@185.2.4.99/home/ee29v3og/repo master
 
 
 TERMINAL
@@ -128,7 +136,7 @@ ssh://ee29v3og@185.2.4.99/home/ee29v3og/repo
 
 
 
-
+error: src refspec master does not match any
 
 
 
