@@ -1,0 +1,117 @@
+
+Developer. pe = https://www.youtube.com/watch?v=0-6etcOHQ_0&list=PLMbRqrU_kvbTGg_oUKXyWi63Mo9Yoot9K&index=1
+                 https://github.com/gitdeveloperpe/developerpe/tree/master/Django/canal/biblioteca
+
+-----------------------------------------------------------------------------------------
+   MODELO-VISTA-TEMPLATE (MVT)
+
+  0- Donwload Python
+  1- Crear en Entorno ,  PIPENV o VIRTUAL ENV
+  2-  >> pip freeze                    ===================================> ves todo los paquetes instalados
+
+
+   3- >> admin-django starproyect  biblioteca
+
+   4 -  Dentro de apps =====> >> django-admin startapp nombre_app    (Ej libro)
+   5 - Registar app en setting.py  ====>  'app.libros'
+
+           biblioteca
+              apps               =============================================> proyecto frontend
+               libro
+                    init_py
+                    admin.py
+                    apps.py
+                    form.py       ==============================================> hacerlo
+                    model.py
+                    test.py
+                    views.py
+              biblioteca          =============================================> proyecto general/ADMIN
+                 settingns.py       ============================================> configuracion general
+                 urh.py
+                manage.py
+
+    
+    6. CREAR MODELOS             ==========================> https://docs.djangoproject.com/en/3.0/topics/db/models/
+
+    7. >> python.manage.py makemigrations
+    8. >> python.manage.py migration
+   
+    9.  >> python.manage.py runserver 0.0.0.0:8006          ==============> puerto cualquier
+
+         o    python.manage.py runserver
+
+-------------------------------------------------------------------------------------------------------------------
+    10. ADMIN
+    11. >> python.manage.py createsuperuser      (Pones user y password)
+
+-------------------------------------------------------------------------------------------------------------------
+
+   12 . BASE DE DATOS   ============================> POSTGRESS (a  ver creado BD en POstgress)
+   13. >> pip install psycopg2       ================================> dRIVERS
+   14. Setting.py (proyecto general) ==> en databases ====> cambiar nombres
+   15. >> python.manage.py makemigrations
+   16. >> python.manage.py migration
+   17. >> python.manage.py createsuperuser 
+
+
+   18 . BASE DE DATOS   ============================> MySQL (a  ver creado BD en MySQL)
+   19. >> pip install mysqlclient       ================================> dRIVERS
+   20. Setting.py (proyecto general) ==> en databases ====> cambiar nombres
+
+             DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'nameDB',
+        'USER': 'oliver',
+        'PASSWORD': 'yugiho2000',
+        'HOST': 'localhost',
+        'PORT': 3306,
+    }
+}
+   21. >> python.manage.py makemigrations
+   22. >> python.manage.py migration
+   23. >> python.manage.py createsuperuser 
+
+
+   CUANDO SE CAMBIA UN CAMPO EN BD =
+    . >> python.manage.py makemigrations
+    . >> python.manage.py migration
+--------------------------------------------------------------------------------------------------------------------
+  
+   24. ADMIN 
+   25. Para ver tablas BD en Admin, ir admin.py ========> y registar
+
+-------------------------------------------------------------------------------------------------------------------
+   26 . RELACIONes en Models         =========================================>(tablas: Autor y Libro)
+       
+     dentro de la tabla  Libro:
+
+    1 a 1 ( 1 autor 1 libro)
+    autor_id = models.OneToOneField(Autor, on_delete = models.CASCADE)
+
+    1 a + ( 1 autor muchos libros)
+    autor_id = models.ForeingKey(Autor, on_delete = models.CASCADE)
+
+    + a + ( muchos a muchos)
+    autor_id = models.ManyToManyField(Autor)
+
+---------------------------------------------------------------------------------------------------------------------
+   CRUD
+   27. CREAR FORMS en form.py
+   28. URLS para cada apps 
+
+           urls.py( frontend):       ============================================> libro
+     
+           urls.py( proyecto general):
+
+                path('libro'/include('apps.libro.urls', nombre_route)))
+
+
+
+           
+
+
+
+
+
+   

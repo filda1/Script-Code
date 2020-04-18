@@ -1,0 +1,15 @@
+MONGO DB
+
+ 1. DOWLOAD MONGO DB, server  ==============> desabilitar visto
+ 2- mongod --version
+ 3- Unir cmd a mongo db
+    Pc ====> este equipo ====> propiedades ===> congiguracion avanzada =====> variable de entorno ======> dentro de  path====>  C:\Program Files\MongoDB\Server\4.2\bin
+
+ 4 . >> mongod --version
+
+ 5.  Dentro de C:\   =====> carpeta data  ======> dentro de data carpeta db
+ 
+--------------------------------------------------------------------------------------------------------------
+
+ 6. >> mongod                   ===============================================> inicializar (puerto 27017)
+ 7. Otro terminal , >> mongo    ===============================================> coneccion
