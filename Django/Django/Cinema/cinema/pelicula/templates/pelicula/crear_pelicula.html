@@ -1,0 +1,12 @@
+{% extends 'cinema/base.html' %}
+{% block admin %}../../admin/ {% endblock %}
+{% block body %}
+<form method="post" class="w3-container">
+	{% csrf_token %}
+  {{ form.as_p }}
+	<div>
+		<button type="submit" class="w3-btn w3-round w3-border w3-black">Crear</button>
+	</div>
+  <br>
+</form>
+{% endblock %}

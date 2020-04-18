@@ -1,0 +1,46 @@
+{% extends 'base/base.html' %}
+
+{% block body %}
+
+<table border="3">
+	<thead>
+		<tr>
+			<td>#</td>
+			<td>Titulo</td>
+			<td>Autores</td>
+			<td>Descripcion</td>
+			<td>Editorial</td>
+			<td>Fecha de publicacion</td>
+			<td>Numero de Paginas</td>
+			<td>Accion</td>
+		</tr>
+	</thead>
+	<tbody>
+		{% if object_list %}
+		{% for libro in object_list %}
+		<tr>
+			<td>{{ libro.codigo }}</td>
+			<td>{{ libro.titulo }}</td>
+			<td>
+				<ul>{% for autor in libro.autor.all %}
+					<li>{{ autor.apellidos }} {{ autor.nombre }} </li>
+				
+				</ul>{% endfor %}
+			</td>
+			<td>{{ libro.descripcion }}</td>
+			<td>{{ libro.editorial }}</td>
+			<td>{{ libro.fecha_publicacion }}</td>
+			<td>{{ libro.numero_paginas }}</td>
+			<td>
+				<a href="{% url 'libros:editar_libro' libro.codigo %}">Editar</a>
+				<a href="{% url 'libros:eliminar_libro' libro.codigo %}">Eliminar</a>
+			</td>
+		</tr>
+		{% endfor %}
+		{% else %}
+			<h1>No hay elementos que mostrar</h1>
+		{% endif %}
+	</tbody>
+</table>
+
+{% endblock %}

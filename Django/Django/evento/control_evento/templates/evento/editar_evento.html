@@ -1,0 +1,14 @@
+{% extends 'usuarios/base.html' %}
+
+{% block body %}
+
+<form method="post">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <div>
+    <button type="submit" name="button">Editar</button>
+  </div>
+</form>
+
+{% endblock %}
+

@@ -1,0 +1,25 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>{% block title %}Asistencia de Evento {% endblock %}</title>
+	<link rel="stylesheet" href="{% static 'css/w3.css' %}">
+	<link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+	<div class="w3-bar w3-light-grey">
+	  <a href="{% url 'evento:listar_evento' %}" class="w3-bar-item "><button class="w3-button w3-round w3-green">Home</button></a>
+	  <a href="{% url 'evento:listar_evento' %}" class="w3-bar-item "><button class="w3-button w3-round w3-green">Evento</button></a>
+	  <a href="{% url 'evento:listar_seminario' %}" class="w3-bar-item "> <button class="w3-button w3-round w3-green">Seminario</button></a>
+	  <a href="{% url 'evento:crear_asistente' %}" class="w3-bar-item "><button class="w3-button w3-round w3-green">Asistentes</button></a>	  
+	</div>
+
+	
+
+
+
+</head>
+<body>
+	{% block body %}
+	{% endblock %}
+</body>
+</html>

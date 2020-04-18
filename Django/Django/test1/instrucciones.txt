@@ -1,0 +1,31 @@
+-instalar python 2.7 , en la instalacion elegir que se pueda usar desde consola
+-crear carpeta llamada entorno
+-abrir cmd y escribir: python -m pip install virtualenv, esperar que descargue e instale
+-dirigirse por cmd a la carpeta entorno y escribir: virtualenv nombrecualquiera
+-ahora dirigirse por cmd a la carpeta nombrecualquiera y ir a scripts una vez alli escribir : activate
+-ahora ir a la carpeta donde esta el proyecto y dirigirse a test1/settings abrirlo y  editar o siguiente:
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'test1',
+        'HOST':'localhost',
+        'USER':'oliver',
+        'PASSWORD':'yugiho2000',
+        'PORT':5432,
+    }
+}
+
+donde dice name va el nombre de la base de datos vinculada
+en user, el usuario asignado a esa base de datos
+en password el password asociada al usuario
+puerto dejarlo asi
+
+- ahora en la cmd escribir: python -m pip install django, esperar que descargue e instale
+- ahora escribir en cmd: python -m pip install psycopg2, esperar que descargue e instale( este es el driver usado para vincular django con postgresql)
+- escribir en cmd: pip freeze y verificar que muestre una lista con los nombres de lo que se instalo anteriormente: django y psycopg2
+- ahora por cmd ir a la carpeta del proyecto y escribir: python manage.py makemigrations , luego escribir:python manage.py migrate , 
+luego : python manage.py createsuperuser y seguir los pasos que indica el cmd, finalmente: python manage.py runserver
+
+
+El gestor de base de datos usado es postgresql

@@ -1,0 +1,21 @@
+{% extends 'index.html' %}
+{% load staticfiles %}
+{% block body %}
+		<div class="container padd">
+			<div class="">
+				<h2>Servicio Estandar</h2>
+				
+				<h5 class="w3-hide-small">En este servicio es necesario que el dueño de la mascota o un familiar, lleve el cadáver de la mascota a nuestras instalaciones, donde se llevara a cabo la cremación y también se le indicara la hora de recojo de los restos del mismo.</h5>
+				<h5 class="w3-hide-small">La entrega se realizara el mismo día, y las cenizas serán entregados en la urna electa por el cliente.
+				</h5>
+
+				<h5 class="w3-center w3-hide-large w3-hide-medium">En este servicio es necesario que el dueño de la mascota o un familiar, lleve el cadáver de la mascota a nuestras instalaciones, donde se llevara a cabo la cremación y también se le indicara la hora de recojo de los restos del mismo.</h5>
+				<h5 class="w3-center w3-hide-large w3-hide-medium">La entrega se realizara el mismo día, y las cenizas serán entregados en la urna electa por el cliente.
+				</h5>
+			</div><br>
+			<div>
+				<a href="{% url 'registro' %}" class="btn btn-outline-success paddbtn">
+					Registrate para Acceder al Servicio
+				</a>
+			</div>
+{% endblock %}

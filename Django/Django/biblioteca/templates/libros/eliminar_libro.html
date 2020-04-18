@@ -1,0 +1,5 @@
+{% extends 'libros/crear_libro.html' %}
+{% block button %} Eliminar {% endblock %}
+{% block add %}
+	<a href="{% url 'libros:listar_libro' %}" type="button">Cancelar</a>
+{% endblock %}

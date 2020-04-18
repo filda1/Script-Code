@@ -1,0 +1,44 @@
+{% extends 'test1/base.html' %}
+
+{% block body %}
+
+<table border="2">
+  {% if object_list %}
+    <thead>
+      <tr>
+        <td>#</td>
+        <td>Numero de Sala</td>
+        <td>Tipo de Sala</td>
+        <td>Peliculas Proyectadas en esta Sala</td>
+        <td>Cantidad de Butacas</td>
+        <td>Accion</td>
+      </tr>
+    </thead>
+    <tbody>
+      {% for sala in object_list %}
+        <tr>
+          <td>{{ sala.id }}</td>
+          <td>{{ sala.numero }}</td>
+          <td>{{ sala.tipo_sala }}</td>
+          <td>
+            <ul>{% for pelicula in sala.pelicula.all %}
+              <li>
+                {{ pelicula.nombre }}
+              </li>
+              {% endfor %}
+            </ul>
+          </td>
+          <td>{{ sala.cantidad_butacas }}</td>
+          <td>
+            <a href="{% url 'sala:editar_sala' sala.id %}">Editar</a>
+            <a href="{% url 'sala:eliminar_sala' sala.id %}">Eliminar</a>
+          </td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  {% else %}
+    <h2>No hay datos que mostrar</h2>
+  {% endif %}
+</table>
+
+{% endblock %}

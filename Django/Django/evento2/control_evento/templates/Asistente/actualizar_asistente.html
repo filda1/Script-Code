@@ -1,0 +1,12 @@
+{% extends 'usuarios/base.hmtl' %}
+
+{% load staticfiles %}
+	
+{% block body %}
+<form method='POST'>
+		{% crsf_token %}
+		{{ forms.as_p }}
+		<button type=submit>Actualizar</button>
+		
+	</form>
+{% endblock %}

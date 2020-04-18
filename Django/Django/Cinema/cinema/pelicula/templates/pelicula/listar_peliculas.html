@@ -1,0 +1,54 @@
+{% extends 'cinema/base.html' %}
+{% block admin %}../../admin/ {% endblock %}
+
+{% block body %}
+
+  <table border="2">
+      <thead>
+        <tr>
+          <td>#</td>
+          <td>Nombre</td>
+          <td>Nombre Alterno</td>
+          <td>Duracion</td>
+          <td>Director</td>
+          <td>Elenco</td>
+          <td>Grupo de Produccion</td>
+          <td>Fecha de Estreno</td>
+          <td>Idioma</td>
+          <td>Pais</td>
+          <td>Distribuidora</td>
+          <td>Descripcion</td>
+          <td>Restricciones</td>
+          <td>Categorias</td>
+        </tr>
+      </thead>
+      <tbody>
+        {% if object_list %}
+        {% for pelicula in object_list %}
+        <tr>
+          <td>{{ pelicula.id }}</td>
+          <td>{{ pelicula.nombre }}</td>
+          <td>{{ pelicula.nombre_alterno }}</td>
+          <td>{{ pelicula.duracion }}</td>
+          <td>{{ pelicula.director }}</td>
+          <td>{{ pelicula.elenco }}</td>
+          <td>{{ pelicula.grupo_produccion }}</td>
+          <td>{{ pelicula.fecha_estreno }}</td>
+          <td>{{ pelicula.idioma }}</td>
+          <td>{{ pelicula.pais }}</td>
+          <td>{{ pelicula.distribuidora }}</td>
+          <td>{{ pelicula.descripcion }}</td>
+          <td>{{ pelicula.restricciones_pelicula }}</td>
+          <td>{{ pelicula.categoria_pelicula }}</td>
+          <td>
+            <a href="{% url 'pelicula:editar_pelicula' pelicula.id %}" class="w3-btn w3-hover-green w3-margin-left"><span class="icon-pencil"></span></a>
+            <a href="{% url 'pelicula:eliminar_pelicula' pelicula.id %}" class="w3-btn  w3-hover-green w3-margin-left"><span class="icon-bin"></span></a>
+          </td>
+        </tr>
+        {% endfor %}
+        {% else %}
+          <h2>No hay registros</h2>
+        {% endif %}
+      </tbody>
+  </table>
+{% endblock %}

@@ -1,0 +1,46 @@
+{% extends 'usuarios/base.html' %}
+
+{% block body %}
+
+<table border="3">
+	<thead>
+		<tr>
+			<td>#</td>
+			<td>Ponente</td>
+			<td>Tema</td>
+			<td>Fecha</td>
+			<td>Hora de inicio</td>
+			<td>Hora de finalizacion</td>
+			<td>Accion</td>			
+		</tr>
+	</thead>
+	<tbody>
+		{% if object_list %}
+		{% for seminario in object_list %}
+		<tr>
+			<td>{{ seminario.id }}</td>
+			<td>
+				<ul>{% for ponente in seminario.ponente.all %}
+					<li>
+						{{ ponente.nombre }}
+					</li>
+				</ul>{% endfor %}
+			</td>
+			<td>{{ seminario.tema }}</td>
+			<td>{{ seminario.fecha }}</td>			
+			<td>{{ seminario.hora_inicio }}</td>
+			<td>{{ seminario.hora_fin }}</td>
+			<td></td>
+			<td>
+				<a href="{% url 'evento:editar_seminario' seminario.id %}">Editar</a>
+				<a href="{% url 'evento:eliminar_seminario' seminario.id %}">Eliminar</a>
+			</td>
+		</tr>
+		{% endfor %}
+		{% else %}
+			<h1>No hay elementos que mostrar</h1>
+		{% endif %}
+	</tbody>
+</table>
+
+{% endblock %}

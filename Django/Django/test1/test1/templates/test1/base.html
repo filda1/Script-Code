@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Crud Basico</title>
+  <nav >
+    <div >
+      <div >
+        <a href="#">WebSiteName</a>
+      </div>
+      <ul >
+        {% if user.is_authenticated %}
+          <li><a href="{% url 'index' %}">Home</a></li>
+          <li>{{ user.username }}</li>
+          {% if user.is_gerente or user.is_colaborador %}
+            <li><a href="{% url 'compras:listar_entrada' %}">Compras</a></li>
+          {% endif %}
+          {% if user.is_gerente %}
+            <li><a href="{% url 'sala:listar_pelicula' %}">Sala</a></li>
+          {% endif %}
+          {% if user.is_superuser %}
+            <li><a href="{% url 'usuarios:nuevo_usuario' %}">Usuarios</a></li>
+          {% endif %}
+        {% endif %}
+      </ul>
+    </div
+</head>
+<body>
+{% block body %}
+{% endblock %}
+</body>
+</html>

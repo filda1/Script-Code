@@ -1,0 +1,13 @@
+{% extends 'test1/base.html' %}
+{% block body %}
+
+<form method="post">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <div>
+    <button type="submit" name="button">Eliminar</button>
+    <a class="btn" href="{% url 'sala:listar_pelicula' %}">Cancelar</a>
+  </div>
+</form>
+
+{% endblock %}

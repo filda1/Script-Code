@@ -102,6 +102,7 @@ ls
 
 ssh fs = https://www.youtube.com/watch?v=4S4uaoP2jd0&vl=en
 
+1- http://wiki.integrator.com.br/index.php?title=Publicando_site_PHP_com_Git
 
 foro= https://medium.com/agits/deploy-com-git-configurando-e-executando-um-deploy-automatizado-156e3e1bc374#.pveer1hdo
 foro= https://stackoverflow.com/questions/27978317/git-push-to-cpanel-account-push-did-not-update-modified-file

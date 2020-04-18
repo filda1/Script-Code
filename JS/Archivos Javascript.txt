@@ -1,0 +1,6 @@
+
+ARCHIVOS JAVASCRIPT ======= https://www.html5rocks.com/es/tutorials/file/dndfiles/
+DESCARGA DE ACHIVOS ======= https://variabletecnica.wordpress.com/2013/08/25/crear-y-descargar-archivos-con-javascript/
+
+BUSCADOR INTERNO == https://www.wextensible.com/como-se-hace/buscador-interno/
+                    https://www.wextensible.com/como-se-hace/buscador-interno/encabezados.html

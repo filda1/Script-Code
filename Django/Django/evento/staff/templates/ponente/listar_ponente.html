@@ -1,0 +1,42 @@
+{% extends 'usuarios/base.html' %}
+
+{% block body %}
+<table border="3">
+	<thead>
+		<tr>
+			<td>#</td>
+			<td>Nombre</td>
+			<td>Apellido</td>
+			<td>Dni</td>
+			<td>Email</td>
+			<td>Grados</td>
+			<td>Titulos</td>
+			<td>Lugares de trabajo</td>
+			<td>Accion</td>
+		</tr>
+	</thead>
+	<tbody>
+	{% if object_list %}
+	{% for ponente in object_list %}
+		<tr>
+			<td>{{ ponente.id }}</td>
+			<td>{{ ponente.nombre }}</td>
+			<td>{{ ponente.apellidos }}</td>
+			<td>{{ ponente.dni }}</td>
+			<td>{{ ponente.email }}</td>
+			<td>{{ ponente.grados }}</td>
+			<td>{{ ponente.titulos }}</td>
+			<td>{{ ponente.lugares_trabajo }}</td>
+			<td>
+				<a href="{% url 'ponente:editar_ponente' ponente.id %}">Editar</a>
+				<a href="{% url 'ponente:eliminar_ponente' ponente.id %}">Eliminar</a>
+			</td>
+		</tr>
+		{% endfor %}
+	 {% else %}
+	 	<h1>No hay elementos que mostrar</h1>
+	 {% endif %}
+	</tbody>
+</table>
+
+{% endblock %}

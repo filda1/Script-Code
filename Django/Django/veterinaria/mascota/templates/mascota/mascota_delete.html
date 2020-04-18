@@ -1,0 +1,12 @@
+{% extends 'veterinaria/base.html' %}
+
+{% block section %}
+<form method="post">
+	{% csrf_token %}
+	<h3>¿Desea eliminar el registro de {{ mascota.nombre }}?</h3>
+	<div>
+		<button class="btn btn-default" type="submit">Si,eliminar</button>
+		<a class="btn btn-default" href="{% url 'mascota:home_mascota' %}">Cancelar</a>
+	</div>	
+</form>
+{% endblock %}

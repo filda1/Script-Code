@@ -1,0 +1,37 @@
+.sinpad{
+	padding: 5px;
+}
+
+.borde{
+	margin-right: 100px;
+}
+.padd{
+	padding-top: 20px;
+}
+h2, h3, h4,h6{
+	display: inline;
+}
+body {
+	background-color: #ede7f6;
+}
+
+.paddbtn{
+	padding: 30px;
+}
+
+.prueba{
+	margin-bottom: 0px;
+}
+
+footer{
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:#7e57c2  ;
+}
+
+.bordear{
+	border-radius: 15px;
+}

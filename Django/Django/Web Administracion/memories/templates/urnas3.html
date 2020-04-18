@@ -1,0 +1,88 @@
+{% extends 'index.html' %}
+{% load staticfiles %}
+{% block body %}
+		<br>
+		<h2 class="nav">BIODEGRADABLE</h2><br>
+		<div class="container w3-hide-small">
+			<div class="card-deck row">
+				<div class="card w3-center col-lg-4 col-md-4 w3-hide-small">
+				  <img class="cartas" src="{% static 'img/urnas/biodegradable/1.jpg' %}"  alt="Card image cap">
+				  <div class="card-body">
+				    <h5 class="card-title w3-center">Mascota biodegradable</h5>
+				    <a href="{% url 'home' %}" class="btn btn-primary ">Elegir</a>
+				  </div>
+				</div>
+				<div class="card w3-center col-lg-4 w3-hide-small">
+				  <img class="cartas" src="{% static 'img/urnas/biodegradable/2.jpg' %}"  alt="Card image cap">
+				  <div class="card-body">
+				    <h5 class="card-title w3-center">Mascota biodegradable</h5>
+				    <a href="{% url 'home' %}" class="btn btn-primary ">Elegir</a>
+				  </div>
+				</div>
+				<div class="card w3-center col-lg-4 w3-hide-small">
+				  <img class="cartas" src="{% static 'img/urnas/biodegradable/3.jpg' %}"  alt="Card image cap">
+				  <div class="card-body">
+				    <h5 class="card-title w3-center">Agua con 20 notas</h5>
+				    <a href="{% url 'home' %}" class="btn btn-primary ">Elegir</a>
+				  </div>
+				</div>
+				<div class="card w3-center col-lg-4 w3-hide-small">
+				  <img class="cartas" src="{% static 'img/urnas/biodegradable/4.jpg' %}"  alt="Card image cap">
+				  <div class="card-body">
+				    <h5 class="card-title w3-center">Mar /urna funeraria agua</h5>
+				    <a href="{% url 'home' %}" class="btn btn-primary ">Elegir</a>
+				  </div>
+				</div>
+				<div class="card w3-center col-lg-4 w3-hide-small">
+				  <img class="cartas" src="{% static 'img/urnas/biodegradable/5.jpg' %}"  alt="Card image cap">
+				  <div class="card-body">
+				    <h5 class="card-title w3-center">Mar /urna funeraria agua</h5>
+				    <a href="{% url 'home' %}" class="btn btn-primary ">Elegir</a>
+				  </div>
+				</div>								
+			</div><br><br>
+		</div>
+ 
+        <div class="w3-container w3-hide-large w3-hide-medium">
+          <div class="w3-row-padding">
+             <div class="w3-third">
+                 <div class="w3-center">
+                     <img src="{% static 'img/urnas/biodegradable/1.jpg' %}" style = "width:100%" class = "img3 w3-image">
+                     <h5 class="card-title">Mascota biodegradable</h5>
+                     <button class="w3-button w3-round-large w3-blue w3-border-blue"><a href="{% url 'home' %}">ELEGIR</a></button>
+                 </div><br>
+                 <div class="w3-center">
+                     <img src="{% static 'img/urnas/biodegradable/2.jpg' %}" style = "width:100%" class = "img3 w3-image">
+                     <h5 class="card-title">Mascota biodegradable</h5>
+                     <button class="w3-button w3-round-large w3-blue w3-border-blue"><a href="{% url 'home' %}">ELEGIR</a></button>
+                 </div><br>
+                 <div class="w3-center">
+                     <img src="{% static 'img/urnas/biodegradable/3.jpg' %}" style = "width:100%" class = "img3 w3-image">
+                     <h5 class="card-title">Agua con 20 notas</h5>
+                     <button class="w3-button w3-round-large w3-blue w3-border-blue"><a href="{% url 'home' %}">ELEGIR</a></button>
+                 </div><br>
+                 <div class="w3-center">
+                     <img src="{% static 'img/urnas/biodegradable/4.jpg' %}" style = "width:100%" class = "img3 w3-image">
+                     <h5 class="card-title">Mar /urna funeraria agua</h5>
+                     <button class="w3-button w3-round-large w3-blue w3-border-blue"><a href="{% url 'home' %}">ELEGIR</a></button>
+                 </div><br>
+                 <div class="w3-center">
+                     <img src="{% static 'img/urnas/biodegradable/5.jpg' %}" style = "width:100%" class = "img3 w3-image">
+                     <h5 class="card-title">Mar /urna funeraria agua</h5>
+                     <button class="w3-button w3-round-large w3-blue w3-border-blue"><a href="{% url 'home' %}">ELEGIR</a></button>
+                 </div><br>
+             </div>
+          </div>            
+        </div>  
+
+			<ul class="pagination nav">
+			  <li class="page-item"><a class="page-link" href="{% url 'urnas2' %}">Previous</a></li>
+			  <li class="page-item"><a class="page-link" href="{% url 'urnas' %}">1</a></li>
+			  <li class="page-item"><a class="page-link" href="{% url 'urnas2' %}">2</a></li>
+			  <li class="page-item active"><a class="page-link" href="{% url 'urnas3' %}">3</a></li>
+			  <li class="page-item"><a class="page-link" href="{% url 'urnas4' %}">4</a></li>
+			  <li class="page-item"><a class="page-link" href="{% url 'urnas5' %}">5</a></li>
+			  <li class="page-item"><a class="page-link" href="{% url 'urnas6' %}">6</a></li>
+			  <li class="page-item"><a class="page-link" href="{% url 'urnas4' %}">Next</a></li>
+			</ul><br><br>
+{% endblock %}

@@ -1,0 +1,42 @@
+{% extends 'usuarios/base.html' %}
+
+{% load staticfiles %}
+
+{% block body %}
+<table class="w3-table-all w3-card-4">
+	<thead>
+		<tr>
+			<td>Id</td>
+			<td>Ponente</td>
+			<td>Tema</td>
+			<td>Fecha</td>
+			<td>Fecha Inicio</td>
+			<td>Fecha Fin</td>					
+		</tr>
+	</thead>
+	{% if object_list %}
+		{% for seminario in object_list %}
+		<tbody>		
+			<tr>
+				<td>{{ seminario.id}}</td>
+				<td>
+				<ul>{% for ponente in seminario.ponente.all %}
+					<li>
+						{{ ponente.nombres }}
+					</li>{% endfor %}
+				</ul>
+				
+				</td>
+				<td>{{ seminario.tema }}</td>
+				<td>{{ seminario.fecha }}</td>
+				<td>{{ seminario.fecha_inicio }}</td>
+				<td>{{ seminario.fecha_fin }}</td>				
+			</tr>
+		</tbody>
+		{% endfor %}
+	{% else %}
+		No se Encuentran Datos
+	{% endif %}
+</table>
+
+{% endblock %}

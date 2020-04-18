@@ -1,0 +1,48 @@
+{% extends 'usuarios/base.html' %}
+
+{% block body %}
+
+<table class="table table-striped table-hover w3-border ">
+<br><br>
+  <thead>
+    <tr class="w3-border">
+      	<td class="w3-border">#</td>
+		<td class="w3-border">Seminario</td>
+		<td class="w3-border">Fecha de inicio</td>
+		<td class="w3-border">Fecha de finalizacion</td>
+		<td class="w3-border">Asistentes</td>
+		<td class="w3-border">Accion</td>
+    </tr>
+  </thead>
+  <tbody>
+    {% if object_list %}
+		{% for evento in object_list %}
+		<tr>
+			<td class="w3-border">{{ evento.id }}</td>
+			<td class="w3-border">
+				<ul>{% for seminario in evento.seminario.all %}
+					<li>
+						{{ seminario.tema }}
+					</li>
+				</ul>{% endfor %}
+			</td>
+			<td class="w3-border">{{ evento.fecha_inicio }}</td>
+			<td class="w3-border">{{ evento.fecha_fin }}</td>
+			<td class="w3-border w3-center">
+				<a  target="_blank" href="{% url 'evento:reporte_personas_pdf' %}"><button class="w3-button w3-green w3-round w3-center">Asistentes</button></a>
+			</td>
+			<td class="w3-border w3-center">
+				<a href="{% url 'evento:editar_evento' evento.id %}"><button class="w3-button w3-green w3-round" >Editar</button></a>
+				<a href="{% url 'evento:eliminar_evento' evento.id %}"><button class="w3-button w3-green w3-round">Eliminar</button></a>
+			</td>
+		</tr>
+		{% endfor %}
+		{% else %}
+			<h1>No hay elementos que mostrar</h1>
+		{% endif %}
+  </tbody>
+</table> 
+
+
+
+{% endblock %}

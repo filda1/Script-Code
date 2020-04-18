@@ -1,0 +1,43 @@
+{% extends 'usuarios/base.html' %}
+
+{% load staticfiles %}
+
+{% block body %}
+<table class="w3-table-all w3-card-4">
+	<thead>
+		<tr>
+			<td>id</td>
+			<td>seminario</td>
+			<td>fecha_inicio</td>
+			<td>fecha_fin</td>
+			<td>asistentes</td>
+			
+		</tr>
+	</thead>	
+	<tbody>
+	{% if object_list %}
+		{% for evento in object_list %}		
+			<tr>
+				<td>{{ evento.id }}</td>
+				<td>
+					<ul>{% for seminario in evento.seminario.all %}
+						<li>
+							{{ seminario.tema }}
+						</li>{% endfor %}
+					</ul>
+				</td>
+				<td>{{ evento.fecha_inicio }}</td>
+				<td>{{ evento.fecha_fin }}</td>								
+				<td>
+					<a target="_blank" href="{% url 'evento:reporte_pdf' %}"><button class="w3-button w3-round">Generar Reporte</button></a>
+				</td>
+			</tr>
+		{% endfor %}
+	{% else %}
+		No se Encuentran Datos
+	{% endif %}
+		</tbody>
+		
+</table>
+
+{% endblock %}

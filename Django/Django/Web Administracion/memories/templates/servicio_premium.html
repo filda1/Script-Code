@@ -1,0 +1,22 @@
+{% extends 'index.html' %}
+{% load staticfiles %}
+{% block body %}
+		<div class="container padd">
+			<div class="">
+				<h2>Servicio Premium</h2>
+				
+				<h5 class="w3-hide-small">Este servicio incluye, el recojo del cadáver de la mascota en el lugar indicado por el cliente, para ser llevado a nuestras instalaciones, donde se efectuara el proceso de cremación. </h5>
+				<h5 class="w3-hide-small">Las cenizas serán entregadas directamente en la dirección que el cliente nos indique, en la urna electa por el mismo.
+				</h5>
+
+				<h5 class="w3-center w3-hide-large w3-hide-medium">Este servicio incluye, el recojo del cadáver de la mascota en el lugar indicado por el cliente, para ser llevado a nuestras instalaciones, donde se efectuara el proceso de cremación. </h5>
+				<h5 class="w3-center w3-hide-large w3-hide-medium">Las cenizas serán entregadas directamente en la dirección que el cliente nos indique, en la urna electa por el mismo.
+				</h5>
+			</div><br>
+			<div>
+				<a href="{% url 'registro' %}" class="btn btn-outline-success paddbtn">
+					Registrate para Acceder al Servicio
+				</a>
+			</div>
+		</div>
+{% endblock %}

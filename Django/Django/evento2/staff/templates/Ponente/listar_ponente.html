@@ -1,0 +1,41 @@
+{% extends 'usuarios/base.html' %}
+
+{% load staticfiles %}
+
+{% block body %}
+<table class="w3-table-all w3-card-4">
+	<thead>
+		<tr>
+			<td>Id</td>
+			<td>Nombre</td>
+			<td>Apellidos</td>
+			<td>Titulo</td>
+			<td>Grado</td>
+			<td>Lugar</td>			
+			<td>Accion</td>			
+		</tr>
+	</thead>	
+	<tbody>
+	{% if object_list %}
+		{% for ponente in object_list %}		
+			<tr>
+				<td>{{ ponente.id }}</td>
+				<td>{{ ponente.nombres }}</td>
+				<td>{{ ponente.apellidos }}</td>
+				<td>{{ ponente.titulo }}</td>
+				<td>{{ ponente.grado }}</td>
+				<td>{{ ponente.lugar_trabajo }}</td>			
+				<td>
+					<a href="">Editar</a>
+					<a href="">Eliminar</a>
+				</td>				
+			</tr>
+		{% endfor %}
+	{% else %}
+		No se Encuentran Datos
+	{% endif %}
+		</tbody>
+		
+</table>
+
+{% endblock %}

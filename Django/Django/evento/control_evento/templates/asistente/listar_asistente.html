@@ -1,0 +1,41 @@
+{% extends 'usuarios/base.html' %}
+
+{% block body %}
+
+<table border="3">
+	<thead>
+		<tr>
+			<td>#</td>
+			<td>DNI</td>
+			<td>Nombre</td>
+			<td>Apellido</td>
+			<td>Email</td>
+			<td>Direccion</td>
+			<td>Telefono</td>
+			<td>Accion</td>
+		</tr>
+	</thead>
+	<tbody>
+		{% if object_list %}
+		{% for asistente in object_list %}
+		<tr>
+			<td>{{ asistente.id }}</td>
+			<td>{{ asistente.dni }}</td>
+			<td>{{ asistente.nombre }}</td>
+			<td>{{ asistente.apellidos }}</td>
+			<td>{{ asistente.email }}</td>
+			<td>{{ asistente.direccion }}</td>
+			<td>{{ asistente.telefono }}</td>
+			<td>
+				<a href="{% url 'evento:editar_asistente' asistente.id %}">Editar</a>
+				<a href="{% url 'evento:eliminar_asistente' asistente.id %}">Eliminar</a>
+			</td>
+		</tr>
+		{% endfor %}
+		{% else %}
+			<h1>No hay elementos que mostrar</h1>
+		{% endif %}
+	</tbody>
+</table>
+
+{% endblock %}

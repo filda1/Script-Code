@@ -1,0 +1,53 @@
+{% extends 'index.html' %}
+{% load staticfiles %}
+{% block body %}
+		<div class="container padd">
+			<form method="post">
+				{% csrf_token %}
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="form-group">
+						    	<label for="exampleInputEmail1">Nombres {{ form.nombre }}</label>						    	
+						  	</div>
+						</div>
+						<div class="col-sm-1"></div>
+						<div class="col-sm-4">
+							<div class="form-group">
+						    	<label for="exampleInputPassword1">Apellidos {{ form.apellidos }}</label>				    	
+						  	</div>
+						</div>						
+					</div>
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="form-group">
+						    	<label for="exampleInputEmail1">Direccion {{ form.direccion }}</label>
+						  	</div>
+						</div>											
+					</div>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="row">						
+							<div class="col-sm-8">
+								<div class="form-group">
+								    	<label for="exampleInputEmail1">Telefono {{ form.telefono }}</label>
+								  </div>
+							</div>	
+							<div class="col-sm-8">									
+								<div class="form-group">
+								    <label for="exampleInputEmail1">Nombre de la Mascota {{ form.mascota }}</label>
+								</div>
+							</div>					
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-5">
+							<div class="form-group">
+						    	<label for="exampleInputPassword1">Agregar foto de la mascota {{ form.image }}</label><br>						    	
+						  	</div>
+						</div>					
+					</div>
+					<a href="{% url 'urnas' %}"><button type="submit" class="btn btn-outline-primary">Escoge tu Urna</button></a>
+					<br><br><br>
+				</div>	
+			</form>
+{% endblock %}

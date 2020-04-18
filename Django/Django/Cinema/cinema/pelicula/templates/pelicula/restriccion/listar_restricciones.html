@@ -1,0 +1,31 @@
+{% extends 'cinema/base.html' %}
+{% block admin %}../../admin/ {% endblock %}
+
+{% block body %}
+
+  <table border="2">
+      <thead>
+        <tr>
+          <td>#</td>
+          <td>Nombre</td>
+          <td>Observaciones</td>
+        </tr>
+      </thead>
+      <tbody>
+        {% if object_list %}
+        {% for restricciones in object_list %}
+        <tr>
+          <td>{{ restricciones.id }}</td>
+          <td>{{ restricciones.nombre }}</td>
+          <td>
+            <a href="{% url 'pelicula:editar_restricciones' restricciones.id %}" class="w3-btn w3-hover-green w3-margin-left"><span class="icon-pencil"></span></a>
+            <a href="{% url 'pelicula:eliminar_restricciones' restricciones.id %}" class="w3-btn  w3-hover-green w3-margin-left"><span class="icon-bin"></span></a>
+          </td>
+        </tr>
+        {% endfor %}
+        {% else %}
+          <h2>No hay registros</h2>
+        {% endif %}
+      </tbody>
+  </table>
+{% endblock %}

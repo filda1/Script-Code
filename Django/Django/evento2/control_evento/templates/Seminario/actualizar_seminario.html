@@ -1,0 +1,12 @@
+{% extends 'usuarios/base.html' %}
+{% load staticfiles %}
+{% block body %}
+<form method="POST">
+
+	{% csrf.token %}
+	{{ forms.as_p }}
+	
+	<button type="submit">Crear</button>
+
+</form>
+{% endblock %}

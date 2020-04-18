@@ -1,0 +1,48 @@
+{% extends 'test1/base.html' %}
+
+{% block body %}
+<table border="2">
+  {% if object_list %}
+    <thead>
+      <tr>
+        <td>#</td>
+        <td>Hora de Compra</td>
+        <td>Cantidad de Entradas Compradas</td>
+        <td>Tipo de Entrada</td>
+        <td>Total Pagado</td>
+        <td>Sala</td>
+        <td>Pelicula</td>
+        <td>Vuelto</td>
+        <td>Accion</td>
+      </tr>
+    </thead>
+    <tbody>
+      {% for entrada in object_list %}
+      <tr>
+        <td>{{ entrada.id }}</td>
+        <td>{{ entrada.hora_compra }}</td>
+        <td>{{ entrada.cantidad }}</td>
+        <td>
+          <ul>{% for tipo in entrada.tipo_entrada.all %}
+            <li>
+              {{ tipo.tipo }}
+            </li>
+            {% endfor %}
+          </ul>
+        </td>
+        <td>{{ entrada.total_pagado }}</td>
+        <td>{{ entrada.sala.numero }}</td>
+        <td>{{ entrada.pelicula.nombre }}</td>
+        <td>{{ entrada.vuelto }}</td>
+        <td>
+          <a href="{% url 'compras:editar_entrada' entrada.id %}">Editar</a>
+          <a href="{% url 'compras:eliminar_entrada' entrada.id %}">Eliminar</a>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  {% else %}
+    <h2>No hay datos que mostrar</h2>
+  {% endif %}
+</table>
+{% endblock %}

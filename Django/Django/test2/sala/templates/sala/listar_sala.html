@@ -1,0 +1,50 @@
+{% extends 'test2/base.html' %}
+
+{% block body %}
+<table method="post" border="2">
+	<thead>
+		<tr>
+			<td>#</td>
+			<td>Numero</td>
+			<td>Tipo de Sala</td>
+			<td>Peliculas</td>
+			<td>Butacas</td>
+			<td>Cantidad Total de Butacas</td>
+			<td>Accion</td>
+		</tr>
+	</thead>
+	<tbody>
+		{% if object_list %}
+		{% for sala in object_list %}
+			<tr>
+				<td>{{ sala.id }}</td>
+				<td>{{ sala.numero }}</td>
+				<td>{{ sala.tipo_sala }}</td>
+				<td>
+					<ul>{% for pelicula in sala.pelicula.all %}
+						<li>{{ pelicula.nombre }}</li>
+					{% endfor %}
+					</ul>
+				</td>
+				<td>
+					<ul>{% for butacas in sala.butacas.all %}
+						<li>
+							{{ butacas.numero }}
+						</li>
+						{% endfor %}
+					</ul>
+				</td>
+				<td>{{ sala.cantidad_butacas }}</td>
+				<td>
+					<a href="{% url 'sala:editar_sala' sala.id %}">Editar</a>
+					<a href="{% url 'sala:eliminar_sala' sala.id %}">Eliminar</a>
+				</td>
+		{% endfor %}
+			</tr>
+		{% else %}
+			<h2>No hay elementos que mostrar</h2>
+		{% endif %}
+	</tbody>
+</table>
+
+{% endblock %}

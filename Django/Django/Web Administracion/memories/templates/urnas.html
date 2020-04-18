@@ -1,0 +1,87 @@
+{% extends 'index.html' %}
+{% load staticfiles %}
+{% block body %}
+		<br>
+		<h2 class="nav">BRONCE</h2><br>
+		<div class="container w3-hide-small">
+			<div class="card-deck row">
+				<div class="card w3-center col-lg-4 col-md-4 w3-hide-small">
+				  <img class="cartas" src="{% static 'img/urnas/bronce/1.jpg' %}"  alt="Card image cap">
+				  <div class="card-body">
+				    <h5 class="card-title w3-center">Urna mascota 1 litro</h5>
+				    <a href="{% url 'home' %}" class="btn btn-primary ">Elegir</a>
+				  </div>
+				</div>
+				<div class="card w3-center col-lg-4 w3-hide-small">
+				  <img class="cartas" src="{% static 'img/urnas/bronce/2.jpg' %}"  alt="Card image cap">
+				  <div class="card-body">
+				    <h5 class="card-title w3-center">Latón corazón</h5><br>
+				    <a href="{% url 'home' %}" class="btn btn-primary ">Elegir</a>
+				  </div>
+				</div>
+				<div class="card w3-center col-lg-4 w3-hide-small">
+				  <img class="cartas" src="{% static 'img/urnas/bronce/3.jpg' %}"  alt="Card image cap">
+				  <div class="card-body">
+				    <h5 class="card-title w3-center">Miniurna con candelabro</h5>
+				    <a href="{% url 'home' %}" class="btn btn-primary ">Elegir</a>
+				  </div>
+				</div>
+				<div class="card w3-center col-lg-4 w3-hide-small">
+				  <img class="cartas" src="{% static 'img/urnas/bronce/4.jpg' %}"  alt="Card image cap">
+				  <div class="card-body">
+				    <h5 class="card-title w3-center">Urna mascota 1.5 litros</h5>
+				    <a href="{% url 'home' %}" class="btn btn-primary ">Elegir</a>
+				  </div>
+				</div>
+				<div class="card w3-center col-lg-4 w3-hide-small">
+				  <img class="cartas" src="{% static 'img/urnas/bronce/5.jpg' %}"  alt="Card image cap">
+				  <div class="card-body">
+				    <h5 class="card-title w3-center">Candelabro</h5><br>
+				    <a href="{% url 'home' %}" class="btn btn-primary ">Elegir</a>
+				  </div>
+				</div>								
+			</div><br><br>
+		</div>
+ 
+        <div class="w3-container w3-hide-large w3-hide-medium">
+          <div class="w3-row-padding">
+             <div class="w3-third">
+                 <div class="w3-center">
+                     <img src="{% static 'img/urnas/bronce/1.jpg' %}" style = "width:100%" class = "img3 w3-image">
+                     <h5 class="card-title">Urna mascota 1 litro</h5>
+                     <button class="w3-button w3-round-large w3-blue w3-border-blue"><a href="{% url 'home' %}">ELEGIR</a></button>
+                 </div><br>
+                 <div class="w3-center">
+                     <img src="{% static 'img/urnas/bronce/2.jpg' %}" style = "width:100%" class = "img3 w3-image">
+                     <h5 class="card-title">Latón corazón</h5>
+                     <button class="w3-button w3-round-large w3-blue w3-border-blue"><a href="{% url 'home' %}">ELEGIR</a></button>
+                 </div><br>
+                 <div class="w3-center">
+                     <img src="{% static 'img/urnas/bronce/3.jpg' %}" style = "width:100%" class = "img3 w3-image">
+                     <h5 class="card-title">Miniurna con candelabro</h5>
+                     <button class="w3-button w3-round-large w3-blue w3-border-blue"><a href="{% url 'home' %}">ELEGIR</a></button>
+                 </div><br>
+                 <div class="w3-center">
+                     <img src="{% static 'img/urnas/bronce/4.jpg' %}" style = "width:100%" class = "img3 w3-image">
+                     <h5 class="card-title">Urna mascota 1.5 litros</h5>
+                     <button class="w3-button w3-round-large w3-blue w3-border-blue"><a href="{% url 'home' %}">ELEGIR</a></button>
+                 </div><br>
+                 <div class="w3-center">
+                     <img src="{% static 'img/urnas/bronce/5.jpg' %}" style = "width:100%" class = "img3 w3-image">
+                     <h5 class="card-title">Candelabro</h5>
+                     <button class="w3-button w3-round-large w3-blue w3-border-blue"><a href="{% url 'home' %}">ELEGIR</a></button>
+                 </div><br>
+             </div>
+          </div>            
+        </div>  
+
+			<ul class="pagination nav w3-center">
+			  <li class="page-item active"><a class="page-link" href="urnas">1</a></li>
+			  <li class="page-item"><a class="page-link" href="{% url 'urnas2' %}">2</a></li>
+			  <li class="page-item"><a class="page-link" href="{% url 'urnas3' %}">3</a></li>
+			  <li class="page-item"><a class="page-link" href="{% url 'urnas4' %}">4</a></li>
+			  <li class="page-item"><a class="page-link" href="{% url 'urnas5' %}">5</a></li>
+			  <li class="page-item"><a class="page-link" href="{% url 'urnas6' %}">6</a></li>
+			  <li class="page-item"><a class="page-link" href="{% url 'urnas2' %}">Next</a></li>
+			</ul><br><br>
+{% endblock %}

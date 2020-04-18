@@ -1,0 +1,10 @@
+{% extends 'base/base.html' %}
+{% block title %} Reescribiendo nuestro titulo {% endblock %}
+{% block body %}
+
+<form method="post">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit" name="button">Crear</button>
+</form>
+{% endblock %}

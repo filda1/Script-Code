@@ -17,7 +17,12 @@ TEMPLATES
 
    MATERALIZE ======> http://swarnakishore.github.io/MaterializeThemes/
 
+   E-COMMERCE = https://www.free-css.com/template-categories/ecommerce
+                https://cssauthor.com/e-commerce-website-templates/
+                https://colorlib.com/wp/free-bootstrap-ecommerce-website-templates/
+
    template Admin = starangular
+   Arquitectura material design = https://material.io/design/material-studies/shrine.html
 
    Favoritos Template
     https://html5up.net/photon
@@ -28,6 +33,11 @@ TEMPLATES
     https://html5up.net/telephasic ***
 
 ////////////////////////// FABORITOS////////////////////////////////////////////
+    https://www.free-css.com/free-css-templates/page194/bootstrap-shop***
+    maquinas = https://www.free-css.com/free-css-templates/page88/tool-shop***
+    https://colorlib.com/preview/theme/onetech/ ****
+    electrodomesticos == https://www.free-css.com/free-css-templates/page87/electronix***
+    ver efectos de compra = https://colorlib.com/preview/theme/theplaza/index.html#
     https://www.free-css.com/free-css-templates/page201/digishop-mini***
     https://www.free-css.com/free-css-templates/page201/shopper***
     https://www.free-css.com/free-css-templates/page200/sell-anything***

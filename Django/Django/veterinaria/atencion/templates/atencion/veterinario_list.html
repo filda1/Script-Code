@@ -1,0 +1,55 @@
+{% extends 'veterinaria/base.html' %}
+{% load staticfiles %}
+{% block title %}Veterinarios{% endblock %}
+{% block section %}
+<div class="container">
+	<table class="table table-bordered" >
+		<thead>
+			<tr>
+				<td>Codigo Medico</td>
+				<td>DNI</td>
+				<td>Nombre</td>
+				<td>Apellidos</td>
+				<td>Fecha de Nacimiento</td>
+				<td>Telefono</td>
+				<td>Email</td>
+				<td>Direccion</td>
+				<td>Fecha de contratacion</td>
+				<td>Horario</td>			
+				<td>Acciones</td>
+			</tr>
+		</thead>
+		<tbody>
+			{% if object_list %}
+			{% for veterinario in object_list %}
+			<tr>
+				<td>{{ veterinario.codigomedico }}</td>
+				<td>{{ veterinario.dni }}</td>
+				<td>{{ veterinario.nombre }}</td>
+				<td>{{ veterinario.apellidos }}</td>
+				<td>{{ veterinario.fecha_nacimiento }}</td>
+				<td>{{ veterinario.telefono }}</td>
+				<td>{{ veterinario.email }}</td>
+				<td>{{ veterinario.domicilio }}</td>
+				<td>{{ veterinario.fecha_contratacion }}</td>
+				<td>{{ veterinario.horario }}</td>			
+				<td>
+					<a class="btn btn-primary" href="{% url 'atencion:veterinario_editar' veterinario.codigomedico %}">Editar</a>
+					<a class="btn btn-danger" href="{% url 'atencion:veterinario_delete' veterinario.codigomedico %}">Eliminar</a>
+				</td>
+			</tr>
+			{% endfor %}
+
+			{% else %}
+				<h1>No hay registro de mascotas</h1>
+			{% endif %}
+		</tbody>
+	</table>
+</div>
+
+<div class="container">
+	<a  class="btn btn-primary" href="{% url 'atencion:veterinario_create' %}">Crear</a>
+</div>	
+{% endblock %}
+
+

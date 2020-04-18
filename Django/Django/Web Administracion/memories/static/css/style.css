@@ -1,0 +1,75 @@
+.sinpad{
+	padding: 5px;
+}
+
+.borde{
+	margin-right: 100px;
+}
+.padd{
+	padding-top: 20px;
+}
+h2, h3, h4,h6{
+	display: inline;
+}
+body {
+	background-color: #ede7f6;
+}
+
+.paddbtn{
+	padding: 30px;
+}
+
+.prueba{
+	margin-bottom: 0px;
+}
+
+footer{
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:#7e57c2  ;
+}
+
+.bordear{
+	border-radius: 15px;
+}
+
+.img3{
+    margin-bottom: 12px;
+    border-radius: 12px;
+	max-height: 200px;
+	max-width: 200px;
+}
+
+.img2{
+    margin-bottom: 12px;
+    border-radius: 12px;
+    
+}
+
+.nav{
+	margin-left: 50px;
+}
+ul li{
+	list-style: none;
+}
+
+
+.prueba{
+	margin-left: 200px;
+}
+
+.img{
+	margin-top: 12px;
+}
+
+.cartas{
+	max-width: 500px;
+	max-height: 500px;
+}
+
+.sin{
+	list-style: none;
+}

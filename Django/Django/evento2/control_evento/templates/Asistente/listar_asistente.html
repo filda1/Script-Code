@@ -1,0 +1,52 @@
+{% extends 'usuarios/base.html' %}
+
+{% load staticfiles %}
+<div>
+<br>
+	<a class="w3-btn w3-white w3-border w3-border-red w3-text-red w3-round-large" href="{% url 'evento:crear_seminario' %}">Registrar Asistente</a>
+<br><br>
+</div>
+
+{% block body %}
+<table class="w3-table-all w3-card-4">
+	<thead>
+		<tr>
+			<td>Id</td>
+			<td>dni</td>
+			<td>Nombre</td>
+			<td>Apellidos</td>
+			<td>Email</td>
+			<td>Direccion</td>
+			<td>Telefono</td>			
+			<td>Accion
+				
+			</td>
+			<td>Reporte</td>
+		</tr>
+	</thead>
+	
+		<tbody>		
+		{% if object_list %}
+			{% for asistente in object_list %}
+				<tr>
+					<td>{{ asistente.id }}</td>
+					<td>{{ asistente.dni }}</td>
+					<td>{{ asistente.nombre }}</td>
+					<td>{{ asistente.apellidos }}</td>
+					<td>{{ asistente.email }}</td>
+					<td>{{ asistente.direccion }}</td>
+					<td>{{ asistente.telefono }}</td>
+					<td>
+						<a href="{% url 'evento:editar_asistente' asistente.id %}">Editar</a>					
+						<a href="{% url 'evento:eliminar_asistente' asistente.id %}">Eliminar</a>
+					</td>				
+				</tr>
+			{% endfor %}
+		{% else %}
+			No se Encuentran Datos
+		{% endif %}
+		</tbody>
+		
+</table>
+
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends 'usuarios/base.html' %}
+
+{% block body %}
+
+<form method="post">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <div>
+    <button type="submit" name="button">Eliminar</button>
+    <a href="{% url 'evento:listar_asistente' %}">Cancelar</a>
+  </div>
+</form>
+
+{% endblock %}

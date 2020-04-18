@@ -59,3 +59,9 @@ box4world.com
 
 
   PAGINA WEB https://www.electrode.io/site/web.html
+
+  - CONVERTIR BOOSTRAPT EN ANGULAR MATERIAL (MEAN)
+  - E_COMMERCE DE DESCARGA DE ARCHIVOS      (MEAN)
+  - LOCALIZACION CERCANA DE COORDENADAS EN EXCEL
+  - RASPADOR DE EMAILS (PYTHON)
+  - Transformar conteúdo do Instagram em Post para Blog (PYTHON)

@@ -1,0 +1,125 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head >
+  <meta charset="UTF-8">
+  <title>{% block title %}Home{% endblock %}</title>
+  <link rel="stylesheet" href="{% static 'css/w3.css' %}">
+  <link rel="stylesheet" href="{% static 'css/fonts/style.css' %}">
+  <link rel="icon" href="{% static 'imagenes/favicon.ico' %}">
+  <style>
+    .image{
+      background-image: url('{% static 'imagenes/fondo.jpg' %}');
+      min-height: 100%;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .cartas{
+      max-width: 1350px;
+      max-height:1350px;
+    }
+    .login{
+      background-image: url('{% static 'imagenes/fondo_login.jpg' %}');
+
+    }
+    .margin_login{
+      margin-left: 300px;
+    }
+    .boton_login{
+      background-image: url('{% static 'imagenes/boton_login.jpg' %}');
+    }
+
+  </style>
+  <div class=" image w3-container w3-black w3-border-bottom w3-border-light-grey">
+      <div class="w3-bar">
+          <a href="{% url 'index' %}" class="w3-bar-item w3-button"><span class="icon-home"></span></a>
+          <a  href="{% block admin %}../../../admin/{% endblock %} "class="w3-bar-item w3-button w3-right"><span class=" icon-user" ></span></a>
+          <div class="w3-dropdown-hover w3-right">
+            <button class="w3-button w3-right"><span class=" icon-cogs"></span></button><br><br>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+              <a href="{% url 'logout' %}" class="w3-bar-item w3-button w3-left">Logout</a>
+            </div>
+          </div>
+          <a href="{% url 'trabajador:crear' %}" class="w3-bar-item w3-button"><span class="icon-user-plus"></span></a>
+          <a href="{% url 'trabajador:listar' %}" class="w3-bar-item w3-button"><span class="icon-users"></span></a>
+          {% block navbar %}
+          {% endblock %}
+      </div>
+  </div>
+
+</head>
+<body class="image">
+  {% block body %}
+  <br>
+  <br>
+  <br><br><br><br>
+      <div class="w3-row-padding w3-margin-top cartas")>
+          <div class="w3-quarter w3-margin-bottom">
+            <div class="w3-card-4 w3-center w3-margin-top">
+                <div class="w3-container">
+                  <div class="w3-tooltip">
+                    <img src="{% static 'imagenes/usuario.png' %}" class="w3-circle w3-margin-top" style="width:50%"><br>
+                      <h3>RR.HH</h3>
+                      <p class="w3-text"><span class="icon-checkmark"></span>Personal</p><br>
+                      <p class="w3-text"><span class="icon-checkmark"></span>Administrativos</p>
+                  </div>
+                  <a href="" class="w3-button w3-medium w3-grey">IR</a>
+                </div><br>
+            </div>
+          </div>
+          <div class="w3-quarter w3-margin-bottom">
+            <div class="w3-card-4 w3-center w3-margin-top">
+              <div class="w3-container">
+                <div class="w3-tooltip">
+                  <img src="{% static 'imagenes/salas.png' %}" class="w3-circle w3-margin-top" style="width:50%">
+                  <h3>SALAS</h3>
+                  <p class="w3-text"><span class="icon-checkmark"></span>3D</p><br>
+                  <p class="w3-text"><span class="icon-checkmark"></span>2D</p>
+                </div>
+                <a href="" class="w3-button w3-medium w3-grey">IR</a>
+              </div><br>
+
+            </div>
+          </div>
+          <div class="w3-quarter w3-margin-bottom">
+            <div class="w3-card-4 w3-center w3-margin-top">
+              <div class="w3-container">
+                <div class="w3-tooltip">
+                  <img src="{% static 'imagenes/areas.png' %}" class="w3-circle w3-margin-top" style="width:50%">
+                  <h3>AREAS</h3>
+                  <p class="w3-text"><span class="icon-checkmark"></span>Dulceria</p><br>
+                  <p class="w3-text"><span class="icon-checkmark"></span>Servicio</p>
+                </div>
+                <a href="" class="w3-button w3-medium w3-grey">IR</a>
+              </div><br>
+            </div>
+          </div>
+          <div class="w3-quarter w3-margin-bottom">
+            <div class="w3-card-4 w3-center w3-margin-top">
+              <div class="w3-container">
+                <div class="w3-tooltip">
+                  <img src="{% static 'imagenes/pelicula.png' %}" class="w3-circle w3-margin-top" style="width:50%">
+                  <h3>PELICULAS</h3>
+                  <p class="w3-text"><span class="icon-checkmark"></span>3D</p><br>
+                  <p class="w3-text"><span class="icon-checkmark"></span>2D</p>
+                </div>
+                <a href="" class="w3-button w3-medium w3-grey">IR</a>
+              </div><br>
+            </div>
+          </div>
+      </div>
+  {% endblock %}
+  <script>
+    function myFunction() {
+        var x = document.getElementById("Demo");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+</script>
+</body>
+</html>

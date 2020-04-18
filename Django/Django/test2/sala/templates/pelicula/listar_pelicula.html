@@ -1,0 +1,51 @@
+{% extends 'test2/base.html' %}
+
+{% block body %}
+<table method="post" border="2">
+	<thead>
+		<tr>
+			<td>#</td>
+			<td>Nombre</td>
+			<td>Nombe alterno</td>
+			<td>Duracion</td>
+			<td>Categoria</td>
+			<td>Fecha de Estreno</td>
+			<td>Idioma Original</td>
+			<td>Director</td>
+			<td>Sinopsis</td>
+			<td>Accion</td>
+		</tr>
+	</thead>
+	<tbody>
+		{% if object_list %}
+		{% for pelicula in object_list %}
+			<tr>
+				<td>{{ pelicula.id }}</td>
+				<td>{{ pelicula.nombre }}</td>
+				<td>{{ pelicula.nombre_alterno }}</td>
+				<td>{{ pelicula.duracion }}</td>
+				<td>
+					<ul>{% for categoria in sala.categoria.all %}
+						<li>
+							{{ categoria.categoria }}
+						</li>
+						{% endfor %}
+					</ul>
+				</td>
+				<td>{{ pelicula.fecha_estreno }}</td>
+				<td>{{ pelicula.idioma_original }}</td>
+				<td>{{ pelicula.director }}</td>
+				<td>{{ pelicula.sinopsis }}</td>
+				<td>
+					<a href="{% url 'sala:editar_pelicula' pelicula.id %}">Editar</a>
+					<a href="{% url 'sala:eliminar_pelicula' pelicula.id %}">Eliminar</a>
+				</td>
+		{% endfor %}
+			</tr>
+		{% else %}
+			<h2>No hay elementos que mostrar</h2>
+		{% endif %}
+	</tbody>
+</table>
+
+{% endblock %}

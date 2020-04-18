@@ -1,0 +1,13 @@
+{% extends 'usuarios/base.html' %}
+{% load staticfiles %}
+{% block body %}
+<form method="POST">
+
+	{% csrf.token %}
+	{{ forms.as_p }}
+	
+	<button  class="w3-btn w3-white w3-border w3-border-red w3-text-red w3-round-large type=submit">Eliminar</button><br>
+		<a class="w3-btn w3-white w3-border w3-border-white w3-text-red w3-round-large" href="{% url 'evento:listar_seminario' %}">Cancelar</a>
+
+</form>
+{% endblock %}

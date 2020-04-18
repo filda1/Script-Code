@@ -1,0 +1,49 @@
+{% extends 'veterinaria/base.html' %}
+{% load staticfiles %}
+{% block title %}Personas{% endblock %}
+{% block section %}
+<div class="container">
+	<table class="table table-bordered" >
+		<thead>
+			<tr>
+				<td>DNI</td>
+				<td>Nombre</td>
+				<td>Apellidos</td>
+				<td>Edad</td>
+				<td>Telefono</td>
+				<td>Email</td>
+				<td>Direccion</td>			
+				<td>Acciones</td>
+			</tr>
+		</thead>
+		<tbody>
+			{% if object_list %}
+			{% for persona in object_list %}
+			<tr>
+				<td>{{ persona.dni }}</td>
+				<td>{{ persona.nombre }}</td>
+				<td>{{ persona.apellidos }}</td>
+				<td>{{ persona.edad }}</td>
+				<td>{{ persona.telefono }}</td>
+				<td>{{ persona.email }}</td>
+				<td>{{ persona.domicilio }}</td>			
+				<td>
+					<a class="btn btn-primary" href="{% url 'atencion:persona_editar' persona.dni %}">Editar</a>
+					<a class="btn btn-danger" href="{% url 'atencion:persona_delete' persona.dni %}">Eliminar</a>
+				</td>
+			</tr>
+			{% endfor %}
+
+			{% else %}
+				<h1>No hay registro de mascotas</h1>
+			{% endif %}
+		</tbody>
+	</table>
+</div>
+
+<div class="container">
+	<a  class="btn btn-primary" href="{% url 'atencion:persona_create' %}">Crear</a>
+</div>	
+{% endblock %}
+
+

@@ -1,0 +1,44 @@
+{% extends 'veterinaria/base.html' %}
+
+{% load staticfiles %}
+{% block title %}Home{% endblock %}
+
+{% block section %}
+<div class="container">
+	<table class="table table-bordered">
+	<thead>
+		<tr>
+			<td>#</td>
+			<td>Nombre</td>
+			<td>Sexo</td>
+			<td>Edad aproximada</td>
+			<td>Fecha de obtencion</td>
+			<td>Adoptante</td>			
+			<td>Acciones</td>
+		</tr>
+	</thead>
+	<tbody>
+		{% if object_list %}
+		{% for mascota in object_list %}
+		<tr>
+			<td>{{ mascota.id }}</td>
+			<td>{{ mascota.nombre }}</td>
+			<td>{{ mascota.sexo }}</td>
+			<td>{{ mascota.edad_aproximada }}</td>
+			<td>{{ mascota.fecha_obtencion }}</td>
+			<td>{{ mascota.persona.nombre }} {{ mascota.persona.apellidos }}</td>			
+			<td>
+				<a class="btn btn-primary " href="{% url 'mascota:editar_mascota' mascota.id %} ">Editar</a>
+				<a class="btn btn-danger" href="{% url 'mascota:eliminar_mascota' mascota.id %}">Eliminar</a>
+			</td>
+		</tr>
+		{% endfor %}
+
+		{% else %}
+			<h1>No hay registro de mascotas</h1>
+		{% endif %}
+	</tbody>
+</table>
+</div>
+
+{% endblock %}

@@ -1,0 +1,53 @@
+{% extends 'cinema/base.html' %}
+
+{% block title %} Lista de Usuarios{% endblock %}
+{% block admin %}../../admin/ {% endblock %}
+{% block navbar %}
+
+{% endblock %}
+{% block body %}
+  <div class="w3-card-4">
+    <div class="w3-container">
+      <table class="w3-table w3-border w3-card-4 w3-indigo ">
+          <thead class="w3-border">
+            <tr>
+              <td class="w3-border ">#</td>
+              <td class="w3-border">Nombre</td>
+              <td class="w3-border">Apellido</td>
+              <td class="w3-border">Username</td>
+              <td class="w3-border">Area</td>
+              <td class="w3-border">Dni</td>
+              <td class="w3-border">Email</td>
+              <td class="w3-border">Sexo</td>
+              <td class="w3-border">Tipo usuario</td>
+              <td class="w3-border">Accion</td>
+            </tr>
+          </thead>
+          <tbody>
+            {% if object_list %}
+        		{% for trabajador in object_list %}
+              <tr>
+                <td class="w3-border ">{{ trabajador.id }}</td>
+                <td class="w3-border ">{{ trabajador.nombre }}</td>
+                <td class="w3-border ">{{ trabajador.apellido }}</td>
+                <td class="w3-border ">{{ trabajador.username }}</td>
+                <td class="w3-border">{{ trabajador.area }}</td>
+                <td class="w3-border ">{{ trabajador.dni }}</td>
+                <td class="w3-border ">{{ trabajador.email }}</td>
+                <td class="w3-border ">{{ trabajador.sexo }}</td>
+                <td class="w3-border ">{{ trabajador.tipo_usuario.id }}</td>
+                <td class="w3-border">
+                  <a href="{% url 'trabajador:editar' trabajador.id %}" class="w3-btn w3-hover-green w3-margin-left"><span class="icon-pencil"></span></a>
+                  <a href="{% url 'trabajador:eliminar' trabajador.id %}" class="w3-btn  w3-hover-green w3-margin-left"><span class="icon-bin"></span></a>
+                </td>
+              </tr>
+             {% endfor %}
+
+          	{% else %}
+          			<h1>No hay registro de trabajadores</h1>
+          	{% endif %}
+          </tbody>
+      </table>
+    </div>
+  </div>
+{% endblock %}
