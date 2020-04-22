@@ -1,7 +1,8 @@
 
   buscador Booking = https://bootsnipp.com/snippets/7nQZx
                      https://bootsnipp.com/snippets/WMlMa
-
+                     https://bootsnipp.com/snippets/AV5RK
+                     https://bootsnipp.com/snippets/DqxnG
                       https://bootsnipp.com/snippets/bx65A
 
 
@@ -19,7 +20,8 @@
 
  Descripcion de casa = https://bootsnipp.com/snippets/GanRg
 
- 
+ Nav = https://bootsnipp.com/snippets/ORmzq
+       https://bootsnipp.com/snippets/lVrVa
  
  Botones de borde = https://bootsnipp.com/snippets/O8V
                     ******https://bootsnipp.com/snippets/V0aQd

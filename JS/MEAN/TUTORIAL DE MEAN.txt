@@ -7,14 +7,18 @@ TUTORIAL DE MEAN
        == https://github.com/FaztWeb/mean-employees
 
     David Acosta (completo) = https://www.youtube.com/watch?v=c9M-CHPaQtI&list=PL3vQyqzqjZ637sWpKvniMCxdqZhnMJC1d&index=11
+    MOLDEO INRERATIVO = https://www.youtube.com/watch?v=k1uM6YeEx6g&list=PLHgpVrCyLWApLDoezmOfrUXb-IMoDs5Ls
 
   ACADEMIND (BUENO) = https://www.youtube.com/watch?v=-3vvxn78MH4&list=PLAT69vw4iQZ4ieLT_X3LfDuyqxmmnYnQf
+  
+  TEMPLATE BOOSTRPT +ANGULAR = https://www.youtube.com/watch?v=PytGqVBuOq8
+                               https://fahmidasclassroom.com/how-to-convert-a-simple-html-template-into-angular-project/
 
    ADMIN = https://www.youtube.com/watch?v=7Ujn7g1JF1Q
    STRAPI ADMIN = https://strapi.io/documentation/3.0.0-alpha.x/getting-started/quick-start.html#_5-manage-and-add-data-to-content-type
+    LOGIN y REGISTER = https://www.youtube.com/watch?v=IlpU1z3cvSQ
+                       https://github.com/AzharHusain/login-registration-passport
 
-   Javascript=== https://www.youtube.com/watch?v=023Psne_-_4
-   NODE + STRIPE === https://www.youtube.com/watch?v=QT3_zT97_1g
   -------------------------------------------------------------------
   EN SERVER: - Utiliza MVC
              - Al crear una clase (Model) == crea una TABLE BD + conexion BD
@@ -253,6 +257,7 @@ const app = express();
 
             1. npm install -g @angular/cli
             2. cd carpeta/proyecto  ng new frontend
+                                    ng new frontend --routing
             3. cd carpeta/proyecto/frontend ng serve       ========================================> localhost:4200
 
 
@@ -297,8 +302,23 @@ const app = express();
 
 
             6. En index.html       ==================================================> poner css ( Ej: Boostrapt, materializecss)   
+---------------------------------------------------------------------------------------------------------------
+              MATERIAL   teemas personalizados ==========> https://material.angular.io/guide/theming#defining-a-custom-theme (colores: https://material.io/design/color/the-color-system.html#tools-for-picking-colors)
+ 
+           - INSTALAR ANGULAR MATERIAL ; >>  c:/proyecto/frontend  ng add @angular/material
+            - Y tambien   ng add @angular/pwa
 
-    
+              Funcionamiento Angular Material:
+
+                 -crear material.ts:
+
+
+                 - y poner en app.module.ts:   ===========> importat materaial ts
+                         import  { MaterialModule }  from './material'
+                    
+                     imports: MaterialModule,
+
+---------------------------------------------------------------------------------------------------------------
 
                          
             7. employee.html:

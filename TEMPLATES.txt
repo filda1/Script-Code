@@ -8,8 +8,13 @@ TEMPLATES
    https://bootstrapmade.com/demo/themes/EstateAgency/index.html
    https://mdbootstrap.com/freebies/
    https://all-free-download.com/
-   https://www.free-css.com/template-categories
+   https://www.free-css.com/template-categories´
 
+  ecommerce 
+     https://www.tooplate.com/live/2114-pixie
+     http://bootstrap-ecommerce.com/bootstrap-ecommerce-html/page-index-2.html#
+
+   ESTRUCTURA == https://www.w3schools.com/bootstrap/bootstrap_templates.asp
    Template CSS = https://templated.co
                 https://www.free-css.com/free-css-templates 81
                 https://www.tooplate.com/
