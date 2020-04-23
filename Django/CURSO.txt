@@ -133,7 +133,13 @@ Developer. pe = https://www.youtube.com/watch?v=0-6etcOHQ_0&list=PLMbRqrU_kvbTGg
   31. Passar parametros
    
         path('libro'/<slug:titulo>/<int:numero>', libros, nombre_route)
+
      
+  32.   LOGIN Y LOGOUT = https://www.youtube.com/watch?v=hdCsb9R1-wM
+
+     1- Ir Admin proyecto:
+         A- Poner en urls.py
+         B- Poner en settings.py
        
            
 
