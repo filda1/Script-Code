@@ -10,6 +10,8 @@ TUTORIAL DE MEAN
     MOLDEO INRERATIVO = https://www.youtube.com/watch?v=k1uM6YeEx6g&list=PLHgpVrCyLWApLDoezmOfrUXb-IMoDs5Ls
 
   ACADEMIND (BUENO) = https://www.youtube.com/watch?v=-3vvxn78MH4&list=PLAT69vw4iQZ4ieLT_X3LfDuyqxmmnYnQf
+
+    SLIDE3D= https://bootsnipp.com/snippets/qr3Zg
   
   TEMPLATE BOOSTRPT +ANGULAR = https://www.youtube.com/watch?v=PytGqVBuOq8
                                https://fahmidasclassroom.com/how-to-convert-a-simple-html-template-into-angular-project/

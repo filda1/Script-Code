@@ -1,0 +1,3 @@
+
+ Gallerya = https://1stwebdesigner.com/jquery-gallery/
+ Fotorama= https://fotorama.io/

@@ -141,6 +141,29 @@ Developer. pe = https://www.youtube.com/watch?v=0-6etcOHQ_0&list=PLMbRqrU_kvbTGg
          A- Poner en urls.py
          B- Poner en settings.py
        
+
+  33. PROTECCION DE  RUTAS (varias formas)
+
+    -En urls.py de cada/apps:
+   
+        from django.contrib.auth.decorators import login_required
+
+   
+       path('/Autor', login_required(Autor.as_view() ), name='autor')
+
+  34. Registro de usuario
+
+    En views.py:
+       from django.views.generic import CreateView
+      
+       class RegistroUser(CreateView):
+        model=xxx,
+        template_name=''
+        form_class= Formulario
+        success_url =.....
+       
+
+   
            
 
 
