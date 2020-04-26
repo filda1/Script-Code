@@ -16,6 +16,8 @@ TUTORIAL DE MEAN
   TEMPLATE BOOSTRPT +ANGULAR = https://www.youtube.com/watch?v=PytGqVBuOq8
                                https://fahmidasclassroom.com/how-to-convert-a-simple-html-template-into-angular-project/
 
+   ******ADMIN BRO***> (JSCasts)=== https://www.youtube.com/watch?v=7Ujn7g1JF1Q
+
    ADMIN = https://www.youtube.com/watch?v=7Ujn7g1JF1Q
    STRAPI ADMIN = https://strapi.io/documentation/3.0.0-alpha.x/getting-started/quick-start.html#_5-manage-and-add-data-to-content-type
     LOGIN y REGISTER = https://www.youtube.com/watch?v=IlpU1z3cvSQ

@@ -1,6 +1,5 @@
 
 https://bbbootstrap.com/snippets/payment-form-three-different-payment-options-13285516
- dropdows==https://bbbootstrap.com/snippets/bootstrap-navbar-search-and-dropdowns-15823796
 ~--------------------------
   buscador Booking = https://bootsnipp.com/snippets/7nQZx
                      https://bootsnipp.com/snippets/WMlMa

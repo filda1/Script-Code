@@ -161,6 +161,10 @@ Developer. pe = https://www.youtube.com/watch?v=0-6etcOHQ_0&list=PLMbRqrU_kvbTGg
         template_name=''
         form_class= Formulario
         success_url =.....
+
+  35:TRASLATE      Samuli Natri== https://www.youtube.com/watch?v=xI97sLMd1rM
+
+                                 https://github.com/SamuliNatri
        
 
    
