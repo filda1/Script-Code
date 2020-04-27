@@ -1,4 +1,4 @@
-
+ - RED LLAMAR A EXTRANOS Y Publicando un tema = https://wakie.com/
   -App para cabelereiros
 Publicado: há 2 meses Propostas: 5
 O meu projeto é a criação de um app para cabelereiros profissionais de forma a que os clientes possam fazer reservas, pagamentos online, horários do mesmo e localização dos salões na zona de Lisboa.

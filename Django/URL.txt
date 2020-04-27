@@ -13,3 +13,23 @@ https://docs.hektorprofe.net/django/web-personal/patron-mvt-modelo-vista-templat
    Django REST = https://www.paradigmadigital.com/dev/introduccion-django-rest-framework/
 
    Django + Vue.js = https://www.youtube.com/watch?v=WbAqnp-zqPU&list=PLpOqH6AE0tNh7-Z-Lka9e0hRA2OdNB0dx&index=2
+
+   noticias automaticas = Code Drip = https://www.youtube.com/watch?v=1UMHhJEaVTQ
+
+   Django + cpanel = https://www.youtube.com/watch?v=ffqMZ5IcmSY
+
+   Python + cpanel = https://www.youtube.com/watch?v=5AyGDrH7UiQ
+
+    Site free = https://www.pythonanywhere.com/
+
+
+
+
+
+
+
+
+
+
+
+
