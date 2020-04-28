@@ -8,7 +8,7 @@
 7. Machine learning
 8. Cloud computing
 9- Blockaing
-
+10-IoT
 
 ----------------------------------------------------------
  Go
