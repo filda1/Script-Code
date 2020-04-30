@@ -6,6 +6,9 @@ TUTORIAL DE MEAN
 
        == https://github.com/FaztWeb/mean-employees
 
+
+   ******LOGIN = https://www.youtube.com/watch?v=KyyzhRqkJRA
+
     David Acosta (completo) = https://www.youtube.com/watch?v=c9M-CHPaQtI&list=PL3vQyqzqjZ637sWpKvniMCxdqZhnMJC1d&index=11
     MOLDEO INRERATIVO = https://www.youtube.com/watch?v=k1uM6YeEx6g&list=PLHgpVrCyLWApLDoezmOfrUXb-IMoDs5Ls
 
@@ -20,7 +23,8 @@ TUTORIAL DE MEAN
 
    ADMIN = https://www.youtube.com/watch?v=7Ujn7g1JF1Q
    STRAPI ADMIN = https://strapi.io/documentation/3.0.0-alpha.x/getting-started/quick-start.html#_5-manage-and-add-data-to-content-type
-    LOGIN y REGISTER = https://www.youtube.com/watch?v=IlpU1z3cvSQ
+   ****** LOGIN y REGISTER = https://www.youtube.com/watch?v=IlpU1z3cvSQ  (1)
+                             https://www.youtube.com/watch?v=ma9tKRR0dGk&t=146s (2)
                        https://github.com/AzharHusain/login-registration-passport
 
   -------------------------------------------------------------------
@@ -575,9 +579,11 @@ const app = express();
 
                         * npm run dev
 
+----------------------------------------------------------------------------------------------------------------
 
 
+                  - INSTALAT ENCRIPTADO DE PASSWORD ;   npm install bcrypt
 
-
+                  - SESSIONES;     npm install passport-local express-session  y  npm install passport  y npm i connect-mongo , npm i http-errors , npm i cookie-parser      (NET:http://www.passportjs.org/docs/username-password/)
                         
                       
