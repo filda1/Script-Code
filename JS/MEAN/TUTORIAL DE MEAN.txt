@@ -580,10 +580,37 @@ const app = express();
                         * npm run dev
 
 ----------------------------------------------------------------------------------------------------------------
+ LOGIN Y REGISTER
+            Fatz= https://www.youtube.com/watch?v=rPD0eY3dRqQ (1)
+                  https://www.youtube.com/watch?v=l_r9nRJ9YTkn (2)
+                   https://github.com/FaztWeb/angular-node-jwt/tree/master/frontend/src/app
+******************************************************************************************************************
+          "FUNCIONAMIENTO=  En Node: crea siempre un token, cuando se registra o un login. En Angular: se protrege las vistas con guard(). "
+                Token = es identificador de session
+                guard()= protege rutas en angular
 
-
+          En angular al hacer login o registro el servidor te da el toquen y lo guardas em localstorage de navegador
+          Con ese token activo entras en session pero si destruye el token la session  se acaba(logout)
+*****************************************************************************************************************
+            Node.js:
                   - INSTALAT ENCRIPTADO DE PASSWORD ;   npm install bcrypt
+                  - SESSIONES ; npm i jsonwebtoken
+      
+            *en Angular(Se necesita guard , PAra proteger las rutas, valida si exite o no el token, que se guanda localstore del navegador)
+             >> npm g g auth
 
-                  - SESSIONES;     npm install passport-local express-session  y  npm install passport  y npm i connect-mongo , npm i http-errors , npm i cookie-parser      (NET:http://www.passportjs.org/docs/username-password/)
+
+
+                  1- En angular: se guarda el token   =============> en localstore del navegador
+                  2- Se evalua el token con guard
+                  3- Y con token interceptor se =======> adiciona info, como token, autorizacion... a la cabecera
+                  4- Registra  app.module
+
+
+                 Archivos en Angular:
+                     auth.guard
+                     Token-interceptor
+                     Userservices
+                     app-routing(seleciona la ruta a protege)
                         
-                      
+--------------------------------------------------------------------------------------------------------------------                      

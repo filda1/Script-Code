@@ -5,14 +5,26 @@ Developer. pe = https://www.youtube.com/watch?v=0-6etcOHQ_0&list=PLMbRqrU_kvbTGg
 -----------------------------------------------------------------------------------------
    MODELO-VISTA-TEMPLATE (MVT)
 
-  0- Donwload Python
-  1- Crear en Entorno ,  PIPENV o VIRTUAL ENV
+  0- Donwload Python, Ojo poner: add Path
   2-  >> pip freeze                    ===================================> ves todo los paquetes instalados
+------------------------------------------------------
+  1- TUTO=https://medium.com/@piyushmaurya23/setting-up-django-using-pipenv-cf8ff9b2caa6
 
+# to create virtualenv with python3
+$ pipenv --three
+# to create virtualenv using specific python version
+$ pipenv --python 3.6
+# Activate virtualenv
+$ pipenv shell         ====================================================> Entar/salir del entorno
 
-   3- >> admin-django starproyect  biblioteca
+ >> pipenv install django=='1.11.*'
 
-   4 -  Dentro de apps =====> >> django-admin startapp nombre_app    (Ej libro)
+------------------------------------------------
+   3- >> admin-django starproyect  biblioteca   (django-admin startproject myProjectSite)
+      >> cd biblioteca
+      >> python manage.py runserver
+
+   4 -  Dentro de apps (crear carpeta apps) =====> >> django-admin startapp nombre_app    (Ej libro)
    5 - Registar app en setting.py  ====>  'app.libros'
 
            biblioteca
@@ -44,7 +56,7 @@ Developer. pe = https://www.youtube.com/watch?v=0-6etcOHQ_0&list=PLMbRqrU_kvbTGg
 
 -------------------------------------------------------------------------------------------------------------------
     10. ADMIN
-    11. >> python.manage.py createsuperuser      (Pones user y password)
+    11. >> python manage.py createsuperuser      (Pones user y password)
 
 -------------------------------------------------------------------------------------------------------------------
 
