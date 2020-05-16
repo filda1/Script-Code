@@ -7,11 +7,21 @@ TUTORIAL DE MEAN
        == https://github.com/FaztWeb/mean-employees
 
 
-   ******LOGIN = https://www.youtube.com/watch?v=KyyzhRqkJRA
 
     David Acosta (completo) = https://www.youtube.com/watch?v=c9M-CHPaQtI&list=PL3vQyqzqjZ637sWpKvniMCxdqZhnMJC1d&index=11
     MOLDEO INRERATIVO = https://www.youtube.com/watch?v=k1uM6YeEx6g&list=PLHgpVrCyLWApLDoezmOfrUXb-IMoDs5Ls
 
+
+
+  LOgin+REgistro = https://bezkoder.com/angular-jwt-authentication/
+--------------------------------------------------------------------------------------------------------------------
+  Storage Gratis = Cloudinary.com
+   FATZ cloudnunary = https://www.youtube.com/watch?v=jP2DNQyOE90
+                      https://github.com/FaztWeb/nodejs_cloudinary_photo_gallery
+  SUBIR IMG, Node + MongoDB (Pinterest = Fast) = https://www.youtube.com/watch?v=aNYX2F1RX-s                                                  (https://github.com/FaztTech/nodejs-                                                                                                    finterest)
+  SUBIR IMAG Azhar Husain(Angular + MongoDB) =  https://www.youtube.com/watch?v=NsHgvKeAEDI&t=1895s
+                                                           https://github.com/AzharHusain/youtube-file-upload-download
+--------------------------------------------------------------------------------------------------------------------
   ACADEMIND (BUENO) = https://www.youtube.com/watch?v=-3vvxn78MH4&list=PLAT69vw4iQZ4ieLT_X3LfDuyqxmmnYnQf
 
     SLIDE3D= https://bootsnipp.com/snippets/qr3Zg
@@ -260,7 +270,7 @@ const app = express();
                     module.exports = employeeCtrl;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
+ ANGULAR
       PARTE 2 (Angular)
 
             1. npm install -g @angular/cli
@@ -580,7 +590,8 @@ const app = express();
                         * npm run dev
 
 ----------------------------------------------------------------------------------------------------------------
- LOGIN Y REGISTER
+ LOGIN Y REGISTER (angular + node + mongodb)
+
             Fatz= https://www.youtube.com/watch?v=rPD0eY3dRqQ (1)
                   https://www.youtube.com/watch?v=l_r9nRJ9YTkn (2)
                    https://github.com/FaztWeb/angular-node-jwt/tree/master/frontend/src/app
@@ -597,8 +608,9 @@ const app = express();
                   - SESSIONES ; npm i jsonwebtoken
       
             *en Angular(Se necesita guard , PAra proteger las rutas, valida si exite o no el token, que se guanda localstore del navegador)
-             >> npm g g auth
+             >> ng g g auth
 
+             >> ng g s TokenInterceptor
 
 
                   1- En angular: se guarda el token   =============> en localstore del navegador
@@ -613,4 +625,12 @@ const app = express();
                      Userservices
                      app-routing(seleciona la ruta a protege)
                         
---------------------------------------------------------------------------------------------------------------------                      
+-------------------------------------------------------------------------------------------------------------------- 
+
+   LOGIN Y REGISTER (NODE + MONGODB)
+
+     FATZ = https://www.youtube.com/watch?v=-bI0diefasA&t=3297s
+            https://github.com/FaztTech/nodejs-notes-app
+
+
+     >> npm i connect-flash express-handlebars express-session method-override passport  passport-local  =================>   (por orden:msg rapidos, html de node,                                                                                                          session, para form put y delete, autenticacio,autenticacion                

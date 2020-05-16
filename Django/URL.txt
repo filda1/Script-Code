@@ -1,3 +1,5 @@
+ TUTORIAL BUENO = https://tutorial.djangogirls.org/en/html/
+
 https://docs.hektorprofe.net/django/web-personal/patron-mvt-modelo-vista-template/
 
  web empresarial + boostrapt == https://docs.hektorprofe.net/django/web-empresarial/

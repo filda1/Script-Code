@@ -1,3 +1,6 @@
 
  Gallerya = https://1stwebdesigner.com/jquery-gallery/
  Fotorama= https://fotorama.io/
+
+ Slides = swipper = https://swiperjs.com/
+ Animaciones =https://daneden.github.io/animate.css/

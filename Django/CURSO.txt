@@ -8,19 +8,26 @@ Developer. pe = https://www.youtube.com/watch?v=0-6etcOHQ_0&list=PLMbRqrU_kvbTGg
   0- Donwload Python, Ojo poner: add Path
   2-  >> pip freeze                    ===================================> ves todo los paquetes instalados
 ------------------------------------------------------
+  PIPENV
   1- TUTO=https://medium.com/@piyushmaurya23/setting-up-django-using-pipenv-cf8ff9b2caa6
 
+  " c:/Fuera/Proyect"   ===============================================> Aqui, pipenv es fuera del proyect
+  * Dentro de una carpeta(creada por ti) instalas pipenv , instalas django y  luego creas un proyecto(no crear carpeta) por python
+
+
+# to create virtualenv using specific python version
+$ pipenv --python 3.6   =====================================================> Solo este
 # to create virtualenv with python3
 $ pipenv --three
-# to create virtualenv using specific python version
-$ pipenv --python 3.6
+background-color: #2facb2;
+
 # Activate virtualenv
 $ pipenv shell         ====================================================> Entar/salir del entorno
 
- >> pipenv install django=='1.11.*'
-
+ >> pipenv install django=='1.11.*'    ( tambien install pylint === analisador de codigo)
+ 
 ------------------------------------------------
-   3- >> admin-django starproyect  biblioteca   (django-admin startproject myProjectSite)
+   3- >> admin-django starproyect  biblioteca   (django-admin startproject myProjectSite)  
       >> cd biblioteca
       >> python manage.py runserver
 
@@ -121,7 +128,9 @@ $ pipenv shell         ====================================================> Ent
                 path('libro'/include('apps.libro.urls', nombre_route)))
 
 
-   29. Pasar de route ======> views =====> templates   (libro esta en carpeta templates, en settings ===> Dir 'templates']
+   29. Pasar de route ======> views =====> templates   (libro esta en carpeta templates, en settings ===> Dir 'templates']  
+
+     *En settings, registar templates  =========> 'DIRS': [os.path.join(BASE_DIR,'templates')],
 
 
    urls.py (libro):
