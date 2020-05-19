@@ -590,11 +590,13 @@ const app = express();
                         * npm run dev
 
 ----------------------------------------------------------------------------------------------------------------
- LOGIN Y REGISTER (angular + node + mongodb)
+ 
+ 1.  LOGIN Y REGISTER (ANGULAR + NODE + MONGODB)
 
             Fatz= https://www.youtube.com/watch?v=rPD0eY3dRqQ (1)
                   https://www.youtube.com/watch?v=l_r9nRJ9YTkn (2)
                    https://github.com/FaztWeb/angular-node-jwt/tree/master/frontend/src/app
+
 ******************************************************************************************************************
           "FUNCIONAMIENTO=  En Node: crea siempre un token, cuando se registra o un login. En Angular: se protrege las vistas con guard(). "
                 Token = es identificador de session
@@ -604,7 +606,7 @@ const app = express();
           Con ese token activo entras en session pero si destruye el token la session  se acaba(logout)
 *****************************************************************************************************************
             Node.js:
-                  - INSTALAT ENCRIPTADO DE PASSWORD ;   npm install bcrypt
+                  - INSTALAR ENCRIPTADO DE PASSWORD ;   npm install bcrypt
                   - SESSIONES ; npm i jsonwebtoken
       
             *en Angular(Se necesita guard , PAra proteger las rutas, valida si exite o no el token, que se guanda localstore del navegador)
@@ -627,7 +629,7 @@ const app = express();
                         
 -------------------------------------------------------------------------------------------------------------------- 
 
-   LOGIN Y REGISTER (NODE + MONGODB)
+ 2.  LOGIN Y REGISTER (NODE + MONGODB)
 
      FATZ = https://www.youtube.com/watch?v=-bI0diefasA&t=3297s
             https://github.com/FaztTech/nodejs-notes-app
