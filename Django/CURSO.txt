@@ -31,6 +31,39 @@ $ pipenv shell         ====================================================> Ent
       >> cd biblioteca
       >> python manage.py runserver
 
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+EJEMPLO  Django Proyect == Pipenv ,   SearchStore == Proyecto
+
+
+C:\Proyectos
+? cd Django Proyect
+
+C:\Proyectos\Django Proyect
+? pipenv shell
+Launching subshell in virtual environment…
+
+C:\Proyectos\Django Proyect
+(Django_Proyect-h2WOlC9Y) ? cd searchStore
+
+C:\Proyectos\Django Proyect\searchStore
+(Django_Proyect-h2WOlC9Y) ? cd apps
+
+C:\Proyectos\Django Proyect\searchStore\apps
+(Django_Proyect-h2WOlC9Y) ?  django-admin startapp best
+
+C:\Proyectos\Django Proyect\searchStore\apps
+(Django_Proyect-h2WOlC9Y) ? python manage.py runserver
+python: can't open file 'manage.py': [Errno 2] No such file or directory
+
+C:\Proyectos\Django Proyect\searchStore\apps
+(Django_Proyect-h2WOlC9Y) ? cd..
+
+C:\Proyectos\Django Proyect\searchStore
+(Django_Proyect-h2WOlC9Y) ? python manage.py runserver
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
    4 -  Dentro de apps (crear carpeta apps) =====> >> django-admin startapp nombre_app    (Ej libro)
    5 - Registar app en setting.py  ====>  'app.libros'
 

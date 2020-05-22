@@ -3,3 +3,8 @@ https://modelviewer.dev/~
 https://emiliusvgs.com/model-viewer-google-realidad-aumentada/
 http://model-viewer.glitch.me/
  TELEMETRIA = https://display-land-learn.webflow.io/
+
+
+-------------------------------------------
+ 
+ glich  + A-FRAME + AR.js + NTF ARJS ========> https://www.youtube.com/watch?v=pJdNqBbScO8

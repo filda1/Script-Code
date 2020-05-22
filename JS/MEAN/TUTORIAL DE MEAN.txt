@@ -635,4 +635,27 @@ const app = express();
             https://github.com/FaztTech/nodejs-notes-app
 
 
-     >> npm i connect-flash express-handlebars express-session method-override passport  passport-local  =================>   (por orden:msg rapidos, html de node,                                                                                                          session, para form put y delete, autenticacio,autenticacion                
+     >> npm i connect-flash express-handlebars express-session method-override passport  passport-local  =================>   (por orden:msg rapidos, html de node,                                                                                                          session, para form put y delete, autenticacio,autenticacion        
+
+---------------------------------------------------------------------------------------------------------------------
+
+ 3.  UPLOAD IMAGES (NODE + MONGODB)
+
+     Storage Gratis = Cloudinary.com
+  * FATZ cloudnunary = https://www.youtube.com/watch?v=jP2DNQyOE90
+                        https://github.com/FaztWeb/nodejs_cloudinary_photo_gallery
+
+  * SUBIR IMG FATZ, Node + MongoDB (Pinterest = Fast) = https://www.youtube.com/watch?v=aNYX2F1RX-s                                                                                                          https://github.com/FaztTech/nodejs-finterest
+
+  * SUBIR IMAG Azhar Husain(Angular + Node + MongoDB) =  https://www.youtube.com/watch?v=NsHgvKeAEDI&t=1895s
+                                                           https://github.com/AzharHusain/youtube-file-upload-download
+
+
+
+    >> npm i multer        
+    >> npm i uuid
+    >> npm i fs-extra  ======================================> parecido a symbolicLink (mueve archivos)
+
+
+   >> npm i mongoose-double    ==============================> Para decimal, y float
+
