@@ -662,16 +662,19 @@ const app = express();
 
 
  ----------------------------------------------------------------------------------------------------------
+  PAGINATION (Domini Code) = https://www.youtube.com/watch?v=NUmLaVcx1HI&t=3s
 
- FILTRO == https://www.freakyjolly.com/angular-search-pipe-filter-using-ng2-search-filter-quick-example-tutorial/#.XsmQC2hKjIU
+   Dentro de frontend:
+    >> npm install ngx-pagination
 
+    **Luego registrar en app.module
 ---------------------------------------------------------------------------------------------------------------------
    FILTRO (domini code)    = https://www.youtube.com/watch?v=NiI3LYlEpQs
                              https://github.com/bezael/filterPipe/blob/master/src/app/components/posts/posts.component.ts
    
     >> ng g pipe nombre
 --------------------------------------------------------------------------------------------------------------------
-   PAGINATION = https://www.youtube.com/watch?v=HNpsawbmi18
+   PAGINATION + SEARCH = https://www.youtube.com/watch?v=HNpsawbmi18
     MULTISELECT DROPDOWN = https://www.youtube.com/watch?v=T__Htw6DZgY
 
  SEARCH REALTIME = https://www.youtube.com/watch?v=39RkRpFk6dM  (2)

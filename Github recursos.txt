@@ -1,0 +1,23 @@
+ Fuente === https://medium.com/better-programming/10-extraordinary-github-repos-for-all-developers-939cdeb28ad0
+
+https://github.com/danistefanovic/build-your-own-x
+
+https://github.com/EbookFoundation/free-programming-books
+
+https://github.com/ohmyzsh/ohmyzsh
+
+https://github.com/jwasham/coding-interview-university
+
+https://github.com/github/gitignore
+
+https://github.com/donnemartin/system-design-primer
+
+https://github.com/public-apis/public-apis
+
+https://github.com/jlevy/the-art-of-command-line
+
+https://github.com/jlevy/the-art-of-command-line
+
+https://github.com/kamranahmedse/developer-roadmap
+
+*******************************************************************************************
