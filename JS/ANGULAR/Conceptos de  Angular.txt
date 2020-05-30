@@ -382,7 +382,7 @@
     20. ContentChildren
 
 
-    21. @Input  ==============> pasa dato de  View padre a View hijo
+    21. @Input  ==============> pasa dato de  View hijo a View padre
 
      
      *hijo.component.html
@@ -397,7 +397,7 @@
 
      export HijoComponente implements OnInit {
      
-       @input('entrada') entrada= "dato temporal";
+       @Input('entrada') entrada= "default";
 
 
      
@@ -407,7 +407,7 @@
 
 
 
-   22. @Output  ==============> pasa dato de  View hijo a View Padre 
+   22. @Output  ==============> pasa dato de  TS hijo a View padre
    
   EJ Proceso:  Click View hijo =======> Recibe  TS Hijo y envia a ===========> Recibe View Padre ====== Obtiene TS Padre
 
@@ -420,7 +420,7 @@
 
      * hijo.component.ts
 
-      * importar input, evenemiter.....
+      * importar input, Outpot,EvenEmiter.....
 
      export HijoComponente implements OnInit {
      

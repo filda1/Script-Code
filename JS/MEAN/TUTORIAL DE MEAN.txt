@@ -645,7 +645,7 @@ const app = express();
   * FATZ cloudnunary = https://www.youtube.com/watch?v=jP2DNQyOE90
                         https://github.com/FaztWeb/nodejs_cloudinary_photo_gallery
 
-  * SUBIR IMG FATZ, Node + MongoDB (Pinterest = Fast) = https://www.youtube.com/watch?v=aNYX2F1RX-s                                                                                                          https://github.com/FaztTech/nodejs-finterest
+  * SUBIR IMG FATZ, Node + MongoDB (Pinterest = Fast) = https://www.youtube.com/watch?v=aNYX2F1RX-s                                                                               https://github.com/FaztTech/nodejs-finterest
 
   * SUBIR IMAG Azhar Husain(Angular + Node + MongoDB) =  https://www.youtube.com/watch?v=NsHgvKeAEDI&t=1895s
                                                            https://github.com/AzharHusain/youtube-file-upload-download
@@ -659,3 +659,22 @@ const app = express();
 
    >> npm i mongoose-double    ==============================> Para decimal, y float
 
+
+
+ ----------------------------------------------------------------------------------------------------------
+
+ FILTRO == https://www.freakyjolly.com/angular-search-pipe-filter-using-ng2-search-filter-quick-example-tutorial/#.XsmQC2hKjIU
+
+---------------------------------------------------------------------------------------------------------------------
+   FILTRO (domini code)    = https://www.youtube.com/watch?v=NiI3LYlEpQs
+                             https://github.com/bezael/filterPipe/blob/master/src/app/components/posts/posts.component.ts
+   
+    >> ng g pipe nombre
+--------------------------------------------------------------------------------------------------------------------
+   PAGINATION = https://www.youtube.com/watch?v=HNpsawbmi18
+    MULTISELECT DROPDOWN = https://www.youtube.com/watch?v=T__Htw6DZgY
+
+ SEARCH REALTIME = https://www.youtube.com/watch?v=39RkRpFk6dM  (2)
+                   https://www.youtube.com/watch?v=nTzYNSvKivs  (1)
+                   hahttps://github.com/AldoHub/angular-search-engine
+                   https://github.com/AldoHub/Angular-Rxjs-Github/blob/master/src/app/main/main.component.ts
