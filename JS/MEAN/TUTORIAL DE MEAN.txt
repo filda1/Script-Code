@@ -7,24 +7,23 @@ TUTORIAL DE MEAN
        == https://github.com/FaztWeb/mean-employees
 
 
+  Angular E-COMMERCE (Mohammad Qaderi) == https://www.youtube.com/watch?v=UudYBTCC58o&list=PLVShYySLoZex7BU6V9tjAGrkXLE-ha6L6&index=1
+                                          https://github.com/mohammadqaderi/Ecommerce-Demo
+
 
     David Acosta (completo) = https://www.youtube.com/watch?v=c9M-CHPaQtI&list=PL3vQyqzqjZ637sWpKvniMCxdqZhnMJC1d&index=11
     MOLDEO INRERATIVO = https://www.youtube.com/watch?v=k1uM6YeEx6g&list=PLHgpVrCyLWApLDoezmOfrUXb-IMoDs5Ls
 
 
-
-  LOgin+REgistro = https://bezkoder.com/angular-jwt-authentication/
 --------------------------------------------------------------------------------------------------------------------
   Storage Gratis = Cloudinary.com
    FATZ cloudnunary = https://www.youtube.com/watch?v=jP2DNQyOE90
                       https://github.com/FaztWeb/nodejs_cloudinary_photo_gallery
-  SUBIR IMG, Node + MongoDB (Pinterest = Fast) = https://www.youtube.com/watch?v=aNYX2F1RX-s                                                  (https://github.com/FaztTech/nodejs-                                                                                                    finterest)
+  SUBIR IMG, Node + MongoDB (Pinterest = Fast) = https://www.youtube.com/watch?v=aNYX2F1RX-s                                                  (https://github.com/FaztTech/nodejs-finterest)
   SUBIR IMAG Azhar Husain(Angular + MongoDB) =  https://www.youtube.com/watch?v=NsHgvKeAEDI&t=1895s
                                                            https://github.com/AzharHusain/youtube-file-upload-download
 --------------------------------------------------------------------------------------------------------------------
-  ACADEMIND (BUENO) = https://www.youtube.com/watch?v=-3vvxn78MH4&list=PLAT69vw4iQZ4ieLT_X3LfDuyqxmmnYnQf
 
-    SLIDE3D= https://bootsnipp.com/snippets/qr3Zg
   
   TEMPLATE BOOSTRPT +ANGULAR = https://www.youtube.com/watch?v=PytGqVBuOq8
                                https://fahmidasclassroom.com/how-to-convert-a-simple-html-template-into-angular-project/
