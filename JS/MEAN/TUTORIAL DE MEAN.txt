@@ -678,5 +678,12 @@ const app = express();
 
  SEARCH REALTIME = https://www.youtube.com/watch?v=39RkRpFk6dM  (2)
                    https://www.youtube.com/watch?v=nTzYNSvKivs  (1)
+
                    hahttps://github.com/AldoHub/angular-search-engine
                    https://github.com/AldoHub/Angular-Rxjs-Github/blob/master/src/app/main/main.component.ts
+
+--------------------------------------------------------------------------------------------------------------------
+  SHOPING - CART
+  
+        Ravi Veliyat =  https://www.youtube.com/watch?v=OohCIB22C2w&list=PLBQolri9XOIxJ5ErwbDt-dQIcTQ7jRQ9k&index=6
+                        https://github.com/veliyat/angular-8-shopping-cart  
