@@ -9,3 +9,7 @@ http://model-viewer.glitch.me/
  
 
  glich  + A-FRAME + AR.js + NTF ARJS ========> https://www.youtube.com/watch?v=pJdNqBbScO8
+
+
+----------------------------------------------------------------
+ FOTOMETRIA === (Metashape, Reality Capture, Meshroom),
