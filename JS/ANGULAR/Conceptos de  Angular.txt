@@ -420,11 +420,11 @@
 
      * hijo.component.ts
 
-      * importar input, Outpot,EvenEmiter.....
+      * importar input, Outpot,EvenEmitter.....
 
      export HijoComponente implements OnInit {
      
-       @Output('') cambio = new EventEmiter();
+       @Output() cambio = new EventEmitter();
 
 
        cambiar(){
