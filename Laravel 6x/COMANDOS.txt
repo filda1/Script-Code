@@ -1,8 +1,13 @@
+
   COMANDOS  
 
-    Model       =======================>   php artisan make:model Flight / php artisan make:model  Otronombre  -m
+    SERVER     ======================>    php artisan serve 
 
-    Controller  =======================>   php artisan make:controller NombreControlador
+    Model       =======================>   php artisan make:model Flight /
+                                           * php artisan make:model  Otronombre  -m    (Hace Todo , Tabla ,modelo, controlador. --a tamabiem puede ser --all)
+                                           php artisan make:model Nombre -a  (Tabla ,Modelo, Factory, controlador =)
+
+    Controller  =======================>   php artisan make:controller Nombre
 
     Resource    =======================>   php artisan make:resource Usercollection
 
@@ -18,6 +23,9 @@
     Elimina Tablas ====================>   php artisan migrate:rollback 
 
  
+    Symbolic Link =====================>   php artisan storage:link
+
+
     Email       =======================>   php artisan make:mail SendMail
 
     Cache       =======================>   php artisan cache:clear
