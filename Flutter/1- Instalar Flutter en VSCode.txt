@@ -1,6 +1,6 @@
  INSTALAR FLUTTER EN VSCODE
     
-   youtube (Gyga Code)
+   youtube (Gyga Code) https://www.youtube.com/watch?v=SUINwMn4Tcw&list=PLl_hIu4u7P6672anZPqgEkWTQkSBOL56_
 
     Obligatorio:
       * Instalar Java JDK
@@ -39,7 +39,11 @@
 
 
 
---------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------     Instalar Primero Emulador en Android Studio (luego se ve vscode)
+       1- En Avd manager =======> create device +
+       2- Para ver ir ======> Avd manager
+
+       3- Instalar Genyemotions   ========> si da problemas encenderlo de VirtualBox
 
       ** EMULADOR en VSCode
            1- Instalar un celular en Android Studio

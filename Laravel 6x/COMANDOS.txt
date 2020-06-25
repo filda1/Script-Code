@@ -4,17 +4,20 @@
     SERVER     ======================>    php artisan serve 
 
     Model       =======================>   php artisan make:model Flight /
-                                           * php artisan make:model  Otronombre  -m    (Hace Todo , Tabla ,modelo, controlador. --a tamabiem puede ser --all)
+                                           * php artisan make:model  Otronombre  -m    (Hace:, Tabla ,modelo, para mas controlador , controlador. --a tamabiem puede ser --all)
                                            php artisan make:model Nombre -a  (Tabla ,Modelo, Factory, controlador =)
 
-    Controller  =======================>   php artisan make:controller Nombre
+    Controller  =======================>   php artisan make:controller NombreController
 
-    Resource    =======================>   php artisan make:resource Usercollection
+    Resource    =======================>   php artisan make:controller PhotoController --resource
 
     CRL + C    =======================>    Sale de sistema de comando, sin cerrarlo
 
 
     Table       =======================>   php artisan make:migration create_users_table
+                                           
+                                           php artisan make:migration create_tutorials_table --create=tutorials
+
 
     Save Tables =======================>   php artisan migrate
 
@@ -38,3 +41,5 @@
                                            return "Cache is cleared";
                                            });
 
+
+   Cambiar Version ====================>  (en, composer.json , poner numero y luego ) composer update
