@@ -1,3 +1,3 @@
 # Tutoriales +
  
-<img src="/Imagenes/1.ong" alt="" >
+<img src="/Imagenes/1.png" alt="" >
