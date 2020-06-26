@@ -108,9 +108,15 @@ C:\Proyectos\Django Proyect\searchStore
    17. >> python.manage.py createsuperuser 
 
 
+
+   * Meter el driver en el proyect: 
+     -     web= https://www.lfd.uci.edu/~gohlke/pythonlibs/ ===========>  mysqlclient-1.4.6-cp38-cp38-win32.whl
+   
    18 . BASE DE DATOS   ============================> MySQL (a  ver creado BD en MySQL)
-   19. >> pip install mysqlclient       ================================> dRIVERS
+   19. >> pip install  mysqlclient-1.4.6-cp38-cp38-win32.whl    ================================> dRIVERS
    20. Setting.py (proyecto general) ==> en databases ====> cambiar nombres
+  
+        * Bueno = (https://www.youtube.com/watch?v=47H3OHdTkLw&t=449s)
 
              DATABASES = {
     'default': {
@@ -122,9 +128,12 @@ C:\Proyectos\Django Proyect\searchStore
         'PORT': 3306,
     }
 }
-   21. >> python.manage.py makemigrations
-   22. >> python.manage.py migration
-   23. >> python.manage.py createsuperuser 
+
+   ** luego,  >> python manage.py migrate
+
+   21. >> python manage.py makemigrations
+   22. >> python manage.py migrate
+   23. >> python manage.py createsuperuser  (filda, 123)
 
 
    CUANDO SE CAMBIA UN CAMPO EN BD =

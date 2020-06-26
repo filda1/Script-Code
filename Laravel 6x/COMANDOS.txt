@@ -19,13 +19,23 @@
                                            php artisan make:migration create_tutorials_table --create=tutorials
 
 
+
     Save Tables =======================>   php artisan migrate
 
     Elimina y Crea Tablas nuevas  =====>   php artisan migrate:refresh
     
     Elimina Tablas ====================>   php artisan migrate:rollback 
 
- 
+    Nueva Columna  ====================>   php artisan make:migration add_features_to_users
+
+    Eliminar Columna ==================>   Debajo de Segunda Schema::table, :    $table->dropColumn('votes');
+   
+    Renombrar Tabla  ==================>   Debajo de Segunda Schema::table, :    $table->renameColumn('from', 'to');
+
+    Modificar Columna =================>   $table->string('name')->change();
+
+
+
     Symbolic Link =====================>   php artisan storage:link
 
 

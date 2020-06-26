@@ -1,0 +1,23 @@
+LARAVEL 7 - JWT  =================> TOKEN
+
+   **https://blog.pusher.com/laravel-jwt/
+   https://medium.com/jwt-laravel-para-autentica%C3%A7%C3%A3o-de-servi%C3%A7os/jwt-laravel-para-autentica%C3%A7%C3%A3o-de-servi%C3%A7os-86d933f5c1a2
+
+
+*********************************************************************************************************************
+
+
+  >>  composer require tymon/jwt-auth:dev-develop --prefer-source   /   composer require tymon/jwt-auth
+
+  - En Config/app.php  =========> providers:
+                                   Tymon\JWTAuth\Providers\LaravelServiceProvider::class,
+                   
+                                   aliases:
+                                    'JWTAuth' => Tymon\JWTAuth\Facades\JWTAuth::class, 
+                                    'JWTFactory' => Tymon\JWTAuth\Facades\JWTFactory::class,
+
+
+   >> php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"    ========> Publicar
+
+   >> php artisan jwt:secret
+                      
