@@ -4,3 +4,6 @@ DESCARGA DE ACHIVOS ======= https://variabletecnica.wordpress.com/2013/08/25/cre
 
 BUSCADOR INTERNO == https://www.wextensible.com/como-se-hace/buscador-interno/
                     https://www.wextensible.com/como-se-hace/buscador-interno/encabezados.html
+
+---------------------------------------------------------------
+  Request.is_ajax =====================> ( Check request ajax)
