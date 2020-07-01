@@ -4,6 +4,8 @@ tabla = php artisan make:migration create_professions_table
 
 php artisan make:auth
 
+  1. Crear Tabla admin 
+
   2. Admin.php (app)
 
   3- config -> auth.php

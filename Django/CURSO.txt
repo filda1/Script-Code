@@ -87,12 +87,15 @@ C:\Proyectos\Django Proyect\searchStore
     
     6. CREAR MODELOS             ==========================> https://docs.djangoproject.com/en/3.0/topics/db/models/
 
-    7. >> python.manage.py makemigrations
-    8. >> python.manage.py migration
+    * Al crear un modelo de la app ============================> se debe registrar en admin.py desde la misma app
+
+
+    7. >> python manage.py makemigrations
+    8. >> python manage.py migrate
    
     9.  >> python.manage.py runserver 0.0.0.0:8006          ==============> puerto cualquier
 
-         o    python.manage.py runserver
+         o    python manage.py runserver
 
 -------------------------------------------------------------------------------------------------------------------
     10. ADMIN
@@ -142,7 +145,7 @@ C:\Proyectos\Django Proyect\searchStore
 --------------------------------------------------------------------------------------------------------------------
   
    24. ADMIN 
-   25. Para ver tablas BD en Admin, ir admin.py ========> y registar
+   25. Para ver tablas BDy registrar en Admin, ir admin.py ========> y registar
 
 -------------------------------------------------------------------------------------------------------------------
    26 . RELACIONes en Models         =========================================>(tablas: Autor y Libro)

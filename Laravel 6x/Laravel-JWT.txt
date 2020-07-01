@@ -246,3 +246,28 @@ LARAVEL 7 - JWT  =================> TOKEN
         Route::get('user', 'UserController@getAuthenticatedUser');
         Route::get('closed', 'DataController@closed');
     });
+
+
+--------------------------------------------------------------------------------------------------
+
+ CORRECCIONES     =================> doc = https://jwt-auth.readthedocs.io/en/docs/quick-start/#update-your-user-model
+
+   * si da error   =>  poner: "tymon/jwt-auth": "^1.0.0-beta.3@dev"    y        >> composer update
+
+   * En config/auth.php
+
+      'defaults' => [
+    'guard' => 'api',
+    'passwords' => 'users',
+],
+
+...
+
+'guards' => [
+    'api' => [
+        'driver' => 'jwt',
+        'provider' => 'users',
+    ],
+],
+
+   
