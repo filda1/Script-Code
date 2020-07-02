@@ -17,7 +17,7 @@
                 </IfModule>
 
           NOTA
-             * El archivo ..htaccess, tiene que estar afuera, en carpeta principal (ojo con el punto con nombre de archivo)
+             *OJO: El archivo ..htaccess, tiene que estar afuera, en carpeta principal (ojo con el punto con nombre de archivo)
              * env , tiene que tener a juro un usuario y password (En CPANEL en BD, hay que asignar un usuario a la BD)
              * hacer todo lo anterior antes de crear Tablas de BD
 

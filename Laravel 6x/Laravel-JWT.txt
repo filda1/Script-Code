@@ -270,4 +270,9 @@ LARAVEL 7 - JWT  =================> TOKEN
     ],
 ],
 
+
+//////////////////////////////////////////////////  MULTI - AUTH  (Admin-User)  //////////////////////////////////////////////////
+
+  https://medium.com/@OlabodeAbesin/multi-user-authentication-with-laravel-and-jwt-dcbe0e4b4fbf
+
    

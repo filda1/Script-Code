@@ -1,4 +1,6 @@
  TUTORIAL BUENO = https://tutorial.djangogirls.org/en/html/
+ 
+ REPOSITORIO = http://www.developerpe.com/repositorios/
 
 https://docs.hektorprofe.net/django/web-personal/patron-mvt-modelo-vista-template/
 

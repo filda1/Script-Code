@@ -1,6 +1,6 @@
 
   COMANDOS  
-
+saber como chegar lá
     SERVER     ======================>    php artisan serve 
 
     Model       =======================>   php artisan make:model Flight /
