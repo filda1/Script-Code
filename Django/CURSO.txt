@@ -134,6 +134,8 @@ C:\Proyectos\Django Proyect\searchStore
 
    ** luego,  >> python manage.py migrate
 
+   ** Al crear Modelo tiene que es makemigrations
+
    21. >> python manage.py makemigrations
    22. >> python manage.py migrate
    23. >> python manage.py createsuperuser  (filda, 123)

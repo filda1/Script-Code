@@ -1,0 +1,25 @@
+  freeCodeCamp.org = https://www.youtube.com/watch?v=Bo0guUbL5uo&t=1044s
+                     https://github.com/ricardo-rp/symfonycourse
+
+  ADMIN = OverSeas Media = https://www.youtube.com/watch?v=M-ehiNixBvM
+                           https://github.com/konshensx16/easy-admin/tree/0e893582ce86dae9f15f195ba448dfa09455230f
+
+  Por consola se crea:
+   - BD
+   - Modelo / Repositorio / Tabla
+   - Forms
+ 
+***************************************************** INSTALACION ****************************************************
+
+
+
+  MODELO/REPOSITORIO/TABLA
+
+  *  REPOSITORIO de cada modelo ================> para accesa consulta SQL
+
+  >> php bin/console make: entity Nombre     /    >>  php bin/console make: Nombre 
+
+  >> .....Despues vas creando la tabla de vez aqui en consola
+
+
+  >> php bin/console make: entity --regenerate     ==================> Actualiza Modelos=Entity
