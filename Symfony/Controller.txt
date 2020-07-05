@@ -1,0 +1,51 @@
+<?php
+
+namespace App\Controller;
+
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\Routing\Annotation\Route;
+
+use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpFoundation\Request;
+
+
+
+class MainController extends AbstractController
+{
+    /**
+     @Route("/", name="main")
+     */
+    public function index()
+    {
+        
+        /*return $this->json([
+             'messsage' => 'ola',
+        ]);*/
+
+        //return new Response('ola');
+
+        return $this->render('main/index.html.twig', [
+           'controller_name' => 'MainController',
+        ]);
+    }
+
+
+    /**
+     @Route("/custom/{name?}", name="custom")
+     */
+    public function custom(Request $request)
+    {
+
+        $name = $request->get('name');
+
+        dump($request);
+
+         return new Response($name);
+
+        /*return $this->render('home/custom.html.twig', [
+            'name'      => $name
+        ]);*/
+    }
+
+
+}
