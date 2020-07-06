@@ -11,14 +11,17 @@
 10-IoT
 
 ----------------------------------------------------------
+
  Go
  Flutter
+ Kotlin
  PWA
  React
  Python
  Blockchaing
  Raealidad aumentada
  Mean
+ Nest.js
  Firebase
  dialogflow/tensorflow
  GraphQL
