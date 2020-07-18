@@ -1,0 +1,39 @@
+ SUBIR a HOST
+
+ - Cambiar dominio en config.php
+ - En Admin, Cambiar dominio en config.php 
+
+ * Ojo: si falta css, bosstrapt.... =================> Cambiar dominio/s en header.tls
+
+
+----------------------------------------------------
+
+   OPEN CART instalacion en LOCALHOST
+   
+  1. Bajar OPencart o Clonar
+  2. Cortar carpeta Upload (Eliminar los demas)  ===========> pegar en C:/XAMPP/hdocts  y renombrar la Carpeta Upload
+  3. Cambiar:               config-dist.php  =================> para config.php e 
+                            admin / config-dist.php ==========> como config.php.
+  4. Crear un BD en Mysql a mano
+  5. Prender XAMP
+  6. http://localhost/NombreCarpeta/
+
+****************************************************************************
+
+  usernameBD:  root
+
+  BD : store_open
+      ------------------------
+
+
+ ADMIN
+
+
+ user :admin
+ pss:: 12345678
+ email: filinto.urh@gmail.com
+
+
+
+
+ theme : https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=33813

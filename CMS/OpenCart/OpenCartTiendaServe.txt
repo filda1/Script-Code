@@ -1,3 +1,13 @@
+
+  PT = https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=30658&filter_search=Portugu%C3%AAs%20Brasil&filter_category_id=2&sort=date_added
+
+  PWA = https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=38760&filter_license=0&page=2
+  PusH = https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=35930&filter_license=0&page=2
+  2Auth = https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=4497&filter_license=0&page=7
+  Servicio al Cliente = https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=4112&filter_license=0&page=7
+
+  SMS = https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=39034&filter_license=0&page=8
+---------------------------------------------------------------------------
  BD ee29v3og_ocar636
   
 
