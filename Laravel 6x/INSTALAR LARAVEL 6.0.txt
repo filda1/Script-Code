@@ -10,6 +10,8 @@
   1-    cd C:\xampp\htdocs >  composer create-project --prefer-dist laravel/laravel NombreProyecto
 
   2-    C:\xampp\htdocs\Proyecto>   composer require laravel/ui
+        
+  2.1                               composer require livewire/livewire
 
   3-    C:\xampp\htdocs\Proyecto>  php artisan ui vue --auth
 

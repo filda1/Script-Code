@@ -1,11 +1,18 @@
 
   COMANDOS  
-saber como chegar lá
+
     SERVER     ======================>    php artisan serve 
 
+
     Model       =======================>   php artisan make:model Flight /
-                                           * php artisan make:model  Otronombre  -m    (Hace:, Tabla ,modelo, para mas controlador , controlador. --a tamabiem puede ser --all)
-                                           php artisan make:model Nombre -a  (Tabla ,Modelo, Factory, controlador =)
+
+    Model + Table =====================>  * php artisan make:model  Otronombre  -m    
+
+    Model+ Factory + Table + Controller ========>   php artisan make:model Flight --a  ( igual --all)
+
+    Model + Tabla + Factory ===========>   php artisan make:model Flight -fm
+
+
 
     Controller  =======================>   php artisan make:controller NombreController
 
@@ -53,3 +60,44 @@ saber como chegar lá
 
 
    Cambiar Version ====================>  (en, composer.json , poner numero y luego ) composer update
+
+
+
+
+   Liveware Componente  + View  ==============>  php artisan livewire:make NombreComponent
+
+                                             En las Vista normal pones:
+
+                                               @livewire('NombreComponente')    ==============> Tomas la vista del componente
+
+
+
+
+
+*****************************************************************************************************
+ DATOS FALSOS
+
+
+   * Antes de guardar tablas de BD:
+   
+       1. Modelo, Factory y Tabla =====================================> php artisan make:model Flight -fm
+
+       2. En model del componente: poner adentro campos en:
+
+                      protected $fillable=[ 'Title', 'Body'];
+
+       3. En Databases/Factores , buscar componente:
+                  Dentro de $factory......
+                       return [
+                                'Title' = $faker->sentence,
+                                  
+                                'Body' = $faker->text
+                              ];
+
+       4. Crear la Table
+
+       5. Despues seeds/DatabaSeeder.php, dentro de run:
+
+                factory = (App\NombreModel::class, 50) ->create();         ===============> 50 es numero de datos(registros) que quiere q llene
+
+        6. Luego     =====>   php artisan migrate:refresh --seed

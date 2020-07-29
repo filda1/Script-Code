@@ -1,0 +1,6 @@
+ BUSCADOR (livewirwe), Laravel en Espanol = https://www.youtube.com/watch?v=WMN7G9BOfAc
+                                            https://github.com/emanuelnogueiras/laravel-tips
+
+
+ CRUD , Rimorsoft online  =   https://www.youtube.com/watch?v=0C9ThpExLmc&list=PLhCiuvlix-rSRRmZAL2CNOMAUjgEiFoSl
+                              https://github.com/ebrjose/crud-livewire
