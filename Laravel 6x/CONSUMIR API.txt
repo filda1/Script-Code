@@ -1,0 +1,54 @@
+LARAVEL 7 .  CONSUMIR API
+
+1. Controller:
+
+  <?php
+
+     namespace App\Http\Controllers;
+     use Illuminate\Http\Request;
+     use Http;
+
+   class WelcomeController extends Controller
+  {
+    public function index()
+    {   
+    
+       //  1 Objeto, con campos y hay campos que tienes 1 Objeto
+       $respuesta = Http::get('https://mindicador.cl/api') ; 
+
+       $divisas = $respuesta->json();
+
+
+       // Lista de Objetos
+       $respuesta1 = Http::get('https://jsonplaceholder.typicode.com/photos?_page=1&_limit=6') ; 
+       
+       $posts = $respuesta1->json();
+
+       
+      return view('welcome',compact('posts', 'divisas'));
+
+        //return view('welcome'); 
+    }
+
+}
+
+
+2. View:
+
+  <p>EURO:{{  $divisas['euro']['valor']  }}</p>
+
+    <div class="row">
+    @foreach($posts as $post)
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src={{  $post['url']  }} alt="">
+          <div class="card-body">
+            <h4 class="card-title">{{  $post['title']  }}</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus             neque sequi doloribus.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">{{  $post['id']  }} - Find Out More!</a>
+          </div>
+        </div>
+      </div>
+    @endforeach
