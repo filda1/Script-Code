@@ -67,3 +67,6 @@ box4world.com
   - LOCALIZACION CERCANA DE COORDENADAS EN EXCEL
   - RASPADOR DE EMAILS (PYTHON)
   - Transformar conteúdo do Instagram em Post para Blog (PYTHON)
+
+
+https://lacker.io/ai/2020/07/06/giving-gpt-3-a-turing-test.html

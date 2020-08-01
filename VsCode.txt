@@ -1,11 +1,15 @@
 https://dev.to/thegeoffstevens/50-vs-code-themes-for-2020-45cc
  Leatra= https://marketplace.visualstudio.com/items?itemName=XephAlpha.syntax
 
- One Dark pro 21
+ THEME:
 
- shades of pro 41
+ Monokai 
 
- code blue 43
+ One Dark pro 
+
+ shades of pro 
+
+ code blue 
 
 
 ******************************************************************************************************
