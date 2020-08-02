@@ -1,0 +1,7 @@
+BASE DE JAVASCRIT:
+ 
+  1- Detectamos evento del Componente
+
+  2- Accedemos a los valores del componente
+
+  3- Y utilizamos AJAX
