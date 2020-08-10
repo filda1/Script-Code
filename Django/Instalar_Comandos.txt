@@ -8,10 +8,11 @@
 
    PIPENV     -------------------------------> nuevo entorno virtual (para saltar versiones, en caso hubise un problema)
 
+
    
    >> python --version
 
-   >> pip3 install pipenv
+   >> pip3 install pipenv  ------------------------------------------->   ( Crear Carpeta para meter pipenv). Dentro Clone Repositorio vacio. Mas Dentro el creo proyectoDjango
 
    >> pipenv shell         -------------------------------------------> crea entorno/activar, tambien aprece un archivo Pipfile
 
@@ -31,12 +32,32 @@
 
    >> pipenv install django          o       crear arichivo requeriments.tx ==========> poner Danjo==2.1.2 y    >> pipen install -r requeriments.tx
 
+*******************************************************************************************************************************************************************
+    CREAR PROYECTO  Y  APPS
+
+    >> Dentro de pipenv >>    django-admin startproject nombreAdmin    =============================================> Proyecto General
+       
+
+    *    Crear carpetas:  apps, static, templates       ===================================================>  (Dentro del Proyecto)
+
+    >> apps >>     django-admin startapp nombre_app      ==========================================> apps FRONTEND
+
+
+
+    >>  Dentro del proyect >>    python manage.py runserver           ==============================================> RUN 
+
+*********************************************************************************************************************************************************************
+
+
    >> pipenv check        , se corrige y luego >> pipen install            -------------------------------------------------------> revision de problemas
 
    >> pipenv lock                  --------------------------------------------------------------------> actualiza para deploy
 
    >> pipenv  install --ignore-pipfile             -----------------------------------------------------> en caso de problemas packetes ignora
 
+
+
+    
 
 
 ***********************************************************************************************************************************************************************
@@ -155,7 +176,11 @@
 
 
 
+----------------------------------------------------------------------------------------------------------
+ INSTALAR BOOSTRAP
 
+   >>
+ pip install django-bootstrap4
 
 
 
