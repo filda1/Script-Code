@@ -1,0 +1,38 @@
+
+  HACE ALGO DESPUES DE DEJAR DE TERMINAR = platzi
+
+  <input type="text" id="comment" />
+let $comment = document.getElementById("comment")
+let timeout
+
+//El evento lo puedes reemplazar con keyup, keypress y el tiempo a tu necesidad
+$comment.addEventListener('keydown', () => {
+  clearTimeout(timeout)
+  timeout = setTimeout(() => {
+    console.log('Has dejado de escribir en el input')
+    clearTimeout(timeout)
+  },1000)
+})
+
+**************************************************************************************
+
+ MEJORADO EN JQUERY
+<input id="in" type="text"/>
+<div id="out"></div>
+
+//setup before functions
+var typingTimer;                //timer identifier
+var doneTypingInterval = 1000;  //time in ms, 5 second for example
+
+//on keyup, start the countdown
+$('#in').keyup(function(){
+    clearTimeout(typingTimer);
+    if ($('#in').val) {
+        typingTimer = setTimeout(function(){
+            //do stuff here e.g ajax call etc....
+             var v = $("#in").val();
+             $("#out").html(v);
+        }, doneTypingInterval);
+    }
+});
+

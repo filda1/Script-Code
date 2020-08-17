@@ -7,6 +7,8 @@
 
  GENERADOR DE TABLES
     https://www.tablesgenerator.com/html_tables#
+ ServiciosFREE
+   https://free-for.dev/#/?id=email
 
  IMAGENES:
   pexels.com
@@ -27,3 +29,10 @@
 
  SOFTWARE
   Figma.com
+
+----------------------------------------------
+
+https://github.com/philc/vimium ========================> Teclado
+ https://kapeli.com/dash  ===============================> Sniiper
+https://www.packal.org/theme-list
+https://www.youtube.com/watch?v=WNeUthr525w

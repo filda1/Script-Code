@@ -1,3 +1,10 @@
  SVG
+ 
 
-  INsertar SVG = https://www.dashingd3js.com/lessons/adding-an-svg-element
+  D3.js 
+  INsertar SVG from input = https://www.dashingd3js.com/lessons/adding-an-svg-element
+  https://github.com/d3/d3/wiki   ========> API
+  https://cdnjs.com/libraries/d3  ========> CDN
+  https://scrimba.com/g/gd3js
+
+  Editor SVG =======> https://www.tutorialsteacher.com/codeeditor?cid=d3-30
