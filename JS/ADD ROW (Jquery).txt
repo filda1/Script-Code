@@ -1,0 +1,35 @@
+ /*INSERT ROW TO TABLE */
+    $(document).ready(function(){
+
+       var nTable1;
+		// TABLE 1
+        $(".add-row").click(function(){
+            /*var name = $("#name").val();
+            var email = $("#email").val();*/
+			var name = " ";
+            var email =  " ";
+
+			var n = document.getElementById("myTable").rows.length;
+			var tt = document.getElementById("myTable");
+
+             var total = n/2;
+			if(n & 1){
+              
+              var etiqueta='tg-btxf';  //IMPAR
+            }
+	        else{
+              var etiqueta='tg-0pky';  //PAR
+            }
+            
+			 var ide = String(n);
+		
+            var markup = "<tr><td class= "+etiqueta+" contenteditable='true'></td><td class="+etiqueta+" contenteditable='true' >" + name + "</td><td class="+etiqueta+"  onclick='myListener()'  contenteditable='true' >" + email + "</td><td class="+etiqueta+"><div class='row'><i class='fa fa-trash'  style='font-size:11px;padding-top:1px;padding-left:26%;color:gray' onclick='deleteRow()'></i><i class='fa fa-plus-circle' id="+ide+" style='font-size:12px;padding-top:1px;padding-left:10%;color:#3bb34a;display:none' onclick='showNewRow(id)'></i></div></td></tr>";				
+	
+	        $('#myTable tr:last').after(markup);
+
+	        
+              
+        });
+
+		 
+    });   

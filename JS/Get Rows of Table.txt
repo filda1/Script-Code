@@ -1,0 +1,11 @@
+var table = document.getElementById('mytable'), 
+    rows = table.getElementsByTagName('tr'), 
+    i, j, cells, customerId; 
+
+for (i = 0, j = rows.length; i < j; ++i) { 
+    cells = rows[i].getElementsByTagName('td'); 
+    if (!cells.length) { 
+     continue; 
+    } 
+    customerId = cells[0].innerHTML; 
+} 
