@@ -1,4 +1,6 @@
-
+ tutorial ==========>  https://codingpotions.com/posts
+                       https://www.tutorialspoint.com/vuejs/vuejs_examples.htm
+********************************************************************************************
 <!DOCTYPE html>
 <html lang="es">
 <head>

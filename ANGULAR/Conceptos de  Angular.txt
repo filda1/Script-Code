@@ -275,7 +275,7 @@
 
 
 
-    16. ViewChild      =============================> traer compoente de VIEW a TS === getElemenByID('id')
+    16. ViewChild      =============================> traer compoente id/o componente de VIEW a TS === getElemenByID('id')
       
      https://www.youtube.com/watch?v=AyuIaJTqBLs&list=PLezsbUDiwcpmhNiMzVPYJXV0Rqn71G4PU&index=17
 
@@ -450,7 +450,10 @@
 
       
   
-      
+       - NGMODULE O Lazy Loading ================================================> AGrupa componentes por GRUPOS, para la carga se rapida
+
+        https://www.youtube.com/watch?v=faYv4aIGoAE
+        https://angular.io/guide/lazy-loading-ngmodules
 
 
 

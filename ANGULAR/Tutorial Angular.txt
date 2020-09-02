@@ -30,8 +30,12 @@ ANGULAR
     
    * IMPORTAR COMPoNENTES DE ANGULAR MATERIAL  =========> en app.module.ts colocar: ej :
        import {MatButtonModule} from '@angular/material/button';  ========> para boton, si quieres otros, importas otros
-                                                                          (ESTO Esta en la API de web: https://material.angular.io/components/button/api)
-      * En imports colocar nombre de componente (Ej: MatButtonModule ) 
+                                                                          (ESTO Esta en la API de web: 
+      * En imports =================>  colocar nombre de componente (Ej: MatButtonModule )
+
+
+https://material.angular.io/components/button/api)
+      * En imports =================>  colocar nombre de componente (Ej: MatButtonModule ) 
        en view: <button mat-button color="primary" > ccc </button) ________________________> sale en https://material.angular.io/components/button/overview
        
        OTRA MANERA: (https://github.com/FaztWeb/angular-material7)
