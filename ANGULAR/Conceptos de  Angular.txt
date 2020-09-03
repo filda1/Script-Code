@@ -8,6 +8,10 @@
    *    ( )    ===============> Evento de un componente         *
    **************************************************************
 
+   let variable : ModelObj       ==================================> un objeto
+   let variable : ModelObj[]     ==================================> una lista de objetos.
+
+
  1- Componentes 
  
  2 -  String Interpolation (Interpolación) =============> le passas desde TS la variable o metodo a la VIEW

@@ -5,3 +5,36 @@ FLEX ========> https://www.youtube.com/watch?v=iWYP3NtKQjs&t=340s
                   
 
  ****https://www.youtube.com/watch?v=gOSdZJ7gpOc&t=80s
+
+-----------------------------------------------------------------------------
+
+ MiCHELL BRITO ====> https://github.com/MichelliBrito/agendalive-app/tree/master/src
+
+  ***EJ: https://github.com/MichelliBrito/agendalive-app/blob/master/src/app/views/home/live-list/live-     list.component.html
+
+  RESPONSIVE ===================================>  npm i @angular/flex-layout
+
+  <mat-card class="mat-card-live" 
+        fxFlex="0 1 calc(33.3% - 11px)"
+        fxFlex.lt-md="0 1 calc(50% - 11px)"
+        fxFlex.lt-sm="100%
+
+  GRID =======================================>  https://tburleson-layouts-demos.firebaseapp.com/#/docs
+
+    Ejemplo centro Horizontay y vertical =======>   <div fxLayout="row" fxLayoutAlign="center center" >
+
+
+
+****
+
+   - FORMSGRUP Y FORMS BILDER  ( Michelli Brito = https://www.youtube.com/watch?v=R8xqUHzrOug&list=PL8iIphQOyG-DSLV6qWs8wh37o0R_F9Q_Q&index=14)
+
+      Importar en app.module.ts:
+
+        Import..
+                  MatInputModule,
+                  MatDatepickerModule,
+                  MatNativeDateModule,
+                  FormsModule,
+                  ReactiveFormsModule,
+                  MatProgressBarModule
