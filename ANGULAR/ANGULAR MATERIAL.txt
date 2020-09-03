@@ -38,3 +38,10 @@ FLEX ========> https://www.youtube.com/watch?v=iWYP3NtKQjs&t=340s
                   FormsModule,
                   ReactiveFormsModule,
                   MatProgressBarModule
+
+*****
+
+    DATETIME   ==============> PIPE + moment.js
+
+         . Instalar  >> npm i moment
+         . Instalt   >> npm generate pipe xxx
