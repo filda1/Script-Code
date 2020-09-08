@@ -34,6 +34,12 @@ ANGULAR
    * ng new my-dream-app
 
    * INstall Angular Material ===========>  ng add @angular/material
+                                            npm i @angular/flex-layout
+
+   ** INSTALAR teradata   =================>   https://teradata.github.io/covalent/v3/#/components
+                                              npm install --save @covalent/core
+                                              npm install --save @covalent/http @covalent/highlight @covalent/markdown @covalent/dynamic-forms @covalent/echarts
+
 
    * Ejecuta Angular =====================> ng serve --open     (open es para abrir pestana por defecto en navegador)
 

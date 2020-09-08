@@ -462,6 +462,40 @@
 
 
 
+    - LISTERNER
+
+      import{ Renderer2 } from angula/core..
+
+     * Meter en contrucctor renderer2
+
+      this.renderer2.listen("document" ), "click", (e)=> { =====================================> Escucha el documento
+          console.log(e.clenteX);
+          console.log(e.clenteY);
+
+
+      });
+
+       
+    - COMUNICACION ENTRE COMPONENTES EXTERNOS
+
+       1 FORMA:   Fernando Herrera======> https://www.youtube.com/watch?v=df0eH9mM9nU
+ 
+         Resumen:
+          - Para C/componente padre se crea , nombreComponente.module.ts (ng g m ....) ==> MODULE
+          - Se registra el c/modulo del componente en modulo principal
+          - En c/modulo de componente se exporta el componente hijo que desees
+          - En en otro modulo del componente padre se importa en componente hijo exportado
+          - Luego se utiliza INPUT y OUTPUT normal
+          - Segunda via, para tener no tantos INPUTS Y OUTPUTS: se crea un servicio y ahi se declara una variable
+          - En componente padre que se necesite te traes el servicio y lo remplazas las variables que quieras que te llegue al compontente padre, poniendo en la variable del servicio
+
+    
+        2. FORMA (Componentescon Observables)==================> https://www.youtube.com/watch?v=J-7b3sziSBE
+             https://github.com/Klerith/angular-cascaron
+
+
+
+
 
 
 

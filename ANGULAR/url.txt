@@ -18,7 +18,13 @@
   change Theme en Angular MATERIAL = https://www.youtube.com/watch?v=NugqJxFYmDM
 
 
-  Angular M ejemplo  == https://medium.com/covalent-ui/building-slack-in-angular-with-covalent-e116c55f58e8
+  Angular TIPO SLACK M ejemplo  == https://medium.com/covalent-ui/building-slack-in-angular-with-covalent-e116c55f58e8
+                         * color tool====> https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=FF1744
+                         * PALETTE ======> https://material.io/design/color/the-color-system.html#tools-for-picking-colors
+                         * ESTRUCTURA (TERADATA)===> https://teradata.github.io/covalent/v3/#/components               
+
+
+
 
  COMPONENTES AM = https://angularscript.com/best-multiple-select-modules/
                   http://blog.sodhanalibrary.com/2015/08/responsive-web-design-using-angularjs.html#.Xp4gyshKjIU
