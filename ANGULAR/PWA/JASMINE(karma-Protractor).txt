@@ -3,3 +3,7 @@ MOLDE INTERATIVE =========================================>  https://www.youtube
  JASMINE : Framework
  Karma : TEST por componetes
  Protractor : TEST general
+
+ Cmd:
+  - ng test
+ - ng e2e
