@@ -6,6 +6,10 @@ FLEX ========> https://www.youtube.com/watch?v=iWYP3NtKQjs&t=340s
 
  ****https://www.youtube.com/watch?v=gOSdZJ7gpOc&t=80s
 
+ TUTORIAL DE ANGULAR MATERIAL ===========> codevolution = https://www.youtube.com/watch?v=zzKfWrLkE0x
+
+   wiki Flex-layout =======> https://www.angularjswiki.com/flexlayout/fxflexorder/
+                             https://www.angularjswiki.com/flexlayout/fxflexorder/
 -----------------------------------------------------------------------------
 
  MiCHELL BRITO ====> https://github.com/MichelliBrito/agendalive-app/tree/master/src
@@ -19,7 +23,7 @@ FLEX ========> https://www.youtube.com/watch?v=iWYP3NtKQjs&t=340s
         fxFlex.lt-md="0 1 calc(50% - 11px)"
         fxFlex.lt-sm="100%
 
-  GRID =======================================>  https://tburleson-layouts-demos.firebaseapp.com/#/docs
+  GRID+ Flex =======================================>  https://tburleson-layouts-demos.firebaseapp.com/#/docs
 
     Ejemplo centro Horizontay y vertical =======>   <div fxLayout="row" fxLayoutAlign="center center" >
 
@@ -50,3 +54,5 @@ FLEX ========> https://www.youtube.com/watch?v=iWYP3NtKQjs&t=340s
 ****
    TABS PERSONALIZADO
    https://stackblitz.com/edit/angular-bwdrz7?file=app%2Fapp.component.css
+
+----
