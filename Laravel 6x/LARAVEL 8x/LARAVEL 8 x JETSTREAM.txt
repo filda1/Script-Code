@@ -1,3 +1,23 @@
-LARAVEL 8 JETSRTEAM (2FA)
+LARAVEL 8 
 
  Bitfumes ========> https://www.youtube.com/watch?v=BZFavPxP2xc
+ https://jetstream.laravel.com/1.x/installation.html
+ Alctualizar laravel 7 a 8 = https://www.youtube.com/watch?v=0lKkE4KLzS4
+
+ *Jetstream === Laravel ui
+
+ INSTALAR:
+
+  1-    cd C:\xampp\htdocs >  composer create-project --prefer-dist laravel/laravel NombreProyecto
+
+  2-    C:\xampp\htdocs\Proyecto>   composer require laravel/jetstream
+de Jet
+  2.1-   C:\xampp\htdocs\Proyecto > npm install && npm run dev
+
+  3-      C:\xampp\htdocs\Proyecto > php artisan vendor:publish --tag=jetstream-views (Instala todas view de JetStream)
+
+
+
+
+-----------------------------------------------------------------------
+ OTRA FORMA CON AUTH =========> https://www.youtube.com/watch?v=Fq-_x6hL4lQ
