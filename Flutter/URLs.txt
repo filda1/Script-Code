@@ -4,9 +4,24 @@ URLs
     https://www.youtube.com/watch?v=TfMWAfyzVcM    ====================> 2
     https://www.youtube.com/watch?v=iF35gWU9mpk    ====================> 3
 
+*************************************************************************
+ FOOD ==== S. ENOQUE ======> https://www.youtube.com/watch?v=WBe1orPAKuM
 
+------------------------------------------------------------------------
    FLUTTER APP FOOD + PHP + MYSQL
         Flutter zone = https://www.youtube.com/watch?v=8xwWilMuTlg&list=PLbd9-9nbCzE4GwQX6UL5MZcK571APZ5Yf
 
 
    **https://www.youtube.com/channel/UCF_kyKGFfidA_sZnNjvW_OA/videos
+-----------------------------------------------------------------
+   Doc = https://flutter.dev/docs/cookbook
+-------------------------------------------------------------
+   Template free ecommerce flutter ==== https://www.youtube.com/watch?v=aI4AelN8k24
+                                        https://github.com/robertodevs/flutter_ecommerce_template
+                                  * https://github.com/topics/flutter-ecommerce-template
+                                  * https://github.com/Furqankhanzada/flutter_eCommerce_ui_kit
+                                  * Muebles === https://github.com/ishaileshmishra/flutter-ecommerce-app
+                                  * Ropa === https://github.com/zinmyoswe/Flutter-Ecommerce-App
+                                  * https://flutterawesome.com/tag/templates/
+                                  * Nike = https://github.com/TheAlphamerc/flutter_ecommerce_app
+                           

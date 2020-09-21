@@ -1,0 +1,5 @@
+  CELULAR = https://github.com/DevWizza/Leona-Store
+  https://github.com/xamarinhq/app-myshoppe
+
+  *https://github.com/syncfusion/essential-ui-kit-for-xamarin.forms#key-features
+  Ideas diseno = https://www.syncfusion.com/essential-xamarin-ui-kit

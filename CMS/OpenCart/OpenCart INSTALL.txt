@@ -25,6 +25,8 @@
   BD : store_open
       ------------------------
 
+ Pin: OLa1234
+
 
  ADMIN
 

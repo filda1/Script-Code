@@ -1,0 +1,107 @@
+
+
+  TUTORIAL DE MAGENTO ==https://meetanshi.com/blog/install-magento-2-on-localhost-using-xampp/
+
+ ** DONWLOAD ======> https://magento.com/tech-resources/download#archive-releases
+                    https://meetanshi.com/blog/install-magento-2-4-via-command-line/
+                    https://github.com/magento/magento2
+ https://magento.com/tech-resources/download#archive-releases
+
+ MARKET PALCE
+ filintomeireles@gmail.com  
+ Portugal@@2020
+
+*************************************************************************************
+ INSTALAR MAGENTO
+
+ TUTORIAL ====== https://devdocs.magento.com/guides/v2.4/install-gde/composer.html
+
+ OPEN SOURCE
+  >> composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition=2.3.5 proyecto
+  >> n
+
+
+ username (token public):  a09928fe8a23bee8ff2fd7f723ba8fbd
+ pasword (token private) : 47fb9b4d1d99e86ea46b42e5a252056c
+
+
+bin/magento setup:install \
+--base-url=http://localhost/appmagento1 \
+--db-host=localhost \
+--db-name=dbmagento240 \
+--db-user=root \
+--db-password= \
+--admin-firstname=admin \
+--admin-lastname=admin \
+--admin-email=admin@admin.com \
+--admin-user=admin \
+--admin-password=admin \
+--language=en_US \
+--currency=USD \
+--timezone=America/Chicago \
+--use-rewrites=1
+
+
+
+
+**********************************************************************************
+  INSTALAR MAGENTO 2.4.0
+   Tutorial de magento ====== https://www.youtube.com/watch?v=yeHcOMeDoJ0
+
+    ELASTIC= https://www.elastic.co/pt/downloads/past-releases/elasticsearch-7-8-0
+    DONWLOAD ======> https://magento.com/tech-resources/download#archive-releases
+
+
+
+  REPLACE: LINE 96
+
+    private function validateURLScheme(string $filename) : bool
+    {
+        $allowed_schemes = ['ftp', 'ftps', 'http', 'https'];
+        $url = parse_url($filename);
+        //if ($url && isset($url['scheme']) && !in_array($url['scheme'], $allowed_schemes)) {
+        if ($url && isset($url['scheme']) && !in_array($url['scheme'], $allowed_schemes) && !file_exists($filename)) {
+        
+            return false;
+        }
+
+        return true;
+    }
+
+
+  * Hacer BD, primero
+  >> C:\xampp\htdocs\magentoX240 > 
+
+       php bin/magento setup:install --base-url="http://localhost/magentoX240/" --db-host="localhost" --db-name="dbmagento240" --db-user="root" --db-password="" --admin-firstname="admin" --admin-lastname="admin" --admin-email="admin@admin.com" --admin-user="admin" --admin-password="admin" --use-rewrites="1" --backend-frontname="admin"
+
+
+php bin/magento setup:install --base-url="http://localhost/magentoX240/" --db-host="localhost" --db-name="dbmagento240" --db-user="root" --admin-firstname="admin" --admin-lastname="admin" --admin-email="admin@admin.com" --admin-user="admin" --admin-password="admin" --language="en_US" --currency="INR" --timezone="America/Chicago" --use-rewrites="1" --backend-frontname="admin
+
+
+
+php bin/magento setup:install 
+--base-url="http://localhost/magentoX240/" 
+--db-host="localhost" 
+--db-name="dbmangeto240" 
+--db-user="root" 
+--db-password="" 
+--admin-firstname="admin" 
+--admin-lastname="admin" 
+--admin-email="admin@admin.com" 
+--admin-user="admin" 
+--admin-password="admin123" 
+--language="en_US" 
+--currency="USD"
+--timezone="America/Chicago" 
+--use-rewrites="1" 
+--backend-frontname="admin"
+    
+
+**************************************************
+ epiz_26777256! =====> user freeinfity
+
+ MANGETO HOST
+  admin
+  7W1CTtK3%8
+
+**************************************************

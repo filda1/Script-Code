@@ -1,0 +1,9 @@
+TUTORIAL por  Coding Potions
+
+ 1- https://codingpotions.com/que-es-vue
+ 2- https://codingpotions.com/vue-tutorial-basico-componentes
+ 3- https://codingpotions.com/sistema-vistas-vue
+ 4- https://codingpotions.com/vue-metodos-computadas
+ 5- https://codingpotions.com/vue-ejemplo-todo-app
+ 6- https://codingpotions.com/vue-router
+ 7- https://codingpotions.com/vue-ciclo-vida
