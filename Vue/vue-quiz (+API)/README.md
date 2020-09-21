@@ -1,4 +1,4 @@
- free code camp = https://github.com/gwenf/vue-adopt-pets.git
+ freecodecamp = https://www.youtube.com/watch?v=4deVCNJq3qc&t=5511s
 # quiz
 
 ## Project setup
