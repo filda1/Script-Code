@@ -1,0 +1,26 @@
+MAGENTO 2.3.5-p
+
+
+ERROR: vendor/magento/frameworks/Imagen/Adapter/Gd2.php
+
+private function validateURLScheme(string $filename) : bool   {
+          $allowed_schemes = ['ftp', 'ftps', 'http', 'https'];
+          $url = parse_url($filename);
+          if ($url && isset($url['scheme']) && !in_array($url['scheme'], $allowed_schemes) && !file_exists($filename)) {
+              return false;
+          }
+          return true;   
+}
+
+
+ERROR : ADMIN EN BLANCO
+
+ #/vendor/magento/framework/View/Element/Template/File/Validator.php:114
+the string
+
+ Replace por:
+
+  public function isValid($filename)
+{
+   return true;
+}

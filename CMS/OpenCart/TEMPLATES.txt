@@ -2,3 +2,8 @@
  TipoVue = https://github.com/vuefront/opencart
 
  Admin@@2020
+
+*****************************************************************
+
+  https://www.zerotheme.com/free-opencart-themes
+  https://www.templatemonster.com/pt-br/free-templates/

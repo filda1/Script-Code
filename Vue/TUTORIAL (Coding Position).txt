@@ -7,3 +7,5 @@ TUTORIAL por  Coding Potions
  5- https://codingpotions.com/vue-ejemplo-todo-app
  6- https://codingpotions.com/vue-router
  7- https://codingpotions.com/vue-ciclo-vida
+
+ TUTOrial =https://www.youtube.com/watch?v=FPx8JV0wnOY

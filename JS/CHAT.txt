@@ -1,0 +1,8 @@
+ CHAT + FIREBASE (tcrurav) =====> https://www.youtube.com/watch?v=zBUnqM2Uif0
+                          
+                           https://www.youtube.com/watch?v=CK2XEyVGc6c
+                           https://adnan-tech.com/realtime-web-based-chat-in-firebase/
+
+ CHAT WHATSAPP
+ https://www.youtube.com/watch?v=ClBHZ83nnK4&list=PLa7L_AAYTxnX4jE6gIUkxBsqtPlFyt2Cn&index=25
+ https://github.com/imranasif87/chatApp
