@@ -1,0 +1,8 @@
+https://www.tutorialspoint.com/firebase/firebase_quick_guide.htm
+
+  chat (tcrurav) =====> https://www.youtube.com/watch?v=zBUnqM2Uif0
+                        https://www.youtube.com/watch?v=i3WdUCvCQSU (imagenes)
+---------------------------------
+PRECIOS
+https://firebase.google.com/docs/database/usage/billing?hl=es
+https://medium.com/@jobsamuel/firebase-gratis-pago-o-un-poco-de-ambos-8eebf43481a4
