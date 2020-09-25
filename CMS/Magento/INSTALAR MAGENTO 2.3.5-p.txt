@@ -24,3 +24,7 @@ the string
 {
    return true;
 }
+
+ERROR : LOADED NOT STOP IN ADMIN
+
+  >> php bin/magento setup:static-content:deploy -f
