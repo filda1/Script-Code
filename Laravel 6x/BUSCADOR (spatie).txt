@@ -1,0 +1,8 @@
+ LARAVEL QUERY BUILDER (
+
+Bitfummes =====> https://www.youtube.com/watch?v=9fI9VP6RtZM (1)
+                 https://www.youtube.com/watch?v=p8t_Fj1Mkgk (2)
+
+*******************************************************************
+
+ Autocompletado (AJAX) = https://realprogrammer.in/make-autocomplete-search-using-jquery-ui-in-laravel/

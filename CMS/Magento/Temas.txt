@@ -8,3 +8,7 @@ https://github.com/magetop/magento2-booking-airbnb-clone-script
 https://bssthemes.com/blog/magento-2-theme-github/
 
 **** https://www.templatemonster.com/pt-br/free-templates/
+
+
+https://templatetoaster.com/templates/magento-themes
+ editor THEMES =====> https://blog.templatetoaster.com/create-magento-theme/

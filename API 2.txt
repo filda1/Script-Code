@@ -1,4 +1,6 @@
 API 2
+  CONVERTIR IMG,Video.. EN API
+  https://developers.bannerbear.com/#authentication
 
   ALIMENTOS \ ENFERMEDADES
    https://www.programmableweb.com/api/personal-remedies

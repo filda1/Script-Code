@@ -1,0 +1,21 @@
+ 
+ LARAVEL SCOUT: driver de buscar que comunicar BD con algolia
+
+***************************************************************************************************************
+ ****DOC === https://www.algolia.com/doc/framework-integration/laravel/getting-started/installation/?language=php
+
+ LARAVEL SCOUT + ALGOLIA === https://www.treinaweb.com.br/blog/full-text-search-com-laravel-scout-e-algolia/
+
+  BITFUMES  ========>
+                    https://www.youtube.com/watch?v=fNOru8F9H-M&t=1s (PARTE 1)
+                    https://www.youtube.com/watch?v=yGl5qbpu-vE&list=PLe30vg_FG4OR3b24WlxeTWsj7Z2wOtYrH&index=4 (PARTE2)
+                    https://www.youtube.com/watch?v=j70xZ0nS1Pg (PARTE 3) 
+                    https://www.youtube.com/watch?v=1hTOAJQfe7w (PARTE 4)
+
+
+***********************************************************************************************************
+ SERIES : https://www.youtube.com/watch?v=yGl5qbpu-vE&list=PLe30vg_FG4OR3b24WlxeTWsj7Z2wOtYrH&index=4
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ Andre Mandarang ==== https://www.youtube.com/watch?v=rsHO-RRwIH8

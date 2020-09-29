@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ILX - Trocar coisas online</title>
+    <link rel="icon" href="./images/favicon.png">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- fontawesome -->
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+    <!-- firebase 
+    -->
+
+</head>
+
+<body>
+    <!-- signin popup -->
+    <div id="signinPopup">
+        <div id="signinPopupContainer">
+            <div class="closeSigninPopupDiv">
+                <span id="closeSigninPopup">&times;</span>
+            </div>
+            <div class="headingDiv">
+                <span class="heading">Minha Conta</span>
+                <br>
+                <span>Trocar &amp; coisas com o OLX.</span>
+            </div>
+            <div id="signinWarning"></div>
+            <form id="signinForm">
+                <input type="email" placeholder="Email.." id="signinEmail" required>
+                <input type="password" placeholder="Passowrd.." id="signinPw" required>
+                <input type="submit" value="Minha Conta">
+            </form>
+            <p>Não tem conta? <a href="#" id="signupBtn">Inscrever-se</a></p>
+        </div>
+    </div>
+    <!-- /signin popup -->
+
+    <!-- signup popup -->
+    <div id="signupPopup">
+        <div id="signupPopupContainer">
+            <div class="closeSignupPopupDiv">
+                <span id="closeSignupPopup">&times;</span>
+            </div>
+            <div class="headingDiv">
+                <span class="heading">Inscrever-se</span>
+                <br>
+                <span>Trocar &amp; coisas com o OLX.</span>
+            </div>
+            <div id="signupWarning"></div>
+            <form id="signupForm">
+                <input type="text" placeholder="Nome.." id="signupName" required>
+                <input type="email" placeholder="Email.." id="signupEmail" required>
+              <!-- 
+
+                <input type="text" placeholder="Endereço.." id="adress" required>
+                <input type="number" placeholder="Telemóvel.." id="phone" required>-->
+
+                <input type="password" placeholder="Password.." id="signupPw" required>
+                <input type="submit" value="Inscrever-se">
+                <input type="submit" value=" Sign in with Google" class="btngoogle" style="background-color:#DB4437;" >
+            </form>
+            <p>Já tem uma conta? <a href="#" id="signinBtn_2">Minha Conta</a></p>
+            
+        </div>
+    </div>
+    <!-- /signup popup -->
+
+    <!-- category popup -->
+    <div id="categoryPopup">
+        <div id="categoryPopupContainer">
+            <div class="closeCategoryPopupDiv">
+                <span id="closeCategoryPopup">&times;</span>
+            </div>
+            <div class="headingDiv">
+                <span class="heading">Escolher categoria</span>
+            </div>
+            <div id="warning">Por favor escolha a categoria</div>
+            <form id="categoryForm">
+                <label class="radioContainer">Desporto
+                    <input type="radio" name="category" value="Desporto">
+                    <span class="radioCheck"></span>
+                </label>
+                <label class="radioContainer">Moda
+                    <input type="radio" name="category" value="Moda">
+                    <span class="radioCheck"></span>
+                </label>
+                <label class="radioContainer">Tecnologia
+                    <input type="radio" name="category" value="Tecnologia">
+                    <span class="radioCheck"></span>
+                </label>
+                <label class="radioContainer">Veículos
+                    <input type="radio" name="category" value="Veículos">
+                    <span class="radioCheck"></span>
+                </label>
+                <label class="radioContainer">Serviços/Outras vendas
+                    <input type="radio" name="category" value="Serviços/Outras vendas">
+                    <span class="radioCheck"></span>
+                </label>
+                <label class="radioContainer">Mobília, casa e jardim
+                    <input type="radio" name="category" value="Mobília, casa e jardim">
+                    <span class="radioCheck"></span>
+                </label>
+                <input type="submit"  value="next">
+            </form>
+
+            
+         </div>
+        </div>
+    </div>
+    <!-- /category popup -->
+
+    <!-- sell popup -->
+    <div id="sellPopup">
+        <div id="sellPopupContainer">
+            <div class="closeSellPopupDiv">
+                <span id="backCategoryPopup"><i class="fas fa-arrow-left"></i></span>
+                <span id="closeSellPopup">&times;</span>
+            </div>
+            <div class="headingDiv">
+                <span class="heading">Publique o seu anúncio</span>
+            </div>
+            <form id="sellForm">
+                <p id="categoryName"></p>
+                <input type="text" placeholder="Título.." id="adTitle" required>
+                <input type="text" placeholder="Descrição.." id="adDescription" required>
+                <input type="number" placeholder="Preço.." id="adPrice" required min="0" value="0" step="any">
+                <input type="number" placeholder="Número de telefone.." id="adPhone">
+                <input type="file" id="adImage" multiple>
+                <input type="submit" value="Adicionar">
+            </form>
+        </div>
+    </div>
+    <!-- /sell popup -->
+
+    <!-- ad details popup -->
+    <div id="adDetailsPopup">
+        <div id="adDetailsPopupContainer">
+            <div class="closeAdDetailsPopupDiv">
+                <span id="closeAdDetailsPopup">&times;</span>
+            </div>
+            <div class="left">
+                <div class="inLeft" id="AdDescAndImage">
+                    <h2 id="showAdDescriptionHeading"></h2>
+                    <div id="showAdImage"></div>
+                    <div class="showAdDescription">
+                        <p id="showAdDescriptionDesc"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="inRight">
+                    <div id="price"></div>
+                    <div class="sellerInfo">
+                        <h2>Informações do anunciante</h2>
+                        <div id="sellerName"></div>
+                        <div id="sellerPhone"></div>
+                        <div class="chatWithSeller">
+                            <button id="chatWithSellerBtn">Chat com o anunciante</button>
+                        </div>
+                    </div>
+                    <table>      
+                        <tr>
+                            <td><div id="deleteAdBtn"><i class='fas fa-trash '>&nbsp;&nbsp;Apagar</i>
+                            </div></td>
+                            <td> <div id="editAdBtn"><i class='fas fa-pencil-alt' >&nbsp;&nbsp;Editar</i></div></td>  
+                        </tr>     
+                        </table>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /ad details popup -->
+
+    <div id="main">
+        <!-- header -->
+        <header>
+            <div class="top">
+                <div class="container">
+                    <div class="left">
+                        <div class="mainLogo">
+                            <a href="./index.html">
+                                <img src="./images/logo.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="location">
+                            <!-- <i class="fas fa-globe-europe"></i> -->
+                            <input type="text" placeholder="Location..">
+                        </div>
+                        <div class="search">
+                            <div class="searchFieldDiv">
+                                <input type="text" placeholder="Pesquisar.." id="searchField">
+                            </div>
+                            <div class="searchBtnDiv">
+                                <button id="searchBtn"><i class="fas fa-search"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="signinBtnDiv">
+                            <div class="dropdown">
+                                <button id="signinBtn" class="showSignoutBtnHover">Minha Conta</button>
+                                <div class="dropdownContent" id="dropdownContent">
+                                    <a href="javascript:void(0)" id="myAds">Meus Anúncios</a>
+                                    <a href="javascript:void(0)" id="favorites">Favoritos</a>
+                                    <a href="javascript:void(0)" id="signoutBtn">Sair</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sellBtnDiv">
+                            <button id="sellBtn">Publicar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom" >
+                <div class="container">
+                    <div class="dropdown">
+                        <a href="javascript:void(0)" id="browseCategories">Navegar por categorias &nbsp; <i
+                                class="fas fa-angle-down"></i></a>
+                        <div class="dropdownContent">
+                            <a href="Javascript:void(0)" onclick="filter('All')">Todas as categorias</a>
+                            <a href="Javascript:void(0)" onclick="filter('Desporto')">Desporto</a>
+                            <a href="Javascript:void(0)" onclick="filter('Moda')">Moda</a>
+                            <a href="Javascript:void(0)" onclick="filter('Tecnologia')">Tecnologia</a>
+                            <a href="Javascript:void(0)" onclick="filter('Veículos')">Veículos</a>
+                            <a href="Javascript:void(0)" onclick="filter('Serviços/Outras vendas')">Serviços/Outras vendas</a>
+                            <a href="Javascript:void(0)" onclick="filter('Mobília, casa e jardim')">Mobília, casa e jardim</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- /header -->
+
+        <!-- banner -->
+        <div class="mainBanner" id="mainBanner">
+            <img src="./images/banner-1.jpg" alt="banner-image" id="mainBannerImg">
+        </div>
+        <!-- /banner -->
+
+        <!-- popular categories -->
+        <div class="popularCategories" id="popularCategories">
+            <div class="container">
+                <div class="heading">
+                    <h2>Categorias populares</h2>
+                    <hr>
+                    <p>Navegue por algumas de nossas categorias mais populares.</p>
+                </div>
+                <div class="categories">
+                    <div class="oneThird">
+                        <div class="top">
+                            <a href="javascript:void(0)" onclick="filter('Desporto')"><i class="fas fa-futbol"></i>
+                                &nbsp; Desporto</a>
+                        </div>
+                        <div class="bottom">
+                            <a href="javascript:void(0)">Tablets</a>
+                            <a href="javascript:void(0)">Acessórios</a>
+                            <a href="javascript:void(0)">Móbiles</a>
+                        </div>
+                    </div>
+                    <div class="oneThird">
+                        <div class="top">
+                            <a href="javascript:void(0)" onclick="filter('Moda')"><i class="fas fa-user-tie"></i> &nbsp;
+                                Moda</a>
+                        </div>
+                        <div class="bottom">
+                            <a href="javascript:void(0)">Carros</a>
+                            <a href="javascript:void(0)">Ônibus</a>
+                            <a href="javascript:void(0)">Partes separadas</a>
+                        </div>
+                    </div>
+                    <div class="oneThird">
+                        <div class="top">
+                            <a href="javascript:void(0)" onclick="filter('Tecnologia')"><i class="fas fa-tv"></i>
+                                &nbsp; Tecnologia</a>
+                        </div>
+                        <div class="bottom">
+                            <a href="javascript:void(0)">Carros</a>
+                            <a href="javascript:void(0)">Ônibus</a>
+                            <a href="javascript:void(0)">Partes separadas</a>
+                        </div>
+                    </div>
+                    <div class="oneThird">
+                        <div class="top">
+                            <a href="javascript:void(0)" onclick="filter('Veículos')"><i class="fas fa-bicycle"></i> &nbsp;
+                                Veículos</a>
+                        </div>
+                         <div class="bottom">
+                            <a href="javascript:void(0)">Carros</a>
+                            <a href="javascript:void(0)">Ônibus</a>
+                            <a href="javascript:void(0)">Partes separadas</a>
+                        </div>
+                    </div>
+                    <div class="oneThird">
+                        <div class="top">
+                            <a href="javascript:void(0)" onclick="filter('Services')"><i class="fas fa-wrench"></i>
+                                &nbsp; Serviços/Outras vendas</a>
+                        </div>
+                        <div class="bottom">
+                            <a href="javascript:void(0)">Carros</a>
+                            <a href="javascript:void(0)">Ônibus</a>
+                            <a href="javascript:void(0)">Partes separadas</a>
+                        </div>
+                    </div>
+                    <div class="oneThird">
+                        <div class="top">
+                            <a href="javascript:void(0)" onclick="filter('Furniture')"><i class="fas fa-bed"></i> &nbsp;
+                            Mobília, casa e jardim</a>
+                        </div>
+                       <div class="bottom">
+                            <a href="javascript:void(0)">Carros</a>
+                            <a href="javascript:void(0)">Ônibus</a>
+                            <a href="javascript:void(0)">Partes separadas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /popular categories -->
+
+        <!-- top picks for you -->
+        <div class="topPicks">
+            <div class="container" id="topPicksContainer">
+                <div class="heading">
+                    <h2 id="categoryHeading">Adicionado recentemente</h2>
+                    <hr>
+                </div>
+                <div class="picks" id="picks">
+
+                </div>
+            </div>
+        </div>
+        <!-- /top picks for you -->
+
+        <!-- footer -->
+        <footer>
+            <div class="top">
+                <div class="container">
+                    <div class="oneFifth">
+                        <h3>Categorias populares</h3>
+                        <a href="#">Carros</a><br>
+                        <a href="#">Apartamentos para alugar</a><br>
+                        <a href="#">Emprego</a><br>
+                        <a href="#">Telemóvel</a>
+                    </div>
+                    <div class="oneFifth">
+                        <h3>Pesquisas populares</h3>
+                        <a href="#">Bicicletas</a><br>
+                        <a href="#">Relógios<a><br>
+                        <a href="#">Libros</a><br>
+                        <a href="#">Cães</a>
+                    </div>
+                    <div class="oneFifth">
+                        <h3>Sobre nós</h3>
+                        <a href="#">Sobre nós</a><br>
+                        <a href="#">Blog</a><br>
+                        <a href="#">Contate-nos </a><br>
+                        <a href="#">Pacotes de negócios</a>
+                    </div>
+                    <div class="oneFifth">
+                        <h3>Ilx</h3>
+                        <a href="#">Ajuda</a><br>
+                        <a href="#">Mapa do site</a><br>
+                    </div>
+                    <div class="oneFifth footerSocial">
+                        <h3>Encontre-nos aqui</h3>
+                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="container">
+                    <div class="left">
+                        <span class="countries">
+                           Mudar de país:
+                            <a href="#">África do Sul</a>
+                            <a href="#">Índia</a>
+                            <a href="#">Quênia</a>
+                            <a href="#">Gana</a>
+                        </span>
+                    </div>
+                    <div class="right">
+                        <span class="copyrights">
+                            Copyrights &copy; ILX, 2020.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- /footer -->
+    </div>
+
+
+    
+    <!-- js -->
+    <!-- SDK FIREBASE -->
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+  <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-storage.js"></script>
+  <!-- Don't change the format for any other products. -->
+  <!-- etc. -->
+  <script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyDHBOEwTDjWTbV-eoWgO_RbZnWCr3QCR-M",
+    authDomain: "fb-trueque.firebaseapp.com",
+    databaseURL: "https://fb-trueque.firebaseio.com",
+    projectId: "fb-trueque",
+    storageBucket: "fb-trueque.appspot.com",
+    messagingSenderId: "929204504070",
+    appId: "1:929204504070:web:28ee9bc0f483b125246587",
+    measurementId: "G-T5DYS60SX5"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+   //const auth = firebase.auth();
+   //const fs = firebase.firestore();
+  //firebase.analytics();
+</script>
+
+<!-- service worker -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('./sw.js')
+                .then(res => {
+                    console.log('SW registered');
+                }).catch(err => {
+                    console.log('Error in SW registration', err);
+                })
+        } else {
+            console.log('Browser does not support SW');
+        }
+    </script>
+
+    <script src="js/app.js"></script>
+
+   
+</body>
+
+</html>

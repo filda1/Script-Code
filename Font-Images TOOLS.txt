@@ -1,6 +1,12 @@
  Font da Toalha :   Lucida Handwriting Italic.
 - Miss Donna W01 Black
-
+************************************************************************************
+ - FIRE
+ - THUNDER
+ - MANGUSTA
+ - THUNDERBIRD
+ - BIRD
+ - COMPACT
 ------------------------------------------------------------------------------------
  FORM INTERACTIVO =======> https://github.com/ditdot-dev/vue-flow-form
 ------------------------------------------------------------------------------------

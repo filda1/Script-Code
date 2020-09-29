@@ -1,6 +1,11 @@
 MAGENTO 2.3.5-p
 
 
+ERROR: require(vendor/autoload.php): failed to open stream
+
+  proyecto>> composer dump-autoload
+
+      
 ERROR: vendor/magento/frameworks/Imagen/Adapter/Gd2.php
 
 private function validateURLScheme(string $filename) : bool   {
