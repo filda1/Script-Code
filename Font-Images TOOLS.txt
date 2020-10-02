@@ -1,6 +1,14 @@
  Font da Toalha :   Lucida Handwriting Italic.
 - Miss Donna W01 Black
 ************************************************************************************
+ clone editor wix = https://github.com/givanz/VvvebJs
+                    http://www.vvveb.com/vvvebjs/editor.html
+
+                    *https://github.com/artf/grapesjs
+                    https://github.com/prevwong/craft.js
+                    https://github.com/brick-design/react-visual-editor
+  EXAMPLES === https://github.com/topics/site-builder
+************************************************************************************
  - FIRE
  - THUNDER
  - MANGUSTA
