@@ -26,3 +26,14 @@
    **** Ambiente de Produção com Git + Host // Mão no Código #8  =====https://www.youtube.com/watch?v=zoo0jtc79Rk
 
    vscode a github  == https://www.youtube.com/watch?v=H0SQAW9tmmE
+
+
+
+**************************************************************
+
+  ERRORES:
+
+   1* LTS LARGE FILE STORAGE
+       git reset --soft HEAD~1
+       git status
+       git reset --hard origin/master
