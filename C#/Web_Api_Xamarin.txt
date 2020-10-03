@@ -10,5 +10,5 @@
   
    ESCRITORIO
   
-    WinForm ======> C#        +      ADO.NET (asistente BD)
+    WinForm ======> C#        +      ADO.NET (asistente BD) .
 
