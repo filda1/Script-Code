@@ -1,5 +1,42 @@
-  CELULAR = https://github.com/DevWizza/Leona-Store
+  TUTORIAL
+  https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/controls/
+  XAML = https://docs.microsoft.com/en-us/xamarin/xamarin-forms/xaml/xaml-controls
+
+   sycfuntion = https://help.syncfusion.com/xamarin/introduction/overview
+   LICENCE FREE = https://www.syncfusion.com/downloads/communitylicense
+
+   Zuluaga= https://www.youtube.com/watch?v=pFU9zQG1HLs&list=PLuEZQoW9bRnTKcse75pub6T3-pi5M7NGy&index=31
+
+  TOOLBAR (DROID) = https://www.youtube.com/watch?v=khY-5dZx4-o
+
+ EJEMPLOS = https://docs.microsoft.com/en-us/xamarin/cross-platform/samples/
+            https://wcoder.github.io/open-source-xamarin-apps/
+
+ UI = https://www.syncfusion.com/essential-xamarin-ui-kit
+      https://grialkit.com/screenshots/
+      https://codecanyon.net/category/mobile?tags=xamarin (E-commerce)
+
+   themes=   https://github.com/syncfusion/essential-ui-kit-for-xamarin.form
+             https://www.youtube.com/watch?v=AugZail5aBY
+   TEMPLATE UI = https://github.com/jsuarezruiz/TemplateUI
+
+  XAMRIN + FIREBASE = https://www.youtube.com/watch?v=zkV8J9zSvjI&list=PLpXus3JSQYPDk1PPVxLR-E1pyf8BhGoGJ
+
+     GRADIENTES==    https://github.com/mgierlasinski/MagicGradients
+                     https://devblogs.microsoft.com/xamarin/magic-gradients-xamarinforms/
+********************************************************************************
+
+ XAMARIN ECORMESE ( DevCrux Technologies )
+   ===== https://www.youtube.com/watch?v=T2y7laoyfoE
+CELULAR = https://github.com/DevWizza/Leona-Store
   https://github.com/xamarinhq/app-myshoppe
 
   *https://github.com/syncfusion/essential-ui-kit-for-xamarin.forms#key-features
   Ideas diseno = https://www.syncfusion.com/essential-xamarin-ui-kit
+
+
+   firebase = https://github.com/samirgcofficial/XMeetFirebaseApp/tree/master/FireBaseLoginApp
+              https://www.youtube.com/watch?v=H1ztnjzE8zc
+
+   firebase Auth = https://www.youtube.com/watch?v=liGTuuau29Y
+   firebase realtime = https://www.youtube.com/watch?v=dop8IiZfl4w

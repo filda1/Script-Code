@@ -52,10 +52,10 @@
 
       * POR CONSOLE NUGET=== ADO.NET === Enty Framerwork *
 
-      CRUD in ASP.NET Core With Entity Framework Core (POR CONSOLE NUGET, crea tables en BD)
+     CODE FIRST ====== CRUD in ASP.NET Core With Entity Framework Core (POR CONSOLE NUGET, crea tables en BD)
                                https://www.youtube.com/watch?v=3GZ9LtKakc0
 
-      CRUD in ASP.NET Cre with Entity Framework COre(POR CONSOLE NUGET, crea modelos de BD) ==================> https://www.youtube.com/watch?v=Y22WGhUI2rs
+     DATBASE FIRST ==== CRUD in ASP.NET Cre with Entity Framework COre(POR CONSOLE NUGET, crea modelos de BD) ==================> https://www.youtube.com/watch?v=Y22WGhUI2rs
                               macoratti = https://www.youtube.com/watch?v=rW9IS-f6LSQ&list=PLJ4k1IC8GhW0_cjBLq095KFRDiciWSjnB&index=4
 
 
