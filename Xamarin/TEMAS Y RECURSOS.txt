@@ -9,6 +9,22 @@
             </ContentPage.BindingContext>
            <StackLayout>
             <Label Text="{Binding  XPropiedad_cargada}"/>
+************************************************************************************************
+  Xamarin + Sql Lite = http://blog.hadsonpar.com/2020/03/xamarinforms-crud-con-sqlite.html?spref=fb
+
+  XAMRIN + EXCEL = https://askxammy.com/getting-started-with-excel-files-creation-in-xamarin-forms/
+
+  CLONE BURGER = https://askxammy.com/replicating-food-ui-sample/
+                                https://github.com/LeomarisReyes/FoodAppSample/tree/master/FoodAppSample.Android/Resources/drawable
+
+   TRAVEL = https://askxammy.com/lets-replicate-a-travel-app-in-xamarin-forms/
+   FRUTAS = https://askxammy.com/replicating-exotic-fruits-app-in-xamarin-forms/
+   CINE   = https://askxammy.com/replicating-streaming-ui-app-in-xamarin-forms/
+   NIKE   = https://askxammy.com/replicating-sneakers-ui-in-xamarin-forms/
+   VENDA DE APARTA = https://askxammy.com/replicating-real-estate-property-details-ui-in-xamarin-forms/
+   BURGER  = https://askxammy.com/replicating-burger-ui-app-in-xamarin-forms/
+
+  REPLICAS = https://askxammy.com/tag/replicating-ui/
 
 ************************************************************************************************
      CARGAR IMAGENES, galeria y camera (Zuluaga) = https://www.youtube.com/watch?v=G8fx_vOntsI&list=PLuEZQoW9bRnSCZHlieeTk8Xji7JmaTCaq&index=60
