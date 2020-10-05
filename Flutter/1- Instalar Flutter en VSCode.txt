@@ -1,4 +1,8 @@
- INSTALAR FLUTTER EN VSCODE
+ 
+ INSTLAR EN MAC = https://www.youtube.com/watch?v=UvMKKCh96-Y
+ * INSTLAR EN WIND = https://www.youtube.com/watch?v=pcchmeVAqwg ( si hay problemas de permisos poner :  >>  flutter doctor --android--licences)
+
+INSTALAR FLUTTER EN VSCODE
     
    youtube (Gyga Code) https://www.youtube.com/watch?v=SUINwMn4Tcw&list=PLl_hIu4u7P6672anZPqgEkWTQkSBOL56_
 

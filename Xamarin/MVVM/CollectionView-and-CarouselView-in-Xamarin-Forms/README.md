@@ -10,4 +10,4 @@ This video is beginner-friendly and I advice you to watch the entire video irres
 ![alt text](https://devcrux.com/wp-content/uploads/burgerapp.png) 
 
 
- # devcrux = https://github.com/devcrux/CollectionView-and-CarouselView-in-Xamarin-Forms
+# devcruz = https://github.com/devcrux/CollectionView-and-CarouselView-in-Xamarin-Forms

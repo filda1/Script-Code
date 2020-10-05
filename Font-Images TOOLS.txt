@@ -1,5 +1,22 @@
- Font da Toalha :   Lucida Handwriting Italic.
-- Miss Donna W01 Black
+***********************************************************************************
+ https://medium.com/@101/the-best-free-icon-packs-26f36ddd732e
+
+ ICONS IOS = https://linea.io/
+             https://freebiesbug.com/psd-freebies/amenities-50-misc-psd-icons/
+             http://tympanus.net/codrops/2014/10/10/freebie-helium-icon-set/
+             https://graphicburger.com/webicons-100-stroke-fill-icons/
+             https://www.smashingmagazine.com/2015/03/freebie-swifticons-icon-set/
+             * https://themes-pixeden.com/font-demos/7-stroke/index.html
+             https://www.smashingmagazine.com/2014/05/summer-essentials-icon-set-freebie-eps-png-ai/ (REdondos)
+             * https://freebiesbug.com/psd-freebies/80-stroke-icons-psd-ai-webfont/
+              (
+
+ Uplabs.com
+
+ THemes free APP = https://www.invisionapp.com/inside-design/design-resources/collections/mobile-app-templates/
+                   https://cssauthor.com/latest-free-mobile-ui-elements-design-kits/
+                   https://csform.com/top-12-free-mobile-ui-kits-for-2019/
+                     *https://freedesignresources.net/free-the-fitness-app-ui-kit/
 ************************************************************************************
  clone editor wix = https://github.com/givanz/VvvebJs
                     http://www.vvveb.com/vvvebjs/editor.html

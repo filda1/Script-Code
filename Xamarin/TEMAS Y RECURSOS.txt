@@ -1,4 +1,23 @@
   TUTORIAL
+   BIndingContext = https://stackoverflow.com/questions/38552035/set-bindingcontext-to-viewmodel-in-xaml-on-xamarin-forms
+
+  XAML (Pasar datos de vieWmodel  a  view )
+   1. ViewModel LLenar el Propiedad
+   2. en View:
+       <ContentPage.BindingContext>
+          <viewModels:XXXXXViewModel/>
+            </ContentPage.BindingContext>
+           <StackLayout>
+            <Label Text="{Binding  XPropiedad_cargada}"/>
+
+************************************************************************************************
+     CARGAR IMAGENES, galeria y camera (Zuluaga) = https://www.youtube.com/watch?v=G8fx_vOntsI&list=PLuEZQoW9bRnSCZHlieeTk8Xji7JmaTCaq&index=60
+
+   ************firestore = https://www.youtube.com/watch?v=zoeZoGgAFzA
+    ******GITHUB EXAMPLES = https://github.com/jsuarezruiz/xamarin-forms-goodlooking-UI
+
+    **ecommerce = https://github.com/syncfusion/xamarin-shopping-cart
+
   https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/controls/
   XAML = https://docs.microsoft.com/en-us/xamarin/xamarin-forms/xaml/xaml-controls
 
@@ -24,10 +43,18 @@
 
      GRADIENTES==    https://github.com/mgierlasinski/MagicGradients
                      https://devblogs.microsoft.com/xamarin/magic-gradients-xamarinforms/
+
+   Shell ==== https://www.youtube.com/watch?v=pWgz59Hf09k
+   carrusell = ***https://www.youtube.com/watch?v=IpXt8KGSyy4
+               https://www.youtube.com/watch?v=cP3cxN-e_rY
 ********************************************************************************
 
  XAMARIN ECORMESE ( DevCrux Technologies )
    ===== https://www.youtube.com/watch?v=T2y7laoyfoE
+    *  FASHON =======> https://github.com/devcrux/FashionApp
+    *  BURGER ========> https://github.com/devcrux/CollectionView-and-CarouselView-in-Xamarin-Forms
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////7/
 CELULAR = https://github.com/DevWizza/Leona-Store
   https://github.com/xamarinhq/app-myshoppe
 
