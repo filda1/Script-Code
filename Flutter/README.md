@@ -11,6 +11,6 @@
    <br><br>
   <img src="/Flutter/Imagenes/recetas.png" alt="" >
   <br>
-  # Codigo Alpha -------------------------------------------> https://www.youtube.com/watch?v=FWZvri_-X5w
+  # Codigo Alpha --------------------------> https://www.youtube.com/watch?v=FWZvri_-X5w
   <br>
   #              -------------------------------------------> https://github.com/codigoalphacol/apprecipe
