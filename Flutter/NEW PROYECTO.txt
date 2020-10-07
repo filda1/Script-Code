@@ -1,0 +1,24 @@
+
+ OJO  RUN:   >> flutter -v doctor --android-licenses
+
+  CONSOLA:
+
+   1- Crear Repositotorio normal , sin REadme
+   2-   >> flutter create nombre_proyecto =======================>(Mismo nombre del proyecto Flutter)
+   3-   >> cd nombre_proyecto
+   4-   >> code .
+   5- RUN
+
+   6- EN VCODE:            ======================================>  Save en repositorio
+        - SOURCE CONTROL
+        - + CHANGES
+        -  Presionar el visto bueno 
+        -  commentar , en caja central 
+
+
+        - En Terminal de vcode: ==================================================> Solo Primera vez
+
+           >> git remote origin ... =============================> copiar la direccion del repositorio
+           * Hacer un cambio
+           >> git status    ====================================> info
+           >> tres puntos, PUSH

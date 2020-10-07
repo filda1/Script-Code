@@ -3,6 +3,11 @@
    + Todos los Objetos tienen la propiedad =============> child
    + Hay 2 tipos de Objetos  =============> los tienen las propiedad unicas Y los objetos que repiten las proìedades (Children)
 
+ TUTORIAL MACORATTI = http://www.macoratti.net/pageview.aspx?catid=46
+ INSTALL FLUTTER (MACORATTI) = http://www.macoratti.net/19/06/flut_intro1.htm
+
+  FLUTTER + GITHUB + VSCODE = https://www.youtube.com/watch?v=_TcKys6x2nM
+
 ************************************************************************************
   TUTORIALES YOUTUBE
  Santos Enoke (Flutter e-comerce)  ======= https://www.youtube.com/watch?v=Dy_zBF6rJFc&list=PLmnT6naTGy2SC82FMSCrvZNogg5T1H7iF
@@ -20,3 +25,30 @@
 
 
  DOC = https://flutter.dev/docs/development/ui/layout/tutorial
+
+--------------------------------------------------
+  ***ecomerce (coding cafe ) = https://www.youtube.com/watch?v=HLKhI-CYkas&list=RDCMUCIHBIPape0dWHKANkivrcJw&index=19
+             https://github.com/codingcafe1/e_shop
+
+  ** FIREBASE ( REAL TIMER DB  Y STORAGE ) Bourbon code = https://www.youtube.com/watch?v=CWLvfutxFFQ
+                                                          https://github.com/paucaro/blog-project
+  ***  login + register(PAtron bloc)  = https://github.com/paucaro/flutter_firebase_login
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   BUENO
+   ****Codigo Alpha ( consumir = JSW + API LARAVEL , 3 Partes) = https://www.youtube.com/watch?v=4lezujdS5Gs
+                                                  https://www.youtube.com/watch?v=4lezujdS5Gs
+
+   CRUD = https://www.youtube.com/watch?v=mdQ7eEeNefc
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   CLONE FACEBOOK (Marcus Ng) = https://www.youtube.com/watch?v=HvLb5gdUfDE
+                                https://github.com/MarcusNg/flutter_facebook_responsive_ui
+
+                                https://www.youtube.com/watch?v=Gh2Dfm_SvWY&list=PLpB3w81ejbTsB6WaY4l58I7Xse7LQIv-L&index=7
+
+
+
+   ******* CLONE FB,  Web-dyno Bhutan =   https://www.youtube.com/watch?v=Tmq2y3Np2aI (BUENO)
+
+           CLONE FB  = https://www.youtube.com/watch?v=V2tSd-DauPI
+                       https://github.com/ahmedgulabkhan/facebook_ui_flutter
+ 

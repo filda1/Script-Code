@@ -2,6 +2,21 @@
  INSTLAR EN MAC = https://www.youtube.com/watch?v=UvMKKCh96-Y
  * INSTLAR EN WIND = https://www.youtube.com/watch?v=pcchmeVAqwg ( si hay problemas de permisos poner :  >>  flutter doctor --android--licences)
 
+      INSTLAR 
+         1-Bajar android studio
+               Al inicio de android studio ===> rueda plugins ===> install flutter y dart
+         2- Bajar Flutter SDK ==========> y EJ : ponerlo en c:/src/flutter   (flutter es el SDK)
+         3- Variables de >Entorno: buscar en wid ==== env === Y apuntar c:/src/flutter/binflutt
+         4- >> flutter --version
+         5- >> INstal Flutter y dart en Vcode
+         6- >> flutter doctor
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+ flutter upgrade
+ flutter doctot
+ flutter clean
+ flutter run
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
 INSTALAR FLUTTER EN VSCODE
     
    youtube (Gyga Code) https://www.youtube.com/watch?v=SUINwMn4Tcw&list=PLl_hIu4u7P6672anZPqgEkWTQkSBOL56_
@@ -22,7 +37,7 @@ INSTALAR FLUTTER EN VSCODE
 
       1. Instalar Java JDK
         1.1 Y poner varable de entorno Ejemplo:  JAVA_HOME;  C:\Program Files\Java\jdk1.8.0_201
-      2. Bajar carpeta Android SDK (Ojo configurar la ruta variable de entorno)
+      2. Bajar carpeta Android SDK (Ojo configurar la ruta variable de entorno, C:\Program Files (x86)\Android)
       3. Instalar Android Studio
       4. Dowload de Git.com  (ojo , configuracion seleccionar: CHECKOUT  as-is , Commit Unix Style)
       5. Instalar Genymotion
@@ -38,7 +53,7 @@ INSTALAR FLUTTER EN VSCODE
          flutter doctor  ,  O  
          Simbolo de sistema: cd C:\flutter , ENTER, Luego flutter doctor
 
-         * En Power Shell, instalar, flutter doctor --android-licenses
+         * En Power Shell, instalar, flutter doctor --android-licenses    ( flutter -v doctor --android-licenses)
 
 
 

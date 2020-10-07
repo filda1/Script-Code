@@ -1,3 +1,6 @@
+
+
+
   TUTORIAL
    BIndingContext = https://stackoverflow.com/questions/38552035/set-bindingcontext-to-viewmodel-in-xaml-on-xamarin-forms
 
@@ -10,6 +13,8 @@
            <StackLayout>
             <Label Text="{Binding  XPropiedad_cargada}"/>
 ************************************************************************************************
+   Xamarin FACEBOOK = https://www.google.com/search?client=opera-gx&q=xamarin+forms+clone+facebook&sourceid=opera&ie=UTF-8&oe=UTF-8
+*************************************************************************************************
   Xamarin + Sql Lite = http://blog.hadsonpar.com/2020/03/xamarinforms-crud-con-sqlite.html?spref=fb
 
   XAMRIN + EXCEL = https://askxammy.com/getting-started-with-excel-files-creation-in-xamarin-forms/
