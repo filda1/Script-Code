@@ -7,6 +7,90 @@
  INSTALL FLUTTER (MACORATTI) = http://www.macoratti.net/19/06/flut_intro1.htm
 
   FLUTTER + GITHUB + VSCODE = https://www.youtube.com/watch?v=_TcKys6x2nM
+       
+  PALLETE COLOR FLUTTER = https://api.flutter.dev/flutter/material/Colors-class.html
+
+  FERNANDO HERRERA (PROVIDER) = https://www.youtube.com/watch?v=-KX2rH0qdKA
+                   (STREAM ; BLOC...) = https://www.youtube.com/watch?v=vIwYSFnT2D0
+                   https://github.com/elalo4171/Curso_Flutter
+
+ Stream (Tensor Flow) = https://www.youtube.com/watch?v=hvvYA1N-tEc&t=656s
+                       Websocket = https://www.youtube.com/watch?v=69Ul8bAahQY ==== https://medium.com/@bahadur.vaibhav/chat-app-with-flutter-websocket-850696488488
+
+ Websocket + Node.js = https://dev.to/carminezacc/two-way-real-time-communication-with-websockets-in-flutter-apps-node-backend-implementation-3od1
+
+ DOC FLUTTER WEBSOCKES = https://flutter.dev/docs/cookbook/networking/web-sockets
+
+  LARAVEL ECHO = https://www.youtube.com/watch?v=k4KUlM3c5_M
+
+  SOKETIO + NODE.JS + CHAT (Mobile Programmer) = https://www.youtube.com/watch?v=lrg9QNZMsmw
+       https://bitbucket.org/vipinvijayan1987/tutorialprojects/src/SocketIOChatDemo/FlutterTutorialProjects/flutter_demos/socket_io_server_side_script/socket_server.js
+
+     chat + Node.js = https://medium.com/flutter-community/realtime-chat-app-one-to-one-using-flutter-socket-io-node-js-acd4152c6a00
+                      https://github.com/ibtesam123/chat-app-2-flutter
+
+    ***********LARAVEL ECHO + FLUTTER = https://pub.dev/packages/laravel_echo
+     *************  LARAVEL ECHO(DevMarketer) = https://www.youtube.com/watch?v=tExUWmF6wNM&list=PLwAKR305CRO9rlj-U9oOi4m2sQaWN6XA8&index=3
+
+        https://medium.com/flutter-community/using-pusher-in-flutter-b4de781a0fa2
+         ANDROID = https://medium.com/swlh/receiving-laravel-echo-socket-io-messages-in-android-application-a2e1a3d83c5d
+ 
+         PLUGGINS ==   https://fluttergems.dev/networking-and-communication/
+
+                   websocket = https://www.didierboelens.com/2018/06/web-sockets-build-a-real-time-game/
+
+      REALTITME FIREBASE = https://www.youtube.com/watch?v=xAwN1zfkdAs
+
+      REGISTRO DE APP A FIREBASE = https://firebase.google.com/docs/flutter/setup
+
+      Flutter + socket.io + phyton + mongodb = https://codesearchonline.com/index.php/flutter-python/
+      
+**************************************************************
+ SIGNAL R + ASP.NET
+
+       gavilanch == https://www.youtube.com/watch?v=JBhVpfb1LhU
+                    https://www.youtube.com/watch?v=lB15IMgAwxw
+                    https://github.com/gavilanch/SignalR_Core_Ejemplo
+
+       Todas las posiblidades SIGNAL R (gavilanch )= https://www.youtube.com/c/gavilanch2/search?query=SignalR
+       * https://docs.microsoft.com/pt-br/aspnet/core/signalr/groups?view=aspnetcore-3.1
+
+   GRUPOS; USER = https://www.youtube.com/watch?v=-x9YUq-UtAo&t=495s
+  ** GRUPOS https://diegobersano.com.ar/2016/05/06/grupos-en-signalr-administracion-y-opciones-de-comunicacion/
+
+   CHANGE BD = https://www.youtube.com/watch?v=JBhVpfb1LhU&t=308s
+               https://github.com/HDRamosMendoza/Signal-R/tree/master/4Proyecto
+
+  EJEMPLO : https://github.com/jmbl1685/signalr-aspnetcore-angular/tree/master/client/src
+
+
+   Doc Flutter+ Signar R = https://pub.dev/packages/signalr_client
+
+
+   WEB API + SIGNALR = https://www.youtube.com/watch?v=vOBXBVL9FkA&list=PLXLkA7FAishpk0xVoQv7zRRf3eDKEH-qA&index=5
+                       https://social.technet.microsoft.com/wiki/contents/articles/36710.integrating-signalr-with-asp-net-web-api.aspx  ======== https://github.com/jaliyaudagedara/Blog-Post-Samples/tree/master/AspNetWebApiSignalRDemo
+
+              https://www.c-sharpcorner.com/article/stream-web-api-transactions-using-signalr/
+              https://bradwilson.typepad.com/blog/2012/07/webstack-of-love.html
+              https://github.com/bradwilson/WebstackOfLove/blob/master/Controllers/ApiControllerWithHub.cs
+              * https://github.com/arslanaybars/SignalR.WebApi.Demo
+
+          <bueno>  ========== https://www.youtube.com/watch?v=tUV5OMsttZk
+                              https://github.com/aksoftware98/blazorwithsignalr
+ ///////////////////////////////////////////////////////////////////////////////////////////////
+
+      SIGNAL R + SQLSERVER ==== https://github.com/CoreProgramm/SignalR-in-MVC/tree/master/SignalR
+                                https://www.coreprogramm.com/2019/12/how-to-use-signalr-in-mvc.html
+
+      FLUTTER + SIGNAL R === https://balta.io/artigos/flutter-signalr
+                             https://github.com/andrebaltieri/flutter-signalr
+                           https://docs.microsoft.com/es-es/aspnet/signalr/overview/older-versions/mapping-users-to-connections
+
+         SIGNAR + USER ESPECIFICOS = https://www.dokry.com/17838
+
+           CHAT = https://www.treinaweb.com.br/blog/criando-um-chat-com-asp-net-core-signalr/
+
+     LOGIN + ASPNET = https://www.youtube.com/watch?v=k3g6grFraww&list=PLJ4k1IC8GhW1rT4nzRCqB1ACzD7nw631V&index=25
 
 ************************************************************************************
   TUTORIALES YOUTUBE
@@ -26,6 +110,8 @@
 
  DOC = https://flutter.dev/docs/development/ui/layout/tutorial
 
+ BUSCADOR = https://www.youtube.com/watch?v=FPcl1tu0gDs
+            https://github.com/iampawan/FlutterExampleApps  ( EJEMPLOS)
 --------------------------------------------------
   ***ecomerce (coding cafe ) = https://www.youtube.com/watch?v=HLKhI-CYkas&list=RDCMUCIHBIPape0dWHKANkivrcJw&index=19
              https://github.com/codingcafe1/e_shop
@@ -39,9 +125,30 @@
                                                   https://www.youtube.com/watch?v=4lezujdS5Gs
 
    CRUD = https://www.youtube.com/watch?v=mdQ7eEeNefc
+
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
    CLONE FACEBOOK (Marcus Ng) = https://www.youtube.com/watch?v=HvLb5gdUfDE
                                 https://github.com/MarcusNg/flutter_facebook_responsive_ui
+
+   FASEBOOK 2= https://www.youtube.com/watch?v=VDB1OHb5SGg
+               https://github.com/afgprogrammer/Flutter-Facebook-Redesign
+
+  LOGIN = https://www.youtube.com/watch?v=vyj8jVUQS6Q
+          https://github.com/gdrtrts/animated-login
+
+  LOGIN = https://www.youtube.com/watch?v=6kaEbTfb444
+  
+  LOgin + REgister = https://www.youtube.com/watch?v=A6gMmpOKIMs
+
+ ***Login + Register = https://www.youtube.com/watch?v=iZqxIvlzXVw
+  
+  FAcebook Profile = https://www.youtube.com/watch?v=y3MoP8uhdtU
+
+  Login animado = https://www.youtube.com/watch?v=Deedq7XO4ds
+
+  ****Login + REgister = https://github.com/deliciafernandes/Login-Register-FlutterApp
+
+     ****** LOGIN + REGISTER ===========> https://github.com/TheAlphamerc/flutter_login_signup (+ Proyectos)
 
                                 https://www.youtube.com/watch?v=Gh2Dfm_SvWY&list=PLpB3w81ejbTsB6WaY4l58I7Xse7LQIv-L&index=7
 
@@ -51,4 +158,53 @@
 
            CLONE FB  = https://www.youtube.com/watch?v=V2tSd-DauPI
                        https://github.com/ahmedgulabkhan/facebook_ui_flutter
+
+ chat + getStream.io = https://www.youtube.com/watch?v=bBL9yq1wwvI
+
+ FLUTTER + LARAVEL = https://www.youtube.com/watch?v=6vOIk2-WoxQ&list=PL_5DleQzXnX4GRhKef32CiSs2oBfTVxe3
+
+ chat UI = https://www.youtube.com/watch?v=aPxby9OgVVM
+
+ chat UI = https://www.youtube.com/watch?v=ZVN5z2bntzg
+
+ chat + laravel(arabe) = https://www.youtube.com/watch?v=iU9Ii6hbYQc
+
+CRUD  = https://www.youtube.com/watch?v=D9R-TuSru6g
+
+ **laravel = https://www.youtube.com/watch?v=ObiyidEOnXQ&list=PLMYF6NkLrdN9g3aECFUp0bBVMfZQkj9Oi
+
+ social media ui = https://www.youtube.com/watch?v=mHGTezO4o6w
+
+  **TIMELINE = https://www.youtube.com/watch?v=JEfYYk_Yhm4
+  **share = https://www.youtube.com/watch?v=ky3LkQejcDI
+
+  laravel + pusher = https://www.youtube.com/watch?v=DZFRtsx8pPY
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ LARAVEL 
+
+  API DE IMGENES DE LARAVEL = https://www.tutsmake.com/laravel-file-upload-via-api-example-from-scratch/
+                              https://medium.com/@nishantbhushan10/upload-image-using-rest-api-in-laravel-cb70d8ce0757
+
+  UPLOAD IMAGE FLUTTER TO API = https://www.youtube.com/watch?v=0MO1QyEGIt0
+ ***************** CRUD API = https://www.youtube.com/watch?v=TnSi9_atURI
+                              https://www.youtube.com/watch?v=ETEin7NPf20
+                                  https://github.com/CoderJava/Flutter-CRUD-API-Sample
+
+   ******************** LARAVEL (Login + Register)===> https://github.com/hkmsadek/flutter_login_and_registration
+                 https://www.youtube.com/watch?v=zrP1arNAAGU
+
+  POSTAMN CARGAR IMAGENES A API LARAVEL ==========> https://www.youtube.com/watch?v=6CJ73IImcAY
+
+
+
  
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    CARRITO DE COMPRA = https://github.com/codigoalphacol/carritodecompras
+
+    CHAT (tensor Programing ) =======> https://www.youtube.com/watch?v=gU3iSH8qkVo
+    NOTIFICATIONS (Tensor Programing ) ========> https://www.youtube.com/watch?v=950jZeaqbdU
+
+   sidebar = https://www.youtube.com/watch?v=VzuHfHyJcuI (BUENO)
