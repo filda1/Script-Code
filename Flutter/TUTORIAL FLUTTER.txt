@@ -14,6 +14,9 @@
                    (STREAM ; BLOC...) = https://www.youtube.com/watch?v=vIwYSFnT2D0
                    https://github.com/elalo4171/Curso_Flutter
 
+
+  BLOG CHINO FLUTTER + ASP: NET = https://blog.csdn.net/HongzhuoO/article/details/104739328
+
  Stream (Tensor Flow) = https://www.youtube.com/watch?v=hvvYA1N-tEc&t=656s
                        Websocket = https://www.youtube.com/watch?v=69Ul8bAahQY ==== https://medium.com/@bahadur.vaibhav/chat-app-with-flutter-websocket-850696488488
 
@@ -77,6 +80,19 @@
 
           <bueno>  ========== https://www.youtube.com/watch?v=tUV5OMsttZk
                               https://github.com/aksoftware98/blazorwithsignalr
+
+          /*** WEB API ===https://medium.com/linkit-intecs/how-to-create-a-chat-app-with-asp-net-core-3-1-signalr-and-angular-10-a7fde1e70933
+
+             chat privado === https://github.com/shivam01990/SignalR-private-one-to-one-chat/blob/master/SignalRPrivateChat/SignalRPrivateChat/ChatHelper/ChatHub.cs
+
+    VER VIDEOS = https://www.youtube.com/playlist?list=PLFZfBw9eNzgzojmcvLlO0a0gw-n6sdInd
+
+     GET ID CONNECTIONS = https://www.youtube.com/c/ASPNETMVCCORE/search?query=signalR
+
+  XAMARIN = https://montemagno.com/real-time-communication-for-mobile-with-signalr/
+
+
+ con controlador ======= https://www.twilio.com/blog/broadcasting-with-signalr-and-net-core
  ///////////////////////////////////////////////////////////////////////////////////////////////
 
       SIGNAL R + SQLSERVER ==== https://github.com/CoreProgramm/SignalR-in-MVC/tree/master/SignalR
@@ -86,10 +102,44 @@
                              https://github.com/andrebaltieri/flutter-signalr
                            https://docs.microsoft.com/es-es/aspnet/signalr/overview/older-versions/mapping-users-to-connections
 
+       Conveyor de Keyoti  = https://www.youtube.com/watch?v=zCXJlab-yDc
+                             https://stackoverflow.com/questions/61932097/flutter-aspnet-core-socketexception-socketexception-os-error-connection-timed
+
+//////////////// SOMEE//////
+ fil
+ Portugal@@2020
+
+ tuto somee = https://www.youtube.com/watch?v=hDd9LOKjxPc
+
+
+      XAMRIN = https://www.telerik.com/blogs/real-time-xamarin-apps
+                 https://github.com/jamesmontemagno/XamChat
+
+      chat XAMRIN = https://www.youtube.com/watch?v=DN6Bs8FuTfA&list=PLJ4k1IC8GhW2zC5Vyi91xN7i_BO4ABysq&index=25
+      CHAT XAMARIN = https://mallibone.com/post/xamarin-signalr
+       http://flutterchat.somee.com/
+
+     XANARIN CLONE FACEBOOK = https://michaelridland.com/mobile/beautiful-xamarin-facebook-clone-in-xamarin-forms/
+                              https://github.com/XAM-Consulting/FacebookForms/tree/master/FBPlay
+
+                        ******* https://github.com/h0s/Facebook-Clone-UI-Xamarin-Forms
+///////////////////////////////////
          SIGNAR + USER ESPECIFICOS = https://www.dokry.com/17838
 
            CHAT = https://www.treinaweb.com.br/blog/criando-um-chat-com-asp-net-core-signalr/
 
+                  http://www.aspbucket.com/2016/03/implement-of-private-one-to-one-chat.html
+                  https://www.tahasivaci.com/signalr/signalr-chat-server-and-chat-client-application
+
+                 CHAT ROOM = http://blogs-dotnet-ashutoshmisra.blogspot.com/2014/06/aspnet-signalr-chat-room.html
+                    https://forums.asp.net/t/2079564.aspx?multiple+group+chat+rooms+in+asp+net+using+signalR
+            *****************   CHAT ROOM = https://github.com/AKouki/SignalR-Chat
+
+            messenger = https://github.com/andrew-sakaylyuk/Messenger
+                        https://github.com/saditya90/SignalRChat
+
+
+            ***LEER = https://stackoverflow.com/questions/11175173/signalr-multiple-chat-rooms         
      LOGIN + ASPNET = https://www.youtube.com/watch?v=k3g6grFraww&list=PLJ4k1IC8GhW1rT4nzRCqB1ACzD7nw631V&index=25
 
 ************************************************************************************
