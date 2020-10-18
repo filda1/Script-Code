@@ -1,5 +1,16 @@
+GAME = https://www.c-sharpcorner.com/article/building-a-simple-working-memory-game-app-with-web-api-and-signalr/
+
+****RECURSOS === https://github.com/zwiras/links-for-xamarin-developers
+
+   SIGNALR+XAMARIN = https://github.com/mallibone/XamarinSignalR
+                     https://mallibone.com/post/xamarin-signalr
+
+   SIMPLE SIGNALR = https://github.com/jamesmontemagno/app-SimpleSignalR/blob/master/SimpleSignalR/SimpleSignalR/ViewModels/ItemsViewModel.cs
 
 
+   Proyectos XAMARIN DEV SUMMIT === https://github.com/xamarindevelopersummit/XamDevSummit2019/tree/master/talks
+
+         
 
   TUTORIAL
    BIndingContext = https://stackoverflow.com/questions/38552035/set-bindingcontext-to-viewmodel-in-xaml-on-xamarin-forms
@@ -12,6 +23,13 @@
             </ContentPage.BindingContext>
            <StackLayout>
             <Label Text="{Binding  XPropiedad_cargada}"/>
+************************************************************************************************
+  IconFont2Code: https://andreinitescu.github.io/IconFont2Code/
+                         https://simpleicons.org/
+  Material Design Icons:  https://materialdesignicons.com/
+************************************************************************************************
+  CHANGE COLOR AZUL STATUSBAR = https://sturla.io/change-statusbar-color-from-xamarin-forms/
+                                https://www.youtube.com/watch?v=6sRTOvrFYm0
 ************************************************************************************************
    Xamarin FACEBOOK = https://www.google.com/search?client=opera-gx&q=xamarin+forms+clone+facebook&sourceid=opera&ie=UTF-8&oe=UTF-8
 *************************************************************************************************
@@ -30,6 +48,16 @@
    BURGER  = https://askxammy.com/replicating-burger-ui-app-in-xamarin-forms/
 
   REPLICAS = https://askxammy.com/tag/replicating-ui/
+
+  CHAT = https://github.com/jamesmontemagno/app-monkeychat
+
+  LOGIN FACEBOOK = https://github.com/ShahrukhYousafzai/FacebookMobileAppLoginUIClone
+                   https://www.youtube.com/watch?v=A6ZKx41_6Ms
+
+  EJEMPLOS = https://dotnet9.com/6788.html
+             https://awesomeopensource.com/project/jsuarezruiz/xamarin-forms-goodlooking-UI?fbclid=IwAR2jBhp7wiG-tC7-4ufZe2Ec3HY7qBg5fwbait9xAXo78j9dJt108GQWRCs
+
+ ****https://www.google.com/search?q=xamarin+clone+facebook&sxsrf=ALeKk03zx6ENfFP4vRq4udcuVQ1ofY-SNQ:1602629935754&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjRpZvg1bLsAhUMKBoKHUQ3D4MQ_AUoAXoECAwQAw&biw=1354&bih=583#imgrc=DOdLSJ_QFUDMPM
 
 ************************************************************************************************
      CARGAR IMAGENES, galeria y camera (Zuluaga) = https://www.youtube.com/watch?v=G8fx_vOntsI&list=PLuEZQoW9bRnSCZHlieeTk8Xji7JmaTCaq&index=60
@@ -87,4 +115,7 @@ CELULAR = https://github.com/DevWizza/Leona-Store
               https://www.youtube.com/watch?v=H1ztnjzE8zc
 
    firebase Auth = https://www.youtube.com/watch?v=liGTuuau29Y
-   firebase realtime = https://www.youtube.com/watch?v=dop8IiZfl4w
+   firebase realtime = https://www.youtube.com/watch?v=dop
+
+*****************************************************************************************
+  Luis Betran = https://www.youtube.com/watch?v=tYsKrF9H5f0

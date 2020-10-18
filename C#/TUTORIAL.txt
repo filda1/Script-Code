@@ -54,9 +54,19 @@
 
      CODE FIRST ====== CRUD in ASP.NET Core With Entity Framework Core (POR CONSOLE NUGET, crea tables en BD)
                                https://www.youtube.com/watch?v=3GZ9LtKakc0
+                                 >> add-migration  nombre
+                                 >> update-database
+  
 
      DATBASE FIRST ==== CRUD in ASP.NET Cre with Entity Framework COre(POR CONSOLE NUGET, crea modelos de BD) ==================> https://www.youtube.com/watch?v=Y22WGhUI2rs
                               macoratti = https://www.youtube.com/watch?v=rW9IS-f6LSQ&list=PLJ4k1IC8GhW0_cjBLq095KFRDiciWSjnB&index=4
+
+
+ /////////////////////////////////////////////////////////////////////////////////////////////////////
+ "ConnectionStrings": {
+    "DefaultConnection": "Server=DESKTOP-K4N8P1J; Database=SocialDB; Trusted_Connection=True; MultipleActiveResultSets=true"
+  }
+      ///////////////////////////////////////////////////////////////////////////////////////////
 
 
       CRUD in ASP.NET Core MVC (Camnino Largo)

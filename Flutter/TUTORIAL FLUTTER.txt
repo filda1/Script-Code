@@ -106,41 +106,6 @@
                              https://stackoverflow.com/questions/61932097/flutter-aspnet-core-socketexception-socketexception-os-error-connection-timed
 
 //////////////// SOMEE//////
- fil
- Portugal@@2020
-
- tuto somee = https://www.youtube.com/watch?v=hDd9LOKjxPc
-
-
-      XAMRIN = https://www.telerik.com/blogs/real-time-xamarin-apps
-                 https://github.com/jamesmontemagno/XamChat
-
-      chat XAMRIN = https://www.youtube.com/watch?v=DN6Bs8FuTfA&list=PLJ4k1IC8GhW2zC5Vyi91xN7i_BO4ABysq&index=25
-      CHAT XAMARIN = https://mallibone.com/post/xamarin-signalr
-       http://flutterchat.somee.com/
-
-     XANARIN CLONE FACEBOOK = https://michaelridland.com/mobile/beautiful-xamarin-facebook-clone-in-xamarin-forms/
-                              https://github.com/XAM-Consulting/FacebookForms/tree/master/FBPlay
-
-                        ******* https://github.com/h0s/Facebook-Clone-UI-Xamarin-Forms
-///////////////////////////////////
-         SIGNAR + USER ESPECIFICOS = https://www.dokry.com/17838
-
-           CHAT = https://www.treinaweb.com.br/blog/criando-um-chat-com-asp-net-core-signalr/
-
-                  http://www.aspbucket.com/2016/03/implement-of-private-one-to-one-chat.html
-                  https://www.tahasivaci.com/signalr/signalr-chat-server-and-chat-client-application
-
-                 CHAT ROOM = http://blogs-dotnet-ashutoshmisra.blogspot.com/2014/06/aspnet-signalr-chat-room.html
-                    https://forums.asp.net/t/2079564.aspx?multiple+group+chat+rooms+in+asp+net+using+signalR
-            *****************   CHAT ROOM = https://github.com/AKouki/SignalR-Chat
-
-            messenger = https://github.com/andrew-sakaylyuk/Messenger
-                        https://github.com/saditya90/SignalRChat
-
-
-            ***LEER = https://stackoverflow.com/questions/11175173/signalr-multiple-chat-rooms         
-     LOGIN + ASPNET = https://www.youtube.com/watch?v=k3g6grFraww&list=PLJ4k1IC8GhW1rT4nzRCqB1ACzD7nw631V&index=25
 
 ************************************************************************************
   TUTORIALES YOUTUBE
