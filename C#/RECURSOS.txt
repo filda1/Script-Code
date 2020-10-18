@@ -23,6 +23,8 @@ LOCAL  =========> DESKTOP-K4N8P1J   , Autrntication
  tuto somee = https://www.youtube.com/watch?v=hDd9LOKjxPc
 *************************************************************************************************
 
+     
+
       XAMRIN = https://www.telerik.com/blogs/real-time-xamarin-apps
                  https://github.com/jamesmontemagno/XamChat
 
@@ -59,6 +61,11 @@ LOCAL  =========> DESKTOP-K4N8P1J   , Autrntication
  TUTO SIGNAR = https://www.youtube.com/watch?v=d23j3RelLCU&list=PLThyvG1mlMzltDxuQj0uQw1TDu1gJUNeG&index=11
 
  VIDEO STREAM = WEBRTC
+    
+ MENSAGERIA INSTANTANEA = RabbitMQT  y KAFTA
+            
+ gRPC
+
 
  SIGNAL R + ASP.NET
 

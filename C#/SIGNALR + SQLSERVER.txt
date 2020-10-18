@@ -39,3 +39,4 @@
 
 
                   xamarinsignalr.somee.com/signalHub
+                    await _hubContext.Clients.All.SendAsync("SignalMessageReceived", signalViewModel);

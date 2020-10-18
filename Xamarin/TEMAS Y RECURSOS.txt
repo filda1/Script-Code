@@ -10,7 +10,9 @@ GAME = https://www.c-sharpcorner.com/article/building-a-simple-working-memory-ga
 
    Proyectos XAMARIN DEV SUMMIT === https://github.com/xamarindevelopersummit/XamDevSummit2019/tree/master/talks
 
-         
+   WATSHAP = https://www.luisbeltran.mx/2018/10/15/enviando-mensajes-de-whatsapp-con-xamarin-y-twilio/
+
+   CHAT BOT = https://www.simsimi.com    
 
   TUTORIAL
    BIndingContext = https://stackoverflow.com/questions/38552035/set-bindingcontext-to-viewmodel-in-xaml-on-xamarin-forms
@@ -36,6 +38,26 @@ GAME = https://www.c-sharpcorner.com/article/building-a-simple-working-memory-ga
   Xamarin + Sql Lite = http://blog.hadsonpar.com/2020/03/xamarinforms-crud-con-sqlite.html?spref=fb
 
   XAMRIN + EXCEL = https://askxammy.com/getting-started-with-excel-files-creation-in-xamarin-forms/
+
+ LIST VIEW = https://www.youtube.com/watch?v=tvffSaWTt5Q&list=PLpZ0Kru-F9GdOO881Rg8rQPzHEPNJGQ0c
+             https://github.com/jesulink2514/Forms4Demo
+
+   BOOKS = https://github.com/jesulink2514/XamBooksApp
+
+  pasos = https://github.com/jesulink2514/Xamarin.ProgressStatusBar
+  film = https://github.com/jesulink2514/XamFilm
+   card acrdion = https://github.com/jesulink2514/Xamarin.Forms-Expander
+   vuelos = https://github.com/jesulink2514/FlyMe
+   gallery = https://github.com/jesulink2514/Xamarin-Galleries
+   MarvelCards = https://github.com/jesulink2514/MarvelCards
+   Loadding = https://github.com/jesulink2514/Xamarin.Forms.EasyLoading
+   Perfil = https://github.com/jesulink2514/PolishUIDemo
+   Spptufy = https://github.com/jesulink2514/KickassUI.Spotify
+   LISVIEW EXPANDIBLE = https://github.com/jesulink2514/ExpandableListView.Xamarin
+   Carrussel = https://github.com/jesulink2514/xamarin-forms-carouselview7
+   chat = https://github.com/jesulink2514/CrossChat-Xamarin.Forms
+
+  
 
   CLONE BURGER = https://askxammy.com/replicating-food-ui-sample/
                                 https://github.com/LeomarisReyes/FoodAppSample/tree/master/FoodAppSample.Android/Resources/drawable
