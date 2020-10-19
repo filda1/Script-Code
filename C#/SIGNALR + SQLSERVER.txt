@@ -6,7 +6,14 @@
   http://www.borakasmer.com/mssql-database-ile-signalr-etkilesimleri/
 /////////////////////////////////////////////////////////////////////////////////////////////////
 
+*** CHATROOM = https://www.codeproject.com/Articles/562023/Asp-Net-SignalR-Chat-Room
+             https://github.com/neppie/ChatStrap/blob/master/ChatStrap/Controllers/ChatHub.cs
+             https://github.com/neppie/ChatStrap/blob/master/ChatStrap/Scripts/chat.js
+             https://github.com/neppie/ChatStrap/blob/master/ChatStrap/Views/Home/Chat.cshtml
+
  GRUPOS = https://www.webtrainingroom.com/aspnetcore/signalr-group-messages-example
+
+ user signalr = https://qastack.com.br/programming/19522103/signalr-sending-a-message-to-a-specific-user-using-iuseridprovider-new-2-0
 
  CLIENTE SPECIFICO = https://github.com/CodeMazeBlog/realtime-charts-signalr-angular/tree/signalR-client-specific-messages
 
