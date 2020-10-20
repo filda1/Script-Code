@@ -1,5 +1,5 @@
 GAME = https://www.c-sharpcorner.com/article/building-a-simple-working-memory-game-app-with-web-api-and-signalr/
-
+HIDE BACK BUTTON = https://stackoverflow.com/questions/59463540/how-to-hide-back-button-in-navigation-bar-xamarin-forms
 ****RECURSOS === https://github.com/zwiras/links-for-xamarin-developers
 
    SIGNALR+XAMARIN = https://github.com/mallibone/XamarinSignalR
