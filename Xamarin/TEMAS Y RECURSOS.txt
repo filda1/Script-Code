@@ -3,6 +3,8 @@ HIDE BACK BUTTON = https://stackoverflow.com/questions/59463540/how-to-hide-back
 
    PAIR TO MAC ======> https://agiletechconsulting.com/how-to-run-a-xamarin-forms-ios-app-from-windows-using-visual-studio-2019/
 
+   Manual = https://github.com/TBertuzzi/XXamarin
+
    JWT = https://www.youtube.com/c/TipsByAnil/search?query=token%20xamarin
 
 ****RECURSOS === https://github.com/zwiras/links-for-xamarin-developers
