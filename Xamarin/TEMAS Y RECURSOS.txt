@@ -2,11 +2,32 @@ GAME = https://www.c-sharpcorner.com/article/building-a-simple-working-memory-ga
 HIDE BACK BUTTON = https://stackoverflow.com/questions/59463540/how-to-hide-back-button-in-navigation-bar-xamarin-forms
 
    PAIR TO MAC ======> https://agiletechconsulting.com/how-to-run-a-xamarin-forms-ios-app-from-windows-using-visual-studio-2019/
+******************************************************************************************
+
+   Navegacion entre Pag = http://www.macoratti.net/16/12/xamforms_naveg1.htm
+                          https://riptutorial.com/es/xamarin-forms/example/8283/navegacion-jerarquica-con-xam
+
+   Navegacion MVVM >=)> https://stackoverflow.com/questions/43254396/xamarin-form-page-navigation-in-mvvm
+              MVVM     **** https://www.luisbeltran.mx/2019/11/21/curso-basico-de-xamarin-implementando-mvvm-en-xamarin-forms/
+
+   Nvegacion Modal = http://www.macoratti.net/16/12/xamforms_naveg2.htm
+
+   TAB GESTURE = https://xamarinmonkeys.blogspot.com/2019/11/xamarinforms-bindable-layout.html
+                 https://stackoverflow.com/questions/55748773/how-to-call-tapgesturerecognizer-from-viewmodel
+
 
    Manual = https://github.com/TBertuzzi/XXamarin
 
+  ZULUALA 2019 = https://www.youtube.com/watch?v=qwi1mngfEyg&list=PLuEZQoW9bRnSCZHlieeTk8Xji7JmaTCaq&index=41
+                     https://github.com/Zulu55/Shop
+  ZULUAGA 2018 (registro) = https://www.youtube.com/watch?v=1maYBCVIwfI&list=PLuEZQoW9bRnSVLpBHr6fzrPnzaunFKwfe&index=34
+          https://github.com/Zulu55/Lands
+   
+   WEB API = https://www.youtube.com/channel/UCoqYHkQy8q5nEMv1gkcZgSw/search?query=web%20api
+                  http://www.macoratti.net/17/04/aspcore_webapi1.htm
+   JWT (MAcoratti) = https://www.youtube.com/channel/UCoqYHkQy8q5nEMv1gkcZgSw/search?query=jwt
    JWT = https://www.youtube.com/c/TipsByAnil/search?query=token%20xamarin
-
+*********************************************************************************************
 ****RECURSOS === https://github.com/zwiras/links-for-xamarin-developers
 
    SIGNALR+XAMARIN = https://github.com/mallibone/XamarinSignalR
