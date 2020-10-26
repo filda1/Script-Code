@@ -3,6 +3,11 @@ HIDE BACK BUTTON = https://stackoverflow.com/questions/59463540/how-to-hide-back
 
    PAIR TO MAC ======> https://agiletechconsulting.com/how-to-run-a-xamarin-forms-ios-app-from-windows-using-visual-studio-2019/
 ******************************************************************************************
+ SHELL (Macoratti)  = https://www.youtube.com/watch?v=Ec3Z1H0VPxQ
+                      https://www.youtube.com/watch?v=pWgz59Hf09k
+                              http://www.macoratti.net/19/07/xf_shell1.htm
+                              http://www.macoratti.net/19/09/xf_shell2.htm
+                              http://www.macoratti.net/20/06/xf_shellfly1.htm
 
    Navegacion entre Pag = http://www.macoratti.net/16/12/xamforms_naveg1.htm
                           https://riptutorial.com/es/xamarin-forms/example/8283/navegacion-jerarquica-con-xam

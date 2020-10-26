@@ -22,9 +22,18 @@ LOCAL  =========> DESKTOP-K4N8P1J   , Autrntication
 
  tuto somee = https://www.youtube.com/watch?v=hDd9LOKjxPc
 *************************************************************************************************
+   ACCESSO REMOTO A MYSQL (Digital Ocean ) = https://www.digitalocean.com/community/tutorials/how-to-connect-to-a-mysql-server-remotely-with-mysql-workbench
+   - https://www.youtube.com/watch?v=-MiPkEfRWJE&t=85s
+   -  https://clouding.io/hc/es/articles/360011237039-Acceso-remoto-a-MySQL
+   -  https://digitaloceancode.com/digitalocean-mysql-on-18-04-connect-with-mysql-workbench-remote-connection/
+   -  *** https://www.youtube.com/watch?v=I1n_8pty8hg
 
-     
 
+  REMOTO A POSTGRES = https://www.youtube.com/watch?v=zujeb8VWncI
+                      https://digitaloceancode.com/remote-access-to-a-postgresql-database-digitalocean/ 
+
+
+   
       XAMRIN = https://www.telerik.com/blogs/real-time-xamarin-apps
                  https://github.com/jamesmontemagno/XamChat
 
