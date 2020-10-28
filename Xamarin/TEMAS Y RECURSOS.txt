@@ -2,6 +2,24 @@ GAME = https://www.c-sharpcorner.com/article/building-a-simple-working-memory-ga
 HIDE BACK BUTTON = https://stackoverflow.com/questions/59463540/how-to-hide-back-button-in-navigation-bar-xamarin-forms
 
    PAIR TO MAC ======> https://agiletechconsulting.com/how-to-run-a-xamarin-forms-ios-app-from-windows-using-visual-studio-2019/
+
+  DAPPER insert = https://dapper-tutorial.net/execute
+                  https://www.michalbialecki.com/2019/05/21/bulk-insert-in-dapper/
+
+    Dapper    insert = https://www.youtube.com/watch?v=eKkh5Xm0OlU (min 27:45)
+
+              * Dapper=    https://csharp.hotexamples.com/examples/Dapper/DynamicParameters/Add/php-dynamicparameters-add-method-examples.html
+*****************************************************************************************
+
+ XAMARIN (HIDE status Bar IOS)= https://www.youtube.com/watch?v=daloNo-rWOU
+         ( HIDE status bar DROID ) = https://www.youtube.com/watch?v=7X1loKgPYd4
+                                     https://stackoverflow.com/questions/36449480/hide-statusbar-for-specific-contentpage/36451267
+       **** https://medium.com/@fairushyn/how-to-hide-status-bar-for-specific-content-page-in-xamarin-d8d02a00f18c
+
+  TABS PERSONALIZADO = https://www.youtube.com/watch?v=Cp_2F621Az0
+
+
+ 
 ******************************************************************************************
  SHELL (Macoratti)  = https://www.youtube.com/watch?v=Ec3Z1H0VPxQ
                       https://www.youtube.com/watch?v=pWgz59Hf09k
