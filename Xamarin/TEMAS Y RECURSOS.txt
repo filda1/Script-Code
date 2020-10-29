@@ -9,6 +9,25 @@ HIDE BACK BUTTON = https://stackoverflow.com/questions/59463540/how-to-hide-back
     Dapper    insert = https://www.youtube.com/watch?v=eKkh5Xm0OlU (min 27:45)
 
               * Dapper=    https://csharp.hotexamples.com/examples/Dapper/DynamicParameters/Add/php-dynamicparameters-add-method-examples.html
+
+ ICONS = https://www.iconshock.com/ios-icons/general-icons/external-link-icon/
+         * https://iconarchive.com/popular.html
+            https://about.easil.com/custom-ios-14-icons/
+            https://freeicons.io/iconset/recent?page=6
+
+
+TEMPLATES SYNCFUSION https://help.syncfusion.com/xamarin/uikit/gettingstarted
+                     https://medium.com/syncfusion/why-should-you-choose-essential-ui-kit-to-develop-xamarin-applications-946c95be4381
+
+
+ SNIPES = https://snppts.dev/category/32
+
+ sicfun ====> https://forums.xamarin.com/discussion/156994/free-ui-kits-for-xaml
+ PALETES DE COLOR = https://search.muz.li/search/similar:c90ed28310710bf2f5df8ea35d3c88eb
+
+ chat  = http://www.xamboy.com/2018/06/14/exploring-a-chat-ui-in-xamarin-forms-part-1/
+
+  design = https://support.invisionapp.com/hc/en-us/articles/115000536363-Free-UI-design-kits#mail
 *****************************************************************************************
 
  XAMARIN (HIDE status Bar IOS)= https://www.youtube.com/watch?v=daloNo-rWOU
