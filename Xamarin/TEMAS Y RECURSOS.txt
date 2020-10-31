@@ -8,6 +8,9 @@ HIDE BACK BUTTON = https://stackoverflow.com/questions/59463540/how-to-hide-back
 
     Dapper    insert = https://www.youtube.com/watch?v=eKkh5Xm0OlU (min 27:45)
 
+
+    SYNCFUNCTION = https://www.youtube.com/watch?v=dzBNwdDLsAQ&list=PLuEZQoW9bRnTKcse75pub6T3-pi5M7NGy&index=32
+
               * Dapper=    https://csharp.hotexamples.com/examples/Dapper/DynamicParameters/Add/php-dynamicparameters-add-method-examples.html
 
  ICONS = https://www.iconshock.com/ios-icons/general-icons/external-link-icon/
@@ -15,6 +18,8 @@ HIDE BACK BUTTON = https://stackoverflow.com/questions/59463540/how-to-hide-back
             https://about.easil.com/custom-ios-14-icons/
             https://freeicons.io/iconset/recent?page=6
 
+  ENCRIT / DESCRIPT = https://www.aspdotnet-suresh.com/2010/12/introduction-here-i-will-explain-how-to_28.html
+                     * https://stackoverflow.com/questions/59162908/login-c-sharp-winforms-using-dapper-and-salt-hash
 
 TEMPLATES SYNCFUSION https://help.syncfusion.com/xamarin/uikit/gettingstarted
                      https://medium.com/syncfusion/why-should-you-choose-essential-ui-kit-to-develop-xamarin-applications-946c95be4381

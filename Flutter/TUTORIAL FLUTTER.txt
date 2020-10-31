@@ -3,6 +3,28 @@
    + Todos los Objetos tienen la propiedad =============> child
    + Hay 2 tipos de Objetos  =============> los tienen las propiedad unicas Y los objetos que repiten las proìedades (Children)
 
+ MYSQL (Codecave) => https://www.youtube.com/watch?v=T4U9ID2-Jhs (1/4)
+                     https://github.com/akarshbarar/Flutter_With_MySql_-_Php
+
+                     https://www.youtube.com/watch?v=HT5WuFRJ2no
+                     * https://github.com/codigoalphacol/tiendaFlutterMysql
+                       https://www.youtube.com/watch?v=NAk87wXjWOs
+
+ Carrosel = https://medium.com/flutter-community/how-to-create-card-carousel-in-flutter-979bc8ecf19
+
+  MYSQL (SANTOS ENOQUE) => https://medium.com/@santosenoque.ss/how-to-connect-flutter-app-to-mysql-web-server-and-phpmyadmin-e100f47bfb82
+                           https://www.youtube.com/watch?v=HT5WuFRJ2no
+                           https://github.com/Santos-Enoque/money_manager_app_with_flutter
+
+
+
+ FLUTTER RECIPES = https://www.youtube.com/watch?v=FWZvri_-X5w&list=PLGb_G_gNJ3n6vzWf1I7rydEP8kWPf4d21
+
+
+
+ EMAIL = https://aakashpraveenblogs.blogspot.com/2020/09/customized-email-in-flutter-to-users.html
+         https://www.youtube.com/watch?v=Zj7ZqBGQkEQ
+                      
  TUTORIAL MACORATTI = http://www.macoratti.net/pageview.aspx?catid=46
  INSTALL FLUTTER (MACORATTI) = http://www.macoratti.net/19/06/flut_intro1.htm
 
