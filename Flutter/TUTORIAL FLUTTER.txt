@@ -9,7 +9,11 @@
                      https://www.youtube.com/watch?v=HT5WuFRJ2no
                      * https://github.com/codigoalphacol/tiendaFlutterMysql
                        https://www.youtube.com/watch?v=NAk87wXjWOs
+                     * https://www.coderzheaven.com/2019/09/28/flutter-datatable-mysql/  
+ https://bitbucket.org/vipinvijayan1987/tutorialprojects/src/MySQLDataTable/FlutterTutorialProjects/flutter_demos/
 
+ ** Ui api(FLUTTER WAY)= https://github.com/abuanwar072/Furniture-App-UI-2-Flutter/tree/master/lib
+      filter   ----> https://flutter-examples.com/flutter-apply-filter-on-json-listview/
  Carrosel = https://medium.com/flutter-community/how-to-create-card-carousel-in-flutter-979bc8ecf19
 
   MYSQL (SANTOS ENOQUE) => https://medium.com/@santosenoque.ss/how-to-connect-flutter-app-to-mysql-web-server-and-phpmyadmin-e100f47bfb82
