@@ -10,6 +10,12 @@
  user ====> Manu
  pass ====>  Portugal@@2020
 
+-Some 3
+ da
+ da
+ dailva
+ Portugal2020
+
  MS SQL Server address:	MangustaDb.mssql.somee.com
 Login name:	Manu_SQLLogin_1
 Login password:	1d64sm9cl1
@@ -67,7 +73,7 @@ LOCAL  =========> DESKTOP-K4N8P1J   , Autrntication
  SIGNAR + WEBAPI + MSSQL + ANGULAR = https://medium.com/@berkokur/a-real-life-scenario-implementation-with-angular-8-and-asp-net-core-signalr-3ad7e5a46fca
                                      https://github.com/berkokur/signalmonitoring-api
 
- TUTO SIGNAR = https://www.youtube.com/watch?v=d23j3RelLCU&list=PLThyvG1mlMzltDxuQj0uQw1TDu1gJUNeG&index=11
+ ***** Bueno =======> TUTORIAL SIGNAR (CodeOpinion) = https://www.youtube.com/watch?v=d23j3RelLCU&list=PLThyvG1mlMzltDxuQj0uQw1TDu1gJUNeG&index=11
 
  VIDEO STREAM = WEBRTC
     

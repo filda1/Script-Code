@@ -22,6 +22,9 @@ HIDE BACK BUTTON = https://stackoverflow.com/questions/59463540/how-to-hide-back
                      * https://stackoverflow.com/questions/59162908/login-c-sharp-winforms-using-dapper-and-salt-hash
 
 TEMPLATES SYNCFUSION https://help.syncfusion.com/xamarin/uikit/gettingstarted
+                      https://github.com/syncfusion/essential-ui-kit-for-xamarin.forms
+                      videos = https://www.youtube.com/watch?v=V71tYEht9cU
+                      https://www.youtube.com/watch?v=V71tYEht9cU
                      https://medium.com/syncfusion/why-should-you-choose-essential-ui-kit-to-develop-xamarin-applications-946c95be4381
 
 
