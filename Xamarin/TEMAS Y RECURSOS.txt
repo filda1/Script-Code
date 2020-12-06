@@ -219,3 +219,45 @@ CELULAR = https://github.com/DevWizza/Leona-Store
 
 *****************************************************************************************
   Luis Betran = https://www.youtube.com/watch?v=tYsKrF9H5f0
+
+*******************************************************************************************
+
+
+IOS ICON Y SLASH
+(Zuluaga)  https://www.youtube.com/watch?v=FYGlhfnn5TY
+
+DROID ICON SPLASH
+(Zuluaga) https://www.youtube.com/watch?v=In-rf2N97lM
+
+
+APPLE STORE
+(BUENO == Xamarin gay )https://www.youtube.com/watch?v=fkBRXzotbzw&t=417s
+  *Ojo , AL bajar certificado doble click y ver que guarde en llaves
+            Y click en profile
+            Enviar con Transporter , Xcode falla
+-https://www.youtube.com/watch?v=fkBRXzotbzw&t=159s
+https://www.youtube.com/watch?v=rUeytFzU-ak
+
+PLAY STORE
+ 
+
+BUENO (MoureDev by Brais Moure  ) ==================> https://www.youtube.com/watch?v=vBHmJHp8Ldo
+BUENO (MoureDev by Brais Moure , TESTES ) — https://www.youtube.com/watch?v=z_8gp_IaeVI
+https://www.youtube.com/watch?v=zCWC5ro-EEE
+*****************************************************************************
+DIGITAL OCEAN
+VivleoApiDev!1a+++++++https://www.youtube.com/watch?v=QWSwuhQ1O6Y.   =====NGING
+
+(BUENO) https://medium.com/@mliyanage/host-asp-net-core-web-api-and-mysql-with-nginx-on-a-digitalocean-5-ubuntu-18-04-droplet-b4f50a19ca6
+
+++++++ https://www.digitalocean.com/community/tutorials/how-to-deploy-an-asp-net-core-application-with-mysql-server-using-nginx-on-ubuntu-18-04
+
+https://www.digitalocean.com/community/tutorials/como-instalar-o-nginx-no-ubuntu-18-04-pt
+
+Certot = https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-20-04-pt
+
+https://www.digitalocean.com/community/questions/running-asp-net-core-2-1-ms-sql-server-on-a-droplet
+
+https://driesdeboosere.dev/blog/how-to-deploy-aspnet-core-31-app-to-digital-ocean-linux-droplet/VivleoApiDev!1aVivleoApiDev!1a
+
+*******************************************************
