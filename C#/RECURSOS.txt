@@ -66,6 +66,7 @@ LOCAL  =========> DESKTOP-K4N8P1J   , Autrntication
             messenger = https://github.com/andrew-sakaylyuk/Messenger
                         https://github.com/saditya90/SignalRChat
 
+         CHAT PRIVADO = https://github.com/shivam01990/SignalR-private-one-to-one-chat/blob/master/SignalRPrivateChat/SignalRPrivateChat/ChatHelper/ChatHub.cs
 
             ***LEER = https://stackoverflow.com/questions/11175173/signalr-multiple-chat-rooms         
      LOGIN + ASPNET = https://www.youtube.com/watch?v=k3g6grFraww&list=PLJ4k1IC8GhW1rT4nzRCqB1ACzD7nw631V&index=25

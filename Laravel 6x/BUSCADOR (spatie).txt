@@ -6,3 +6,9 @@ Bitfummes =====> https://www.youtube.com/watch?v=9fI9VP6RtZM (1)
 *******************************************************************
 
  Autocompletado (AJAX) = https://realprogrammer.in/make-autocomplete-search-using-jquery-ui-in-laravel/
+
+
+*********************************************************************************************************
+
+
+ OTRA FORMA : LARAVEL Scout + TNTSEARCH (O Algogolia , o ElasticSeachT)
