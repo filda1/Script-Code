@@ -1,6 +1,7 @@
  XAMARIN REMOTO MYSQL == https://einherjar1632.hatenablog.com/entry/2015/11/23/140529
                          https://www.youtube.com/watch?v=nMXdvbRMkbw
 
+  xamarin snippes = https://www.snppts.dev/category/32
   C# + MYSQL = https://www.codeproject.com/Tips/423233/How-to-Connect-to-MySQL-Using-Csharp
 
 GAME = https://www.c-sharpcorner.com/article/building-a-simple-working-memory-game-app-with-web-api-and-signalr/

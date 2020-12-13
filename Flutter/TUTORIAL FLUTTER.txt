@@ -20,6 +20,10 @@
                            https://www.youtube.com/watch?v=HT5WuFRJ2no
                            https://github.com/Santos-Enoque/money_manager_app_with_flutter
 
+ MSQL CONNEC>TOR ========> https://www.youtube.com/watch?v=ig6WRq73iEg
+
+    https://www.youtube.com/watch?v=HvLb5gdUfDE&t=1349s
+     https://github.com/MarcusNg/flutter_facebook_responsive_ui
 
 
  FLUTTER RECIPES = https://www.youtube.com/watch?v=FWZvri_-X5w&list=PLGb_G_gNJ3n6vzWf1I7rydEP8kWPf4d21
