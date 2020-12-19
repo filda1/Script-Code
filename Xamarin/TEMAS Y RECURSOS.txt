@@ -1,10 +1,14 @@
  XAMARIN REMOTO MYSQL == https://einherjar1632.hatenablog.com/entry/2015/11/23/140529
                          https://www.youtube.com/watch?v=nMXdvbRMkbw
 
+ * MYSQL ,Insert y Leer = https://www.youtube.com/watch?v=Vx8OnFoPGco&t=828s
+
   SUBIR IMAGES = ZULUAGA
               https://www.youtube.com/watch?v=1maYBCVIwfI&list=PLuEZQoW9bRnSVLpBHr6fzrPnzaunFKwfe&index=34
                https://www.youtube.com/watch?v=_s65g4yv_vI&list=PLuEZQoW9bRnSVLpBHr6fzrPnzaunFKwfe&index=35
                https://www.youtube.com/watch?v=ereu3cJzbug&list=PLuEZQoW9bRnSVLpBHr6fzrPnzaunFKwfe&index=36
+
+  MYSQL INSERT = https://www.youtube.com/watch?v=FOZ8HNJMXXg
 
   xamarin snippes = https://www.snppts.dev/category/32
   C# + MYSQL = https://www.codeproject.com/Tips/423233/How-to-Connect-to-MySQL-Using-Csharp
