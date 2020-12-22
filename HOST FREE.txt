@@ -9,8 +9,21 @@
 MYSQL FREE
  https://www.db4free.net/
 
+ BD REALTIME
+  RethinkDB
+  Firebase
+  Redis
+
+  https://sapphire-db.com/
+ Aerospike, SAP Hana, Volt DB, memcached, redis and SQLite.
+
  Facebooks ADS
   https://www.youtube.com/watch?v=FYgKxjaozmk
+
+ BIG DATA BD
+ Hadopp
+ Couchbase
+ Mongodb
 
  <seriers
   https://seuseriado.club/the-mandalorian/page/2/

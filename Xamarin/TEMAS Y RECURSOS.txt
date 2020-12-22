@@ -1,7 +1,12 @@
  XAMARIN REMOTO MYSQL == https://einherjar1632.hatenablog.com/entry/2015/11/23/140529
                          https://www.youtube.com/watch?v=nMXdvbRMkbw
 
+ XAMARIN ANDROID MYSQL = https://www.youtube.com/watch?v=FOZ8HNJMXXg
+                         https://www.youtube.com/watch?v=7K1lbPp3MN8
+
  * MYSQL ,Insert y Leer = https://www.youtube.com/watch?v=Vx8OnFoPGco&t=828s
+
+  INSERT IMAGES = https://www.youtube.com/watch?v=3swJzq0j1xs
 
   SUBIR IMAGES = ZULUAGA
               https://www.youtube.com/watch?v=1maYBCVIwfI&list=PLuEZQoW9bRnSVLpBHr6fzrPnzaunFKwfe&index=34
