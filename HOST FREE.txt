@@ -24,6 +24,11 @@ MYSQL FREE
  Hadopp
  Couchbase
  Mongodb
+ Hive
+ SEMBAST 
 
+ BD
+ Moor
+ 
  <seriers
   https://seuseriado.club/the-mandalorian/page/2/
