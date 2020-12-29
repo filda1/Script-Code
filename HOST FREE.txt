@@ -9,6 +9,10 @@
 MYSQL FREE
  https://www.db4free.net/
 
+
+  FRAMEWORK
+    Hotwire ==================> sin JAVASCRIT Y con WEBSOCKETS
+   
  BD REALTIME
   RethinkDB
   Firebase

@@ -9,6 +9,9 @@
  * MYSQL ,Insert y Leer = https://www.youtube.com/watch?v=Vx8OnFoPGco&t=828s
 
   INSERT IMAGES = https://www.youtube.com/watch?v=3swJzq0j1xs
+                  https://www.youtube.com/watch?v=87GghR1VVvM
+
+  INSERT IMAGES CON API = https://ilclubdellesei.blog/2018/02/14/how-to-upload-images-to-an-asp-net-core-rest-service-with-xamarin-forms/
 
   SUBIR IMAGES = ZULUAGA
               https://www.youtube.com/watch?v=1maYBCVIwfI&list=PLuEZQoW9bRnSVLpBHr6fzrPnzaunFKwfe&index=34
