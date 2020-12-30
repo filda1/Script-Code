@@ -1,0 +1,15 @@
+FATZ (JAVASCRIPT) ========> RECURSOS =====>  https://www.youtube.com/watch?v=qY2JD78kShQ
+ 
+Bibliotecas y Frameworks mencioandos:
+* Aplicaciones web: Angular, react, vue, svelte
+* Presentaciones: reveal.js ,slides.com
+* Backend: Nodejs, Express, hapi, loopback
+* apps de escritorio: Electron, nw.js, React Native Desktop, Node GUI
+* CLIs: inquirer.js, commander
+* Games: Three.js, Unity, GDevelop
+* mobile apps: React Native, Native Script, Ionic
+* Charts: d3.js
+* musica: tone.js, howler.js
+* 3d: three.js
+* Animations: gsap greensock
+* Hardware: Johnny-five.io, node red, iot.js

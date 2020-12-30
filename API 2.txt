@@ -14,6 +14,13 @@ CONVERTIR IMG,Video.. EN API
    https://www.programmableweb.com/api/bulksmsplans
    API do Bulksmsplans
 
+ CHAT API
+    https://developer.gitter.im/docs/rest-api
+    https://documenter.getpostman.com/view/758169/livechat-rest-api/RVnPL46o#8ffccb5e-6546-cfb1-cc2d-bdc3617a8977
+    ***https://sendbird.com/docs
+    https://www.programmableweb.com/api/sendbird-chat-rest-api
+    https://www.twilio.com/docs/chat/rest
+
   GERENCIA MEDICA
    https://www.programmableweb.com/api/google-cloud-healthcare-rpc
    API RPC do Google Cloud Healthcare

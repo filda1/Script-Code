@@ -8,6 +8,10 @@
 
  * MYSQL ,Insert y Leer = https://www.youtube.com/watch?v=Vx8OnFoPGco&t=828s
 
+ * CHAT SIGNAL R ======> https://medium.com/tableless/criando-um-chat-completo-com-asp-net-core-mvc-e-signalr-ec0380f28dbe
+
+ * CACHE = https://bertuzzi.medium.com/o-x-do-xamarin-forms-everybody-say-about-polly-aa5ad25ef829
+
   INSERT IMAGES = https://www.youtube.com/watch?v=3swJzq0j1xs
                   https://www.youtube.com/watch?v=87GghR1VVvM
 
