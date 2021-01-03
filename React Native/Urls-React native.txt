@@ -1,0 +1,29 @@
+REACT NATIVE (EXPO) ========> https://www.youtube.com/watch?v=hXDMWeD0ERM (Fazt)
+
+ CRUD = https://www.youtube.com/watch?v=VE7J0SA1PRQ
+
+ COMPONENTS = https://reactnativeelements.com/docs/header
+              https://www.codeinwp.com/blog/react-native-component-libraries/
+
+ TEMPLATE = https://galio.io/built-with-galio
+
+
+  CLONE INSTAGRAM = https://www.youtube.com/watch?v=1hPgQWbWmEk (freecodecam)
+
+  CLONE AIRBNB (UI) = https://www.youtube.com/watch?v=2zy2qX1eR6E
+
+  TUTO = https://www.youtube.com/watch?v=0-S5a0eXPoc
+         https://www.youtube.com/watch?v=6JTnlX2ILTo&list=PLTwG_kX1X-qFUA8KyDnzLCmD9ja6pFocb
+
+
+  RN + RETHINKDB = https://www.sitepoint.com/realtime-app-development-with-rethinkdb-and-react-native/
+                   https://www.developintelligence.com/blog/2016/09/creating-a-realtime-pokedex-app-with-react-and-rethinkdb/
+
+ BD = https://blog.back4app.com/pt/banco-de-dados-app-react-native/
+
+ PUSHER + MONGODB = REALTIME ============> https://pusher.com/tutorials/mongodb-change-streams
+
+ Api CHAT ======> https://dev.to/richard21266663/top-10-realtime-chat-sdk-and-messaging-api-providers-for-your-mobile-apps-websites-4hj9
+        
+
+  
