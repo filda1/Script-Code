@@ -1,16 +1,20 @@
 REACT NATIVE (EXPO) ========> https://www.youtube.com/watch?v=hXDMWeD0ERM (Fazt)
 
  CRUD = https://www.youtube.com/watch?v=VE7J0SA1PRQ
+         https://github.com/FaztWeb/expo-firebase-crud
 
  COMPONENTS = https://reactnativeelements.com/docs/header
               https://www.codeinwp.com/blog/react-native-component-libraries/
 
  TEMPLATE = https://galio.io/built-with-galio
 
+  AR = https://viromedia.com/viroreact
 
   CLONE INSTAGRAM = https://www.youtube.com/watch?v=1hPgQWbWmEk (freecodecam)
 
   CLONE AIRBNB (UI) = https://www.youtube.com/watch?v=2zy2qX1eR6E
+
+  PIZZA (UI) = https://www.youtube.com/watch?v=mSMvVWTu1iM&feature=youtu.be
 
   TUTO = https://www.youtube.com/watch?v=0-S5a0eXPoc
          https://www.youtube.com/watch?v=6JTnlX2ILTo&list=PLTwG_kX1X-qFUA8KyDnzLCmD9ja6pFocb
