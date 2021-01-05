@@ -10,7 +10,12 @@ REACT NATIVE (EXPO) ========> https://www.youtube.com/watch?v=hXDMWeD0ERM (Fazt)
 
   AR = https://viromedia.com/viroreact
 
-  CLONE INSTAGRAM = https://www.youtube.com/watch?v=1hPgQWbWmEk (freecodecam)
+  CLONE INSTAGRAM = https://www.youtube.com/watch?v=1hPgQWbWmEk (freecodecam) 1:28
+
+  REDUX (Mario Diez) =
+          https://www.youtube.com/watch?v=d0F17-q445U&t=58s   1
+          https://www.youtube.com/watch?v=1yzc_FNvEdk   2
+          https://www.youtube.com/watch?v=QLujoPbqnOs&list=RDCMUCisGMoxaVxJMcbio2FBHORg&start_radio=1&t=1  3
 
   CLONE AIRBNB (UI) = https://www.youtube.com/watch?v=2zy2qX1eR6E
 
@@ -19,6 +24,7 @@ REACT NATIVE (EXPO) ========> https://www.youtube.com/watch?v=hXDMWeD0ERM (Fazt)
   TUTO = https://www.youtube.com/watch?v=0-S5a0eXPoc
          https://www.youtube.com/watch?v=6JTnlX2ILTo&list=PLTwG_kX1X-qFUA8KyDnzLCmD9ja6pFocb
 
+  *****TUTO (Mario Diez) = https://www.youtube.com/c/MarioD%C3%ADezOficial/videos
 
   RN + RETHINKDB = https://www.sitepoint.com/realtime-app-development-with-rethinkdb-and-react-native/
                    https://www.developintelligence.com/blog/2016/09/creating-a-realtime-pokedex-app-with-react-and-rethinkdb/

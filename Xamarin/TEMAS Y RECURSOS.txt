@@ -15,6 +15,8 @@
   INSERT IMAGES = https://www.youtube.com/watch?v=3swJzq0j1xs
                   https://www.youtube.com/watch?v=87GghR1VVvM
 
+               Gerald Versluis=  INSERT IMAGES=  https://www.youtube.com/watch?v=KPDGtLeNClQ
+
   INSERT IMAGES CON API = https://ilclubdellesei.blog/2018/02/14/how-to-upload-images-to-an-asp-net-core-rest-service-with-xamarin-forms/
 
   SUBIR IMAGES = ZULUAGA
