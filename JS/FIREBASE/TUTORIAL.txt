@@ -1,4 +1,5 @@
 https://www.tutorialspoint.com/firebase/firebase_quick_guide.htm
+FIREBASE DOC = https://firebase.google.com/docs/database/web/lists-of-data?hl=es
 
   chat (tcrurav) =====> https://www.youtube.com/watch?v=zBUnqM2Uif0
                         https://www.youtube.com/watch?v=i3WdUCvCQSU (imagenes)
