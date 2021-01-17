@@ -3,6 +3,8 @@
 
  CRUD DIRECT MYSQL = https://www.c-sharpcorner.com/UploadFile/9582c9/insert-update-delete-display-data-in-mysql-using-C-Sharp/
 
+XAMARIN + FIREBASE STORE ====> https://www.youtube.com/watch?v=t_5zMIMpEuw
+
  XAMARIN ANDROID MYSQL = https://www.youtube.com/watch?v=FOZ8HNJMXXg
                          https://www.youtube.com/watch?v=7K1lbPp3MN8
 

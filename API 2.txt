@@ -140,6 +140,7 @@ Api (Verificacion de emails, tlf....) ==  https://cloudmersive.com/validate-api
   DRONE + net
   https://support.dronedeploy.com/docs/map-engine-as-a-service
 
+    API =======> ------------ https://deployd.com/ -------------
 
    Appruve API
   Track esta API se utiliza para habilitar la verificación de identidad en las aplicaciones. Esta interfaz permite a los desarrolladores verificar la documentación de identificación del votante nigeriano, verificar las imágenes selfie, verificar el uso del video y recuperar los resultados de la verificación. La API aparece en la categoría Verificación.
