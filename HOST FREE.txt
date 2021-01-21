@@ -53,3 +53,5 @@ MYSQL FREE
 
 
 community => https://visualstudio.microsoft.com/free-developer-offers/
+
+release ===> https://docs.microsoft.com/en-us/visualstudio/releasenotes/vs2019-mac-relnotes#rtw
