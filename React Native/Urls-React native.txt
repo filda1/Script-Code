@@ -3,6 +3,9 @@ REACT NATIVE (EXPO) ========> https://www.youtube.com/watch?v=hXDMWeD0ERM (Fazt)
  CRUD = https://www.youtube.com/watch?v=VE7J0SA1PRQ
          https://github.com/FaztWeb/expo-firebase-crud
 
+
+  *********TUTO =====> https://reactnative.dev/docs/optimizing-flatlist-configuration
+  
  COMPONENTS = https://reactnativeelements.com/docs/header
               https://www.codeinwp.com/blog/react-native-component-libraries/
 

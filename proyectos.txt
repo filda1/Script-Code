@@ -83,3 +83,38 @@ box4world.com
 
 
 https://lacker.io/ai/2020/07/06/giving-gpt-3-a-turing-test.html
+
+
+
+
+
+
+
+a password para ftp e ssh: VivASPnGix1a
+: IP: 188.166.147.106
+: user: root
+
+
+VivASPGix1a
+
+
+REMOVE NINX =====> sudo apt-get purge nginx nginx-common
+
+INSTALR NGINX =====> sudo apt update
+                     sudo apt install nginx
+
+                     systemctl status nginx
+
+https://driesdeboosere.dev/blog/how-to-deploy-aspnet-core-31-app-to-digital-ocean-linux-droplet/
+https://medium.com/@mliyanage/host-asp-net-core-web-api-and-mysql-with-nginx-on-a-digitalocean-5-ubuntu-18-04-droplet-b4f50a19ca6
+https://www.digitalocean.com/community/tutorials/how-to-deploy-an-asp-net-core-application-with-mysql-server-using-nginx-on-ubuntu-18-04
+
+
+
+dotnet /var/www/VivleoMVC/VivleoMVC.dll
+
+dotnet /var/www/html/VivleoMVC/VivleoMVC.dll
+
+dotnet VivleoMVC.dll
+
+dotnet --version
