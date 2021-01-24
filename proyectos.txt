@@ -109,6 +109,7 @@ https://driesdeboosere.dev/blog/how-to-deploy-aspnet-core-31-app-to-digital-ocea
 https://medium.com/@mliyanage/host-asp-net-core-web-api-and-mysql-with-nginx-on-a-digitalocean-5-ubuntu-18-04-droplet-b4f50a19ca6
 https://www.digitalocean.com/community/tutorials/how-to-deploy-an-asp-net-core-application-with-mysql-server-using-nginx-on-ubuntu-18-04
 
+**** https://pioneercode.com/post/developing-a-net-core-site-in-windows-and-deploying-it-to-a-budget-linux-host
 
 
 dotnet /var/www/VivleoMVC/VivleoMVC.dll
