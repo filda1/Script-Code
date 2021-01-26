@@ -1,3 +1,11 @@
+
+APP TO APP ====> https://mindofai.github.io/Launching-Apps-thru-URI-with-Xamarin.Forms/
+
+https://www.google.com/search?biw=1347&bih=644&sxsrf=ALeKk01zV4hpggdfe3xgUgy0ubjb9WRcJQ%3A1611695827967&ei=04YQYKO9Oq-H1fAPp_ChwAw&q=foro+xamarin+call+app+into+other+apps&oq=foro+xamarin%2C+call+app+into+other&gs_lcp=CgZwc3ktYWIQAxgAMgUIIRCgATIFCCEQoAE6BwgjELADECc6BwgAEEcQsAM6BAgjECc6BggAEBYQHjoECCEQFToICCEQFhAdEB46BwghEAoQoAFQ1PIBWLjrAmDOmQNoAXACeACAAa8DiAG4GZIBCjAuMTguMS4wLjGYAQCgAQGqAQdnd3Mtd2l6yAEJwAEB&sclient=psy-ab
+
+
+
+
  XAMARIN REMOTO MYSQL == https://einherjar1632.hatenablog.com/entry/2015/11/23/140529
                          https://www.youtube.com/watch?v=nMXdvbRMkbw
 
