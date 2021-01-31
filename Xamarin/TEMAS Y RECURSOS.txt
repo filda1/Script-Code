@@ -288,6 +288,10 @@ DROID ICON SPLASH
 -https://www.youtube.com/watch?v=fkBRXzotbzw&t=159s
 https://www.youtube.com/watch?v=rUeytFzU-ak
 
+   IMAGEN PARA ICON:
+   1-JPG
+   2-1000x1000
+   3- Acercar lo mas posible el logo los borders del fondo
 
  POSICIONES ICONOS (https://makeappicon.com/)
     20x20 *2, 20x20 *3, 29x29 *2, 29x29 *3, 40x40 *2, 40x40 *3
@@ -296,6 +300,8 @@ https://www.youtube.com/watch?v=rUeytFzU-ak
 
     40x40 *1, 40x40 *2, 76x76 *1, 76x76 *2, 83.5x 83.5*2, ItunesAwork
 
+
+  TESTES SON INTERNOS O EXTERNOS =======> por email
 
 ///////////////////////////// PLAY STORE ///////////////////////////////
 
@@ -306,6 +312,12 @@ https://www.youtube.com/watch?v=rUeytFzU-ak
 BUENO (MoureDev by Brais Moure  ) ==================> https://www.youtube.com/watch?v=vBHmJHp8Ldo
 BUENO (MoureDev by Brais Moure , TESTES ) — https://www.youtube.com/watch?v=z_8gp_IaeVI
 https://www.youtube.com/watch?v=zCWC5ro-EEE
+
+
+TESTES SON POR NIVELES ==========> por link
+     INterno
+     Cerrado 
+     Y publico
 *****************************************************************************
 DIGITAL OCEAN
 VivleoApiDev!1a+++++++https://www.youtube.com/watch?v=QWSwuhQ1O6Y.   =====NGING
