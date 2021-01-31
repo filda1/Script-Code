@@ -1,5 +1,13 @@
 REACT NATIVE (EXPO) ========> https://www.youtube.com/watch?v=hXDMWeD0ERM (Fazt)
 
+  *****HIWEX Enterprise (TUTO)  ===========> https://www.youtube.com/watch?v=9YLP47cxqd4&list=PLUlw6638d2QZFbQfC3sB5mKWJUWr2HEkc&index=27
+
+tuto =======> https://www.youtube.com/watch?v=cYdAsLPD0is&list=PLUlw6638d2QZFbQfC3sB5mKWJUWr2HEkc&index=40
+
+tuto 2 =====> https://www.youtube.com/watch?v=cYdAsLPD0is&list=PLUlw6638d2QZFbQfC3sB5mKWJUWr2HEkc&index=40
+
+tuto 3 ======> https://www.youtube.com/watch?v=DmUUsTC2YkA&list=PL8fIRnD1uUSnRqz3E2caAWDqbtIFXmNtW
+
  CRUD = https://www.youtube.com/watch?v=VE7J0SA1PRQ
          https://github.com/FaztWeb/expo-firebase-crud
 
@@ -38,5 +46,31 @@ REACT NATIVE (EXPO) ========> https://www.youtube.com/watch?v=hXDMWeD0ERM (Fazt)
 
  Api CHAT ======> https://dev.to/richard21266663/top-10-realtime-chat-sdk-and-messaging-api-providers-for-your-mobile-apps-websites-4hj9
         
+****SIGNAL CLONE Sonny Sangha= https://www.youtube.com/watch?v=MJzmZ9qmdaE
 
+
+REDES
+
+
+Amazon Clone (React JS, Stripe)
+Signal Clone (React Native with Expo)
+Airbnb Clone (React JS)
+Facebook Clone (React JS)
+Google Clone (React JS)
+Hulu Clone (React JS)
+Instagram Clone (React JS)
+IG Reels Clone (React JS)
+Netflix Clone (React JS)
+Snapchat Clone (React JS)
+Slack Clone (React JS)
+Spotify Clone (React JS)
+TikTok Clone (React JS)
+Tinder Clone (React JS)
+Twitter Clone (React JS)
+WhatsApp Clone (React JS)
+COVID-19 Tracker (React JS)
+iMessage Clone (React JS)
+Discord Clone (React JS)
+Drag and Drop Example (Dnd, Typescript)
++ FUTURE BUILDS
   

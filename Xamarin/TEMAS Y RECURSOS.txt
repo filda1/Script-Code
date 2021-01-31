@@ -274,7 +274,13 @@ DROID ICON SPLASH
 (Zuluaga) https://www.youtube.com/watch?v=In-rf2N97lM
 
 
-APPLE STORE
+//////////////////////////// APPLE STORE //////////////////////////
+ 
+  PUBLICAR =====> 0. Cambiar Version. Y nombre de Package (Opciones IOS)
+                  1. Tener Certicado/distribucion de Mac (info.plis)
+                  2. Estar en Release y ir Archivos.....Publicacion
+                  3. Subir el ipa con Transporte de Mac
+             
 (BUENO == Xamarin gay )https://www.youtube.com/watch?v=fkBRXzotbzw&t=417s
   *Ojo , AL bajar certificado doble click y ver que guarde en llaves
             Y click en profile
@@ -282,8 +288,20 @@ APPLE STORE
 -https://www.youtube.com/watch?v=fkBRXzotbzw&t=159s
 https://www.youtube.com/watch?v=rUeytFzU-ak
 
-PLAY STORE
- 
+
+ POSICIONES ICONOS (https://makeappicon.com/)
+    20x20 *2, 20x20 *3, 29x29 *2, 29x29 *3, 40x40 *2, 40x40 *3
+
+    60x60 *2, 60x60 *3, 20x20 *1, 20x20 *2, 29x29 *1, 29x29 *2
+
+    40x40 *1, 40x40 *2, 76x76 *1, 76x76 *2, 83.5x 83.5*2, ItunesAwork
+
+
+///////////////////////////// PLAY STORE ///////////////////////////////
+
+  PUBLICAR =====> 0. Cambiar Version. Y nombre de Package (Propiedades DROID)
+                  1. Estar en Release y ir Archivos.....Publicacion
+                  2. Tener el mismo Certicado/distribucion o crearlo 
 
 BUENO (MoureDev by Brais Moure  ) ==================> https://www.youtube.com/watch?v=vBHmJHp8Ldo
 BUENO (MoureDev by Brais Moure , TESTES ) — https://www.youtube.com/watch?v=z_8gp_IaeVI
