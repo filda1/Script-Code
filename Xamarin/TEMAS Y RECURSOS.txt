@@ -7,6 +7,7 @@ animaciones = http://www.macoratti.net/17/02/xamforms_anim2.htm
                  https://michaelridland.com/mobile/beautiful-xamarin-facebook-clone-in-xamarin-forms/
                  https://github.com/XAM-Consulting/FacebookForms/blob/master/FBPlay/Areas/Wall/PostView.xaml
 
+   absolut layout = https://xamgirl.com/absolutelayout-in-xamarin-made-simple/
 
  XAMARIN REMOTO MYSQL == https://einherjar1632.hatenablog.com/entry/2015/11/23/140529
                          https://www.youtube.com/watch?v=nMXdvbRMkbw
