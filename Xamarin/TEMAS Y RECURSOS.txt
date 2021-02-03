@@ -277,6 +277,12 @@ DROID ICON SPLASH
 (Zuluaga) https://www.youtube.com/watch?v=In-rf2N97lM
 
 
+//////////////////// SITIOS PUBLICAR //////////////////////////////
+
+ https://appcenter.ms/#pricing
+ https://www.applivery.com/pricing/
+ https://www.diawi.com/
+
 //////////////////////////// APPLE STORE //////////////////////////
  
   PUBLICAR =====> 0. Cambiar Version. Y nombre de Package (Opciones IOS)
