@@ -9,6 +9,8 @@ animaciones = http://www.macoratti.net/17/02/xamforms_anim2.htm
 
    absolut layout = https://xamgirl.com/absolutelayout-in-xamarin-made-simple/
 
+  Blob storage Azure = https://www.youtube.com/watch?v=_Z4EwhJdeug
+
  XAMARIN REMOTO MYSQL == https://einherjar1632.hatenablog.com/entry/2015/11/23/140529
                          https://www.youtube.com/watch?v=nMXdvbRMkbw
 
@@ -268,7 +270,12 @@ CELULAR = https://github.com/DevWizza/Leona-Store
   Luis Betran = https://www.youtube.com/watch?v=tYsKrF9H5f0
 
 *******************************************************************************************
+  REQUSITOS PARA QUE FUNCIONE API EN XAMARIN
 
+  ANDROID => En Asembly =====> security
+  IOS  = > Info.plis ====> transportyn
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 IOS ICON Y SLASH
 (Zuluaga)  https://www.youtube.com/watch?v=FYGlhfnn5TY

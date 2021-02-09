@@ -1,0 +1,13 @@
+ 
+ INSTALACION:
+  Opcion 1:
+
+  1. CREAR REAVCT NATIVE cLI + EXPO  (react native , Bare Workflow + Expo)
+
+  Opcion 2:
+
+  2. CREAR EXPO  Y DESPUES EJECTAR A REACT NATIVE CLI
+
+
+ * https://blog.rocketseat.com.br/expo-sdk-38-melhorias-que-fazem-do-expo-uma-opcao-ainda-melhor/
+----------------------------------------------------------
