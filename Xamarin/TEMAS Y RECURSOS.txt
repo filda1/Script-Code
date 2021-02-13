@@ -2,6 +2,7 @@
 APP TO APP ====> Deep Linking
               ******https://www.xamboy.com/2019/01/08/applinks-in-xamarin-forms/
                 ***** https://www.youtube.com/watch?v=UJv4jUs7cJw
+                           https://riccardo-moschetti.org/2014/10/03/opening-a-mobile-app-from-a-link-the-xamarin-way-url-schemas/
                     https://docs.microsoft.com/en-us/xamarin/essentials/launcher?WT.mc_id=xe-c9-jamont&tabs=android
 
                https://mindofai.github.io/Launching-Apps-thru-URI-with-Xamarin.Forms/
