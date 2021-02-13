@@ -1,7 +1,20 @@
 REACT NATIVE (EXPO) ========> https://www.youtube.com/watch?v=hXDMWeD0ERM (Fazt)
 
-  *****HIWEX Enterprise (TUTO)  ===========> https://www.youtube.com/watch?v=9YLP47cxqd4&list=PLUlw6638d2QZFbQfC3sB5mKWJUWr2HEkc&index=27
+ TUTORIALES
 
+  *****HIWEX Enterprise (TUTO)  ===========> https://www.youtube.com/watch?v=9YLP47cxqd4&list=PLUlw6638d2QZFbQfC3sB5mKWJUWr2HEkc&index=27
+    *******ZuluaGA   https://www.youtube.com/watch?v=fWsfvZD_abI&list=PLuEZQoW9bRnSZUVV93R1N9_xpqoiK-xhE&index=19
+    ******* MARIO  Diez , Redux    
+   ********Rocketseat
+                                              
+
+expo,  https://snack.expo.io/
+
+Rocketseat,  Emulating React Native on,   https://www.youtube.com/watch?v=eSjFDWYkdxM
+
+mac https://www.ioutletstore.pt/
+
+emuldr  https://appetize.io/
 tuto =======> https://www.youtube.com/watch?v=cYdAsLPD0is&list=PLUlw6638d2QZFbQfC3sB5mKWJUWr2HEkc&index=40
 
 tuto 2 =====> https://www.youtube.com/watch?v=cYdAsLPD0is&list=PLUlw6638d2QZFbQfC3sB5mKWJUWr2HEkc&index=40
@@ -11,7 +24,7 @@ tuto 3 ======> https://www.youtube.com/watch?v=DmUUsTC2YkA&list=PL8fIRnD1uUSnRqz
  CRUD = https://www.youtube.com/watch?v=VE7J0SA1PRQ
          https://github.com/FaztWeb/expo-firebase-crud
 
-
+   zuluaga react tips  ........https://www.youtube.com/watch?v=rH_-Q8Lj6FI&list=PLuEZQoW9bRnSZUVV93R1N9_xpqoiK-xhE
   *********TUTO =====> https://reactnative.dev/docs/optimizing-flatlist-configuration
   
  COMPONENTS = https://reactnativeelements.com/docs/header

@@ -1,13 +1,25 @@
 
-APP TO APP ====> https://mindofai.github.io/Launching-Apps-thru-URI-with-Xamarin.Forms/
+APP TO APP ====> Deep Linking
+              ******https://www.xamboy.com/2019/01/08/applinks-in-xamarin-forms/
+                ***** https://www.youtube.com/watch?v=UJv4jUs7cJw
+                    https://docs.microsoft.com/en-us/xamarin/essentials/launcher?WT.mc_id=xe-c9-jamont&tabs=android
+
+               https://mindofai.github.io/Launching-Apps-thru-URI-with-Xamarin.Forms/
+                 https://www.xamarinhelp.com/launching-mobile-app-via-uri-scheme/
+
+                     https://docs.microsoft.com/en-us/xamarin/xamarin-forms/app-fundamentals/deep-linking
 
 https://www.google.com/search?biw=1347&bih=644&sxsrf=ALeKk01zV4hpggdfe3xgUgy0ubjb9WRcJQ%3A1611695827967&ei=04YQYKO9Oq-H1fAPp_ChwAw&q=foro+xamarin+call+app+into+other+apps&oq=foro+xamarin%2C+call+app+into+other&gs_lcp=CgZwc3ktYWIQAxgAMgUIIRCgATIFCCEQoAE6BwgjELADECc6BwgAEEcQsAM6BAgjECc6BggAEBYQHjoECCEQFToICCEQFhAdEB46BwghEAoQoAFQ1PIBWLjrAmDOmQNoAXACeACAAa8DiAG4GZIBCjAuMTguMS4wLjGYAQCgAQGqAQdnd3Mtd2l6yAEJwAEB&sclient=psy-ab
+
+
 
 animaciones = http://www.macoratti.net/17/02/xamforms_anim2.htm
                  https://michaelridland.com/mobile/beautiful-xamarin-facebook-clone-in-xamarin-forms/
                  https://github.com/XAM-Consulting/FacebookForms/blob/master/FBPlay/Areas/Wall/PostView.xaml
 
    absolut layout = https://xamgirl.com/absolutelayout-in-xamarin-made-simple/
+
+   refrehvew  https://dev.to/dotnet/implementing-pull-to-refresh-in-xamarin-forms-22pf
 
   Blob storage Azure = https://www.youtube.com/watch?v=_Z4EwhJdeug
 
