@@ -13,3 +13,30 @@ REMOVER FONDO
 www.Remove.bg
 
 https://tinypng.com/
+
+
+ 
+PHOTOSHOPT
+
+ CAMBIAR FONDO COLOR
+
+0- doble clck imag , crear capa
+
+1-  varita magica
+
+2- alt + delete-------<pone color principal
+
+3- control + delete ----------< color fondo
+
+4- exit, control +d
+
+
+
+ FONDO TRANSPARENTE o REMOVER FONDO
+
+0- doble clck imag , crear capa
+
+1-  varita magica
+
+2- exit, control +d
+
