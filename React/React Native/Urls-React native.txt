@@ -12,6 +12,10 @@ expo,  https://snack.expo.io/
 
 Rocketseat,  Emulating React Native on,   https://www.youtube.com/watch?v=eSjFDWYkdxM
 
+
+   *Estructuts Carpetas =========> https://www.youtube.com/watch?v=X2RKRKdqqwM
+
+
 mac https://www.ioutletstore.pt/
 
 emuldr  https://appetize.io/
