@@ -1,6 +1,10 @@
   
  TUTORIALES
  fatz-----< https://www.youtube.com/watch?v=zIY87vU33aA
+ bluuWeb! ---------> https://www.youtube.com/watch?v=mOz5eNcEHu4&list=PLPl81lqbj-4KswGEN6o4lF0cscQalpycD
+                    ** GUIA = https://bluuweb.github.io/react-udemy/01-proyecto/
+                     GUIA 2 = https://github.com/facebook/create-react-app
+
    *******ZuluaGA   https://www.youtube.com/watch?v=fWsfvZD_abI&list=PLuEZQoW9bRnSZUVV93R1N9_xpqoiK-xhE&index=19
     ******* MARIO  Diez , Redux    
    ********Rocketseat

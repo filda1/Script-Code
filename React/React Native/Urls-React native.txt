@@ -18,6 +18,8 @@ Rocketseat,  Emulating React Native on,   https://www.youtube.com/watch?v=eSjFDW
 
 mac https://www.ioutletstore.pt/
 
+react native paper =========> https://callstack.github.io/react-native-paper/index.html
+
 emuldr  https://appetize.io/
 tuto =======> https://www.youtube.com/watch?v=cYdAsLPD0is&list=PLUlw6638d2QZFbQfC3sB5mKWJUWr2HEkc&index=40
 
