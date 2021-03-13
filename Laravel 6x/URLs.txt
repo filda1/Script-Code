@@ -1,0 +1,2 @@
+CALENDARIO 
+https://blog.quickadminpanel.com/tasks-calendar-with-laravel-fullcalendar-quickadminpanel/
