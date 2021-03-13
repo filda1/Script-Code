@@ -6,8 +6,10 @@ REACT NATIVE (EXPO) ========> https://www.youtube.com/watch?v=hXDMWeD0ERM (Fazt)
     *******ZuluaGA   https://www.youtube.com/watch?v=fWsfvZD_abI&list=PLuEZQoW9bRnSZUVV93R1N9_xpqoiK-xhE&index=19
     ******* MARIO  Diez , Redux    
    ********Rocketseat
-                                              
+     ***********   Pradip Debnath = https://www.youtube.com/watch?v=QVEc3F8pPMs&list=PLQWFhX-gwJblNXe9Fj0WomT0aWKqoDQ-h  
 
+                                     
+***********************************************************************************************************
 expo,  https://snack.expo.io/
 
 Rocketseat,  Emulating React Native on,   https://www.youtube.com/watch?v=eSjFDWYkdxM
@@ -16,8 +18,13 @@ Rocketseat,  Emulating React Native on,   https://www.youtube.com/watch?v=eSjFDW
    *Estructuts Carpetas =========> https://www.youtube.com/watch?v=X2RKRKdqqwM
 
 
-mac https://www.ioutletstore.pt/
+   mac https://www.ioutletstore.pt/
+*******************************************************************************************************
+ 
+ useContext =====> Fatz ======> https://www.youtube.com/watch?v=lSMBhUEVK8k
 
+ Auth =====> https://www.youtube.com/watch?v=gvF6sFIPfsQ
+            
 react native paper =========> https://callstack.github.io/react-native-paper/index.html
 
 emuldr  https://appetize.io/
