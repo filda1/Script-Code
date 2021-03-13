@@ -25,6 +25,9 @@ Rocketseat,  Emulating React Native on,   https://www.youtube.com/watch?v=eSjFDW
 
  Auth =====> https://www.youtube.com/watch?v=gvF6sFIPfsQ
             
+
+ MAC Blutooth ==============> https://www.youtube.com/watch?v=v8c34mrN2r0
+
 react native paper =========> https://callstack.github.io/react-native-paper/index.html
 
 emuldr  https://appetize.io/
