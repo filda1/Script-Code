@@ -20,7 +20,11 @@ Rocketseat,  Emulating React Native on,   https://www.youtube.com/watch?v=eSjFDW
 
    mac https://www.ioutletstore.pt/
 *******************************************************************************************************
- 
+  PASAR APK DE PC A MOBILE ==========> instalar en telefono SWEECH
+
+   PC/MAC to Mobile =====> SHAREit
+
+*******************************************************************************************************
  useContext =====> Fatz ======> https://www.youtube.com/watch?v=lSMBhUEVK8k
 
  Auth =====> https://www.youtube.com/watch?v=gvF6sFIPfsQ
