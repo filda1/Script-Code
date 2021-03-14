@@ -5,7 +5,15 @@
                     ** GUIA = https://bluuweb.github.io/react-udemy/01-proyecto/
                      GUIA 2 = https://github.com/facebook/create-react-app
 
+                
    *******ZuluaGA   https://www.youtube.com/watch?v=fWsfvZD_abI&list=PLuEZQoW9bRnSZUVV93R1N9_xpqoiK-xhE&index=19
     ******* MARIO  Diez , Redux    
    ********Rocketseat
-                              
+                 
+
+
+********************************************************************************************************************
+
+  En NAVEGADOR============> instalar extension  React developer tools   
+
+  FORM y VALIDACIONES Plugin (React Hook Form) ====> blueweeb =======> https://www.youtube.com/watch?v=wgutyeQTGDA&list=PLPl81lqbj-4KswGEN6o4lF0cscQalpycD&index=7                                                                             https://react-hook-form.com/
