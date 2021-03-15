@@ -25,6 +25,9 @@ Rocketseat,  Emulating React Native on,   https://www.youtube.com/watch?v=eSjFDW
    PC/MAC to Mobile =====> SHAREit
 
 *******************************************************************************************************
+
+ INVOICE = https://github.com/bytefury/crater#documentation (CRATER)
+
  useContext =====> Fatz ======> https://www.youtube.com/watch?v=lSMBhUEVK8k
 
  Auth =====> https://www.youtube.com/watch?v=gvF6sFIPfsQ
