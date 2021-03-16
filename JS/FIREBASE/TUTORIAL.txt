@@ -7,3 +7,8 @@ FIREBASE DOC = https://firebase.google.com/docs/database/web/lists-of-data?hl=es
 PRECIOS
 https://firebase.google.com/docs/database/usage/billing?hl=es
 https://medium.com/@jobsamuel/firebase-gratis-pago-o-un-poco-de-ambos-8eebf43481a4
+
+****************************************
+
+ JOIN = https://www.youtube.com/watch?v=rffbpMzLrZ0&list=PLl-K7zZEsYLnb2sHdA_8ukNwIyp5jo-es&index=2
+        * https://firebase.google.com/docs/firestore/query-data/queries
