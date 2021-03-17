@@ -1,0 +1,7 @@
+ Ver LOCALHOST POR INTERNER
+
+ 0. Download de Ngrok
+ 1. Poner la aplicacion Ngrok(Que es una una consola) dentro del proyecto
+ 2. Abrir consola de Ngrok que esta dentro del proyecto y poner:
+ ngrok http puerto
+ 3. esperar por URL 
