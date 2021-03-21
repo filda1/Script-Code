@@ -38,6 +38,12 @@ https://www.google.com/search?biw=1347&bih=644&sxsrf=ALeKk01zV4hpggdfe3xgUgy0ubj
 PUSH N -------<< https://www.youtube.com/watch?v=djy17fwqlZ0
                  https://www.youtube.com/watch?v=CFPZYP3J3KY
 
+ONE SIGNAL = https://julianocustodio.com/2017/11/21/onesignal-push-notification
+               https://documentation.onesignal.com/reference/create-notification#example-code---create-notification
+            * https://www.youtube.com/watch?v=YsVk5sLZe14
+
+ *https://xamarinlatino.com/env%C3%ADa-push-notifications-a-un-usuario-o-usuarios-espec%C3%ADficos-en-onesignal-6eb1a5a98067
+
 animaciones = http://www.macoratti.net/17/02/xamforms_anim2.htm
                  https://michaelridland.com/mobile/beautiful-xamarin-facebook-clone-in-xamarin-forms/
                  https://github.com/XAM-Consulting/FacebookForms/blob/master/FBPlay/Areas/Wall/PostView.xaml
