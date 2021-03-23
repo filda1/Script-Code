@@ -12,6 +12,13 @@ TEMPLATES
    https://all-free-download.com/
    https://www.free-css.com/template-categories´
 
+  E-COMMERCE = https://www.free-css.com/template-categories/ecommerce
+                https://cssauthor.com/e-commerce-website-templates/
+                https://colorlib.com/wp/free-bootstrap-ecommerce-website-templates/
+
+    ***https://themes.shift4shop.com/free-ecommerce-themes.html
+     https://www.phpjabbers.com/free-ecommerce-website-templates.php
+
   ecommerce 
      https://www.tooplate.com/live/2114-pixie
      http://bootstrap-ecommerce.com/bootstrap-ecommerce-html/page-index-2.html#
@@ -24,9 +31,7 @@ TEMPLATES
 
    MATERALIZE ======> http://swarnakishore.github.io/MaterializeThemes/
 
-   E-COMMERCE = https://www.free-css.com/template-categories/ecommerce
-                https://cssauthor.com/e-commerce-website-templates/
-                https://colorlib.com/wp/free-bootstrap-ecommerce-website-templates/
+   
 
    template Admin = starangular
    Arquitectura material design = https://material.io/design/material-studies/shrine.html

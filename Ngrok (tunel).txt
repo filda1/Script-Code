@@ -2,6 +2,10 @@
 
  0. Download de Ngrok
  1. Poner la aplicacion Ngrok(Que es una una consola) dentro del proyecto
+ 1.1 RUN proyecto
  2. Abrir consola de Ngrok que esta dentro del proyecto y poner:
- ngrok http puerto
+ RUN ngrok http puerto
  3. esperar por URL 
+
+
+ Error ===========> tskill /A ngrok
