@@ -8,7 +8,7 @@
 
   1- composer require tcg/voyager
 
-  2- APP_URL=http://localhost   ====================================> Cambiar por tu URL
+  2- APP_URL=http://localhost:8000   ====================================> Cambiar por tu URL (Para que carge bien los iconos/imagenes)
      DB_HOST=localhost
      DB_DATABASE=homestead
      DB_USERNAME=homestead
@@ -25,6 +25,8 @@
 
     OJO == si el servidor no reconoce/no trasnfiere/no carga las imagenes( storage link, en public ==>storage) 
            Solucion: cambiar el nombre de la carpeta storage (en public ==> storage)
+
+   OJO2 = no guarda PNG
 
      * En Storage con Link (Link Symbolico)
          <a href="{{url('/storage/'. $post[2]->image )}}"  target="_blank">

@@ -27,6 +27,9 @@ Rocketseat,  Emulating React Native on,   https://www.youtube.com/watch?v=eSjFDW
    PC/MAC to Mobile =====> SHAREit
 
 *******************************************************************************************************
+ BARBER TODO »»»»»»» https://github.com/kaioosilva/AppGoBarber
+
+ ICPNOS VECTORES »»»»»» https://github.com/oblador/react-native-vector-icons
 
  INVOICE = https://github.com/bytefury/crater#documentation (CRATER)
 

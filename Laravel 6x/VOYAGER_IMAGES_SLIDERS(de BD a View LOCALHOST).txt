@@ -1,3 +1,6 @@
+
+** ESTO ES PARA LOCALHOST, en PRODUCCION LAS IMAGENES FUNCIONAN BIEN
+
 <?php
 
 namespace App\Http\Controllers;
