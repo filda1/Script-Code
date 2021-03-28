@@ -1,4 +1,6 @@
 
+  ICONOS HTML ====> unicode character
+
  palete de color images -----< https://imagecolorpicker.com/en
 
 ***********************************************************************************
