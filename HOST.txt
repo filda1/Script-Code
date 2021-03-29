@@ -8,3 +8,5 @@ HOSTWINDS: https://bit.ly/NS-HostWinds
 DREAMHOST: https://bit.ly/NS-DreamHost
 INMOTION: https://bit.ly/NS-InMotion
 THESTRATEGA: https://bit.ly/NS-Stratega
+
+VPS =====> vps9.net

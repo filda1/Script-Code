@@ -12,6 +12,8 @@ REACT NATIVE (EXPO) ========> https://www.youtube.com/watch?v=hXDMWeD0ERM (Fazt)
  CLONES =========> https://www.youtube.com/watch?v=E95VMb6nzKc
                                      
 ***********************************************************************************************************
+DEEP LINK ===> Configurando deep linking no React Native (rocketseat.com.br)
+***********************************************************************************************************
 expo,  https://snack.expo.io/
 
 Rocketseat,  Emulating React Native on,   https://www.youtube.com/watch?v=eSjFDWYkdxM
