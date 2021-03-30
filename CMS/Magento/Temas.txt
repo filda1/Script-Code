@@ -12,3 +12,15 @@ https://bssthemes.com/blog/magento-2-theme-github/
 
 https://templatetoaster.com/templates/magento-themes
  editor THEMES =====> https://blog.templatetoaster.com/create-magento-theme/
+
+
+ https://github.com/topics/magento-theme
+https://github.com/DivanteLtd/magento2-rapid-theme
+https://bssthemes.com/blog/magento-2-theme-github/
+https://www.ubertheme.com/magento-news/crafts-first-theme-magento-2/
+
+
+  EUPAGO
+    https://eupago.kayako.com/pt/article/257-magento-2
+    https://blog.e-goi.com/pt/magento-sms-pagamento-multibanco/
+    https://github.com/eupago/eupago-module-mbway
