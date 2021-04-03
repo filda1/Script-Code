@@ -12,3 +12,8 @@ https://medium.com/@jobsamuel/firebase-gratis-pago-o-un-poco-de-ambos-8eebf43481
 
  JOIN = https://www.youtube.com/watch?v=rffbpMzLrZ0&list=PLl-K7zZEsYLnb2sHdA_8ukNwIyp5jo-es&index=2
         * https://firebase.google.com/docs/firestore/query-data/queries
+   
+ ********** JOIN ____> https://medium.com/android-dev-moz/firebasesql-8f16935b3023
+ ***** JOIN » https://imasters.com.br/banco-de-dados/trabalhando-com-joins-no-firebase
+
+ ****** OBJ = https://firebase.google.com/docs/database/admin/save-data?hl=es#node.js_3
