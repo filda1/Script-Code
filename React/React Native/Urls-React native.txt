@@ -16,6 +16,9 @@ REACT NATIVE (EXPO) ========> https://www.youtube.com/watch?v=hXDMWeD0ERM (Fazt)
  ZOOM =====> https://www.youtube.com/watch?v=6soHPnHxHxI
 
  CLONES =========> https://www.youtube.com/watch?v=E95VMb6nzKc
+
+  INSTAGRAM ========> https://www.youtube.com/watch?v=1hPgQWbWmEk&t=18841s
+  INSTAGRAM UI =====> https://www.youtube.com/watch?v=NEpbscXHAsk&list=PLbYA1puA_WBSGWUSWo3Mxa4BSZZMMHOUC&index=19
                                      
 ***********************************************************************************************************
 DEEP LINK ===> Configurando deep linking no React Native (rocketseat.com.br)
