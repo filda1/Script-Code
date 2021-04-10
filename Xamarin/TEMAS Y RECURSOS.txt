@@ -18,6 +18,10 @@ https://www.google.com/search?biw=1347&bih=644&sxsrf=ALeKk01zV4hpggdfe3xgUgy0ubj
  ESPELLO ANDROR _________>   SCRCPY  ___> https://www.youtube.com/watch?v=5XxUiLc2ZA8
 
 **************************************************************************
+ AUTOSCROLL = https://www.youtube.com/watch?v=-e5_Jrn0TpA
+
+ CARRUOSEL AUTOMTIC =====> https://www.c-sharpcorner.com/article/automatic-image-slider-in-xamarin-forms/
+**************************************************************************
   ENVIAR IMAGENES = convierte de Bytes a Base64  
                   https://www.base64-image.de/
 ***************************************************************************

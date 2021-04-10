@@ -1,5 +1,5 @@
 
- LARAVEL EN UN SERVIDOR
+ LARAVEL EN UN SERVIDOR 
 
         SUBIR LARAVEL A HOST, EN UNA CARPETA DE DOMINIO
 
@@ -24,3 +24,9 @@
          OTRA FORMA DE SUBLIR A LARAVEL (Dentro de public_html)
            - Es poner el proyecto afuera , en principal sin la carpeta public. 
              Y los archivos de public ponerlos afuera , public_html
+
+
+
+ VPS
+
+   https://www.youtube.com/watch?v=nKbnsGjAGOo

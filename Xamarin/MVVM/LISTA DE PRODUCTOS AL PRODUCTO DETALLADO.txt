@@ -1,0 +1,10 @@
+
+ de LISTA de PRODUCTOS   =========> A DETALLE DE PRODUCTO
+ * https://github.com/Altevir/xamarinforms-art-store
+
+
+
+ Funcionamiento:
+  1.Click Command(Con Parametros) en Producto de una LISTA DE PRODUCTOS
+  2. LOs Parametros entran y LLegan al CODE-BEHIND
+  3.Ahi son enviados a XAML y a la VIEW MODEL
