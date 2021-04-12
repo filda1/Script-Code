@@ -12,4 +12,8 @@ THESTRATEGA: https://bit.ly/NS-Stratega
 VPS =====> vps9.net
 
 
-CPANEL =====> https://raiolanetworks.es/blog/manual-completo-de-cpanel-para-usuarios-con-videotutoriales/
+****************************************** CPANEL ***********************************************************
+
+  CPANEL =====> https://raiolanetworks.es/blog/manual-completo-de-cpanel-para-usuarios-con-videotutoriales/
+
+ SSH ACCESS EN CPANEL  =========> https://www.youtube.com/watch?v=qVnZ445PBZc
