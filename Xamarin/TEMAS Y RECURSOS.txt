@@ -22,6 +22,11 @@ https://www.google.com/search?biw=1347&bih=644&sxsrf=ALeKk01zV4hpggdfe3xgUgy0ubj
 
  CARRUOSEL AUTOMTIC =====> ***https://bertuzzi.medium.com/carouselview-formsplugin-vs-cardsview-36839710f589
                           https://www.c-sharpcorner.com/article/automatic-image-slider-in-xamarin-forms/
+
+ VIDEOS =======> https://bertuzzi.medium.com/meu-plugin-minha-vida-reproduzindo-video-166120c6bb18
+https://stackoverflow.com/questions/58162307/xamarin-forms-how-to-play-video-using-plugin-mediamanager-forms
+http://www.macoratti.net/18/02/xf_video1.htm
+https://forums.xamarin.com/discussion/170801/system-notimplementedexception-this-functionality-is-not-implemented-in-the-portable-version-of-th
 **************************************************************************
   ENVIAR IMAGENES = convierte de Bytes a Base64  
                   https://www.base64-image.de/
