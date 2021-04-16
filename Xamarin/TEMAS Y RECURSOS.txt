@@ -23,7 +23,11 @@ https://www.google.com/search?biw=1347&bih=644&sxsrf=ALeKk01zV4hpggdfe3xgUgy0ubj
  CARRUOSEL AUTOMTIC =====> ***https://bertuzzi.medium.com/carouselview-formsplugin-vs-cardsview-36839710f589
                           https://www.c-sharpcorner.com/article/automatic-image-slider-in-xamarin-forms/
 
- VIDEOS =======> https://bertuzzi.medium.com/meu-plugin-minha-vida-reproduzindo-video-166120c6bb18
+ VIDEOS =======>  MEDIAELEMENT >==== 
+               http://www.macoratti.net/20/10/xf_mediael1.htm
+               https://docs.microsoft.com/en-us/xamarin/community-toolkit/views/mediaelement
+                     
+https://bertuzzi.medium.com/meu-plugin-minha-vida-reproduzindo-video-166120c6bb18(No funciona DROID)
 https://stackoverflow.com/questions/58162307/xamarin-forms-how-to-play-video-using-plugin-mediamanager-forms
 http://www.macoratti.net/18/02/xf_video1.htm
 https://forums.xamarin.com/discussion/170801/system-notimplementedexception-this-functionality-is-not-implemented-in-the-portable-version-of-th
@@ -323,10 +327,35 @@ CELULAR = https://github.com/DevWizza/Leona-Store
   Luis Betran = https://www.youtube.com/watch?v=tYsKrF9H5f0
 
 *******************************************************************************************
-  REQUSITOS PARA QUE FUNCIONE API EN XAMARIN
+  REQUSITOS PARA QUE FUNCIONE API EN XAMARIN (PERMISOS HTTP)
 
   ANDROID => En Asembly =====> security
+
+ ANDROID PERMISOS  CONEXION A HTTP
+https://www.youtube.com/watch?v=wYd9x8elNQ8
+
+UNa O OTRA
+
+* AndroidManiferst.xml (Mejor Alternativa)
+
+  <application ....... android:usesCleartextTraffic="true">
+   <uses-library 
+                android:name="org.apache.http.legacy"
+               android:required="false"/>
+
+* AsemblyInfo.cs (PUEDE DAR ERROR, si es asi Escoger la otra opción)
+ [assembly: Application(UsesCleartextTraffic = true)]
+
+
+
   IOS  = > Info.plis ====> transportyn
+ https://docs.microsoft.com/en-us/xamarin/ios/app-fundamentals/ats
+
+    <key>NSAppTransportSecurity</key>
+     <dict>
+     <key>NSAllowsArbitraryLoads</key>
+      <true/>
+    </dict>	
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
