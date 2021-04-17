@@ -1,0 +1,31 @@
+ 
+   REQUSITOS PARA QUE FUNCIONE API EN XAMARIN (PERMISOS HTTP)
+
+
+  ANDROID => En Asembly =====> security
+
+ ANDROID PERMISOS  CONEXION A HTTP
+https://www.youtube.com/watch?v=wYd9x8elNQ8
+
+UNa O OTRA
+
+* AndroidManiferst.xml (Mejor Alternativa)
+
+  <application ....... android:usesCleartextTraffic="true">
+   <uses-library 
+                android:name="org.apache.http.legacy"
+               android:required="false"/>
+
+* AsemblyInfo.cs (PUEDE DAR ERROR, si es asi Escoger la otra opción)
+ [assembly: Application(UsesCleartextTraffic = true)]
+
+
+
+  IOS  = > Info.plis ====> transportyn
+ https://docs.microsoft.com/en-us/xamarin/ios/app-fundamentals/ats
+
+    <key>NSAppTransportSecurity</key>
+     <dict>
+     <key>NSAllowsArbitraryLoads</key>
+      <true/>
+    </dict>

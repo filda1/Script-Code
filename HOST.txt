@@ -17,3 +17,14 @@ VPS =====> vps9.net
   CPANEL =====> https://raiolanetworks.es/blog/manual-completo-de-cpanel-para-usuarios-con-videotutoriales/
 
  SSH ACCESS EN CPANEL  =========> https://www.youtube.com/watch?v=qVnZ445PBZc
+
+
+
+*********************************************************************
+CHOMECAST A TV
+ https://www.youtube.com/watch?v=Xzwu9QBh_KE
+  1. tv busca Htmv
+  2. Pc:  en navegador ip =========> sale en tv
+  3. PC: boton derecho===> confi de pantalla
+  4. Conectar proyeccione , arriba del boton
+  5. Luego abajo nueva ventata, ...proyecta  a este equipo
