@@ -1,0 +1,24 @@
+Use DB; 
+
+DB::table('post')
+            ->where('id', 3)
+            ->update(['title' => "Updated Title"]);
+
+
+
+ **Los nombres de tablas son iguales a la Base de datos. Y titulos
+
+«««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««
+
+       foreach ($postals as $postal){
+            $address = $geocoder->getCoordinatesForAddress($postal->postal_code);
+            DB::table('schools')
+                    ->where('postal', $postal->postal_code)
+                    ->update(['lat' => $address['lat'], 'lng' => $address['lng']]);
+        }
+
+ 
+
+    $shipments = Shipment::with('customer')->get();
+/////////////////////////////////////////////////////////////////////////////////
+   Post::where('id',3)->update(['title'=>'Updated title']);

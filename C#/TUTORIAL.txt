@@ -1,4 +1,10 @@
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+ Console.WriteLine("Hi baby");
+ Console.ReadLine() / Console.ReadKey(); 
+
+https://www.youtube.com/watch?v=GhQdlIFylQ8
+_____________________________________________________________________________________________________________
   Se DESARROLA con ENTITY FRAMEWORK O NO
      *Con ENTITY FRAMEWORK
            -  con ADO.NET (Net Framework) --------------------------------> que tiene dos vias
