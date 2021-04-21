@@ -2,3 +2,7 @@ CALENDARIO
 https://blog.quickadminpanel.com/tasks-calendar-with-laravel-fullcalendar-quickadminpanel/
 
 LARAVEL ZERO _ CONSOLE ====> https://laravel-zero.com/docs/installation
+
+ LARAVEL OCTANE  ===========> Velocidad , 2 servidores
+
+ LARAVEL BREEZE ============> Jetstream solo

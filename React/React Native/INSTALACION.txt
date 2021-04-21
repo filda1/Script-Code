@@ -1,10 +1,15 @@
- 
+ REACT NATIVE
+  Dos formas de instalar:
+  1. Bare  Workflow  ==============> Con accesso a carpetas IOS + DROID =============> EXPO  o yarn create...( https://github.com/expo/create-react-native-app)
+  2. Manage Workflow  ============> Sin accesso a carpetas IOS + DROID =======> EXPO
+
+ ///////////////////////////////////////////////////////////////////////////////////////////////////
  INSTALACION:
   Opcion 1:
 
   1. CREAR REAVCT NATIVE cLI + EXPO  (react native , Bare Workflow + Expo)
 
-  Opcion 2:
+  Opcion 2:(Viejo)
 
   2. CREAR EXPO  Y DESPUES EJECTAR A REACT NATIVE CLI
 
