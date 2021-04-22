@@ -1,7 +1,20 @@
- $object = json_decode($description,true);
+
+-------------------------------------------------------
+PARA CONVERTIR ARRAY DE JSON
+
+$object = json_decode($description,true);
              $name =  $object[0]['label'];
              $qta = $object[0]['quantity'];
              $image = $object[0]['image'];
 
-*********************************************************
+-------------------------------------------------------
  count($json);
+
+-------------------------------------------------------
+ PARA CONVERTIR A JSON
+
+   json_encode($var);
+
+ * En BD mysql »»»»»»»»»»»» campo se guarda en ========> longtext
+
+--------------------------------------------------------
