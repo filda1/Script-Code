@@ -3,16 +3,18 @@ https://dev.to/thegeoffstevens/50-vs-code-themes-for-2020-45cc
 
  THEME:
 
- * Night Owl
-
- Monokai 
-
- One Dark pro 
-
- shades of pro 
-
- code blue 
-
+ *1 Night Owl
+  1 Monokai 
+   One Dark pro 
+   shades of pro 
+   code blue 
+ 3  Dark-Dracula Theme
+ 1 Flatland_Black Theme
+ 3  Seahorse Theme
+  3 Trixie Theme
+  2 sublimexoria
+  1 Dark
+   Syntax
 
 ******************************************************************************************************
 
@@ -28,3 +30,7 @@ https://dev.to/thegeoffstevens/50-vs-code-themes-for-2020-45cc
     - en view ___> command linne -------> git clone htts....
     - ir a simbolo mecanico--------> y .... , push
     - Para refrescar es en la barra de abajo
+
+
+ online@zie.pt
+ onlinezie2021

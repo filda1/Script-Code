@@ -18,13 +18,25 @@ VPS =====> vps9.net
 
  SSH ACCESS EN CPANEL  =========> https://www.youtube.com/watch?v=qVnZ445PBZc
 
+  *** RESTAURACION
+   1. R1soft 
+   o
+   2. File and Directory Restoration   (https://www.youtube.com/watch?v=UD_rdnVc9Vo)
 
+   o
+   3. BAck up Wizard »»»»»»»»b https://www.youtube.com/watch?v=PjvlYH9QsGE
 
 *********************************************************************
 CHOMECAST A TV
  https://www.youtube.com/watch?v=Xzwu9QBh_KE
   1. tv busca Htmv
   2. Pc:  en navegador ip =========> sale en tv
-  3. PC: boton derecho===> confi de pantalla
-  4. Conectar proyeccione , arriba del boton
-  5. Luego abajo nueva ventata, ...proyecta  a este equipo
+  3. PC: boton derecho===> confi de pantalla ( proyectar....inalambrica)
+  4. Nueva venta:Conectar proyeccione , arriba del boton /Coneccion detectada o Dispositivo reconocido(click sobre el)
+  5. Nueva venta:Luego abajo nueva ventata, ...proyecta  a este equipo
+
+
+  
+
+
+

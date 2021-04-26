@@ -1,3 +1,13 @@
+
+ESTRUCTURA
+
+  - Collection   =====>  Lista de Objeto
+  - Document     =====> Objeto.  =====>  id_clave + (id + data) 
+
+
+
+
+************************************************
 https://www.tutorialspoint.com/firebase/firebase_quick_guide.htm
 FIREBASE DOC = https://firebase.google.com/docs/database/web/lists-of-data?hl=es
 
@@ -17,3 +27,8 @@ https://medium.com/@jobsamuel/firebase-gratis-pago-o-un-poco-de-ambos-8eebf43481
  ***** JOIN » https://imasters.com.br/banco-de-dados/trabalhando-com-joins-no-firebase
 
  ****** OBJ = https://firebase.google.com/docs/database/admin/save-data?hl=es#node.js_3
+**********************************************************************************************
+
+  FUNCTIONS
+   Fatz = https://www.youtube.com/watch?v=uAZye3L2NPo&t=1s
+           https://github.com/FaztWeb/firebase-functions-rest-api === https://github.com/maximopeoficiales/app-firebase-nodets 
