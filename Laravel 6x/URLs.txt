@@ -6,3 +6,8 @@ LARAVEL ZERO _ CONSOLE ====> https://laravel-zero.com/docs/installation
  LARAVEL OCTANE  ===========> Velocidad , 2 servidores
 
  LARAVEL BREEZE ============> Jetstream solo
+
+
+ LARAVEL-MEDIA-MANGER = https://github.com/ctf0/Laravel-Media-Manager
+                        https://vuejsprojects.com/laravel-media-manager
+                        https://github.com/ctf0/demos/tree/media-manager
