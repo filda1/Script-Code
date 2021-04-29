@@ -8,3 +8,12 @@
  6 React
  7 Python
  8 MEAN
+
+
+ React
+ React NA
+ Typescript
+ Node
+ MpngoDB
+ Angular
+ Python

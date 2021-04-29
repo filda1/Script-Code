@@ -1,0 +1,23 @@
+ 
+ scrcpy pa droid
+
+ 1- https://github.com/Genymobile/scrcpy
+ 2  Dowload, Windows (debajo)  ====>  EJ: scrcpy-win64-v1.17.zip
+ 3 Conectar Telefono
+ 4.ejecutar scrcpy.exe
+
+
+ WIRELESS
+  *https://www.youtube.com/watch?v=tz94J0GUKfc
+
+ 1- Conectar por cable, primero
+ 2- CMD ====> cd SCRCPY DIR PATH ( cd C:\Scrcpy)
+ 3- CMD ====> adb devices
+ 4- CMD ====> adb tcpip 5555
+ 5- Quitar cable
+ 6- adb connect Android_device_IP:5555 ( adb connect IP);    la Ip del wifi =====> est en wifi, en la rueda
+ 7- ejecutar scrcpy.exe
+
+ adb kill-server ======> cerrar
+ scrcpy --bit-rate 2M --max-size 800
+ adb usb
