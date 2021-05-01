@@ -1,0 +1,136 @@
+
+** ESTO ES PARA LOCALHOST, en PRODUCCION LAS IMAGENES FUNCIONAN BIEN
+
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use App\Pagina;
+
+class WelcomeController extends Controller
+{
+    //
+
+    public function index()
+    {
+        
+       $posts = pagina::all();
+  
+      
+     /*
+       $rowImage = pagina::where( 'id', 0  )   
+                           ->first();
+                           */
+   
+
+      $obj = pagina::all('imagem' )->where('id',0);
+      $row = explode(",",$obj);
+        $obj1 = $row[0];
+        $obj2 = $row[1];
+        $obj3 = $row[2];
+        $obj4 = $row[3];
+        $obj5 = $row[4];
+      //************************* SLIDER1 *********************//                   
+      //[{"imagem":"paginas\\March2021\\iwNCFJxr0bxGPK7rAlk5.jpg"}]
+
+      $piece = explode("\\",$obj1);
+  
+
+       $one=  $piece[4];
+       $two = explode('"' ,$one);
+       
+
+       $mes = $piece[2];
+       $img_randow = $two[0];
+
+      
+       $url1= '../storage/'.'paginas'.'/'.$mes.'/'.$img_randow;
+
+       $slider1 =  $url1;
+      //************************END SLIDER1 *********************//  
+
+      //************************* SLIDER2 *********************//                   
+        //[{"imagem":"paginas\\March2021\\iwNCFJxr0bxGPK7rAlk5.jpg"}]
+
+        $piece2 = explode("\\",$obj2);
+    
+
+        $one2=  $piece2[4];
+        $two2 = explode('"' ,$one2);
+        
+
+        $mes2 = $piece2[2];
+        $img_randow2 = $two2[0];
+
+    
+        $url2= '../storage/'.'paginas'.'/'.$mes2.'/'.$img_randow2;
+
+        $slider2 =  $url2;
+      //************************END SLIDER2 *********************// 
+
+      //************************* SLIDER3 *********************//                   
+        //[{"imagem":"paginas\\March2021\\iwNCFJxr0bxGPK7rAlk5.jpg"}]
+
+        $piece3 = explode("\\",$obj3);
+    
+
+        $one3=  $piece3[4];
+        $two3 = explode('"' ,$one3);
+        
+
+        $mes3 = $piece3[2];
+        $img_randow3 = $two3[0];
+
+    
+        $url3= '../storage/'.'paginas'.'/'.$mes3.'/'.$img_randow3;
+
+        $slider3 =  $url3;
+      //************************END SLIDER3 *********************// 
+
+       //************************* SLIDER4 *********************//                   
+        //[{"imagem":"paginas\\March2021\\iwNCFJxr0bxGPK7rAlk5.jpg"}]
+
+        $piece4 = explode("\\",$obj4);
+    
+
+        $one4=  $piece4[4];
+        $two4 = explode('"' ,$one4);
+        
+
+        $mes4 = $piece4[2];
+        $img_randow4 = $two4[0];
+
+    
+        $url4= '../storage/'.'paginas'.'/'.$mes4.'/'.$img_randow4;
+
+        $slider4 =  $url4;
+      //************************END SLIDER4 *********************// 
+
+        //************************* SLIDER5 *********************//                   
+        //[{"imagem":"paginas\\March2021\\iwNCFJxr0bxGPK7rAlk5.jpg"}]
+
+        $piece5 = explode("\\",$obj5);
+    
+
+        $one5=  $piece5[4];
+        $two5 = explode('"' ,$one5);
+        
+
+        $mes5 = $piece5[2];
+        $img_randow5 = $two5[0];
+
+    
+        $url5= '../storage/'.'paginas'.'/'.$mes5.'/'.$img_randow5;
+
+        $slider5 =  $url5;
+      //************************END SLIDER5 *********************// 
+
+
+
+      return view('welcome',compact('posts','slider1','slider2','slider3','slider4','slider5' ));
+
+      
+    
+    }
+}

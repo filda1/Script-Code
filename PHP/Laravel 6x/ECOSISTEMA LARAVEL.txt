@@ -1,0 +1,53 @@
+  JSON API ==== https://github.com/cloudcreativity/laravel-json-api
+                https://laravel-json-api.readthedocs.io/en/latest/
+*******************************************************************************************
+  LARAVEL INTEGRATIONS EMAILS ==== https://www.cloudways.com/blog/send-email-in-laravel/
+
+********************************************************************************************
+  LARAVEL COMMENTS ========https://github.com/beyondcode/laravel-comments
+                          *** https://pusher.com/tutorials/live-comments-automod-laravel
+                           TUTORIAL === https://www.codechief.org/article/create-your-own-multilevel-nested-comments-system-in-laravel
+**********************************************************************************************
+
+ *https://beyondco.de/open-source?page=7
+
+**********************************************************************************************
+ MULTI-TENANT
+  bitfumes===https://www.youtube.com/watch?v=uvnvYzQ2fw0
+
+   varias BD en sola vista ====== >*** ACTUALIZADA ===>https://spatie.be/docs/laravel-multitenancy/v1/requirements
+
+                                                       https://tenancyforlaravel.com/docs/v3/introduction 
+  
+                                  
+
+  voyager + multi-tenacy ===== https://www.youtube.com/watch?v=otQfaxCdn7I&list=PLXPWYtLWWiPCYxBE-JiINBQVKoeFPXAcB&index=1
+                               https://github.com/gruz/multi-tenancy-voyager-tries
+**************************************************************************************************************************************
+
+ LARAVEL ENUMS ==========> https://github.com/BenSampo/laravel-enum
+ *enums: tipo de datos(String)  ===================================================> Solo acepta ciertos posibles valores
+
+**************************************************************************************************************************************
+ TEST DE VELOCIDAD GOOGLE ==== https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Flocalhost%2Fapp1%2F
+
+*****************************************************************************************************************
+ LARAVEL MIX (Aprendible) ===================> https://www.youtube.com/watch?v=Lm4xOQJmWxM
+*****************************************************************************************************************
+
+CALENDARIO 
+https://blog.quickadminpanel.com/tasks-calendar-with-laravel-fullcalendar-quickadminpanel/
+
+LARAVEL ZERO _ CONSOLE ====> https://laravel-zero.com/docs/installation
+
+ LARAVEL OCTANE  ===========> Velocidad , 2 servidores
+
+ LARAVEL BREEZE ============> Jetstream solo
+
+
+ LARAVEL-MEDIA-MANGER = https://github.com/ctf0/Laravel-Media-Manager
+                        https://vuejsprojects.com/laravel-media-manager
+                        https://github.com/ctf0/demos/tree/media-manager
+
+
+

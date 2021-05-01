@@ -1,0 +1,61 @@
+ VOYAGER == https://voyager.devdojo.com/
+
+  https://inside.contabilizei.com.br/otimizando-a-cria%C3%A7%C3%A3o-de-cruds-com-o-laravel-voyager-parte-1-5a8d7f438740
+
+---------------------------------------------------------------------------------------------------------------
+
+ INSTALAR VOYAGER   (https://voyager-docs.devdojo.com/getting-started/installation)
+
+  1- composer require tcg/voyager
+
+  2- APP_URL=http://localhost:8000   ====================================> Cambiar por tu URL (Para que carge bien los iconos/imagenes)
+     DB_HOST=localhost
+     DB_DATABASE=homestead
+     DB_USERNAME=homestead
+     DB_PASSWORD=secret
+
+  3 - php artisan voyager:install --with-dummy
+
+
+  4- entrar  www.xxxxxx.com/admin/login
+
+       email: admin@admin.com
+       password: password
+
+
+    OJO == si el servidor no reconoce/no trasnfiere/no carga las imagenes( storage link, en public ==>storage) 
+           Solucion: 1 .cambiar el nombre de la carpeta storage (en public ==> storage)
+                     2. Luego, cerrar session y entrar de nuevo =======> Y activar EL MENSAGE VERDE
+
+
+     * En Storage con Link (Link Symbolico)
+         <a href="{{url('/storage/'. $post[2]->image )}}"  target="_blank">
+<img src="{{url('/storage/'. $post[2]->image )}}" class="img-fluid" target="_blank" height=50 width=50></a>
+----------------------------------------------------------------------------------------
+
+  FUNCIONAMIENTO VOYAGER
+
+    Tutorial = https://www.youtube.com/watch?v=gN3BCi0emVA
+
+   1- CREAR UNA VISTA DE LA TABLA EN VOYAGER (Aparece en afuera sidebar)
+
+     1.1 - ir TOOLS=>DATBASES ===========> Table que quieres ===> ir, add bread /o edit Bread ===> luego SUBMIT 
+
+------------------------------------------------------------------------------------------------------------------
+
+  MENUS DINAMICOS ===== Admin controla el menu del la vista
+   https://www.youtube.com/watch?v=mhfSFAncIzg
+
+------------------------------------------------------------------------------------------------------------------
+  
+  CARGAR IMAGENES
+    https://www.youtube.com/watch?v=94EEHKrU3ao&list=PLEhEHUEU3x5oPTli631ZX9cxl6cU_sDaR&index=13
+
+-----------------------------------------------------------------------------------------------------------------
+
+  GALERIA DE IMAGENES
+    https://www.youtube.com/watch?v=lK6lkYkGQec&list=PLEhEHUEU3x5oPTli631ZX9cxl6cU_sDaR&index=14
+
+
+/////////////////////////////////////////////
+ tuto = https://www.youtube.com/watch?v=PPnP4RMLBkA&list=PLfSMUnN9ZdrBPmo5JXke_7UyKMzSNVjaw&index=20

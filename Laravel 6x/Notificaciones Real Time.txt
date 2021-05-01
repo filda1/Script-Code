@@ -1,7 +1,0 @@
-Laravel Notificaciones Real Time 
-
- https://www.youtube.com/watch?v=7MvN0w5BW48
- https://www.youtube.com/watch?v=pjK0VMTCtVg
-  https://github.com/beyondcode/laravel-websockets
-    socket.io
-    pusher

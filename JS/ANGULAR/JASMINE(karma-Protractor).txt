@@ -1,0 +1,9 @@
+MOLDE INTERATIVE =========================================>  https://www.youtube.com/watch?v=a1qKds0IQ_4&list=PLHgpVrCyLWApcgDNVxsdCDXy3p3XmxwbX&index=1
+
+ JASMINE : Framework
+ Karma : TEST por componetes
+ Protractor : TEST general
+
+ Cmd:
+  - ng test
+ - ng e2e

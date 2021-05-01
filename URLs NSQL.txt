@@ -1,7 +1,0 @@
-
- FIRESTORE-JOIN COLLECTION
-  https://www.youtube.com/watch?v=rffbpMzLrZ0
-
-
- ACTULIZACION TOTAL
-  write batch  o  transacciones

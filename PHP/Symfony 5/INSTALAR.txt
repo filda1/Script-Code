@@ -1,0 +1,101 @@
+  SYMFONY 5
+
+freeCodeCamp.org = https://www.youtube.com/watch?v=Bo0guUbL5uo&t=1044s
+                     https://github.com/ricardo-rp/symfonycourse
+
+  ADMIN = OverSeas Media = https://www.youtube.com/watch?v=M-ehiNixBvM
+                           https://github.com/konshensx16/easy-admin/tree/0e893582ce86dae9f15f195ba448dfa09455230f
+
+  sf + vue.js = OverSeas Media =  https://www.youtube.com/watch?v=UjejTX5FOG8
+                                  https://github.com/konshensx16/symfony-vue
+
+  dfbastidas = symfony= https://www.youtube.com/watch?v=cWESbDaKgYQ&list=PLDbrnXa6SAzVxekjG2LBmJ5WxO4iypGlq&index=7
+------------------------------------------------------------------------------------------------------------------------
+
+  Por consola se crea:
+   - BD
+   - Modelo / Repositorio / Tabla
+   - Forms
+ 
+
+  GITHUB  , al crear repositorio d se crea 2 .git, uno dentro del proyecto de symfony por defecto. Y otro tuyo al crear el repositorio afuera del proyecto.
+           Sol: elimina .git del proyecto de symfony
+
+
+***************************************************** INSTALACION ****************************************************
+
+ >>     DONWLOAD DE SYMFONY   https://symfony.com/download
+ 
+ >>     symfony new my_project_name --full       /    symfony new my_project_name (microservicio) 
+
+ >>  >>    composer require symfony/var-dumper    =====================================================>  dump() (= echo)
+       
+ >>  >>  symfony server:start  
+ 
+
+ 
+
+
+ COMANDOS:
+
+    Controller  ================================================> >> php bin/console make: controller NombreController      (view + controlller)
+
+
+
+    DB          ================================================> >> php bin/console doctrine:database:create
+
+                                                                   Antes: en ENV:
+                                     DATABASE_URL=mysql://root:password@127.0.0.1:3306/sf_crud_sample1?serverVersion=5.7
+
+
+     (OJO , opcional caso de error)   
+               * GRANT ALL PRIVILEGES ON db_name.* TO 'username'@'localhost' IDENTIFIED BY 'password';
+               GRANT ALL PRIVILEGES ON *.* TO 'bamboouser'@'localhost' IDENTIFIED BY 'password' WITH GRANT OPTION; (si da erros probar esto, en mysql>
+
+
+  
+    Modelos/repositorio/tabla           ========================>  php bin/console make:entity
+
+                                                                   php bin/console doctrine:schema:update
+                                                                   php bin/console doctrine:schema:update --dump-sql
+                                                                   php bin/console doctrine:schema:update --force
+
+
+
+    form         ================================================>  composer require form
+                                                                   
+                                                                    composer require form validator
+
+   
+    crear form    ================================================>   php bin/console make:form       (poner: Nombre y despues Modelo, en  primera letra en mayuscula)
+
+
+    Auth             =============================================>   php bin/console make:auth    ( 1 y NombreAuthenticator)
+                                                                      php bin/console make:user    ( en la pregunta de unique , poner: email)
+
+                                                                     (Ver, no seguro, va antes de todo lo de Auth) composer requirer symfony/security-bundle
+
+
+    Actualiza Modelos=Entity  ====================================>   php bin/console make: entity --regenerate
+
+
+                                     
+
+  MODELO/REPOSITORIO/TABLA
+
+  *  REPOSITORIO de cada modelo ================> para accesa consulta SQL
+
+  >> php bin/console make: entity Nombre     /    >>  php bin/console make: Nombre 
+
+  >> .....Despues vas creando la tabla de vez aqui en consola
+
+
+  >> php bin/console make: entity --regenerate     ==================> Actualiza Modelos=Entity
+
+
+
+  
+  RUN
+
+  >>  php bin/console server: start
+  

@@ -1,0 +1,19 @@
+https://startangular.com/
+https://github.com/bharathirajatut/angular-material-6-theme
+*************https://www.positronx.io/create-angular-material-8-custom-theme/
+Google Developer =======> https://devfest.withgoogle.com/
+Herramienta SVG ========> https://jakearchibald.github.io/svgomg/
+
+ EJEMPLODE ANGUALR MATERIAL
+Fatz =  https://www.youtube.com/watch?v=n5kTqHmLtN8
+ https://github.com/FaztWeb/angular-material7 
+
+ TEMPPLATES FREE
+  https://colorlib.com/wp/angularjs-website-templates/?v=35357b9c8fe4
+
+
+  SIDEBAR HECHO ========> https://github.com/SidebarJS/ng-sidebarjs
+
+                          https://github.com/arkon/ng-sidebar
+
+  BANNER + CARROUSELL ==========> https://github.com/PavelPleshko/ngx-banner-carousel-moby

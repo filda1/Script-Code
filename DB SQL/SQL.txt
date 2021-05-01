@@ -1,0 +1,23 @@
+
+ MUESTRA TANTOS REGISTROS DESPUES N REGISTRO
+ The SQL query below says "return only 10 records, start on record 16 (OFFSET 15)":
+
+ $sql = "SELECT * FROM Orders LIMIT 10 OFFSET 15";
+
+**********************************************************
+ ORDENA POR ID EN DESCENDENTE
+
+ $sql = "SELECT * FROM Products Order by id desc LIMIT 10 ";
+
+
+**********************************************************
+  DISTINTOS ========> NO DUPLICADOS
+
+  SELECT DISTINCT SALARY FROM CUSTOMERS ORDER BY SALARY;
+
+***********************************************************
+  DIFERENTES (Todos menos)
+
+ SELECT * FROM Customers WHERE NOT Country='Germany';
+
+

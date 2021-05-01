@@ -1,0 +1,32 @@
+
+ LARAVEL EN UN SERVIDOR 
+
+        SUBIR LARAVEL A HOST, EN UNA CARPETA DE DOMINIO
+
+         0- Agrear el dominio comprado a la area de Usuario (Pedir despues activacion, provar con index.html)
+
+         1- Poner el dominio en Cpanel, agregar el dominio y se crea una carpeta( ej :universo-rh.com)
+             En Administrador====> Se accede a la carpeta
+   
+         2- Para acceder directamente Ej:www.universo-rh. (Fuera de public_html) com sin public, para redireccionar
+            en .htaccess :
+
+                <IfModule mod_rewrite.c>  
+                 RewriteEngine On 
+                RewriteRule ^(.*)$ public/$1 [L]
+                </IfModule>
+
+          NOTA
+             *OJO: El archivo ..htaccess, tiene que estar afuera, en carpeta principal (ojo con el punto con nombre de archivo)
+             * env , tiene que tener a juro un usuario y password (En CPANEL en BD, hay que asignar un usuario a la BD)
+             * hacer todo lo anterior antes de crear Tablas de BD
+
+         OTRA FORMA DE SUBLIR A LARAVEL (Dentro de public_html)
+           - Es poner el proyecto afuera , en principal sin la carpeta public. 
+             Y los archivos de public ponerlos afuera , public_html
+
+
+
+ VPS
+
+   https://www.youtube.com/watch?v=nKbnsGjAGOo

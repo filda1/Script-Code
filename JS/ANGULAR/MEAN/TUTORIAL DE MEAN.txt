@@ -1,0 +1,694 @@
+TUTORIAL DE MEAN
+
+
+  FAZT == https://www.youtube.com/watch?v=khCIunNAEHI (Parte 1)          
+       == https://www.youtube.com/watch?v=ccBtSAMFjto (Parte 2)
+
+       == https://github.com/FaztWeb/mean-employees
+
+
+  Angular E-COMMERCE (Mohammad Qaderi) == https://www.youtube.com/watch?v=UudYBTCC58o&list=PLVShYySLoZex7BU6V9tjAGrkXLE-ha6L6&index=1
+                                          https://github.com/mohammadqaderi/Ecommerce-Demo
+
+
+    David Acosta (completo) = https://www.youtube.com/watch?v=c9M-CHPaQtI&list=PL3vQyqzqjZ637sWpKvniMCxdqZhnMJC1d&index=11
+    MOLDEO INRERATIVO = https://www.youtube.com/watch?v=k1uM6YeEx6g&list=PLHgpVrCyLWApLDoezmOfrUXb-IMoDs5Ls
+
+
+--------------------------------------------------------------------------------------------------------------------
+  Storage Gratis = Cloudinary.com
+   FATZ cloudnunary = https://www.youtube.com/watch?v=jP2DNQyOE90
+                      https://github.com/FaztWeb/nodejs_cloudinary_photo_gallery
+  SUBIR IMG, Node + MongoDB (Pinterest = Fast) = https://www.youtube.com/watch?v=aNYX2F1RX-s                                                  (https://github.com/FaztTech/nodejs-finterest)
+  SUBIR IMAG Azhar Husain(Angular + MongoDB) =  https://www.youtube.com/watch?v=NsHgvKeAEDI&t=1895s
+                                                           https://github.com/AzharHusain/youtube-file-upload-download
+--------------------------------------------------------------------------------------------------------------------
+
+  
+  TEMPLATE BOOSTRPT +ANGULAR = https://www.youtube.com/watch?v=PytGqVBuOq8
+                               https://fahmidasclassroom.com/how-to-convert-a-simple-html-template-into-angular-project/
+
+   ******ADMIN BRO***> (JSCasts)=== https://www.youtube.com/watch?v=7Ujn7g1JF1Q
+
+   ADMIN = https://www.youtube.com/watch?v=7Ujn7g1JF1Q
+   STRAPI ADMIN = https://strapi.io/documentation/3.0.0-alpha.x/getting-started/quick-start.html#_5-manage-and-add-data-to-content-type
+   ****** LOGIN y REGISTER = https://www.youtube.com/watch?v=IlpU1z3cvSQ  (1)
+                             https://www.youtube.com/watch?v=ma9tKRR0dGk&t=146s (2)
+                       https://github.com/AzharHusain/login-registration-passport
+
+  -------------------------------------------------------------------
+  EN SERVER: - Utiliza MVC
+             - Al crear una clase (Model) == crea una TABLE BD + conexion BD
+             - Los CONTROLLER pinta json
+
+
+****************************************************************************************************************
+
+ IDEA GENERAL:
+
+     * Cuando bajas datos(jason) lo cargas en un objeto directamente
+     * Cuando subes datos lo cargas en un objeto
+     * Y cuando quiers ver los datos recorres el objeto directamente
+
+     * La ide a de angular solo es guardar datos temporalmente
+
+-----------------------------------------------------------------------------------------------------------------
+  
+   A. EJEMPLO CRUD (Formulario envia datos en la misma pagina, en la que se ve los datos)
+
+    1. Crear Carpetas/archivos:     =====================================================================>SERVER
+
+         server        
+             controllers
+              employee.controller.js
+             models
+             routes
+               employee.routes.js
+             database.js
+             index.js
+
+           
+        1.1 Terminal (Afuera de la carpeta server):       npm init --yes
+        1.2 Terminal (Afuera de la carpeta server):       npm install express
+
+
+   PROVAR PIRMERO ASI
+   2- CRear carpeta,   server o src
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+const express = require('express');
+
+const app = express();
+
+
+
+ // starting the server
+ app.listen(app.get('port'), () => {
+    console.log(`server on port ${app.get('port')}`);
+    });
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+        >>node server/index.js (RUN)
+
+        1.3 en index.js
+
+             const express = require('express');
+             const cors = require('cors');               ...........................................> se puede usar morgan: const morgan = require('morgan');
+             const app = express();
+
+             const { mongoose } = require('./database');
+
+              // Settings
+             app.set('port', process.env.PORT || 3000);
+
+             // Middlewares
+             // app.use(morgan('dev'));
+             // app.use(express.json());
+
+             app.use(cors({origin: 'http://localhost:4200'}));      ...................................> se puede utilizar morgan:  app.use(morgan('dev'))
+            (express.json());
+
+             // Routes
+             app.use('/api/employees', require('./routes/employee.routes'));
+
+            // starting the server
+            app.listen(app.get('port'), () => {
+            console.log(`server on port ${app.get('port')}`);
+            });
+
+
+
+        1.4 Terminal: 
+                      node server/index.js (RUN)
+                        ..........................................................................> RUN AUTOMATICO
+
+                      npm install nodemon
+                         (configurar: package.json : en "scripts"  ===============> borrar no q esta adentro y poner:  "dev":"nodemon server/index.js"
+
+                     npm run dev ........................................................................................>(RUN NUEVO AUTOMATICO)
+
+                 
+                     npm install morgan .................................................................................> Ver por consola Peticiones/respuesas
+
+
+                     npm install mongoose ................................................................................> DRIVER BD
+
+
+                     mongod ...............................................................................................> INICIAR MONGODB
+
+                        pass y luego exit....
+
+
+
+
+        1.5 database.js:   
+
+
+                        const mongoose = require('mongoose');
+                        const URI = 'mongodb://localhost/nombreDB';
+
+                        mongoose.connect(URI)
+                        .then(db => console.log('db is connected'))
+                        .catch(err => console.error(err));
+
+                        module.exports = mongoose;
+
+
+
+
+   
+         1.6 Routes, en Routes => emplyeed.routes:
+
+
+            const express = require('express');
+            const router = express.Router();
+              
+
+             **********************************************************
+            // router.get('/', (req,res) => {
+                res.send('Hello World');
+                   })
+
+             O
+
+            // router.get('/', (req,res) => {
+              res.json({
+                    status: 'Hello World' });
+              })
+
+
+            ***********************************************************
+
+             const employee = require('../controllers/employee.controller');
+
+             router.get('/', employee.getEmployees);              ============================================> '/' no es la ruta verdadera, la verdadera esta index.js
+             router.post('/', employee.createEmployee);
+             router.get('/:id', employee.getEmployee);
+             router.put('/:id', employee.editEmployee);
+             router.delete('/:id', employee.deleteEmployee);
+
+             module.exports = router;
+
+
+
+
+           1.7 En models , crear TablaBD (EJ: employee.js):
+
+
+            const mongoose = require('mongoose');
+            const { Schema } = mongoose;
+
+            const employeeSchema = new Schema({
+                                   name: { type: String, required: true},
+                                   position: { type: String, required: true },
+                                   office: { type: String, required: true },
+                                   salary: { type: Number, required: true}
+            });
+
+            module.exports = mongoose.model('Nombre_Table', employeeSchema);
+
+            
+
+
+          
+            1.8 En Controlller, employee.controller.js:
+
+
+                    const Employee = require('../models/employee');
+
+                      const employeeCtrl = {};
+
+
+                      employeeCtrl.getEmployees = async (req, res, next) => {
+                      const employees = await Employee.find();
+                      res.json(employees);
+                      };
+
+
+                     employeeCtrl.createEmployee = async (req, res, next) => {
+                     const employee = new Employee({
+                                      name: req.body.name,
+                                      position: req.body.position,
+                                      office: req.body.office,
+                                      salary: req.body.salary
+                                      });
+                             await employee.save();
+                            res.json({status: 'Employee created'});
+                       };
+
+
+                    employeeCtrl.getEmployee = async (req, res, next) => {
+                    const { id } = req.params;
+                    const employee = await Employee.findById(id);
+                    res.json(employee);
+                    };
+
+
+
+                    employeeCtrl.editEmployee = async (req, res, next) => {
+                    const { id } = req.params;
+                    const employee = {
+                    name: req.body.name,
+                    position: req.body.position,
+                    office: req.body.office,
+                    salary: req.body.salary
+                    };
+
+                    await Employee.findByIdAndUpdate(id, {$set: employee}, {new: true});
+                    res.json({status: 'Employee Updated'});
+                    };
+
+
+
+
+                    employeeCtrl.deleteEmployee = async (req, res, next) => {
+                    await Employee.findByIdAndRemove(req.params.id);
+                    res.json({status: 'Employee Deleted'});
+                    };
+
+
+
+                    module.exports = employeeCtrl;
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ ANGULAR
+      PARTE 2 (Angular)
+
+            1. npm install -g @angular/cli
+            2. cd carpeta/proyecto  ng new frontend
+                                    ng new frontend --routing
+            3. cd carpeta/proyecto/frontend ng serve       ========================================> localhost:4200
+
+
+
+            OTRA TERMINAL Para Servidor                    ========================================> localhost:3000
+             A.   npm run dev
+             B.   cd service mongod start                  ============================> inciar MongoDB
+             C.   npm run dev
+
+
+                     
+
+                    4. carpetas/archivos:
+
+
+                         src
+                          app
+                            components
+
+                            models
+
+                            services
+
+
+
+
+            5. Terminal: 
+                   en:  
+                         src/app/components ng g c employees                     ==================================================> Crear componente
+
+                         cd..
+                         cd/models
+       
+                         src/app/models   ng g class employee                    ==================================================> Crear Modelo   
+
+                          cd..
+                         cd/services   
+
+                         src/app/services  ng g s  employee                       ==================================================>  Crear servicio  
+
+ 
+
+
+            6. En index.html       ==================================================> poner css ( Ej: Boostrapt, materializecss)   
+---------------------------------------------------------------------------------------------------------------
+              MATERIAL   teemas personalizados ==========> https://material.angular.io/guide/theming#defining-a-custom-theme (colores: https://material.io/design/color/the-color-system.html#tools-for-picking-colors)
+ 
+           - INSTALAR ANGULAR MATERIAL ; >>  c:/proyecto/frontend  ng add @angular/material
+            - Y tambien   ng add @angular/pwa
+
+              Funcionamiento Angular Material:
+
+                 -crear material.ts:
+
+
+                 - y poner en app.module.ts:   ===========> importat materaial ts
+                         import  { MaterialModule }  from './material'
+                    
+                     imports: MaterialModule,
+
+---------------------------------------------------------------------------------------------------------------
+
+                         
+            7. employee.html:
+                      <div class="card-content">
+                       <form #employeeForm="ngForm" (ngSubmit)="addEmployee(employeeForm)">
+                         <input type="hidden" name="_id" #_id="ngModel" [(ngModel)]="employeeService.selectedEmployee._id"> 
+                             
+                                       ===========> ngModel: llama a class en                                                                                                                                          service ===> va a la varible q                                                                                                                                          tiene el obeto y accede a la propiedad
+
+
+
+            
+            8. app.module.ts                  ===========================================================> configurar
+
+                   import { BrowserModule } from '@angular/platform-browser';
+                   import { NgModule } from '@angular/core';
+                   import { FormsModule } from '@angular/forms';
+                   import { HttpClientModule } from '@angular/common/http';
+
+
+
+            9. modules/employee.ts:
+
+                      
+                     export class Employee {
+
+                        
+                         _id: string;
+                         name: string;
+                         position: string;
+                         office: string;
+                         salary: number;
+
+                        constructor(_id = '', name = '', position = '', office = '', salary = 0) {
+                                    this._id = _id;
+                                    this.name = name;
+                                    this.position = position;
+                                    this.office = office;
+                                    this.salary = salary;
+                        }
+
+                     }  
+
+             10. services/employees.ts                             =======================================================> Consumir API
+
+                         import { Injectable } from '@angular/core';
+                         import { HttpClient } from '@angular/common/http';
+
+                         import { Employee } from '../models/employee';
+
+                        @Injectable({
+                            providedIn: 'root'
+                                   })
+
+                      export class EmployeeService {
+
+                            selectedEmployee: Employee;
+                            employees: Employee[];
+  
+                             readonly URL_API = 'http://localhost:3000/api/employees';
+
+                             constructor(private http: HttpClient) {
+
+                             this.selectedEmployee = new Employee();
+                             }
+
+                             postEmployee(employee: Employee) {
+                             return this.http.post(this.URL_API, employee);    =========================> envio form a  employee.ts se pasa los datos a  la classe(en                                                                                                             emplooyeeService) ====> carga el objeto
+                             }
+
+                             getEmployees() {
+                             return this.http.get(this.URL_API);
+                             }
+
+                             putEmployee(employee: Employee) {
+                             return this.http.put(this.URL_API + `/${employee._id}`, employee);
+                             }
+
+                             deleteEmployee(_id: string) {
+                             return this.http.delete(this.URL_API + `/${_id}`);
+                              }
+                        } 
+
+                   
+                      * No olvidar configurar app.module.ts
+
+
+
+                    11. FURMULARIO PASA DATOS A TS del subcomponente
+                         
+ <div class="container">
+  <div class="row">
+    <div class="col s5">
+      <div class="card">
+        <div class="card-content">
+          <form #employeeForm="ngForm" (ngSubmit)="addEmployee(employeeForm)">
+            <input type="hidden" name="_id" #_id="ngModel" [(ngModel)]="employeeService.selectedEmployee._id">
+            <div class="row">
+              <div class="input-field col-s12">
+                <input type="text" name="name" #name="ngModel" [(ngModel)]="employeeService.selectedEmployee.name" placeholder="Enter your FullName">
+              </div>
+              <div class="input-field col-s12">
+                <input type="text" name="position" #name="ngModel" [(ngModel)]="employeeService.selectedEmployee.position" placeholder="Enter your Position">
+              </div>
+              <div class="input-field col-s12">
+                <input type="text" name="office" #name="ngModel" [(ngModel)]="employeeService.selectedEmployee.office" placeholder="Enter your Office">
+              </div>
+              <div class="input-field col-s12">
+                <input type="text" name="salary" #name="ngModel" [(ngModel)]="employeeService.selectedEmployee.salary" value="0" placeholder="Enter your Salary">
+              </div>
+              <div class="card-action">
+                <div class="input-field col-s12">
+                  <button class="btn right" style="margin-left: 2px;" (click)="resetForm(employeeForm)">Clean</button>
+                  <button class="btn right">Save</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="col s7">
+      <table class="striped highlight black-text">
+        <thead>
+          <th>Name</th>
+          <th>Position</th>
+          <th>Office</th>
+          <th>Operations</th>
+        </thead>
+        <tbody>
+          <tr *ngFor="let employee of employeeService.employees">
+            <td>{{ employee.name }}</td>
+            <td>{{ employee.position }}</td>
+            <td>{{ employee.office }}</td>
+            <td>
+              <a (click)="editEmployee(employee)">
+                <i class="material-icons">edit</i>
+              </a>
+              <a (click)="deleteEmployee(employee._id, employeeForm)">
+                <i class="material-icons">delete</i>
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+                    12. RECIBO LOS DATOS DEL FORMULARIO, employee.ts
+
+
+                         import { Component, OnInit } from '@angular/core';
+                         import { EmployeeService } from '../../services/employee.service';
+                         import { NgForm } from '@angular/forms';
+                         import { Employee } from '../../models/employee';
+
+                         declare var M: any;
+
+                        @Component({
+                                    selector: 'app-employee',
+                                    templateUrl: './employee.component.html',
+                                    styleUrls: ['./employee.component.css'],
+                                    providers: [ EmployeeService ]
+                                    })
+
+                       export class EmployeeComponent implements OnInit {
+
+                                  constructor(private employeeService: EmployeeService) { }
+
+                                              ngOnInit() {
+
+                                                   this.getEmployees();
+                                               }
+
+                                   addEmployee(form?: NgForm) {
+
+                                         console.log(form.value);
+
+                                           if(form.value._id) {
+                                               this.employeeService.putEmployee(form.value)
+                                               .subscribe(res => {                           =======================> subcribe: es para escuchar respuesta de servidor
+                                                this.resetForm(form);
+                                                this.getEmployees();
+                                                M.toast({html: 'Updated Successfully'});
+                                             });
+
+                                             } else {
+                                                     this.employeeService.postEmployee(form.value)
+                                                     .subscribe(res => {
+                                                     this.getEmployees();
+                                                     this.resetForm(form);
+                                                     M.toast({html: 'Save successfully'});
+                                                   });
+                                                }
+    
+                                            }
+
+                                            getEmployees() {
+                                                             this.employeeService.getEmployees()
+                                                            .subscribe(res => {
+                                                             this.employeeService.employees = res as Employee[]; ==============> vas a service y mete los datos en lista de obejetos                                             console.log(res);
+                                                            });
+                                                           }
+
+                                           editEmployee(employee: Employee) {
+                                                              this.employeeService.selectedEmployee = employee;
+                                           }
+
+
+                                           deleteEmployee(_id: string, form: NgForm) {
+                                                       if(confirm('Are you sure you want to delete it?')) {
+
+                                                               this.employeeService.deleteEmployee(_id)
+                                                               .subscribe(res => {
+                                                               this.getEmployees();
+                                                               this.resetForm(form);
+                                                               M.toast({html: 'Deleted Succesfully'});
+                                                               });
+                                                          }
+                                            }
+
+                                          resetForm(form?: NgForm) {
+
+                                                               if (form) {
+                                                                   form.reset();
+                                                                      this.employeeService.selectedEmployee = new Employee();
+                                                                  }
+                                                            }
+
+                                  }
+
+
+                        13. Conectar puerto 4200 y puerto 3000 ===============> utlizo CORS
+
+                          terminal: install npm cors
+
+                          En index.js poner:
+
+                                         const cors = require('cors');
+ 
+                                         //Middlewares
+                                         app.use(cors({ origin:'hhtp: localhost:4200'}));
+
+
+                        * npm run dev
+
+----------------------------------------------------------------------------------------------------------------
+ 
+ 1.  LOGIN Y REGISTER (ANGULAR + NODE + MONGODB)
+
+            Fatz= https://www.youtube.com/watch?v=rPD0eY3dRqQ (1)
+                  https://www.youtube.com/watch?v=l_r9nRJ9YTkn (2)
+                   https://github.com/FaztWeb/angular-node-jwt/tree/master/frontend/src/app
+
+******************************************************************************************************************
+          "FUNCIONAMIENTO=  En Node: crea siempre un token, cuando se registra o un login. En Angular: se protrege las vistas con guard(). "
+                Token = es identificador de session
+                guard()= protege rutas en angular
+
+          En angular al hacer login o registro el servidor te da el toquen y lo guardas em localstorage de navegador
+          Con ese token activo entras en session pero si destruye el token la session  se acaba(logout)
+*****************************************************************************************************************
+            Node.js:
+                  - INSTALAR ENCRIPTADO DE PASSWORD ;   npm install bcrypt
+                  - SESSIONES ; npm i jsonwebtoken
+      
+            *en Angular(Se necesita guard , PAra proteger las rutas, valida si exite o no el token, que se guanda localstore del navegador)
+             >> ng g g auth
+
+             >> ng g s TokenInterceptor
+
+
+                  1- En angular: se guarda el token   =============> en localstore del navegador
+                  2- Se evalua el token con guard
+                  3- Y con token interceptor se =======> adiciona info, como token, autorizacion... a la cabecera
+                  4- Registra  app.module
+
+
+                 Archivos en Angular:
+                     auth.guard
+                     Token-interceptor
+                     Userservices
+                     app-routing(seleciona la ruta a protege)
+                        
+-------------------------------------------------------------------------------------------------------------------- 
+
+ 2.  LOGIN Y REGISTER (NODE + MONGODB)
+
+     FATZ = https://www.youtube.com/watch?v=-bI0diefasA&t=3297s
+            https://github.com/FaztTech/nodejs-notes-app
+
+
+     >> npm i connect-flash express-handlebars express-session method-override passport  passport-local  =================>   (por orden:msg rapidos, html de node,                                                                                                          session, para form put y delete, autenticacio,autenticacion        
+
+---------------------------------------------------------------------------------------------------------------------
+
+ 3.  UPLOAD IMAGES (NODE + MONGODB)
+
+     Storage Gratis = Cloudinary.com
+  * FATZ cloudnunary = https://www.youtube.com/watch?v=jP2DNQyOE90
+                        https://github.com/FaztWeb/nodejs_cloudinary_photo_gallery
+
+  * SUBIR IMG FATZ, Node + MongoDB (Pinterest = Fast) = https://www.youtube.com/watch?v=aNYX2F1RX-s                                                                               https://github.com/FaztTech/nodejs-finterest
+
+  * SUBIR IMAG Azhar Husain(Angular + Node + MongoDB) =  https://www.youtube.com/watch?v=NsHgvKeAEDI&t=1895s
+                                                           https://github.com/AzharHusain/youtube-file-upload-download
+
+
+
+    >> npm i multer        
+    >> npm i uuid
+    >> npm i fs-extra  ======================================> parecido a symbolicLink (mueve archivos)
+
+
+   >> npm i mongoose-double    ==============================> Para decimal, y float
+
+
+
+ ----------------------------------------------------------------------------------------------------------
+  PAGINATION (Domini Code) = https://www.youtube.com/watch?v=NUmLaVcx1HI&t=3s
+
+   Dentro de frontend:
+    >> npm install ngx-pagination
+
+    **Luego registrar en app.module
+---------------------------------------------------------------------------------------------------------------------
+   FILTRO (domini code)    = https://www.youtube.com/watch?v=NiI3LYlEpQs
+                             https://github.com/bezael/filterPipe/blob/master/src/app/components/posts/posts.component.ts
+   
+    >> ng g pipe nombre
+--------------------------------------------------------------------------------------------------------------------
+   PAGINATION + SEARCH = https://www.youtube.com/watch?v=HNpsawbmi18
+    MULTISELECT DROPDOWN = https://www.youtube.com/watch?v=T__Htw6DZgY
+
+ SEARCH REALTIME = https://www.youtube.com/watch?v=39RkRpFk6dM  (2)
+                   https://www.youtube.com/watch?v=nTzYNSvKivs  (1)
+
+                   hahttps://github.com/AldoHub/angular-search-engine
+                   https://github.com/AldoHub/Angular-Rxjs-Github/blob/master/src/app/main/main.component.ts
+
+--------------------------------------------------------------------------------------------------------------------
+  SHOPING - CART
+  
+        Ravi Veliyat =  https://www.youtube.com/watch?v=OohCIB22C2w&list=PLBQolri9XOIxJ5ErwbDt-dQIcTQ7jRQ9k&index=6
+                        https://github.com/veliyat/angular-8-shopping-cart  
+
+---------------------------------------------------------------------------------------------------------------------
+  TOAST =========> https://www.npmjs.com/package/ngx-toastr
+                   https://github.com/scttcper/ngx-toastr

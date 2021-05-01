@@ -1,0 +1,9 @@
+ API LAravel: Atif Naseem = https://www.youtube.com/watch?v=rDJ7BebkNso&list=PLYVcyg3AF-zvDDXBLDyn9UJSgAYMWpUS3
+
+Laravel APi
+  https://www.youtube.com/watch?v=rDJ7BebkNso&list=PLYVcyg3AF-zvDDXBLDyn9UJSgAYMWpUS3
+   https://blog.pusher.com/laravel-jwt/
+
+
+
+ ****API = https://www.youtube.com/watch?v=v7y-2cL9hLU&list=PLYVcyg3AF-zvDDXBLDyn9UJSgAYMWpUS3&index=4

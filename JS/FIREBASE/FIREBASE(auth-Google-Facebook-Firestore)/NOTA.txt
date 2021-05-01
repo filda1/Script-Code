@@ -1,3 +1,0 @@
-# FATZ ==== https://www.youtube.com/watch?v=1rLBjRF0ep0
-
-NOTA: Fue borrado en auth la creacion y autentificacion por email

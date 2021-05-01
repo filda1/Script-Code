@@ -1,4 +1,0 @@
-En VSCODE
-    G Coding Academy = https://www.youtube.com/watch?v=I4Z3OqpE8tc&list=PLl_hIu4u7P6672anZPqgEkWTQkSBOL56_&index=7
-
-  Proyecto Fluttet   >===========> View  ======> Command Pallete  =======> escribir ....flutter ( fluter new proyect)

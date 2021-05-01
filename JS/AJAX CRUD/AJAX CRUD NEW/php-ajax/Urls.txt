@@ -1,3 +1,0 @@
-
- Fatz = https://github.com/FaztWeb/php-ajax.git
-        https://www.youtube.com/watch?v=GeCNShiLdpc&t=15s
