@@ -1,0 +1,5 @@
+WinSCP
+
+ CAMBIAR EDITOR === FILES --> Edit--> Configure...--> ADD --> Externar Editor --> Browse
+
+  https://www.youtube.com/watch?v=iS0T_EG2dTk
