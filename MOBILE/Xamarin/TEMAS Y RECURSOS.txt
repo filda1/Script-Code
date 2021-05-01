@@ -434,3 +434,6 @@ https://www.digitalocean.com/community/questions/running-asp-net-core-2-1-ms-sql
 https://driesdeboosere.dev/blog/how-to-deploy-aspnet-core-31-app-to-digital-ocean-linux-droplet/VivleoApiDev!1aVivleoApiDev!1a
 
 *******************************************************
+
+   Alertta con selecct ===> Xamarin Forms DisplayActionSheet
+   https://www.youtube.com/watch?v=nXSuvsBBXkM
