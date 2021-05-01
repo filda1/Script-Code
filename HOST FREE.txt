@@ -5,13 +5,17 @@
  3- https://www.heliohost.org/
  4- heroku
  5- netiply
-
+***************************************************************************************************************
   *****https://app.netlify.com/
+
+  Server free =======> https://web.deta.sh/
+ Mysql free =======> https://remotemysql.com/
+                     https://freedb.tech/
 
 MYSQL FREE
  https://www.db4free.net/
 
-
+***************************************************************************************************************
   FRAMEWORK
     Hotwire ==================> sin JAVASCRIT Y con WEBSOCKETS
    

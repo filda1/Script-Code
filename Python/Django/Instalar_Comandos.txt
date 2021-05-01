@@ -1,0 +1,197 @@
+  Fatz= Pipenv = https://www.youtube.com/watch?v=-XIsKyNWILo
+
+  manual = https://platzi.com/tutoriales/1104-python/2292-pipenv-virtualenv-y-pip-en-un-solo-comando/
+
+   Developer. pe = https://www.youtube.com/watch?v=0-6etcOHQ_0&list=PLMbRqrU_kvbTGg_oUKXyWi63Mo9Yoot9K&index=1
+
+
+
+   PIPENV     -------------------------------> nuevo entorno virtual (para saltar versiones, en caso hubise un problema)
+
+
+   
+   >> python --version
+
+   >> pip3 install pipenv  ------------------------------------------->   ( Crear Carpeta para meter pipenv). Dentro Clone Repositorio vacio. Mas Dentro el creo proyectoDjango
+
+   >> pipenv shell         -------------------------------------------> crea entorno/activar, tambien aprece un archivo Pipfile
+
+   >> exit                ----------------------------------------------> desactivar
+
+   >> pipenv --rm         ----------------------------------------------> remover
+
+
+   ej: instalar paquete:   >> pipen install colorama
+
+     en Pipfile : aparece en [packages] (es para poduccion) . Y tambien para desarrollo [dev-packages]. Puedes instalar directamente dentro
+
+
+   >> pipenv lock -r           ----------------------------------------------> ver paquetes
+
+   >> pipenv uninstall colorama
+
+   >> pipenv install django          o       crear arichivo requeriments.tx ==========> poner Danjo==2.1.2 y    >> pipen install -r requeriments.tx
+
+*******************************************************************************************************************************************************************
+    CREAR PROYECTO  Y  APPS
+
+    >> Dentro de pipenv >>    django-admin startproject nombreAdmin    =============================================> Proyecto General
+       
+
+    *    Crear carpetas:  apps, static, templates       ===================================================>  (Dentro del Proyecto)
+
+    >> apps >>     django-admin startapp nombre_app      ==========================================> apps FRONTEND
+
+
+
+    >>  Dentro del proyect >>    python manage.py runserver           ==============================================> RUN 
+
+*********************************************************************************************************************************************************************
+
+
+   >> pipenv check        , se corrige y luego >> pipen install            -------------------------------------------------------> revision de problemas
+
+   >> pipenv lock                  --------------------------------------------------------------------> actualiza para deploy
+
+   >> pipenv  install --ignore-pipfile             -----------------------------------------------------> en caso de problemas packetes ignora
+
+
+
+    
+
+
+***********************************************************************************************************************************************************************
+
+
+   DJANGO + VUE.js
+
+    Django + Vue.js = codigo facilito = https://www.youtube.com/watch?v=WbAqnp-zqPU&list=PLpOqH6AE0tNh7-Z-Lka9e0hRA2OdNB0dx&index=2
+
+
+
+   .... despues de instalar entorno , statproyect y apps
+
+   1. >> pip  install django djangorestframework
+
+   2. en settings.py :                ------------------------------------------------------------------------------> registrar aplicacion
+
+     INSTALED_APP = [
+
+        'rest_framework',
+
+   3. El proyecto crear:
+
+
+       3.1 serializers.py:             -----------------------------------------------------------------------------------> JSON
+
+
+             from .models import Mimodelo
+             from rest_framework import serializers
+
+                  class NombreSerializer(serializers.ModelSerializer):
+                       class Meta:
+                           model Mimodelo
+                           fields= '_all_'
+
+
+
+       3.2 viewsets.py:               -------------------------------------------------------------------------------------------> Consumir API
+
+                    from rest_framework import viewsets
+                    from .model import Mimodelo
+                    from serializer import NombreSerializer
+                    
+                    class NombreViewSet(viewsets.Models.ViewSet):
+                      queryset= Mimodelo.objects.all();
+                      serializer_class = NombreSerializaer
+
+
+      3.3 urls.py:                                 -----------------------------------------------------------------------------> url api
+
+
+                       from rest_framework import routers
+                       from viewsets import NombreViewSets
+
+                       router = routers.SimpleRouter()
+                       router = register('nombres', NombreViewSet)          ---------------------------------------------------->Ej:  api/v1.0/nombres
+
+
+                       urlpatterns = router.urls
+
+
+     4. En urls.py del proyecto:                    ---------------------------------------------------------------------------> registrar
+
+
+           urlpatterns=[
+
+              path('api/v1.0/' include('nombreapp.urls'))
+
+                  
+
+----------------------------------------------------------------------------------------
+      VUE
+
+    >> vue init webpack nombre proyecto
+    >> nps run dev
+
+----------------------------------------------------------------------------------------
+    BOSTRAPT-VUE  ----          https://bootstrap-vue.js.org/docs
+
+    >> npm install boostrapt-vue   
+
+    5. Dentro de proyecto frontend--->main.js:
+
+                import Vue from 'vue'
+                import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+
+                 Vue.use(BootstrapVue)
+
+                 import 'bootstrap/dist/css/bootstrap.css'
+                 import 'bootstrap-vue/dist/bootstrap-vue.css'
+
+    6. Crar componente  igual a que laravel (Ojo si no pinta el componente, en el componente poner mode:'history', fuera de export
+
+    7. npm install axios
+    8. pip install django-cors-headers  ---------------------------> Problemas de conexion entre 2 servidores
+
+    9. registrar en settings:
+             
+             CORS_ORIGIN_ALLOW_ALL=true
+             CORS_ORIGIN_WHITELIST = (
+                'localhost:8080'
+
+             )
+
+              
+              INSTALL_APP...
+         
+                'corsheaders',
+
+             MIDDLEWARE
+                'corsheaders.middleware.CorsMiddleware',
+
+
+  6.  npm install sweetalert
+                  
+
+
+
+----------------------------------------------------------------------------------------------------------
+ INSTALAR BOOSTRAP
+
+   >>
+ pip install django-bootstrap4
+
+
+
+                      
+ 
+
+                    
+
+
+
+
+
+
+

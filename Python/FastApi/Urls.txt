@@ -1,0 +1,16 @@
+
+  FASTAPI ====>Python
+
+
+  
+  Bitfumes= https://www.youtube.com/watch?v=7t2alSnE2-I
+            https://github.com/bitfumes/fastapi-course
+
+            https://fastapi.tiangolo.com/es/
+
+ Server free =======> https://web.deta.sh/
+ Mysql free =======> https://remotemysql.com/
+                     https://freedb.tech/
+
+
+ FASTAPI + DOCKER = https://towardsdatascience.com/how-you-can-quickly-deploy-your-ml-models-with-fastapi-9428085a87bf

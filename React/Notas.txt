@@ -1,0 +1,7 @@
+
+ memo   ======> evita rederenrizacion inecesaria del COMPONENTE
+   * https://www.youtube.com/watch?v=sBA_SDhIPqQ
+
+ useMemo ======> guarda un VALOR
+ useCallback ======> guarda una FUNCION
+ 

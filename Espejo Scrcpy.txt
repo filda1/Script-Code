@@ -1,6 +1,7 @@
  
  scrcpy pa droid
 
+ USB
  1- https://github.com/Genymobile/scrcpy
  2  Dowload, Windows (debajo)  ====>  EJ: scrcpy-win64-v1.17.zip
  3 Conectar Telefono

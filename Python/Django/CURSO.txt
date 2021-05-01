@@ -1,0 +1,248 @@
+
+Developer. pe = https://www.youtube.com/watch?v=0-6etcOHQ_0&list=PLMbRqrU_kvbTGg_oUKXyWi63Mo9Yoot9K&index=1
+                 https://github.com/gitdeveloperpe/developerpe/tree/master/Django/canal/biblioteca
+
+*****   TELUSKO = https://www.youtube.com/watch?v=Mf_97YaUKag
+                  https://www.youtube.com/watch?v=Mf_97YaUKag
+                  
+-----------------------------------------------------------------------------------------
+   MODELO-VISTA-TEMPLATE (MVT)
+
+  0- Donwload Python, Ojo poner: add Path
+  2-  >> pip freeze                    ===================================> ves todo los paquetes instalados
+------------------------------------------------------
+  PIPENV
+  1- TUTO=https://medium.com/@piyushmaurya23/setting-up-django-using-pipenv-cf8ff9b2caa6
+
+  " c:/Fuera/Proyect"   ===============================================> Aqui, pipenv es fuera del proyect
+  * Dentro de una carpeta(creada por ti) instalas pipenv , instalas django y  luego creas un proyecto(no crear carpeta) por python
+
+
+# to create virtualenv using specific python version
+$ pipenv --python 3.6   =====================================================> Solo este
+# to create virtualenv with python3
+$ pipenv --three
+background-color: #2facb2;
+
+# Activate virtualenv
+$ pipenv shell         ====================================================> Entar/salir del entorno
+
+ >> pipenv install django=='1.11.*'    ( tambien install pylint === analisador de codigo)
+ 
+------------------------------------------------
+   3- >> admin-django starproyect  biblioteca   (django-admin startproject myProjectSite)  
+      >> cd biblioteca
+      >> python manage.py runserver
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+EJEMPLO  Django Proyect == Pipenv ,   SearchStore == Proyecto
+
+
+C:\Proyectos
+? cd Django Proyect
+
+C:\Proyectos\Django Proyect
+? pipenv shell
+Launching subshell in virtual environment…
+
+C:\Proyectos\Django Proyect
+(Django_Proyect-h2WOlC9Y) ? cd searchStore
+
+C:\Proyectos\Django Proyect\searchStore
+(Django_Proyect-h2WOlC9Y) ? cd apps
+
+C:\Proyectos\Django Proyect\searchStore\apps
+(Django_Proyect-h2WOlC9Y) ?  django-admin startapp best
+
+C:\Proyectos\Django Proyect\searchStore\apps
+(Django_Proyect-h2WOlC9Y) ? python manage.py runserver
+python: can't open file 'manage.py': [Errno 2] No such file or directory
+
+C:\Proyectos\Django Proyect\searchStore\apps
+(Django_Proyect-h2WOlC9Y) ? cd..
+
+C:\Proyectos\Django Proyect\searchStore
+(Django_Proyect-h2WOlC9Y) ? python manage.py runserver
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+   4 -  Dentro de apps (crear carpeta apps) =====> >> django-admin startapp nombre_app    (Ej libro)
+   5 - Registar app en setting.py  ====>  'app.libros'
+
+           biblioteca
+              apps               =============================================> proyecto frontend
+               libro
+                    init_py
+                    admin.py
+                    apps.py
+                    form.py       ==============================================> hacerlo
+                    model.py
+                    test.py
+                    views.py
+              biblioteca          =============================================> proyecto general/ADMIN
+                 settingns.py       ============================================> configuracion general
+                 urh.py
+                manage.py
+              templates
+                 libro
+                   index.html
+    
+    6. CREAR MODELOS             ==========================> https://docs.djangoproject.com/en/3.0/topics/db/models/
+
+    * Al crear un modelo de la app ============================> se debe registrar en admin.py desde la misma app
+
+
+    7. >> python manage.py makemigrations
+    8. >> python manage.py migrate
+   
+    9.  >> python.manage.py runserver 0.0.0.0:8006          ==============> puerto cualquier
+
+         o    python manage.py runserver
+
+-------------------------------------------------------------------------------------------------------------------
+    10. ADMIN
+    11. >> python manage.py createsuperuser      (Pones user y password)
+
+-------------------------------------------------------------------------------------------------------------------
+
+   12 . BASE DE DATOS   ============================> POSTGRESS (a  ver creado BD en POstgress)
+   13. >> pip install psycopg2       ================================> dRIVERS
+   14. Setting.py (proyecto general) ==> en databases ====> cambiar nombres
+   15. >> python.manage.py makemigrations
+   16. >> python.manage.py migration
+   17. >> python.manage.py createsuperuser 
+
+
+
+   * Meter el driver en el proyect: 
+     -     web= https://www.lfd.uci.edu/~gohlke/pythonlibs/ ===========>  mysqlclient-1.4.6-cp38-cp38-win32.whl
+   
+   18 . BASE DE DATOS   ============================> MySQL (a  ver creado BD en MySQL)
+   19. >> pip install  mysqlclient-1.4.6-cp38-cp38-win32.whl    ================================> dRIVERS
+   20. Setting.py (proyecto general) ==> en databases ====> cambiar nombres
+  
+        * Bueno = (https://www.youtube.com/watch?v=47H3OHdTkLw&t=449s)
+
+             DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'nameDB',
+        'USER': 'oliver',
+        'PASSWORD': 'yugiho2000',
+        'HOST': 'localhost',
+        'PORT': 3306,
+    }
+}
+
+   ** luego,  >> python manage.py migrate
+
+   ** Al crear Modelo tiene que es makemigrations
+
+   21. >> python manage.py makemigrations
+   22. >> python manage.py migrate
+   23. >> python manage.py createsuperuser  (filda, 123)
+
+
+   CUANDO SE CAMBIA UN CAMPO EN BD =
+    . >> python.manage.py makemigrations
+    . >> python.manage.py migration
+--------------------------------------------------------------------------------------------------------------------
+  
+   24. ADMIN 
+   25. Para ver tablas BDy registrar en Admin, ir admin.py ========> y registar
+
+-------------------------------------------------------------------------------------------------------------------
+   26 . RELACIONes en Models         =========================================>(tablas: Autor y Libro)
+       
+     dentro de la tabla  Libro:
+
+    1 a 1 ( 1 autor 1 libro)
+    autor_id = models.OneToOneField(Autor, on_delete = models.CASCADE)
+
+    1 a + ( 1 autor muchos libros)
+    autor_id = models.ForeingKey(Autor, on_delete = models.CASCADE)
+
+    + a + ( muchos a muchos)
+    autor_id = models.ManyToManyField(Autor)
+
+---------------------------------------------------------------------------------------------------------------------
+   CRUD
+   27. CREAR FORMS en form.py
+   28. URLS para cada apps 
+
+           urls.py( frontend):       ============================================> libro
+     
+           urls.py( proyecto general):
+
+                path('libro'/include('apps.libro.urls', nombre_route)))
+
+
+   29. Pasar de route ======> views =====> templates   (libro esta en carpeta templates, en settings ===> Dir 'templates']  
+
+     *En settings, registar templates  =========> 'DIRS': [os.path.join(BASE_DIR,'templates')],
+
+
+   urls.py (libro):
+       path ('',Home, name='index' )     ===================> llama Home en views=Controler
+
+  views.py
+      def Home(request):
+         return render (request, 'libro/index.html')
+
+
+  30. Otra manera de llamar (Saltar url)   16
+
+       urls.py (admin)
+        path ('home/',Home, name='index' )   
+
+       views.py(libro):
+            def Home(request):
+         return render (request, 'libro/index.html')
+  
+
+  31. Passar parametros
+   
+        path('libro'/<slug:titulo>/<int:numero>', libros, nombre_route)
+
+     
+  32.   LOGIN Y LOGOUT = https://www.youtube.com/watch?v=hdCsb9R1-wM
+
+     1- Ir Admin proyecto:
+         A- Poner en urls.py
+         B- Poner en settings.py
+       
+
+  33. PROTECCION DE  RUTAS (varias formas)
+
+    -En urls.py de cada/apps:
+   
+        from django.contrib.auth.decorators import login_required
+
+   
+       path('/Autor', login_required(Autor.as_view() ), name='autor')
+
+  34. Registro de usuario
+
+    En views.py:
+       from django.views.generic import CreateView
+      
+       class RegistroUser(CreateView):
+        model=xxx,
+        template_name=''
+        form_class= Formulario
+        success_url =.....
+
+  35:TRASLATE      Samuli Natri== https://www.youtube.com/watch?v=xI97sLMd1rM
+
+                                 https://github.com/SamuliNatri
+       
+
+   
+           
+
+
+
+
+
+   
