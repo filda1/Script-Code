@@ -15,6 +15,10 @@ REACT NATIVE (EXPO) ========> https://www.youtube.com/watch?v=hXDMWeD0ERM (Fazt)
            https://github.com/luizpaulogroup/react-native-tiktok#rocket-technologies
            psd------> https://www.instamobile.io/app-templates/tiktok-clone/
 
+ TUTORIAL = https://www.youtube.com/watch?v=Q-ZTv5lnOlU
+            * https://www.youtube.com/watch?v=Q8NCNP25LlE
+
+************************************************************************************************************
  ZOOM =====> https://www.youtube.com/watch?v=6soHPnHxHxI
 
  CLONES =========> https://www.youtube.com/watch?v=E95VMb6nzKc
@@ -135,4 +139,66 @@ Drag and Drop Example (Dnd, Typescript)
 *********************************************************************
  RN AR ========> https://www.youtube.com/watch?v=k12PTZHaHV4
  *ViroReact
+
+**********************************************************************
+
+ RN + LARAVEL SAnCTUM =====> https://www.youtube.com/watch?v=o1iSwdjBt-Q
+
+ ***********************************************************************
+ EDITOR DE VIDEO =====> https://img.ly/blog/a-photo-and-video-editor-for-your-react-native-apps/
+                       https://www.youtube.com/watch?v=e9JiCMQKrJY (PAGO)
+                       https://github.com/imgly/vesdk-react-native (PAGO)
+
+   *https://medium.com/swlh/video-encoding-in-react-native-ad97050f90de
+   *https://morioh.com/p/16243b19c4f4
+   *https://github.com/react-native-video/react-native-video
+
+   https://github.com/shahen94/react-native-video-processing
+   https://github.com/MostWantIT/react-native-video-editor
+   https://www.npmjs.com/package/react-native-video-editing
+   *react-native-ffmpeg = https://github.com/tanersener/react-native-ffmpeg
+    https://github.com/classapp/react-native-video-helper
+filter imagen = https://www.youtube.com/watch?v=AMAJLgafs6U
+
+  * https://reactnativeexample.com/react-native-image-video-picker-editor/
+  * https://github.com/blazerroadg/react-native-image-video-picker-editor
+
+  ************* https://reactnativeexample.com/react-native-image-video-picker-editor/
+
+ CLONE INSTAGRAM 
+  https://www.youtube.com/watch?v=1hPgQWbWmEk&t=20130s
+  https://www.youtube.com/watch?v=-qF0-iBsHAw&list=PLbYA1puA_WBSGWUSWo3Mxa4BSZZMMHOUC&index=16
+  https://github.com/Ajithmanali/react-native-instagram-clone
+
+ INSTAGRAM FILTERS
+  https://medium.com/@wcandillon/instagram-filter-63e169a54ce3
+   https://www.npmjs.com/package/gl-react-instagramfilters
+    https://github.com/st0ffern/gl-react-instagramfilters#readme
+    https://github.com/danielgindi/Instagram-Filters
+
+   *** https://github.com/Kolefn/react-native-snap-cam
+
+ EXPO AR 
+  https://github.com/NewThingsCo/expo-ar
+
+ AR VIRO
+   https://github.com/viromedia/viro
+
+ INSTAGRAM STICKERS
+  https://github.com/kelset/react-native-glshaders-testing
+  CREAR STICKERS = https://uptech.team/blog/create-snapchat-like-stickers-android
+
+ INSTAGRAM EFFECTS 
+  https://snyk.io/advisor/npm-package/@tu-nguyen-tech/react-native-effect-instagram?utm_medium=referral&utm_source=skypack&utm_campaign=snyk-widget
   
+
+ SHARED
+  https://www.npmjs.com/package/react-native-share-instagram-story
+  https://github.com/Jobeso/react-native-story-share
+
+ EFFECTS
+  https://www.npmjs.com/package/@tu-nguyen-tech/react-native-effect-instagram
+  https://github.com/TuNguyenThanh/react-native-effect-instagram
+
+ ICONS
+  https://oblador.github.io/react-native-vector-icons/

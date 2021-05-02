@@ -30,6 +30,9 @@ https://docs.hektorprofe.net/django/web-personal/patron-mvt-modelo-vista-templat
 -------------------------------------------------------------------------------------------
  DJANGO + CPANEL ===> https://www.youtube.com/watch?v=dJWVL15Jpws
 
+-------------------------------------------------------------------------------------------
+ crm = https://www.youtube.com/watch?v=fOukA4Qh9QA
+
 
 
 
