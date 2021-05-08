@@ -36,7 +36,13 @@ CHOMECAST A TV
   5. Nueva venta:Luego abajo nueva ventata, ...proyecta  a este equipo
 
 
-  
+ ******************************************
+  CRON JOB
+ https://crontab.guru/
+ https://loja5.zendesk.com/hc/pt-br/articles/360018241291-Criando-uma-Cronjob-Tarefas-Cron-
+
+ laravel = https://onlinewebtutorblog.com/laravel-8-cron-job-task-scheduling-tutorial/
+ ***https://github.com/ixudra/curl
 
 
 

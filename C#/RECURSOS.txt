@@ -144,3 +144,6 @@ LOCAL  =========> DESKTOP-K4N8P1J   , Autrntication
        Conveyor de Keyoti  = https://www.youtube.com/watch?v=zCXJlab-yDc
                              https://stackoverflow.com/questions/61932097/flutter-aspnet-core-socketexception-socketexception-os-error-connection-timed
 
+*********************************************************************
+ UNO PLATFORM
+ AVALONIA

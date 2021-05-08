@@ -3,3 +3,7 @@
     hdeleon.net =https://www.youtube.com/watch?v=8GbkIP2uC6o
 
   * Interfaces = multiherencia
+
+  * PLINQ == Linq + funciones  ==================> https://www.youtube.com/watch?v=Q-F95cnBKfg
+
+  * Memoization == CACHE(Proceso repetidos)     =======================> https://www.youtube.com/watch?v=XHzuC-xLwcg

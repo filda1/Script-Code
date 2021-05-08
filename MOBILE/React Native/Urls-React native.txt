@@ -15,6 +15,8 @@ REACT NATIVE (EXPO) ========> https://www.youtube.com/watch?v=hXDMWeD0ERM (Fazt)
            https://github.com/luizpaulogroup/react-native-tiktok#rocket-technologies
            psd------> https://www.instamobile.io/app-templates/tiktok-clone/
 
+ screen Mockup =====> https://www.instamobile.io/app-templates/tiktok-clone/
+
  TUTORIAL = https://www.youtube.com/watch?v=Q-ZTv5lnOlU
             * https://www.youtube.com/watch?v=Q8NCNP25LlE
 
