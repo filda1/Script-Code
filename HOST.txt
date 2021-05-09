@@ -9,6 +9,8 @@ DREAMHOST: https://bit.ly/NS-DreamHost
 INMOTION: https://bit.ly/NS-InMotion
 THESTRATEGA: https://bit.ly/NS-Stratega
 
+ MAIL PRUEBA = http://www.yopmail.com/en/
+
 VPS =====> vps9.net
 
 

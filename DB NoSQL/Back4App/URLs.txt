@@ -1,0 +1,15 @@
+
+  *https://www.youtube.com/channel/UCUE3mf1bb2ca21Q4YQn_xyQ/search?query=react%20native
+  * https://www.youtube.com/watch?v=etKvwbPc6iQ&list=PL_lJrbgUtzdc9VC_OqxPZrBJCj_O5s3zH&index=6
+  
+  * REACT NATIVE docs, https://www.back4app.com/docs/react-native/parse-sdk/working-with-files/react-native-save-file
+
+  * API DOC = https://dashboard.back4app.com/apidocs#initializing-parse-sdk
+
+  * https://www.youtube.com/watch?v=MUebHAqJXdA
+
+
+  REALCIONES
+   1 x 1 = https://www.youtube.com/watch?v=IVAagCCLK7E
+   1 x Many(Muchos) = https://www.youtube.com/watch?v=lkvhbeY8yqU
+   Many x Many  https://www.youtube.com/watch?v=wK9x6OOTgVs
