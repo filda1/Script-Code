@@ -16,6 +16,8 @@
    1 x Many(Muchos) = https://www.youtube.com/watch?v=lkvhbeY8yqU
    Many x Many  https://www.youtube.com/watch?v=wK9x6OOTgVs
 
+   Relaciones REACT NATIVE » https://www.youtube.com/watch?v=QjzcqpcVXIc
+
 
   REAL TIME
    https://www.youtube.com/watch?v=2cWL37bTqhw
@@ -24,3 +26,8 @@
    https://www.youtube.com/watch?v=zsCpD8vZUX0
    https://www.youtube.com/watch?v=ArWNAl1942w
    https://www.youtube.com/watch?v=xqqwN7_gFy0
+   https://www.youtube.com/watch?v=esqqhS6_hxs
+
+
+ GRAPH QL
+  https://www.youtube.com/watch?v=NPRwWtnYnac
