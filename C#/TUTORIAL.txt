@@ -40,7 +40,11 @@ ________________________________________________________________________________
 
 
 
+*********************************************************************************************************
+ hdeleon.net
+   Enty Framerwork + Inyeccion De = https://www.youtube.com/watch?v=7GnXQUMLJzA
 
+   Tipo de Inyeccion de dEPENDENCIA = https://www.youtube.com/watch?v=srPGwwMwAoA
    
 *********************************************************************************************************
   ASP.NET CORE + MYSQL

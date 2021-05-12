@@ -1,6 +1,8 @@
 
  Back4App:
  
+  parse = https://www.youtube.com/watch?v=4qZmp0Ku_PY&list=PL_lJrbgUtzddPSVdeiRvtM3hK1OnYzUmu
+
   *https://www.youtube.com/channel/UCUE3mf1bb2ca21Q4YQn_xyQ/search?query=react%20native
   * https://www.youtube.com/watch?v=etKvwbPc6iQ&list=PL_lJrbgUtzdc9VC_OqxPZrBJCj_O5s3zH&index=6
   
@@ -31,3 +33,4 @@
 
  GRAPH QL
   https://www.youtube.com/watch?v=NPRwWtnYnac
+  sERIE = https://www.youtube.com/watch?v=jRMGXZXj_bk&list=PL_lJrbgUtzdePF4c7qR-KfVZu0BfaDWGd
