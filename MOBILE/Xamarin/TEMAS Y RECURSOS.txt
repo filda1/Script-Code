@@ -52,10 +52,19 @@ https://forums.xamarin.com/discussion/170801/system-notimplementedexception-this
 
 PUSH N -------<< https://www.youtube.com/watch?v=djy17fwqlZ0
                  https://www.youtube.com/watch?v=CFPZYP3J3KY
+*******************************************************************************************************
+ ONE SIGNAL
+
+ Xamrin Gay = https://www.youtube.com/watch?v=djy17fwqlZ0&t=801s
 
 ONE SIGNAL = https://julianocustodio.com/2017/11/21/onesignal-push-notification
                https://documentation.onesignal.com/reference/create-notification#example-code---create-notification
             * https://www.youtube.com/watch?v=YsVk5sLZe14
+
+  ONESIGNAL + FIREBASE =  https://documentation.onesignal.com/docs/generate-a-google-server-api-key
+
+ ONESIGNAL APPLE = https://documentation.onesignal.com/docs/generate-an-ios-push-certificate
+********************************************************************************************************
 
  *https://xamarinlatino.com/env%C3%ADa-push-notifications-a-un-usuario-o-usuarios-espec%C3%ADficos-en-onesignal-6eb1a5a98067
 
@@ -374,9 +383,30 @@ DROID ICON SPLASH
  https://www.diawi.com/
 
 //////////////////////////// APPLE STORE //////////////////////////
+
+------------------------------------------------------------------
+ Provision Profile
+ * Al descarga P.. Profile de apple Store tiene que selecionar el Certificado q tinen tu maquina. Y luego Descargas
+ * Luego abajo doble click.
+
+------------------------------------------------------------------
+ Certificado
+ * Al bajarlo doble click y depues verificas si esta en KEY ACCESS (Porta-Chaves)
+
+  Sites:
+  Apple developer 
+   - Certificado
+   - P....Profile 
+   - Identificadores(PAra Push Notication). Tiene q subir el certificado y Luego descargas El certificado Push Noti~
+
+   App Connect (Appconnect)
+    * Crear App para Apple Store
+
+------------------------------------------------------------------
+
  
   PUBLICAR =====> 0. Cambiar Version. Y nombre de Package (Opciones IOS)
-                  1. Tener Certicado/distribucion de Mac (info.plis)
+                  1. Tener Certicado/distribucion de Mac (info.plis). Y selecciona el P...Profile correspondiente
                   2. Estar en Release y ir Archivos.....Publicacion
                   3. Subir el ipa con Transporte de Mac
              
@@ -391,7 +421,7 @@ https://www.youtube.com/watch?v=rUeytFzU-ak
    1-JPG
    2-1000x1000
    3- Acercar lo mas posible el logo los borders del fondo
-
+---------------------------------------------------------------------------
  POSICIONES ICONOS (https://makeappicon.com/)
     20x20 *2, 20x20 *3, 29x29 *2, 29x29 *3, 40x40 *2, 40x40 *3
 
@@ -399,8 +429,13 @@ https://www.youtube.com/watch?v=rUeytFzU-ak
 
     40x40 *1, 40x40 *2, 76x76 *1, 76x76 *2, 83.5x 83.5*2, ItunesAwork
 
-
-  TESTES SON INTERNOS O EXTERNOS =======> por email
+----------------------------------------------------------------------------
+   EMULADORES Q NECESITAS PARA PANTALLAS en Apple Store
+   * 11 PRO MAX
+   * 8 PLUS
+   * IPAD PRO 12
+----------------------------------------------------------------------------
+  TESTES SON INTERNOS O EXTERNOS =======> asignar usuario por email
 
 ///////////////////////////// PLAY STORE ///////////////////////////////
 
