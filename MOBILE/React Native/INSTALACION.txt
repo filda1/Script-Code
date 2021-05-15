@@ -16,3 +16,105 @@
 
  * https://blog.rocketseat.com.br/expo-sdk-38-melhorias-que-fazem-do-expo-uma-opcao-ainda-melhor/
 ----------------------------------------------------------
+
+
+
+ INSTALL  Bare  Workflow
+
+    *****************  CONFIG ******************
+
+
+   Instalación del ambiente de desarrollo
+      Programación Distribuida 2021-I
+      By Zulu 
+    https://www.youtube.com/watch?v=BTaDR4gW7vk&list=PLuEZQoW9bRnSZUVV93R1N9_xpqoiK-xhE&index=2
+____________________________________________________________________________
+
+Instalación del Visual Studio Code https://code.visualstudio.com/download
+
+ Agregar las siguientes extensiones al Visual Studio Code:
+
+  Auto Close Tag
+  Auto Import 
+  Auto Rename Tag
+  Bracket Pair Colorizer
+  ES7 React/Redux/GraphQL/React-Native snippets
+  Material Icon Theme
+  Path Intellisense
+  Prettier - Code formatter
+  React Native Snippet
+  React Native styled component Snippets
+
+  Instalar Java JDK: https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
+
+  Instalar Node JS https://nodejs.org/en/
+
+  Instalar Yarn https://classic.yarnpkg.com/lang/en/
+
+  Instalar Git: https://git-scm.com/downloads
+
+  * Instalar Expo Cli: https://reactnative.dev/ ====> https://reactnative.dev/docs/environment-setup
+     npm install -g expo-cli  /  yarn global add expo-cli (yarn global, a veces no funciona. Uluza npm global)
+
+  Instalar Android Studio, para poder crear un dispositivo virtual: https://developer.android.com/studio
+
+  [Solo para Mac] Instalar XCode, para poder virtualizar dispositivos iOS.
+
+  Crear una cuenta en Expo https://expo.io/
+
+  [Opcional] Instalar Github Desktop: https://desktop.github.com/ 
+
+  [Opcional] Instalar Vysor: https://www.vysor.io/download/ 
+
+  Configurar el modo de desarrollo en dispositivo físico Android
+
+  INstall Consola Cmander
+
+ *********************** FIN CONGIG ***************
+
+ ************************ INSTALL REACT NATIVE *******************
+ *https://blog.rocketseat.com.br/expo-sdk-38-melhorias-que-fazem-do-expo-uma-opcao-ainda-melhor/
+
+ >> cd/ Proyect
+ >> npx create-react-native-app testbare
+       -Default template
+
+ >> cd testbare && code .
+ >> expo login (OPCIONAL)
+ >> expo start   o  yarn start    ==================> Acceso General al metro PAgina web(Todo los dispositivos/Pataformas, Admin)
+    *  yarn android  ,  yarn ios ,    yarn web  ============> Acceso especifico a cada/Pataforma
+
+    
+               ----------------------------- COnfig MOBILE FISICA -------------------------------------
+               - Descargar Expo Go en mobile
+               - Abrir Expo Go
+               - Scanear QR con camara (El Qr de la consola) la primera vez. Despues solo es cargar los proyectos de expo go q estan abajo
+
+               ----------------------------- Fin COnfig MOBILE FISICA -------------------------------------
+
+
+                ----------------------------- COnfig EMULADORES  -------------------------------------
+                - Cargar emulador
+                - presiona:
+                   >> i  (IOS)
+                   >> a  (ANDROID)
+
+                   *Tambien da por METRO
+                ----------------------------- Fin COnfig EMULADORES  -------------------------------------
+   
+     * OPen WEB =====>  w
+
+ 
+   CONECT GITHUB
+   *******************************************************
+   1- Entrar Github ===> Crear un Repositorio
+   2- Consola dentro de proyecto:
+      >> cd c:/Proyecto/EjemploAPP      (COMANDOS copiar de: Push...Folder)
+          git init
+          git remote add origin https://gitlab.com/Nombre/zhort.git
+          git add .
+          git commit -m "Initial commit"
+          git push -u origin master
+
+   3- Bajar El desktop GitHub ===> Adicionar Repositorio (Buscar la el proyecto)
+   4. Y luego lo normal..
