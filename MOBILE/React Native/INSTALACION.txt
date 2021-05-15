@@ -54,7 +54,7 @@ Instalación del Visual Studio Code https://code.visualstudio.com/download
   Instalar Git: https://git-scm.com/downloads
 
   * Instalar Expo Cli: https://reactnative.dev/ ====> https://reactnative.dev/docs/environment-setup
-     npm install -g expo-cli  /  yarn global add expo-cli (yarn global, a veces no funciona. Uluza npm global)
+     npm install -g expo-cli  /  yarn global add expo-cli (yarn global, a veces no funciona. Usa npm global)
 
   Instalar Android Studio, para poder crear un dispositivo virtual: https://developer.android.com/studio
 
