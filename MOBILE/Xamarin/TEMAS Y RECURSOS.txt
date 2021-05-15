@@ -13,7 +13,9 @@ APP TO APP ====> Deep Linking
                      https://docs.microsoft.com/en-us/xamarin/xamarin-forms/app-fundamentals/deep-linking
 
 https://www.google.com/search?biw=1347&bih=644&sxsrf=ALeKk01zV4hpggdfe3xgUgy0ubjb9WRcJQ%3A1611695827967&ei=04YQYKO9Oq-H1fAPp_ChwAw&q=foro+xamarin+call+app+into+other+apps&oq=foro+xamarin%2C+call+app+into+other&gs_lcp=CgZwc3ktYWIQAxgAMgUIIRCgATIFCCEQoAE6BwgjELADECc6BwgAEEcQsAM6BAgjECc6BggAEBYQHjoECCEQFToICCEQFhAdEB46BwghEAoQoAFQ1PIBWLjrAmDOmQNoAXACeACAAa8DiAG4GZIBCjAuMTguMS4wLjGYAQCgAQGqAQdnd3Mtd2l6yAEJwAEB&sclient=psy-ab
-
+******************************************************************************
+ XCODE
+  - Abrir Xcode y en XCODE ===> Open Developer Tools ========> Silmulator
 *******************************************************************************
  ESPELLO ANDROR _________>   SCRCPY  ___> https://www.youtube.com/watch?v=5XxUiLc2ZA8
 *******************************************************************************
@@ -404,6 +406,10 @@ DROID ICON SPLASH
 
 ------------------------------------------------------------------
 
+ Push Notifications IOS
+  - En  apple developer, activar Identificadores(PAra Push Notication) del proyecto. 
+    Tiene q subir el certificado y Luego descargas El certificado Push Noti~
+-------------------------------------------------------------------
  
   PUBLICAR =====> 0. Cambiar Version. Y nombre de Package (Opciones IOS)
                   1. Tener Certicado/distribucion de Mac (info.plis). Y selecciona el P...Profile correspondiente

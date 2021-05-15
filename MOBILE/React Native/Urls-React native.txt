@@ -206,3 +206,7 @@ filter imagen = https://www.youtube.com/watch?v=AMAJLgafs6U
 
  ICONS
   https://oblador.github.io/react-native-vector-icons/
+
+------------------------------------------------------
+ CHAT = https://www.youtube.com/watch?v=T6D123ihmHU
+------------------------------------------------------
