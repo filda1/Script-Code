@@ -116,5 +116,5 @@ Instalación del Visual Studio Code https://code.visualstudio.com/download
           git commit -m "Initial commit"
           git push -u origin master
 
-   3- Bajar El desktop GitHub ===> Adicionar Repositorio (Buscar la el proyecto)
+   3- Bajar El desktop GitHub ===> Adicionar Repositorio (Buscar el proyecto)
    4. Y luego lo normal..
