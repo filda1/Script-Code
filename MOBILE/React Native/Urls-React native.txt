@@ -8,6 +8,13 @@ REACT NATIVE (EXPO) ========> https://www.youtube.com/watch?v=hXDMWeD0ERM (Fazt)
    ********Rocketseat
      ***********   Pradip Debnath = https://www.youtube.com/watch?v=QVEc3F8pPMs&list=PLQWFhX-gwJblNXe9Fj0WomT0aWKqoDQ-h  
 
+
+ 1-https://github.com/kamolesh97/React-Native-Tiktok-Home-UI-Clone/tree/master/src/Screens/Home
+ 2-https://github.com/SimCoderYoutube/InstagramClone/blob/master/frontend/components/Main.js
+    https://www.youtube.com/watch?v=1hPgQWbWmEk&t=20130s
+ 3-https://github.com/Zulu55/restaurants
+    https://www.youtube.com/watch?v=KhdOKEhZYQk&list=PLuEZQoW9bRnSZUVV93R1N9_xpqoiK-xhE&index=29
+
 **********************************************************************************************************
 
  TIK TOK » https://www.youtube.com/watch?v=byu5Z4i4JsU 

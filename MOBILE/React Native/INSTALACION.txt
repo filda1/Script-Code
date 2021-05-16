@@ -118,3 +118,25 @@ Instalación del Visual Studio Code https://code.visualstudio.com/download
 
    3- Bajar El desktop GitHub ===> Adicionar Repositorio (Buscar el proyecto)
    4. Y luego lo normal..
+
+  ***********************************************************
+
+   COMANDS. INSTALL DEPENDENCIAS
+   >>   yarn add @react-navigation/native   /  npm install @react-navigation/native  (NAVEGACION)
+   >>   yarn add @react-navigation/stack    /   npm install @react-navigation/stack  (NAVEGACION)
+
+   >>   expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view (DEPENDENCIAS)
+
+   >>   yarn add react-native-paper  /  npm install react-native-paper   (MATERIAL UI) ==> https://callstack.github.io/react-native-paper/getting-started.html
+     
+   >>   yarn add react-native-vector-icons   /  npm install react-native-vector-icons (ICONS)     
+
+   >>   npm i react-native-extended-stylesheet --save /  yarn add react-native-extended-stylesheet --save    (Styles complejos)====> https://github.com/vitalets/react-native-extended-stylesheet
+  
+   >>   yarn add react-native-linear-gradient /  npm install react-native-linear-gradient --save   (Gradient)===>https://github.com/react-native-linear-gradient/react-native-linear-gradient
+
+   >>   yarn add react-native-video  /  npm install --save react-native-video   (VIDEOS) =====> https://github.com/react-native-video/react-native-video
+
+  
+
+

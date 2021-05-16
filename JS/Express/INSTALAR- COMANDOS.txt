@@ -63,3 +63,5 @@ express-handlebars express-session method-override passport  passport-local  ===
      >> npm i mongoose-double    ==============================> Para decimal, y float
 
  *******************************************************************************************************************
+
+ Extencion vcode autocomplete ===> kITE
