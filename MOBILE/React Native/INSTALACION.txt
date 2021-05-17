@@ -122,13 +122,14 @@ Instalación del Visual Studio Code https://code.visualstudio.com/download
   ***********************************************************
 
    COMANDS. INSTALL DEPENDENCIAS
-   >>   yarn add @react-navigation/native   /  npm install @react-navigation/native  (NAVEGACION)
-   >>   yarn add @react-navigation/stack    /   npm install @react-navigation/stack  (NAVEGACION)
+   >>   yarn add @react-navigation/native   /  npm install @react-navigation/native  (NAVEGACION FUNCIONALIDADE)
+   >>   yarn add @react-navigation/stack    /   npm install @react-navigation/stack  (NAVEGACION + BARRA DE ARRIBA)
 
    >>   expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view (DEPENDENCIAS)
 
    >>   yarn add react-native-paper  /  npm install react-native-paper   (MATERIAL UI) ==> https://callstack.github.io/react-native-paper/getting-started.html
-     
+   >>   yarn add react-native-elements /  npm install react-native-elements (MATERIAL UI) ==> https://reactnativeelements.com/docs
+                                                                                              https://oblador.github.io/react-native-vector-icons/
    >>   yarn add react-native-vector-icons   /  npm install react-native-vector-icons (ICONS)     
 
    >>   npm i react-native-extended-stylesheet --save /  yarn add react-native-extended-stylesheet --save    (Styles complejos)====> https://github.com/vitalets/react-native-extended-stylesheet
@@ -139,4 +140,9 @@ Instalación del Visual Studio Code https://code.visualstudio.com/download
 
   
 
+  CONSTRUCCION
+  1. STack navegation
+  2. View LANDING :
+           Login
+           Register
 

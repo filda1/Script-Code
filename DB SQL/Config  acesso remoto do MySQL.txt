@@ -21,6 +21,8 @@ PASOS:
  3. Adicionar Todos privilegios
 
 **************************************************** AQUI *****************************************************
+>> ssh user@192-268.1.12
+
 sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
 
 
