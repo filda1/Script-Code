@@ -1,0 +1,10 @@
+
+ ************************************ ROUTES:****************************************
+ use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\WebSiteController;
+
+
+
+Route::post('/productSearch', [WebSiteController::class, 'productSearch'])->name('procura');
+
+************************************ ROUTES:****************************************
