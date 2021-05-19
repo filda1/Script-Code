@@ -146,3 +146,8 @@ Instalación del Visual Studio Code https://code.visualstudio.com/download
            Login
            Register
 
+  2.1 Probar Estados
+
+  3. Auth 
+        Config Back4App
+
