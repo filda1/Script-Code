@@ -150,4 +150,5 @@ Instalación del Visual Studio Code https://code.visualstudio.com/download
 
   3. Auth 
         Config Back4App
+        Probar Session
 
