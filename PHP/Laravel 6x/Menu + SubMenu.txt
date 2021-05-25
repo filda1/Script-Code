@@ -1,0 +1,66 @@
+--------------------------------------- CONTROLLER ------------------------------------------------------
+ //Producto Detallado
+
+     public function productFilter(Request $r){
+        $categoria = $r->categoria;
+        $subcategoria = $r->subcategoria;
+        $subcategoria2 = $r->subcategoria2;
+        $parceiros = Parceiro::all();
+        $categoriasPagina = PaginaInicial::where('ativo',1)->get();
+        $categorias = Categoria::all();
+
+        if(!is_null($categoria) && !is_null($subcategoria) && !is_null($subcategoria2))
+            $artigos = Artigo::where('categoria', $categoria)->where('subcategoria', $subcategoria)->where('subcategoria2', $subcategoria2)->get();
+        elseif(!is_null($categoria) && !is_null($subcategoria) && is_null($subcategoria2))
+            $artigos = Artigo::where('categoria', $categoria)->where('subcategoria', $subcategoria)->get();
+        elseif(!is_null($categoria) && is_null($subcategoria) && is_null($subcategoria2))
+            $artigos = Artigo::where('categoria', $categoria)->get();
+
+        $banner = Produto::first();
+        $search = true;
+        return view("products", compact('parceiros', 'artigos', 'categoriasPagina', 'categorias', 'banner', 'search'));
+    }
+
+
+  //Produto
+    public function products(){
+        $parceiros = Parceiro::all();
+        $categoriasPagina = PaginaInicial::where('ativo',1)->get();
+        $categorias = Categoria::all();
+        $artigos = Artigo::all();
+        $banner = Produto::first();
+        $search = false;
+        return view("products", compact('parceiros', 'artigos', 'categoriasPagina', 'categorias', 'banner', 'search'));
+    }
+
+
+--------------------------------------  VIEW ------------------------------------------------------------
+<div id="shopping-area" class="shop-tab">
+        <div class="container-fluid" style="padding-right:unset !important;padding-left:unset !important;">
+            <div class="menu-container">
+                <div class="menu">
+                    <ul>
+                        @foreach($categorias as $ca)
+                            <li>
+                                <!-- <a href="{{ url('productFilter').'?categoria='.$ca->id }}">{{ $ca->nome }}</a>-->
+                                <a >{{ $ca->nome }}</a>
+                                @if(countSubcategoriasByCategoria($ca->id) > 0)
+                                    <ul>
+                                        @foreach(getSubcategoriasByCategoria($ca->id) as $sub)
+                                            <li><a href="{{ url('productFilter').'?categoria='.$ca->id.'&subcategoria='.$sub->id }}">{{ $sub->nome }}</a>
+                                                <ul>
+                                                    @foreach(getSubCategoriasByCategoriaAndSubCategoria($sub->id,$ca->id) as $sub2)
+                                                        <li><a href="{{ url('productFilter').'?categoria='.$ca->id.'&subcategoria='.$sub->id.'&subcategoria2='.$sub2->id }}">{{ $sub2->nome }}</a></li>
+                                                    @endforeach
+                                                </ul>
+                                            </li>
+                                        @endforeach
+                                    </ul>
+                                @endif
+                            </li>
+                        @endforeach
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>

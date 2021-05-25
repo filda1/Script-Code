@@ -7,6 +7,7 @@
   * https://www.youtube.com/watch?v=etKvwbPc6iQ&list=PL_lJrbgUtzdc9VC_OqxPZrBJCj_O5s3zH&index=6
   
   * REACT NATIVE docs, https://www.back4app.com/docs/react-native/parse-sdk/working-with-files/react-native-save-file
+                        https://blog.back4app.com/expo-react-native/
 
   * API DOC = https://dashboard.back4app.com/apidocs#initializing-parse-sdk
 

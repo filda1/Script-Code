@@ -150,5 +150,7 @@ Instalación del Visual Studio Code https://code.visualstudio.com/download
 
   3. Auth 
         Config Back4App
-        Probar Session
+         >>  yarn add parse @react-native-async-storage/async-storage (SDK)
+                https://www.back4app.com/docs/react-native/parse-sdk/react-native-sdk
+        Probar SAVE and GeT User example back4app
 
