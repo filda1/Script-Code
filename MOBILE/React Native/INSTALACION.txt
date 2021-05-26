@@ -154,3 +154,16 @@ Instalación del Visual Studio Code https://code.visualstudio.com/download
                 https://www.back4app.com/docs/react-native/parse-sdk/react-native-sdk
         Probar SAVE and GeT User example back4app
 
+
+
+---------------------------------- INSTALL TEMPLATE BACK4APP ----------------------------------------
+  https://github.com/templates-back4app/react-native-expo  (SOLO CLONAR y Abrir)
+  https://www.youtube.com/watch?v=gHLg7fNHmiw
+
+ Open your project’s terminal.
+ 1 - Make sure you have installed the project dependencies by typing yarn install.
+ 2 Run yarn android or yarn ios to open the application on your target platform
+ 3- Done, your React Native App must be up and running and you also can see the device navigating to Back4App Dashboard and clicking on Instalations. 
+  https://www.back4app.com/docs/react-native/parse-sdk/react-native-template
+-----------------------------------------------------------------------------------------------------
+
