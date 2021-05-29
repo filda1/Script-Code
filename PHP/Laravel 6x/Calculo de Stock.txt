@@ -1,0 +1,65 @@
+//---------------------------- STOCK ----------------------------------------------//
+         $object1 = json_decode($request->cartitem,true);
+         $count1 = count($object1);
+
+         try {
+            for($j = 0; $j< $count1; $j++)
+            {
+                $ns = Stock::where('items_id',$object1[$j]['id'])->first();
+                $qq = intval($object1[$j]['quantity']);
+               
+                if(!$ns){
+                    continue;
+                }
+                else{
+                    if($qq > $ns->stock)
+                    {
+                        $arti=Artigo::where('id', $object1[$j]['id'])->first();
+                        $label = $arti->name;
+                        $now_stock= $ns->stock;
+                     
+                        return $this->exit($label, $now_stock);              
+                    }
+                    else
+                    {  
+                        continue;           
+                       /* $nss = $ns->stock;           
+                        $ns1= $nss-$qq;
+        
+                        Stock::where('items_id', $object1[$j]['id'])->update(['stock' => $ns1]); */                  
+                    }     
+                }            
+            }                 
+        } catch (Exception $e) {          
+        }   
+
+
+        try {
+            for($j = 0; $j< $count1; $j++)
+            {
+                $ns = Stock::where('items_id',$object1[$j]['id'])->first();
+                $qq = intval($object1[$j]['quantity']);
+               
+                if(!$ns){
+                    continue;
+                }
+                else{
+                            
+                        $nss = $ns->stock;           
+                        $ns1= $nss-$qq;
+        
+                        Stock::where('items_id', $object1[$j]['id'])->update(['stock' => $ns1]);                      
+                         
+                }            
+            }                 
+        } catch (Exception $e) {          
+        }   
+
+
+        //---------------------------- FIN STOCK -------------------------------------------//
+
+
+
+  public function exit($label, $now_stock){
+        return ["result" => "error", "artigo" => $label, "nstock"=>$now_stock ];
+    }

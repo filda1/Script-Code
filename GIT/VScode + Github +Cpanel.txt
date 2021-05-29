@@ -1,4 +1,11 @@
 
+  DEPLOY GITHUB  + UPADATE GITHUB + SERVER (Ftp + Github actions)
+
+   CDF=====> https://www.youtube.com/watch?v=3cLbh-k2qKk
+             https://github.com/gabrielfroes/github-actions-ftp
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
  desde VSCODE _____________> conectar Github _________________> y de gitgub conectar A CPANEL
 
 

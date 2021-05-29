@@ -190,3 +190,32 @@ class SendEmailController extends Controller
 
    
    
+********************************* EMAIL CON VALIDACION ****************************************
+
+  
+function sendEmail(Request $request)
+    {
+        if($request->name =='' Or $request->email =='' Or $request->message =='' ){
+
+     
+         return back()->with('success', 'Disculpe, Tem que preencher todas as caixas!');
+
+        }
+        else{
+            $empresa=env('MAIL_USERNAME');
+            $messa= $request->message. "."." ". "Nome:".$request->name.","."". "Email:".$request->email;
+            
+              $data = array(
+                'name'      =>  $request->name,
+                'message'   =>  $messa,
+                'email'   =>   $request->email,
+              ); 
+    
+             Mail::to($empresa)->send(new SendMail3($data)); 
+             
+         return back()->with('success', 'Obrigada, pelo contacto!');
+
+        }
+       
+    }
+************************************************************************************************************
