@@ -5,3 +5,10 @@ BASE DE JAVASCRIT:
   2- Accedemos a los valores del componente
 
   3- Y utilizamos AJAX
+
+
+----------------------------------------------------------------------------
+  FUNCIONAMIENTO DE JAVASCRIT(React, vue, angular, ....)
+  
+  0. Idea no recarga la Página
+  1. Y compila en una sola página leyendo de arriba hacia abajo y abriendo los componentes

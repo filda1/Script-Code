@@ -11,12 +11,12 @@
  WIRELESS
   *https://www.youtube.com/watch?v=tz94J0GUKfc
 
- 1- Conectar por cable, primero
+ 1- Conectar por cable, primero  ==================================> Que el TLF salga en Equipos
  2- CMD ====> cd SCRCPY DIR PATH ( cd C:\Scrcpy)
  3- CMD ====> adb devices
  4- CMD ====> adb tcpip 5555
  5- Quitar cable
- 6- adb connect Android_device_IP:5555 ( adb connect IP);    la Ip del wifi =====> est en wifi, en la rueda
+ 6- adb connect 192.1.x.x:5555 ( adb connect IP);    la Ip del wifi =====> est en wifi, en la rueda
  7- ejecutar scrcpy.exe
 
  adb kill-server ======> cerrar

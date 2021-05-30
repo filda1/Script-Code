@@ -13,6 +13,8 @@
 
 ********************************************************************************************************************
  REACT + TYPESCRIPT (Fatz) = https://www.youtube.com/watch?v=IbJFERe9F9w
+ REACT + NODE + MONGODB + DIGITAL OCENA SPACE (GALLERY, Fatz =====> https://www.youtube.com/watch?v=bYMT0KFuT1k&t=23s
+                                                                    https://github.com/FaztTech/ReactGallery
 
 ********************************************************************************************************************
 

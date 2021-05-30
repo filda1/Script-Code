@@ -4,4 +4,7 @@
 
  useMemo ======> guarda un VALOR
  useCallback ======> guarda una FUNCION
+
+ useParam =========> Extrae parametros de url
+ history ===========> obtiene todas nombres de la routes de la aplicacion
  
