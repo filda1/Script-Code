@@ -114,7 +114,7 @@ Instalación del Visual Studio Code https://code.visualstudio.com/download
           git remote add origin https://gitlab.com/Nombre/zhort.git
           git add .
           git commit -m "Initial commit"
-          git push -u origin master
+          git push -u origin master   /   git push --set-upstream origin master
 
    3- Bajar El desktop GitHub ===> Adicionar Repositorio (Buscar el proyecto)
    4. Y luego lo normal..
