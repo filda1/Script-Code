@@ -15,6 +15,15 @@ REACT NATIVE (EXPO) ========> https://www.youtube.com/watch?v=hXDMWeD0ERM (Fazt)
  3-https://github.com/Zulu55/restaurants
     https://www.youtube.com/watch?v=KhdOKEhZYQk&list=PLuEZQoW9bRnSZUVV93R1N9_xpqoiK-xhE&index=29
 
+MODEL
+https://github.com/jajapabatao/react-native-airbnb-clone
+    https://reactnativeexample.com/react-native-online-groceries-application/
+
+**********************************************************************************************************
+
+ SNIPETT = https://reactnativeexample.com/tag/dropdown/
+         
+
 **********************************************************************************************************
 
  TIK TOK » https://www.youtube.com/watch?v=byu5Z4i4JsU 

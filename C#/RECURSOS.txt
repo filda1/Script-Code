@@ -1,5 +1,11 @@
+********************************************************************************************
+ INSTALL EN SERVER: ASPNET.CORE + LINUX + NGINX
 
-
+  https://marxjmoura.com/posts/2019/08/18/host-aspnet-core-on-linux-with-nginx.html
+  https://hbhhathorn.medium.com/install-an-asp-net-core-web-api-on-linux-ubuntu-18-04-and-host-with-nginx-and-ssl-2ed9df7371fb
+  
+   ****https://www.youtube.com/watch?v=r0Qv4EpOxnw
+   ***** https://www.youtube.com/watch?v=uVIxeCLBEgo( How to Redirect IP Address to Domain (Apache and Nginx))
 *********************************************************************************************
  
 Gerald Versluis
