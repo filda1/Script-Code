@@ -1,0 +1,24 @@
+ 
+**********************************************************************************************
+ALERT
+Application.Current.MainPage.DisplayAlert(
+                      "Error",
+                      this.ID2,
+                      "Accept");
+*********************************************************************************************
+ OBJECT
+ using System.Net.Http;
+
+  string url = myUrl + "/api/performers/" + Application.Current.Properties["ID1"].ToString();
+            var handler = new HttpClientHandler();
+            HttpClient client = new HttpClient(handler);
+            string result = await client.GetStringAsync(url);
+
+            var resultObject = JArray.Parse(result);
+
+      
+            resultObject[0]["phone"].ToString();
+
+  *https://www.c-sharpcorner.com/article/working-with-json-string-in-C-Sharp/
+  OTRO ej:https://forums.xamarin.com/discussion/90603/how-to-get-the-json-string-by-using-httpclient-in-xamarin-forms
+************************************************************************************************
