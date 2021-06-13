@@ -122,15 +122,16 @@ Instalación del Visual Studio Code https://code.visualstudio.com/download
   ***********************************************************
 
    COMANDS. INSTALL DEPENDENCIAS
-   >>   yarn add @react-navigation/native   /  npm install @react-navigation/native  (NAVEGACION FUNCIONALIDADE)
-   >>   yarn add @react-navigation/stack    /   npm install @react-navigation/stack  (NAVEGACION + BARRA DE ARRIBA)
+
+  >> cd carpeta/nombre_proyecto ...
+
 
    >>   expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view (DEPENDENCIAS)
 
-   >>   yarn add react-native-paper  /  npm install react-native-paper   (MATERIAL UI) ==> https://callstack.github.io/react-native-paper/getting-started.html
-   >>   yarn add react-native-elements /  npm install react-native-elements (MATERIAL UI) ==> https://reactnativeelements.com/docs
-                                                                                              https://oblador.github.io/react-native-vector-icons/
-   >>   yarn add react-native-vector-icons   /  npm install react-native-vector-icons (ICONS)     
+   >>   yarn add @react-navigation/native   /  npm install @react-navigation/native  (NAVEGACION FUNCIONALIDADE)
+   >>   yarn add @react-navigation/stack    /   npm install @react-navigation/stack  (NAVEGACION + BARRA DE ARRIBA)
+
+   >>   yarn add react-native-vector-icons   /  npm install react-native-vector-icons (ICONS)      , ICONOS= https://oblador.github.io/react-native-vector-icons/
 
    >>   npm i react-native-extended-stylesheet --save /  yarn add react-native-extended-stylesheet --save    (Styles complejos)====> https://github.com/vitalets/react-native-extended-stylesheet
   
@@ -138,8 +139,16 @@ Instalación del Visual Studio Code https://code.visualstudio.com/download
 
    >>   yarn add react-native-video  /  npm install --save react-native-video   (VIDEOS) =====> https://github.com/react-native-video/react-native-video
 
-  
+   >>  yarn add prop-types / npm i --save prop-types (OPCIONAL)
 
+   >>   yarn add react-native-paper  /  npm install react-native-paper   (MATERIAL UI) ==> https://callstack.github.io/react-native-paper/getting-started.html
+   >>   yarn add react-native-elements /  npm install react-native-elements (MATERIAL UI) ==> https://reactnativeelements.com/docs
+   
+   >>   expo install @react-native-async-storage/async-storage   /   npm i react-native-async-storage/async-storage (NO EXPO)                                                                                 
+    
+   >>   expo install @react-native-community/async-storage
+
+               
   CONSTRUCCION
   1. STack navegation
   2. View LANDING :
@@ -157,7 +166,8 @@ Instalación del Visual Studio Code https://code.visualstudio.com/download
 
 
 ---------------------------------- INSTALL TEMPLATE BACK4APP ----------------------------------------
-  https://github.com/templates-back4app/react-native-expo  (SOLO CLONAR y Abrir)
+  https://github.com/templates-back4app/react-native-expo  (SOLO CLONAR)
+  >> npm i
   https://www.youtube.com/watch?v=gHLg7fNHmiw
 
  Open your project’s terminal.
@@ -166,4 +176,6 @@ Instalación del Visual Studio Code https://code.visualstudio.com/download
  3- Done, your React Native App must be up and running and you also can see the device navigating to Back4App Dashboard and clicking on Instalations. 
   https://www.back4app.com/docs/react-native/parse-sdk/react-native-template
 -----------------------------------------------------------------------------------------------------
+
+ HEADER NAVIGATION ======= https://reactnavigation.org/docs/header-buttons/
 

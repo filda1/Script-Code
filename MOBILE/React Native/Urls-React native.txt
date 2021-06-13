@@ -8,6 +8,8 @@ REACT NATIVE (EXPO) ========> https://www.youtube.com/watch?v=hXDMWeD0ERM (Fazt)
    ********Rocketseat
      ***********   Pradip Debnath = https://www.youtube.com/watch?v=QVEc3F8pPMs&list=PLQWFhX-gwJblNXe9Fj0WomT0aWKqoDQ-h  
 
+***********************************************************************************************************
+ EXAMPLE
 
  1-https://github.com/kamolesh97/React-Native-Tiktok-Home-UI-Clone/tree/master/src/Screens/Home
  2-https://github.com/SimCoderYoutube/InstagramClone/blob/master/frontend/components/Main.js
@@ -16,6 +18,7 @@ REACT NATIVE (EXPO) ========> https://www.youtube.com/watch?v=hXDMWeD0ERM (Fazt)
     https://www.youtube.com/watch?v=KhdOKEhZYQk&list=PLuEZQoW9bRnSZUVV93R1N9_xpqoiK-xhE&index=29
 
 MODEL
+  ***AirBNB ====> *https://github.com/thisis-Shitanshu/airbnb-clone-react-native-apollo-client-frontend   >======> CubUI
 https://github.com/jajapabatao/react-native-airbnb-clone
     https://reactnativeexample.com/react-native-online-groceries-application/
 

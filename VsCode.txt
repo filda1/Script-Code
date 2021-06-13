@@ -32,5 +32,13 @@ https://dev.to/thegeoffstevens/50-vs-code-themes-for-2020-45cc
     - Para refrescar es en la barra de abajo
 
 
- online@zie.pt
- onlinezie2021
+*******************************************************************************************************
+ EDITORES
+
+ 1-Codepen
+2-JSfiddle
+3-StackBlitz
+4-Codenvy
+5-Codeanywhere
+6-Code Sandbox
+*********7-Gitpod
