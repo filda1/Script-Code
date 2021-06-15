@@ -1,0 +1,6 @@
+
+     NAVIGATION
+      - Cuando no funciona navigation. Utlisar useNavigation
+             =======> https://reactnavigation.org/docs/connecting-navigation-prop/
+
+***************************************************************************************************************
