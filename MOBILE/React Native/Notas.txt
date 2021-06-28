@@ -4,3 +4,4 @@
              =======> https://reactnavigation.org/docs/connecting-navigation-prop/
 
 ***************************************************************************************************************
+    POPUP Medio =====> react-native-bottom-sheet

@@ -20,4 +20,11 @@
 
   En NAVEGADOR============> instalar extension  React developer tools   
 
-  FORM y VALIDACIONES Plugin (React Hook Form) ====> blueweeb =======> https://www.youtube.com/watch?v=wgutyeQTGDA&list=PLPl81lqbj-4KswGEN6o4lF0cscQalpycD&index=7                                                                             https://react-hook-form.com/
+  FORM y VALIDACIONES Plugin (React Hook Form) ====> blueweeb =======> https://www.youtube.com/watch?v=wgutyeQTGDA&list=PLPl81lqbj-4KswGEN6o4lF0cscQalpycD&index=7     
+
+                                                                      https://react-hook-form.com/
+
+********************************
+
+ FACEBOOK CLONE = REACT + NODE =======> (Lama dev) https://www.youtube.com/watch?v=pFHyZvVxce0
+                                                   https://github.com/safak/youtube/tree/mern-social-app
