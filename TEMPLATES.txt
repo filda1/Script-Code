@@ -12,6 +12,9 @@ TEMPLATES
    https://all-free-download.com/
    https://www.free-css.com/template-categories´
 
+  DISENO,LOGOS =====> https://www.canva.com/es_es/logotipos/plantillas/
+  DISENO WEB ======> https://webflow.com/
+
   E-COMMERCE = https://www.free-css.com/template-categories/ecommerce
                 https://cssauthor.com/e-commerce-website-templates/
                 https://colorlib.com/wp/free-bootstrap-ecommerce-website-templates/

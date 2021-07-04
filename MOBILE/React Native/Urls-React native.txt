@@ -19,14 +19,15 @@ REACT NATIVE (EXPO) ========> https://www.youtube.com/watch?v=hXDMWeD0ERM (Fazt)
 
 MODEL
   ***AirBNB ====> *https://github.com/thisis-Shitanshu/airbnb-clone-react-native-apollo-client-frontend   >======> CubUI
-https://github.com/jajapabatao/react-native-airbnb-clone
+   NUEVO =======>https://github.com/jajapabatao/react-native-airbnb-clone
     https://reactnativeexample.com/react-native-online-groceries-application/
 
 **********************************************************************************************************
 
  SNIPETT = https://reactnativeexample.com/tag/dropdown/
          
-
+**********************************************************************************************************
+ REACT NATIVE + NODE + MYSQL (FATZ)======> https://www.youtube.com/watch?v=HMKVnwlhJO0&t=2102s
 **********************************************************************************************************
 
  TIK TOK » https://www.youtube.com/watch?v=byu5Z4i4JsU 
