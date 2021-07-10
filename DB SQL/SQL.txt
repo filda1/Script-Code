@@ -20,4 +20,10 @@
 
  SELECT * FROM Customers WHERE NOT Country='Germany';
 
+***********************************************************
+ ADICIONA COLUMNA CON VALOR POR DEFAULT
+
+ ALTER TABLE MyTable
+ ADD MyNewColumn INT NOT NULL DEFAULT 0
+
 

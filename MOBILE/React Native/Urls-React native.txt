@@ -29,7 +29,17 @@ MODEL
 **********************************************************************************************************
  REACT NATIVE + NODE + MYSQL (FATZ)======> https://www.youtube.com/watch?v=HMKVnwlhJO0&t=2102s
 **********************************************************************************************************
+  PROYECTOS:
+    BARBERSHOP =====> https://github.com/carlosdiver/devBarber   /////   https://www.youtube.com/watch?v=kk_pGWBOkc4
+                      https://github.com/tavareshenrique/go-barber-mobile-ts
 
+    E_COMMERCE ==========> https://github.com/AbdelhamidLarachi/react-native-ecommerce
+                           https://github.com/anhquan291/e-commerce-app-react-native
+
+                    CLONE AMAZON ======> https://www.youtube.com/watch?v=9rXbq2lim0Y&list=RDCMUCYSa_YLoJokZAwHhlwJntIA&start_radio=1&rv=9rXbq2lim0Y&t=14407
+
+   BURGER =================> https://www.youtube.com/watch?v=diUDjNwZ8Lg
+**********************************************************************************************************
  TIK TOK » https://www.youtube.com/watch?v=byu5Z4i4JsU 
              https://github.com/kamolesh97/React-Native-Tiktok-Home-UI-Clone
 

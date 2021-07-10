@@ -8,3 +8,10 @@
   * PLINQ == Linq + funciones  ==================> https://www.youtube.com/watch?v=Q-F95cnBKfg
 
   * Memoization == CACHE(Proceso repetidos)     =======================> https://www.youtube.com/watch?v=XHzuC-xLwcg
+
+
+  * NULL
+    var x = null
+    x =  x ?? "OLA" (Si x es null entonces es OLA. IF...)
+
+     x ??="OLA"

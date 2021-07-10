@@ -28,3 +28,13 @@
 
  FACEBOOK CLONE = REACT + NODE =======> (Lama dev) https://www.youtube.com/watch?v=pFHyZvVxce0
                                                    https://github.com/safak/youtube/tree/mern-social-app
+
+ https://www.youtube.com/watch?v=pFHyZvVxce0&t=322s&ab_channel=LamaDev
+
+https://github.com/Sandermoen/instaclone
+
+https://bestofreactjs.com/repo/Sandermoen-instaclone-react-react-apps
+
+******************************
+
+ INSTAGRAM CLONE https://awesomeopensource.com/project/Doha26/Instagram-clone
