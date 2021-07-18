@@ -284,7 +284,9 @@ TEMPLATES SYNCFUSION https://help.syncfusion.com/xamarin/uikit/gettingstarted
              https://awesomeopensource.com/project/jsuarezruiz/xamarin-forms-goodlooking-UI?fbclid=IwAR2jBhp7wiG-tC7-4ufZe2Ec3HY7qBg5fwbait9xAXo78j9dJt108GQWRCs
 
  ****https://www.google.com/search?q=xamarin+clone+facebook&sxsrf=ALeKk03zx6ENfFP4vRq4udcuVQ1ofY-SNQ:1602629935754&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjRpZvg1bLsAhUMKBoKHUQ3D4MQ_AUoAXoECAwQAw&biw=1354&bih=583#imgrc=DOdLSJ_QFUDMPM
-
+***********************************************************************************************
+ FIREBASE STORAGE
+  Macoratti ====> http://www.macoratti.net/20/09/xf_crudfbstor2.htm
 ************************************************************************************************
      CARGAR IMAGENES, galeria y camera (Zuluaga) = https://www.youtube.com/watch?v=G8fx_vOntsI&list=PLuEZQoW9bRnSCZHlieeTk8Xji7JmaTCaq&index=60
 
