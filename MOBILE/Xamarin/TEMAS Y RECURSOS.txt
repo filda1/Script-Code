@@ -168,6 +168,12 @@ TEMPLATES SYNCFUSION https://help.syncfusion.com/xamarin/uikit/gettingstarted
 
  
 ******************************************************************************************
+
+ SHELL
+   MONTEMAGNO ===> https://www.youtube.com/watch?v=8iYpLMKE_ws&t=14s
+                   https://github.com/jamesmontemagno/MyCoffeeApp/tree/master/MyCoffeeApp/MyCoffeeApp
+
+
  SHELL (Macoratti)  = https://www.youtube.com/watch?v=Ec3Z1H0VPxQ
                       https://www.youtube.com/watch?v=pWgz59Hf09k
                               http://www.macoratti.net/19/07/xf_shell1.htm
