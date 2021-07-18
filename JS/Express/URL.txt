@@ -2,3 +2,20 @@
   Microsoft SQL Server & Nodejs REST API CRUD (+babel)
                                      https://www.youtube.com/watch?v=ReK0kscoF8o&t=23s
                                      https://github.com/FaztWeb/node-sqlserver-restapi
+
+**************************************************************************************
+ STRAPI
+
+  STRAPI + MYSQL
+   https://www.youtube.com/watch?v=KKWqGQKvwgQ (instalar)
+    https://www.youtube.com/watch?v=8B9r8eOje_k
+
+   *https://www.youtube.com/watch?v=8B9r8eOje_k (Tutorial)
+
+   PLUGING...
+   STORAGE ==> MEDIA LIBRARY ====> https://www.youtube.com/watch?v=gQD24HJP1mc
+   INTERNALIZACION (traduccion de datos) =====> https://www.youtube.com/watch?v=TOixZFCwe2U
+
+   STRAPI + REACT = https://www.youtube.com/watch?v=YuHk9J8Bp_k
+  
+***************************************************************************************
