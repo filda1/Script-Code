@@ -64,3 +64,19 @@ https://bestofreactjs.com/repo/Sandermoen-instaclone-react-react-apps
 
 TEMPLATE FREE REACT ======> https://dev.to/davidepacilio/35-free-react-templates-and-themes-32ci
 ********************************************
+
+ REACT NATIVE BURGER =====> https://www.uplabs.com/posts/a-react-native-restaurant-app
+                                 https://github.com/janimaenpaa/rateaburger
+https://github.com/Ocraniawan/ArkafoodelApps#usage-for-development
+https://pusher.com/tutorials/food-ordering-app-react-native-part-1
+   https://www.tutofox.com/?s=Tutorial+App+Delivery+
+
+   DIAGRAMA BD = https://app.quickdatabasediagrams.com/#/d/xk3MBE
+
+************************************************************************
+  CLONE AMAZON
+ **********https://github.com/aaroncodehub/amazon-clone-react-redux
+  https://github.com/SumitJadiya/amazon-clone-react
+*https://github.com/Subhampreet/Amazon-Clone-ReactJS
+*https://www.youtube.com/watch?v=RDV3Z1KCBvo&t=6005s
+
