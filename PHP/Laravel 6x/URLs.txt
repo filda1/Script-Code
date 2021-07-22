@@ -29,3 +29,5 @@ LARAVEL ZERO _ CONSOLE ====> https://laravel-zero.com/docs/installation
 
   stripe = https://www.youtube.com/watch?v=Vy9RAfW3BaY
            https://www.fundaofwebit.com/post/how-to-integrate-stripe-payment-gateway-in-laravel-5-8
+
+      https://artisansweb.net/paypal-payments-pro-integration-in-laravel/
