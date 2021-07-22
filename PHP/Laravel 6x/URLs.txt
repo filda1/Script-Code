@@ -15,3 +15,17 @@ LARAVEL ZERO _ CONSOLE ====> https://laravel-zero.com/docs/installation
 
  PAYPAL Andre Madarang ===> https://www.youtube.com/watch?v=_7YBIRQfSN0
              https://github.com/drehimself/laravel-paypal-example/blob/master/resources/views/welcome.blade.php
+
+            https://www.youtube.com/watch?v=MccqW29liPY
+
+
+ OMNYPAY == https://artisansweb.net/paypal-payment-gateway-integration-in-php-using-paypal-rest-api/
+
+
+    stripe»»»  https://www.youtube.com/watch?v=9CJD4EMvYqE
+               https://artisansweb.net/paypal-payment-gateway-integration-in-php-using-paypal-rest-api/
+
+
+
+  stripe = https://www.youtube.com/watch?v=Vy9RAfW3BaY
+           https://www.fundaofwebit.com/post/how-to-integrate-stripe-payment-gateway-in-laravel-5-8
