@@ -11,3 +11,7 @@ LARAVEL ZERO _ CONSOLE ====> https://laravel-zero.com/docs/installation
  LARAVEL-MEDIA-MANGER = https://github.com/ctf0/Laravel-Media-Manager
                         https://vuejsprojects.com/laravel-media-manager
                         https://github.com/ctf0/demos/tree/media-manager
+
+
+ PAYPAL Andre Madarang ===> https://www.youtube.com/watch?v=_7YBIRQfSN0
+             https://github.com/drehimself/laravel-paypal-example/blob/master/resources/views/welcome.blade.php
