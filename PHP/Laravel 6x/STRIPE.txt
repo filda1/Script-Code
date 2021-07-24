@@ -1,0 +1,60 @@
+
+ STRIPE
+
+ * composer require stripe/stripe-php
+
+----------------------------------------------------------------
+ View
+
+<!--<form action="/payment" method="POST">
+            {{ csrf_field() }}
+             
+            <div>
+            <script
+                        src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                        data-key="pk_...."
+                        data-amount= 120*100
+                        data-name="RSA Ecolodge"
+                        data-description="Reserve"
+                        data-label="Pagar com cartão"
+                        data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+                        data-locale="auto"
+                        data-currency="eur">
+                      </script>
+            </div> 
+      </form>-->
+
+---------------------------------------------------------------------------
+ ROUTE
+
+ Route::post('/payment', [App\Http\Controllers\PaymentController::class, 'payment']);
+
+---------------------------------------------------------------------------
+
+CONTROLLER
+
+use Stripe\Charge;
+use Stripe;
+use Session;
+
+
+  public function payment(Request $request)
+  {
+   \Stripe\Stripe::setApiKey("sk_....");
+	
+		$token = $_POST['stripeToken'];
+		$charge = \Stripe\Charge::create([
+		    'amount' => 120 * 100,
+		    'currency' => 'eur',
+		    'description' => 'Reserve',
+		    'source' => $token,
+        ]);
+    }
+
+
+---------------------------------------------------------------------------
+
+ Info: En stripe el dinero se ve en PAGO
+
+ CART NUMER TEST
+ https://stripe.com/docs/testing
