@@ -1,3 +1,0 @@
- 
-  NODE + TYPESCRIPT + SWAGGER (fatz)= https://www.youtube.com/watch?v=9bO0L1rfkvU&t=1s
-                                      https://github.com/FaztWeb/typescript-swagger-lowdb

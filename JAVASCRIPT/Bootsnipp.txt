@@ -1,0 +1,59 @@
+
+https://bbbootstrap.com/snippets/payment-form-three-different-payment-options-13285516
+ dropdows==https://bbbootstrap.com/snippets/bootstrap-navbar-search-and-dropdowns-15823796
+~--------------------------
+  buscador Booking = https://bootsnipp.com/snippets/7nQZx
+                     https://bootsnipp.com/snippets/WMlMa
+                     https://bootsnipp.com/snippets/AV5RK
+                     https://bootsnipp.com/snippets/DqxnG
+                      https://bootsnipp.com/snippets/bx65A
+
+
+ Fotos booking = https://bootsnipp.com/snippets/yyNda
+
+ Room = https://bootsnipp.com/snippets/exX0y
+
+ Hotel reservation = https://bootsnipp.com/snippets/bplPe
+
+ Carousel Extended = https://bootsnipp.com/snippets/v8lxB
+
+ Card de casas = https://bootsnipp.com/snippets/PEyWl
+
+ Lista de casa = https://bootsnipp.com/snippets/29o2
+
+ Descripcion de casa = https://bootsnipp.com/snippets/GanRg
+
+ Nav = https://bootsnipp.com/snippets/ORmzq
+       https://bootsnipp.com/snippets/lVrVa
+ 
+ Botones de borde = https://bootsnipp.com/snippets/O8V
+                    ******https://bootsnipp.com/snippets/V0aQd
+ Productos modal lista = https://bootsnipp.com/snippets/0Bb74
+
+ Galeria = http://ashleydw.github.io/lightbox/
+
+ Cartd float = https://bootsnipp.com/snippets/yyNda
+
+ Booking = https://bootsnipp.com/snippets/O50pZ
+           https://bootsnipp.com/snippets/7nQZx
+
+ Reserver hotel = https://bootsnipp.com/snippets/exX0y
+
+ Descripcion cards = https://bootsnipp.com/snippets/BE28p
+
+ List = https://bootsnipp.com/snippets/MaeN9
+
+ Foto = https://www.pexels.com/photo/black-outdoor-lounge-chair-in-between-blue-swimming-pool-under-white-cloudy-blue-sky-189296/
+        https://www.pexels.com/photo/parked-boat-1450353/
+
+        https://www.pexels.com/photo/beach-birds-calm-clouds-219998/
+-----------------------------------------------------------------------------------------------------------------
+  
+
+
+ Photo = https://unsplash.com/photos/AralL_A3-7o
+          https://unsplash.com/photos/ueBIGLmiI5A
+          https://unsplash.com/photos/wxLq7LD_aeM
+          ** https://www.google.com/search?sxsrf=ACYBGNQF-X00yZObHoH5Eq2j5KNnvpn-ZQ:1569876019827&q=Photos+san+tome+principe&tbm=isch&source=univ&client=firefox-b-d&sxsrf=ACYBGNQF-X00yZObHoH5Eq2j5KNnvpn-ZQ:1569876019827&sa=X&ved=2ahUKEwiJ-YL0s_nkAhUND2MBHU5NAYMQsAR6BAgFEAE&biw=1366&bih=654#imgrc=TtJxVyHwZwh4fM:
+          ** https://www.google.com/search?sxsrf=ACYBGNQF-X00yZObHoH5Eq2j5KNnvpn-ZQ:1569876019827&q=Photos+san+tome+principe&tbm=isch&source=univ&client=firefox-b-d&sxsrf=ACYBGNQF-X00yZObHoH5Eq2j5KNnvpn-ZQ:1569876019827&sa=X&ved=2ahUKEwiJ-YL0s_nkAhUND2MBHU5NAYMQsAR6BAgFEAE&biw=1366&bih=654#imgrc=Sh96ovZYTuaJAM:
+          ** https://www.google.com/search?sxsrf=ACYBGNQF-X00yZObHoH5Eq2j5KNnvpn-ZQ:1569876019827&q=Photos+san+tome+principe&tbm=isch&source=univ&client=firefox-b-d&sxsrf=ACYBGNQF-X00yZObHoH5Eq2j5KNnvpn-ZQ:1569876019827&sa=X&ved=2ahUKEwiJ-YL0s_nkAhUND2MBHU5NAYMQsAR6BAgFEAE&biw=1366&bih=654#imgdii=ZrAQbjeTxvaGuM:&imgrc=Sh96ovZYTuaJAM:

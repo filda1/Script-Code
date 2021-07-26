@@ -1,0 +1,68 @@
+<!-- SEARCH FORM -->
+    <form class="form-inline ml-3">
+      <div class="input-group input-group-sm">
+      <!-- <input type="search" placeholder="Search..." class="form-control search-input" /> -->  
+      <input  class="form-control form-control-navbar search-input" type="search" placeholder="Search" aria-label="Search" data-table="customers-list">
+        <div class="input-group-append">
+          <button class="btn btn-navbar" type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+
+
+ TABLE
+<div class="box-header">
+                  <h5 class="box-title"><span class="badge badge-pill badge-success">Data Table With Full Features</span></h5>
+                </div>
+                <!-- /.box-header -->
+                <div class="table-responsive">
+                  <table  class="table table-bordered table-striped customers-list" >
+                    <thead>
+                    <tr>
+                   
+
+ 
+
+
+ <!-- SEARCH TABLE JAVASCRIPT -->
+ <script>
+        (function(document) {
+            'use strict';
+
+            var TableFilter = (function(myArray) {
+                var search_input;
+
+                function _onInputSearch(e) {
+                    search_input = e.target;
+                    var tables = document.getElementsByClassName(search_input.getAttribute('data-table'));
+                    myArray.forEach.call(tables, function(table) {
+                        myArray.forEach.call(table.tBodies, function(tbody) {
+                            myArray.forEach.call(tbody.rows, function(row) {
+                                var text_content = row.textContent.toLowerCase();
+                                var search_val = search_input.value.toLowerCase();
+                                row.style.display = text_content.indexOf(search_val) > -1 ? '' : 'none';
+                            });
+                        });
+                    });
+                }
+
+                return {
+                    init: function() {
+                        var inputs = document.getElementsByClassName('search-input');
+                        myArray.forEach.call(inputs, function(input) {
+                            input.oninput = _onInputSearch;
+                        });
+                    }
+                };
+            })(Array.prototype);
+
+            document.addEventListener('readystatechange', function() {
+                if (document.readyState === 'complete') {
+                    TableFilter.init();
+                }
+            });
+
+        })(document);
+    </script>

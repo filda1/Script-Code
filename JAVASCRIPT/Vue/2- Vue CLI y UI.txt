@@ -1,0 +1,270 @@
+  //html
+  instalar en Visual Code : Vetur y Vue 2 Snippets
+
+https://cli.vuejs.org/
+    
+ INSTALACION VUE CLI
+
+  1- Instalar NODE Ltc
+  2 - En consola, en tu proyecto:  npm install -g @vue/cli
+  3 - Comprobar:  vue --version
+
+  * vue create hello-world ( Por CLi) / o por,  vue ui
+
+  4- Crear proyecto, Por Interfaz de usuario: vue ui
+
+      - Ir Localhost:8000 :
+                       * Crear proyecto
+                       * npm
+                       * Manual ===> eligir Router, Vuex, Babel y .... (Quitar Linter)
+
+
+      - Ver Proyecto, Tareas ====> Serve ====> Ejecutar Tarea =======> espera circulo verde carge, clik
+
+
+
+  INSTALAR VUE + BOOSTRAPT
+
+    *Antes tener un proyecto Vue
+
+    Seguir pasos:     https://bootstrap-vue.js.org/docs
+
+
+  INSTALAR VUE + VUETIFY
+
+     Por Vue UI , o cli se puede instalar complementos,  O CDN
+
+     Pasos a seguir: https://vuetifyjs.com/es-MX/getting-started/quick-start
+
+  INSTALAR AXIOS
+    https://www.npmjs.com/package/axios
+
+   poner en VUE:
+                en main.js:
+
+                      import axios from 'axios'
+                      import VueAxios from 'vue-axios'
+               
+                      Vue.use(VueAxios,axios)
+
+----------------------------------------------------------------------------------------------------------
+  ESTRUCTURA HECHA
+  
+    * index.html (en public) ==========> Pagina principal, tiene id=app, que conecta con main.js (tiene la instacion new Vue)
+    
+    * App.vue (Componente Padre) ===> tiene todas etiquetas html (Hay que registar e importar componentes)
+
+    * Componente X. vue  =======> export defaul == Vue.component
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+   EJEMPLO DE LISTA DE FRUTAS, Click en cantida y oredena por cantidad
+
+
+Lista.vue
+ 
+  <template>
+        <ul v-if="frutas != []">
+
+           <li v-for="(item,index) in arrayOrdena :Key="item.id" @click="aumentar(index)">
+            {{ item.nombre }}
+            <span> {{ item.cantidad }}</span> 
+           </li>
+
+        </ul>
+         <button @click="reiniciar"> Reiniciar </button>
+        
+     </div>
+  </template>
+
+     import {mapState,mapMutations} from 'vuex';
+
+     expor defauld{
+
+       name:'Lista';
+         computed:  {     
+                ....mapState(['frutas']),
+                arrayOrdena (){
+                  return this.frutas.sort ((a,b) => b.cantidad - a.cantidad)
+                }
+
+         },
+         
+         methods:    {     
+                   ...mapMutations(['aumentar','reiniciar'])
+              
+
+        }
+     }
+  
+       
+
+           
+  });
+
+Store
+  const store = new Vuex.Store({
+     state: {
+              frutas=[
+                {nombre : 'Manzana', cantidad:0},
+                {nombre : 'Pera', cantidad:0},
+                {nombre : 'Naranja', cantidad:0}
+              ]
+            },
+
+      mutations: {
+                    aumentar(state, index) {
+                                      state.frutas.cantidad++
+                                    }
+                  },
+
+                   reiniciar (state){
+                                     state.frutas.foreach( elemento =>{
+                                       elemento.cantidad=0
+                                     })
+                                  }
+
+       actions:  {
+       
+               }
+  })
+ @yield('content')
+-------------------------------------------------------------------------------------------------------------
+     ROUTES Y VIEWS (Como en Laravel)
+
+
+     App.vue (Nav ) ======> llama ROUTE =====> VIEW
+
+
+    ** Pasar un id por Route ( Route ===> va Componente ====> VIEW llama componente )
+
+      En Route :     path : "/Foto/: id".......
+
+      Creamos Componente X: 
+              
+                    <Template>   
+                              <route-link to="1">    ===========> Ejemplo: este 1 es asignado a vista actual, si estamos en Fotos, queda Fotos/1
+                                <h1> {{  $route.params.id}}</h1>  =========> recibe el id de Url
+                              </route-link>
+
+
+                                 ************* LINK DENTRO COMO POR CLICK*************
+                                <route-link :to="name: fotos , params {id: item }"   ===========> Ejemplo: fotos/1 , o fotos/2, o fotos/3
+                                 v-for="(item,index) in fotoArregglo :Key="item.id">
+                                <Button> fotos {{item}}</Button>  =========> 
+                              </route-link>
+
+
+
+                             <button @click="Home"> Home </button>
+                             <button @click="Anterior"> Anterior </button>
+                             <button @click="Siguiente"> Siguiente </button>
+
+
+  
+      En VIEW:  <Template>  <Foto/>.....
+
+                import foto from "@/components/Componente X.vue";  ==========> llamo al componente
+
+               
+             export defat...
+              name: Foto
+
+             data() {   
+                       return {
+                     fotosArreglo: [1,2,3]
+                      }
+                    }
+                 
+
+
+                     
+         methods:    {     
+                      home(){
+                         this.$route.push('/')
+                        }
+                   
+                        anterior(){
+                         this.$route.go(-1)
+                        }
+                   
+
+                        siguiente(){
+                         this.$route.go(1)
+                        }
+                   
+
+                    }
+
+
+----------------------------------------------------------------------------------------------------------
+
+   AXIOS EN VIEW
+
+         * Configurar antes axios
+
+                en main.js:
+
+                      import axios from 'axios'
+                      import VueAxios from 'vue-axios'
+               
+                      Vue.use(VueAxios,axios)
+
+
+            EN VIEW ; ENCIMA export
+                       import {axios} from "axios"
+
+
+   data (){
+
+         retrun{
+                  valor = null    ====================================> esta variable es carga desde abajo abajo, ahora la podemos utlizar en template arriba
+             }
+     }
+
+    methods:{
+               ...MapMutations(['MostrarLoadindg', 'OcultatrLoading'])  =================> conecto con VUEX, para activar
+                async getDolar(dia){
+
+                               let arrayFecha = dia.split(['-'])
+                               let ddmmyy =  arrayFecha[2]+arrayFecha[1]+arrayFecha[0]
+
+                    try {
+                               this.MostrarLoading ({titulo: 'kklkklk' , color: 'ghghh'}) ===================> Paso valores a VUEX
+                               let datos= await axios.get (`http..../${ddmmyy}`)
+                               console.log(datos);
+                               this.valor= dat.serie
+                        }
+                    catch (error){ 
+                                 }
+                    finally{ 
+                             this.OcultarLoading ========================================> llamo a los valores VUEX
+                                 }
+                      
+                            
+             }
+
+               created (){
+                               this.getDolar('1-10-2010')
+                            }
+
+            }
+           c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               

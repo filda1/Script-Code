@@ -1,3 +1,0 @@
-Seleccionar elemtos del DOM  ===https://www.youtube.com/watch?v=_aMg42Zqxa8
-
-cargar pagina = https://stackoverflow.com/questions/17636528/how-do-i-load-an-html-page-in-a-div-using-javascript

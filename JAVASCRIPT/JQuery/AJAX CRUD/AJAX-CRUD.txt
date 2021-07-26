@@ -1,0 +1,313 @@
+https://github.com/developerpe/biblioteca/commit/4324e42577295fa612226928b982a332e03841ef
+
+
+******************************   main.js  **********************************************************
+
+  // Load Resize 
+	$(window).on("load resize", function(event) { 
+		var windowWidth = $(window).width();  		 
+		if (windowWidth<1010) {
+			$('body').addClass('small-device'); 
+		} else {
+			$('body').removeClass('small-device');  
+		} 
+		
+	});
+ 
+});
+function abrir_modal_edicion(url) {
+	$('#edicion').load(url, function () {
+		$(this).modal('show');
+	});
+}
+function abrir_modal_creacion(url) {
+	$('#creacion').load(url, function () {
+		$(this).modal('show');
+	});
+}
+function abrir_modal_eliminacion(url) {
+	$('#eliminacion').load(url, function () {
+		$(this).modal('show');
+	});
+}
+function cerrar_modal_creacion(){
+	$('#creacion').modal('hide');
+}
+
+function cerrar_modal_edicion() {
+	$('#edicion').modal('hide');
+}
+
+function cerrar_modal_eliminacion() {
+	$('#eliminacion').modal('hide');
+}
+function activarBoton(){
+	if($('#boton_creacion').prop('disabled')){
+		$('#boton_creacion').prop('disabled',false);
+@@ -122,6 +129,14 @@ function mostrarErroresCreacion(errores){
+	}
+	$('#errores').append(error);
+}
+function mostrarErroresEdicion(errores) {
+	$('#erroresEdicion').html("");
+	let error = "";
+	for (let item in errores.responseJSON.error) {
+		error += '<div class = "alert alert-danger" <strong>' + errores.responseJSON.error[item] + '</strong></div>';
+	}
+	$('#erroresEdicion').append(error);
+}
+
+
+function notificacionError(mensaje){
+	Swal.fire({
+		title: 'Error!',
+		text: mensaje,
+		icon: 'error'
+	})
+}
+function notificacionSuccess(mensaje) {
+	Swal.fire({
+		title: 'Buen Trabajo!',
+		text: mensaje,
+		icon: 'success'
+	})
+
+
+  ******************************************* index.js *********************************************************
+function listadoUsuarios(){
+    $.ajax({
+        url: "/usuarios/listado_usuarios/",
+        type:"get",
+        dataType: "json",
+        success: function(response){
+            if($.fn.DataTable.isDataTable('#tabla_usuarios')){
+                $('#tabla_usuarios').DataTable().destroy();
+            }
+            $('#tabla_usuarios tbody').html("");
+            for(let i = 0;i < response.length;i++){
+                let fila = '<tr>';
+                fila += '<td>' + (i +1 ) + '</td>';
+                fila += '<td>' + response[i]["fields"]['username'] + '</td>';
+                fila += '<td>' + response[i]["fields"]['nombres'] + '</td>';
+                fila += '<td>' + response[i]["fields"]['apellidos'] + '</td>';
+                fila += '<td>' + response[i]["fields"]['email'] + '</td>';
+                fila += '<td><button> EDITAR </button><button> ELIMINAR </buttton></td>';
+                fila += '<td><button type = "button" class = "btn btn-primary btn-sm tableButton"';
+                fila += ' onclick = "abrir_modal_edicion(\'/usuarios/actualizar_usuario/' + response[i]['pk']+'/\');"> EDITAR </button>';
+                fila += '<button type = "button" class = "btn btn-danger tableButton  btn-sm" ';
+                fila += 'onclick = "abrir_modal_eliminacion(\'/usuarios/eliminar_usuario/' + response[i]['pk'] +'/\');"> ELIMINAR </buttton></td>';
+                fila += '</tr>';
+                $('#tabla_usuarios tbody').append(fila);
+            }
+            $('#tabla_usuarios').DataTable({
+                language: {
+                    "decimal": "",
+                    "emptyTable": "No hay información",
+                    "info": "Mostrando _START_ a _END_ de _TOTAL_ Entradas",
+                    "infoEmpty": "Mostrando 0 to 0 of 0 Entradas",
+                    "infoFiltered": "(Filtrado de _MAX_ total entradas)",
+                    "infoPostFix": "",
+                    "thousands": ",",
+                    "lengthMenu": "Mostrar _MENU_ Entradas",
+                    "loadingRecords": "Cargando...",
+                    "processing": "Procesando...",
+                    "search": "Buscar:",
+                    "zeroRecords": "Sin resultados encontrados",
+                    "paginate": {
+                        "first": "Primero",
+                        "last": "Ultimo",
+                        "next": "Siguiente",
+                        "previous": "Anterior"
+                    },
+                },
+            });
+        },
+        error: function(error){
+            console.log(error);
+        }
+    });
+}
+
+
+
+function registrar() {
+    activarBoton();
+    $.ajax({
+        data: $('#form_creacion').serialize(),
+        url: $('#form_creacion').attr('action'),
+        type: $('#form_creacion').attr('method'),
+        success: function (response) {
+            notificacionSuccess(response.mensaje);
+            listadoUsuarios();
+            cerrar_modal_creacion();
+        },
+        error: function (error) {
+            notificacionError(error.responseJSON.mensaje);
+            mostrarErroresCreacion(error);
+            activarBoton();
+        }
+    });
+}
+
+
+function editar(){
+    activarBoton();
+    $.ajax({
+        data: $('#form_edicion').serialize(),
+        url: $('#form_edicion').attr('action'),
+        type: $('#form_edicion').attr('method'),
+        success: function (response) {
+            notificacionSuccess(response.mensaje);
+            listadoUsuarios();
+            cerrar_modal_edicion();
+        },
+        error: function (error) {
+            notificacionError(error.responseJSON.mensaje);
+            mostrarErroresEdicion(error);
+            activarBoton();
+        }
+    });
+}
+
+
+function eliminar(pk) {
+    $.ajax({
+        data:{
+            csrfmiddlewaretoken: $("[name='csrfmiddlewaretoken']").val()
+        },
+        url: '/usuarios/eliminar_usuario/'+pk+'/',
+        type: 'post',
+        success: function (response) {
+            notificacionSuccess(response.mensaje);
+            listadoUsuarios();
+            cerrar_modal_eliminacion();
+        },
+        error: function (error) {
+            notificacionError(error.responseJSON.mensaje);
+        }
+    });
+}
+
+
+$(document).ready(function (){
+    listadoUsuarios();
+}); 
+
+
+******************************************** Lista_usuarios.html ********************************************
+
+ <Html>
+    
+   if request.is_ajax()    ===================================================> TRANSFORMA LA VISTA EN JSON O VIEW, dependiendo el caso
+        message = "This is ajax"
+    else:
+        message = "Not ajax"
+    return HttpResponse(message)
+
+  {% block extrajs %}
+    <script src="{% static 'js/lib/data-table/datatables.min.js' %}"></script>
+    <script src="{% static 'js/lib/data-table/dataTables.bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/usuarios/index.js' %}"></script>
+{% endblock extrajs %}
+
+
+   O
+
+
+{% extends 'index.html' %}
+{% load staticfiles %}
+{% block titulo %}
+Biblioteca.dev | Listado de Usuarios
+{% endblock titulo %}
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'css/lib/datatable/dataTables.bootstrap.min.css' %}">
+{% endblock extra_css %}
+{% block body %}
+<div class="card">
+    <div class="card-header">
+        <div class="row">
+            <div class="col-md-8">
+                <strong class="card-title">Listado de Usuarios</strong>
+            </div>
+            <div class="col-md-4">
+                <button type="button" class="btn btn-primary" onclick="abrir_modal_creacion('{% url 'usuarios:registrar_usuario' %}');"> REGISTRAR USUARIO</button>
+            </div>
+        </div>
+        
+    </div>
+    <div class="table-stats order-table ov-h">
+        <table id="tabla_usuarios" class="table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Username</th>
+                    <th>Nombres</th>
+                    <th>Apellidos</th>
+                    <th>Email</th>
+                    <th>Opciones</th>
+                </tr>
+            </thead>
+            <tbody>               
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="modal fade" id="creacion" role="dialog">
+
+</div>
+<div class="modal fade" id="edicion" role="dialog">
+
+</div>
+<div class="modal fade" id="eliminacion" role="dialog">
+
+</div>
+{% endblock body %}
+{% block extrajs %}
+
+
+********************************************* Editar Usuari.html************************************************
+
+<div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h2 class="modal-title">Edición de Usuario: {{ object }}</h2>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <form id="form_edicion" action="{% url 'usuarios:actualizar_usuario' object.pk %}" method="POST">
+            {% csrf_token %}
+            <div class="modal-body">
+                <div id="erroresEdicion">
+
+                </div>
+                {{ form.as_p }}
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-danger" type="button" onclick="cerrar_modal_edicion();">Cancelar</button>
+                <button id="boton_creacion" class="btn btn-primary" type="button"
+                    onclick="editar();">Confirmar</button>
+            </div>
+        </form>
+    </div>
+</div> 
+
+
+*********************************************** Eliminar Usuario ***********************************************
+
+<div class="modal-dialog modals-default">
+    <div class="modal-content">
+        <div class="modal-header">
+            Eliminación de {{ object }}
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body text-center" >{% csrf_token %}
+            <h3><strong>¿Desea eliminar {{ object }} ?</strong></h3>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-align="right"
+                onclick="eliminar({{ object.pk }});"><strong>CONFIRMAR ELIMINACIÓN</strong></button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal"><strong>CANCELAR</strong></button>
+        </div>
+    </div>
+</div> 

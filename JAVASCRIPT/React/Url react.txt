@@ -1,0 +1,84 @@
+  
+ TUTORIALES
+ fatz-----< https://www.youtube.com/watch?v=zIY87vU33aA
+ bluuWeb! ---------> https://www.youtube.com/watch?v=mOz5eNcEHu4&list=PLPl81lqbj-4KswGEN6o4lF0cscQalpycD
+                    ** GUIA = https://bluuweb.github.io/react-udemy/01-proyecto/
+                     GUIA 2 = https://github.com/facebook/create-react-app
+
+                
+   *******ZuluaGA   https://www.youtube.com/watch?v=fWsfvZD_abI&list=PLuEZQoW9bRnSZUVV93R1N9_xpqoiK-xhE&index=19
+    ******* MARIO  Diez , Redux    
+   ********Rocketseat
+                 
+
+********************************************************************************************************************
+ REACT + TYPESCRIPT (Fatz) = https://www.youtube.com/watch?v=IbJFERe9F9w
+ REACT + NODE + MONGODB + DIGITAL OCENA SPACE (GALLERY, Fatz =====> https://www.youtube.com/watch?v=bYMT0KFuT1k&t=23s
+                                                                    https://github.com/FaztTech/ReactGallery
+
+********************************************************************************************************************
+
+  En NAVEGADOR============> instalar extension  React developer tools   
+
+  FORM y VALIDACIONES Plugin (React Hook Form) ====> blueweeb =======> https://www.youtube.com/watch?v=wgutyeQTGDA&list=PLPl81lqbj-4KswGEN6o4lF0cscQalpycD&index=7     
+
+                                                                      https://react-hook-form.com/
+
+********************************
+
+ FACEBOOK CLONE = REACT + NODE =======> (Lama dev) https://www.youtube.com/watch?v=pFHyZvVxce0
+                                                   https://github.com/safak/youtube/tree/mern-social-app
+
+ https://www.youtube.com/watch?v=pFHyZvVxce0&t=322s&ab_channel=LamaDev
+
+https://github.com/Sandermoen/instaclone
+
+https://bestofreactjs.com/repo/Sandermoen-instaclone-react-react-apps
+
+******************************
+
+ INSTAGRAM CLONE https://awesomeopensource.com/project/Doha26/Instagram-clone
+
+*****************************************
+
+  ECOMMERCE ===== https://www.youtube.com/watch?v=tvdFYmJEaw4&list=PLB_Wd4-5SGAYsxD4JGaVdXll3PnoyI-AM
+                     Github Links      7
+
+                        Back End Source Code
+                        https://github.com/Rizwan17/ecommerce-back-end-rest-server.git  
+
+                         Admin App Source Code
+                         https://github.com/Rizwan17/ecommerce-admin-app.git
+
+                         Flipkart Clone
+
+                          https://github.com/Rizwan17/ecommerce-flipkart-clone.git
+
+
+                  https://www.youtube.com/watch?v=vXyvzF8R-aE&list=PLZdXBpi-l7C7-drJJF2rPQ44n5seXg_wv
+
+ EJE TEMPLATE = https://colorlib.com/wp/free-bootstrap-ecommerce-website-templates/
+                                                     Modist
+                                                     sublime
+                                                     Electro
+
+TEMPLATE FREE REACT ======> https://dev.to/davidepacilio/35-free-react-templates-and-themes-32ci
+********************************************
+
+ REACT NATIVE BURGER =====> https://www.uplabs.com/posts/a-react-native-restaurant-app
+                                 https://github.com/janimaenpaa/rateaburger
+https://github.com/Ocraniawan/ArkafoodelApps#usage-for-development
+https://pusher.com/tutorials/food-ordering-app-react-native-part-1
+   https://www.tutofox.com/?s=Tutorial+App+Delivery+
+
+   DIAGRAMA BD = https://app.quickdatabasediagrams.com/#/d/xk3MBE
+
+************************************************************************
+  CLONE AMAZON
+ **********https://github.com/aaroncodehub/amazon-clone-react-redux
+  https://github.com/SumitJadiya/amazon-clone-react
+*https://github.com/Subhampreet/Amazon-Clone-ReactJS
+*https://www.youtube.com/watch?v=RDV3Z1KCBvo&t=6005s
+
+ Clever Programmer ====> https://www.youtube.com/watch?v=RDV3Z1KCBvo&t=6005s ==> PARTE 5
+ https://medium.com/cleverprogrammer/amazon-clone-using-react-the-ultimate-guide-fba2b36f3458
