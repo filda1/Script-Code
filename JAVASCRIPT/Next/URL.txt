@@ -4,6 +4,18 @@
        bluuweb ========>    https://www.youtube.com/watch?v=uvMDKgK2es4&list=RDCMUCH7IANkyEcsVW_y1IlpkamQ&start_radio=1&rv=uvMDKgK2es4&t=1390
                             GUIA ==> https://bluuweb.github.io/nextjs/
 
+        NET NINJA ====> https://www.youtube.com/watch?v=2zRHlqc0_yw&list=PL4cUxeGkcC9g9gP2onazU5-2M-AzA8eBw&index=13
+
+                      *****Cod3r Cursos = https://www.youtube.com/watch?v=TzufYnZUmz4
+                                          https://www.youtube.com/watch?v=sWyP4NgLSpc
+
       doc ===> https://nextjs.org/docs/basic-features/data-fetching#getstaticprops-static-generation
 
+      freecodecamp » https://www.youtube.com/watch?v=1WmNXEVia8I&list=RDCMUC8butISFwT-Wl7EV0hUK0BQ&start_radio=1&rv=1WmNXEVia8I&t=8712
+
+      ****Traversy Media = https://www.youtube.com/watch?v=mTz0GXj8NN0
+
 *********************************************************************************************************************************************
+
+    NEXT.JS + context api = ***https://kaloraat.com/articles/nextjs-react-context-tutorial-how-to-use-context-api-with-nextjs
+                          https://www.youtube.com/watch?v=WJ8qEkmK0rE (Net ninja)

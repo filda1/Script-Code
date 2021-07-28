@@ -40,6 +40,8 @@ MODEL
 
    BURGER =================> https://www.youtube.com/watch?v=diUDjNwZ8Lg
 **********************************************************************************************************
+ SIGNAL R = https://medium.com/swlh/learn-how-to-deploy-a-react-native-chat-client-against-a-signalr-hub-on-asp-net-core-for-linux-1b73af1cb2be
+**********************************************************************************************************
  TIK TOK » https://www.youtube.com/watch?v=byu5Z4i4JsU 
              https://github.com/kamolesh97/React-Native-Tiktok-Home-UI-Clone
 
