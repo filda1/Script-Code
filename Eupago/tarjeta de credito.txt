@@ -1,0 +1,27 @@
+Para cartão de crédito, só é possível fazer em SOAP e não em REST.
+
+Consegue testar sem problema no postman.
+
+O url deverá ser este: https://sandbox.eupago.pt/clientes/api/api.php?wsdl=replica.eupagov20.wsdl
+
+e o tipo de request deverá ser em RAW->XML , com a seguinte estrutura:
+
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:api="API_Library">
+   <soapenv:Header/>
+   <soapenv:Body>
+       <api:pedidoCC>
+         <valor>2</valor>
+         <chave>xxxxxxxxxxxxxxxxxxx</chave>
+         <id>teste</id>
+      
+         <nome></nome>
+         <email>xxxxxxxxxxxx@xxxxxxxx.xx</email>
+         <lang>pt</lang>
+         <!--Optional:-->
+         <tds>1</tds>
+
+      </api:pedidoCC>
+
+   </soapenv:Body>
+</soapenv:Envelope>

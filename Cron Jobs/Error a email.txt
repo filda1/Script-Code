@@ -1,0 +1,3 @@
+  Ocular Cron para email  . poner =====>( &>/dev/null )
+
+  curl "http://dominio.come/ficheiro.php &>/dev/null"
