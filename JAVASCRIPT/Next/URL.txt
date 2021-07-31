@@ -9,7 +9,7 @@
                       *****Cod3r Cursos = https://www.youtube.com/watch?v=TzufYnZUmz4
                                           https://www.youtube.com/watch?v=sWyP4NgLSpc
 
-      doc ===> https://nextjs.org/docs/basic-features/data-fetching#getstaticprops-static-generation
+      doc oficial ===> https://nextjs.org/docs/basic-features/data-fetching#getstaticprops-static-generation
 
       freecodecamp » https://www.youtube.com/watch?v=1WmNXEVia8I&list=RDCMUC8butISFwT-Wl7EV0hUK0BQ&start_radio=1&rv=1WmNXEVia8I&t=8712
 
@@ -17,5 +17,16 @@
 
 *********************************************************************************************************************************************
 
-    NEXT.JS + context api = ***https://kaloraat.com/articles/nextjs-react-context-tutorial-how-to-use-context-api-with-nextjs
-                          https://www.youtube.com/watch?v=WJ8qEkmK0rE (Net ninja)
+    NEXT.JS + context api 
+                          =========> ***https://kaloraat.com/articles/nextjs-react-context-tutorial-how-to-use-context-api-with-nextjs
+                                        https://www.youtube.com/watch?v=WJ8qEkmK0rE (Net ninja)
+*********************************************************************************************************************************************
+   AUTH + JWS
+                =====> https://www.youtube.com/watch?v=pvrKHpXGO8E
+                       https://github.com/rocketseat-content/youtube-next-auth-jwt
+
+  AUTHCONTEXT 
+               ======> https://lemoncode.net/lemoncode-blog/2020/12/20/react-router-y-rutas-autorizadas-i
+
+    AuthContext  ========> es : 1- Definir un Proveedor Global(Provider). 
+                                2- Comprobar token o User (If)

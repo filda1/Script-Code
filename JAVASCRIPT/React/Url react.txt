@@ -77,9 +77,9 @@ https://pusher.com/tutorials/food-ordering-app-react-native-part-1
   CLONE AMAZON
  **********https://github.com/aaroncodehub/amazon-clone-react-redux
   https://github.com/SumitJadiya/amazon-clone-react
-*https://github.com/Subhampreet/Amazon-Clone-ReactJS
+*https://github.com/Subhampreet/Amazon-Clone-ReactJS =====> Clever Programer
 *https://www.youtube.com/watch?v=RDV3Z1KCBvo&t=6005s
 
- Clever Programmer ====> https://www.youtube.com/watch?v=RDV3Z1KCBvo&t=6005s       ==> PARTE 7
+ Clever Programmer ====> https://www.youtube.com/watch?v=RDV3Z1KCBvo&t=6005s     
  https://medium.com/cleverprogrammer/amazon-clone-using-react-the-ultimate-guide-fba2b36f3458
  https://github.com/simonhe1/Amazon-clone/tree/master/src

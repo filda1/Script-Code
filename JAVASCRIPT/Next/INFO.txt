@@ -1,0 +1,7 @@
+
+ NEXT     ===> getStaticProps  / getServerSideProps (Funciona de forma Global para recuperar cookies, context, sesiones..)
+          ===> getStaicPaths (Rutas dinamicas)
+
+
+  AuthContext  ========> es : 1- Definir un Proveedor Global(Provider). 
+                                2- Comprobar token o User (If)
