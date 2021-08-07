@@ -2,6 +2,14 @@
  NEXT     ===> getStaticProps  / getServerSideProps (Funciona de forma Global para recuperar cookies, context, sesiones..)
           ===> getStaicPaths (Rutas dinamicas)
 
+*******************************************************************************************************
+  AUTHCONTEXT
 
-  AuthContext  ========> es : 1- Definir un Proveedor Global(Provider). 
-                                2- Comprobar token o User (If)
+  AuthContext  ========> Estructura : 1- Definir un Proveedor Global(Provider). 
+                                      2- Comprobar token o User dentro del c/componente (con un If por ejemplo)
+
+   FUNCIONAMIENTO (TUNEL BIDIRECCIONAL) :  1-  En AuthContex Global se pasa variables, funciones, objetos lo que sea a todos los componentes
+                                   2-  Se tiene que conectar el componente a AuthContex y asi crear un tunel entre el compoenente y AuthContext
+                                       Y AI se puede pasar/recibir cualquier cosa ENTRE EL COMPONENTE Y AUTHCONTEX
+
+*******************************************************************************************************

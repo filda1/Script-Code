@@ -24,6 +24,7 @@
    AUTH + JWS
                 =====> https://www.youtube.com/watch?v=pvrKHpXGO8E
                        https://github.com/rocketseat-content/youtube-next-auth-jwt
+                       https://www.mikealche.com/software-development/how-to-implement-authentication-in-next-js-without-third-party-libraries
 
   AUTHCONTEXT 
                ======> https://lemoncode.net/lemoncode-blog/2020/12/20/react-router-y-rutas-autorizadas-i

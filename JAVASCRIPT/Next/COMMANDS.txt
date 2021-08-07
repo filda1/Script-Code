@@ -1,0 +1,15 @@
+
+ npx create-next-app nombre-proyecto
+
+ cd nombre-proyecto
+ npm run dev
+
+
+ Axios ====> npm i axios
+
+ Cookies ===> npm i nookies
+
+ FORM =======> npm i react-hook-form / yarn add react-hook-form
+
+
+ MATERIAL UI + ICON ===========> yarn add @material-ui/icons  (https://material-ui.com/components/icons/)
