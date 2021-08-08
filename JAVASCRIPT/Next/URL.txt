@@ -31,3 +31,8 @@
 
     AuthContext  ========> es : 1- Definir un Proveedor Global(Provider). 
                                 2- Comprobar token o User (If)
+
+***************************************************************************************************************************************
+    TUTOARIAL
+     Fatz    NEXT.js ======> https://www.youtube.com/watch?v=Tn6QYliFBcs&t=1401s
+                             https://github.com/FaztWeb/nextjs-firstproject
