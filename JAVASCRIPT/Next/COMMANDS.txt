@@ -7,12 +7,18 @@
 ********************************************************************************************************
  Axios ====> npm i axios
 
+
  Cookies ===> npm i nookies   ==========> No guarda email
               npm i js-cookie ======> https://github.com/js-cookie/js-cookie
+
 
  FORM =======> npm i react-hook-form / yarn add react-hook-form
 
 
  MATERIAL UI + ICON ===========> yarn add @material-ui/icons  yarn add @material-ui/core (https://material-ui.com/components/icons/)
 
+
  BOOSTRAPT ===================> yarn add react-bootstrap
+
+
+ BURGER_MENU  =========>  yarn add react-burger-menu

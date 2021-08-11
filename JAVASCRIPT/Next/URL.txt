@@ -36,3 +36,16 @@
     TUTOARIAL
      Fatz    NEXT.js ======> https://www.youtube.com/watch?v=Tn6QYliFBcs&t=1401s
                              https://github.com/FaztWeb/nextjs-firstproject
+
+***************************************************************************************************************************************
+ HAMBURGER MENU  =======> https://css-tricks.com/hamburger-menu-with-a-side-of-react-hooks-and-styled-components/
+
+***************************************************************************************************************************************
+ LAZYLOAD ===========> https://www.better.dev/lazy-loading-next-js
+                       https://www.youtube.com/watch?v=_cccpx2Bw_g
+
+***************************************************************************************************************************************
+  BURGER_MENU  =========> https://www.npmjs.com/package/react-burger-menu
+                          https://khuang159.medium.com/creating-a-hamburger-menu-in-react-f22e5ae442cb
+
+

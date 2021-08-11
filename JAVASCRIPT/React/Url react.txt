@@ -83,3 +83,12 @@ https://pusher.com/tutorials/food-ordering-app-react-native-part-1
  Clever Programmer ====> https://www.youtube.com/watch?v=RDV3Z1KCBvo&t=6005s     
  https://medium.com/cleverprogrammer/amazon-clone-using-react-the-ultimate-guide-fba2b36f3458
  https://github.com/simonhe1/Amazon-clone/tree/master/src
+
+************************************************************************
+
+   GERENCIADOR DE REDES SOCIALES = https://quantizd.com/building-post-scheduler-with-node-js-react-facebook-pages/
+                                   https://github.com/waleedahmad/NodeScheduler
+
+ ***********************************************************************
+   CALENDARIO === https://github.com/bgerm/scheduler3000
+
