@@ -38,14 +38,30 @@
                              https://github.com/FaztWeb/nextjs-firstproject
 
 ***************************************************************************************************************************************
- HAMBURGER MENU  =======> https://css-tricks.com/hamburger-menu-with-a-side-of-react-hooks-and-styled-components/
 
-***************************************************************************************************************************************
  LAZYLOAD ===========> https://www.better.dev/lazy-loading-next-js
                        https://www.youtube.com/watch?v=_cccpx2Bw_g
 
 ***************************************************************************************************************************************
   BURGER_MENU  =========> https://www.npmjs.com/package/react-burger-menu
+                          ********https://dev.to/faisaljebali/how-to-build-a-sidebar-menu-in-react-with-react-burger-menu-5bnm
                           https://khuang159.medium.com/creating-a-hamburger-menu-in-react-f22e5ae442cb
 
+****************************************************************************************************************************************
+CARROUSel ======>   https://github.com/akiran/react-slick
+                    yarn add react-slick
 
+****************************************************************************************************************************************
+ CONVERT SCSS TO CSS =======>  https://www.cssportal.com/scss-to-css/
+
+****************************************************************************************************************************************
+ BOSTRAPT + NEXT.JS = https://medium.com/frontendweb/how-to-add-bootstrap-in-next-js-de997371fd9c
+
+                       npm install bootstrap@next      yarn add bootstrap@next
+
+  en app.js:
+   
+       import 'bootstrap/dist/css/bootstrap.css'
+       import "../css/customcss.css";
+
+****************************************************************************************************************************************

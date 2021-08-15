@@ -89,6 +89,22 @@ https://pusher.com/tutorials/food-ordering-app-react-native-part-1
    GERENCIADOR DE REDES SOCIALES = https://quantizd.com/building-post-scheduler-with-node-js-react-facebook-pages/
                                    https://github.com/waleedahmad/NodeScheduler
 
+                                   ayrshare ======> https://www.npmjs.com/package/social-post-api
+
  ***********************************************************************
    CALENDARIO === https://github.com/bgerm/scheduler3000
 
+*************************************************************************
+
+ TEMPLATE 
+         ===============> https://www.bootdey.com/bootstrap-snippets/page:7
+                          https://mdbootstrap.com/docs/react/tables/basic/
+                          https://reactjsexample.com/tag/layout/
+
+  ******https://material-ui.com/store/collections/free-react-dashboard/
+
+   TABLAS - DIAGRAMAS ========> https://dhtmlx.com/blog/use-dhtmlx-scheduler-component-react-js-library-demo/
+
+  OK  ==========>  Sofia === https://reactjsexample.com/sofia-free-admin-dashboard-template-built-with-react-and-bootstrap/
+
+                   Berry Free ===== https://reactjsexample.com/a-creative-free-react-admin-template-build-using-the-material-ui/
