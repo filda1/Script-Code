@@ -1,0 +1,19 @@
+FECHAS
+
+  PHP RUN ======> https://www.w3schools.com/php/phptryit.asp?filename=tryphp_compiler
+
+  https://www.devmedia.com.br/manipulando-datas-com-php/32966
+
+****
+            echo 'Next Week: '. date('d-m-Y', strtotime('+2 week')) ."<br>";
+
+***
+            date('d.m.Y', strtotime('+1 week', strtotime($start_date)));
+****
+
+            $start_date = "2021/08/17";  
+            $new_date= date("Y/m/d", strtotime("$start_date +2 week"));
+    
+             echo $new_date;
+****
+             date('d', strtotime("next Monday"));
