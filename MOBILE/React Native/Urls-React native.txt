@@ -57,7 +57,11 @@ MODEL
 ************************************************************************************************************
  ZOOM =====> https://www.youtube.com/watch?v=6soHPnHxHxI
 
- CLONES =========> https://www.youtube.com/watch?v=E95VMb6nzKc
+  INSTAGRAM ======> *******(SIMCODE)  https://github.com/SimCoderYoutube/InstagramClone/blob/master/frontend/components/auth/Login.js
+                                      https://www.youtube.com/watch?v=1hPgQWbWmEk
+
+  INSTGRAM =========> https://www.youtube.com/watch?v=E95VMb6nzKc
+               *** https://github.com/iamvucms/react-native-instagram-clone
 
   INSTAGRAM ========> https://www.youtube.com/watch?v=1hPgQWbWmEk&t=18841s
   INSTAGRAM UI =====> https://www.youtube.com/watch?v=NEpbscXHAsk&list=PLbYA1puA_WBSGWUSWo3Mxa4BSZZMMHOUC&index=19
