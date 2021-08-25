@@ -73,6 +73,8 @@ Instalación del Visual Studio Code https://code.visualstudio.com/download
  *********************** FIN CONGIG ***************
 
  ************************ INSTALL REACT NATIVE *******************
+ >> npm i -g expo-cli
+
  *https://blog.rocketseat.com.br/expo-sdk-38-melhorias-que-fazem-do-expo-uma-opcao-ainda-melhor/
 
  >> cd/ Proyect
@@ -179,3 +181,44 @@ Instalación del Visual Studio Code https://code.visualstudio.com/download
 
  HEADER NAVIGATION ======= https://reactnavigation.org/docs/header-buttons/
 
+*******************************************************************************************************
+
+ REDUX
+
+  1- npm i redux
+  2- npm  i react-redux
+  3- npm i redux-thunk
+
+********************************************************************************************************
+
+ ICONS
+
+  https://www.npmjs.com/package/@expo/vector-icons
+  https://github.com/expo/vector-icons
+  https://icons.expo.fyi/
+
+  >> npm i @expo/vector-icons
+
+
+**********************************************************************************************************
+
+ TABS
+
+  *https://reactnavigation.org/docs/bottom-tab-navigator/
+   *La version 5.8.0/ 5.9.0 FUNCIONA. LA 6 x NO FUNCIONA
+
+  >>    yarn add @react-navigation/bottom-tabs@^5.9.0    / yarn add @react-navigation/bottom-tabs@^5.8.0
+
+     CONMPATIBLES:
+     >> yarn add @react-navigation/bottom-tabs@^5.9.0
+
+     >> yarn add @react-native-community/masked-view@^0.1.10
+     >> yarn add react-native-gesture-handler@^1.8.0
+     >> yarn add react-native-screens@^2.15.2
+
+
+**********************************************************************************************************
+
+  
+ 
+ 
