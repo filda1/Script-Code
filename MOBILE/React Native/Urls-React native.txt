@@ -246,3 +246,13 @@ filter imagen = https://www.youtube.com/watch?v=AMAJLgafs6U
 ------------------------------------------------------
  CHAT = https://www.youtube.com/watch?v=T6D123ihmHU
 ------------------------------------------------------
+
+ UPLOAD IMAGE + CLOUDINARY
+  https://blog.jscrambler.com/how-to-upload-an-image-using-expo-camera-to-cloudinary
+
+---------------------------------------------------------------------------------------
+
+ BACK4APP + QUERIES
+   https://www.youtube.com/watch?v=wK9x6OOTgVs&list=PL_lJrbgUtzddkm6Zm_EplOo5lHIWG4Pbt&index=9
+
+----------------------------------------------------------------------------------------------

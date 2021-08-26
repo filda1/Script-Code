@@ -219,6 +219,11 @@ Instalación del Visual Studio Code https://code.visualstudio.com/download
 
 **********************************************************************************************************
 
-  
+   CAMERA + IMAGE
+
+   >>  expo install expo-camera  /  npm i expo-camera
+   >> expo install expo-image-picker /  npm i expo-image-picker
+
+**********************************************************************************************************
  
  
