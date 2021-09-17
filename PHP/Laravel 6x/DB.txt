@@ -22,3 +22,11 @@ DB::table('post')
     $shipments = Shipment::with('customer')->get();
 /////////////////////////////////////////////////////////////////////////////////
    Post::where('id',3)->update(['title'=>'Updated title']);
+
+
+
+***************************************************************************************************************
+  CONVERTIR OBJETO A ARRAY
+
+       $user = User::with('roles')->first();
+       return $user->toArray();

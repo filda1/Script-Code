@@ -1,0 +1,8 @@
+ APP STORE
+
+   CERTIFICADO en MAC + PROFILES para App
+
+  0- Crear certificado en  www.developer.apple.com
+  1- Download e INSTALLAR EN MAC Certificado, doble click(Tiene q aparecer en porta chaves)
+  2- En www.developer.apple.com =======> Crear Profiles para app (Con el cerfificado instalado en Mac, luego descargar y doble clik)
+  2.1. Download en Mac doble click y verificar...en app

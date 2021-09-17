@@ -47,4 +47,7 @@ CHOMECAST A TV
  ***https://github.com/ixudra/curl
 
 
-
+***********************************************
+ CDN =====> copias del servidor original em sitios cercanos
+  * Problema: Cuando hay mucho trafico y velocidad lenta a servidor de un pais lejano
+    Solucion: https://www.cloudflare.com/

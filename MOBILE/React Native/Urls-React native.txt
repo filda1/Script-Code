@@ -256,3 +256,11 @@ filter imagen = https://www.youtube.com/watch?v=AMAJLgafs6U
    https://www.youtube.com/watch?v=wK9x6OOTgVs&list=PL_lJrbgUtzddkm6Zm_EplOo5lHIWG4Pbt&index=9
 
 ----------------------------------------------------------------------------------------------
+ FlATLIST LOAD PAGE ====> lista carga por partesn scroll infinito
+     https://www.youtube.com/watch?v=xyzW59BQwoI
+
+ FLATLIST PULL TO REFRESH ======>reload
+   https://www.youtube.com/watch?v=WyZztvbvmQw
+-----------------------------------------------------------------------------------------------
+
+@styled-icons/bootstrap/PlusSquareFill

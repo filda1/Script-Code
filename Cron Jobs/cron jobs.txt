@@ -27,3 +27,4 @@
 *       *       *       *       *       curl
 "http://mcarvalho27.pt/send-fim-marcacoes-estetica-notifications
 &>/dev/null"
+

@@ -221,9 +221,22 @@ Instalación del Visual Studio Code https://code.visualstudio.com/download
 
    CAMERA + IMAGE
 
-   >>  expo install expo-camera  /  npm i expo-camera
+   *CONMPATIBLE  "expo-camera": "^11.2.2",
+
+   >> expo install expo-camera  /  npm i expo-camera
    >> expo install expo-image-picker /  npm i expo-image-picker
 
 **********************************************************************************************************
- 
+
+  MULTIPLE IMAGES
+
+    https://github.com/ivpusic/react-native-image-crop-picker
+    https://www.youtube.com/watch?v=8gCMXXH9Vd4
+
+**********************************************************************************************************
+  RESPONSIVE
+    https://www.npmjs.com/package/react-native-responsive-screen
+    >> npm i react-native-responsive-screen
+
+**********************************************************************************************************
  

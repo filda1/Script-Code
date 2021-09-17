@@ -1,0 +1,15 @@
+   
+public function sendSmsWithUsendit($numero,$mensagem){
+        $mensagem = rawurlencode($mensagem);
+        Log::info($mensagem);
+        $url = "http://api.usendit.pt/v2/remoteusendit.asmx/SendMessage?username=".env('USENDIT_USERNAME')."&password=".env('USENDIT_PASSWORD')."&partnerEventId=&timezone=&partnerMsgId=&expirationDatetime=&scheduleDatetime=&beginTime=&endTime=&sender=N'SOLUÇOES&msisdn=".$numero."&mobileOperator=-1&priority=0&messageText=".$mensagem."&workingDays=false&isFlash=false";
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_POST, 0);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+        $output = curl_exec($ch);
+
+        curl_close($ch);
+        $info = json_decode($output, true);
+        Log::info($output);
