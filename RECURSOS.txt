@@ -1,0 +1,209 @@
+**** https://faztweb.com/contenido/recursos-desarrolladores
+En este video comparto una lista de herramientas, servicios, y sitios web utiles para todos aquellos desarrolladores de aplicaciones y programadores
+
+¡Hey Coders! Hace Mucho tiempo publique un video acerca de recursos para desarrolladores y programadores, basicamente el video consistia en compartirles una serie de sitios web que proveen colores, imagenes, comprimen archivos, convierten codigo, y asi, es decir sitios que son muy utiles al momento de desarrollar. El día de hoy les traigo una nueva version de este video solo que con muchos más recusos.
+************************************************************************
+Generadores de Texto
+Los generadores de texto son muy utiles cuando creas un sitio web o aplicacion, supongamos que estas creando un blog y necesitas probar como se veria con textos extensos. si usas un editor de codigo seguro que tienes emmet, pero para aquellos caso en los que no funcione tienes los siguientes sitios web.
+
+lorem ipsum
+https://loremipsum.io/
+GetLorem.com
+https://www.boom-online.co.uk/lorem-ipsum/
+https://loremipsum.io/es/ultimate-list-of-lorem-ipsum-generators/
+https://loremipsum.es/
+http://www.cupcakeipsum.com/
+http://www.cheeseipsum.co.uk/
+http://www.zombieipsum.com/#
+pirare ipsum
+*********************************************************************************************
+Generadores de Favicons
+https://www.favicon-generator.org/
+https://realfavicongenerator.net/
+
+***********************************************************************************************
+Generadores de Datos Falsos
+muchas veces cuando desarrollamos aplicaciones o traajamos con bases de datos necesitamos datos de pruebas con los cuales practicar o simplemente tener datos de ejempo o mocks.
+
+Mockaro
+fakerjs
+https://datafakegenerator.com/
+
+************************************************************************************************
+Cifrado y Generadores de IDs
+Muchas veces cuando se esta creando aplicaciones se necesita generar un hash o una serie de caracteres aleatorios para utilizarlos como palabras secretes, Client secrets o simplemente en una biblioteca de cifrado. Muchas lenguajes de programacion te permiten generarlo con una lineas de codigo, pero usando estos sitios web se pueden generar simplemente dando un click en un boton.
+
+https://www.uuidgenerator.net/
+https://randomkeygen.com/
+https://passwordsgenerator.net/
+https://www.base64decode.org/
+
+**************************************************************************************************
+Imágenes
+https://www.pexels.com/es-es/
+https://unsplash.com/
+https://pixabay.com/es/
+https://www.videvo.net/
+https://burst.shopify.com/
+https://www.freeimages.com/
+https://kaboompics.com/
+https://stocksnap.io/
+https://www.canva.com/photos/free/
+https://www.lifeofpix.com
+https://gratisography.com/
+https://www.flickr.com/
+https://www.freepik.es/
+*************************************************************
+Imágenes de Ejemplos
+https://placeholder.com/
+https://source.unsplash.com/
+https://undraw.co/
+Minificadores de Imágenes
+http://jpeg-optimizer.com/
+https://tinypng.com/
+Minificadores de otros formatos Web
+https://www.minifier.org/
+https://codebeautify.org/jsonviewer
+https://codebeautify.org/
+***********************************************************************************
+Iconos
+si no usas bibliotecas de iconos como Font awesome, material icons entre otros, estas son algunos sitios populares de iconos:
+
+https://fontawesome.com/
+https://fonts.google.com/icons
+https://feathericons.com/
+Feather Icons
+Icon Finder
+Wikimedia Commons
+************************************************************************************************
+Diferenciador
+https://www.diffchecker.com/
+****************************************************************************************
+Conversores de Código
+https://html2jade.org/
+https://magic.reactjs.net/htmltojsx.htm
+https://markdowntohtml.com/
+************************************************************************************************
+playgrounds
+Los playgrounds son sitios que te permiten ejecutar porciones de codigo en multiples lenguajes de programacion en la web. Muy util cuando se necesita entender una porcion de código.
+
+https://regex101.com/, Playground de Regex
+https://babeljs.io/repl/
+https://www.typescriptlang.org/play
+https://play.golang.org/
+https://play.rust-lang.org/
+https://try.redis.io/
+****************************************************************************
+html
+https://validator.w3.org/
+https://caniuse.com/
+http://entity-lookup.leftlogic.com/
+******************************************************************************
+CSS
+https://autoprefixer.github.io/
+https://jigsaw.w3.org/css-validator/
+
+*****************************************************************
+Generadores de CSS
+Muchas veces cuando estilizamos un sitio, es tedioso generar un shadow, o una onda con CSS puro. por suerte existen sitios que nos permiten generar facilmente muchos tipos reglas de CSS.
+
+GetWaves.io, Genera ondas de CSS
+
+https://www.layoutit.com/es
+
+https://css3buttongenerator.com/
+
+https://www.cssportal.com/ glosario de css
+
+https://9elements.github.io/fancy-border-radius/ genera formas
+
+https://loading.io/flexbox/ flexbox
+
+http://tridiv.com/ formas en 3d
+
+https://ui.glass/generator/
+
+https://glassgenerator.netlify.app/
+
+https://hype4.academy/tools/glassmorphism-generator
+
+https://neumorphism.io/#e0e0e0
+
+Clip-Path Generator: bennettfeely.com/clippy/ Box-Shadow Generator: cssmatic.com/box-shadow Palette Generator/Gradient Gnerator: mycolor.space/ Cubiz-Bezier Generator for Animations: cubic-bezier.com/ Animations: animista.net/ Cross-Browser Generator: css3please.com/
+**************************************************************************
+Generador de Loaders de CSS
+Estos son algunos sitios para poder generar Loaders a partir de CSS.
+
+https://loading.io/css/
+https://projects.lukehaas.me/css-loaders/
+*********************************************************************************
+Sass
+https://www.sassmeister.com/
+*********************************************************************************
+Less
+https://jsonformatter.org/less-to-css
+https://www.webtoolkitonline.com/less-to-css.html
+**********************************************************************************
+javascript
+https://developer.mozilla.org/es/docs/Web/JavaScript
+https://kangax.github.io/compat-table/es6/
+***************************************************************************************
+Documentación
+https://devdocs.io/dom-ambient-light/ - docuemntacion offline
+DevDocs(works offline): devdocs.io
+****************************************************************************************
+compresores
+https://compressor.io/
+*****************************************************************************************
+snippets
+https://gist.github.com/
+https://pastebin.com/
+**************************************************************************************
+colores
+https://flatuicolors.com/
+https://color.hailpixel.com/
+https://colorhunt.co/
+https://uigradients.com/#Telegram
+http://stylifyme.com/
+https://www.canva.com/colors/color-palette-generator/
+Mockups y Wireframes
+https://app.diagrams.net/
+https://wireframe.cc/
+https://moqups.com/es/
+https://mockuphone.com/
+https://app-mockup.com/
+**********************************************************************************************
+Test de velocidad para Sitios Web
+Cuando se busca mejorar la experiencia de usuario es importante preocuparse por la velocidad de carga de nuestros sitios web y cuanto tiempo toma servir assets como imagenes, iconos, entre otros recursos. Para conocer esto, los siguientes sitios web te permite poder analizar la velocidad de carga de tus web.
+
+https://developers.google.com/speed/pagespeed/insights/?hl=es
+https://tools.keycdn.com/speed
+https://tools.pingdom.com/
+
+***********************************************************************************
+responsive
+https://www.responsinator.com/
+https://www.webfx.com/tools/whats-my-browser-size/
+https://responsively.app/
+************************************************************************************
+Encuestas
+Todas las herramientas de la web tiendan a cambiar o desfasarse por otras muchos más modernas. En estas web podras ver encuentas para conocer las nuevas herramientas que muchos desarrolladores estan usando actualmente.
+
+https://stateofjs.com/
+https://insights.stackoverflow.com/survey/2021
+***********************************************************************
+Edicion de Video Online
+https://jitter.video/
+Traduccion de Textos con Machine Learning
+Más informacion relacionada:
+
+Gracias a Pexels.com por ser el Sponsor de este contenido. Para conocer más de Pexels, visitar este sitio web:
+
+https://bit.ly/3yYrmLi
+
+#ElMundoComoEs
+
+Más recursos
+https://blog.faztweb.com/2018/03/recursos-para-disenadores-y.html
+https://blog.logrocket.com/7-popular-icon-libraries-you-can-use-for-free/
+https://www.shopify.com/partners/blog/79940998-15-funny-lorem-ipsum-generators-to-shake-up-your-design-mockups
