@@ -1,9 +1,13 @@
  VERDURAS = https://github.com/settysantu/mintleaf
  TipoVue = https://github.com/vuefront/opencart
 
+https://github.com/IP-CAM/Frame-free-Responsive-Theme-Opencart-v.3.x (TIPO ALIBABA)
+
  Admin@@2020
 
 *****************************************************************
+  ************https://templatetoaster.com/templates/opencart-themes/page/2
+              https://opencart.opencartworks.com/themes/so_ladaz/
 
   https://www.zerotheme.com/free-opencart-themes
   https://www.templatemonster.com/pt-br/free-templates/

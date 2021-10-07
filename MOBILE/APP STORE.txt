@@ -6,3 +6,18 @@
   1- Download e INSTALLAR EN MAC Certificado, doble click(Tiene q aparecer en porta chaves)
   2- En www.developer.apple.com =======> Crear Profiles para app (Con el cerfificado instalado en Mac, luego descargar y doble clik)
   2.1. Download en Mac doble click y verificar...en app
+
+
+  1- developer.apple.com (Para certificados....)
+  2- appleconnect  (Dentro de App Store)
+
+  3- play.google (Dentro play Store)
+
+
+ --------------------------------------------------
+ Transporter. de Mac , para enviar .ipa a App Store
+
+----------------------------------------------------
+  Barrier, manejar dos pc
+
+

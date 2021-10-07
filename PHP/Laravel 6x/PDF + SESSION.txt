@@ -1,0 +1,174 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use App\Clientes;
+use App\Localidades; 
+use App\Sms;
+use Carbon\Carbon;
+use App\EstadosEquipamento;
+use App\ClientesEquipamento;
+use App\Equipamentos;
+use App\Reparacoes;
+use App\EstadosTecnicos;
+use App\Lojas;
+use PDF;
+use Mail;
+use Storage;
+use Session;
+
+class SMSManagerController extends Controller
+{
+    public function index(){
+        $date = Carbon::now();
+
+        $clientes =  Clientes::where('lojas_used', 'LIKE', '%3%')->where('lojas_used', 'LIKE', '%1%')->get();
+        $get = true;
+        $resultados = view('smsmanager.results', compact('clientes','get'));
+        $clientes = Clientes::whereMonth('dn', '=', $date->month)->whereDay('dn', '=', $date->day)->get();
+
+        $est = EstadosEquipamento::where([['id_estado', '=', '12'], ['activo', '=', '1']])->get();
+
+        $rep = array();
+        foreach ($est as $key) {
+            $repTemp = Reparacoes::find($key->id_reparacao);
+            $eq = ClientesEquipamento::where('equipamentos_id', '=', $repTemp->equipamento)->first();
+
+            $rep[$repTemp->id]["id"] = $repTemp->id;
+            $rep[$repTemp->id]["idLoja"] = $repTemp->id_loja;
+            $rep[$repTemp->id]["equipamento_id"] = $repTemp->equipamento;
+            $rep[$repTemp->id]["cli_id"] = $eq->clientes_id;
+            $rep[$repTemp->id]["processo"] = $repTemp->processo;
+            $rep[$repTemp->id]["desc"] = $repTemp->anomalia;
+        }
+
+        $repView = view('smsmanager.results-rep', compact('rep','get'));
+        $resultadosAniv = view('smsmanager.results', compact('clientes','get'));
+
+        Session::put('repPrint', $rep);
+
+        return view('smsmanager.index', compact('clientes', 'resultados', 'resultadosAniv', 'repView', 'rep'));
+    }
+
+    public function search(Request $r){
+
+        $this->authorize('access', 'consultar-cliente');
+
+        if(strlen($r->localidade) > 3){
+            $local = Localidades::where('localidade', 'LIKE', '%'.$r->localidade.'%')->pluck('id')->toArray();
+
+            if($r->sexo == "none"){
+                $clientes = Clientes::where('nome', 'LIKE', '%'.$r->nome.'%')
+                                ->where('contacto', 'LIKE', '%'.$r->contacto.'%')
+                                ->whereIn('localidade', $local)->get();
+            }else{
+                $clientes = Clientes::where('nome', 'LIKE', '%'.$r->nome.'%')
+                                ->where('contacto', 'LIKE', '%'.$r->contacto.'%')
+                                ->where('sexo', '=', $r->sexo)
+                                ->whereIn('localidade', $local)->get();
+            }
+        }else{
+            if($r->sexo == "none"){
+                $clientes = Clientes::where('nome', 'LIKE', '%'.$r->nome.'%')
+                                ->where('contacto', 'LIKE', '%'.$r->contacto.'%')
+                                ->get();
+            }else{
+                $clientes = Clientes::where('nome', 'LIKE', '%'.$r->nome.'%')
+                            ->where('contacto', 'LIKE', '%'.$r->contacto.'%')
+                            ->where('sexo', '=', $r->sexo)
+                            ->get();
+            }
+        }
+
+        return view('smsmanager.results', compact('clientes'));
+    }
+
+    public function sendPromo(Request $req){
+
+        if(isset($req->pers)){
+
+            for ($i=0; $i < count($req->selected); $i++) { 
+                
+                $formatedString = str_replace("{NOME_CLIENTE}", $req->nomes[$i], $req->conteudo);
+
+                $sms = new Sms();
+                $sms->numero = $req->selected[$i];
+                $sms->conteudo = $formatedString;
+                $sms->loja = "NSolucoes";
+                //Estado Pendente => 1
+                //Estado Enviado => 3
+                $sms->estado = 3;
+
+                $new_contents = $sms->numero.";".$sms->conteudo;
+                $name_file = str_random(10);
+                $file = preg_replace('/[0-9]+/', '', $name_file);
+                Storage::disk('ftp')->put(strtolower($file).".txt", $new_contents);
+
+                if($req->data != "null"){
+                    $sms->data_programada = Carbon::parse($req->data . " " . $req->hora);
+                }
+
+                $sms->save();
+
+            }
+          
+
+        }else{
+            foreach ($req->selected as $id => $value) {
+
+                $valTMP = explode("+", $value);
+
+                $cli = Clientes::find($valTMP[0]);
+               
+                $formatedString = str_replace("{NOME_CLIENTE}", $cli->nome, $req->conteudo);
+
+                if(isset($valTMP[1])){
+                    $rep = Reparacoes::find($valTMP[1]);
+                    $estado = EstadosEquipamento::where('id_reparacao', $rep->id)->where('activo', '1')->first();
+                    $estado = EstadosTecnicos::find($estado->id_estado);
+                    $loja = Lojas::find($rep->id_loja);
+
+                    $formatedString = str_replace("{PROCESSO}", $rep->processo, $req->conteudo);
+                    $formatedString = str_replace("{ESTADO}", $estado->desc_sms, $formatedString);
+                    $formatedString = str_replace("{LOJA}", $loja->nome_sms, $formatedString);
+                }
+
+                if($cli->contacto == null or $cli->contacto == "")
+                    continue;
+
+                $sms = new Sms();
+                $sms->numero = $cli->contacto;
+                $sms->conteudo = $formatedString;
+                $sms->loja = "NSolucoes";
+                //Estado Pendente => 1
+                //Estado Enviado => 3
+                $sms->estado = 3;
+
+                $new_contents = $sms->numero.";".$sms->conteudo;
+                $name_file = str_random(10);
+                $file = preg_replace('/[0-9]+/', '', $name_file);
+                Storage::disk('ftp')->put(strtolower($file).".txt", $new_contents);
+
+                if($req->data != "null"){
+
+                    $sms->data_programada = Carbon::parse($req->data . " " . $req->hora);
+                }
+
+                $sms->save();
+
+                $cli->last_sms_promo_send = Carbon::today();
+                $cli->save();
+            }
+        }
+
+        Session::flash('status', 'Mensagens serão enviadas brevemente');
+        return redirect('/smsmanager');
+    }
+
+    public function printLista(){
+        $rep = Session::get('repPrint');
+        $pdf = PDF::loadView('smsmanager.results-rep-imp', compact('rep'));
+        return $pdf->stream('repLista.pdf');
+    }
+}

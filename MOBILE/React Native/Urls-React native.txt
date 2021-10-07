@@ -21,7 +21,9 @@ MODEL
   ***AirBNB ====> *https://github.com/thisis-Shitanshu/airbnb-clone-react-native-apollo-client-frontend   >======> CubUI
    NUEVO =======>https://github.com/jajapabatao/react-native-airbnb-clone
     https://reactnativeexample.com/react-native-online-groceries-application/
-
+*********************************************************************************************************
+ SNNIPES e APP
+ https://morioh.com/p/9ff8ca8fddb7
 **********************************************************************************************************
 
  SNIPETT = https://reactnativeexample.com/tag/dropdown/
@@ -118,6 +120,9 @@ tuto 3 ======> https://www.youtube.com/watch?v=DmUUsTC2YkA&list=PL8fIRnD1uUSnRqz
  TEMPLATE = https://galio.io/built-with-galio
 
   AR = https://viromedia.com/viroreact
+       https://github.com/viromedia/viro
+       https://docs.viromedia.com/docs/viroarobjectmarker
+       https://github.com/ViroCommunity/viro/blob/main/readmes/EXAMPLES.md(Proyectos)
 
   CLONE INSTAGRAM = https://www.youtube.com/watch?v=1hPgQWbWmEk (freecodecam) 1:28
 
@@ -264,3 +269,27 @@ filter imagen = https://www.youtube.com/watch?v=AMAJLgafs6U
 -----------------------------------------------------------------------------------------------
 
 @styled-icons/bootstrap/PlusSquareFill
+
+-----------------------------------------------------------------------------------------------
+  DETECCION DE OBJ DE IMAGENES
+  https://towardsdatascience.com/deep-learning-for-detecting-objects-in-an-image-on-mobile-devices-7d5b2e5621f9
+  https://github.com/btroia/react-native-image-recognition-object-detection
+
+  DETECCION DE OBJ POR CAMERA
+  https://github.com/cnebs/object-detector
+
+  https://developers.yoti.com/
+
+---------------------------------------------------------------------------------------------------
+  QR SCANER DE PRODUCTOS
+  https://github.com/vicaub/product-scanner
+
+---------------------------------------------------------------------------------------------------
+  3D
+   https://www.youtube.com/watch?v=ukL12rEV0Sw
+
+  https://www.babylonjs.com/
+  https://babylonjs.medium.com/babylon-react-native-bringing-3d-and-xr-to-react-native-applications-7928b55acc85
+---------------------------------------------------------------------------------------------------
+  
+

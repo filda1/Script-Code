@@ -1,8 +1,8 @@
  
  TUTORIAL
 
-       bluuweb ========>    https://www.youtube.com/watch?v=uvMDKgK2es4&list=RDCMUCH7IANkyEcsVW_y1IlpkamQ&start_radio=1&rv=uvMDKgK2es4&t=1390
-                            GUIA ==> https://bluuweb.github.io/nextjs/
+       bluuweb ========>   ***** https://www.youtube.com/watch?v=uvMDKgK2es4&list=RDCMUCH7IANkyEcsVW_y1IlpkamQ&start_radio=1&rv=uvMDKgK2es4&t=1390
+                           ***** GUIA ==> https://bluuweb.github.io/nextjs/
 
         NET NINJA ====> https://www.youtube.com/watch?v=2zRHlqc0_yw&list=PL4cUxeGkcC9g9gP2onazU5-2M-AzA8eBw&index=13
 
@@ -20,10 +20,13 @@
     NEXT.JS + context api 
                           =========> ***https://kaloraat.com/articles/nextjs-react-context-tutorial-how-to-use-context-api-with-nextjs
                                         https://www.youtube.com/watch?v=WJ8qEkmK0rE (Net ninja)
+
+   NEXT + CONEXT Api(Use contex) ========> ******https://github.com/FaztWeb/nextjs-context-crud
+                                                 https://www.youtube.com/watch?v=ngOwT3BPIvU   (FATZ)
 *********************************************************************************************************************************************
-   AUTH + JWS
-                =====> https://www.youtube.com/watch?v=pvrKHpXGO8E
-                       https://github.com/rocketseat-content/youtube-next-auth-jwt
+   AUTH + JWS 
+                =====> *****https://www.youtube.com/watch?v=pvrKHpXGO8E
+                       https://github.com/rocketseat-content/youtube-next-auth-jwt   (Rocketseat)
                        https://www.mikealche.com/software-development/how-to-implement-authentication-in-next-js-without-third-party-libraries
 
   AUTHCONTEXT 
@@ -65,3 +68,11 @@ CARROUSel ======>   https://github.com/akiran/react-slick
        import "../css/customcss.css";
 
 ****************************************************************************************************************************************
+
+ TEMPLATES ECOMERCE
+  https://github.com/RafaelGoulartB/next-ecommerce
+  https://github.com/vercel/commerce
+
+***************************************************************************************************************************************
+  REACT ICONS
+   https://react-icons.github.io/react-icons/search?q=plus

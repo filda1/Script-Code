@@ -13,3 +13,8 @@
                                        Y AI se puede pasar/recibir cualquier cosa ENTRE EL COMPONENTE Y AUTHCONTEX
 
 *******************************************************************************************************
+
+
+  OJO: En CONTEXT ======> Existe 2:
+                     1. Auth Context
+                     2. Context Api === State Context ( usa useContext)

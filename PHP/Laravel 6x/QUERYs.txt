@@ -1,0 +1,296 @@
+
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Str;
+use App\Equipamentos;
+use App\Tipos;
+use App\Lojas;
+use App\Reparacoes;
+use App\EstadosEquipamento;
+use App\EstadosTecnicos;
+use App\InfoTecnica;
+use App\Fotos;
+use App\EquipamentosTransporte;
+use App\Equipamentoscortesia;
+use App\ClientesEquipamento;
+use App\Clientes;
+use App\Localidades;
+use Hash;
+use Carbon\Carbon;
+use Auth;
+use PDF;
+use DB;
+
+class ReparacoesController extends Controller
+{
+    /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+
+    public function __construct()
+    {
+        $this->middleware('auth');
+        Session::flush();
+    }
+
+
+    public function index()
+    {
+        $this->authorize('access', 'ver-reparacao');
+
+        if(isTecnico())
+        {
+            $estadosTec=EstadosTecnicos::select('id')->where('tecnico','=','1')->get();
+            $estadosTec=array_flatten($estadosTec->toArray());
+
+            $a = Reparacoes::whereHas('estados', function($query) use ($estadosTec){
+                $query->where('activo', '=', 1)->whereHas('estado', function ($query) use ($estadosTec) {
+                    $query->whereIn('id', $estadosTec);
+                });
+            })->with(['estados' => function ($query) {
+                $query->where('activo', '=', 1)->with('estado');
+            },'device'])->oldest()->paginate(10);
+
+            $lojas = Lojas::all();
+        }
+        elseif(isLojista())
+        {
+            $a = Reparacoes::where('id_loja','=',loja())->with(['estados' => function ($query) {
+                $query->where('activo', '=', 1)->with('estado')->get();
+            },'device'])->latest()->paginate(10);
+
+            $lojasID = DB::table('lojas_user')->where('user_id', Auth::user()->id)->pluck('lojas_id')->toArray();
+
+            $lojas = Lojas::whereIn('id', $lojasID)->get();
+        }
+        else
+        {
+            $a = Reparacoes::with(['estados' => function ($query) {
+                $query->where('activo', '=', 1)->with('estado')->get();},'device'])->latest()->paginate(10);
+            $lojas = Lojas::all();
+        }
+
+        $estados = EstadosTecnicos::where('evento',false)->orderBy('descricao')->get();
+        $get = true;
+        $resultados = view('reparacoes.results', compact('a','get'));
+        return view('reparacoes.browse', compact('a', 'resultados', 'estados', 'lojas'));
+    }
+
+
+
+    //NSolucoes
+    public function index2()
+    {
+        $this->authorize('access', 'ver-reparacao');
+
+        if(isTecnico())
+        {
+            $estadosTec=EstadosTecnicos::select('id')->where('tecnico','=','1')->get();
+            $estadosTec=array_flatten($estadosTec->toArray());
+
+           /* $a = Reparacoes::whereHas('estados', function($query) use ($estadosTec){
+                $query->where('activo', '=', 1)->whereHas('estado', function ($query) use ($estadosTec) {
+                    $query->whereIn('id', $estadosTec);
+                });
+            })->with(['estados' => function ($query) {
+                $query->where('activo', '=', 1)->with('estado');
+            },'device'])->oldest()->paginate(10);*/
+
+            $a = Reparacoes::where('id_loja','=', 3)
+                           ->with(['estados' => function ($query) {
+                             $query->where('activo', '=', 1)
+                                    ->where('id_estado', 3)
+                                    ->orWhere('id_estado',8)
+                                    ->orWhere('id_estado',9)
+                                    ->orWhere('id_estado',40)
+                                    ->orWhere('id_estado',41)
+                                    ->orWhere('id_estado',42)
+                                    ->with('estado')->get();
+                            },'device'])
+                            ->latest()->paginate(10);
+
+            //$lojas = Lojas::all();
+            $lojas = Lojas::where('id', 3)->first();
+        }
+        elseif(isLojista())
+        {
+           /* $a = Reparacoes::where('id_loja','=',3)->with(['estados' => function ($query) {
+                $query->where('activo', '=', 1)->with('estado')->get();
+            },'device'])->latest()->paginate(10);*/
+            
+            $a = Reparacoes::where('id_loja','=', 3)
+                            ->with(['estados' => function ($query) {
+                                  $query->where('activo', '=', 1)
+                                        ->where('id_estado',3)
+                                        ->orWhere('id_estado',8)
+                                        ->orWhere('id_estado',9)
+                                        ->orWhere('id_estado',40)
+                                        ->orWhere('id_estado',41)
+                                        ->orWhere('id_estado',42)
+                                      ->with('estado')->get();
+                             },'device'])
+                             ->latest()->paginate(10);
+
+
+            $lojasID = DB::table('lojas_user')->where('user_id', Auth::user()->id)->pluck('lojas_id')->toArray();
+
+            //$lojas = Lojas::whereIn('id', $lojasID)->get();
+            $lojas = Lojas::where('id', 3)->first();
+        }
+        else
+        {
+            /*$a = Reparacoes::where('id_loja','=', 3)
+                             ->with(['estados' => function ($query) {
+                              $query->where('activo', '=', 1)
+                              ->with('estado')->get();},'device'])
+                              ->latest()->paginate(10);*/
+
+        $a = Reparacoes::where('id_loja','=', 3)
+                         ->with(['estados' => function ($query) {
+                                $query->where('activo', '=', 1)
+                                      ->where('id_estado',3)
+                                      ->orWhere('id_estado',8)
+                                      ->orWhere('id_estado',9)
+                                      ->orWhere('id_estado',40)
+                                      ->orWhere('id_estado',41)
+                                      ->orWhere('id_estado',42)
+                                      ->with('estado')->get();
+                            },'device'])
+                        ->latest()->paginate(10);
+                
+            //$lojas = Lojas::all();
+            $lojas = Lojas::where('id', 3)->first();
+        }
+
+        $estados = EstadosTecnicos::where('evento',false)
+                                    ->where('id',3)
+                                    ->orWhere('id',8)
+                                    ->orWhere('id',9)
+                                    ->orWhere('id',40)
+                                    ->orWhere('id',41)
+                                    ->orWhere('id',42)
+                                    ->orderBy('descricao')->get();
+        $get = true;
+        $resultados = view('reparacoes.results2', compact('a','get'));
+        return view('reparacoes.browse2', compact('a', 'resultados', 'estados', 'lojas')); 
+
+        //return view('reparacoes.browse2'); 
+        //return loja();
+    }
+
+
+
+    public function add($id_equipamento)
+    {
+        $this->authorize('access', 'adicionar-reparacao');
+
+        $id_equipamento=$id_equipamento;
+
+        return view('reparacoes.add', compact('id_equipamento'));
+    }
+
+    public function save(Request $r)
+    {
+        $this->authorize('access', 'adicionar-reparacao');
+
+        if (!$r->ajax()) {
+            $proc = $this->generateRandStr('6');
+
+            $image = $r->paternImage;
+
+            $image = preg_replace('/data:image\/(.*?);base64,/','',$image);
+            $image = str_replace(' ', '+', $image);
+            
+            $imageName = 'lock_' . $proc . '.' . 'jpeg'; 
+
+            Storage::disk(config('voyager.storage.disk'))->put("patterns/".$imageName, base64_decode($image));
+
+            if($r->hasFile('garantia_file') ){
+                $garantiaFileName = 'garantia_' . $proc . '.' . $r->file('garantia_file')->getClientOriginalExtension(); 
+                Storage::disk(config('voyager.storage.disk'))->put("garantia/".$garantiaFileName,  file_get_contents($r->file('garantia_file')));
+            }else{
+                $garantiaFileName = null;
+            }
+      
+            $reparacao = new Reparacoes;
+            $reparacao->equipamento = $r->id_equipamento;
+            $reparacao->anomalia = $r->anomalia;
+            $reparacao->estado_equipamento = $r->estado_equipamento;
+            $reparacao->acessorios = $r->acessorios;
+            $reparacao->password = $r->password;
+            $reparacao->processo_ext = $r->processo_ext;
+            $reparacao->garantia = $r->garantia;
+            $reparacao->garantia_processo = $r->garantia_processo;
+            $reparacao->garantia_file = "garantia/".$garantiaFileName;
+            $reparacao->reclamacao = $r->reclamacao;
+            $reparacao->backup = $r->backup;
+            $reparacao->preaceite = $r->preaceite;
+            $reparacao->pattern_image = "patterns/".$imageName;
+            $reparacao->orcamento = $r->orcamento;
+            $reparacao->equipamento_emprestimo = $r->equipamento_emprestimo;
+            $reparacao->infoEquipEmprestimo = $r->infoEquipEmprestimo;
+            $reparacao->processo = $proc;
+            $reparacao->tags = json_encode($r->repairTags);
+            $reparacao->id_loja = loja();
+
+            $reparacao->send_other_contact = $r->sendothercontacts == "sim" ? 1 : 0;
+
+            $reparacao->save();
+
+            if ($r->equipamento_emprestimo == "1") {
+               $eq = Equipamentoscortesia::where('imei', '=', $r->infoEquipEmprestimo)->first();
+               $eq->disponivel = 'Indisponível';
+               $eq->save();
+           }
+
+           if(loja()==1){
+               registarEstado(3,$reparacao->id);
+           }
+           else{
+               registarEstado(1,$reparacao->id);
+           }
+       }
+
+       return redirect()->route('edit-reparacoes', $reparacao->id);
+   }
+
+   public function edit(Request $r, $id)
+   {
+    $this->authorize('access', 'editar-reparacao');
+
+    $a = Reparacoes::where('id','=',$id)->with(['estados.funcionario' => function ($query) {
+        $query->orderBy('created_at', 'desc')->get();},'infotecnica.estado', 'device.proprietario'])->first();
+
+    $b = Reparacoes::where('equipamento', '=', $a->equipamento)->get();
+
+    $u = DB::table('lojas_user')
+    ->orderBy('lojas_id', 'asc')
+    ->get();
+
+    if((isLojista() and $a->id_loja == loja()) or isAdmin() or isTecnico() or isProgramador())
+    {
+        $lojas=Lojas::all();
+        $estadosOficina=EstadosTecnicos::where('tecnico','=','1')->get();
+            //dd($estadosOficina);
+        return view('reparacoes.add', compact('a', 'b', 'estadosOficina', 'lojas', 'u'));
+    }
+    else
+    {
+        return redirect()->back()->with('error', 'Não tem acesso a esta reparação!');
+    }
+}
+
+public function update(Request $r, $id)
+{
+    $this->authorize('access', 'editar-reparacao');
+
+    $a = Reparacoes::find($id);
+
+    $image = $r->pat
