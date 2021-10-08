@@ -1,3 +1,26 @@
+GOOGLE SHEET (CONSUMIR API)
+ https://medium.com/unly-org/how-to-consume-any-json-api-using-google-sheets-and-keep-it-up-to-date-automagically-fb6e94521abd
+ https://rapidapi.com/blog/api-google-sheets/?utm_source=google&utm_medium=cpc&utm_campaign=DSA&gclid=CjwKCAjwtfqKBhBoEiwAZuesiNbZizMf3oERh9KeoXQPo5gBBkTvWlRaKmg2hZXLpBj3UwrMmYK4OxoCczAQAvD_BwE
+ https://mixedanalytics.com/knowledge-base/import-netflix-rapidapi-data-to-google-sheets/
+
+ https://www.youtube.com/watch?v=Rr6vmLI3uoo
+
+ CREAR PLUGIN = https://developers.google.com/apps-script/add-ons/editors/docs/quickstart/translate#sidebar.html
+                https://www.adictosaltrabajo.com/2018/12/04/como-hacer-un-complemento-para-google-docs/
+                   https://developers.google.com/apps-script/quickstart/fundamentals-codelabs
+                   https://developers.google.com/apps-script/overview
+
+FACEBBOK ADS
+ https://www.youtube.com/watch?v=6ihCGD6hOnc
+
+ https://www.youtube.com/watch?v=to4uTxSNo6Q
+ https://developers.facebook.com/docs/marketing-api/guides/collection#creating-ads
+
+ https://www.youtube.com/watch?v=zSTpnlr7fa4
+ https://www.youtube.com/watch?v=2jYmxWC11ac
+
+ pithon = https://www.youtube.com/watch?v=qI1s_DrzA-o
+
 API 2
   CARS   https://developer.cars.com/api/delta-listings-service-dls-10/apimethod/get-classified-ad-listing-detail
           http://fipeapi.appspot.com/
