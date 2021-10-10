@@ -1,0 +1,2 @@
+$resultados = view('reparacoes.results2', compact('a','get'));
+        return view('reparacoes.browse2', compact('a', 'resultados', 'estados', 'lojas')); 

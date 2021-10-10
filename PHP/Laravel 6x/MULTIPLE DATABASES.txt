@@ -1,0 +1,5 @@
+ MULTIPLE DATABASES
+   https://fideloper.com/laravel-multiple-database-connections
+
+ MULTIPLE DATABASES DIFERENTES DOMINIOS
+ https://laravel.io/forum/12-13-2016-laravel-1-aplication-2-domains-and-dbs

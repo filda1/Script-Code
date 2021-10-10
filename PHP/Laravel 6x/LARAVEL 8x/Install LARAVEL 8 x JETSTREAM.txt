@@ -4,7 +4,17 @@ LARAVEL 8
  https://jetstream.laravel.com/1.x/installation.html
  Alctualizar laravel 7 a 8 = https://www.youtube.com/watch?v=0lKkE4KLzS4
 
+ MULTI TENANCY +  JETSREAM = Bitfumes => https://www.youtube.com/watch?v=uvnvYzQ2fw0
+                              https://tenancyforlaravel.com/docs/v3/introduction/
+                              *https://spatie.be/docs/laravel-multitenancy/v2/introduction
+                               https://laravel-news.com/multi-tenant?ref=morioh.com&utm_source=morioh.com
+
+                              ****https://www.youtube.com/watch?v=5CjWPU7lns4
+
  *Jetstream === Laravel ui
+
+
+
 
  INSTALAR :
 

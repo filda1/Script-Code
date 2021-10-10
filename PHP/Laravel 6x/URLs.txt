@@ -1,17 +1,22 @@
 CALENDARIO 
 https://blog.quickadminpanel.com/tasks-calendar-with-laravel-fullcalendar-quickadminpanel/
 
+
+********************************************************
 LARAVEL ZERO _ CONSOLE ====> https://laravel-zero.com/docs/installation
 
  LARAVEL OCTANE  ===========> Velocidad , 2 servidores
 
  LARAVEL BREEZE ============> Jetstream solo
 
-
  LARAVEL-MEDIA-MANGER = https://github.com/ctf0/Laravel-Media-Manager
                         https://vuejsprojects.com/laravel-media-manager
                         https://github.com/ctf0/demos/tree/media-manager
 
+ *************************************************************************************
+ REDIS + LARAVEL = https://www.youtube.com/watch?v=UEpyWEbsrkw&list=PLXM5y5j_b0mMdVF5p_2ug_b5tWqah_tfJ&index=2
+
+****************************************************************************
 
  PAYPAL Andre Madarang ===> https://www.youtube.com/watch?v=_7YBIRQfSN0
              https://github.com/drehimself/laravel-paypal-example/blob/master/resources/views/welcome.blade.php
