@@ -3,3 +3,12 @@
 
  MULTIPLE DATABASES DIFERENTES DOMINIOS
  https://laravel.io/forum/12-13-2016-laravel-1-aplication-2-domains-and-dbs
+
+***************************************************************************
+
+
+/////////////////////////////////////////////////////////////////////////////////
+   2 BD
+https://stackoverflow.com/questions/31847054/how-to-use-multiple-databases-in-laravel
+   https://fideloper.com/laravel-multiple-database-connections
+https://medium.com/teknomuslim/how-to-run-laravel-using-multiple-database-connections-d7e8dcb7ed2a
