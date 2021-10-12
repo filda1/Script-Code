@@ -291,5 +291,48 @@ filter imagen = https://www.youtube.com/watch?v=AMAJLgafs6U
   https://www.babylonjs.com/
   https://babylonjs.medium.com/babylon-react-native-bringing-3d-and-xr-to-react-native-applications-7928b55acc85
 ---------------------------------------------------------------------------------------------------
-  
+   RN + SQL lite
+   https://medium.com/@thekingoftech/como-configurar-o-sqlite-expo-no-react-native-1d160e04b652
 
+---------------------------------------------------------------------------------------------------------------
+ PROYECTOS
+
+   EDITOR FILTROS
+   eBOOK
+   SCANNER DOC
+   NOTICIA SOCCER RT
+   Calendario Periodo
+   BIBLIA
+    https://morioh.com/p/bae13d93ce96
+   CODIGO DE BARRAS
+    https://github.com/MarnoDev/react-native-qrcode-scanner-view
+https://dzone.com/articles/react-native-qr-code-scanner-using-expo-barcode-sc
+   CODIGO DE BARRAS SUPER
+    - Historico asc/desc
+     https://github.com/darde/react-native-sidemenu
+https://stackoverflow.com/questions/43860981/how-to-create-side-menu-with-react-native
+     https://www.npmjs.com/package/react-native-side-menu-updated
+*https://snack.expo.dev/@aboutreact/navigation-drawer-with-custom-sidebar-menu-example?session_id=snack-session-CxUjYtYnj
+     *https://blog.waldo.io/react-native-side-menu-guide/
+     *https://reactnavigation.org/docs/drawer-based-navigation/
+     ** https://docs.expo.dev/versions/latest/sdk/bar-code-scanner/
+
+   DETECTOR OCR
+https://www.inflightit.com/post/react-native-a-simple-ocr-scanner
+    https://www.npmjs.com/package/react-native-tesseract-ocr
+    https://github.com/doo/scanbot-sdk-example-react-native
+    https://github.com/jonathanpalma/react-native-tesseract-ocr
+    https://snack.expo.dev/@jesse/ocr-test
+
+https://www.smashingmagazine.com/2021/06/image-text-conversion-react-tesseract-js-ocr/
+
+    CREATE QR = https://github.com/gevgasparyan/rn-qr-generator
+    https://reactnativeexample.com/react-native-picture-ocr/
+
+    QR =
+    https://nicedoc.io/teslamotors/react-native-camera-kit#cross-platform-ios-and-android
+    proyectos = https://morioh.com/p/a05e158da998
+
+
+
+  
