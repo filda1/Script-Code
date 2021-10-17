@@ -1,3 +1,6 @@
   Facebook ads
    https://github.com/facebook/facebook-python-business-sdk
    https://stackoverflow.com/questions/47834523/facebook-marketing-api-python-to-get-insights-user-request-limit-reached
+
+
+  *****TUTORIAL (FREECODECAMP) = https://www.youtube.com/watch?v=DLikpfc64cA

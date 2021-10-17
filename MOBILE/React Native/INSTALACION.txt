@@ -71,6 +71,13 @@ Instalación del Visual Studio Code https://code.visualstudio.com/download
   INstall Consola Cmander
 
  *********************** FIN CONGIG ***************
+---------------------------------------------------------------------
+ MAC
+ OJO (PARA MAC) = Utilizar Expo en Todo( Y Droid con QR)
+               >> Expo start
+ >> ls
+ >> cd/desktop
+----------------------------------------------------------------------
 
  ************************ INSTALL REACT NATIVE *******************
  >> npm i -g expo-cli

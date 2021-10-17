@@ -41,6 +41,9 @@ MODEL
                     CLONE AMAZON ======> https://www.youtube.com/watch?v=9rXbq2lim0Y&list=RDCMUCYSa_YLoJokZAwHhlwJntIA&start_radio=1&rv=9rXbq2lim0Y&t=14407
 
    BURGER =================> https://www.youtube.com/watch?v=diUDjNwZ8Lg
+  AGENDA ===================================================> https://github.com/wmcmahan/react-native-calendar-events
+                                                              https://github.com/vonovak/react-native-add-calendar-event
+
 **********************************************************************************************************
  SIGNAL R = https://medium.com/swlh/learn-how-to-deploy-a-react-native-chat-client-against-a-signalr-hub-on-asp-net-core-for-linux-1b73af1cb2be
 **********************************************************************************************************
