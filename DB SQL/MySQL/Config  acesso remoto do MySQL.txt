@@ -1,0 +1,58 @@
+ 
+  Configurar o acesso remoto do MySQL  =======> https://www.youtube.com/watch?v=-MiPkEfRWJE
+  LIBERAR ACCESO
+
+   * Se pudede acceder a Mysql por SSH pero no por Worbench(Por eso hay que configurar)
+ 
+
+ MYSQL
+mysql -u root -p
+password: {Mm<ΚkWn{]^skzoNuws~x
+**************************************
+ WORBENCH
+ iP: 165.22.197.228   3306
+ user: myuser
+ pass: {Mm<ΚkWn{]^skzoNuws~x
+******************************
+
+PASOS:
+ 1. Liberar el Puerto
+ 2. Crear Usuario para servidor
+ 3. Adicionar Todos privilegios
+
+**************************************************** AQUI *****************************************************
+>> ssh user@192-268.1.12
+
+sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
+
+
+ttps://165.22.197.228/phpmyadmin
+
+GRANT ALL PRIVILEGES ON *.* TO 'randxy'@'localhost'
+   ->     WITH GRANT OPTION;
+
+ bind-address
+ sudo ufw allow 3306
+
+ CREATE USER 'vivledouser'@'localhost' IDENTIFIED BY '{Mm<ΚkWn{]^skzoNuws~x';
+
+    CREATE USER 'myuser'@'localhost' IDENTIFIED BY '{Mm<ΚkWn{]^skzoNuws~x';
+ CREATE USER 'vivledouser'@'%.%.%:%' IDENTIFIED BY '{Mm<ΚkWn{]^skzoNuws~x';
+    CREATE USER 'myuser'@'%.%.%:%' IDENTIFIED BY '{Mm<ΚkWn{]^skzoNuws~x';
+
+  CREATE USER 'myuser'@'%' IDENTIFIED BY '{Mm<ΚkWn{]^skzoNuws~x';
+  CREATE USER 'myuser'@'0.0.0.0' IDENTIFIED BY '{Mm<ΚkWn{]^skzoNuws~x';
+
+ GRANT ALL PRIVILEGES ON *.* TO 'myuser'@'localhost';
+GRANT ALL PRIVILEGES ON *.* TO 'myuser'@'%.%.%:%';
+
+GRANT ALL PRIVILEGES ON *.* TO 'myuser'@'%';
+GRANT ALL PRIVILEGES ON *.* TO 'myuser'@'0.0.0.0';
+
+FLUSH PRIVILEGES;
+
+exit
+
+ sudo service mysql restart
+
+***********************************

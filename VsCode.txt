@@ -42,3 +42,8 @@ https://dev.to/thegeoffstevens/50-vs-code-themes-for-2020-45cc
 5-Codeanywhere
 6-Code Sandbox
 *********7-Gitpod
+********************************************************************************************************
+ PALEETTE COLOE VISUAL STUDIO 
+     https://docs.microsoft.com/en-us/visualstudio/extensibility/ux-guidelines/color-value-reference-for-visual-studio?view=vs-2019
+
+

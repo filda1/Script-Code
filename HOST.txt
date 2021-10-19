@@ -51,3 +51,6 @@ CHOMECAST A TV
  CDN =====> copias del servidor original em sitios cercanos
   * Problema: Cuando hay mucho trafico y velocidad lenta a servidor de un pais lejano
     Solucion: https://www.cloudflare.com/
+
+***************************************************
+ SUBDOMINIOS AUTOMATIC =======> https://forums.cpanel.net/threads/automatic-subdomain-for-new-customers.618915/

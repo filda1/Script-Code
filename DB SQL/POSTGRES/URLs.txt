@@ -1,0 +1,8 @@
+  PostGres
+  DOWNLOAD
+     https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+--------------------------------------------------------------------------------******************
+
+   XAMPP + POSTGRES
+   https://w3guy.com/integrate-postgresql-database-xampp-windows/
+   pass:root   port:5432

@@ -1,0 +1,13 @@
+MYSQLDUMP ======> Copia de seguridad
+Copy mysql database from remote server to local computer
+
+https://stackoverflow.com/questions/15435144/copy-mysql-database-from-remote-server-to-local-computer
+*********************************************************
+
+mysqldump -udbuser -p dbname > ~/dbname.sql
+
+
+Descargue el volcado e impórtarlo a la base de datos de destino:
+
+rsync -z user@source.machine.net:dbname.sql .
+mysql dbname < dbname.sql
