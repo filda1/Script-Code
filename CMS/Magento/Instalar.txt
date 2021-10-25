@@ -2,14 +2,19 @@
 
   TUTORIAL DE MAGENTO ==https://meetanshi.com/blog/install-magento-2-on-localhost-using-xampp/
 
+  DOC = https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements.html
+
  ** DONWLOAD ======> https://magento.com/tech-resources/download#archive-releases
                     https://meetanshi.com/blog/install-magento-2-4-via-command-line/
                     https://github.com/magento/magento2
  https://magento.com/tech-resources/download#archive-releases
 
- MARKET PALCE
- filintomeireles@gmail.com  
+ MARKET PALCE /infitifree
+ ...@gmail.com  
  Portugal@@2020
+
+ admin
+ admin@@2021
 
 *************************************************************************************
  INSTALAR MAGENTO

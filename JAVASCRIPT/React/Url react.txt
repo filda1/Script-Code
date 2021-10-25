@@ -40,6 +40,12 @@ https://bestofreactjs.com/repo/Sandermoen-instaclone-react-react-apps
  INSTAGRAM CLONE https://awesomeopensource.com/project/Doha26/Instagram-clone
 
 *****************************************
+ UI =====>  https://headlessui.dev/react/tabs
+
+ Search Autocomplete =
+  https://reactjsexample.com/a-react-search-box-that-filters-the-provided-array-of-objects/
+
+*****************************************
 
   ECOMMERCE ===== https://www.youtube.com/watch?v=tvdFYmJEaw4&list=PLB_Wd4-5SGAYsxD4JGaVdXll3PnoyI-AM
                      Github Links      7
