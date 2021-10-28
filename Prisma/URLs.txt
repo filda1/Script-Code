@@ -1,0 +1,16 @@
+ doc = https://www.prisma.io/docs/guides/database/developing-with-prisma-migrate/customizing-migrations
+ 
+   PRISMA === https://flaviocopes.com/pris
+
+FUNCIONAMIENTO:
+ 1.  en  Schema.prisma ====> Alterar  la tabla (Ej: colocar nueva columna, con tipo de dato)
+
+   1.1   >> npx prisma migrate dev --name rename-migration --create-only
+
+ 2. Renombrar la Migracion
+
+ 3. en La Migracion renombrada ======> Poner SQL
+
+   3.1  npx prisma migrate dev
+
+ 

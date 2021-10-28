@@ -13,9 +13,23 @@
  ...@gmail.com  
  Portugal@@2020
 
+ https://www.youtube.com/watch?v=zM-d4K_4OvU
+
  admin
  admin@@2021
+Magento has been successfully installed at :
+http://xtreme.lovestoblog.com
+Administrative URL : http://xtreme.lovestoblog.com/index.php/admin123
 
+*****
+Magento has been successfully installed at :
+http://3commerce.epizy.com
+Administrative URL : http://3commerce.epizy.com/index.php/admin
+
+*************************************************************************************
+CONFIGUARR VARNISH 
+     https://www.cloudways.com/blog/magento-2-varnish-configuration/
+     https://cloudkul.com/blog/configure-varnish-and-redis-magento-2/
 *************************************************************************************
  INSTALAR MAGENTO
 

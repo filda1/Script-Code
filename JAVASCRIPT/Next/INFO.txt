@@ -18,3 +18,18 @@
   OJO: En CONTEXT ======> Existe 2:
                      1. Auth Context
                      2. Context Api === State Context ( usa useContext)
+
+********************************************************************************************************
+RECURSOS:
+ 
+   PRISMA === https://flaviocopes.com/prisma/
+
+   NEXT AUTH === https://next-auth.js.org/
+   
+   REACT QUERY  ======> controla el estado del Backend + Cache
+                   https://oieduardorabelo.medium.com/gerenciando-estado-remoto-com-react-query-1bde57cd7eed
+                   https://www.devdoido.com/posts/react-query-part5
+
+
+
+***********************************************************************************************************
