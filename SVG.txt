@@ -16,3 +16,14 @@ https://books.google.pt/books?id=zWNyDgAAQBAJ&pg=PA613&lpg=PA613&dq=como+convert
                             https://codepen.io/willianjusten/pen/YPVYOO/
 
  Tutorial Inline SVG = https://github.com/jonitrythall/svgpocketguide/blob/master/svgpocketguide-ptbr.md
+
+
+
+
+
+Main
+User
+ImagePreview
+Loading
+Tooltip
+Contactos
