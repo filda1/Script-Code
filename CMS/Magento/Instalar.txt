@@ -43,23 +43,7 @@ CONFIGUARR VARNISH
  username (token public):  a09928fe8a23bee8ff2fd7f723ba8fbd
  pasword (token private) : 47fb9b4d1d99e86ea46b42e5a252056c
 
-
-bin/magento setup:install \
---base-url=http://localhost/appmagento1 \
---db-host=localhost \
---db-name=dbmagento240 \
---db-user=root \
---db-password= \
---admin-firstname=admin \
---admin-lastname=admin \
---admin-email=admin@admin.com \
---admin-user=admin \
---admin-password=admin \
---language=en_US \
---currency=USD \
---timezone=America/Chicago \
---use-rewrites=1
-
+ 
 
 
 
@@ -72,7 +56,8 @@ bin/magento setup:install \
 
 
 
-  REPLACE: LINE 96
+  REPLACE: LINE 96 
+     ERROR: vendor/magento/frameworks/Imagen/Adapter/Gd2.php
 
     private function validateURLScheme(string $filename) : bool
     {
@@ -88,14 +73,16 @@ bin/magento setup:install \
     }
 
 
+ ///////////////////////////////////////// INSTALAR POR CONSOLA: ////////////////////////////////////////////
   * Hacer BD, primero
   >> C:\xampp\htdocs\magentoX240 > 
 
-       php bin/magento setup:install --base-url="http://localhost/magentoX240/" --db-host="localhost" --db-name="dbmagento240" --db-user="root" --db-password="" --admin-firstname="admin" --admin-lastname="admin" --admin-email="admin@admin.com" --admin-user="admin" --admin-password="admin" --use-rewrites="1" --backend-frontname="admin"
+       php bin/magento setup:install --base-url="http://localhost/app_mangeto237p2/" --db-host="localhost" --db-name="magento237p2" --db-user="root" --db-password="" --admin-firstname="admin" --admin-lastname="admin" --admin-email="admin@admin.com" --admin-user="admin" --admin-password="admin@@2021" --use-rewrites="1" --backend-frontname="admin"
 
 
 php bin/magento setup:install --base-url="http://localhost/magentoX240/" --db-host="localhost" --db-name="dbmagento240" --db-user="root" --admin-firstname="admin" --admin-lastname="admin" --admin-email="admin@admin.com" --admin-user="admin" --admin-password="admin" --language="en_US" --currency="INR" --timezone="America/Chicago" --use-rewrites="1" --backend-frontname="admin
 
+/////////////////////////////////////// FIN INSTALAR POR CONSOLA: //////////////////////////////////////////
 
 
 php bin/magento setup:install 

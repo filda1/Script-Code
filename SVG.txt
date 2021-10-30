@@ -1,4 +1,4 @@
-Filinto da Silva <filinto.urh@gmail.com>
+ <o.urh@gmail.com>
 	
 quarta, 12/02, 16:18 (há 4 dias)
 	
@@ -27,3 +27,4 @@ ImagePreview
 Loading
 Tooltip
 Contactos
+

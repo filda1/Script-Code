@@ -111,4 +111,9 @@ https://www.youtube.com/watch?v=WNeUthr525w
 ***********************************************************
  CodigoTw = https://piratebay.uno/description.php?id=52899245
 
+************************************************************
+ FONTS
+   css2?family=Manrope:wght@400;500;700&display=swap
+      https://fonts.google.com/?query=Manrope
+
  
