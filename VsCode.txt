@@ -16,6 +16,16 @@ https://dev.to/thegeoffstevens/50-vs-code-themes-for-2020-45cc
   1 Dark
    Syntax
 
+  PLUGIN 
+ BAnner Comment
+ React snnipes
+ B.. comement
+ Open Browser
+ Thunder ======>Postman
+ Intelligen css
+ Prettier
+ Breakes
+ Tallwind css Intelligence
 ******************************************************************************************************
 
  Conectar Vscode a Github = https://www.youtube.com/watch?v=Fk12ELJ9Bww

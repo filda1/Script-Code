@@ -21,6 +21,9 @@ Magento has been successfully installed at :
 http://xtreme.lovestoblog.com
 Administrative URL : http://xtreme.lovestoblog.com/index.php/admin123
 
+epiz_30243638
+YnDiDqgFmr5h
+
 *****
 Magento has been successfully installed at :
 http://3commerce.epizy.com
