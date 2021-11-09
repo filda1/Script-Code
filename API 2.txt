@@ -183,3 +183,7 @@ habilita herramientas para crear y monitorear aplicaciones móviles, web y nativa
 
 API de comprador profesional: Acquestizer 
 Track esta API es una interfaz de navegador cruzado que selecciona productos y servicios para comprar. Admite un máximo de 1000 productos por solicitud y cada producto tiene un máximo de 500 características. Esta API está archivada en Productos .
+
+------------------------------------------------------------------------
+ StoryChief (Campanhas de marketing, redes sociales)
+ https://developers.storychief.io/#1586c793-17a3-45f8-b144-bef0768a4b65

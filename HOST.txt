@@ -54,3 +54,7 @@ CHOMECAST A TV
 
 ***************************************************
  SUBDOMINIOS AUTOMATIC =======> https://forums.cpanel.net/threads/automatic-subdomain-for-new-customers.618915/
+
+**************************************************
+ MUX (VIDEO)
+  https://mux.com

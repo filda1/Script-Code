@@ -1,0 +1,32 @@
+ MAUTIC
+
+   *EMAIL
+     PROBLEMs
+   1. Borra siempre de cada comienzo SEGMENTO y CONTACTOS (utilizar
+Nombres No utlizados)
+   2. En EMAILS, si alguna tiene en Gris QUEQUE (Borrar o Esperar)
+   2.1. Desactivar Publicacion de no utlizados
+   3. Al selecciona un Template (Hacer algun cambio para q reconozca)
+
+
+    SEND EMAIL:  PASOS
+    1. Crear SEGMENTO (Nombre Original) y Publicar
+     1.1 Afuera en el Menu, SEGMENTO, Click CUADRO AZUL/MORADO (Cargar
+Contactos)
+    2. En CONTACTOS, Arriba en la derecha en flecha, IMPORTAR( CVS)
+     2.1 Por el LIMIT, cargar y Upload
+     2.2 En CONTACT SEGMENT poner el creado
+     2.3 El ULTIMO INPUT, poner Email
+     2.4 Click BOTON MORADO, IMPORTAR BROWSER
+    3. En Canais, EMAILS:
+     3.1 Selecionar el TEMA y en AVANZADO poner (From name: Nombre
+Empresa, y el email que envia... en odas)
+     3.2 Poner Al lado Input Verticales, Subject(Asunto). Nome Interno,
+El Segmento de Contacto , Categoria, Idioma y Boton Publicar. Aplicar y
+Guardar
+     3.3 Ir al Menu, Emails, el email ver la ETIQUETA GRIS DE PENDIENTES
+si sale. Luego SEND afuera/adentro (Porner Los lotes de envio)
+................................................................................................................................
+........................
+     CREAR CAMPANHA
+*https://www.youtube.com/watch?v=u3pMPuQ6BX0&ab_channel=AwahMohamed

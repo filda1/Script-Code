@@ -242,6 +242,8 @@ Instalación del Visual Studio Code https://code.visualstudio.com/download
 
 **********************************************************************************************************
   RESPONSIVE
+    >> https://github.com/diego3g/responsive-native
+
     https://www.npmjs.com/package/react-native-responsive-screen
     >> npm i react-native-responsive-screen
 

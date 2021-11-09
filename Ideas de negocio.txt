@@ -14,3 +14,5 @@
 
 
     EMPLEO =======> https://www.parametro.pt/recrutamento/
+
+   CV = https://europa.eu/europass/eportfolio/api/eprofile/shared-profile/9159cb3a-216e-4abf-be08-f3945c76a425?view=html

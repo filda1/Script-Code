@@ -122,3 +122,7 @@ dotnet /var/www/html/VivleoMVC/VivleoMVC.dll
 dotnet VivleoMVC.dll
 
 dotnet --version
+------------------------------------------------------------------
+
+ IDEAS APP
+  https://github.com/florinpop17/app-ideas
