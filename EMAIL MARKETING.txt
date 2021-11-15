@@ -41,7 +41,10 @@ MAUTIC
 
  Segmentacion y Formulario
   https://www.youtube.com/watch?v=OflgTliFluc
-
+***********************************************************************
+ OSCLASS = OLX
+ https://osclass-classifieds.com
+ https://www.youtube.com/watch?v=8mPoNbxMeO4
 ************************************************************************
  AGNER OLEB
     Fivefold

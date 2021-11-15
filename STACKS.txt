@@ -7,3 +7,23 @@ https://medium.com/@fullstackedkush/switching-up-my-stack-django-mongodb-graphql
 STACK
   - XAMMPP
   - LARAGON
+
+************************************************************************************************************
+ DATABASES
+ Sql
+  Mysql
+  Postgres
+  SQL server
+
+ NoSQL
+  MongoDB
+  CoachDB
+  ArangoDB
+  Neo4j
+  influxDB
+
+ Cache 
+  Redis
+
+ Realtime
+   rethinkdb

@@ -12,6 +12,8 @@ OLX =====>* https://github.com/ubaig54/basic-olx-clone (JV)
          https://github.com/pawelos076232/OLX-QuiteDark
         * https://github.com/ousseinali/LetitGo.com
 
+      ****https://github.com/sameem420/REACTOLXClone
+
  FLUTTER OLX ======> https://github.com/robsonsilv4/xlo_flutter
 -------------------------------------------------------------------
  - RED LLAMAR A EXTRANOS Y Publicando un tema = https://wakie.com/
@@ -126,3 +128,7 @@ dotnet --version
 
  IDEAS APP
   https://github.com/florinpop17/app-ideas
+
+------------------------------------------------------------------
+  MINAR  
+  SOLAR » https://www.youtube.com/watch?v=Dto_JAVwDFI
