@@ -17,6 +17,8 @@ LARAVEL ZERO _ CONSOLE ====> https://laravel-zero.com/docs/installation
  REDIS + LARAVEL = https://www.youtube.com/watch?v=UEpyWEbsrkw&list=PLXM5y5j_b0mMdVF5p_2ug_b5tWqah_tfJ&index=2
 
 ****************************************************************************
+ SSH TUNNEL === https://github.com/stechstudio/laravel-ssh-tunnel
+----------------------------------------------------------------------------
 
  PAYPAL Andre Madarang ===> https://www.youtube.com/watch?v=_7YBIRQfSN0
              https://github.com/drehimself/laravel-paypal-example/blob/master/resources/views/welcome.blade.php

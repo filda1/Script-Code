@@ -1,9 +1,15 @@
 LARAVEL 8 
 
  Bitfumes ========> https://www.youtube.com/watch?v=BZFavPxP2xc
- https://jetstream.laravel.com/1.x/installation.html
+------------------------------------------------------------------------------------------------------------
+   JETSREAM 
+     INSTALL:
+   https://jetstream.laravel.com/1.x/installation.html
+  * https://laravelarticle.com/laravel-jetstream-tutorial
+  *TEAM ========> https://www.youtube.com/watch?v=Kodpz1zB3a0
+------------------------------------------------------------------------------------------------------------
  Alctualizar laravel 7 a 8 = https://www.youtube.com/watch?v=0lKkE4KLzS4
-
+------------------------------------------------------------------------------------------------------------
  MULTI TENANCY +  JETSREAM = Bitfumes => https://www.youtube.com/watch?v=uvnvYzQ2fw0
                               https://tenancyforlaravel.com/docs/v3/introduction/
                               *https://spatie.be/docs/laravel-multitenancy/v2/introduction
@@ -12,11 +18,10 @@ LARAVEL 8
                               ****https://www.youtube.com/watch?v=5CjWPU7lns4
 
  *Jetstream === Laravel ui
+---------------------------------------------------------------------------------------------------------------
 
 
-
-
- INSTALAR :
+ INSTALAR (Jetstream):
 
   1-    cd C:\xampp\htdocs >  composer create-project --prefer-dist laravel/laravel NombreProyecto
 R
@@ -31,7 +36,7 @@ de Jet
 
 -----------------------------------------------------------------------
 
-  INSTALAR 2 FORMA :
+  INSTALAR 2 FORMA (Laravel 8) :
 
     1-    cd C:\xampp\htdocs >  composer create-project --prefer-dist laravel/laravel NombreProyecto
 
@@ -51,7 +56,7 @@ de Jet
 
 ---------------------------------------------------------------------------------------
 
-  INSTALAR 3 FORMA :
+  INSTALAR 3 FORMA  (Laravel 8):
  (https://www.itsolutionstuff.com/post/laravel-8-multi-auth-authentication-tutorialexample.html)
 
   
