@@ -14,6 +14,11 @@
       freecodecamp » https://www.youtube.com/watch?v=1WmNXEVia8I&list=RDCMUC8butISFwT-Wl7EV0hUK0BQ&start_radio=1&rv=1WmNXEVia8I&t=8712
 
       ****Traversy Media = https://www.youtube.com/watch?v=mTz0GXj8NN0
+*********************************************************************************************************************************************
+
+   Nextjs PostgreSQL Typescript CRUD (REST API & Frontend)
+     FATZ =====> https://www.youtube.com/watch?v=fle43mKDLSI
+                 https://github.com/FaztWeb/nextjs-postgres-crud-typescript
 
 *********************************************************************************************************************************************
 
@@ -80,3 +85,10 @@ CARROUSel ======>   https://github.com/akiran/react-slick
 ***************************************************************************************************************************************
   REACT ICONS
    https://react-icons.github.io/react-icons/search?q=plus
+***************************************************************************************************************************************
+   TOOLS:
+
+    PRISMA
+    TLRC
+    REACT QUERY
+****************************************************************************************************************************************

@@ -19,7 +19,44 @@ LARAVEL 8
 
  *Jetstream === Laravel ui
 ---------------------------------------------------------------------------------------------------------------
+ *INSTALL JETSTREAM (SIN ERRORES)
 
+   1. >> cd C:\xampp\htdocs >  composer create-project --prefer-dist
+laravel/laravel NombreProyecto
+
+   2. >> C:\xampp\htdocs\Proyecto> composer require laravel/jetstream
+
+   3. >> C:\xampp\htdocs\Proyecto> php artisan jetstream:install livewire
+
+   4. >> C:\xampp\htdocs\Proyecto> npm i
+
+   5. >> C:\xampp\htdocs\Proyecto> php artisan jetstream:install
+livewire --teams
+
+   6. >> C:\xampp\htdocs\Proyecto> code .
+
+     6.1  Crear BD en MySql
+     6.2  En Code, Env -----> Poner el Nombre BD
+     6.3  CORRECION ERROR en migrate de BD:
+
+        * Edite o arquivo app\Providers\AppServiceProvider.php
+   ---------------------------------------------------
+         use Illuminate\Support\Facades\Schema;
+
+         public function boot()
+         {
+           Schema::defaultStringLength(191);
+         }
+   ------------------------------------------------------
+
+   7. C:\xampp\htdocs\Proyecto> php artisan migrate
+
+   8. C:\xampp\htdocs\Proyecto> npm run dev
+
+   9. C:\xampp\htdocs\Proyecto> php artisan serve
+
+
+**************************************************************************************
 
  INSTALAR (Jetstream):
 
