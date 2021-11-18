@@ -1,0 +1,135 @@
+LARAVEL 8 
+
+ Bitfumes ========> https://www.youtube.com/watch?v=BZFavPxP2xc
+------------------------------------------------------------------------------------------------------------
+   JETSREAM 
+     INSTALL:
+   https://jetstream.laravel.com/1.x/installation.html
+  * https://laravelarticle.com/laravel-jetstream-tutorial
+  *TEAM ========> https://www.youtube.com/watch?v=Kodpz1zB3a0
+------------------------------------------------------------------------------------------------------------
+ Alctualizar laravel 7 a 8 = https://www.youtube.com/watch?v=0lKkE4KLzS4
+------------------------------------------------------------------------------------------------------------
+ MULTI TENANCY +  JETSREAM = Bitfumes => https://www.youtube.com/watch?v=uvnvYzQ2fw0
+                              https://tenancyforlaravel.com/docs/v3/introduction/
+                              *https://spatie.be/docs/laravel-multitenancy/v2/introduction
+                               https://laravel-news.com/multi-tenant?ref=morioh.com&utm_source=morioh.com
+
+                              ****https://www.youtube.com/watch?v=5CjWPU7lns4
+
+ *Jetstream === Laravel ui
+---------------------------------------------------------------------------------------------------------------
+ *INSTALL JETSTREAM (SIN ERRORES)
+
+   1. >> cd C:\xampp\htdocs >  composer create-project --prefer-dist
+laravel/laravel NombreProyecto
+
+   2. >> C:\xampp\htdocs\Proyecto> composer require laravel/jetstream
+
+   3. >> C:\xampp\htdocs\Proyecto> php artisan jetstream:install livewire
+
+   4. >> C:\xampp\htdocs\Proyecto> npm i
+
+   5. >> C:\xampp\htdocs\Proyecto> php artisan jetstream:install
+livewire --teams
+
+   6. >> C:\xampp\htdocs\Proyecto> code .
+
+     6.1  Crear BD en MySql
+     6.2  En Code, Env -----> Poner el Nombre BD
+     6.3  CORRECION ERROR en migrate de BD:
+
+        * Edite o arquivo app\Providers\AppServiceProvider.php
+   ---------------------------------------------------
+         use Illuminate\Support\Facades\Schema;
+
+         public function boot()
+         {
+           Schema::defaultStringLength(191);
+         }
+   ------------------------------------------------------
+
+   7. C:\xampp\htdocs\Proyecto> php artisan migrate
+
+   8. C:\xampp\htdocs\Proyecto> npm run dev
+
+   9. C:\xampp\htdocs\Proyecto> php artisan serve
+
+
+**************************************************************************************
+
+ INSTALAR (Jetstream):
+
+  1-    cd C:\xampp\htdocs >  composer create-project --prefer-dist laravel/laravel NombreProyecto
+R
+  2-    C:\xampp\htdocs\Proyecto>   composer require laravel/jetstream   (Tiene livewire o inertia)
+de Jet
+  2.1-   C:\xampp\htdocs\Proyecto > npm install && npm run dev
+
+  3-      C:\xampp\htdocs\Proyecto > php artisan vendor:publish --tag=jetstream-views (Instala todas view de JetStream)
+
+
+
+
+-----------------------------------------------------------------------
+
+  INSTALAR 2 FORMA (Laravel 8) :
+
+    1-    cd C:\xampp\htdocs >  composer create-project --prefer-dist laravel/laravel NombreProyecto
+
+     2-    C:\xampp\htdocs\Proyecto>   composer require laravel/ui
+        
+     2.1                               composer require livewire/livewire
+
+     3-    C:\xampp\htdocs\Proyecto>  php artisan ui vue --auth
+
+     4-    C:\xampp\htdocs\Proyecto>   npm Install ( =  npm i)
+
+     5 -   C:\xampp\htdocs\Proyecto>     npm run dev (Compilar Vue para Js)
+
+   
+ OTRA FORMA CON AUTH =========> https://www.youtube.com/watch?v=Fq-_x6hL4lQ
+
+
+---------------------------------------------------------------------------------------
+
+  INSTALAR 3 FORMA  (Laravel 8):
+ (https://www.itsolutionstuff.com/post/laravel-8-multi-auth-authentication-tutorialexample.html)
+
+  
+    0 - composer create-project --prefer-dist laravel/laravel blog
+
+    
+    1- composer require laravel/ui         ================= >Dentro del proyecto
+
+
+    2-  php artisan ui bootstrap --auth    ================= >Dentro del proyecto
+
+    3-  npm install                        ================= >Dentro del proyecto
+
+    4-   npm run dev
+
+
+***********************************************************************************************
+
+  CHANGE TO BOOSTRAPT
+  
+  https://github.com/nascent-africa/jetstrap
+
+  https://www.youtube.com/watch?v=cs7pZOGcelI&ab_channel=ALittleBitOfLARAVEL
+
+*************************************************************************************************
+ JETSTREAM VIEW
+  *https://www.youtube.com/watch?v=1zaLnT3wKAs&t=5s
+
+ EN VIEW - Si Cambiamos cualquier cosa con  <X-JET......  ===============> es necesario publicar en La principal de /resources/view/vendor/Jetstream
+ >> php artisan vendor:publish
+  Localizar Jetstream-views, y poner el numero
+ >> 23
+
+
+ >> npm run dev
+
+ >> Al FINAL, PARA PRODUCCION =========> Correr ======> >> npm run prod
+
+***************************************************************************************************

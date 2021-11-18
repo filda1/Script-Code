@@ -1,0 +1,7 @@
+URLS
+  Tuto = https://www.youtube.com/watch?v=hwG3kRJ-d90
+         https://www.youtube.com/watch?v=Z3O9Pflsl4g
+
+  APRENDIBLE = https://www.youtube.com/watch?v=1zaLnT3wKAs&t=5s
+               https://www.youtube.com/watch?v=j5WitDAC8tg (livewire)
+               https://www.youtube.com/watch?v=H5VdGA6mS14 ( Search + livewire)
