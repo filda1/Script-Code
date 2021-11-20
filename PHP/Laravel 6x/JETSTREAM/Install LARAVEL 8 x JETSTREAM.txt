@@ -21,8 +21,7 @@ LARAVEL 8
 ---------------------------------------------------------------------------------------------------------------
  *INSTALL JETSTREAM (SIN ERRORES)
 
-   1. >> cd C:\xampp\htdocs >  composer create-project --prefer-dist
-laravel/laravel NombreProyecto
+   1. >> cd C:\xampp\htdocs >  composer create-project --prefer-dist laravel/laravel NombreProyecto
 
    2. >> C:\xampp\htdocs\Proyecto> composer require laravel/jetstream
 
@@ -30,8 +29,7 @@ laravel/laravel NombreProyecto
 
    4. >> C:\xampp\htdocs\Proyecto> npm i
 
-   5. >> C:\xampp\htdocs\Proyecto> php artisan jetstream:install
-livewire --teams
+   5. >> C:\xampp\htdocs\Proyecto> php artisan jetstream:install livewire --teams
 
    6. >> C:\xampp\htdocs\Proyecto> code .
 

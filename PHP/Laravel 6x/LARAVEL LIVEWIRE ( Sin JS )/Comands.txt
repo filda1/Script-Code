@@ -1,0 +1,42 @@
+Commands
+
+   JETSREAM FUNCIONA SOLO CON LIVEWIRE
+  
+
+   1 -   >> php artisan make:livewire todo.show  ( CREA UN CONTROLLER Livewire y VIEW Livewire)
+
+   2-  Controller Livewire, Show.php:
+      ----------------------------------------          
+         public function render()
+        {
+
+        $list ="111";
+        return view('livewire.todo.show', [ 'list' => $list ]);
+        //return view('livewire.todo.show');
+        }
+
+        public function saved()
+       {
+        $this->render();
+       }
+     ------------------------------------------
+
+  3-  View  Livewire, show.blade:
+     ------------------------------------------
+      <div>
+            {{ $list }}
+      </div>
+     ------------------------------------------
+
+  4. View Cualquiera de BLADE:
+
+     @livewire('todo.show')
+
+----------------------------------------------------------------------------------------------------------------------
+  ROUTE LIVEWIRE en Web
+
+  Route::middleware(['auth:sanctum', 'verified'])->get('/todo', [\App\Http\Livewire\Pasta\Nombre::class])
+----------------------------------------------------------------------------------------------------------------------
+
+
+ * https://eheidi.dev/blog/creating-a-multi-user-to-do-application-with-laravel-jetstream-2p1k

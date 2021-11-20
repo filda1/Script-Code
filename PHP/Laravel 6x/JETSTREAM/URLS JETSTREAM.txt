@@ -1,3 +1,28 @@
 URLS
   Tuto = https://www.youtube.com/watch?v=hwG3kRJ-d90
          https://www.youtube.com/watch?v=Z3O9Pflsl4g
+
+*******************************************
+ **********ToDo ======> https://eheidi.dev/blog/creating-a-multi-user-to-do-application-with-laravel-jetstream-2p1k
+
+ ******************************************
+
+  APRENDIBLE = https://www.youtube.com/watch?v=1zaLnT3wKAs&t=5s
+               https://www.youtube.com/watch?v=j5WitDAC8tg (livewire)
+               https://www.youtube.com/watch?v=H5VdGA6mS14 ( Search + livewire)
+
+ ****** https://www.youtube.com/watch?v=JGupPpM04Ag
+ **** https://www.youtube.com/watch?v=JGupPpM04Ag
+
+ **** LARVEL DAiLY = https://www.youtube.com/watch?v=pyOcSEkG4Q0
+                https://www.youtube.com/watch?v=d8YgWApHMfA (Poner input Profile)
+
+ **** https://www.youtube.com/watch?v=e-vJTqp0wDc (Current Team)
+
+*************************************************************************************************
+ GET URL = https://infinitbility.medium.com/how-to-get-the-current-url-in-laravel-702e1b7855c6
+*************************************************************************************************
+ Fortify
+ force
+ jet
+  

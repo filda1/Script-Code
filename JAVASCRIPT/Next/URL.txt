@@ -17,6 +17,7 @@
 *********************************************************************************************************************************************
 
    Nextjs PostgreSQL Typescript CRUD (REST API & Frontend)
+
      FATZ =====> https://www.youtube.com/watch?v=fle43mKDLSI
                  https://github.com/FaztWeb/nextjs-postgres-crud-typescript
 

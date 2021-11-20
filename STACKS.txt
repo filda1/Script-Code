@@ -5,8 +5,9 @@ https://medium.com/@fullstackedkush/switching-up-my-stack-django-mongodb-graphql
 ************************************************************************************************************
 
 STACK
-  - XAMMPP
+  - XAMMPP ======> hdocs
   - LARAGON
+  - WAMMP ======> wwww
 
 ************************************************************************************************************
  DATABASES

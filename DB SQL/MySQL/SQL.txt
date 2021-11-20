@@ -42,3 +42,7 @@ auto increment to the new primary key */
 
 ***************************************************************
 
+ DEVUEVE VALOR
+
+ INSERT......  RETURNING *
+
