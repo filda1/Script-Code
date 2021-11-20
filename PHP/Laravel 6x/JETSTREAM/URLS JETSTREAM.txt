@@ -3,7 +3,7 @@ URLS
          https://www.youtube.com/watch?v=Z3O9Pflsl4g
 
 *******************************************
- **********ToDo ======> https://eheidi.dev/blog/creating-a-multi-user-to-do-application-with-laravel-jetstream-2p1k
+ **********ToDo ======> https://eheidi.dev/blog/creating-a-multi-user-to-do-application-with-laravel-jetstream-2p1k (FORM SEND)
 
  ******************************************
 

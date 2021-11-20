@@ -1,9 +1,11 @@
 Commands
 
-   JETSREAM FUNCIONA SOLO CON LIVEWIRE
+   JETSTREAM FUNCIONA SOLO CON LIVEWIRE
   
 
    1 -   >> php artisan make:livewire todo.show  ( CREA UN CONTROLLER Livewire y VIEW Livewire)
+
+           *Los archivos creados estan en los sitios tipicos
 
    2-  Controller Livewire, Show.php:
       ----------------------------------------          
@@ -33,9 +35,9 @@ Commands
      @livewire('todo.show')
 
 ----------------------------------------------------------------------------------------------------------------------
-  ROUTE LIVEWIRE en Web
+  ROUTE LIVEWIRE en  Routes Web
 
-  Route::middleware(['auth:sanctum', 'verified'])->get('/todo', [\App\Http\Livewire\Pasta\Nombre::class])
+  Route::middleware(['auth:sanctum', 'verified'])->get('/todo', [\App\Http\Livewire\Pasta\Nombre::class])->name('todo);
 ----------------------------------------------------------------------------------------------------------------------
 
 

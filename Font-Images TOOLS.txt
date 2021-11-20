@@ -116,4 +116,6 @@ https://www.youtube.com/watch?v=WNeUthr525w
    css2?family=Manrope:wght@400;500;700&display=swap
       https://fonts.google.com/?query=Manrope
 
- 
+************************************************************
+https://es.wikipedia.org/wiki/Alfanuméricos_cerrados
+ https://stackoverflow.com/questions/4366730/how-do-i-check-if-a-string-contains-a-specific-word
