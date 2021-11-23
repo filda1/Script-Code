@@ -1,1 +1,5 @@
  FLASK + CPANEL ==> https://www.youtube.com/watch?v=4rpUEXpKIak
+***************************************************************
+
+Flask SQLAlchemy CRUD con MySQL ====> https://www.youtube.com/watch?v=BP3D03CYFHA
+                                     https://github.com/FaztWeb/flask-sqlalchemy-crud 

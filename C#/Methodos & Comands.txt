@@ -15,3 +15,5 @@
     x =  x ?? "OLA" (Si x es null entonces es OLA. IF...)
 
      x ??="OLA"
+
+  * VARIAS COLLECIONES  =====================> https://www.youtube.com/watch?v=OMVO_TTitUM&t=26s
