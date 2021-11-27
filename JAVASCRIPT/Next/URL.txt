@@ -22,6 +22,11 @@
                  https://github.com/FaztWeb/nextjs-postgres-crud-typescript
 
 *********************************************************************************************************************************************
+   AUTH DENTRO DE NEXT(jwt)
+
+    *****https://jasonwatmore.com/post/2021/08/04/next-js-11-jwt-authentication-tutorial-with-example-app#jwt-middleware-js
+    https://github.com/cornflourblue/next-js-11-jwt-authentication-example
+*********************************************************************************************************************************************
 
     NEXT.JS + context api 
                           =========> ***https://kaloraat.com/articles/nextjs-react-context-tutorial-how-to-use-context-api-with-nextjs
@@ -30,7 +35,7 @@
    NEXT + CONEXT Api(Use contex) ========> ******https://github.com/FaztWeb/nextjs-context-crud
                                                  https://www.youtube.com/watch?v=ngOwT3BPIvU   (FATZ)
 *********************************************************************************************************************************************
-   AUTH + JWS 
+   AUTH + JWS(jwt desde Backend) 
                 =====> *****https://www.youtube.com/watch?v=pvrKHpXGO8E
                        https://github.com/rocketseat-content/youtube-next-auth-jwt   (Rocketseat)
                        https://www.mikealche.com/software-development/how-to-implement-authentication-in-next-js-without-third-party-libraries

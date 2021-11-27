@@ -1,0 +1,28 @@
+ EXEMPLO : ["[{\"id\": \"22\"}]"]
+
+   //******************************* NEW ***************************//
+            $arr_barberJobs = array();
+
+
+             $jobs0 = "[" . trim($request->jobs_id, ',') . "]";
+
+             $jobsIds0 = json_decode($jobs0, true);
+
+
+              foreach ($jobsIds0 as $job1) {
+
+                  $nameJob  = BarberJob::where("id", $job1['id'] )->first();
+
+                   $barbersJob = BarberJob::where("nome", $nameJob->nome)
+                                     ->whereNotIn('cadeira', ['60'])
+                                     ->get();
+
+                  //array_push($arr_barberJobs, $nameJob->nome);
+                  foreach ($barbersJob as $value) {
+                  array_push($arr_barberJobs, $value->cadeira);
+                  }
+              }
+
+
+         //******************************* NEW
+****************************//
