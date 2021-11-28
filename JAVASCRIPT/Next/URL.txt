@@ -61,6 +61,11 @@
                        https://www.youtube.com/watch?v=_cccpx2Bw_g
 
 ***************************************************************************************************************************************
+ INSTALL TEMPLATE
+              https://www.youtube.com/watch?v=Hx2BdPh0QFg
+
+ Convetrt Html to JSX =======> https://transform.tools/html-to-jsx
+***************************************************************************************************************************************
   BURGER_MENU  =========> https://www.npmjs.com/package/react-burger-menu
                           ********https://dev.to/faisaljebali/how-to-build-a-sidebar-menu-in-react-with-react-burger-menu-5bnm
                           https://khuang159.medium.com/creating-a-hamburger-menu-in-react-f22e5ae442cb

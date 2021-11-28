@@ -1,8 +1,10 @@
+ * https://bluuweb.github.io/nextjs/
 
- npx create-next-app nombre-proyecto
 
- cd nombre-proyecto
- npm run dev / yarn dev
+ >> npx create-next-app nombre-proyecto
+
+ >> cd nombre-proyecto
+ >> npm run dev / yarn dev
 
 ********************************************************************************************************
  Axios ====> npm i axios
