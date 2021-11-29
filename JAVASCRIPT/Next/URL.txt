@@ -47,6 +47,11 @@
                                 2- Comprobar token o User (If)
 
 ***************************************************************************************************************************************
+
+  STRAPI ========> Get TABLES
+    https://www.youtube.com/watch?v=PaNSN_h1_JA
+
+***************************************************************************************************************************************
     TUTOARIAL
      Fatz    ****NEXT + MONGODB =========> https://www.youtube.com/watch?v=SiUM8vYeuu0&t=65s
                                            https://github.com/FaztWeb/nextjs-mongodb-crud

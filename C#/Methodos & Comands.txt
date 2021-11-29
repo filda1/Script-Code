@@ -17,3 +17,66 @@
      x ??="OLA"
 
   * VARIAS COLLECIONES  =====================> https://www.youtube.com/watch?v=OMVO_TTitUM&t=26s
+********************************************************************************************************************************
+  LINQ      *https://www.youtube.com/watch?v=FYRpN8pcRaY
+
+  - Ejemplo:
+ --------------------------------------------------------------------------------
+     var beers = new List<Beer>()
+     {
+       new Beer() { Name ="x", Brand ="y"},
+       new Beer() { Name ="1x", Brand ="1y"},
+     }
+
+    
+     var beers2 = new List<Beer>()
+     {
+       new Beer() { Name ="2x", Brand ="2y"},
+       new Beer() { Name ="3x", Brand ="3y"},
+     }
+
+
+
+
+     public class Beer
+     {
+       public string Name { get; set;}
+       public string Brand { get; set;}
+     }
+
+
+  1- ULTIMO OBJETO
+
+    console.WriteLine(beers.ElementAt(^1).Name) ===================> el ^ comienza de abajo y por el 1. Ojo: sin ^ comienza de arriba y de 0
+
+
+  2- POR RANGO
+
+   foreach ( var beer in beers.Take(0..4))  ==============> del (0 al 4).  Ejemplo 3 ultimos: (^3..) .Ejemplo: del 1 para delante (1..)
+   {
+    console.WriteLine(beer.Name);
+   }
+
+
+  3- DISTINTOS/ NO DUPLICADOS
+
+   foreach ( var beer in beers.DistinctBy(e => e.Name)) 
+   {
+    console.WriteLine(beer.Name);
+   }
+
+
+  4- UNION / UNION BY
+
+  foreach ( var beer in beers.Union(beers2))   ===============> Union de 2 Listas
+   {
+    console.WriteLine(beer.Name);
+   }
+
+
+  foreach ( var beer in beers.UnionBy(beers2, e=>e.Name))   ===============> Union de 2 Listas pero NO duplicados
+   {
+    console.WriteLine(beer.Name);
+   }
+ 
+--------------------------------------------------------------------------------
