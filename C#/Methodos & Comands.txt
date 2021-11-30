@@ -24,8 +24,8 @@
  --------------------------------------------------------------------------------
      var beers = new List<Beer>()
      {
-       new Beer() { Name ="x", Brand ="y"},
-       new Beer() { Name ="1x", Brand ="1y"},
+       new Beer() { Name ="x", Brand ="y", Alcohol = 23},
+       new Beer() { Name ="1x", Brand ="1y", Alcohol = 26},
      }
 
     
@@ -74,9 +74,36 @@
    }
 
 
-  foreach ( var beer in beers.UnionBy(beers2, e=>e.Name))   ===============> Union de 2 Listas pero NO duplicados
+  foreach ( var beer in beers.UnionBy(beers2, e=>e.Acohol))   ===============> Union de 2 Listas pero NO duplicados
    {
     console.WriteLine(beer.Name);
    }
+
+    
+  5- MaxBy / MinBy
  
+    
+    console.WriteLine(beer.MaxBy( e= e.Acolhol));
+
+   // console.WriteLine(beer.MaxBy( e= e.Acolhol)?.Name);
+
+
+
+  6- CHUNK   ========> Divide en Partes
+
+      console.WriteLine(beer.Chunk(2))    ===========> Separa en 2 Partes
+
+
+
+  7- VALOR POR DEFAULT en caso de Null
+
+
+  console.WriteLine(beer.Where( e => e.Name == "Corona").FirstOrDefault( new Beer() { Name:"Esto es un valor por defecto en caso de error"}).Name )
+
+
+
+  8- COMBINAR /  MEZCLAR  Listas, colecciones...
+
+
+
 --------------------------------------------------------------------------------
