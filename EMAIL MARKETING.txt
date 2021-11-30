@@ -9,7 +9,8 @@ https://www.thatsjournal.com/email-marketing/list-of-best-free-open-source-email
 
 
 *******************************************************************************************************
-
+  EMAIL CLIENT =======> Thunderbird
+*******************************************************************************************************
  SUPER SENDER = https://www.youtube.com/watch?v=xnJw_M4C9Cc
 
  WhatsApp Sender PRÓ 2019 = https://www.youtube.com/watch?v=Day47oqPtiE
@@ -55,3 +56,16 @@ https://www.youtube.com/watch?v=gGYazghYt2E
 
 ****************************************************
  12345678 = $2y$10$6.wdhOocKfVUiVwePhQvBuP7pSohHaeuc1szhQX8vbrwT5UxYvo6C
+
+**********************************************************************
+
+  WEBMAIL + OUTLOOK
+
+  En Outlook:
+    Entrada: IMAP, 993
+    Servidor
+    Email
+    PASS
+    Salida : SSL,  965
+
+***********************************************************************

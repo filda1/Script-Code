@@ -1,0 +1,45 @@
+  * https://www.youtube.com/watch?v=eCIl3oyviqc
+
+
+  1- Dentro de app:
+      1.1 Carpeta Helpers
+          1.2 helper.php   =================================> dentro de la carpeta
+
+
+  2- helper.php :
+ 
+       function getMytest() {
+
+         return "OKay xxxx";
+       }
+
+
+
+  3. composer.json :
+
+     Dentro autoload      =====================> ruta del archivo
+
+     "autoload": {
+       ...{
+       },
+       "file": [
+         " app/Helpers/helper.php"
+       ]
+      }
+
+
+
+   4. >> composer dump-autoload       ==================> Si da error , cambiar el nombre de la funcion
+
+
+
+   5. CualquierController  (llamado directo )  
+
+     class... 
+     {
+       public function index()
+       {
+         return getMytest();
+       }
+   
+      }
