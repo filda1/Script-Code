@@ -9,6 +9,19 @@ GOOGLE SHEET (CONSUMIR API)
                 https://www.adictosaltrabajo.com/2018/12/04/como-hacer-un-complemento-para-google-docs/
                    https://developers.google.com/apps-script/quickstart/fundamentals-codelabs
                    https://developers.google.com/apps-script/overview
+************************************************************************************************************************
+   BUSCADOR DE REDES SOLCIALES POR DOMINIO = EMPRESAS
+
+     https://socials.so/contact
+     https://www.programmableweb.com/api/socials-rest-api-v1
+     https://www.programmableweb.com/news/daily-api-roundup-people-data-labs-atomicvest-veganipsum/brief/2021/11/21
+
+************************************************************************************************************************
+
+  SEND POST
+   https://www.ayrshare.com/?utm_medium=ad&utm_source=google&utm_campaign=search_manual_eu&gclid=Cj0KCQiA15yNBhDTARIsAGnwe0XiMVbpW1PqjOINJxqU-WrN-zIOF93Pl7xRvW2mImK53FLIhEVnD8MaAnTLEALw_wcB
+
+*************************************************************************************************************************
 
 FACEBBOK ADS
  https://www.youtube.com/watch?v=6ihCGD6hOnc

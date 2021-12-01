@@ -1,0 +1,36 @@
+INSTALL FASTAPI
+
+  0 - Crear un carpeta del Proyecto
+  1- Instalar ENTORNO VIRTUAL == Conda  (https://conda.io/projects/conda/en/latest/user-guide/install/windows.html#install-win-silent)
+  2- Abrir consola de Anaconda
+
+  3- En Anaconda, >>> cd Carpeta del Proyecto
+  4- >>>  conda create --name NombreDelEntorno python=3
+  5  >>>  Y
+  6- >>>  conda activate NombreDelEntorno (/o conda deactivate)
+  7- >>> code .
+
+     ** En Visual Code, poner el Interprete conda ( Control + P, escribir:  python interpreter y seleccionar El Q tiene nombre De entorno)
+
+  8- >>> install fastapi uvicorn
+
+  9- >>> uvicorn app:app =======================>(RUN)
+         uvicorn app:app --reload   ======================> RUN automatico
+
+
+
+-----------------------  MYSQL ---------------------------------------
+
+  10 - >>> pip install sqlalchemy               =======================> driver
+  11 - >>> pip install pymysql                  =======================> interactuar con mysql
+
+  12 - >>> pip install cryptography (OPCIONAL)  ====================> Encriptar Password  
+
+
+
+
+
+
+
+  * Fazt ====> https://www.youtube.com/watch?v=6eVj33l5e9M
+               https://github.com/FaztWeb/fastapi-mysql-restapi     

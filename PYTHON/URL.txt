@@ -4,3 +4,21 @@
 
 
   *****TUTORIAL (FREECODECAMP) = https://www.youtube.com/watch?v=DLikpfc64cA
+
+*************************************************************************************************************************
+
+  WEBSCRAPING + PYTHON = https://medium.com/@marlessonsantana/utilizando-o-scrapy-do-python-para-monitoramento-em-sites-de-notícias-web-crawler-ebdf7f1e4966
+
+
+************************************************************************************************************************
+
+  BUSCADOR DE REDES SOCIALES
+  
+  USERRECON
+   ****https://github.com/stjordanis/userrecon-py
+
+   https://github.com/issamelferkh/userrecon
+   https://byte-mind.net/userrecon-reconocimiento-usuarios-redes-sociales/
+
+
+ 

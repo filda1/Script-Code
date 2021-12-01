@@ -16,6 +16,14 @@ https://dev.to/thegeoffstevens/50-vs-code-themes-for-2020-45cc
   1 Dark
    Syntax
 
+
+  Theme-Muukii
+  Theme-RealBlackBoard
+  Theme-Carbonight
+  bunker
+  linux-themes
+
+
   PLUGIN 
  BAnner Comment
  React snnipes

@@ -1,5 +1,14 @@
 
   FASTAPI ====>Python
+*************************************************************************************************************************
+
+   **** FAST API + MYSQL (FAZT) =====>   
+
+              https://www.youtube.com/watch?v=6eVj33l5e9M
+               https://github.com/FaztWeb/fastapi-mysql-restapi
+
+*************************************************************************************************************************
+ TUTORIAL
 
   ********https://www.youtube.com/watch?v=iOZ28g2fe-U
   
@@ -14,3 +23,5 @@
 
 
  FASTAPI + DOCKER = https://towardsdatascience.com/how-you-can-quickly-deploy-your-ml-models-with-fastapi-9428085a87bf
+
+***********************************************************************************************************************
