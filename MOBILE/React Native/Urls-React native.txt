@@ -29,7 +29,14 @@ MODEL
  SNIPETT = https://reactnativeexample.com/tag/dropdown/
          
 **********************************************************************************************************
+
+   CLONE TIKTOK (SimCoder) = https://www.youtube.com/watch?v=o9RlmRf4tqI&list=PLxabZQCAe5fjzyawndGLeP1GkJTAjZlKL&index=3
+                              https://github.com/SimCoderYoutube/TiktokClone
+
+*********************************************************************************************************
+
  REACT NATIVE + NODE + MYSQL (FATZ)======> https://www.youtube.com/watch?v=HMKVnwlhJO0&t=2102s
+
 **********************************************************************************************************
   PROYECTOS:
     BARBERSHOP =====> https://github.com/carlosdiver/devBarber   /////   https://www.youtube.com/watch?v=kk_pGWBOkc4

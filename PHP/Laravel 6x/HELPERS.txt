@@ -22,7 +22,7 @@
      "autoload": {
        ...{
        },
-       "file": [
+       "files": [
          " app/Helpers/helper.php"
        ]
       }
