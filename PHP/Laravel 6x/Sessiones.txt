@@ -1,7 +1,4 @@
 
-
-
-
  Session::put('id', $user->id );
 Session::get('id' );
 Session::forget('id' );

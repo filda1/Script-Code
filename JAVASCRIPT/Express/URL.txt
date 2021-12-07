@@ -19,3 +19,7 @@
    STRAPI + REACT = https://www.youtube.com/watch?v=YuHk9J8Bp_k
   
 ***************************************************************************************
+  Coinbase Commerce y Nodejs - Pagos con Crypto y Javascript (Fazt)
+
+                https://www.youtube.com/watch?v=MmSzVCrP3U8
+                https://github.com/FaztWeb/nodejs-coinbase-commerce

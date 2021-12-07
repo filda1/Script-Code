@@ -30,7 +30,7 @@ MODEL
          
 **********************************************************************************************************
 
-   CLONE TIKTOK (SimCoder) = https://www.youtube.com/watch?v=o9RlmRf4tqI&list=PLxabZQCAe5fjzyawndGLeP1GkJTAjZlKL&index=3
+   CLONE TIKTOK (SimCoder) = https://www.youtube.com/watch?v=o9RlmRf4tqI&list=PLxabZQCAe5fjzyawndGLeP1GkJTAjZlKL&index=3     4
                               https://github.com/SimCoderYoutube/TiktokClone
 
 *********************************************************************************************************
