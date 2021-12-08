@@ -2,6 +2,15 @@
   ICONOS HTML ====> unicode character
 
  palete de color images -----< https://imagecolorpicker.com/en
+**********************************************************************************
+
+  TEST ====> NETFLIX
+
+     https://www.youtube.com/watch?v=aGBg6UemJl4
+   *https://github.com/Netflix/chaosmonkey
+    https://github.com/Netflix/SimianArmy
+    https://github.com/asobti/kube-monkey
+    https://www.digitalocean.com/community/tutorials/what-is-load-balancing
 
 ***********************************************************************************
  https://medium.com/@101/the-best-free-icon-packs-26f36ddd732e

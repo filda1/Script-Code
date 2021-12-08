@@ -1,0 +1,6 @@
+  URL
+
+   INSTALL CPANEL
+     https://websetnet.net/es/install-redis-and-redis-php-on-cpanel/
+
+    https://www.rosehosting.com/blog/install-redis-and-redis-php-on-cpanel/

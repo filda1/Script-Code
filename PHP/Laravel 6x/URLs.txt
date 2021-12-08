@@ -19,6 +19,12 @@ LARAVEL ZERO _ CONSOLE ====> https://laravel-zero.com/docs/installation
 ****************************************************************************
  SSH TUNNEL === https://github.com/stechstudio/laravel-ssh-tunnel
 ----------------------------------------------------------------------------
+  LARAVEL TRASLATE 
+
+         https://blog.quickadminpanel.com/how-to-add-multi-language-models-to-laravel-quickadminpanel-2020/
+         https://github.com/Astrotomic/laravel-translatable
+
+***************************************************************************************************
 
  PAYPAL Andre Madarang ===> https://www.youtube.com/watch?v=_7YBIRQfSN0
              https://github.com/drehimself/laravel-paypal-example/blob/master/resources/views/welcome.blade.php

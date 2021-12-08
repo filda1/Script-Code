@@ -30,3 +30,22 @@ DB::table('post')
 
        $user = User::with('roles')->first();
        return $user->toArray();
+
+
+****************************************************************************************************************
+
+  $data_table = array(
+    array(cell_11, cell_12, cell_13, cell_14),
+    array(cell_21, cell_22, cell_23, cell_24),
+    array(cell_31, cell_32, cell_33, cell_34),
+    array(cell_41, cell_42, cell_43, cell_44),
+);
+Y use dos bucles en su plantilla:
+
+foreach ($data_table as $row) {
+    echo '<tr>';
+        foreach($row as $cell) {
+            echo '<td>' . $cell . '</td>';
+        }
+    echo '</td>';
+}

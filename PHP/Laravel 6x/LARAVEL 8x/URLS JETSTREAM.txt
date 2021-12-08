@@ -20,3 +20,10 @@ URLS
  Fortify
  force
  jet
+
+
+**************************************************************************************************
+ LARAVEL FRONTEND PRESENT  ============> Diferentes Templates
+
+            https://github.com/laravel-frontend-presets/tall
+            https://github.com/laravel-frontend-presets
