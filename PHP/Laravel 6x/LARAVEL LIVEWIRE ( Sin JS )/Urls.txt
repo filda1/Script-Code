@@ -4,3 +4,7 @@
 
  CRUD , Rimorsoft online  =   https://www.youtube.com/watch?v=0C9ThpExLmc&list=PLhCiuvlix-rSRRmZAL2CNOMAUjgEiFoSl
                               https://github.com/ebrjose/crud-livewire
+
+*****************************************************************************************************************
+
+   ****** Livewirwe  = https://www.youtube.com/watch?v=D5jJshq25xk&list=PLZ2ovOgdI-kWqCet33O0WezN14KShkwER&index=5
