@@ -6,3 +6,15 @@
   NEXTCLOUD
        https://www.youtube.com/watch?v=AnICHG2BlQc
        https://nextcloud.com
+************************************************************************************************************************************************
+ ------------------------------------------------------------------------------------
+  ALTERNATIVA A GOOGLE ANALITICS =======> https://umami.is/
+------------------------------------------------------------------------------------
+ FORM INTERACTIVO =======> https://github.com/ditdot-dev/vue-flow-form
+------------------------------------------------------------------------------------
+ VIDEO AULAS(OPEN SOURCE) = peers.Scholl ===>https://github.com/holtwick/peer2school
+                                https://peer.school
+
+ https://bigbluebutton.org/2018/07/09/greenlight-2-0/ (NECESARIO SERVIDOR VPN)
+ https://bigbluebutton.org (NECESARIO SERVIDOR VPN)
+-------------------------------------------------------------------------------------
