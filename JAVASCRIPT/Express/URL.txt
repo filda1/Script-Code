@@ -23,3 +23,13 @@
 
                 https://www.youtube.com/watch?v=MmSzVCrP3U8
                 https://github.com/FaztWeb/nodejs-coinbase-commerce
+
+*****************************************************************************************
+
+   AWS Lambda & DynamoDB CRUD | Serverles Framework con Nodejs y AWS
+        https://www.youtube.com/watch?v=wvux4WOU5dc
+        https://github.com/FaztWeb/nodejs-aws-lambda-crud
+
+  AWS Lambda = servicio con codigo que cinfiguro todo el servidor AWS
+
+*******************************************************************************************

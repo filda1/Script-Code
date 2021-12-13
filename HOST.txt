@@ -11,7 +11,27 @@ THESTRATEGA: https://bit.ly/NS-Stratega
 
  MAIL PRUEBA = http://www.yopmail.com/en/
 
+*************************************************************************************************************
 VPS =====> vps9.net
+
+VPS
+  ****CPANEL FREE ===> http://centos-webpanel.com
+  
+  Hostinger = https://www.youtube.com/watch?v=giVUkSuIaS0&list=PLZ5JcDS_NJXJioUsuDahMNQ4zWbHZ90Wt&index=6
+
+
+  CPANEL PARA UBUNTU 
+          ======> WEBAMIN  https://www.youtube.com/watch?v=tDQY49ra9JE
+                           https://www.digitalocean.com/community/tutorials/how-to-install-webmin-on-ubuntu-20-04-es
+
+          ====>AJENTI
+                              https://ubunlog.com/ajenti-un-excelente-panel-de-control-para-tu-servidor/
+
+
+  CYBERPANEL ======> https://www.youtube.com/watch?v=SqDAyRqOlgE
+
+
+  cloudfare
 
 *************************************************************************************************************
     WEBHS ==================> HS @XS SSD

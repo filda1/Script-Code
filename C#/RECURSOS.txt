@@ -1,4 +1,8 @@
 ********************************************************************************************
+
+  MICROSERVISIOS (MACORATY) =====> https://www.youtube.com/watch?v=q6uYIkCzS18&list=PLJ4k1IC8GhW24-nppbX0n0OE3DBGhsYEs 
+
+********************************************************************************************
  INSTALL EN SERVER: ASPNET.CORE + LINUX + NGINX
 
   https://marxjmoura.com/posts/2019/08/18/host-aspnet-core-on-linux-with-nginx.html

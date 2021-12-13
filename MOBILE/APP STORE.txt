@@ -15,7 +15,7 @@
 
 
  --------------------------------------------------
- Transporter. de Mac , para enviar .ipa a App Store
+ Transporter (Programa) ========== de Mac , para enviar .ipa a App Store
 
 ----------------------------------------------------
   Barrier, manejar dos pc

@@ -1,3 +1,9 @@
+******************************************************
+https://stackshare.io/feed
+******************************************************
+ OPEN SEARCH
+ https://opensearch.org
+******************************************************
 FREMP
 
 https://medium.com/@fullstackedkush/switching-up-my-stack-django-mongodb-graphql-react-native-5bba6a73724e
@@ -28,3 +34,6 @@ STACK
 
  Realtime
    rethinkdb
+
+ Acelerador Site
+  Varnish

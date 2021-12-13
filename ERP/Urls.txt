@@ -1,0 +1,14 @@
+ tutorial = 
+     ODOO ======> https://www.youtube.com/watch?v=u4uJTeqskxc&list=PL1-aSABtP6AB1zZrjGs_evFIM51W_S-Jz
+                  https://github.com/odoo/odoo
+
+     odoo (mOLDE INTERACTIVO) ======> https://www.youtube.com/watch?v=UZ8ACk8bTf8&list=PLHgpVrCyLWArsjTq399z7_M7KWTq4DFeH
+
+     INSTALL ======> https://www.odoo.com/documentation/15.0/administration/install/install.html#demo
+
+
+     https://programmerclick.com/article/57891821431/
+
+*****************************************************************************************************************************
+ TOP 10
+   https://www.e-global.es/erp/10-programas-erp-software-libre-y-gratis-para-pymes.html
