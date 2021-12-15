@@ -17,6 +17,9 @@
                                                                     https://github.com/FaztTech/ReactGallery
 
 ********************************************************************************************************************
+ INSERTAR TEMPLATE BOOSTRAPT EN REACT
+    https://www.youtube.com/watch?v=VtCXo4tzjU8
+********************************************************************************************************************
 
   En NAVEGADOR============> instalar extension  React developer tools   
 

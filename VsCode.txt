@@ -39,6 +39,12 @@ https://dev.to/thegeoffstevens/50-vs-code-themes-for-2020-45cc
  Prettier
  Breakes
  Tallwind css Intelligence
+ blade formetter
+ elint
+ html snippet
+
+ Html to Jsx ============>(Convertidor para REACT)
+   https://www.youtube.com/watch?v=VtCXo4tzjU8
 ******************************************************************************************************
 
  Conectar Vscode a Github = https://www.youtube.com/watch?v=Fk12ELJ9Bww

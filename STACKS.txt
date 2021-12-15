@@ -15,6 +15,25 @@ STACK
   - LARAGON
   - WAMMP ======> wwww
 
+
+ FORMULAS 
+
+  1-  DJANGO / REACTJS
+  1-  DJANGO / NEXTJS   =============> Completa
+
+  2-  NODE / REACTJS
+  2-  NODE / NEXTJS
+
+  3-  STRAPI / REACTJS
+  3-  STRAPI / NEXTJS
+  
+  4-  LARAVEL / REACTJS
+  4-  LARAVEL / NEXTJS =============> Completa
+
+
+  5-  NEXTJS / NEXTJS =============> Completa
+
+
 ************************************************************************************************************
  DATABASES
  Sql

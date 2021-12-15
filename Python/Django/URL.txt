@@ -33,8 +33,28 @@ https://docs.hektorprofe.net/django/web-personal/patron-mvt-modelo-vista-templat
 -------------------------------------------------------------------------------------------
  crm = https://www.youtube.com/watch?v=fOukA4Qh9QA
 
+*******************************************************************************************
+ DJANGO + REACT
+
+  https://www.youtube.com/watch?v=hL52_nB5QSw (Django API)
+   https://github.com/UskoKruM/django_mysql_api
+  https://www.youtube.com/watch?v=kbJAhvzyw-E (React)
+   https://github.com/UskoKruM/react-crud-restapi-django-mysql
+
+*******************************************************************************************
 
 
+ LOGIN + REGISTER 
+           https://www.youtube.com/watch?v=y9nb0QGFl5I
+           https://github.com/mundo-python/django_social_completo
+
+
+********************************************************************************************
+ DJANGO REST 
+       tuto = https://www.youtube.com/watch?v=MMFBD2Eoeuk&list=PLMbRqrU_kvbRI4PgSzgbh8XPEwC1RNj8F
+               https://github.com/developerpe/ecommerce_rest
+
+       TOKEN = https://www.youtube.com/watch?v=88OZlVlfayQ
 
 
 

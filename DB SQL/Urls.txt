@@ -1,0 +1,7 @@
+-*********************************************************
+CLIENT SQL PARA MYSQL/POSTGRES
+
+ https://arctype.com
+
+  https://www.youtube.com/watch?v=suB4r0IKRfA
+**********************************************************

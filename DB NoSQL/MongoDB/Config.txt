@@ -1,4 +1,4 @@
-MONGO DB
+MONGO DB EN LOCAL.
 
  1. DOWLOAD MONGO DB, server  ==============> desabilitar visto
  2- mongod --version
@@ -13,3 +13,11 @@ MONGO DB
 
  6. >> mongod                   ===============================================> inicializar (puerto 27017)
  7. Otro terminal , >> mongo    ===============================================> coneccion
+
+
+
+
+*******************************************************************************************************************************
+
+ OTRA FORMA CONECTAR:
+  - Crear en Database en MongoAtlas

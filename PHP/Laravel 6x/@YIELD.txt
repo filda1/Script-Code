@@ -1,0 +1,76 @@
+ 
+ @include  ============> Carga VIEW
+ @extends ==============> Hereda una pagina VIEW
+ @yield    =================> é usada para exibir o conteúdo de uma determinada seção (MUESTRA EL CONTENIDO DE SECTION)
+ @section ==================> que é responsável em definir uma seção de conteúdo (DIFERENTE CONTENIDO)
+
+  =============================================================
+   RESUMEN: pasar contenido/variable en @section a @yield
+
+     @yield <======= @section
+  =============================================================
+-----------------------------------------------------------------------------------------------------------------------
+ 	master.blade.php (template):
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="utf-8">    
+ </head>
+ <body>
+ <div class="container">
+    <div class="panel panel-default">        
+        <div class="panel-body">
+            @yield('content')
+            @yield('extra-js')
+        </div>
+    </div>
+ </div>
+ </body>
+
+-----------------------------------------------------------------------------------------------------------------------
+     roles.blade.php:
+
+ @extends('master')
+ @section('content')
+    //Contéudo que será diferente para outras páginas
+ @stop                  =====================================================> o tambien  @endsection
+
+ @section('extra-js')
+  <script>
+      ...
+  </script>
+ @endsection
+-----------------------------------------------------------------------------------------------------------------------
+
+
+
+***********************************************************************************************************************
+  2- PASAR VARIABLES CON @yield
+
+
+
+  @yield('titulo')
+
+   e
+
+  @section('titulo', 'Novo titulo');
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+  OTRA MANERA
+ 
+  master.blade.php
+
+   @yield('titulo')
+
+ .......
+
+   pagina.blade.php
+
+     @section('titulo')
+        {{ $variable  }}
+    @endsection
+  
+
+****************************************************************************************************************************
