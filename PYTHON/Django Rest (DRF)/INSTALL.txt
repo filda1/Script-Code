@@ -1,0 +1,116 @@
+ 
+ INSTALL DJANGO REST
+    *https://www.youtube.com/watch?v=NkvvWMS220g
+
+  SERIALIZER == Convierte a JSON un model/array
+  ================================ ESTRUCTURA =========================================
+
+  Carpeta del Proyecto  ===============================> Nombre de carpeta del Proyecto
+    Carpeta apps        ===============================> Nombre de carpeta para las apps
+    Carpeta deL Proyecto General de Django  =================================> Esta se crea con codigo
+  ================================ ESTRUCTURA =========================================
+
+    1- Crear Carpeta Proyecto
+    2- Abrir en VsCode, La carpeta
+    3 -Consola:   >>> c:\Carpeta Proyecto > activate  ambiente
+
+    4. En vscode,dentro de carpeta  crear requirements.txt :
+             django==3.0.8
+             djangorestframework==3.11.0
+    5.save
+
+    6.Consola,  (ambiente) >>> c:\Carpeta Proyecto > pip install requirements.txt
+
+    
+   
+    =========================== Instalar proyecto general ==================================
+
+    7.(ambiente) >>> c:\Carpeta Proyecto > django-admin startproject nombre_ptoyecto .
+
+
+    (SALTAR ESTO)
+    =========================== Instalar mi proyecto/app ==================================
+
+    8.(ambiente) >>> c:\Carpeta Proyecto > python manage.py startapp nombre_app 
+      8.1 Crear un carpeta antes y poner las apps
+
+    9. Dentro vscode, Habilitar nuestro proyecto/app al proyecto general
+     9.1 Proyecto general, settings.py:
+
+        INSTALLED_APP =[
+         ...,
+
+         'rest_framework',
+         'rest_framework.authtoken',
+          'nombre_app',  ==================================> nombre de mi proyecto/app
+        ]
+       
+
+  (  DESDE AQUI)
+   =================== Crear Users ==================
+   * Crear un carpeta para meter las apps. Por ejemplo apps.
+
+   10. (ambiente) >>> c:\Carpeta Proyecto\ apps > django-admin startproject users
+     OJO= users ========> es un app
+
+   11. dentro de users ==> model.py. Copiar y pegar de github del proyecto
+                                   https://github.com/developerpe/ecommerce_rest
+                                   https://www.youtube.com/watch?v=MMFBD2Eoeuk&list=PLMbRqrU_kvbRI4PgSzgbh8XPEwC1RNj8F
+          
+   12. (ambiente) >>> c:\Carpeta Proyecto\ apps >  pip install django/simple/history    
+   13. Poner en General del Proyecto:
+          
+        INSTALLED_APP =[
+         ...,
+
+         'rest_framework',
+         'rest_framework.authtoken',
+         'simple_history',
+         
+         'Carpeta_nombre_app.users',  ==================================> nombre de mi proyecto/app
+        ]    
+
+
+        MIDDELEWARE =[
+        .....,
+        'simple_history.middlerware.HistoryRequestMiddleware'    ============> NUEVO
+       ]    
+
+
+        USE_TZ=true
+        AUTH_USER_MODEL='users.User'    =================> NUEVO
+
+   14. Poner modelo User en Admin:
+
+       - dentro de  Carpeta_nombre_app/users/admin.py  :
+
+
+               from django.contrib import admin
+               from apps.users.models import User
+
+               admin.site.register(User)
+         
+
+   15. Dentro del proyecto General, 
+         (ambiente) >>> c:\Carpeta Proyecto\ nombre_proyecto> pip install pillow
+
+   16. Instalar BASE de DATOS (driver + config)
+
+   17.Migraciones
+     17.1 Dentro del proyecto General, 
+             (ambiente) >>> c:\Carpeta Proyecto\ nombre_proyecto> python manage.py makemigrations
+             (ambiente) >>> c:\Carpeta Proyecto\ nombre_proyecto> python manage.py migrations
+  
+   ============================== ADMIN ==============================
+   18. Admin
+         (ambiente) >>> c:\Carpeta Proyecto\ nombre_proyecto> python manage.py createsuperuser
+
+   19. (ambiente) >>> c:\Carpeta Proyecto\ nombre_proyecto> python manage.py runserver       =======================> RUN
+
+   20. Dentro de users:
+         20.1 Crear carpeta api
+          20.1.1 Crear archivos dentro:
+              __init__py
+              api.py        ================================================> CONTROLLER
+              urls.py
+              serializers.py

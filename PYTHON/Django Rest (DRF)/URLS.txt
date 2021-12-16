@@ -1,0 +1,20 @@
+
+ ********************************************************************************************
+ DJANGO REST (DRF)
+
+
+       ***tuto = https://www.youtube.com/watch?v=NkvvWMS220g
+
+       tuto = https://www.youtube.com/watch?v=MMFBD2Eoeuk&list=PLMbRqrU_kvbRI4PgSzgbh8XPEwC1RNj8F
+               https://github.com/developerpe/ecommerce_rest
+
+       TOKEN = https://www.youtube.com/watch?v=88OZlVlfayQ
+
+
+    CAMBIOS
+       request.POST == request.data
+        
+       request.GET == request.query_params
+
+**********************************************************************************************
+ 
