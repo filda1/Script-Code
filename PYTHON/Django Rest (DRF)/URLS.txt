@@ -17,4 +17,7 @@
        request.GET == request.query_params
 
 **********************************************************************************************
+
+
+  UPLOAD IMAGE = https://www.youtube.com/watch?v=V2zaeqFSSTE
  

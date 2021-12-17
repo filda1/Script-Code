@@ -1,0 +1,103 @@
+TODO DENTRO DE DJANGO
+ *very academy ======> https://github.com/veryacademy/YT-Django-DRF-Simple-Blog-Series-Part-1
+                       https://www.youtube.com/watch?v=soxd_xdHR0o&list=PLOLrQ9Pn6caw0PjVwymNc64NkUNbZlhFw&index=2
+                      
+                       https://www.youtube.com/playlist?list=PLOLrQ9Pn6caw0PjVwymNc64NkUNbZlhFw (playlist)
+
+
+   * UPLOAD IMAGE(Frontend) = https://www.youtube.com/watch?v=V2zaeqFSSTE
+   * DJANGO MEDIA (STORAGE + Admin) ========> https://www.youtube.com/watch?v=aUsEbnoKjGQ
+
+ ======================================= ESTRUCTURA ========================================
+ Carpeta con Nombre_de_Proyecto
+  Carpeta con nombre: django
+   Carpeta con nombre: apps
+    ....                       ==============================================> adentro django crea c/app
+   Carpeta con nombre: principal  ==============================================> creado por django
+  Carpeta con nombre: react
+
+ ======================================= ESTRUCTURA ========================================
+
+*****************************************************************************************************************************
+   INICIO, en django
+
+   1. >>> c:\Nombre_de_Proyecto\django > py -m venv venv
+   2. >>> c:\Nombre_de_Proyecto\django > venv\Scripts\activate
+   3. >>> (venv) c:\Nombre_de_Proyecto\django > pip install django
+   4. >>> (venv) c:\Nombre_de_Proyecto\django > django-admin startproject principal .
+   5. >>> cd apps
+   6. >>> (venv) c:\Nombre_de_Proyecto\django\apps > py manage.py startapp nombre
+   7. >>  ..cd
+   8. >>> (venv) c:\Nombre_de_Proyecto\django > pip install djangorestframework
+
+   9. >>> c:\Nombre_de_Proyecto\django > pip install django-cors-headers
+
+
+   10. Conectar 5 Cosas en Proyecto General/Principal:
+    - Conectar las Apps  =================================================>( settings.py)
+    - Conectar rest_framework  ===========================================>( settings.py)
+    - Conects urls.py  con las otras urls.py  ==============================> (urls.py)
+    - Conectar con Carpeta Template(Crear)    ===============================> (settings.py)
+           TEMPLATE = [
+             ...,
+             'DIRS': [BASE_DIR / 'templates'],
+            ]
+
+    - Dar permisos de Routes     ============================================>  (Settings.py)
+       * REvisar Cors en settings.py
+
+
+INSTALLED_APPS = [
+...
+    'rest_framework',
+    'corsheaders',
+]
+
+IDDLEWARE = [
+...
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware'
+ 
+]
+
+.....
+
+ STATIC_URL = '/static/'
+
+
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.AllowAny',
+    ]
+}
+
+CORS_ALLOWED_ORIGINS = [
+    "http://127.0.0.1:3000",
+    "http://localhost:3000"
+]
+
+
+ COMANDOS:
+     py manage.py runserver   ==============================> RUN
+     py manage.py createsuperuser 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+  INICIO, en react
+
+  1- >>> c:\Nombre_de_Proyecto >> npx create-react-app react
+  2- >>> cd react
+  3- >>> c:\Nombre_de_Proyecto\react >> 
+
+           npm start
+           npm install react-router-dom
+           npm install @material-ui/core
+  
+  4- Para subir a Produccion=========> >>> npm run build
+
+
+
+
+ * VER IMAGENES EN CIERTO NUMERO DE COLUMNAS DE LA FILA
+   *https://mui.com/components/grid/#main-content
+
+        <Grid container spacing={2}>   =========================================> en este caso de 2 en 2

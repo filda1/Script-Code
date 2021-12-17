@@ -1,0 +1,52 @@
+ NUMERO DE COLUMNAS X FILA
+
+   3 columnas X 1 fila
+
+   <div class = "container"> 
+    <div class = "row row-cols-3"> 
+    <div class = "col"> Columna </div> 
+    <div class = "col"> Columna </div> 
+    <div class = "col"> Columna </div> 
+    <div class = "col"> Columna </div> 
+    <div class = "col"> Columna </div> 
+  </div> 
+</div>
+
+
+**********************************************************************************************************************
+ *https://stackoverflow.com/questions/43438312/how-to-change-number-of-column-in-a-row-on-resize-bootstrap
+  https://www.codeply.com/go/zyTOcNXo0m
+   3x3 ======================================> En PC
+
+  <div class="container">
+   <div class="row">
+    <div class="col-lg-4 col-sm-6 col-xs-12">
+    Some content here for column 1
+    </div>
+    <div class="col-lg-4 col-sm-6 col-xs-12">
+    Some content here for column 2
+    </div>
+    <div class="col-lg-4 col-sm-6 col-xs-12">
+    Some content here for column 3
+    </div>
+    <div class="col-lg-4 col-sm-6 col-xs-12">
+    Some content here for column 4
+    </div>
+    <div class="col-lg-4 col-sm-6 col-xs-12">
+    Some content here for column 5
+    </div>
+    <div class="col-lg-4 col-sm-6 col-xs-12">
+    Some content here for column 6
+    </div>
+</div>
+</div>
+
+
+
+ <div class="container">
+      <div class="row">
+         <div class="col-lg-4 col-sm-6 col-xs-12"></div>
+         <div class="col-lg-4 col-sm-6 col-xs-12"></div>
+         <div class="col-lg-4 col-sm-12 col-xs-12"></div>
+      </div>
+ </div>

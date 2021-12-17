@@ -8,6 +8,7 @@
   Carpeta del Proyecto  ===============================> Nombre de carpeta del Proyecto
     Carpeta apps        ===============================> Nombre de carpeta para las apps
     Carpeta deL Proyecto General de Django  =================================> Esta se crea con codigo
+
   ================================ ESTRUCTURA =========================================
 
     1- Crear Carpeta Proyecto
@@ -114,3 +115,9 @@
               api.py        ================================================> CONTROLLER
               urls.py
               serializers.py
+
+
+
+
+   * Developer.pe =======> https://github.com/developerpe/ecommerce_rest
+                           https://www.youtube.com/watch?v=MMFBD2Eoeuk&list=PLMbRqrU_kvbRI4PgSzgbh8XPEwC1RNj8F

@@ -68,6 +68,8 @@
  ADMNPOSTGRES
   pgAdmn4
 
+ CREAR TEMPLATES BOOSTRAPT =========> https://www.layoutit.com/es
+
  GENERADOR DE TABLES
     https://www.tablesgenerator.com/html_tables#
  ServiciosFREE
@@ -92,7 +94,7 @@
 
  SOFTWARE
   Figma.com
-
+  xd
 ----------------------------------------------
 
 https://github.com/philc/vimium ========================> Teclado

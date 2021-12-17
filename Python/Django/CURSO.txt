@@ -29,6 +29,8 @@ $ pipenv shell         ====================================================> Ent
 
  >> pipenv install django=='1.11.*'    ( tambien install pylint === analisador de codigo)
  
+
+
 ------------------------------------------------
    3- >> admin-django starproyect  biblioteca   (django-admin startproject myProjectSite)  
       >> cd biblioteca
@@ -240,6 +242,8 @@ C:\Proyectos\Django Proyect\searchStore
 
    
            
+
+  * DJANGO MEDIA (STORAGE) ========> https://www.youtube.com/watch?v=aUsEbnoKjGQ
 
 
 
