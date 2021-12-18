@@ -1,7 +1,21 @@
 
-    0.  C:/Proyect >>    npm init --yes
+    0.  C:/Proyect >>    npm init --yes  / npm init -y
    
-    1.  C:/Proyect >>    npm install express mysql express-myconnection morgan cors express-handlebars path nodemon
+    1.  C:/Proyect >>    npm install express mysql express-myconnection morgan cors express-handlebars path nodemon axios
+
+
+    ====================================== BABEL (Convertir a codigo js actualizado, y evitar problemas) =====================================
+    1.1 >> npm install @babel/core @babel/cli @babel/preset-env @babel/node -D
+          * Config Babel en vscode:
+             -Dentro del proyecto crear  .babelrc :
+   
+                    {
+                        "presets":[
+                            "@babel/preset-env"
+                         ]
+                     }
+
+    1.2 >> npm i dotenv       >====================VARIABLES DE ENTORNOS
 
     2 .Crear carpeta server o  src   >================> dentro index.js
 
@@ -27,6 +41,15 @@
 
 
 
+
+
+    3.1 CONfiguracion en package.json:
+
+       "scripts":{
+         "dev": " nodemon src/index.js --exec babel-node"       =============> RUN con node + actualiza con babel
+       }
+
+         
     4. >> C:/proyecto >>    npm run dev   =====================>  (RUN RUN)
 
 

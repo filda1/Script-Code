@@ -17,7 +17,22 @@
    INTERNALIZACION (traduccion de datos) =====> https://www.youtube.com/watch?v=TOixZFCwe2U
 
    STRAPI + REACT = https://www.youtube.com/watch?v=YuHk9J8Bp_k
-  
+
+***************************************************************************************
+ PAYPAL + NODE (Fatz) = https://www.youtube.com/watch?v=sBenKZqEzpQ
+                        https://github.com/FaztWeb/nodejs-paypal
+
+ 1- Tener una cuenta normal
+ 2- Entrar ===========>  paypal developer.com, con la cuenta
+ 3- Crear un cuenta de VENDEDOR (Bussinnes) falsa, para recibir
+ 4- Crear un cuenta de COMPRADOR (Personal) falsa, para comprar
+
+ 5- Login/Logout, sandbox.paypal.com
+
+   EN google,  docs: 
+      - paypal rest api
+      - paypal create order
+      - paypal capture order
 ***************************************************************************************
   Coinbase Commerce y Nodejs - Pagos con Crypto y Javascript (Fazt)
 
@@ -33,3 +48,13 @@
   AWS Lambda = servicio con codigo que cinfiguro todo el servidor AWS
 
 *******************************************************************************************
+
+  NODE + TYPESCRIPT + SWAGGER (fatz)= https://www.youtube.com/watch?v=9bO0L1rfkvU&t=1s
+                                      https://github.com/FaztWeb/typescript-swagger-lowdb
+
+ NODE + REDIS =  (fatz)  = https://www.youtube.com/watch?v=QUmM8jdviLg
+
+
+
+ API ===> Lento =====> 500 ms
+          Lento =====> 1000 ms / 1s
