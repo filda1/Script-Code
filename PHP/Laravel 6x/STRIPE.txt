@@ -1,4 +1,4 @@
-
+ 
  STRIPE
 
  * composer require stripe/stripe-php
@@ -58,3 +58,7 @@ use Session;
 
  CART NUMER TEST
  https://stripe.com/docs/testing
+
+
+
+ * OTRA FORMA =======> https://codigofacilito.com/articulos/stripe-laravel

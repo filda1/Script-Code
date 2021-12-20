@@ -17,9 +17,9 @@
 
 FUNCIONAMIENTO
   
-   0. Dentro de cada Api POST, tienes que enviar dentro, CLIENTid + PASS SECRETO . O Token dinamico q tiene que crear Otra API post que genera token y sacarlo
+   0. Dentro de cada ENDPOINT de  POST, tienes que enviar dentro, CLIENTid + PASS SECRETO . O Token dinamico q tiene que crear Otro ENDPOINT de POST que genera token y sacarlo
 
-  Son 2 Apis, POST:
+  Son 2 ENDPOINT, POST:
    1- una api, para  *create order (Inicio):
        devuelve 4 link =============================> Tomar la 2 link: que dice =======>  aproved
 

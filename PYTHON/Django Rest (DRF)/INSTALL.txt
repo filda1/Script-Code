@@ -1,15 +1,43 @@
  
- INSTALL DJANGO REST
-    *https://www.youtube.com/watch?v=NkvvWMS220g
+ INSTALL DJANGO REST (DRF)
+   
+  
+====================================================== FUNCIONAMIENTO =========================================================
 
-  SERIALIZER == Convierte a JSON un model/array
-  ================================ ESTRUCTURA =========================================
+ (developer.pe) = https://www.youtube.com/watch?v=MMFBD2Eoeuk&list=PLMbRqrU_kvbRI4PgSzgbh8XPEwC1RNj8F   
+                                                              (playlist: 1 al 15 = explicacion. De 15 ... = proyecto)
+                                  https://github.com/developerpe/ecommerce_rest
+                                  http://www.developerpe.com
+                                  React =======> https://github.com/developerpe/frontend-ecommerce-rest-react
 
-  Carpeta del Proyecto  ===============================> Nombre de carpeta del Proyecto
-    Carpeta apps        ===============================> Nombre de carpeta para las apps
-    Carpeta deL Proyecto General de Django  =================================> Esta se crea con codigo
+ 1- SERIALEZER ======> Convierte model en JSON
 
-  ================================ ESTRUCTURA =========================================
+ 2- Al hacer endponts puede escoger 3 formas de da Django:
+   1.  ApiVIEW
+   2.  GENERIC
+   3.  VIEWSETS    ================> (Utilizada) : esta crea todo CRUD automatico. Y Puedes tambien subcribir/Personalizar c/crud
+                                                   - https://www.cdrf.co
+                                                   - https://www.django-rest-framework.org
+
+                                    OJO: - Con ViewSets.ModelViewSets =================> Los metodos ya estan creados por defecto
+                                         - Con ViewSets.ViewSets o ViewSets.GenericViewSets =================> tienes q poner metodos
+
+====================================================== FUNCIONAMIENTO =========================================================
+
+====================================================== ESTRUCTURA =============================================================
+
+  Carpeta del Proyecto  ===============================> Nombre de carpeta del Proyecto( crear Manual)
+    Carpeta apps        ===============================> Nombre de carpeta para las apps ( crear Manual)
+     .......            ======================================================================== ESta (c/app) se crea con DJANGO
+    Carpeta deL Proyecto Principal de Django  =================================> ESta se crea con DJANGO
+
+====================================================== ESTRUCTURA =============================================================
+
+
+  INSTALL
+   *https://www.youtube.com/watch?v=NkvvWMS220g
+
+    PARTE 1
 
     1- Crear Carpeta Proyecto
     2- Abrir en VsCode, La carpeta
@@ -24,7 +52,7 @@
 
     
    
-    =========================== Instalar proyecto general ==================================
+    =========================== Instalar proyecto general/Principal ==================================
 
     7.(ambiente) >>> c:\Carpeta Proyecto > django-admin startproject nombre_ptoyecto .
 
@@ -39,6 +67,7 @@
      9.1 Proyecto general, settings.py:
 
         INSTALLED_APP =[
+
          ...,
 
          'rest_framework',
@@ -48,6 +77,10 @@
        
 
   (  DESDE AQUI)
+
+
+   PARTE 2
+
    =================== Crear Users ==================
    * Crear un carpeta para meter las apps. Por ejemplo apps.
 

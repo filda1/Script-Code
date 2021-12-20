@@ -3,11 +3,12 @@
  DJANGO REST (DRF)
 
 
-       ***tuto = https://www.youtube.com/watch?v=NkvvWMS220g
+      *****************	 tuto (Developer.pe) = https://www.youtube.com/watch?v=MMFBD2Eoeuk&list=PLMbRqrU_kvbRI4PgSzgbh8XPEwC1RNj8F
+                                  https://github.com/developerpe/ecommerce_rest
+                                  http://www.developerpe.com
+                                    React =======> https://github.com/developerpe/frontend-ecommerce-rest-react
 
-       tuto = https://www.youtube.com/watch?v=MMFBD2Eoeuk&list=PLMbRqrU_kvbRI4PgSzgbh8XPEwC1RNj8F
-               https://github.com/developerpe/ecommerce_rest
-
+--------------------------------------------------------------------------------------------------------------------
        TOKEN = https://www.youtube.com/watch?v=88OZlVlfayQ
 
 
@@ -20,4 +21,9 @@
 
 
   UPLOAD IMAGE = https://www.youtube.com/watch?v=V2zaeqFSSTE
+
+
+**********************************************************************************************
+ https://adventofcode.com/
  
+

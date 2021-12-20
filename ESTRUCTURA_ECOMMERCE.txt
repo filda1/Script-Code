@@ -1,0 +1,58 @@
+ECOMMERCE
+
+ 0. Config
+
+ 1- Bajar Template
+
+ 2- Ajustar el Template como viene (Pagina pincipal, Detalles y carrito...)
+
+ 3. Hacer Sessiones y despues:
+     -Login
+     -Register
+     
+
+ 4- Crear Tablas BD para las paginas
+
+ 5. Ajustar template con DATA BD (Pagina pincipal, Detalles)
+
+
+ 6. Ajustar VIEW del carrito
+
+ 7. Ajustar Funcionamiento del CARRITO
+    - Primero funcionamiento VIEW
+    - Segundo Enviar a BD
+
+
+ 8. Hacer el CHECKOUT:
+     - Vistas de los PRODUCTOS
+     - Seleccion de TIPO DE TRANSPORTE 
+            - Entrega Domicilio
+            - Recojer loja
+     - Vista de PRECIO DE TRANSPORTE
+        - Por Pais
+        - Por Kilos
+        - Por Km
+        - Por Unidades
+     - Seleccion METODOS DE PAGAMENTO
+     - DIRECCION
+     - TLF
+
+
+ 9. Hacer CONFIRMACION DE LA ORDEN
+     - ver la Order
+     - Aceptar, cancelar o editar
+
+
+ 10. Hacer emails:
+      - Email Orden a Empresa
+      - Email al Comprador
+      - Enviar Email al comprador segun el ESTADO
+      - Forgot Password
+     
+
+
+
+ Promociones
+ Stock
+ 
+pangeastack@gmail.com

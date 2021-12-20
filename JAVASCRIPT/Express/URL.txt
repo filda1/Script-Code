@@ -33,6 +33,11 @@
       - paypal rest api
       - paypal create order
       - paypal capture order
+
+***************************************************************************************
+ STRIPE + REACT + NODE (Fatz) ===============> https://www.youtube.com/watch?v=0Kd0LeAMGf4
+                                               https://github.com/FaztWeb/react-stripe-checkout
+        
 ***************************************************************************************
   Coinbase Commerce y Nodejs - Pagos con Crypto y Javascript (Fazt)
 

@@ -12,6 +12,12 @@
    let variable : ModelObj[]     ==================================> una lista de objetos.
 
 
+  ANGULAR / 3  =  x.componente.ts
+                  x.componente.html
+                  x.componente.css
+    
+==================================================================================================================================================
+                   
  1- Componentes 
  
  2 -  String Interpolation (Interpolación) =============> le passas desde TS la variable o metodo a la VIEW
@@ -103,7 +109,8 @@
 
 
 
-  9. Two way binding - ngModel  ===================================================> actualiza la propiedad directamente en el OBJ
+  9. Two way binding - ngModel  ===================================================> actualiza la propiedad directamente en el OBJ (Comunicacion con OBJ)
+                            TS  <======== HTML
 
     * Ojo registar FormModule en appp.module.ts
 

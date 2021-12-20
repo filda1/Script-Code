@@ -18,7 +18,14 @@
 
 ********************************************************************************************************************
  INSERTAR TEMPLATE BOOSTRAPT EN REACT
+
     https://www.youtube.com/watch?v=VtCXo4tzjU8
+
+********************************************************************************************************************
+
+ STRIPE + REACT + NODE (Fatz) ===============> https://www.youtube.com/watch?v=0Kd0LeAMGf4
+                                               https://github.com/FaztWeb/react-stripe-checkout
+
 ********************************************************************************************************************
 
   En NAVEGADOR============> instalar extension  React developer tools   
