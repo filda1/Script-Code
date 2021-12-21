@@ -7,10 +7,14 @@
  (developer.pe) = https://www.youtube.com/watch?v=MMFBD2Eoeuk&list=PLMbRqrU_kvbRI4PgSzgbh8XPEwC1RNj8F   
                                                               (playlist: 1 al 15 = explicacion. De 15 ... = proyecto)
                                   https://github.com/developerpe/ecommerce_rest
+
                                   http://www.developerpe.com
+                                  Auth Djangom =====> http://www.developerpe.com/programación/autenticacion-en-django-rest-framework/
+                                  jwt =====> https://django-rest-framework-simplejwt.readthedocs.io/en/latest/rest_framework_simplejwt.html
                                   React =======> https://github.com/developerpe/frontend-ecommerce-rest-react
 
  1- SERIALEZER ======> Convierte model en JSON
+  1.1 En View ======> se puden suscribir metodos internos de Django Rest
 
  2- Al hacer endponts puede escoger 3 formas de da Django:
    1.  ApiVIEW
@@ -21,6 +25,8 @@
 
                                     OJO: - Con ViewSets.ModelViewSets =================> Los metodos ya estan creados por defecto
                                          - Con ViewSets.ViewSets o ViewSets.GenericViewSets =================> tienes q poner metodos
+
+                                         - Si es ViewSets utliza Router. Sin no es ViewSets utliza Urls
 
 ====================================================== FUNCIONAMIENTO =========================================================
 

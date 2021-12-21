@@ -26,3 +26,21 @@
 
          //******************************* NEW
 ****************************//
+
+  SYMBOLIC LIN K
+  https://www.w3schools.com/php/func_filesystem_symlink.asp
+
+   <?php
+    $target = "downloads.php";
+    $link = "downloads";
+    symlink($target, $link);
+    echo readlink($link);
+    ?>
+
+
+  <?php
+
+   $target = '/home/p146762461/domains/domain-name/laravel-app/public';
+   $link = '/home/p146762461/domains/domain-name/public_html';
+
+   symlink($target, $link);

@@ -4,6 +4,34 @@
    CDF=====> https://www.youtube.com/watch?v=3cLbh-k2qKk
              https://github.com/gabrielfroes/github-actions-ftp
 
+
+  GITHUB ACTIONS  (DEPLOY)
+
+  1-  Crear Repositorio GITHUB
+  1.1 Tener El FTP   ===============> son Values para SECRET
+  2-  Ver codigo de Ejemplo =====> https://github.com/gabrielfroes/github-actions-ftp
+  
+ ----------------------------------------------------------------
+  EJEMPLO: en Vcode====>
+            server: ${{ secrets.ftp_host }}
+            username: ${{ secrets.ftp_user }}
+            password: ${{ secrets.ftp_password }}
+             server-dir: public_html/gabriel/  ============================================> OJO.Aqui tiene q ser la ruta a Tu Carpeta
+
+  3- En Actions, Setting ============> SECRET
+       Para C/secrets =======> Crear Un secret con Value REAL
+        Ejemplo en La creacion de SECRET;
+            - Secret =======> Nombre: ftp_host  ,  Value: Valor rEAL	
+           - Otro Secret ===> Nombre: ftp_user  ,  Value: Valor rEAL
+           - Otro Secret ===> Nombre: ftp_password  ,  Value: Valor rEAL
+-------------------------------------------------------------------------
+  4. Consola >>>> 
+      ...
+      >>> git  commit -m "nombre's actions"
+      >>>> git push... (Todo eso)
+     
+  5. Luego, esto esta Actions, con el nombre ======> nombre's actions
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 
  desde VSCODE _____________> conectar Github _________________> y de gitgub conectar A CPANEL

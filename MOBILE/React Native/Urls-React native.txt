@@ -25,6 +25,17 @@ MODEL
  SNNIPES e APP
  https://morioh.com/p/9ff8ca8fddb7
 **********************************************************************************************************
+ IMAGENES
+     - CON BASE64 ( de Binario (Images) Convertir Base64 y enviar)
+     - Com FORM-PARSE     =======================> Envia formulario
+     - Com MULTI-PARSE    =======================> Envia Archivos
+     -* JSON-PARSE    =========================== > envia JSON
+
+      https://stackoverflow.com/questions/32441963/how-to-use-formdata-in-react-native
+      https://newbedev.com/how-to-post-multipart-formdata-using-fetch-in-react-native
+
+      
+**********************************************************************************************************
 
  SNIPETT = https://reactnativeexample.com/tag/dropdown/
          
@@ -47,7 +58,7 @@ MODEL
 
                     CLONE AMAZON ======> https://www.youtube.com/watch?v=9rXbq2lim0Y&list=RDCMUCYSa_YLoJokZAwHhlwJntIA&start_radio=1&rv=9rXbq2lim0Y&t=14407
 
-   BURGER =================> https://www.youtube.com/watch?v=diUDjNwZ8Lg
+  
   AGENDA ===================================================> https://github.com/wmcmahan/react-native-calendar-events
                                                               https://github.com/vonovak/react-native-add-calendar-event
 
@@ -147,7 +158,26 @@ tuto 3 ======> https://www.youtube.com/watch?v=DmUUsTC2YkA&list=PL8fIRnD1uUSnRqz
 
   CLONE AIRBNB (UI) = https://www.youtube.com/watch?v=2zy2qX1eR6E
 
+************************************************************************************************************************
   PIZZA (UI) = https://www.youtube.com/watch?v=mSMvVWTu1iM&feature=youtu.be
+
+************************************************************************************************************************
+  DELIVERY
+
+        https://github.com/MANOJPATRA1991/food-delivery-app-react-native
+
+          BURGER =================> https://www.youtube.com/watch?v=diUDjNwZ8Lg
+                                     https://github.com/byprogrammers?tab=repositories&q=Food+Delivery+App&type=&language=&sort=
+*************************************************************************************************************************
+SEGUIMIENTO DE UBICACIÓN EN TIEMPO REAL CON REACT NATIVE
+                              https://www.zentica-global.com/es/zentica-blog/ver/seguimiento-de-ubicacion-en-tiempo-real-con-react-native-y-pubnub-6073aace96a0c
+                               https://www.vincit.com/blog/creating-real-time-apps-with-pubnub-and-react
+************************************************************************************************************************
+  TAXI- UBICACION TIEMPO REAL
+
+   https://www.youtube.com/watch?v=CB_nXOOz_AY&list=PL6hffAJvRwYJTf6kuxrK4PJzjoxTqau9V
+   https://github.com/eman1000/TaxiApp
+************************************************************************************************************************
 
   TUTO = https://www.youtube.com/watch?v=0-S5a0eXPoc
          https://www.youtube.com/watch?v=6JTnlX2ILTo&list=PLTwG_kX1X-qFUA8KyDnzLCmD9ja6pFocb

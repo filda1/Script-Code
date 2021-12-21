@@ -1,0 +1,5 @@
+SUBDOMINIOS
+  ¿Cómo dejar que PHP cree un subdominio automáticamente para cada usuario?
+
+   https://qastack.mx/programming/183928/how-to-let-php-to-create-subdomain-automatically-for-each-user
+   https://es.stackoverflow.com/questions/347697/crear-subdominios-personalizados-con-php-para-usuarios

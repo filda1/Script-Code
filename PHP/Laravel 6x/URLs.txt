@@ -47,3 +47,8 @@ LARAVEL ZERO _ CONSOLE ====> https://laravel-zero.com/docs/installation
 
 
   https://github.com/thephpleague/omnipay-paypal
+
+***********************************************************************************************************
+
+Ubicación - navegación en tiempo real con socket, php, JS y Jquery Like a Google maps
+ https://www.youtube.com/watch?v=fd5kwf_jcLA
