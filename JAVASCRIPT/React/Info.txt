@@ -11,3 +11,9 @@
 
   Prop-Type =========> Valida la props o propiedades. Del Padre al Hijo.
                      *https://blog.koalite.com/2015/01/especificacion-de-tipos-en-reactjs-con-proptypes/
+
+ useRef=============================> gancho te permite conservar valores entre renderizados. No causa re-renderizaciones (PARA IMGENES, VIDEOS...)
+                                     INDEPENDIENTE DE LA RENDEREZACION
+
+
+ forwardRef  =====================>  es una función auxiliar de React que nos permite reenviar la referencia de un componente a otro.

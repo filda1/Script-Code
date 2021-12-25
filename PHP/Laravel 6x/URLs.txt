@@ -52,3 +52,38 @@ LARAVEL ZERO _ CONSOLE ====> https://laravel-zero.com/docs/installation
 
 Ubicación - navegación en tiempo real con socket, php, JS y Jquery Like a Google maps
  https://www.youtube.com/watch?v=fd5kwf_jcLA
+
+
+***********************************************************************************************************
+      Laravel 8 E-Commerce
+      
+
+     https://www.youtube.com/watch?v=JQMVoHUPGE0&list=PLz_YkiqIHesvPtvLl2Wz5FtuW44dBt199&index=84
+     https://github.com/surfsidemedia
+
+***********************************************************************************************************
+    Laravel & React
+
+     https://www.youtube.com/watch?v=zOIiQekxrto&list=PLK0xJr7bGK81a3XWeL0Zo47gJANsl9Wc5&index=15
+     https://github.com/shinobiluis/walletApp
+
+************************************************************************************************************
+    NEXTJS + LARAVEL
+
+    **** (Program With Gio) + LARAVEL SACTUM ========> https://www.youtube.com/watch?v=uPKd3q-iaVs
+                                                       https://github.com/ggelashvili/nextjs-spa-auth-laravel-sanctum-frontend
+                                                       https://github.com/ggelashvili/nextjs-spa-auth-laravel-sanctum-backend
+
+************************************************************************************************************
+     LARAVEL + JWT (Con Laravel Sanctum)
+
+         https://www.youtube.com/watch?v=jIzPuM76-nI&list=PLlameCF3cMEsbPs3bmm98UP3Ny8tqNs1f
+          https://github.com/scalablescripts/auth-backend
+
+  oJO EL TOKEN cookie ====> Sugerencia rápida aquí: el carácter de barra vertical ("|"), cuando se codifica para su uso en URL, se convierte en "% 7C
+
+ * https://www.oulub.com/es-ES/Laravel/sanctum
+
+************************************************************************************************************
+
+  

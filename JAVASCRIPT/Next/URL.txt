@@ -110,3 +110,7 @@ CARROUSel ======>   https://github.com/akiran/react-slick
     TLRC
     REACT QUERY
 ****************************************************************************************************************************************
+
+  NEXTJS + LARAVEL (JWT)
+   https://www.youtube.com/watch?v=jIzPuM76-nI&list=PLlameCF3cMEsbPs3bmm98UP3Ny8tqNs1f
+    https://github.com/scalablescripts/auth-backend

@@ -44,3 +44,78 @@
    $link = '/home/p146762461/domains/domain-name/public_html';
 
    symlink($target, $link);
+
+--------------------------------------------
+
+  <?PHP//from   ww w  . j  a v a2  s .  co m
+      $result = link("/home/user1/myfile.txt", "/home/user2/myfile.txt");
+      if (!$result) {
+             echo "Hard link could not be created!\n";
+      } else {
+             $result = symlink("/home/user1/myfile.txt", "/home/user2/myfile.txt");
+             if (!$result) {
+                 echo "Symlink could not be created either!\n";
+             }
+      }
+?>
+
+ ----------------------------------------------
+   How to make a symlink in a deployed website
+   https://stackoverflow.com/questions/45470380/how-to-make-a-symlink-in-a-deployed-website
+
+
+***********************************************************************************
+
+SCRIPT
+  *https://stackoverflow.com/questions/12954051/use-php-composer-to-clone-git-repo
+
+  Composer te instala el git.
+  Puede incluir el repositorio de git en composer.json de esta manera:
+
+"repositories": [
+{
+    "type": "package",
+    "package": {
+        "name": "example-package-name", //give package name to anything, must be unique
+        "version": "1.0",
+        "source": {
+            "url": "https://github.com/example-package-name.git", //git url
+            "type": "git",
+            "reference": "master" //git branch-name
+        }
+    }
+}],
+"require" : {
+  "example-package-name": "1.0"
+}
+
+---------------------------------------------------
+  (BUENO)
+
+ * https://www.daggerhartlab.com/composer-how-to-use-git-repositories/
+    
+ composer.json:
+
+       {
+  "name": "daggerhart/my-project-that-uses-composer",
+
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "daggerhart/my-custom-theme",
+        "version": "1.2.3",
+        "type": "drupal-theme",
+        "source": {
+          "url": "https://github.com/daggerhart/my-custom-theme.git",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    }
+  ],
+  "require": {
+    "daggerhart/my-custom-theme": "^1",
+    "composer/installers": "^1"
+  }
+}

@@ -17,6 +17,12 @@ https://www.google.com/search?biw=1347&bih=644&sxsrf=ALeKk01zV4hpggdfe3xgUgy0ubj
  XCODE
   - Abrir Xcode y en XCODE ===> Open Developer Tools ========> Silmulator
 *******************************************************************************
+
+  SQL-LITE (JAMES MONTEMAGNO) = https://www.youtube.com/watch?v=XFP8Np-uRWc
+                                https://github.com/jamesmontemagno/MyCoffeeApp?WT.mc_id=friends-0000-jamont
+                                https://github.com/praeclarum/sqlite-net?WT.mc_id=friends-0000-jamont
+
+*******************************************************************************
  ESPELLO ANDROR _________>   SCRCPY  ___> https://www.youtube.com/watch?v=5XxUiLc2ZA8
 *******************************************************************************
  REFIT (Rest client simple) ===> https://www.youtube.com/watch?v=AdugZFtstrk
@@ -488,3 +494,24 @@ https://driesdeboosere.dev/blog/how-to-deploy-aspnet-core-31-app-to-digital-ocea
 
    Alertta con selecct ===> Xamarin Forms DisplayActionSheet
    https://www.youtube.com/watch?v=nXSuvsBBXkM
+
+
+**********************************************************
+   XAMARIN +JWT
+   https://www.youtube.com/watch?v=XSwBKd90XMs
+
+**********************************************************
+ XAMARIN ECOMMERCE
+
+ https://github.com/exendahal/ecommerceXF
+ https://github.com/Altevir/xamarinforms-ecommerce-headphones/tree/master/XFHeadPhones
+ https://github.com/Altevir/xamarinforms-ecommerce-liquors
+ https://github.com/syncfusion/xamarin-shopping-cart
+
+ FoRNITURE
+ https://github.com/Altevir/xamarinforms-furniture
+
+ EJEMPLOS
+ https://github.com/jsuarezruiz/xamarin-forms-goodlooking-UI
+
+**********************************************************
