@@ -119,3 +119,28 @@ SCRIPT
     "composer/installers": "^1"
   }
 }
+
+
+*************************************************************************
+
+ <?php
+// specifying target
+$target_pointer = "/home/user1/gfg.txt";
+ 
+// specifying link  name
+$link_name = 'mylink';
+ 
+// creating alink using symlink() function
+$test = symlink($target_pointer, $link_name);
+if ($result)
+{
+   echo ("Symlink has been created!");
+}
+else
+{
+   echo ("Symlink cannot be created!");
+}
+ 
+?>
+
+*****************************************************************************

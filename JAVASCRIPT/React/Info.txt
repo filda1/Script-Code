@@ -2,7 +2,7 @@
  memo   ======> evita rederenrizacion inecesaria del COMPONENTE
    * https://www.youtube.com/watch?v=sBA_SDhIPqQ
 
- useMemo ======> guarda un VALOR
+ useMemo ======> RECARGA/RENDERIZA SOLO EL COMPONENTE Q NECESITA, NO TODA LA APLICACION ===== > RENDERIZACION INDEPENDIENTE de un componente/s
  useCallback ======> guarda una FUNCION
 
  useParam =========> Extrae parametros de url
@@ -17,3 +17,8 @@
 
 
  forwardRef  =====================>  es una función auxiliar de React que nos permite reenviar la referencia de un componente a otro.
+
+ REact query  =====================> TIEMPO REAL de datos CON SERVIDOR  === SINCRONIZA SERVIDOR
+
+ throttle-debounce  ==================> TEMPORIZADOR
+                                           https://www.npmjs.com/package/throttle-debounce
