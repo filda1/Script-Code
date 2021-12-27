@@ -37,3 +37,41 @@
        git reset --soft HEAD~1
        git status
        git reset --hard origin/master
+
+
+
+*************************************************************** 
+
+  TRABAJAR EN EQUIPO GITHUB.COM (Colaboradores)
+   *https://www.youtube.com/watch?v=g-coH1XtqrQ
+    
+  1. GITHUB:  adicionar COLABORADOR
+     - El USER del Repositorio ir Setting ======> CONTRIBUTION / MANAGE ACCESS 
+     - Poner el nombre de USUARIO COLABORADOR. Al adicionar se le envia una invitacion por email Al USUARIO COLABORADOR
+
+  2- EN USUARIO COLABORADOR
+     - Ir a email link y ACEPTAR INVITACION. EL repositorio se adiciona el repositorio del USER COLABORADOR
+     - Luego, en GITHUB DESKTOP de User Colaborador:
+         - ENtrar en session, ir  =======> Options (User y pass). Y tambier ir a Git(Poner NAme y Email)
+         - Despues, CLONAR en pc
+         - Despues, CREAR NUEVA RAMA (New Branch) ======>  es un rama temporal para ti
+
+  3- Hacer al cambio en el proyecto:
+      - en GITUB DESKTOP ========> Seleccionar LA NUEVA RAMA (Temporal) y el Repositorio clonado.
+      - luego, commit y push todo eso....
+
+
+  4- Para Certficar y ver, vas Al USER del Repositorio =========> Buscar la NUEVA RAMA y el cambio hecho.
+
+         
+
+----------------------------------------------------------
+   FUSIONAR RAMAS (Pasar ramas a master)
+    *https://www.youtube.com/watch?v=O2d1ZeYAjYg
+
+
+----------------------------------------------------------
+
+
+
+*********************************************************************************************
