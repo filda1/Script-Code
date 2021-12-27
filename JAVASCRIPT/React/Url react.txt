@@ -132,3 +132,8 @@ https://pusher.com/tutorials/food-ordering-app-react-native-part-1
   https://github.com/mikeham98/react-awesome-calendar
 
 ****************************************************************************
+
+ TIC TOC
+  https://www.youtube.com/watch?v=IATOicvih5A
+
+****************************************************************************

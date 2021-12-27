@@ -25,6 +25,13 @@ LARAVEL ZERO _ CONSOLE ====> https://laravel-zero.com/docs/installation
          https://github.com/Astrotomic/laravel-translatable
 
 ***************************************************************************************************
+ LARAVEL + LARAVEL ECHO ======> REALTIME
+
+ https://www.youtube.com/watch?v=oUOQzx60zYY&t=2s
+
+ *https://www.oulub.com/es-ES/Laravel/broadcasting
+
+***************************************************************************************************
 
  PAYPAL Andre Madarang ===> https://www.youtube.com/watch?v=_7YBIRQfSN0
              https://github.com/drehimself/laravel-paypal-example/blob/master/resources/views/welcome.blade.php
@@ -86,4 +93,6 @@ Ubicación - navegación en tiempo real con socket, php, JS y Jquery Like a Goog
 
 ************************************************************************************************************
 
+   LARAVEL ECHO 
+       https://github.com/tlaverdure/laravel-echo-server
   

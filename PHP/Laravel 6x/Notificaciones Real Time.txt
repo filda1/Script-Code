@@ -5,3 +5,12 @@ Laravel Notificaciones Real Time
   https://github.com/beyondcode/laravel-websockets
     socket.io
     pusher
+
+
+****************************************************************
+  LARAVEL + LARAVEL ECHO ======> REALTIME
+ https://www.youtube.com/watch?v=oUOQzx60zYY&t=2s
+
+  https://programmerclick.com/article/402513014/
+
+  *https://www.oulub.com/es-ES/Laravel/broadcasting
