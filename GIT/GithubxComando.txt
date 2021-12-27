@@ -61,14 +61,27 @@
       - luego, commit y push todo eso....
 
 
-  4- Para Certficar y ver, vas Al USER del Repositorio =========> Buscar la NUEVA RAMA y el cambio hecho.
+  4- Para Certificar y ver, vas Al USER del Repositorio =========> Buscar la NUEVA RAMA y el cambio hecho.
 
          
 
 ----------------------------------------------------------
-   FUSIONAR RAMAS (Pasar ramas a master)
+
+   FUSIONAR RAMAS (Pasar ramas a master)  == MERGE
     *https://www.youtube.com/watch?v=O2d1ZeYAjYg
 
+   * Aqui el USER/ADMin/Dueno del repositorio Hacer el MERGE
+
+   1- GITHUB DESKTOP:
+        - IR a la rama master
+        - Buscar el Boton de abajo, Click  "Choose a branch to merge into master"
+        - Seleciona La Rama a unir
+        - Click en boton "merge x into master"   ============> Se crea AUTOMATICO
+
+
+   2- PAra Borra La rama q no se necesita:
+      - Por Github Desktop ========> Seleccionar la Rama, En Menu ====> Branch ====> Remove
+      -  Por Consola, >>> git branch -d NOMBRE_RAMA
 
 ----------------------------------------------------------
 
