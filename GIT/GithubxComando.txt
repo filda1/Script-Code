@@ -88,3 +88,51 @@
 
 
 *********************************************************************************************
+
+  TRABAJAR EN EQUIPO CON GITHUB + VISUAL STUDIO
+
+    *Zulu =  https://www.youtube.com/watch?v=rMhrwsLnEv8
+
+
+    OJO : LA Rama MASTER PROHIBIDO hacer cambios ( PROHIBIDO HACER COMMITS). Para hacer cambios crea siempre una nueva Rama(Branch) y depues hacer merge nuevamente
+
+    1. Al clonar Proyecto para C/COLABORADOR:
+      - Crear Nueva Rama (Tienen q ser Diferentes para C/Colaborador)  ======================> en TEAM EXPLORE =====> Icono de casa ======> Branch
+      - Parate siempre en Rama que siempre esta abajo VS (Parte azul)
+     
+      - En Parte Azul de Rama, Boton derecho PUSH
+      - PARA SUBIR CAMBIOS ===============> TEam Explore /Casa =====> Changes ========> Poner nombre del Commit en Caja de Texo ======> Y Selecionar Commit All....Sync
+      - ACTUALIZAR PROYECTO  =============> TEam Explore /Casa ======> Sync ==========> Fetch =======>  Sync
+
+    2. MERGE == PASAR MI RAMA DE PRUEBA A MASTER
+      - Pararme en Rama MASTER que siempre esta abajo VS (Parte azul)
+      - ACTUALIZAR PROYECTO  =============> TEam Explore /Casa ======> Sync ==========> Fetch =======>  Sync
+      - MERGE, TEam Explore /Casa ======> Branch ==========> Merge =======> Selecionar MI RAMA DE PRUEBA y abajo tiene que estar MASTER =====> Boton Merge
+       
+
+    3. EN CASO, DE CONFLICTO despues del merge a master
+      - Al HAcer Merge, =====> sale en azul y click en conflicts
+      - Entonces Selecionas c/ archivos para resolver
+        - Entonces decides que selecionar y se pone en verde  =====================> Y Click Accept Merge
+        - Luego sale Commit Merge,  En la caja de Texto poner =======> El commit ====> Luego Commit All and Sync
+      - ACTUALIZAR PROYECTO  =============> TEam Explore /Casa ======> Sync ==========> Fetch =======>  Sync
+
+
+    4. DANOS EN PROYECTO DE RAMA MASTER === IR ATRAS === DEVOLVER A CIERTO COMMIT (CREAR UNA NUEVA MASTER)
+      - IR ATRAS
+         - ANTES  DEL COMMIT  =================> TEam Explore /Casa =====> Changes ========> En Changes, Boton Derecho ===> UNDO
+         - DESPUES  DEL COMMIT 
+            - Ir En Parte Azul de Rama (Abajo) =============> click Derecho ======> View History
+            - Ir a Consola:
+              Ir A un punto Atras, Tengo Crear una NUEVA RAMA MASTER (Ej: master2 ) 
+              y es mi nuevo master y tambien poner hasta que COMMIT quiero (ID_COMMIT). LOs demas commit seran eliminados:
+
+               >>> git checkout -b NOMBRE_NUEVO_RAMA  ID_COMMIT  =======> ( ID_COMMIT = esta en View History == Y Es hasta que Commit Quiero)
+
+
+    5. PROHIBICIONES A MASTER === PROHIBICIONES HACER COMMIT AUTOMATICO ( ES PAGA )
+       zulu= https://www.youtube.com/watch?v=I8JGn6qKa8c
+
+
+
+**********************************************************************************************
