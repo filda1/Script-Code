@@ -42,7 +42,7 @@
 
 *************************************************************** 
 
-  TRABAJAR EN EQUIPO GITHUB.COM (Colaboradores)
+  TRABAJAR EN EQUIPO GITHUB.COM (Colaboradores)   ===============> CON GITHUB DESKTOP
    *https://www.youtube.com/watch?v=g-coH1XtqrQ
     
   1. GITHUB:  adicionar COLABORADOR

@@ -8,6 +8,12 @@ REACT NATIVE (EXPO) ========> https://www.youtube.com/watch?v=hXDMWeD0ERM (Fazt)
    ********Rocketseat
      ***********   Pradip Debnath = https://www.youtube.com/watch?v=QVEc3F8pPMs&list=PLQWFhX-gwJblNXe9Fj0WomT0aWKqoDQ-h  
 
+
+***********************************************************************************************************
+  ***** BUENO
+
+  REACT NATIVE + AUTH (Pradip Debnath)====>************** https://www.youtube.com/watch?v=gvF6sFIPfsQ
+                                                           https://github.com/itzpradip/react-navigation-v5-mix
 ***********************************************************************************************************
  EXAMPLE
 
@@ -160,14 +166,35 @@ tuto 3 ======> https://www.youtube.com/watch?v=DmUUsTC2YkA&list=PL8fIRnD1uUSnRqz
 
 ************************************************************************************************************************
   PIZZA (UI) = https://www.youtube.com/watch?v=mSMvVWTu1iM&feature=youtu.be
-
+ 
+               https://github.com/hakymz/FoodAppUIReactNative
+               https://www.youtube.com/watch?v=mSMvVWTu1iM
 ************************************************************************************************************************
   DELIVERY
 
         https://github.com/MANOJPATRA1991/food-delivery-app-react-native
 
-          BURGER =================> https://www.youtube.com/watch?v=diUDjNwZ8Lg
+          BURGER =================>*** https://www.youtube.com/watch?v=diUDjNwZ8Lg
                                      https://github.com/byprogrammers?tab=repositories&q=Food+Delivery+App&type=&language=&sort=
+
+                                        https://www.youtube.com/watch?v=Ur5POJX2hls&list=RDCMUC3_z0yLxjNQpgGoc5VWuV2A&index=3
+                                        screen ==== https://shop.byprogrammers.com/project/food-delivery-app-expo-1
+
+
+
+         https://github.com/alakdam07/food-delivery-react-native
+         https://github.com/Ocraniawan/ArkafoodelApps#requirements
+
+  
+        *** https://www.youtube.com/watch?v=UT7rqUXg64s&list=PLAP1EsuzlGNJYvsJzRE8owOzWEhIuZe3i&index=27
+            https://github.com/EfficientProgramming01/xpressfood
+
+            https://www.youtube.com/watch?v=JwYN99HMqAo&list=PLYnCQ4InLbfeJZ4ET95Jj5_bNepM3a_TT&index=7
+              https://github.com/ameenfarook/food_delivery_app
+              https://github.com/ameenfarook/food_delivery_app_backend
+
+            https://www.youtube.com/watch?v=QU_h_CrVXew&list=PLWMdLTu9kHLrYdTXjmYbmtMKhIR9rCE9e&index=7
+ 
 *************************************************************************************************************************
 SEGUIMIENTO DE UBICACIÓN EN TIEMPO REAL CON REACT NATIVE
                               https://www.zentica-global.com/es/zentica-blog/ver/seguimiento-de-ubicacion-en-tiempo-real-con-react-native-y-pubnub-6073aace96a0c

@@ -3,6 +3,19 @@
   MICROSERVISIOS (MACORATTI) =====> https://www.youtube.com/watch?v=q6uYIkCzS18&list=PLJ4k1IC8GhW24-nppbX0n0OE3DBGhsYEs
                                    https://www.youtube.com/watch?v=q6uYIkCzS18&list=PLJ4k1IC8GhW24-nppbX0n0OE3DBGhsYEs 
 
+                                      https://github.com/dotnet-architecture/eShopOnContainers
+********************************************************************************************
+     RABBITMQ (Conecta 2 servicios/apis)
+            https://www.youtube.com/watch?v=CF63uG0rTcU
+
+    >>> dotnet run
+
+    MASSTRANSIT(facilita la creacion de servicios de mensajeria)
+     https://www.youtube.com/watch?v=HySA0Ij-GWQ
+
+
+       EJ:    API 1 =========== Masstransit + RabbitMQ ===========> API 2
+
 ********************************************************************************************
  INSTALL EN SERVER: ASPNET.CORE + LINUX + NGINX
 
@@ -22,24 +35,7 @@ Gerald Versluis
 ***********************************************************************************************
 -Somme.com
 
- fil
- Portugal@@2020  ,   
-
--Somme 2
-  Manu Sil
-
- user ====> Manu
- pass ====>  Portugal@@2020
-
--Some 3
- da
- da
- dailva
- Portugal2020
-
- MS SQL Server address:	MangustaDb.mssql.somee.com
-Login name:	Manu_SQLLogin_1
-Login password:	1d64sm9cl1
+ 
 
 Connection string:	workstation id=MangustaDb.mssql.somee.com;packet size=4096;user id=Manu_SQLLogin_1;pwd=1d64sm9cl1;data source=MangustaDb.mssql.somee.com;persist security info=False;initial catalog=MangustaDb
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

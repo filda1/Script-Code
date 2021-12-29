@@ -3,6 +3,11 @@
 
  palete de color images -----< https://imagecolorpicker.com/en
 **********************************************************************************
+  COODERNADAS
+
+  https://www.coordenadas-gps.com
+
+**********************************************************************************
 
   TEST ====> NETFLIX
 
@@ -95,6 +100,18 @@
  SOFTWARE
   Figma.com
   xd
+****************************************************************************************
+ GESTOR DE CONTRASENAS
+   BITWARDEN
+  https://www.youtube.com/watch?v=GrGoQC_Q5ck
+
+ BITWARDEN == COMPARTYR EN EMPRESA (SHARE) =========> https://www.youtube.com/watch?v=sk7Bddlj9Cg
+
+ LAstpass
+
+****************************************************************************************
+
+hSecure%2fPassport%3fru%3dhttps%253a%252f%252fwww.msn.com%252fpt-pt%252f%253focid%253dmailsignout%2526pc%253dU591%2526pfr%253d1&lc=1033&id=1184&mkt=pt-pt&pcexp=True
 ----------------------------------------------
 
 https://github.com/philc/vimium ========================> Teclado

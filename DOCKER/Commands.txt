@@ -1,0 +1,10 @@
+ COMANDOS
+
+   MAcoratty = https://www.youtube.com/watch?v=aYWhv5ef3bE&list=PLJ4k1IC8GhW24-nppbX0n0OE3DBGhsYEs&index=7
+   *PUedes ver DOCKER DESKTOP
+
+  0. Despues de Crear ===>  Dockfire
+  1. Despues de Configurar ========> docker.compose.yaml  + docker.compose.override.yaml (Tener definidos los conatiner con images)
+  2. >>> proyecto > dir   ====================> VES TUS ARCHIVOS
+  3. >>> proyecto >  docker ps   ====================> VES TUS CONTAINER CON IMAG CORRIENDO
+  4. >>> proyecto> docker-compose -f docker-compose.yml -f docker-compose-override.yml up -d ================>(crea IMAGENES y los  CONTENEDORES ==> RUN)
