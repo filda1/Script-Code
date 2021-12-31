@@ -1,5 +1,7 @@
  COMANDOS
 
+   DOCKER + .NET CORE
+
    MAcoratty = https://www.youtube.com/watch?v=aYWhv5ef3bE&list=PLJ4k1IC8GhW24-nppbX0n0OE3DBGhsYEs&index=7
    *PUedes ver DOCKER DESKTOP
 
