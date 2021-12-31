@@ -17,8 +17,15 @@
   15. Registro de morada
   16. Puntos x pedir
   17. FeedBack
+  18. hORARIO
 
   Entrega:
    Inmediata
 
   
+  Problemas..
+   1. Cancelar Orden Despues de envio..
+   2. Envio de Errores de Orden
+   3. Antes de enviar verificar Stock
+   4. Antes de enviar Existencia de repartidores
+   5. Antes de enviar, ver  Fuera de Horario, Feriados, Dias Folga, Dias Especiales

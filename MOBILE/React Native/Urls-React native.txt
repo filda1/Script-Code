@@ -14,7 +14,32 @@ REACT NATIVE (EXPO) ========> https://www.youtube.com/watch?v=hXDMWeD0ERM (Fazt)
 
   REACT NATIVE + AUTH (Pradip Debnath)====>************** https://www.youtube.com/watch?v=gvF6sFIPfsQ
                                                            https://github.com/itzpradip/react-navigation-v5-mix
+
 ***********************************************************************************************************
+    PUBLISH .PK + .IPA
+
+      Rocketseat ====> https://www.youtube.com/watch?v=wYMvzbfBdYI
+                         https://docs.fastlane.tools
+
+***********************************************************************************************************
+   CLONE
+       clubhouse =====> https://github.com/uwemneku/clubhouse-expo
+       fashon =========> https://github.com/RafiouSitou90/react-native-fashion
+
+   APP
+    Restaurantes(Zuluaga ) ====> https://www.youtube.com/watch?v=0iz-NRrj-Vw&list=PLuEZQoW9bRnSZUVV93R1N9_xpqoiK-xhE&index=111
+
+***********************************************************************************************************
+  NOTIFICATION REMOTE
+     https://www.youtube.com/watch?v=QgQdXB2PyHk
+  
+   Zuluaga (Restaurantes) ====> https://www.youtube.com/watch?v=0iz-NRrj-Vw&list=PLuEZQoW9bRnSZUVV93R1N9_xpqoiK-xhE&index=111
+
+    https://www.youtube.com/watch?v=ACLzAL2JDxk
+    https://www.youtube.com/watch?v=kHd-8DZeHCQ
+
+***********************************************************************************************************
+
  EXAMPLE
 
  1-https://github.com/kamolesh97/React-Native-Tiktok-Home-UI-Clone/tree/master/src/Screens/Home

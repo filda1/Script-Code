@@ -82,3 +82,9 @@
 	"identifier": "test@test.com",
 	"password": "123456"
  }
+
+
+**************************************************************************************
+ REALTIME
+
+        https://medium.com/strapi/strapi-socket-io-a9c856e915a6
