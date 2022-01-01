@@ -38,6 +38,13 @@
    5. Antes de enviar, ver  Fuera de Horario, Feriados, Dias Folga, Dias Especiales
 
 
+
+  Strapi..
+  1. sms + notifications
+  2. chat
+  3. GPS
+  4. Orders Count =====> Badget(Contador en REALTIME)
+
 *********************************************************************************
 
   Tablas User
@@ -347,6 +354,7 @@ CREATE TABLE `subcatogories` (
 
 CREATE TABLE `products` (
   `id` int(10) UNSIGNED NOT NULL,
+  `type_product_id` int(11) DEFAULT NULL,
   `subcategory_id` int(11) DEFAULT NULL,
   `category_id` int(11) DEFAULT NULL,
   `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
@@ -385,6 +393,19 @@ CREATE TABLE `complements` (
 CREATE TABLE `type_complements` (
   `id` int(10) UNSIGNED NOT NULL,
   `title` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  `deleted_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+
+
+ //TIPO DE PRODUCTO ( Bebidas, Burger...)
+CREATE TABLE `type_product` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `title` int(11) DEFAULT NULL,
+  `active` bool DEFAULT TRUE,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   `deleted_at` timestamp NULL DEFAULT NULL

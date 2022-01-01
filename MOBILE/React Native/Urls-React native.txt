@@ -25,6 +25,11 @@ REACT NATIVE (EXPO) ========> https://www.youtube.com/watch?v=hXDMWeD0ERM (Fazt)
    CLONE
        clubhouse =====> https://github.com/uwemneku/clubhouse-expo
        fashon =========> https://github.com/RafiouSitou90/react-native-fashion
+       MIlk tea  ========> https://www.youtube.com/watch?v=uEoA9Gf0LiE
+                           https://shop.byprogrammers.com/project/boba-milk-tea-app
+                           https://mockittapp.wondershare.com/community?type=find&_ga=2.161803002.794309735.1640981932-321163487.1640981932
+
+       Online learning ========> https://www.youtube.com/watch?v=n6DmU1igb_4
 
    APP
     Restaurantes(Zuluaga ) ====> https://www.youtube.com/watch?v=0iz-NRrj-Vw&list=PLuEZQoW9bRnSZUVV93R1N9_xpqoiK-xhE&index=111
@@ -39,6 +44,14 @@ REACT NATIVE (EXPO) ========> https://www.youtube.com/watch?v=hXDMWeD0ERM (Fazt)
     https://www.youtube.com/watch?v=kHd-8DZeHCQ
 
 ***********************************************************************************************************
+
+  ZUSTAND(Pequeno REdux)
+
+   https://www.youtube.com/watch?v=F3bGUL2nw_E
+   https://github.com/pmndrs/zustand
+   https://zustand.surge.sh
+
+************************************************************************************************************
 
  EXAMPLE
 
@@ -225,7 +238,7 @@ SEGUIMIENTO DE UBICACIÓN EN TIEMPO REAL CON REACT NATIVE
                               https://www.zentica-global.com/es/zentica-blog/ver/seguimiento-de-ubicacion-en-tiempo-real-con-react-native-y-pubnub-6073aace96a0c
                                https://www.vincit.com/blog/creating-real-time-apps-with-pubnub-and-react
 ************************************************************************************************************************
-  TAXI- UBICACION TIEMPO REAL
+  *******TAXI- UBICACION TIEMPO REAL
 
    https://www.youtube.com/watch?v=CB_nXOOz_AY&list=PL6hffAJvRwYJTf6kuxrK4PJzjoxTqau9V
    https://github.com/eman1000/TaxiApp

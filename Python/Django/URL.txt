@@ -69,4 +69,15 @@ https://docs.hektorprofe.net/django/web-personal/patron-mvt-modelo-vista-templat
    * DJANGO MEDIA (STORAGE) ========> https://www.youtube.com/watch?v=aUsEbnoKjGQ
 
 
+*********************************************************************************************
+   MULTIPLES Bases de DATOS con DJANGO
+
+    https://www.youtube.com/watch?v=1ylN5rhYJVA
+    http://www.developerpe.com/programación/configurar-multiples-bases-de-datos-con-django/
+    https://github.com/developerpe/multiple_database
+
+
+*********************************************************************************************
+
+
 

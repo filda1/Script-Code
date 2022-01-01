@@ -40,7 +40,13 @@
   user: root_xecommerce
   password:  Portugal@@2021
 ---------------------------------------------------------------------------------------
-  INSTALL STRAPI
+  
+  STRAPI + POSTGRES
+  https://medium.com/dogus-tech-digital-solutions/creating-strapi-app-with-postgresql-e22f00d48b04
+
+---------------------------------------------------------------------------------------
+
+***********************************************  INSTALL STRAPI **********************************************
   https://strapi.io/documentation/developer-docs/latest/setup-deployment-guides/installation/cli.html#running-strapi
   >> cd C:\Proyectos\Strapi  npx create-strapi-app my-project
       ->custom 
@@ -85,6 +91,10 @@
 
 
 **************************************************************************************
- REALTIME
+ REALTIME  ============> SOCKET IO
 
         https://medium.com/strapi/strapi-socket-io-a9c856e915a6
+        https://strapi.io/blog/how-to-build-a-real-time-chat-forum-using-strapi-socket-io-react-and-mongo-db
+         https://github.com/purnima-strapi-blogs/strapi-chat-backend
+
+**************************************************************************************
