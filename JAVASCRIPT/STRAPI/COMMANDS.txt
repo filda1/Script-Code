@@ -59,6 +59,8 @@ COMANNDS
      - Ir A Tuerca:
        PERMISSION =====> ROLES =========> selecionar AUTENTICATH o PUBLIC ======>  y Seleccionar Tabla, e luego selecionar Permisos
 
+  4. RELACIONES  ==============> https://www.youtube.com/watch?v=newI8NtVgCg
+
 ****************************************************************************************
   COMMANDS STRAPI
 
@@ -74,7 +76,7 @@ COMANNDS
   Admin Strapi
    user: admin
    email: admin@admin.com
-   pass: Portugal2021
+   pass: Admin2021
 
   User Test
    user: admin

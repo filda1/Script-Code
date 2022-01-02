@@ -86,27 +86,7 @@ CREATE TABLE `plan_subcription` (
   `active` bool DEFAULT TRUE,
 
 )
-  ******************************** HORARIOS  *********************************		
- // Horario en DIAS
-  CREATE TABLE `time_days` (
-   id
-   day
-   schedules
-   active
-
-
-
- // Horarios 
- CREATE TABLE `timetable` (
-  `id` int(10) UNSIGNED NOT NULL,
-   day_id int(10)
-  `key` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `value` varchar(250) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `active` bool DEFAULT true,
-  `created_at` timestamp NULL DEFAULT NULL,
-  `updated_at` timestamp NULL DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
+  
 
 ************************ CONTACTOS *************************************
   // DIRECCION FIJA
@@ -120,6 +100,7 @@ CREATE TABLE `contacts` (
   `address` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `postal_code` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `phone` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `phone2` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `facebook` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `instagram` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `twitter` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
@@ -140,6 +121,7 @@ CREATE TABLE `adresses_users` (
   `lat` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `lng` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `phone` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `phone2` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `country` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `locality` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `zip_code` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
@@ -151,7 +133,32 @@ CREATE TABLE `adresses_users` (
   `deleted_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+
+
+******************************** HORARIOS  *********************************		
+ // Horario en DIAS
+  CREATE TABLE `time_days` (
+   id
+   day
+   schedules
+   active
+
+
+
+ // Horarios 
+ CREATE TABLE `timetable` (
+  `id` int(10) UNSIGNED NOT NULL,
+   day_id int(10)
+  `key` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `value` varchar(250) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `active` bool DEFAULT true,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
 -------------------------------------------------------------------------------
+
+
 ****************************EMPLEADOS ***********************************
  // TIPO DE EMPLEADOS
 CREATE TABLE `type_employees` (
