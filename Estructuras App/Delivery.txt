@@ -55,9 +55,10 @@
   `email` varchar(250) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `password` varchar(500) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `avatar` varchar(250) COLLATE utf8mb4_unicode_ci DEFAULT 'users/default.png',
-  `contact_id` int(40) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `notification_user_id` int(40) COLLATE utf8mb4_unicode_ci NOT NULL,
-   subcription_user_id int(23) subcription,
+  `contact_id` int(40) COLLATE utf8mb4_unicode_ci NOT NULL,                      ========================> 1 x 1
+  `contact-tempory_id` int(40) COLLATE utf8mb4_unicode_ci NOT NULL,              ========================> 1 x MUCHOS
+  `notification_user_id` int(40) COLLATE utf8mb4_unicode_ci NOT NULL,            ========================> Muchos x MUCHOS
+   subcription_user_id int(23) subcription,                                      ========================> Muchos x Muchos
   `active` bool DEFAULT true,
 
 
@@ -77,7 +78,7 @@ CREATE TABLE `plan_subcription` (
   `id` int(10) UNSIGNED NOT NULL,
   `name` string(255) DEFAULT NULL,
   `description` string(255) DEFAULT NULL,
-  `products_content` lontext DEFAULT NULL,
+  `products_content` lontext DEFAULT NULL,             ===============================================>  MUCHOS x MUCHOS
   `price_limit` decimal(10) DEFAULT NULL,
   `n_order_limit` int(10) DEFAULT NULL,
   `product_limit` int(10) DEFAULT NULL,
@@ -140,7 +141,7 @@ CREATE TABLE `adresses_users` (
   CREATE TABLE `time_days` (
    id
    day
-   schedules
+   timetable     =================================================================> Muchos x Muchos
    active
 
 
@@ -201,9 +202,9 @@ CREATE TABLE `employees_days` (
 // REPARTIDOR/EMPLEADOS
 CREATE TABLE `Employees` (
   `id` int(10) UNSIGNED NOT NULL,
-  `employee_days_id` int(10) UNSIGNED NOT NULL,
-  `type_employee_id` int(10) UNSIGNED NOT NULL,
-  `order_id` int(10) UNSIGNED NOT NULL,
+  `employee_days_id` int(10) UNSIGNED NOT NULL,               ==============================================> 1 x 1
+  `type_employee_id` int(10) UNSIGNED NOT NULL,               ==============================================>  MUCHOS x 1
+  `order_id` int(10) UNSIGNED NOT NULL,                       ==============================================> 1 x Muchos
   `name` varchar(200) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `lastname` varchar(200) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `avatar` varchar(200) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
@@ -262,7 +263,7 @@ CREATE TABLE `catogories` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 
-CREATE TABLE `subcatogories` (
+CREATE TABLE `subcategories` (
   `id` int(10) UNSIGNED NOT NULL,
   `category_id` int(11) DEFAULT NULL,
   `title` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
@@ -286,9 +287,10 @@ CREATE TABLE `type_product` (
 
 CREATE TABLE `products` (
   `id` int(10) UNSIGNED NOT NULL,
-  `type_product_id` int(11) DEFAULT NULL,
+  `type_product_id` int(11) DEFAULT NULL,              ========================================================> MUCHOS x 1
   `subcategory_id` int(11) DEFAULT NULL,
   `category_id` int(11) DEFAULT NULL,
+  `promotion_id` int(11) DEFAULT NULL,                 =======================================================> MUCHOS x MUCHOS
   `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `cover_image` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `description` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
@@ -480,6 +482,7 @@ CREATE TABLE `mail_queue` (
 
 CREATE TABLE `sms` (
   `id` int(10) UNSIGNED NOT NULL,
+   user_id int (23)
   `phone` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `content` text COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `sms_state` int(11) DEFAULT 1,

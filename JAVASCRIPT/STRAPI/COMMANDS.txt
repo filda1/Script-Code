@@ -97,3 +97,31 @@ COMANNDS
 
 
 **************************************************************************************
+
+
+
+  RELACIONES =========================> https://styde.net/relaciones-entre-tablas-de-bases-de-datos/
+
+
+
+    1 x 1
+
+     «Un empleado tiene una sola información de contacto»
+        y
+     «Una información de contacto pertenece a un solo empleado»
+
+
+    1 x MUCHOS
+
+       «Una sucursal tiene muchos (o ningún) empleados»
+       y
+       «Un empleado trabaja en una sola sucursal»
+
+
+
+    MUCHOS x MUCHOS
+
+     «Un empleado trabaja en muchos turnos»
+       y
+      «Un turno tiene muchos empleados»
+
