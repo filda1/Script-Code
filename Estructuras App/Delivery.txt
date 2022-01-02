@@ -47,29 +47,57 @@
 
 *********************************************************************************
 
-  Tablas User
+  ********************************* USER ********************************************
+ //Tablas User
    id
   `first_name` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `last_name` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `email` varchar(250) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `password` varchar(500) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `avatar` varchar(250) COLLATE utf8mb4_unicode_ci DEFAULT 'users/default.png',
-  `contact_id` varchar(40) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `notification_user_id` varchar(40) COLLATE utf8mb4_unicode_ci NOT NULL,
-   subcription_id int(23) subcription,
+  `contact_id` int(40) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `notification_user_id` int(40) COLLATE utf8mb4_unicode_ci NOT NULL,
+   subcription_user_id int(23) subcription,
   `active` bool DEFAULT true,
 
 
-  
-  Horario en DIAS
+
+// SUBCRIPCION
+CREATE TABLE `subcription` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `user_id` int(10) DEFAULT NULL,
+  `plan_id` int(10) DEFAULT NULL,
+  `active` bool DEFAULT TRUE,
+
+)
+
+
+// PLAN SUBCRIPCION
+CREATE TABLE `plan_subcription` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `name` string(255) DEFAULT NULL,
+  `description` string(255) DEFAULT NULL,
+  `products_content` lontext DEFAULT NULL,
+  `price_limit` decimal(10) DEFAULT NULL,
+  `n_order_limit` int(10) DEFAULT NULL,
+  `product_limit` int(10) DEFAULT NULL,
+  `start_date` timestamp NULL DEFAULT NULL,
+  `end_date` timestamp NULL DEFAULT NULL,
+  `active` bool DEFAULT TRUE,
+
+)
+  ******************************** HORARIOS  *********************************		
+ // Horario en DIAS
   CREATE TABLE `time_days` (
    id
    day
    schedules
    active
 
+
+
  // Horarios 
- CREATE TABLE `schedules` (
+ CREATE TABLE `timetable` (
   `id` int(10) UNSIGNED NOT NULL,
    day_id int(10)
   `key` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
@@ -79,63 +107,9 @@
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
---------------------------------------------------
-CREATE TABLE `Orders_canceled` (
-  `id` int(10) UNSIGNED NOT NULL,
-  `user_id` int(11) DEFAULT NULL,
-  `order_id` string(255) DEFAULT NULL,
-  `day` date DEFAULT NULL,
-  `address` int(11) DEFAULT NULL,
-  `phone` int(11) DEFAULT NULL,
-  `descrition` text DEFAULT NULL,
-  `note` text DEFAULT NULL,
-  `start_time` time DEFAULT NULL,
-  `end_time` time DEFAULT NULL,
-  `active` bool DEFAULT true,
-  `created_at` timestamp NULL DEFAULT NULL,
-  `updated_at` timestamp NULL DEFAULT NULL,
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
-
-CREATE TABLE `orders` (
-  `id` int(10) UNSIGNED NOT NULL,
-  `user_id` int(11) DEFAULT NULL,
-  `address_user_id` int(11) DEFAULT NULL,
-  `content` longtext COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `n_order` string(255) DEFAULT NULL,
-  `total` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `type_payment_user_id` int(21) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `start_time` time DEFAULT NULL,
-  `end_time` time DEFAULT NULL,
-  `order_state` int(11) DEFAULT NULL,
-  `order_canceled` int(11) DEFAULT 0,
-   `created_at` timestamp NULL DEFAULT NULL,
-  `updated_at` timestamp NULL DEFAULT NULL,
-  `deleted_at` timestamp NULL DEFAULT NULL,
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
-
-// DIRECCION TEMPORAL
-CREATE TABLE `adresses_users` (
-  `id` int(10) UNSIGNED NOT NULL,
-  `user_id` int(11) DEFAULT NULL,
-  `localition` geometry DEFAULT NULL,
-  `lat` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `lng` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `phone` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `country` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `locality` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `zip_code` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `street` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `active` bool DEFAULT true,
-  `is_main` int(11) DEFAULT NULL,
-  `created_at` timestamp NULL DEFAULT NULL,
-  `updated_at` timestamp NULL DEFAULT NULL,
-  `deleted_at` timestamp NULL DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
-
-// DIRECCION FIJA
+************************ CONTACTOS *************************************
+  // DIRECCION FIJA
 CREATE TABLE `contacts` (
   `id` int(10) UNSIGNED NOT NULL,
   `email` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
@@ -157,73 +131,29 @@ CREATE TABLE `contacts` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 
-CREATE TABLE `order_state` (
-  `id` int(10) UNSIGNED NOT NULL,
-  `order_id` int(11) DEFAULT NULL,
-  `state_id` int(11) DEFAULT NULL,
-  `active` bool DEFAULT TRUE,
-  `created_at` timestamp NULL DEFAULT NULL,
-  `updated_at` timestamp NULL DEFAULT NULL,
-  `deleted_at` timestamp NULL DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
-
-CREATE TABLE `state` (
-  `id` int(10) UNSIGNED NOT NULL,
-  `state` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `created_at` timestamp NULL DEFAULT NULL,
-  `updated_at` timestamp NULL DEFAULT NULL,
-  `deleted_at` timestamp NULL DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
-
-// PAGAMENTOS EXISTENTES
-CREATE TABLE `type_payment` (
-  `id` int(10) UNSIGNED NOT NULL,
-  `name` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `company` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `type` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `active` bool DEFAULT TRUE,
-  `created_at` timestamp NULL DEFAULT NULL,
-  `updated_at` timestamp NULL DEFAULT NULL,
-  `deleted_at` timestamp NULL DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
-
-// PAGAMENTOS DEL USUARIO
-CREATE TABLE `type_payment_user` (
+// DIRECCION TEMPORAL
+CREATE TABLE `adresses_users` (
   `id` int(10) UNSIGNED NOT NULL,
   `user_id` int(11) DEFAULT NULL,
-  `name` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `company` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `type` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `transaction_id` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL
-  `active` bool DEFAULT TRUE,
+  `localition` geometry DEFAULT NULL,
+  `lat` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `lng` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `phone` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `country` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `locality` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `zip_code` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `street` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `active` bool DEFAULT true,
+  `is_main` int(11) DEFAULT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   `deleted_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
---------------------------------------------------------------------------
-
-// REPARTIDOR/EMPLEADOS
-CREATE TABLE `Employees` (
-  `id` int(10) UNSIGNED NOT NULL,
-  `employee_days_id` int(10) UNSIGNED NOT NULL,
-  `type_employee_id` int(10) UNSIGNED NOT NULL,
-  `order_id` int(10) UNSIGNED NOT NULL,
-  `name` varchar(200) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `lastname` varchar(200) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `avatar` varchar(200) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `password` varchar(250) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `login_token` varchar(250) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `active` bool DEFAULT TRUE,
-  `created_at` timestamp NULL DEFAULT NULL,
-  `updated_at` timestamp NULL DEFAULT NULL,
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
-
-// TIPO DE EMPLEADOS
+-------------------------------------------------------------------------------
+****************************EMPLEADOS ***********************************
+ // TIPO DE EMPLEADOS
 CREATE TABLE `type_employees` (
    `id` int(10) UNSIGNED NOT NULL,
    `function` varchar(200) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
@@ -232,6 +162,7 @@ CREATE TABLE `type_employees` (
    `created_at` timestamp NULL DEFAULT NULL,
    `updated_at` timestamp NULL DEFAULT NULL,
 )
+
 
 // DIAS DE TRABAJO DEL REPARTIDOR/EMPLEADOS
 CREATE TABLE `employees_days` (
@@ -260,44 +191,26 @@ CREATE TABLE `employees_days` (
 ) E
 
 
-CREATE TABLE `sms` (
+// REPARTIDOR/EMPLEADOS
+CREATE TABLE `Employees` (
   `id` int(10) UNSIGNED NOT NULL,
-  `phone` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `content` text COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `sms_state` int(11) DEFAULT 1,
-  `created_at` timestamp NULL DEFAULT NULL,
-  `updated_at` timestamp NULL DEFAULT NULL,
-  `deleted_at` timestamp NULL DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
-
-CREATE TABLE `notification_user` (
-  `id` int(10) UNSIGNED NOT NULL,
-  `user_id` int(11) DEFAULT NULL,
-  `created_at` timestamp NULL DEFAULT NULL,
-  `updated_at` timestamp NULL DEFAULT NULL,
-  `deleted_at` timestamp NULL DEFAULT NULL,
-  `cadeira_id` int(11) DEFAULT NULL,
-  `onesginal_id` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
-
-CREATE TABLE `chat` (
-  `id` int(10) UNSIGNED NOT NULL,
-  `user_id` int(11) DEFAULT NULL,
-  `channel_id` string(255) DEFAULT NULL,
-  `employee_id` int(11) DEFAULT NULL,
-  `message` text COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `employee_days_id` int(10) UNSIGNED NOT NULL,
+  `type_employee_id` int(10) UNSIGNED NOT NULL,
+  `order_id` int(10) UNSIGNED NOT NULL,
+  `name` varchar(200) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `lastname` varchar(200) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `avatar` varchar(200) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `password` varchar(250) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `login_token` varchar(250) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `active` bool DEFAULT TRUE,
   `created_at` timestamp NULL DEFAULT NULL,
-  `updated_at` timestamp NULL DEFAULT NULL
-)
+  `updated_at` timestamp NULL DEFAULT NULL,
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+-------------------------------------------------------------------------
+  ****************************** Products ******************************************
 
---------->
-  Products
-
-CREATE TABLE `banner` (
+CREATE TABLE `banners` (
   `id` int(10) UNSIGNED NOT NULL,
   `name` varchar(500) COLLATE utf8mb4_unicode_ci NOT NULL,
   `image` varchar(500) COLLATE utf8mb4_unicode_ci NOT NULL,
@@ -352,6 +265,18 @@ CREATE TABLE `subcatogories` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 
+ //TIPO DE PRODUCTO ( Bebidas, Burger...)
+CREATE TABLE `type_product` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `title` int(11) DEFAULT NULL,
+  `active` bool DEFAULT TRUE,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  `deleted_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+
 CREATE TABLE `products` (
   `id` int(10) UNSIGNED NOT NULL,
   `type_product_id` int(11) DEFAULT NULL,
@@ -371,6 +296,23 @@ CREATE TABLE `products` (
   `updated_at` timestamp NULL DEFAULT NULL,
   `deleted_at` timestamp NULL DEFAULT NULL,
 
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+
+// IMAGNES DEL PRODUCTO
+CREATE TABLE `product_images` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `product_id` int(11) DEFAULT NULL,
+  `attr_id` int(11) DEFAULT NULL,
+  `id_attr` int(11) DEFAULT NULL,
+  `name_attr` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `images_attr` longtext COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  `deleted_at` timestamp NULL DEFAULT NULL,
+  `price` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `attr_id_name` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `stock` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 
@@ -399,31 +341,19 @@ CREATE TABLE `type_complements` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 
-
- //TIPO DE PRODUCTO ( Bebidas, Burger...)
-CREATE TABLE `type_product` (
+// Ej, Gratis, Ate 1kg, Mayor 1Kg...
+CREATE TABLE `transport_categories` (
   `id` int(10) UNSIGNED NOT NULL,
   `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `title` int(11) DEFAULT NULL,
-  `active` bool DEFAULT TRUE,
+  `desc` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `iva` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `order_id` int(11) DEFAULT NULL
+  `price` decimal(10,2) NOT NULL
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
-  `deleted_at` timestamp NULL DEFAULT NULL
+  `deleted_at` timestamp NULL DEFAULT NULL,
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
-
-// EMAIL
-CREATE TABLE `mail_queue` (
-  `id` int(10) UNSIGNED NOT NULL,
-  `email` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `subject` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `var` longtext COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `view` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `status` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `created_at` timestamp NULL DEFAULT NULL,
-  `updated_at` timestamp NULL DEFAULT NULL,
-  `deleted_at` timestamp NULL DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 
 CREATE TABLE `promotions` (
@@ -440,57 +370,140 @@ CREATE TABLE `promotions` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 
-// Ej, Gratis, Ate 1kg, Mayor 1Kg...
-CREATE TABLE `transport_categories` (
+
+------------------------------
+**************************************  ORDERS *********************************************
+CREATE TABLE `order_state` (
   `id` int(10) UNSIGNED NOT NULL,
-  `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `desc` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `iva` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `order_id` int(11) DEFAULT NULL
-  `price` decimal(10,2) NOT NULL
+  `order_id` int(11) DEFAULT NULL,
+  `state_id` int(11) DEFAULT NULL,
+  `active` bool DEFAULT TRUE,
   `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  `deleted_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+
+CREATE TABLE `state` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `state` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  `deleted_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+
+// PAGAMENTOS EXISTENTES
+CREATE TABLE `type_payment` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `name` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `company` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `type` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `active` bool DEFAULT TRUE,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  `deleted_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+
+// PAGAMENTOS DEL USUARIO
+CREATE TABLE `type_payment_user` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `user_id` int(11) DEFAULT NULL,
+  `name` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `company` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `type` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `transaction_id` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL
+  `active` bool DEFAULT TRUE,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  `deleted_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+
+CREATE TABLE `orders` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `user_id` int(11) DEFAULT NULL,
+  `address_user_id` int(11) DEFAULT NULL,
+  `content` longtext COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `n_order` string(255) DEFAULT NULL,
+  `total` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `type_payment_user_id` int(21) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `start_time` time DEFAULT NULL,
+  `end_time` time DEFAULT NULL,
+  `order_state` int(11) DEFAULT NULL,
+  `order_canceled` int(11) DEFAULT 0,
+   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   `deleted_at` timestamp NULL DEFAULT NULL,
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 
-// IMAGNES DEL PRODUCTO
-CREATE TABLE `product_attr_images` (
+CREATE TABLE `Orders_canceled` (
   `id` int(10) UNSIGNED NOT NULL,
-  `product_id` int(11) DEFAULT NULL,
-  `attr_id` int(11) DEFAULT NULL,
-  `id_attr` int(11) DEFAULT NULL,
-  `name_attr` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `images_attr` longtext COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `user_id` int(11) DEFAULT NULL,
+  `order_id` string(255) DEFAULT NULL,
+  `day` date DEFAULT NULL,
+  `address` int(11) DEFAULT NULL,
+  `phone` int(11) DEFAULT NULL,
+  `descrition` text DEFAULT NULL,
+  `note` text DEFAULT NULL,
+  `start_time` time DEFAULT NULL,
+  `end_time` time DEFAULT NULL,
+  `active` bool DEFAULT true,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
-  `deleted_at` timestamp NULL DEFAULT NULL,
-  `price` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `attr_id_name` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `stock` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+************************************** SERVICIOS *****************************************
+
+// EMAIL
+CREATE TABLE `mail_queue` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `email` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `subject` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `var` longtext COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `view` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `status` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  `deleted_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 
-// SUBCRIPCION
-CREATE TABLE `subcription` (
+CREATE TABLE `sms` (
   `id` int(10) UNSIGNED NOT NULL,
-  `user_id` int(10) DEFAULT NULL,
-  `plan_id` int(10) DEFAULT NULL,
-  `active` bool DEFAULT TRUE,
+  `phone` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `content` text COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `sms_state` int(11) DEFAULT 1,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  `deleted_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+
+CREATE TABLE `notification_user` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `user_id` int(11) DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  `deleted_at` timestamp NULL DEFAULT NULL,
+  `cadeira_id` int(11) DEFAULT NULL,
+  `onesginal_id` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+
+CREATE TABLE `chat` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `user_id` int(11) DEFAULT NULL,
+  `channel_id` string(255) DEFAULT NULL,
+  `employee_id` int(11) DEFAULT NULL,
+  `message` text COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `active` bool DEFAULT TRUE,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
 )
 
 
-// PLAN SUBCRIPCION
-CREATE TABLE `plan_subcription` (
-  `id` int(10) UNSIGNED NOT NULL,
-  `name` string(255) DEFAULT NULL,
-  `products_content` lontext DEFAULT NULL,
-  `price_limit` decimal(10) DEFAULT NULL,
-  `n_order_limit` int(10) DEFAULT NULL,
-  `product_limit` int(10) DEFAULT NULL,
-  `start_date` timestamp NULL DEFAULT NULL,
-  `end_date` timestamp NULL DEFAULT NULL,
-  `active` bool DEFAULT TRUE,
 
-)
+

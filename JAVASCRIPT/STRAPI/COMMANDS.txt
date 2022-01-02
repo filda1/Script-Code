@@ -1,5 +1,6 @@
+COMANNDS
 
- STRAPI
+   STRAPI
 
 *****************************************************************************************
  TUTORIAL
@@ -32,19 +33,9 @@
 
   Start server mysql
 
---------------------------------------------------------------------------------------
- https://www.db4free.net/
- https://www.db4free.net/phpMyAdmin/index.php?route=/&route=%2F
+------------------------------------------------------------------------------------------
 
 
-  user: root_xecommerce
-  password:  Portugal@@2021
----------------------------------------------------------------------------------------
-  
-  STRAPI + POSTGRES
-  https://medium.com/dogus-tech-digital-solutions/creating-strapi-app-with-postgresql-e22f00d48b04
-
----------------------------------------------------------------------------------------
 
 ***********************************************  INSTALL STRAPI **********************************************
   https://strapi.io/documentation/developer-docs/latest/setup-deployment-guides/installation/cli.html#running-strapi
@@ -70,6 +61,7 @@
 
 ****************************************************************************************
   COMMANDS STRAPI
+
   yarn develop / npm run develop   ============> RUN LOCAL
   
   yarn start   ============> Inicia Strapi
@@ -101,12 +93,5 @@
 	"password": "123456"
  }
 
-
-**************************************************************************************
- REALTIME  ============> SOCKET IO
-
-        https://medium.com/strapi/strapi-socket-io-a9c856e915a6
-        https://strapi.io/blog/how-to-build-a-real-time-chat-forum-using-strapi-socket-io-react-and-mongo-db
-         https://github.com/purnima-strapi-blogs/strapi-chat-backend
 
 **************************************************************************************
