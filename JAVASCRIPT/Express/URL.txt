@@ -33,6 +33,12 @@
       - paypal rest api
       - paypal create order
       - paypal capture order
+***************************************************************************************
+ GraphQL & MySQL CRUD con Nodejs, Typescript y TypeORM (FATZ)
+
+   https://www.youtube.com/watch?v=8_DuZHJBB-k
+   https://github.com/FaztWeb/graphql-mysql-crud-typescript
+   typorm(Conecta a cualquier  Bd Sql ) ======> https://typeorm.io/#/
 
 ***************************************************************************************
  STRIPE + REACT + NODE (Fatz) ===============> https://www.youtube.com/watch?v=0Kd0LeAMGf4

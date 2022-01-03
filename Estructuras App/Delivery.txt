@@ -63,7 +63,7 @@
 
 
 
-// SUBCRIPCION
+// SUBCRIPCION (No Necesario)
 CREATE TABLE `subcription` (
   `id` int(10) UNSIGNED NOT NULL,
   `user_id` int(10) DEFAULT NULL,
@@ -115,7 +115,7 @@ CREATE TABLE `contacts` (
 
 
 // DIRECCION TEMPORAL
-CREATE TABLE `adresses_users` (
+CREATE TABLE `contacts_tempory` (
   `id` int(10) UNSIGNED NOT NULL,
   `user_id` int(11) DEFAULT NULL,
   `localition` geometry DEFAULT NULL,
@@ -149,6 +149,9 @@ CREATE TABLE `adresses_users` (
  // Horarios 
  CREATE TABLE `timetable` (
   `id` int(10) UNSIGNED NOT NULL,
+   name string(255)
+   startime  time
+   endtime  time
    day_id int(10)
   `key` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `value` varchar(250) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
@@ -167,12 +170,13 @@ CREATE TABLE `type_employees` (
    `function` varchar(200) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
    `active` bool DEFAULT TRUE,
    `percentage` int(11) NOT NULL,
+    value string
    `created_at` timestamp NULL DEFAULT NULL,
    `updated_at` timestamp NULL DEFAULT NULL,
 )
 
 
-// DIAS DE TRABAJO DEL REPARTIDOR/EMPLEADOS
+// DIAS DE TRABAJO DEL REPARTIDOR/EMPLEADOS ( NO NECESARIO)
 CREATE TABLE `employees_days` (
   `id` int(10) UNSIGNED NOT NULL,
   `Monday` int(11) DEFAULT NULL,
@@ -188,21 +192,59 @@ CREATE TABLE `employees_days` (
 
 
 // REPARTIDORES/EMPLEADOS X HORA
-  CREATE TABLE `employees_jobs` (
+  CREATE TABLE `employees_job` (
   `id` int(10) UNSIGNED NOT NULL,
-   `employee_id` int(11) DEFAULT NULL,
-  `duration` int(11) DEFAULT NULL,
+   `employee_days_id` int(11) DEFAULT NULL, 
+
+   startime Monday  time
+   endtime Monday time
+  `duration Monday` int(11) DEFAULT NULL,
+  `active Monday` int(11) DEFAULT NULL,
+
+   startime Tuesday  time
+   endtime Tuesday time
+  `duration Tuesday` int(11) DEFAULT NULL,
+  `active Tuesday` int(11) DEFAULT NULL,
+
+   startime Wednesday  time
+   endtime Wednesday time
+  `duration Wednesday` int(11) DEFAULT NULL,
+  `active Wednesday` int(11) DEFAULT NULL,
+
+    startime Thursday  time
+   endtime Thursday time
+  `duration Thursday` int(11) DEFAULT NULL,
+  `active Thursday` int(11) DEFAULT NULL,
+
+    startime Friday  time
+   endtime Friday time
+  `duration Friday` int(11) DEFAULT NULL,
+  `active Friday` int(11) DEFAULT NULL,
+
+  startime Saturday  time
+   endtime Saturday time
+  `duration Saturday` int(11) DEFAULT NULL,
+  `active Saturday` int(11) DEFAULT NULL,
+
+   startime Sunday  time
+   endtime Sunday time
+  `duration Sunday` int(11) DEFAULT NULL,
+  `active Sunday` int(11) DEFAULT NULL,
+
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   `value` float DEFAULT NULL,
-  `duracao_estagiario` int(11) DEFAULT NULL
+   Ocupied bool
+   active  bool
 ) E
 
 
 // REPARTIDOR/EMPLEADOS
 CREATE TABLE `Employees` (
   `id` int(10) UNSIGNED NOT NULL,
-  `employee_days_id` int(10) UNSIGNED NOT NULL,               ==============================================> 1 x 1
+   email string
+   `employee_job_id` int(10) UNSIGNED NOT NULL,              ==============================================>  Muchos x 1
+  `employee_days_id` int(10) UNSIGNED NOT NULL,               ==============================================> Muchos x 1 (NO utlizar)
   `type_employee_id` int(10) UNSIGNED NOT NULL,               ==============================================>  MUCHOS x 1
   `order_id` int(10) UNSIGNED NOT NULL,                       ==============================================> 1 x Muchos
   `name` varchar(200) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
@@ -210,6 +252,7 @@ CREATE TABLE `Employees` (
   `avatar` varchar(200) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `password` varchar(250) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `login_token` varchar(250) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+   Occupied bool
   `active` bool DEFAULT TRUE,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
@@ -221,6 +264,7 @@ CREATE TABLE `Employees` (
 CREATE TABLE `banners` (
   `id` int(10) UNSIGNED NOT NULL,
   `name` varchar(500) COLLATE utf8mb4_unicode_ci NOT NULL,
+   url string
   `image` varchar(500) COLLATE utf8mb4_unicode_ci NOT NULL,
   `ative` bool DEFAULT TRUE,
   `created_at` timestamp NULL DEFAULT NULL,
@@ -229,14 +273,21 @@ CREATE TABLE `banners` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 
-CREATE TABLE `menus_app` (
+CREATE TABLE `menu_app` (
   `id` int(10) UNSIGNED NOT NULL,
   `name` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `title` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+   icon  
+   url
+  `color` varchar(191) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `position` int(11) NOT NULL,
+   active bool
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 
+( NO UTLIZAR )
 CREATE TABLE `menu_items` (
   `id` int(10) UNSIGNED NOT NULL,
   `menu_id` int(10) UNSIGNED DEFAULT NULL,
@@ -254,19 +305,26 @@ CREATE TABLE `menu_items` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 
-CREATE TABLE `catogories` (
+CREATE TABLE `categories` (
   `id` int(10) UNSIGNED NOT NULL,
   `title` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+   icon
+   url
+   active
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   `deleted_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 
+(NO UTLIZAR )
 CREATE TABLE `subcategories` (
   `id` int(10) UNSIGNED NOT NULL,
   `category_id` int(11) DEFAULT NULL,
   `title` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+    icon
+   url
+   active
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   `deleted_at` timestamp NULL DEFAULT NULL
@@ -289,15 +347,18 @@ CREATE TABLE `products` (
   `id` int(10) UNSIGNED NOT NULL,
   `type_product_id` int(11) DEFAULT NULL,              ========================================================> MUCHOS x 1
   `subcategory_id` int(11) DEFAULT NULL,
-  `category_id` int(11) DEFAULT NULL,
+  `category_id` int(11) DEFAULT NULL,                  ========================================================> MUCHOS x 1
   `promotion_id` int(11) DEFAULT NULL,                 =======================================================> MUCHOS x MUCHOS
+   product_image_id                                      =======================================================> 1 x Muchos
+   product_complements_id                                =======================================================> Muchos x Muchos
   `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `principal_image` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `cover_image` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `description` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `general_image` longtext COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '[]',
   `transport_category_id` int(11) DEFAULT NULL,
   `pvp` varchar(25) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `image_type` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+   `tax` float DEFAULT NULL,
   `price` float DEFAULT NULL,
   `stock` int(21) DEFAULT NULL
   `active` bool DEFAULT TRUE,
@@ -311,6 +372,8 @@ CREATE TABLE `products` (
 // IMAGNES DEL PRODUCTO
 CREATE TABLE `product_images` (
   `id` int(10) UNSIGNED NOT NULL,
+   title
+   url
   `product_id` int(11) DEFAULT NULL,
   `attr_id` int(11) DEFAULT NULL,
   `id_attr` int(11) DEFAULT NULL,
@@ -326,10 +389,11 @@ CREATE TABLE `product_images` (
 
 
 // INGREDIENTES DEL PRODUCTO
-CREATE TABLE `complements` (
+CREATE TABLE `product_complements` (
   `id` int(10) UNSIGNED NOT NULL,
-  `product_id` int(10) DEFAULT NULL,
+  `product_id` int(10) DEFAULT NULL,      ===============================================> MUCHOS X 1
   `title` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+   image
   `type_complemet_id` int(11) DEFAULT NULL,
   `quantity` int(11) DEFAULT NULL,
   `color` int(11) DEFAULT NULL,
@@ -340,10 +404,11 @@ CREATE TABLE `complements` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 
-// TIPO DE COMPLEMENTO .......( Ej: Ingredientes, Bebidas...)
+// TIPO DE COMPLEMENTO .......( Ej: Ingredientes, Bebidas...) 
 CREATE TABLE `type_complements` (
   `id` int(10) UNSIGNED NOT NULL,
   `title` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+   active
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   `deleted_at` timestamp NULL DEFAULT NULL
@@ -368,11 +433,15 @@ CREATE TABLE `transport_categories` (
 CREATE TABLE `promotions` (
   `id` int(10) UNSIGNED NOT NULL,
   `product_id` int(11) DEFAULT NULL,
+   title
+   startdate   Datetime
+   enddate  Datetime
   `values` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `attr_name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `value` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `percentage` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `value_origin` varchar(25) COLLATE utf8mb4_unicode_ci NOT NULL,
+   active bool
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   `deleted_at` timestamp NULL DEFAULT NULL
@@ -384,7 +453,7 @@ CREATE TABLE `promotions` (
 **************************************  ORDERS *********************************************
 CREATE TABLE `order_state` (
   `id` int(10) UNSIGNED NOT NULL,
-  `order_id` int(11) DEFAULT NULL,
+  `order_id` int(11) DEFAULT NULL,   ================================================>    1 x MUCHOS
   `state_id` int(11) DEFAULT NULL,
   `active` bool DEFAULT TRUE,
   `created_at` timestamp NULL DEFAULT NULL,
@@ -408,6 +477,7 @@ CREATE TABLE `type_payment` (
   `name` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `company` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `type` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `transaction_id` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL
   `active` bool DEFAULT TRUE,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
@@ -415,7 +485,7 @@ CREATE TABLE `type_payment` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 
-// PAGAMENTOS DEL USUARIO
+// PAGAMENTOS DEL USUARIO  ( No Utlizar)
 CREATE TABLE `type_payment_user` (
   `id` int(10) UNSIGNED NOT NULL,
   `user_id` int(11) DEFAULT NULL,
@@ -433,15 +503,15 @@ CREATE TABLE `type_payment_user` (
 CREATE TABLE `orders` (
   `id` int(10) UNSIGNED NOT NULL,
   `user_id` int(11) DEFAULT NULL,
-  `address_user_id` int(11) DEFAULT NULL,
+  `address` srtring DEFAULT NULL,  
+  phone
+  zip-code
   `content` longtext COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `n_order` string(255) DEFAULT NULL,
   `total` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `type_payment_user_id` int(21) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `start_time` time DEFAULT NULL,
-  `end_time` time DEFAULT NULL,
-  `order_state` int(11) DEFAULT NULL,
-  `order_canceled` int(11) DEFAULT 0,
+  `type_payment string
+  `order_state` int(11) DEFAULT NULL, ==========================================>
+  `order_canceled` int(11) DEFAULT 0, =======================================>
    `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   `deleted_at` timestamp NULL DEFAULT NULL,
@@ -469,6 +539,7 @@ CREATE TABLE `Orders_canceled` (
 // EMAIL
 CREATE TABLE `mail_queue` (
   `id` int(10) UNSIGNED NOT NULL,
+   user_id
   `email` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `subject` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `var` longtext COLLATE utf8mb4_unicode_ci DEFAULT NULL,
@@ -486,6 +557,7 @@ CREATE TABLE `sms` (
   `phone` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `content` text COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `sms_state` int(11) DEFAULT 1,
+   active
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   `deleted_at` timestamp NULL DEFAULT NULL
@@ -495,6 +567,7 @@ CREATE TABLE `sms` (
 CREATE TABLE `notification_user` (
   `id` int(10) UNSIGNED NOT NULL,
   `user_id` int(11) DEFAULT NULL,
+  `notication` string(11) DEFAULT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   `deleted_at` timestamp NULL DEFAULT NULL,

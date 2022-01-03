@@ -38,6 +38,7 @@ COMANNDS
 
 
 ***********************************************  INSTALL STRAPI **********************************************
+
   https://strapi.io/documentation/developer-docs/latest/setup-deployment-guides/installation/cli.html#running-strapi
   >> cd C:\Proyectos\Strapi  npx create-strapi-app my-project
       ->custom 
@@ -83,6 +84,7 @@ COMANNDS
    email: admin@admin.com
    pass: 123456
   
+http://localhost:1337/admin
 ***************************************************************************************
 
  AUTH POSTMAN
