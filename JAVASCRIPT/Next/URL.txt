@@ -22,6 +22,12 @@
                  https://github.com/FaztWeb/nextjs-postgres-crud-typescript
 
 *********************************************************************************************************************************************
+  ECOMMERCE
+
+   (Coding with Basir) ====>  https://www.youtube.com/watch?v=3kYkEVIZNZY
+                              https://github.com/basir/next-amazona/tree/main/pages
+
+*********************************************************************************************************************************************
    AUTH DENTRO DE NEXT(jwt)
 
     *****https://jasonwatmore.com/post/2021/08/04/next-js-11-jwt-authentication-tutorial-with-example-app#jwt-middleware-js

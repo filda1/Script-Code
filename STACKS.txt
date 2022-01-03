@@ -29,7 +29,7 @@ STACK
   
   4-  LARAVEL / REACTJS
   4-  LARAVEL / NEXTJS =============> Completa
-
+  
 
   5-  NEXTJS / NEXTJS =============> Completa
 
