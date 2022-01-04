@@ -111,3 +111,25 @@
   TIMEONLY
 
     https://www.youtube.com/watch?v=cns4hO3iTxk
+
+
+****************************************************************************************************
+   VALIDATE STRING NUMBER  =================> Convert STRING TO INT
+
+    int numericValue;
+            bool isNumber = int.TryParse(numeroEntry.Text, out numericValue);
+
+
+            if ( isNumber == false  || numeroEntry.Text == null)
+            {
+                await DisplayAlert("Erro", "O telemovel tem que ser em numero y tem que estar preenchido!", "Ok");
+             
+                return;
+            }
+ 
+
+*******************************************************************************************************
+
+  Patron STATE  
+
+           https://www.youtube.com/watch?v=w2PtQWTytW8

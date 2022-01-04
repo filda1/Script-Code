@@ -22,6 +22,12 @@ REACT NATIVE (EXPO) ========> https://www.youtube.com/watch?v=hXDMWeD0ERM (Fazt)
                          https://docs.fastlane.tools
 
 ***********************************************************************************************************
+    UPLOAD IMAGE == REACT NATIVE + DJANGO
+
+        https://lzomedia.com/blog/uploading-image-in-react-native-backend-django/
+
+
+***********************************************************************************************************
    CLONE
        clubhouse =====> https://github.com/uwemneku/clubhouse-expo
        fashon =========> https://github.com/RafiouSitou90/react-native-fashion

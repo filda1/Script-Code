@@ -1,0 +1,10 @@
+STORAGE
+
+  BLACKBLAZE
+  https://www.backblaze.com/b2/cloud-storage-pricing.html
+
+  MUX
+  https://mux.com/pricing
+
+  DIGITAL OCEAN SPACE
+  https://try.digitalocean.com/cloud-storage/?utm_campaign=emea_brand_kw_en_cpc&utm_adgroup=digitalocean_space_exact&_keyword=digitalocean%20spaces&_device=c&_adposition=&utm_content=conversion&utm_medium=cpc&utm_source=google&gclid=Cj0KCQiA_c-OBhDFARIsAIFg3ew_pAmZWh8XrlrUPvST-UzyILYEzqpbUNqnoiym2pv1nQXTmfP8duIaAjaKEALw_wcB

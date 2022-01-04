@@ -18,3 +18,9 @@
  https://bigbluebutton.org/2018/07/09/greenlight-2-0/ (NECESARIO SERVIDOR VPN)
  https://bigbluebutton.org (NECESARIO SERVIDOR VPN)
 -------------------------------------------------------------------------------------
+
+ ‣ KDEnLive: https://kdenlive.org ===============================> EDITOR VIDEOS
+‣ Scribus: https://www.scribus.net ==============================> PORTADA PARA LIBROS
+‣ Krita: https://krita.org   =====================================> ILUSTRADOR
+‣ WeKan: https://wekan.github.io =================================> ORGANIZADOR ( tipo Trello)
+‣ BRL-CAD: https://brlcad.org  ===================================> CAD

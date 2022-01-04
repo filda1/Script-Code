@@ -143,4 +143,16 @@ else
  
 ?>
 
-*****************************************************************************
+**************************************************************************
+  PHP + SOCKETIO =======> ELEPHANT.IO
+
+   https://github.com/wisembly/elephant.io
+   https://www.it-swarm-es.com/es/php/utilizando-php-con-socket.io/972622151/
+
+
+ ****https://newbedev.com/php-sending-message-to-node-socket-io-server
+
+**************************************************************************
+   
+  TUTORIAL ======================>  https://www.w3schools.com/php/default.asp
+

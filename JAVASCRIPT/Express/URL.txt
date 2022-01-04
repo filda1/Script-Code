@@ -69,3 +69,12 @@
 
  API ===> Lento =====> 500 ms
           Lento =====> 1000 ms / 1s
+
+
+
+*********************************************************************************************
+  
+  DigitalOcean Spaces & Nodejs (con Mongodb) (fatz)
+
+           https://www.youtube.com/watch?v=QLwJn_F84Sg
+           https://github.com/FaztWeb/nodejs-digitalocean-spaces

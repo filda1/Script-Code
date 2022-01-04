@@ -503,6 +503,7 @@ CREATE TABLE `type_payment_user` (
 CREATE TABLE `orders` (
   `id` int(10) UNSIGNED NOT NULL,
   `user_id` int(11) DEFAULT NULL,
+   email
   `address` srtring DEFAULT NULL,  
   phone
   zip-code
@@ -510,8 +511,8 @@ CREATE TABLE `orders` (
   `n_order` string(255) DEFAULT NULL,
   `total` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `type_payment string
-  `order_state` int(11) DEFAULT NULL, ==========================================>
-  `order_canceled` int(11) DEFAULT 0, =======================================>
+  `order_state` int(11) DEFAULT NULL, ==========================================> Muchos x 1
+  `order_canceled` int(11) DEFAULT 0, =======================================>  1 x 1
    `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   `deleted_at` timestamp NULL DEFAULT NULL,

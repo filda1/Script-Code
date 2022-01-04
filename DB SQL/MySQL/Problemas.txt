@@ -1,0 +1,9 @@
+
+ PROBLEMAS CON CONECCION LOCAL
+   * Tienes que iniciar mysql 
+ MYSQL SHELL  ===== C:\Program Files\MySQL\MySQL Shell 8.0\mysqlsh.exe
+
+  Start server mysql
+
+ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Portugal2021';
+ FLUSH PRIVILEGES;

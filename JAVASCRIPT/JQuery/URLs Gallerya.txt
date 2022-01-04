@@ -4,3 +4,8 @@
 
  Slides = swipper = https://swiperjs.com/
  Animaciones =https://daneden.github.io/animate.css/
+
+
+---------------------------------------------------------------------
+    JQUERY + SOCKE.IO
+   https://www.telerik.com/blogs/building-a-real-time-paint-application-with-jquery-and-socket-io
