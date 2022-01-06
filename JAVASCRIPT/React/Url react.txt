@@ -32,6 +32,13 @@
                                                https://github.com/FaztWeb/react-stripe-checkout
 
 ********************************************************************************************************************
+   FRAMERWRK UI
+
+      material ui
+      semantic ui
+      react boostrapt
+
+********************************************************************************************************************
 
   En NAVEGADOR============> instalar extension  React developer tools   
 

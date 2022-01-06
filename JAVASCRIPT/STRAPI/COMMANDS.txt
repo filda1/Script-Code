@@ -100,7 +100,17 @@ http://localhost:1337/admin
 
 **************************************************************************************
 
+  MODEIFICAR FRONTENED
 
+   >>> yarn develop --watch-admin
+     https://docs.strapi.io/developer-docs/latest/development/admin-customization.html#customization-options
+
+  http://localhost:8080/admin/
+
+  BUiLD(compilar) ===============>  npm run build
+
+
+**************************************************************************************
 
   RELACIONES =========================> https://styde.net/relaciones-entre-tablas-de-bases-de-datos/
 

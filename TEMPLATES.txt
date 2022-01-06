@@ -34,12 +34,23 @@ TEMPLATES
                 https://html5up.net/
 
    MATERALIZE ======> http://swarnakishore.github.io/MaterializeThemes/
+  *********************************************************************************************************************
 
-   
+   INVOICE
+    https://create.onlineinvoices.com/templates
+       https://www.bootdey.com/snippets/tagged/invoice
+
+       CRATER =============================> https://github.com/crater-invoice/crater
+
+      **** TEMPLATE =======================> https://colorlib.com/polygon/notika/data-table.html
+                                                           https://colorlib.com/wp/free-bootstrap-admin-dashboard-templates/
+
+  ********************************************************************************************************************* 
+  *******ADMIN ======> http://themehunt.com/item/1527584-atlantis-lite-bootstrap-4-admin-dashboard/preview
 
    template Admin = starangular
    Arquitectura material design = https://material.io/design/material-studies/shrine.html
-
+***********************************************************************************************************************
    Favoritos Template
     https://html5up.net/photon
     https://html5up.net/landed

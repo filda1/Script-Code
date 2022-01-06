@@ -19,6 +19,22 @@ LARAVEL ZERO _ CONSOLE ====> https://laravel-zero.com/docs/installation
 ****************************************************************************
  SSH TUNNEL === https://github.com/stechstudio/laravel-ssh-tunnel
 ----------------------------------------------------------------------------
+
+
+**************************************************************************************************************
+  MULTI AUTH ( Laravel 8)
+
+       https://www.youtube.com/watch?v=-b3j0nOuF44
+       https://github.com/siddharth018/laravel8multiauth
+       https://siddharthshukla.in/how-to-use-multiple-authentication-guards-in-laravel-8-app/
+
+
+      ** https://www.youtube.com/watch?v=PqAaBo_I_a4
+         https://github.com/Mbere250/Laravel-8-Multi-Guards-Authentication
+
+
+        EMPRESA = https://www.sodexobeneficios.pt/rede-de-parceiros/#rede-parceiros_map
+***************************************************************************************************************
   LARAVEL TRASLATE 
 
          https://blog.quickadminpanel.com/how-to-add-multi-language-models-to-laravel-quickadminpanel-2020/

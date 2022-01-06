@@ -27,3 +27,11 @@
  https://adventofcode.com/
  
 
+*********************************************************************************************
+
+ CONNECT APIS CON RABBITMQ + DJANGO
+
+  https://www.section.io/engineering-education/communicating-between-your-django-apis-using-rabbitmq/
+
+
+*********************************************************************************************

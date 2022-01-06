@@ -5,6 +5,14 @@
 -------------------------------------------------------------------
  CALENDLY ====> https://www.youtube.com/watch?v=Sc3l3Nf7yJ8
 -------------------------------------------------------------------
+
+  INVOICE
+       https://create.onlineinvoices.com/templates
+       https://www.bootdey.com/snippets/tagged/invoice
+
+      ****************** TEMPLATE =======================> https://colorlib.com/polygon/notika/data-table.html
+                                                           https://colorlib.com/wp/free-bootstrap-admin-dashboard-templates/
+------------------------------------------------------------------
  CLONE OLX
 OLX =====>* https://github.com/ubaig54/basic-olx-clone (JV)
           https://pakistan-olx-1.firebaseapp.com/index.html

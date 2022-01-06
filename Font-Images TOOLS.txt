@@ -9,10 +9,22 @@
 
 **********************************************************************************
 
+   PAINT ONLINE
+
+    https://jspaint.app/#local:3d191d1afe217
+
+**********************************************************************************
+
   DIAGRAMAS ONLINE
 
      https://www.diagrams.net
      https://app.diagrams.net/?src=about
+
+**********************************************************************************
+
+  VS CODE ONLINE
+
+   vscode.dev   ==================> en CHROME
 
 **********************************************************************************
 
@@ -76,18 +88,25 @@
 -------------------------------------------------------------------------------------
  icons css  ============> https://html-css-js.com/html/character-codes/icons/
  www.materialui.co
+**********************************************************************************
+ ADMIN POSGREST
 
  ADMNPOSTGRES
   pgAdmn4
+**********************************************************************************
+ CREAR TEMPLATES BOOSTRAPT 
+             =========> https://www.layoutit.com/es
 
- CREAR TEMPLATES BOOSTRAPT =========> https://www.layoutit.com/es
-
+**********************************************************************************
  GENERADOR DE TABLES
+
     https://www.tablesgenerator.com/html_tables#
  ServiciosFREE
    https://free-for.dev/#/?id=email
 
+***********************************************************************************
  IMAGENES:
+
   pexels.com
   unsplash.com
   svgporn.com
@@ -98,23 +117,28 @@
   unDraw.com (Ilustartor)
   Desing Hunt (chorme store)
 
-
+***************************************************************************************
  ICONOS:
+
   https://thenounproject.com/
   https://icomoon.io/
   iconscout.com
 
+***************************************************************************************
  SOFTWARE
+
   Figma.com
-  xd
+  xd adove
+
 ****************************************************************************************
  GESTOR DE CONTRASENAS
+
    BITWARDEN
   https://www.youtube.com/watch?v=GrGoQC_Q5ck
 
- BITWARDEN == COMPARTYR EN EMPRESA (SHARE) =========> https://www.youtube.com/watch?v=sk7Bddlj9Cg
+  BITWARDEN == COMPARTYR EN EMPRESA (SHARE) =========> https://www.youtube.com/watch?v=sk7Bddlj9Cg
 
- LAstpass
+  LAstpass
 
 ****************************************************************************************
 

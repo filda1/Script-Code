@@ -56,3 +56,33 @@ STACK
 
  Acelerador Site
   Varnish
+
+***************************************************************************************************************
+
+  RAPPI (MICROSERVICES)
+
+  1. Docker (obví!)
+3. Kubernetes 
+3. Cerberus con Python
+4. Prometheus Operator
+5 . Amazon EKS
+6. Grafana
+7. Jenkins
+8. Thanos.io
+9. Nexus artifactory
+10. Sonar (Quality Gates )
+11. Amazon ECS
+12. Signal FX
+13. OpenTelemetry
+14. Terraform
+
+   PEDIDOS YA
+
+ - Kubernetes
+- Kubecost
+- Prometheus
+- Datadog
+- KubeCtl (parte de Kubernetes)
+- Amazon EC2
+- Amazon RDS
+- Terraform
