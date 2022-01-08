@@ -28,6 +28,12 @@ REACT NATIVE (EXPO) ========> https://www.youtube.com/watch?v=hXDMWeD0ERM (Fazt)
 
 
 ***********************************************************************************************************
+  VIDEOLLAMADAS
+
+   https://github.com/react-native-webrtc/react-native-webrtc
+   https://www.youtube.com/watch?v=pv3UHYwgxnM
+
+***********************************************************************************************************
    CLONE
        clubhouse =====> https://github.com/uwemneku/clubhouse-expo
        fashon =========> https://github.com/RafiouSitou90/react-native-fashion

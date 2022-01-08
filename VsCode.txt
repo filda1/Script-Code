@@ -30,6 +30,7 @@ https://dev.to/thegeoffstevens/50-vs-code-themes-for-2020-45cc
 
 
   PLUGIN 
+ thunder client
  BAnner Comment
  React snnipes
  B.. comement
