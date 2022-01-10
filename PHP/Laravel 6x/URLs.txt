@@ -111,4 +111,13 @@ Ubicación - navegación en tiempo real con socket, php, JS y Jquery Like a Goog
 
    LARAVEL ECHO 
        https://github.com/tlaverdure/laravel-echo-server
+
+
+
+*************************************************************************************************************
+
+  FILAMENT ADMIN
+
+    https://www.youtube.com/watch?v=69ittzdKu5A&ab_channel=CodewithLuis
+    https://codewithluis.hashnode.dev/how-to-create-admin-panel-using-filament-tall-stack
   

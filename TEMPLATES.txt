@@ -46,10 +46,26 @@ TEMPLATES
                                                            https://colorlib.com/wp/free-bootstrap-admin-dashboard-templates/
 
   ********************************************************************************************************************* 
+  ADMIN TEMPLATE
+
   *******ADMIN ======> http://themehunt.com/item/1527584-atlantis-lite-bootstrap-4-admin-dashboard/preview
+                      
+
+   ***https://cssauthor.com/bootstrap-admin-templates/
 
    template Admin = starangular
    Arquitectura material design = https://material.io/design/material-studies/shrine.html
+
+
+ TEMPLATES ADMIN
+   *****https://startbootstrap.com/themes/sb-admin-2/
+   ****https://cssauthor.com/material-design-admin-templates/
+   https://themeselection.com/bootstrap-4-admin-template-github/
+
+
+
+   TEMPLATES ANGULAR
+    https://colorlib.com/wp/angularjs-website-templates/?v=35357b9c8fe4
 ***********************************************************************************************************************
    Favoritos Template
     https://html5up.net/photon
@@ -85,12 +101,4 @@ TEMPLATES
 
 ////////////////////////////////////////////////////////////////////////////////
     
-   TEMPLATES ADMIN
-   *****https://startbootstrap.com/themes/sb-admin-2/
-   ****https://cssauthor.com/material-design-admin-templates/
-   https://themeselection.com/bootstrap-4-admin-template-github/
-
-
-
-   TEMPLATES ANGULAR
-    https://colorlib.com/wp/angularjs-website-templates/?v=35357b9c8fe4
+  
