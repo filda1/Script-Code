@@ -1,0 +1,6 @@
+  .NET MAUI
+
+
+  https://www.youtube.com/watch?v=52RmT2MIFzg&ab_channel=GeraldVersluis
+  https://dev.to/davidortinau/comet-development-on-macos-1o38
+  https://github.com/dotnet/Comet/

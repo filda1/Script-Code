@@ -13,8 +13,8 @@
 ********************************************************************************************************************
   AUTH
 
-    ******* https://stackoverflow.com/questions/58109007/react-router-jwt-protect-routes
-            https://github.com/developerpe/frontend-ecommerce-rest-react
+    ******* (developer.pe) ========> https://stackoverflow.com/questions/58109007/react-router-jwt-protect-routes
+                                     https://github.com/developerpe/frontend-ecommerce-rest-react
 
 ********************************************************************************************************************
  REACT + TYPESCRIPT (Fatz) = https://www.youtube.com/watch?v=IbJFERe9F9w
