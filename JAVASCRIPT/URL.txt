@@ -13,3 +13,13 @@ Bibliotecas y Frameworks mencioandos:
 * 3d: three.js
 * Animations: gsap greensock
 * Hardware: Johnny-five.io, node red, iot.js
+
+
+***********************************************************************************************************
+
+  Firebase Firestore (Version 9) CRUD con Javascript (Fazt)
+
+   https://www.youtube.com/watch?v=ey4k6mW9ds4&ab_channel=FaztCode
+   https://github.com/FaztWeb/firebase-crud-javascript/blob/master/index.js
+
+************************************************************************************************************
