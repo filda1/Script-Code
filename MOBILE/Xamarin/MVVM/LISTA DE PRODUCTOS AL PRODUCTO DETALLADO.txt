@@ -3,8 +3,15 @@
  * https://github.com/Altevir/xamarinforms-art-store
 
 
+  Funcionamiento:
 
- Funcionamiento:
-  1.Click Command(Con Parametros) en Producto de una LISTA DE PRODUCTOS
-  2. LOs Parametros entran y LLegan al CODE-BEHIND
-  3.Ahi son enviados a XAML y a la VIEW MODEL
+  1.Click Command(Con Parametros) en Producto de una LISTA DE PRODUCTOS ( EJ: ProductoPage)
+   1.1 El boton llama y entra  ViewModel (EJ: ProductViewModel) 
+   1.2 Dentro de la VIew MOdel, El mismo Boton llama un funcion, con Un PUSH llama  a DetailPage (EJ: ProductoDetalsPage) y le pasa los parametros
+
+  2. En DetailPage.xaml.cs (EJ: ProductoDetalsPage) CODE-BEHIND, entra el Objeto = parametros y Se le Pasamos los parametros/Objeto en BindingContext de DeatailViewMOdel (Ahi mismo en contructor)
+   2.1 En DeatailViewMOdel tenemos que especificar la entrada del Objeto por El constructor
+
+  3. Listo, tenemos el Objeto en DetailPage o View,
+
+ 

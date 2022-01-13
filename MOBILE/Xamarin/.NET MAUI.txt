@@ -1,6 +1,18 @@
   .NET MAUI
 
+*****************************************************************************************
+
+  COMet (vISUAL cODE)
+
 
   https://www.youtube.com/watch?v=52RmT2MIFzg&ab_channel=GeraldVersluis
   https://dev.to/davidortinau/comet-development-on-macos-1o38
   https://github.com/dotnet/Comet/
+
+
+
+***************************************************************************************
+
+  PROYECTO .NET MAUI
+
+    https://github.com/microsoft/dotnet-podcasts/tree/main/src/Mobile

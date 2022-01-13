@@ -25,6 +25,11 @@ https://www.google.com/search?biw=1347&bih=644&sxsrf=ALeKk01zV4hpggdfe3xgUgy0ubj
 *******************************************************************************
  ESPELLO ANDROR _________>   SCRCPY  ___> https://www.youtube.com/watch?v=5XxUiLc2ZA8
 *******************************************************************************
+  UPLOAD IMAGE FIREBASE STORAGE
+
+     (GeraldVersluis)  ====> https://www.youtube.com/watch?v=IsbhleYMpsw&ab_channel=GeraldVersluis
+
+********************************************************************************************
  REFIT (Rest client simple) ===> https://www.youtube.com/watch?v=AdugZFtstrk
 *******************************************************************************
  SELCION DE MULTIPLES FOTOS DE GALERIA =====> https://xamgirl.com/select-multiple-images-from-gallery-in-xamarin-forms/
@@ -62,6 +67,13 @@ https://forums.xamarin.com/discussion/170801/system-notimplementedexception-this
 
 PUSH N -------<< https://www.youtube.com/watch?v=djy17fwqlZ0
                  https://www.youtube.com/watch?v=CFPZYP3J3KY
+*******************************************************************************************************
+
+  COFFEE APP
+
+   (James Montemagno)  ==============> https://www.youtube.com/watch?v=dM4PhZAUhzU&ab_channel=JamesMontemagno
+                                       https://github.com/jamesmontemagno/mycoffeeapp?WT.mc_id=friends-0000-jamont
+
 *******************************************************************************************************
  ONE SIGNAL
 
