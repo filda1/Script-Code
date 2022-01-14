@@ -2,14 +2,25 @@
 
 *****************************************************************************************
 
-  COMet (vISUAL cODE)
+  COMet (vISUAL cODE) =====> MVU
 
 
   https://www.youtube.com/watch?v=52RmT2MIFzg&ab_channel=GeraldVersluis
-  https://dev.to/davidortinau/comet-development-on-macos-1o38
+   ***https://dev.to/davidortinau/comet-development-on-macos-1o38
+      https://dev.to/davidortinau/managing-state-in-comet-4gpo
+ 
+  https://github.com/davidortinau/HangulClock
   https://github.com/dotnet/Comet/
 
+  *https://www.youtube.com/watch?v=XfYkwYEl0-Y&ab_channel=dotNET
 
+
+
+  https://www.youtube.com/watch?v=6qrQax2Jqnw&t=1607s&ab_channel=TobiasHoppenthaler
+
+
+ COMMANDS
+  https://github.com/dotnet/Comet/wiki/Getting-Started
 
 ***************************************************************************************
 
