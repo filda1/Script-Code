@@ -30,6 +30,17 @@ https://www.google.com/search?biw=1347&bih=644&sxsrf=ALeKk01zV4hpggdfe3xgUgy0ubj
      (GeraldVersluis)  ====> https://www.youtube.com/watch?v=IsbhleYMpsw&ab_channel=GeraldVersluis
 
 ********************************************************************************************
+  
+   XAMRIN + REDUX
+       https://www.youtube.com/watch?v=cF9mxlKXwpY&ab_channel=SomosTechies
+       https://www.youtube.com/watch?v=tSirKqpYaiw&list=PLpZ0Kru-F9GeBBSs5sXg4XryTL3OQJtw_&index=5&ab_channel=SomosTechies
+       https://github.com/jesulink2514/Xamarin.Forms.Redux-Sample
+
+      *https://blog.tissen.dev/blog/xamarin-forms-redux-part-one
+      *https://blog.tissen.dev/blog/xamarin-forms-redux-part-two
+      https://github.com/Odonno/ReduxSimple
+
+********************************************************************************************
  REFIT (Rest client simple) ===> https://www.youtube.com/watch?v=AdugZFtstrk
 *******************************************************************************
  SELCION DE MULTIPLES FOTOS DE GALERIA =====> https://xamgirl.com/select-multiple-images-from-gallery-in-xamarin-forms/
