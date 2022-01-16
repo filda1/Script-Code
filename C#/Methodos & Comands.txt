@@ -106,6 +106,13 @@
 
 
 
+  9- COPIAR LISTA
+
+      List<Obj>(Lista)
+
+  10- ELIMINAR LISTA
+     AuthorList.Clear()
+
 --------------------------------------------------------------------------------
 
   TIMEONLY
