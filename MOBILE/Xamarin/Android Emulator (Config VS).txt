@@ -1,0 +1,32 @@
+
+SIMULADORES
+
+ Windows Subsystem for Android™ with Amazon Appstore
+
+  Dowload =======> https://www.microsoft.com/en-us/p/windows-subsystem-for-android/9p3395vx91nr?activetab=pivot:overviewtab
+
+
+SIMULADORES ANTIGUOS
+
+ 1. En Vs TOOLS ======> Plataform
+    1.1 Android SDK Plataform ..
+
+ 2. En Vs TOOLS ======> tools
+    2.1 Android SDK Builds-Tools... =====================> EL PRIMERO
+
+    2.2 En EXTRA :
+      Google USB DRIVER
+      Android Emulator Hypervysor Driver for AMD Processor
+      Intel 86x Emulator Acelerator (HAXM installer)
+
+ 3. En Vs TOOLS ======> Adndroid =====> Android Device... (CREAR SIMULADOR)
+
+
+
+*https://www.youtube.com/watch?v=0Vxs1tN240A&ab_channel=Hacked
+
+ 
+
+
+
+

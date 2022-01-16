@@ -30,6 +30,11 @@ https://www.google.com/search?biw=1347&bih=644&sxsrf=ALeKk01zV4hpggdfe3xgUgy0ubj
      (GeraldVersluis)  ====> https://www.youtube.com/watch?v=IsbhleYMpsw&ab_channel=GeraldVersluis
 
 ********************************************************************************************
+  XAMARIN MVVM
+    (Montemagno) ====> https://www.youtube.com/watch?v=7mpe_1okwxk&ab_channel=JamesMontemagno
+               MyCofee  ===>  https://github.com/jamesmontemagno/MyCoffeeApp/tree/master/MyCoffeeApp
+
+********************************************************************************************
   
    XAMRIN + REDUX
        https://www.youtube.com/watch?v=cF9mxlKXwpY&ab_channel=SomosTechies
@@ -38,7 +43,8 @@ https://www.google.com/search?biw=1347&bih=644&sxsrf=ALeKk01zV4hpggdfe3xgUgy0ubj
 
       *https://blog.tissen.dev/blog/xamarin-forms-redux-part-one
       *https://blog.tissen.dev/blog/xamarin-forms-redux-part-two
-      https://github.com/Odonno/ReduxSimple
+      https://github.com/rubiktubik/shopping_app
+      
 
 ********************************************************************************************
  REFIT (Rest client simple) ===> https://www.youtube.com/watch?v=AdugZFtstrk
