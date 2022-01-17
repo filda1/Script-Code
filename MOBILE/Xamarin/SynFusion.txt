@@ -1,0 +1,16 @@
+
+ Synfusion
+
+     TUTORIAL = https://www.youtube.com/watch?v=FdidcFGjYzI&ab_channel=LuisBeltran
+
+     EXTENSION Y GITHUB =====> https://www.syncfusion.com/essential-xamarin-ui-kit
+
+
+     LICENCIA COMNUTY ====> https://www.syncfusion.com/account/downloads
+
+          Ir ====> Get Licencce Key  (*https://help.syncfusion.com/common/essential-studio/licensing/registering-license-keys)
+                                      (*https://www.youtube.com/watch?v=jRYKFn94zbc&t=17s&ab_channel=JoseCarlosAquinoHuamani)
+
+          En MainPge.xaml.cs========>
+              Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("YOUR LICENSE KEY");  
+                    

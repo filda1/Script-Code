@@ -28,6 +28,44 @@ https://www.google.com/search?biw=1347&bih=644&sxsrf=ALeKk01zV4hpggdfe3xgUgy0ubj
   UPLOAD IMAGE FIREBASE STORAGE
 
      (GeraldVersluis)  ====> https://www.youtube.com/watch?v=IsbhleYMpsw&ab_channel=GeraldVersluis
+                               
+********************************************************************************************
+   UPLOAD FILES with Progress Reporting in Xamarin.Forms and ASP.NET
+
+   (GeraldVersluis)  ====> https://www.youtube.com/watch?v=iJYRb97ZRD4&ab_channel=GeraldVersluis
+                           https://github.com/jfversluis/XFUploadFileChunkedSample
+
+********************************************************************************************
+  XAMARIN COMUNITY TOOL
+
+    TABS ===> https://www.youtube.com/watch?v=8EOKrUtnjrU&ab_channel=GeraldVersluis
+    SWIPE ===> https://www.youtube.com/watch?v=NMc6PdBusfQ&list=RDCMUCBBZ2kXWmd8eXlHg2wEaClw&index=15&ab_channel=GeraldVersluis
+    Popup  ===> https://www.youtube.com/watch?v=DkQbTarAE18&list=RDCMUCBBZ2kXWmd8eXlHg2wEaClw&index=8&ab_channel=GeraldVersluis
+    Avatar ====> https://www.youtube.com/watch?v=2S-gmdNqJgY&list=RDCMUCBBZ2kXWmd8eXlHg2wEaClw&index=6&ab_channel=GeraldVersluis
+    Data-Binding ========> https://www.youtube.com/watch?v=5Se94j5KMhc&list=RDCMUCBBZ2kXWmd8eXlHg2wEaClw&index=4&ab_channel=GeraldVersluis (De View a MOdel)
+    Button Efect ========> https://www.youtube.com/watch?v=BcFlZMhPmVk&list=RDCMUCBBZ2kXWmd8eXlHg2wEaClw&index=3&ab_channel=GeraldVersluis
+    Maps ================> https://www.youtube.com/watch?v=JVpYYgNJgTI&list=RDCMUCBBZ2kXWmd8eXlHg2wEaClw&index=7&ab_channel=GeraldVersluis
+    Badget ==============> https://www.youtube.com/watch?v=f2fC_m7CjIk&list=RDCMUCBBZ2kXWmd8eXlHg2wEaClw&index=24&ab_channel=GeraldVersluis
+    search ==============> https://www.youtube.com/watch?v=41NiKhFxYb0&ab_channel=GeraldVersluis
+    Local Notications =======> https://www.youtube.com/watch?v=-Nj_TRPlx-8&ab_channel=GeraldVersluis
+
+*******************************************************************************************
+   COLLECTION VIEW LOAD MORE
+
+   *https://xmonkeys360.com/2021/01/04/xamarin-forms-infinite-scroll-listview-lazy-loading/
+   *https://github.com/AnbuMani27/Xamarin-Forms-Infinite-ScrollView/tree/master/XFInfiniteScroll/XFInfiniteScroll/Views
+     https://dev.to/dotnet/infinite-scrolling-with-incremental-data-loading-in-xamarin-forms-18b5
+
+    https://sezeromer.com/xamarin-listview-lazy-loading/
+*******************************************************************************************
+ * FRESHMVVM
+
+   https://www.youtube.com/watch?v=f2fC_m7CjIk&list=RDCMUCBBZ2kXWmd8eXlHg2wEaClw&index=24&ab_channel=GeraldVersluis
+   https://www.youtube.com/watch?v=C7ykJ66CbgY&ab_channel=GeraldVersluis
+   https://github.com/rid00z/FreshMvvm#navigation
+
+   https://www.youtube.com/watch?v=QBtNX0AylKc&ab_channel=GeraldVersluis (Pass data entre View Model)
+   https://www.youtube.com/watch?v=amIniAY8VxI&ab_channel=GeraldVersluis (Depedencias Injections)
 
 ********************************************************************************************
   XAMARIN MVVM
@@ -48,6 +86,12 @@ https://www.google.com/search?biw=1347&bih=644&sxsrf=ALeKk01zV4hpggdfe3xgUgy0ubj
 
 ********************************************************************************************
  REFIT (Rest client simple) ===> https://www.youtube.com/watch?v=AdugZFtstrk
+*******************************************************************************
+ CONSUME REST API
+  
+     https://www.youtube.com/watch?v=rq3iok03q7E&ab_channel=GeraldVersluis
+     https://github.com/jfversluis/XFGettingDataServerSample
+
 *******************************************************************************
  SELCION DE MULTIPLES FOTOS DE GALERIA =====> https://xamgirl.com/select-multiple-images-from-gallery-in-xamarin-forms/
 **************************************************************************
