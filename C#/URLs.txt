@@ -1,3 +1,30 @@
 
 * https://devblogs.microsoft.com/dotnet/
 *https://docs.microsoft.com/en-us/
+
+******************************************************************************************
+ SMART ASP.NET.com
+
+  Deploy aspnet + sql Server =========>  https://www.youtube.com/watch?v=ScaOFvMn3Ek&ab_channel=AVKDigital
+                                         https://www.youtube.com/watch?v=8dFfNRi0uRU&ab_channel=ArturoCastro
+
+******************************************************************************************
+
+   RAZOR + SIGNALR
+
+      https://www.youtube.com/watch?v=JuWV0RBdu2k&ab_channel=ZiaA.Shaikh
+      https://www.youtube.com/watch?v=RUZLIh4Vo20&ab_channel=DotNet
+
+*******************************************************************************************
+
+ REACT + SIGNALR
+
+    https://www.youtube.com/watch?v=nEQvA5HfEDE&ab_channel=AsielAlvarez
+     https://gitlab.com/asielalvarez/chatservice
+     https://gitlab.com/asielalvarez/mychat.frontend
+
+********************************************************************************************
+
+ ALIBABA + NET CORE DEPLOY =======> https://www.alibabacloud.com/help/en/doc-detail/141681.html
+
+********************************************************************************************

@@ -204,5 +204,10 @@ https://es.wikipedia.org/wiki/Alfanuméricos_cerrados
   COVERT JSON TO LeanguagES
 
    https://app.quicktype.io
+   https://json2csharp.com
+
+
+ LINQ 
+  https://www.linqpad.net/#db
 
 ***********************************************************

@@ -127,6 +127,7 @@ MODEL
 
 **********************************************************************************************************
  SIGNAL R = https://medium.com/swlh/learn-how-to-deploy-a-react-native-chat-client-against-a-signalr-hub-on-asp-net-core-for-linux-1b73af1cb2be
+
 **********************************************************************************************************
  TIK TOK » https://www.youtube.com/watch?v=byu5Z4i4JsU 
              https://github.com/kamolesh97/React-Native-Tiktok-Home-UI-Clone
@@ -254,6 +255,9 @@ tuto 3 ======> https://www.youtube.com/watch?v=DmUUsTC2YkA&list=PL8fIRnD1uUSnRqz
  
 *************************************************************************************************************************
 SEGUIMIENTO DE UBICACIÓN EN TIEMPO REAL CON REACT NATIVE
+                           * https://www.youtube.com/watch?v=lGVEfz8fp0w&ab_channel=IntellectDeveloper
+                             https://www.youtube.com/watch?v=3JOuweIEicg&list=PLG6Cxs9K4_gOhwKdDdbis4UepKl-Fm7UY&ab_channel=IntellectDeveloper
+
                               https://www.zentica-global.com/es/zentica-blog/ver/seguimiento-de-ubicacion-en-tiempo-real-con-react-native-y-pubnub-6073aace96a0c
                                https://www.vincit.com/blog/creating-real-time-apps-with-pubnub-and-react
 ************************************************************************************************************************

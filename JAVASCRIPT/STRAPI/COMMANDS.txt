@@ -105,6 +105,9 @@ http://localhost:1337/admin
    >>> yarn develop --watch-admin
      https://docs.strapi.io/developer-docs/latest/development/admin-customization.html#customization-options
 
+    >>> Pasta CACHE ===========> Componentes
+
+
   http://localhost:8080/admin/
 
   BUiLD(compilar) ===============>  npm run build
