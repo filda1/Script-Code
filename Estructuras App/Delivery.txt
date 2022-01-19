@@ -36,8 +36,10 @@
    3. Antes de enviar verificar Stock
    4. Antes de enviar Existencia de repartidores
    5. Antes de enviar, ver  Fuera de Horario, Feriados, Dias Folga, Dias Especiales
-
-
+   6. las Orednes pueden ser: 
+      1- Para enviar
+      2- O para reservar en local(Ir a LOcal) =====> Indicar Fecha y Hora de reserva
+   
 
   Strapi..
   1. sms + notifications
