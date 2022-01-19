@@ -1,3 +1,9 @@
 Urls
 
   GITLAB + CPANEL = https://www.youtube.com/watch?v=bj7XvNaYA5U
+
+*****************************************************************
+
+  GENERATE GITIGNORE
+
+   https://www.toptal.com/developers/gitignore

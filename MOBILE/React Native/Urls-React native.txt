@@ -260,6 +260,8 @@ SEGUIMIENTO DE UBICACIÓN EN TIEMPO REAL CON REACT NATIVE
 
                               https://www.zentica-global.com/es/zentica-blog/ver/seguimiento-de-ubicacion-en-tiempo-real-con-react-native-y-pubnub-6073aace96a0c
                                https://www.vincit.com/blog/creating-real-time-apps-with-pubnub-and-react
+
+                       *https://www.youtube.com/watch?v=43jfFU4FJZo&ab_channel=CodewithAniaKubów
 ************************************************************************************************************************
   *******TAXI- UBICACION TIEMPO REAL
 
