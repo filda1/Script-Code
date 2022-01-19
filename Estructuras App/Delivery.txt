@@ -39,7 +39,7 @@
    6. las Orednes pueden ser: 
       1- Para enviar
       2- O para reservar en local(Ir a LOcal) =====> Indicar Fecha y Hora de reserva
-   
+   7- Update orden: Tiene tiempo Limite
 
   Strapi..
   1. sms + notifications
