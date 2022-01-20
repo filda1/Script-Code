@@ -47,6 +47,14 @@
   3. GPS
   4. Orders Count =====> Badget(Contador en REALTIME)
 
+
+  Hacer
+
+   1- Maestro/detalle
+   2- Combo
+   3 Image
+   4- User
+
 *********************************************************************************
 
   ********************************* USER ********************************************
@@ -137,6 +145,16 @@ CREATE TABLE `contacts_tempory` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 
+********************************* APP **************************************
+
+
+  id
+  manutence bool
+  TypeUser
+  Email
+  visible bool
+  Blocked bool
+  isActive bool
 
 ******************************** HORARIOS  *********************************		
  // Horario en DIAS
@@ -513,6 +531,9 @@ CREATE TABLE `orders` (
   `n_order` string(255) DEFAULT NULL,
   `total` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `type_payment string
+   visible_cliente bool
+   visible_company bool
+   is Active bool
   `order_state` int(11) DEFAULT NULL, ==========================================> Muchos x 1
   `order_canceled` int(11) DEFAULT 0, =======================================>  1 x 1
    `created_at` timestamp NULL DEFAULT NULL,

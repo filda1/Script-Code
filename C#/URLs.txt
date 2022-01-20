@@ -28,3 +28,16 @@
  ALIBABA + NET CORE DEPLOY =======> https://www.alibabacloud.com/help/en/doc-detail/141681.html
 
 ********************************************************************************************
+ ROLES MVC
+  Macoratty =======> http://www.macoratti.net/18/02/aspcore_roles1.htm
+
+ PERSONALIZAR Identity
+
+  http://www.macoratti.net/18/11/aspn_idt2.htm
+*********************************************************************************************
+
+ ASP NET 6
+
+  https://www.youtube.com/watch?v=l_43zwPueWY&list=PLPnIqDMuT6Nmj6E7MmJotX4qmYWRO9r9u&index=26&ab_channel=andreleaos
+
+********************************************************************************************
