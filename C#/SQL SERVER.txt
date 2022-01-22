@@ -1,0 +1,36 @@
+SQLSERVER
+   https://www.youtube.com/watch?v=mO0flimnoEs&ab_channel=ProgrammingNight
+   Conect from VS =======> https://www.youtube.com/watch?v=eJFmC6Rrn3w&ab_channel=ProgrammingNight
+
+
+
+TRANSFER B=======https://www.examplefiles.net/cs/267415
+
+
+
+ 1-https://www.microsoft.com/pt-pt/sql-server/sql-server-downloads
+ 2-
+
+
+  <add name="ContextName" connectionString="Data Source=ServerName;Initial Catalog=DBCatalogName;Integrated Security=True;MultipleActiveResultSets=True;App=EntityFramework"
+       providerName="System.Data.SqlClient" />
+
+
+ VER BASE DE DATOS DE  SQL SERVER:
+
+ Server Explore =============================> Database explore , el Ultimo icon
+ - El nombre pos MMS (SERVER) =====> (LocalDb)\MSSQLLocalDB
+
+ *https://www.youtube.com/watch?v=x-Z38ROA47E&ab_channel=render2web
+ 
+
+
+ADO.NET ======> https://www.c-sharpcorner.com/UploadFile/219d4d/how-to-check-if-the-username-is-unique-or-not-in-mvc-5/
+
+
+
+********************************************************************************
+ COMDS
+  PM> add-migration InitialDb 
+
+  PM> update-database 

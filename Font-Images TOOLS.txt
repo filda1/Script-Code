@@ -215,5 +215,14 @@ https://es.wikipedia.org/wiki/Alfanuméricos_cerrados
   OFFICe web ======> ONEDRIVE
 
    https://www.office.com/?auth=1&OCID=PROD_Unlicensed_Cons_FUEL_ACQ_FreeOfframp
+   https://onedrive.live.com
+***********************************************************
 
-   
+omnichannel
+  omni significa “todo” e channel, significa “canal”, nos levando à ideia de atender por todos os canais
+
+  Uma empresa que oferece atendimento omnichannel consegue acompanhar o cliente independente do canal utilizado, seja através do chat, email, telefone, redes sociais ou atendimento físico na loja e proporciona uma jornada fluida, fazendo com que o cliente sinta-se valorizado.
+
+  A ideia de integrar todos os canais de plataformas de atendimento
+
+  https://blog.saninternet.com/o-que-e-atendimento-omnichannel-e-como-impacta-a-satisfacao-dos-clientes
