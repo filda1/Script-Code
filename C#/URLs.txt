@@ -14,7 +14,23 @@
 
       https://www.youtube.com/watch?v=JuWV0RBdu2k&ab_channel=ZiaA.Shaikh
       https://www.youtube.com/watch?v=RUZLIh4Vo20&ab_channel=DotNet
+*****************************************************************************************
+  UPLOAD FILES ASPNET CORE
+   https://www.c-sharpcorner.com/article/upload-and-display-image-in-asp-net-core-3-1/
 
+******************************************************************************************
+   LIVE OFFICE FREE
+
+   https://www.office.com/?auth=1&OCID=PROD_Unlicensed_Cons_FUEL_ACQ_FreeOfframp
+
+******************************************************************************************
+  PRUEBA OMLINE
+
+    https://dotnetfiddle.net
+
+*******************************************************************************************
+  TOAST 
+    https://www.youtube.com/watch?v=zH2lwx9Y49M&ab_channel=SarrawyDev
 *******************************************************************************************
 
  REACT + SIGNALR

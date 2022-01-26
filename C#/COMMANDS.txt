@@ -1,0 +1,8 @@
+  
+ASPNET CORE
+var errors = ModelState.Values.SelectMany(v => v.Errors);
+
+             if (!ModelState.IsValid)
+             {
+                 return View(hourObj);
+             }
