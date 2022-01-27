@@ -9,7 +9,7 @@
  
 
  Repo=====> ........ /onsale.git
- Pyoyecto ==>  c:/Proyecto/onsale   =======> OJO AQUI TIENES QUE PONER EL NOMBRE DEL Q quieres darle PROYECTO, Pero la carpeta no pueda estar hecha
+ Proyecto ==>  c:/Proyecto/onsale   =======> OJO ,AQUI TIENES QUE PONER EL NOMBRE DEL Q quieres darle PROYECTO, Pero la carpeta no pueda estar hecha
 
  .gitignore
   .VisualStudio
@@ -23,8 +23,8 @@
 ---------------------
   3. Web
    3.1   Click Derecho Proyecto  =====> Add ==> New Proyect =====> ASP NET CORE WEB APP (MODEL-VIEW-CONTROLLER)
-   3.2   Proyect ====>  onsale.Web / Web
-
+   3.2   Proyect Name ====>  onsale.Web / Web
+     Sin Https
 ---------------------------------------------------------
  (Common)
  4. Click Derecho Proyecto  =====> Add ==> New Proyect =====> Class Library ( es la que dice para net.standart o net.core. Tiene abajo( C#, ...Android, Linux..Windows..))
@@ -41,7 +41,8 @@ Universo@@2021
  Controller =====> add =======> MVC....Entity Framework
 
  * Instalar Boostrpt Bootwatch
-  - Bosstrapt mi.cs ===========> Sustituir en Proyecto( En Css)
+  -   lib/ boostrapt /csss ==========> Bosstrapt mi.cs ===========> Sustituir en Proyecto( En Css)
+
   - Y Colocar:
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

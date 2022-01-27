@@ -1,0 +1,37 @@
+ VISUAL STUDIO
+   * Ojo Para tener, Blank Solution =====> Tienes que ter Instalado: Desktop development with C++
+
+
+ 1.Clone Repositorio 
+  
+  * Ojo el nombre tiene que ser siempre igual
+ 
+
+ Repo=====> ........ /onsale.git
+ Proyecto ==>  c:/Proyecto/onsale   =======> OJO ,AQUI TIENES QUE PONER EL NOMBRE DEL Q quieres darle PROYECTO, Pero la carpeta no pueda estar hecha
+
+ .gitignore
+  .VisualStudio
+
+ 2.Dentro VS
+  New ===> Proyect ====> Blank Solution
+
+   Solution Name : onsale
+   c:/Proyecto   =======> OJO AQUI NO TIENES QUE PONER EL NOMBRE DE CARPETA
+
+---------------------
+  3. Web
+   3.1   Click Derecho Proyecto  =====> Add ==> New Proyect =====> ASP NET CORE WEB APP (MODEL-VIEW-CONTROLLER)
+   3.2   Proyect Name ====>  onsale.Web / Web
+     Sin Https
+
+*******************************************************************************************
+   CONTROLLER / VIEWS
+
+  *En el Proyecto adentro De Aspnet:
+
+   -Para crear CONTROLLER ===========> Ir a la, Carpeta Controlller ==> Boton derecho ===> CREATE CONTROLLLER CON ENTITY FRAMEWORK ===> Elegir BD y Model, (Crear Controlador y Views)
+   - Para Crear VIEW PERSONALIZADA =======> EN el Controlador , Boton derecho en el Metodo , RAZOR VIEW
+
+
+                                                                                                 

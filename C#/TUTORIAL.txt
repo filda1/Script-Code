@@ -68,7 +68,7 @@ ________________________________________________________________________________
                                  >> update-database
   
 
-     DATBASE FIRST ==== CRUD in ASP.NET Cre with Entity Framework COre(POR CONSOLE NUGET, crea modelos de BD) ==================> https://www.youtube.com/watch?v=Y22WGhUI2rs
+     DATaBASE FIRST ==== CRUD in ASP.NET Cre with Entity Framework COre(POR CONSOLE NUGET, crea modelos de BD) ==================> https://www.youtube.com/watch?v=Y22WGhUI2rs
                               macoratti = https://www.youtube.com/watch?v=rW9IS-f6LSQ&list=PLJ4k1IC8GhW0_cjBLq095KFRDiciWSjnB&index=4
 
 
