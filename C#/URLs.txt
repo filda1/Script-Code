@@ -44,6 +44,11 @@
  ALIBABA + NET CORE DEPLOY =======> https://www.alibabacloud.com/help/en/doc-detail/141681.html
 
 ********************************************************************************************
+ WINFORM
+   https://rjcodeadvance.com/rounded-button-custom-controls-winform-c/
+   https://www.youtube.com/watch?v=Qfu-zWca9WU&ab_channel=RJCodeAdvanceEN
+
+********************************************************************************************
  ROLES MVC
   Macoratty =======> http://www.macoratti.net/18/02/aspcore_roles1.htm
 

@@ -8,3 +8,13 @@ use App\Http\Controllers\WebSiteController;
 Route::post('/productSearch', [WebSiteController::class, 'productSearch'])->name('procura');
 
 ************************************ ROUTES:****************************************
+
+    NUEVA AUTENTICACION ======== BREEZE ( Laravel UI == Laravel Breeze)
+        
+       1- Instalar Laravel normal
+       2- composer require laravel/breeze 
+       3-php artisan breeze:install / php artisan breeze:install api (Esta es para apis)
+ 
+       npm install
+       npm run dev
+*************************************************************************************

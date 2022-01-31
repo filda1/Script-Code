@@ -24,7 +24,7 @@
 *********************************************************************************************************************************************
   ECOMMERCE
 
-   (Coding with Basir) ====>  https://www.youtube.com/watch?v=3kYkEVIZNZY
+   (Coding with Basir) ====>  https://www.youtube.com/watch?v=3kYkEVIZNZY         2:07
                               https://github.com/basir/next-amazona/tree/main/pages
 
 *********************************************************************************************************************************************

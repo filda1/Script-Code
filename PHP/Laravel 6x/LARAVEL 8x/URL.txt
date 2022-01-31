@@ -6,3 +6,11 @@
        *****https://www.oulub.com/es-ES/Laravel/blade-components
 
 ***********************************************************************************************************************
+
+     NEXTJS + LARAVEL(API) ========> RAPIDO (utilizando LARAVEL Breeze)
+
+       https://www.youtube.com/watch?v=nUgp_KvLbq0&ab_channel=Aprendible
+
+          https://github.com/laravel/breeze-next
+*************************************************************************************************************************
+
