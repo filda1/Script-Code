@@ -42,6 +42,7 @@
 ********************************************************************************************
 
  ALIBABA + NET CORE DEPLOY =======> https://www.alibabacloud.com/help/en/doc-detail/141681.html
+                                    https://alibaba-cloud.medium.com/hosting-asp-net-web-data-app-with-microsoft-sql-server-on-alibaba-cloud-d6f1f2c76228
 
 ********************************************************************************************
  WINFORM
