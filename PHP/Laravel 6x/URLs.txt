@@ -47,6 +47,10 @@ LARAVEL ZERO _ CONSOLE ====> https://laravel-zero.com/docs/installation
 
  *https://www.oulub.com/es-ES/Laravel/broadcasting
 
+**************************************************************************************************
+ DIGITAL OCEAN (App Plataform) DEPLOY LARAVEL
+  https://www.youtube.com/watch?v=2uDWCKGOF8c&ab_channel=Aprendible
+
 ***************************************************************************************************
 
  PAYPAL Andre Madarang ===> https://www.youtube.com/watch?v=_7YBIRQfSN0

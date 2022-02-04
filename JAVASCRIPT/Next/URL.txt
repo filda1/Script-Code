@@ -15,6 +15,13 @@
 
       ****Traversy Media = https://www.youtube.com/watch?v=mTz0GXj8NN0
 *********************************************************************************************************************************************
+   CRUD NEXT + MYSQL
+   Fatz ========> https://www.youtube.com/watch?v=7vBSeFjJCww
+                  https://github.com/FaztWeb/nextjs-mysql-crud
+
+      const x =[0]['Propiedad']  ==============> LISTA DE OBJ. Acceder a un Objeto
+
+*********************************************************************************************************************************************
 
    Nextjs PostgreSQL Typescript CRUD (REST API & Frontend)
 

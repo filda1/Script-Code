@@ -1,0 +1,34 @@
+WPF
+ Load Data to a DataGrid in WPF With MSSQL And EntityFramework in C#
+
+   https://www.youtube.com/watch?v=xNl-af-I0Rc&ab_channel=TacticDevs
+
+   TUTO =====> https://wpf-tutorial.com/es/398/comenzando/visual-studio-community/
+
+******************************************************************************************************
+ UI ======>https://www.youtube.com/watch?v=PzP8mw7JUzI&ab_channel=Payload
+
+ EXAMPLE UI
+   https://github.com/HenJigg/WPF-UI-Design
+
+   https://github.com/Kinnara/ModernWpf
+*******************************************************************************************************
+
+  PRISM
+   https://www.c-sharpcorner.com/blogs/creating-a-first-wpf-application-using-prism-library-and-mvvm-architectural-patternstep-by-step2
+   https://codinggrammar.com/sample-prism-6-wpf-application/
+
+
+   *https://www.youtube.com/watch?v=M-1eCSl4QB8&ab_channel=WpfWorld
+   https://www.codeproject.com/Articles/5272562/Prism-for-WPF-A-Basic-Primer
+
+   https://www.youtube.com/watch?v=iTUy6AlyDgA&ab_channel=WpfWorld
+
+
+  ******** https://www.youtube.com/watch?v=-AaIaFtQ4Yw&ab_channel=DevReactor
+           https://www.youtube.com/watch?v=-DvtGorOfD8&list=RDCMUCC78lt3WRH0bROwiIvw847g&start_radio=1&rv=-DvtGorOfD8&t=3249&ab_channel=BrianLagunas
+            https://www.tutorialspoint.com/mvvm/mvvm_first_application.htm
+            https://www.c-sharpcorner.com/UploadFile/ptmujeeb/wpf-mvvm-pattern-a-simple-tutorial-for-absolute-beginners/
+
+        OUTLOOOK CLONE
+        https://www.youtube.com/watch?v=X3LpewJbbQM&list=PLG8rj6Rr0BU8MaincrMrHuhJrI2Id8RSW&index=10&ab_channel=BrianLagunas

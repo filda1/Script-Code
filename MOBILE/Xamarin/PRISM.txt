@@ -1,0 +1,7 @@
+PRISM
+
+  1- VS ======>  EXTENSION ======> POner:  Prism  y Instalar  (Sino tiene:  https://marketplace.visualstudio.com/items?itemName=BrianLagunas.PrismTemplatePack)
+  2- Reinicir VS
+
+  3. Al crear Proyecto; Prism Xamrin Forms  , Container DRYLOC
+  4. PRISM ====> Te crea todo conectado y Te crea La View Model. Solo tiene Registar Paginas/ Servicios en ======> App.xamm.cs

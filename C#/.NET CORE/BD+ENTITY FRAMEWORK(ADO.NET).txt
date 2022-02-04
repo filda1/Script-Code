@@ -1,0 +1,38 @@
+Adding ADO .NET entity data model ===========>https://www.youtube.com/watch?v=m7I1gcAFjH8
+       
+  ADO.NET + ENTY DATA MODEL(MACORRATI) (NET FRAMEWORK) ========> http://www.macoratti.net/11/09/c_edm1.htm
+                                                 http://www.macoratti.net/08/10/adn_lnqe.htm
+                                                 http://www.macoratti.net/Cursos/ef_curb1/ef_curb3.htm
+
+     https://www.c-sharpcorner.com/article/introduce-entity-framework-with-ado-net-entity-data-model/
+
+
+   BD ENTITY FRAMEWORK https://www.youtube.com/watch?v=7n0wFS4sQCk
+
+ **** MACORATTI ==============> https://www.youtube.com/watch?v=ic-j0JMrUdk
+
+  Entity Framework Core + Asp.NET Core Web API + SQL Server =========> https://www.youtube.com/watch?v=ipbSwv09dDU
+
+          https://www.youtube.com/watch?v=N_TDLOTMb9c
+
+***********************************************************************************************
+ INSTALL SQL SERVER =======> https://www.youtube.com/watch?v=QsXWszvjMBM
+ connection string = Server=localhost;Database=master;Trusted_Connection=True;
+
+*************************************************************************************************
+
+  ASP.NET WEB CORE Aplication  ==========================> Run TODOS OS
+                  - Razor pages
+                  - API
+                  - MVC
+                  - SPA
+                  - EMPTY    =========================================================================> en blanco, vas agregando cosas, class, controller.....
+
+  ASP.NET WEB Aplication (.NET FRAMEWORK)
+                 -WEB FORM  ==============================> HTML + OBJETOS VS
+                 -MVC
+                 -WEB API
+                 -EMPTY
+
+
+ WINDOWS FOR APPLICATIONS C#    =====================================> .NET FRAMEWORKS

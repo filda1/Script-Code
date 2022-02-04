@@ -1,0 +1,31 @@
+
+
+  TUTORIAL === 
+              https://www.youtube.com/watch?v=50velawhaP0&list=PLaFzfwmPR7_LTXu0Vz9Zz_Y0OMMC7ArHZ&index=93&ab_channel=WebGentle
+              https://www.youtube.com/playlist?list=PLz3T2C4dYvQJw_VlvJAtwMxWJGYhOawH-^
+
+******************************************************************************************************************************************
+  CRACION DE ROLES 
+             = https://www.youtube.com/watch?v=SJdJGOebJvA&ab_channel=ASP.NETMVC
+
+*****************************************************************************************************************************************
+  DEPLOY ASPNETCORE EN HEROKU
+
+   https://circleci.com/blog/deploy-dotnetcore-heroku/
+   https://www.youtube.com/watch?v=gQMT4al2Grg&ab_channel=CodeRadiance
+   Macoratti ======> https://www.youtube.com/watch?v=GPGLOaDpKoI&ab_channel=JoseCarlosMacoratti
+******************************************************************************************************************************************
+
+  DEPLOY ASPNETCORE DIGITAL OCEAN
+   https://www.youtube.com/watch?v=pRMPpGaERCM&ab_channel=No1225
+
+******************************************************************************************************************************************
+   VULTR
+   https://www.vultr.com/es/docs/how-to-deploy-a-net-core-web-application-on-centos-7
+******************************************************************************************************************************************
+
+   ASPNET + POSTGREST
+   *https://www.youtube.com/watch?v=yGwGLcqcJ6Q
+   https://www.youtube.com/watch?v=K7VJ3cl7U1k
+   https://www.youtube.com/watch?v=Mpl4IWFob4I
+******************************************************************************************************************************************

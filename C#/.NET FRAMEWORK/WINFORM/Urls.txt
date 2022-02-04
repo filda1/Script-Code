@@ -1,0 +1,11 @@
+*********************************************************************************************
+      WINFORM (NET FRAMEWORK ) ============> dATA SOURCE(dATASET) SOLO FUNCIONa EN NET FRAMEWORK
+
+https://www.c-sharpcorner.com/UploadFile/e95fe7/introducing-data-binding-with-windows-form/
+ 
+TUTO === https://www.youtube.com/watch?v=H1qdqP43lE8&ab_channel=G.Tech
+
+         https://www.youtube.com/watch?v=zfz49gjnjcY&ab_channel=OnlineITtutsTutorials
+*********************************************************************************************
+
+ WINFORM UI ======> https://www.youtube.com/watch?v=BtOEztT1Qzk&t=1191s&ab_channel=RJCodeAdvanceEN

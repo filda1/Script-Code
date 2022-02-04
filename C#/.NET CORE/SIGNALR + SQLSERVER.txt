@@ -1,0 +1,49 @@
+ the Coder = https://www.youtube.com/watch?v=JmyxrZRr3Hw
+
+ https://www.youtube.com/watch?v=8t90kJr03og
+
+ https://www.youtube.com/watch?v=XrudnLXSDic
+  http://www.borakasmer.com/mssql-database-ile-signalr-etkilesimleri/
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+*** CHATROOM = https://www.codeproject.com/Articles/562023/Asp-Net-SignalR-Chat-Room
+             https://github.com/neppie/ChatStrap/blob/master/ChatStrap/Controllers/ChatHub.cs
+             https://github.com/neppie/ChatStrap/blob/master/ChatStrap/Scripts/chat.js
+             https://github.com/neppie/ChatStrap/blob/master/ChatStrap/Views/Home/Chat.cshtml
+
+ GRUPOS = https://www.webtrainingroom.com/aspnetcore/signalr-group-messages-example
+
+ user signalr = https://qastack.com.br/programming/19522103/signalr-sending-a-message-to-a-specific-user-using-iuseridprovider-new-2-0
+
+ CLIENTE SPECIFICO = https://github.com/CodeMazeBlog/realtime-charts-signalr-angular/tree/signalR-client-specific-messages
+
+
+  WEB API = https://social.technet.microsoft.com/wiki/contents/articles/36710.integrating-signalr-with-asp-net-web-api.aspx
+            https://github.com/jaliyaudagedara/Blog-Post-Samples/tree/master/AspNetWebApiSignalRDemo
+
+ ********ANGULAR + WEB API+ SQLSERVER + SIGNALR = https://medium.com/@berkokur/a-real-life-scenario-implementation-with-angular-8-and-asp-net-core-signalr-3ad7e5a46fca
+         https://github.com/berkokur/signalmonitoring-api/tree/master/SignalMonitoring.API
+*************************************************************************************************************
+  SQL SERVER
+   server====> DESKTOP-K4N8P1J
+
+ User ====>   DESKTOP-K4N8P1J\meire
+ pass ====>  
+
+
+  _context.Clients.All.SendAsync("refreshMessages");
+
+
+/ public int Id { get; set; }
+        public string User { get; set; }
+        public string Msm { get; set; }
+
+
+ "ConnectionString": "Data Source=DESKTOP-K4N8P1J;Initial Catalog=TestDb;Integrated Security=SSPI;",
+
+ http://localhost:63291/api/v1/signals/deliverypoint
+
+
+
+                  xamarinsignalr.somee.com/signalHub
+                    await _hubContext.Clients.All.SendAsync("SignalMessageReceived", signalViewModel);

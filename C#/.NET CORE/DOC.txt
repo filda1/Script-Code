@@ -1,0 +1,13 @@
+
+* https://devblogs.microsoft.com/dotnet/
+*https://docs.microsoft.com/en-us/
+
+
+ *******************************************************************
+
+  MICROSERVICIOS( Macoratti )  ============> https://www.youtube.com/watch?v=q6uYIkCzS18&list=PLJ4k1IC8GhW24-nppbX0n0OE3DBGhsYEs
+
+                                * INFRA ========> https://medium.com/aspnetrun
+                                                https://medium.com/aspnetrun/microservices-using-asp-net-postgresql-dapper-micro-orm-and-docker-container-e9d61a408d2a
+
+********************************************************************
