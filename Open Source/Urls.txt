@@ -24,3 +24,35 @@
 ‣ Krita: https://krita.org   =====================================> ILUSTRADOR
 ‣ WeKan: https://wekan.github.io =================================> ORGANIZADOR ( tipo Trello)
 ‣ BRL-CAD: https://brlcad.org  ===================================> CAD
+*****************************************************************************************************
+ Confira a 5 Plataformas apresentadas no vídeo:
+
+‣ https://bubble.io 
+‣ https://www.kodular.io 
+‣ https://www.glideapps.com 
+‣ https://thunkable.com 
+‣ https://www.appgyver.com
+  FlutterFlow
+******************************************************************************************************
+ METAVERSO
+
+ 02:31 Vircadia
+03:35 Workland
+
+******************************************************************************************************
+ TELEPORTHQ
+
+  https://teleporthq.io
+  https://github-com.translate.goog/teleporthq/teleport-code-generators?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt-PT
+  https://docs-teleporthq-io.translate.goog/guides/getting-started.html?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt-PT
+
+*******************************************************************************************************
+
+  FIGMA
+   https://www.figmacrush.com
+   https://www.uistore.design/types/figma/
+   https://figmaelements.com
+
+  SIZZE (expor FIGMA TO REACT NATIVE)
+  https://www.sizze.io
+  https://www.youtube.com/watch?v=PJF2dOcib8Q&ab_channel=BrianDesign
