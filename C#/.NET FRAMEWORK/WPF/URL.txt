@@ -3,7 +3,14 @@ WPF
 
    https://www.youtube.com/watch?v=xNl-af-I0Rc&ab_channel=TacticDevs
 
+   Tuto =============>https://www.youtube.com/c/pildorasinformaticas/search?query=WPF
    TUTO =====> https://wpf-tutorial.com/es/398/comenzando/visual-studio-community/
+
+******************************************************************************************************
+  MATERIAL DESIGN
+    http://materialdesigninxaml.net
+    https://github.com/MaterialDesignInXAML/MaterialDesignInXamlToolkit/wiki/Projects-using-Material-Design
+    https://help.syncfusion.com/extension/wpf-extension/syncfusion-project-templates-for-wpf
 
 ******************************************************************************************************
  UI ======>https://www.youtube.com/watch?v=PzP8mw7JUzI&ab_channel=Payload
