@@ -294,3 +294,54 @@ public function update(Request $r, $id)
     $a = Reparacoes::find($id);
 
     $image = $r->pat
+
+
+****************************************************************************************************
+********https://w3path.com/laravel-6-joins-example-tutorial/
+
+
+ $user_with_organization = User::where('id', $user_id)
+    ->leftJoin('organizations', 'users.organization_id', '=', 'organizations.id')
+    ->select('users.id','organizations.name')->first();
+
+
+ JOIN
+
+  $user = User::join('posts', 'posts.user_id', '=', 'users.id')
+       ->select('usuários.*')
+       ->get();
+
+ LEFT JOIN
+
+  User::leftJoin('posts', 'posts.user_id', '=', 'users.id')
+       ->select('usuários.*')
+       ->get();
+
+
+ RIGHT JOIN 
+
+   User::rightJoin('posts', 'posts.user_id', '=', 'users.id')
+       ->select('usuários.*')
+       ->get();
+
+ CROSS JOIN (UNE TODAS LAS TABLAS)
+
+  Tamanho::crossJoin('cores')
+     ->get();
+
+
+
+ JOINS
+
+  DB::table('usuários')
+        ->join('contatos', function ($join) {
+            $join->on('users.id', '=', 'contacts.user_id')
+                 ->where('contacts.user_id', '>', 5);
+        })
+        ->get();
+
+
+
+ DB::table('posts')
+->select('user_id', DB::raw('MAX(created_at) as last_post_created_at'))
+->where('is_publicado', true)->groupBy('user_id');

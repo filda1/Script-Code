@@ -20,6 +20,23 @@ WPF
 
    https://github.com/Kinnara/ModernWpf
 *******************************************************************************************************
+  ****PRISM WPF(Wpf World)  =============================> BUENO
+
+  https://www.youtube.com/watch?v=WXnTDncaHKc&ab_channel=WpfWorld
+  https://www.youtube.com/watch?v=iTUy6AlyDgA&ab_channel=WpfWorld
+
+ playList ====> https://www.youtube.com/watch?v=aKOJbwD-ySI&list=PLl0ZDeqSI5YncbVGm6VsFuXYQFm_N9xZe&ab_channel=WpfWorld
+
+  METRO UI =======> https://www.youtube.com/watch?v=5Ujhmft8I2M&ab_channel=WpfWorld
+  FILTER =========>https://www.youtube.com/watch?v=d4yNcF_ByzE&t=16s&ab_channel=WpfWorld  
+                   https://wpfcsharpmetroui.blogspot.com/2019/09/how-to-filter-datagrid-and-listview-in.html#gsc.tab=0
+  OBSERVERCOLECTION ========> https://www.c-sharpcorner.com/UploadFile/e06010/observablecollection-in-wpf/
+  ADO.NET ========> https://www.youtube.com/watch?v=alpN7BYv8Xo&list=PLl0ZDeqSI5YlqLeLuMgY4cGjCHPqD59KR&ab_channel=WpfWorld
+  NAVEGACION ====> https://www.youtube.com/watch?v=yqP9vW06dY0&ab_channel=WpfWorld
+  CHECKBOX (Wpf World)== https://www.youtube.com/watch?v=FuoMfY7QJFQ&ab_channel=WpfWorld
+                         https://wpfcsharpmetroui.blogspot.com/2020/08/multiple-way-to-handle-checkedunchecked.html#gsc.tab=0
+
+*******************************************************************************************************
 
   PRISM
    https://www.c-sharpcorner.com/blogs/creating-a-first-wpf-application-using-prism-library-and-mvvm-architectural-patternstep-by-step2

@@ -14,3 +14,8 @@
           https://github.com/laravel/breeze-next
 *************************************************************************************************************************
 
+   RELACIONES (En 2 lados va.  En las migraciones y en el Model)
+    
+      1 a N =====> https://www.youtube.com/watch?v=G0B6v-dfhIU
+      1 a 1 =====> https://www.youtube.com/watch?v=YRh7sYrxxM8
+

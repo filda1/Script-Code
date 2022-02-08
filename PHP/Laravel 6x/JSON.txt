@@ -1,6 +1,6 @@
 
 -------------------------------------------------------
-PARA CONVERTIR ARRAY DE JSON
+PARA CONVERTIR ARRAY A JSON
 
 $object = json_decode($description,true);
              $name =  $object[0]['label'];

@@ -18,3 +18,5 @@ Route::post('/productSearch', [WebSiteController::class, 'productSearch'])->name
        npm install
        npm run dev
 *************************************************************************************
+
+  >>> php artisan make:model Nombre -a  ======================> CON TODO
