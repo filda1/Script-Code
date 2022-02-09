@@ -20,6 +20,10 @@
    https://www.youtube.com/watch?v=pRMPpGaERCM&ab_channel=No1225
 
 ******************************************************************************************************************************************
+  UPLOAD FILES ASPNET CORE
+   https://www.c-sharpcorner.com/article/upload-and-display-image-in-asp-net-core-3-1/
+
+******************************************************************************************
    VULTR
    https://www.vultr.com/es/docs/how-to-deploy-a-net-core-web-application-on-centos-7
 ******************************************************************************************************************************************

@@ -1,0 +1,9 @@
+DATASOURCE == DATASET
+
+ 1- Proyecto tiene q ser  WFP(NET FRAMEWORK)  ========> Este tiene data source (El otro no)
+ 2- Datasource esta pegado ya de en lado derecho, solo click y abre
+ 3- Data Source = Conecta a BD existen y te hace las clases
+
+ OJO.
+  -Entity Framework ===================> Es para Crear BD y Todo de ZERO
+  -En cambio, DATASOURCE ======================> COnecta BD exitente y crea Classes

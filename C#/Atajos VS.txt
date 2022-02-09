@@ -1,0 +1,7 @@
+Atajos
+
+ prop (luego TAB)  ============> Proiedad de class
+
+ propp (luego TAB)  ============> Proiedad de ViewModels
+
+ cmd (luego TAB)  ============> Command de ViewModels
