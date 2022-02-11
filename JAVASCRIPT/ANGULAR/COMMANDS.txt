@@ -1,0 +1,23 @@
+ 
+ INSTALACION:
+   Utilizar ========>  angular cli  (https://cli.angular.io/), https://github.com/angular/angular-cli/wiki
+
+    npm install -g @angular/cli
+    ng new my-dream-app
+    cd my-dream-app
+    ng serve
+
+********************************************
+  COMPONENTS
+  
+    * Crear Componente ==============> ng g c nombre (== ng generate component nombre)
+
+    * Services ======================> n g s carpeta/services
+    * Compilar ======================> ng build --prod          (dist, el proyecto dentro es la carpeta compilada y a subir )
+
+  MODULO (Es igual al Components + Route y MOdule)
+
+    >>> ng  g m  carpeta/products -m=app --route products
+
+     * -m=app ===========> injecta/registra automatic en app.module
+     * route  ===========> crea el nombtre de ruta y lo registra app.routes

@@ -34,7 +34,7 @@
    - Para Crear VIEW PERSONALIZADA =======> EN el Controlador , Boton derecho en el Metodo , RAZOR VIEW
 
 ********************************************************************************************
-   MIGRATIONS EF
+   MIGRATIONS EF  == Crear BD y Crear Tables
 
    En, Package Manager Console:
 

@@ -3,7 +3,7 @@
 
 
    **************************************************************
-   *    {{ }}  ===============> Imprime                         *
+   *    {{ }}  ===============>  Javascrip en HTML              *
    *    [ ]    ===============> Propiedade de un componente     *
    *    ( )    ===============> Evento de un componente         *
    **************************************************************
@@ -41,7 +41,7 @@
     {{ 'Mi nombre es' + getNombre()  }}
 
 
- 3- Property Binding   ===================================> le passas el valor de TS a la VIEW
+ 3- Property Binding   ===================================> le passas el valor/propiedad de TS a la VIEW
 
    *en app.component.ts
 
@@ -252,7 +252,7 @@
 
 
 
-   13. ng-content - Content Projection   =========================================> Pasar info de View App a  View Child
+   13. ng-content - Content Projection   =========================================> Pasar info de View App a  View Child (Padre a Hijo)
 
 
        * app.component.html
@@ -393,7 +393,7 @@
     20. ContentChildren
 
 
-    21. @Input  ==============> pasa dato de  View hijo a View padre
+    21. @Input  ==============> pasa dato de   View padre  a View hijo 
 
      
      *hijo.component.html

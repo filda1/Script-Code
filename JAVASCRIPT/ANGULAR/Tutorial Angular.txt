@@ -12,7 +12,7 @@ ANGULAR
    * Las CLASSES son la que conectan a los componentes, almacenamiento central
 
     NOTA: Final del proyecto (convertir a javascript)===================>  >> ng build --prod 
-                                        ( Subir al host, el proyecto dentro de carpeta dist
+                                        ( Subir al host, el proyecto dentro de ========================================> carpeta dist
 
 
     SUBIR A HEROKU ==============> https://www.youtube.com/watch?v=qx208Jx1rUc&t=85s
@@ -82,12 +82,22 @@ https://material.angular.io/components/button/api)
 
          B- Colocar en app.module.ts : import { MaterialModule } from './material.module';
              y poner en imports : MaterialModule
-
+*******************************************************************************************************************************
 
     * Crear Componente ==============> ng g c nombre (== ng generate component nombre)
 
     * Services ======================> n g s carpeta/services
     * Compilar ======================> ng build --prod          (dist, el proyecto dentro es la carpeta compilada y a subir )
+
+
+
+    MODULO (Es igual al Components + Route y MOdule)
+
+    >>> ng  g m  carpeta/products -m=app --route products
+
+     * -m=app ===========> injecta/registra automatic en app.module
+     * route  ===========> crea el nombtre de ruta y lo registra app.routes
+
 
 
     * Subir Host 13 free(13 aplicaciones free)  ===============> npm install -g now
@@ -152,11 +162,25 @@ https://material.angular.io/components/button/api)
    4. En app.componente.html se pone un bucle com la lista de objetos en un componente hijo para pasar la los valores a view de hijo (con @Input)
    5. Entonces cada vez que bucle se mueva (en app View) le pasa los valores a  view hijo, repetiendo la view hijo una y otra vez
 
+*************************************************************************************
 
+   Api Falsa ====================> >> npm i -g json-server
+   Db falsa =====================> Es un archivo estatico (https://www.youtube.com/watch?v=i-oYrcNtc2s&ab_channel=DominiCode)
+
+   NgModel   ====================> Necesitas registrar form (FormsMOdule) en module
+
+  LINKS ======> <a [routerLink] = "['/']"> sfdfdfd </a> 
+
+  change Detection ===========> Cambio Reactivo
+
+   Pipe = Transforma datos en un Tipo de datos  (EJ:  {{ productS | json }} ) ========> Lo convierte en Json
+
+   Interface ===== DECLARA TIPO DE OBJ == Sus Prioedades
    
+   SERVICES =======> Es para consumo API (Funciona GLOBAL) / Tambien para Rjs == (Store == Redux)
+
+                    - En app.modeule.ts ======> Tiene que registar el HTtp..
 
 
-
-
-
+  < *ngFor="let product of products"  >
    
