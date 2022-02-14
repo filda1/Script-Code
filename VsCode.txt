@@ -30,6 +30,12 @@ https://dev.to/thegeoffstevens/50-vs-code-themes-for-2020-45cc
 
 
   PLUGIN 
+ HTML Boilerplate
+ HTML to CSS autocompletion
+ IntelliSense for CSS class names in HTML
+ 
+ HTML Snippets
+
  thunder client
  BAnner Comment
  React snnipes

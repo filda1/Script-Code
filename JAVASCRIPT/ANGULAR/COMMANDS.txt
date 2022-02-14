@@ -8,16 +8,42 @@
     ng serve
 
 ********************************************
+
+  OJO: las carpetas/Componentes que estan dentro de los componentes son los Hijos. Y los de Fuera son Los PAdres
+    Ej: >> ng g c carpeta/productos    ================> Componente Padre
+        >> ng g c  carpeta/productos/producto    ==========> Componente Hijo
+        
   COMPONENTS
   
     * Crear Componente ==============> ng g c nombre (== ng generate component nombre)
+
+    * Modelos/Interfaces ============>  ng g cl  models/nombre
+
+    * Enum ============>  ng g enum  enums/nombre
+
+    * Guard ============>  ng g guard  guards/nombre    (Yes, canActivate)
+
+    * Pipes ============>  ng g pipe  pipes/nombre
 
     * Services ======================> n g s carpeta/services
     * Compilar ======================> ng build --prod          (dist, el proyecto dentro es la carpeta compilada y a subir )
 
   MODULO (Es igual al Components + Route y MOdule)
 
-    >>> ng  g m  carpeta/products -m=app --route products
+    >>> ng  g m  carpeta/products -m=app --route products   ========================> CREA TODO
 
      * -m=app ===========> injecta/registra automatic en app.module
      * route  ===========> crea el nombtre de ruta y lo registra app.routes
+
+  2 JUNTOS ==========================================================================> Crea solo componente y modulo en la misma carpeta
+       >> ng  g m  carpeta/nombre
+       >> ng g c carpeta/nombre
+
+   OJO===> 3 REGISTROS con MODULOS:
+    1- Para poner componente GLOBAL(app-nav). Al crear Modulo, Poner: Export El Componente ( nombre.module.ts). Y import los modulos. Ej RouteModulo
+    2- Si es por consola con Router, El Router ja registra en app.route.module.ts
+
+   ATENCION:
+    nombre.module.ts     =================> Export/Import Componente, Modules
+    app.route.module.ts  =================> Registro De Routes
+    app.module.ts ========================> Registro de Componentes

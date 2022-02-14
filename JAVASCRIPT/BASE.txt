@@ -12,3 +12,10 @@ BASE DE JAVASCRIT:
   
   0. Idea no recarga la Página
   1. Y compila en una sola página leyendo de arriba hacia abajo y abriendo los componentes
+---------------------------------------------------------------------------
+
+ CODIGO NUEVO JS ======> ZUALUAGA
+ https://www.youtube.com/watch?v=pfviW3ax0XQ&list=PLuEZQoW9bRnSZUVV93R1N9_xpqoiK-xhE&index=5&ab_channel=JuanZuluaga
+
+ 1- TEMPLATE STRING
+          et text = `Welcome ${firstName}, ${lastName}!`;

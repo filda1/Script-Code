@@ -22,6 +22,17 @@
       const x =[0]['Propiedad']  ==============> LISTA DE OBJ. Acceder a un Objeto
 
 *********************************************************************************************************************************************
+  VALIDATE INPUT FORM
+     >>>npm install react-hook-form
+    https://react-hook-form.com/get-started
+
+*********************************************************************************************************************************************
+  ALERTAS PERSONALIZADOS (SNACK)
+
+  >>> npm i notistack
+  https://www.npmjs.com/package/notistack
+
+*********************************************************************************************************************************************
 
    Nextjs PostgreSQL Typescript CRUD (REST API & Frontend)
 

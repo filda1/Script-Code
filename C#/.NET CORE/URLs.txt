@@ -13,7 +13,9 @@
    RAZOR + SIGNALR
 
       https://www.youtube.com/watch?v=JuWV0RBdu2k&ab_channel=ZiaA.Shaikh
+       http://www.ziaahmedshaikh.com/signalr-create-simple-chat-application/ ( Poner/Instalar: .... using Microsoft.AspNetCore.SignalR)
       https://www.youtube.com/watch?v=RUZLIh4Vo20&ab_channel=DotNet
+
 *****************************************************************************************
   UPLOAD FILES ASPNET CORE
    https://www.c-sharpcorner.com/article/upload-and-display-image-in-asp-net-core-3-1/

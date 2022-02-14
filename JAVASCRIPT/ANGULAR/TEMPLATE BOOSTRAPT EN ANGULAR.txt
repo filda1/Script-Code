@@ -1,5 +1,24 @@
 TEMPLATE BOOSTRAPT EN ANGULAR
+   https://www.youtube.com/watch?v=VAdndx0l7zQ&ab_channel=Maransatto
 
+ 1- Instalar Boostrap la version del Template
+   >> npm i --save bootsrap / npm install bootstrap@3.3.7 --save
+   >> npm i --save jquery   / npm install jquery@2.1.1
+ 1.1 En angual.json:
+   Styles poner:
+     node_modules/bootsrap/dist/css/bootsrap.min.css
+   En script:
+    node_modules/jquery/dist/jquery.js
+    node_modules/bootsrap/dist/js/bootsrap.min.js
+
+ 2- Meter carpetas en ASSETS
+ 3- En angular.json
+    -En Styles : poner las rutas
+    -En Script: poner las rutas
+
+
+**************************************************************************
+ ESTE DA PROBLEMAS
  1 - Meter todo del bbostrapt, vendor...  ===========> en assets
  2- Meter en index.html de angular   ==================> link y scriprt (y poner assets, adelante en la direccion)
  3 - crear un componente para cada parte de la pagina, header , body.....
