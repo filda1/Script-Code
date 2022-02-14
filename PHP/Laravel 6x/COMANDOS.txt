@@ -72,7 +72,11 @@
 
 
 
+   MIGRATION  =================================> >>> php artisan migrate
+                                                 >>> php artisan migrate:fresh        (Borra y Crea Tablas)
+                                                 >>> php artisan migrate:fresh --seed (Borra y Crea Tablas + Datos Falsos)
 
+   CONSOLE LIST ROUTES ========================> >>> php artisan r:l
 
 *****************************************************************************************************
  DATOS FALSOS
