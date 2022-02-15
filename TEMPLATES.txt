@@ -1,6 +1,8 @@
 TEMPLATES
+   ****************https://themewagon.com/theme-tag/ecommerce-template/
    ************** https://www.templateshub.net/templates/education
         *****https://uicookies.com/free-bootstrap-ecommerce-website-template/
+             https://html.design/ecommerce-template/page/3/
    StartBoostrapt
    https://html5up.net/
    https://freehtml5.co/page/4/
@@ -21,6 +23,11 @@ TEMPLATES
 
   DISENO,LOGOS =====> https://www.canva.com/es_es/logotipos/plantillas/
   DISENO WEB ======> https://webflow.com/
+
+ OPENCART
+   https://themeglobal.com/opencart-templates.html
+   https://www.beautifullife.info/web-design/25-best-free-online-stores-templates/
+
 ***********************************************************************************************
     TEMPLATE ECOMMERCE
 

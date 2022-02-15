@@ -22,3 +22,34 @@ Application.Current.MainPage.DisplayAlert(
   *https://www.c-sharpcorner.com/article/working-with-json-string-in-C-Sharp/
   OTRO ej:https://forums.xamarin.com/discussion/90603/how-to-get-the-json-string-by-using-httpclient-in-xamarin-forms
 ************************************************************************************************
+
+  CHECKBOX ==================> COMMAND + COMMAND PARAMETER
+
+    <CheckBox Content="Bind Command by passing CheckBox as CommandParameter but set command parameter type is object" 
+     HorizontalAlignment="Left" VerticalAlignment="Center"  Name="chkObj"
+
+                  Command="{Binding CheckedChangedCommand}" CommandParameter="{Binding ElementName=chkObj}"/>
+
+   --------------------------
+
+   VIEMODEL
+
+  private DelegateCommand<object> _checkedChangedCommand;
+
+        public DelegateCommand<object> CheckedChangedCommand => (_checkedChangedCommand = new DelegateCommand<object>(CheckChanged));
+
+
+
+        private void CheckChanged(object obj)
+
+        {
+
+            //var chekbox = obj as System.Windows.Controls.Chekbox ;
+            var chekbox = obj as CheckBox;
+
+            MessageBox.Show($"Checkbox is checked (Bind Command by passing CheckBox as CommandParameter but set command parameter type is object) :{chekbox.IsChecked}");
+
+
+
+        }
+****************************************************************************************************

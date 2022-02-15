@@ -30,8 +30,13 @@
   VISUAL STUDIO = ANGULAR + ASPNET
   https://www.youtube.com/watch?v=rzPFEuKlPhM&ab_channel=JamesSchneider
   https://www.youtube.com/watch?v=Dpv6lUKNL9o&ab_channel=ArtofEngineer
-*****************************************************************************************************************************************
 
+   VISUAL STUDIO ==================> TEMAPLTE ANGULAR ASPNET
+  
+   https://www.youtube.com/watch?v=jXbbh9GdWpY&list=PL0wO-_MttawNuEWqgbhkCJNDpDI9P01jI&index=2&ab_channel=NicolasFontes
+
+*****************************************************************************************************************************************
+https://localhost:7225/api/WeatherForecast
    ASPNET + POSTGREST
    *https://www.youtube.com/watch?v=yGwGLcqcJ6Q
    https://www.youtube.com/watch?v=K7VJ3cl7U1k

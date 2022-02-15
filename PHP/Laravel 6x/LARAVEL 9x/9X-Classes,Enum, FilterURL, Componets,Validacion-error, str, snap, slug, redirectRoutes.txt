@@ -4,4 +4,56 @@
 *                                                                                            *
 *  Classes,Enum, FilterURL, Components,Validacion-error, str, snap, slug, redirectRoutes     *
 *                                                                                            *
-**********************************************************************************************
+********************************************************************************************** 
+
+
+1. --------------------------MUTADORES(TRansoforma en Mayu/Minuscual)   Y ACCESORES (Recupera y TRansoforma en Mayu/Minuscual) ---------------------------------
+
+ User.php :
+
+ use Illuminate\Database\Eloquent\Casts\Attribute;
+
+ protected function name():Attribute    ====================> name es Campo de DB, Y Attribute( loque espero que devuelva)
+  {      
+    return new Attribute (
+       get: fn ($value) => ucwords($value),          ==========> ACCesores;  En Mayusculas Letras iniciales ( Lo recupera De la BD, lo transforma, pero  no save BD)
+       set: fn ($value) => strtolower($value),        ==========> Mutadores: Todo en Minuscula ( Save en BD)
+    );
+ };
+
+----------
+/////// MUTADORES ///////////////
+
+ Web.php :
+
+ Route::get('/', function() {
+  $name = "ViCtOr ArAnaA";
+  $pass = bcrypt("123456");
+
+   $User = User::Create([
+     'name' => $name;
+     'password' => $pass;
+   ]);
+
+    return $User;
+  });
+  
+   // SALIDA ==========> vitor arana
+
+
+/////// ACESORRES ///////////////
+
+ Web.php :
+
+ Route::get('/', function() {
+  
+   $User = User::first();
+
+    return $User;
+  });
+  
+   // SALIDA ==========> Vitor Arana
+
+
+
+
