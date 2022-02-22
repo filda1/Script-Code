@@ -2,6 +2,17 @@
  NEXT     ===> getStaticProps  / getServerSideProps (Funciona de forma Global para recuperar cookies, context, sesiones..)
           ===> getStaicPaths (Rutas dinamicas)
 
+******************************************************************************************************
+
+ =====================================================================================================
+                                             RESUMEN
+======================================================================================================
+
+  1- RENDERIZACION DEL CLIENTE   ===================> UseEffect (SWR)
+  2- RENDERIZACION DE SERVIDOR   ===================> getServerSideProps (Hay SEO) (SSR)
+  3- RENDERIZACION ESTATICA      ===================> getStaticProps  ( Ultima solicidad queda fija depues de compilar)
+  ( Para Detalle de un cosa se utiliza:====> getStaicPaths. Siempre Cuando se utiliza getStaticProps (las 2 trabajan juntas pero separada)  
+
 *******************************************************************************************************
   AUTHCONTEXT
 

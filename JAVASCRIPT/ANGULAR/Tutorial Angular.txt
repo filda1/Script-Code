@@ -20,6 +20,53 @@ ANGULAR
     SUBIR A GIT PAGES ===========> https://www.youtube.com/watch?v=fQ3buqo2pgc
 
 
+=============================================================================================================
+                                              RESUMEN
+=============================================================================================================
+
+ COMPONENTE PRIVADO                            
+/////////////////////                            
+//  Compmemte      //
+//  Modulo         //
+//  Routing        //
+//  Service        //
+////////////////////
+
+COMPONENTE PUBLICO
+////////////////////
+//  Componente      //
+//                 //
+//                //
+//                //
+////////////////////
+
+
+Modulos: son para registrar en exporta/impotar servicios,depedencias... para ser accesibles
+
+1. Registrar siempre en:  APP.MODULE.TS o/y APP.ROUTING,MODULE.TS (Para las rutas) =========> Son las globales
+2. Puedes crear COMPONENTES GLOBALES ya registrados en la Global y funciona en todo lado.
+ 2.1 O puedes crear COMPONETES PRIVADOS (modulos, routes, services..) que tiene que registra en en el modulo/ruta del componente (Solo funcioina en el componente)
+ 2.1 En Caso, que quieres poner accesible Global EL COMPONENTE, tienes registrar el modulo/routing del componete en APP.MODULE.TS y/o APP.ROUTING,MODULE.TS
+
+3. Los SERVICES son:   ====================================> Lo puedes llamar de Cualquier COMPONENTE
+  3.1 Para consumir API
+  3.2 Para tener un STORE, que  se guarda en una Observable  (Ejemplo: Carrito)
+
+4. GUARDS son: Son condicones hechas y despues se la pones a las Rutas del componete (APP.ROUTING.MODULE.TS) para proteger
+  4.1 Ejemplo : Para Una session; Obtienes el localStore con Token y lo validas. Y luego esa condicion (GUARD) lo pones en la Ruta (Con Can..)
+
+
+5. DETECTING CHANGE : con OnPush===> Solo el COMPONENTE RENDERIZA los otros no (Esto va dentro del componente.ts)
+
+6. RESOLVE: Funciona como Servicio llamada API, GUARDA LOS DATOS antes que COMPONENTE RECARGUE
+
+7.INTERCEPTOR: Intercepta una solicituda API, y le mete datos en HEADERS, en la subida
+ 7.1 Ejemplo: Colarle a la peticion/solicitud/request el TOKEN
+
+8. PIPES : sirven para transformar los datos
+
+=============================================================================================================
+
   
  INSTALACION:
    Utilizar ========>  angular cli  (https://cli.angular.io/), https://github.com/angular/angular-cli/wiki

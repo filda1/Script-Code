@@ -14,6 +14,21 @@
       freecodecamp » https://www.youtube.com/watch?v=1WmNXEVia8I&list=RDCMUC8butISFwT-Wl7EV0hUK0BQ&start_radio=1&rv=1WmNXEVia8I&t=8712
 
       ****Traversy Media = https://www.youtube.com/watch?v=mTz0GXj8NN0
+
+
+ DOC OFICIAL = **** https://nextjs.org/docs/basic-features/data-fetching/incremental-static-regeneration
+
+*********************************************************************************************************************************************
+
+ NEXT 
+   https://www.youtube.com/watch?v=2jxc8DMzt0I&t=764s&ab_channel=midudev
+   https://www.youtube.com/watch?v=M2gcOpfrsFw&list=PL_7HoiqMMaOeJe04VOdwRlrnU2cWjJKG5&ab_channel=Webtoriales
+ ****************************************************/*************************************************************************************
+ BLUUWEB  ========> https://www.youtube.com/watch?v=aErp15-x8Qw&ab_channel=Bluuweb
+
+ WEBTUTORIALES 
+    https://www.youtube.com/watch?v=HMKHViNUKZI&list=PL_7HoiqMMaOeJe04VOdwRlrnU2cWjJKG5&index=11&ab_channel=Webtoriales
+
 *********************************************************************************************************************************************
    CRUD NEXT + MYSQL
    Fatz ========> https://www.youtube.com/watch?v=7vBSeFjJCww

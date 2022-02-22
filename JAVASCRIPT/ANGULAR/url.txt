@@ -24,11 +24,19 @@
                          * ESTRUCTURA (TERADATA)===> https://teradata.github.io/covalent/v3/#/components     
           
 **********************************************************************************************************************************
+  28 DIAS ANGULAR (Domicod) = https://www.youtube.com/watch?v=InZ9GZSTVX4&list=PL_9MDdjVuFjFBed4Eor5qj1T0LLahl4z0&index=20&ab_channel=DominiCode
+                                                https://github.com/domini-code/reto-angular-formularios/tree/main/src
+
+**********************************************************************************************************************************
  CURSO DE ANGULAR
    ****(DOMICODE) =========> https://www.youtube.com/watch?v=i-oYrcNtc2s&ab_channel=DominiCode
 
    Login + Form Reactivo + Guard ====> https://www.youtube.com/watch?v=qUhkSk52fV8&ab_channel=DominiCode
                                        https://github.com/domini-code/angular13-supabase-auth
+
+**********************************************************************************************************************************
+
+  clone AMAZON ======> https://github.com/sumanbh/node-amazon/tree/master/src/app
 
 **********************************************************************************************************************************
 

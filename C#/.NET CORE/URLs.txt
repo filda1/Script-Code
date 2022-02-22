@@ -8,11 +8,50 @@
   Deploy aspnet + sql Server =========>  https://www.youtube.com/watch?v=ScaOFvMn3Ek&ab_channel=AVKDigital
                                          https://www.youtube.com/watch?v=8dFfNRi0uRU&ab_channel=ArturoCastro
 
+ SWAGGER + BEARER
+   https://www.youtube.com/watch?v=P0VkY1tv6n8&ab_channel=TheCodeBuzz
+   https://www.thecodebuzz.com/jwt-authorize-swagger-using-ioperationfilter-asp-net-core/
+
+******************************************************************************************
+ gRPC
+  (hdeleon.net) =====https://www.youtube.com/watch?v=pvBIb1Pfcf8&ab_channel=hdeleon.net
+
+                    * https://www.youtube.com/watch?v=QyxCX2GYHxk&ab_channel=IAmTimCorey
+
+                     https://www.youtube.com/watch?v=acWhAf2usJ8&ab_channel=XMonkeys360
+                     https://www.youtube.com/watch?v=E27URR2Nd4c&ab_channel=RabiKiran
+
+ ClienteGRPC (CONSOLA) ====>NUGET:
+                           Google Protobuf
+                           Grpc.Net.Client
+                           GRC TOOLS
+
+ ******** > https://jobairkhan.com/2021/06/27/grpc-in-asp-net-core/
+BD  ====> https://www.qes.co.jp/media/Microservices/a64
+ aspnet + grpc == https://code-maze.com/grpc-aspnet-mongodb/
+                  https://www.red-gate.com/simple-talk/development/dotnet-development/integrating-asp-net-core-with-grpc/
+
+https://stackoverflow.com/questions/35176091/how-should-a-grpc-service-be-hosted
+ https://mcilis.medium.com/how-to-publish-net-core-grpc-server-as-a-windows-service-dd562a1e263d
+** https://blog.jetbrains.com/dotnet/2021/07/19/getting-started-with-asp-net-core-and-grpc/
+******************************************************************************************
+  SIGNAR R
+   CodeOpinion = https://www.youtube.com/watch?v=5Kqpca3kcsc&ab_channel=CodeOpinion
+
+  SIGNALR CHATROOM
+    (hdeleon.net) ======> https://www.youtube.com/watch?v=_J7EG8_KE4Y&ab_channel=hdeleon.net
+
+  https://www.c-sharpcorner.com/article/building-a-private-chat-application-using-signalr/
+  https://www.ecanarys.com/Blogs/ArticleID/163/How-to-build-chat-application-using-SIgnalR
+  https://github.com/shivam01990/SignalR-private-one-to-one-chat/blob/master/SignalRPrivateChat/SignalRPrivateChat/ChatHelper/ChatHub.cs
+  https://www.aspsnippets.com/questions/124408/Save-private-chat-in-database-using-SignalR-in-ASPNet-MVC/
+
 ******************************************************************************************
 
    RAZOR + SIGNALR
 
       https://www.youtube.com/watch?v=JuWV0RBdu2k&ab_channel=ZiaA.Shaikh
+       https://gitlab.com/asielalvarez/chatservice/-/blob/master/ChatService/Hub/ChatHub.cs
        http://www.ziaahmedshaikh.com/signalr-create-simple-chat-application/ ( Poner/Instalar: .... using Microsoft.AspNetCore.SignalR)
       https://www.youtube.com/watch?v=RUZLIh4Vo20&ab_channel=DotNet
 
@@ -26,6 +65,11 @@
 
                                 * INFRA ========> https://medium.com/aspnetrun
                                                 https://medium.com/aspnetrun/microservices-using-asp-net-postgresql-dapper-micro-orm-and-docker-container-e9d61a408d2a
+
+******************************************************************************************
+ SWAGGER
+
+   (kudvenkat) https://www.youtube.com/watch?v=TlytBx3-k-k&ab_channel=kudvenkat
 
 ******************************************************************************************
    LIVE OFFICE FREE

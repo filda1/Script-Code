@@ -23,3 +23,11 @@ Bibliotecas y Frameworks mencioandos:
    https://github.com/FaztWeb/firebase-crud-javascript/blob/master/index.js
 
 ************************************************************************************************************
+METEOR JS
+
+  https://www.npmjs.com/package/meteor-mysql
+  TUTO =====> https://www.youtube.com/watch?v=H8cu_f0Wg1g&list=PLC04Yjky13mLBQBmQoY4OL8RReAio7Gdf&ab_channel=RaskarDev
+
+ https://chrisnethunter94.medium.com/tutorial-meteorjs-i-5d6e4c4586fb
+
+************************************************************************************************************

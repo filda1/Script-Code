@@ -5,3 +5,5 @@ Atajos
  propp (luego TAB)  ============> Proiedad de ViewModels
 
  cmd (luego TAB)  ============> Command de ViewModels
+
+ ctrl + .

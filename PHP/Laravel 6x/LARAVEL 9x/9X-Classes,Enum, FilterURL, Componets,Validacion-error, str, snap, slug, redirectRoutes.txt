@@ -55,5 +55,96 @@
    // SALIDA ==========> Vitor Arana
 
 
+2 -  CLASSES--------------------------------------------------------------------------------------
 
 
+ Route::get('/', function() {
+  
+  class Color{
+   const RED = '#ff0000';
+   const GREEN = '#00d90000';
+  }
+
+
+   class Auto{
+     protected $color;
+
+     public function setColor($color){
+       $this->color = $color;
+     }
+
+       public function getColor(){
+         return $this->color;
+     }
+   }
+
+    $auto = new Auto();
+    //$auto->setColor('red');
+
+    $auto->setColor(Color::RED);
+
+    
+
+    return $auto ->getColor();
+  });
+
+
+3- ENUM-------------------------------------------------------------------------------------------------
+
+
+  
+ Route::get('/', function() {
+  
+  enum Color:string     ============================> String, es tipo de dato que devuelve
+{
+   case RED = '#ff0000';
+   case GREEN = '#00d90000';
+  }
+
+    public function Color():string
+   {
+         return match($this)
+         {
+           Color::RED => 'red',
+            
+     }
+
+
+$color = Color::RED  
+dd($color->value)   // ff0000
+
+$color-> Color();  //red
+
+----------------------------
+En Carpeta : Enums ===> Poner el ejercicip Anterior
+
+Lo puedes traer:
+
+App\Enum\Color
+
+
+$color = Color::RED  
+dd($color->value)
+
+* Cuando Guarda el Valor ENum en BD. Quieeres Traerlo depues en ENUM vas al MOdelo don esta guardado..
+
+  protected $cast =[
+   'color' => Color::class  (Tienes importar arriba El enum)
+  ]
+
+*Solo aceptar En ROUTES Enum
+  App\Enum\category2
+
+  Route::(categoria/{categoria}, function (Categoria2 $category){
+    return $category->value;
+  }
+
+------------------------------------------------------------------------------------------------------
+4- OBTENER DE LA URL LOS ID =======> Y Obtener OBJETO RELACIONADO
+
+
+ Route::scopeBinding()->group( function (){    =======================================> scopeBindibg : es para relacion tenga sentido
+  Route::get('users/{user_id}/posts/{post_id}', funtion(User $user, Post $post){
+     return $post;
+ } )
+})

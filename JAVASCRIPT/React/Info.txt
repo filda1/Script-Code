@@ -1,8 +1,16 @@
+ *********W3 ======>  https://www.w3schools.com/react/react_lists.asp
+
 
  memo   ======> evita rederenrizacion inecesaria del COMPONENTE
    * https://www.youtube.com/watch?v=sBA_SDhIPqQ
 
- useMemo ======> RECARGA/RENDERIZA SOLO EL COMPONENTE Q NECESITA, NO TODA LA APLICACION ===== > RENDERIZACION INDEPENDIENTE de un componente/s
+ useMemo ======>    NO Renderiza ==========> por Los componentes de Afuera
+                   * LOS COMPONENTES IMPIDE O IGNORA  El componente que usa useMemo
+                   * Los Otros Componentes se vuelven mas rapidos e ignoran al de Use Memo
+                   * El Componente de useMemo al ser utlizado queda igual, que renderizar todo
+
+                   RECARGA/RENDERIZA SOLO EL COMPONENTE Q NECESITA, NO TODA LA APLICACION ===== > RENDERIZACION INDEPENDIENTE de un componente/s
+
  useCallback ======> guarda una FUNCION
 
  useParam =========> Extrae parametros de url

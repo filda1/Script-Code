@@ -1,0 +1,24 @@
+Boton a derecha  =========> ml-auto  / d-flex flex-column align-items-end
+
+-----------------------
+
+   <div class="row" style ="padding-bottom: 15px">
+                    <div class="col">
+                        <h2 class="panel-title">Days</h2> 
+                    </div>
+              
+                     <div class=" col d-flex flex-column align-items-end">
+                     <a asp-action="Create" class="btn btn-danger btn pull-right" role="button" title="Delete All"><i class="far fa-trash-alt"></i></a>
+                   </div>
+               </div>
+
+
+-----------------------------------------
+
+ TABLA RESPONSIVE
+
+   <div class ="table-responsive">
+     <table class="table">
+
+      </div>
+  </div>
