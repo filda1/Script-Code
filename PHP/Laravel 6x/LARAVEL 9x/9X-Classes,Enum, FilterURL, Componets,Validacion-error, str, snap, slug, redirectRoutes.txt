@@ -148,3 +148,22 @@ dd($color->value)
      return $post;
  } )
 })
+-------------------------------------------------------------------------------------------------------
+
+5- HACER UN FILTRO =====> Fulltext
+
+
+ * En la tabla busmos el campo y ponemos fulltext:
+    $table->('body') -> fulltext 
+
+
+ public function index(){
+  return Post::whereFulltext('body', 'palabra1 palabra2_nojunta')-get()
+ }
+
+6- GRUPO DE RUTAS DE CONTROLLERS
+    
+   Route::controller(PostController::class)->group(function(){
+    Route::get('posts','index')->name('posts.index')
+    Route::get('posts/{post}','show')->name('posts.show')
+  })

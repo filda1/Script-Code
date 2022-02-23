@@ -13,7 +13,7 @@
     Model + Tabla + Factory ===========>   php artisan make:model Flight -fm
 
 
-
+    
     Controller  =======================>   php artisan make:controller NombreController
 
     Resource    =======================>   php artisan make:controller PhotoController --resource
@@ -29,7 +29,7 @@
 
     Save Tables =======================>   php artisan migrate
 
-    Elimina y Crea Tablas nuevas  =====>   php artisan migrate:refresh
+    Elimina y Crea Tablas nuevas  =====>   php artisan migrate:refresh  /  php artisan migrate:fresh
     
     Elimina Tablas ====================>   php artisan migrate:rollback 
 
@@ -41,6 +41,7 @@
 
     Modificar Columna =================>   $table->string('name')->change();
 
+    Seed           ====================>   php artisan migrate:refresh --seed
 
 
     Symbolic Link =====================>   php artisan storage:link

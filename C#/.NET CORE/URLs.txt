@@ -36,6 +36,12 @@ https://stackoverflow.com/questions/35176091/how-should-a-grpc-service-be-hosted
 ** https://blog.jetbrains.com/dotnet/2021/07/19/getting-started-with-asp-net-core-and-grpc/
 ******************************************************************************************
   SIGNAR R
+
+  BUENO =======> https://programmerclick.com/article/65931943111/ (ONE TO ONE )
+                 https://github.com/yonghu86/SignalRTestProj
+
+                 https://programmerclick.com/article/5598214051/  (CHAT ROOM)
+
    CodeOpinion = https://www.youtube.com/watch?v=5Kqpca3kcsc&ab_channel=CodeOpinion
 
   SIGNALR CHATROOM

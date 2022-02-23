@@ -18,3 +18,14 @@ https://bootsnipp.com/snippets/N6BgR
 https://www.bootdey.com/snippets/view/Whatsapp-web-chat-template#preview
 
 https://bootsnipp.com/snippets/45EPR
+
+
+ chat floating =========> https://www.w3schools.com/howto/howto_js_popup_chat.asp
+
+ *https://codepen.io/thatkookooguy/pen/VPJpaW 
+ *https://bootsnipp.com/snippets/exR5v
+ * https://www.bootdey.com/snippets/view/Whatsapp-web-chat-template
+ *https://www.w3schools.com/howto/howto_js_popup_chat.asp
+
+ https://onaircode.com/bootstrap-chat-box-examples/
+

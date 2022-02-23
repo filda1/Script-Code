@@ -58,13 +58,14 @@ Modulos: son para registrar en exporta/impotar servicios,depedencias... para ser
 
 5. DETECTING CHANGE : con OnPush===> Solo el COMPONENTE RENDERIZA los otros no (Esto va dentro del componente.ts)
 
-6. RESOLVE: Funciona como Servicio llamada API, GUARDA LOS DATOS antes que COMPONENTE RECARGUE
+6. RESOLVE:  Funciona como Servicio llamada API, GUARDA LOS DATOS antes que COMPONENTE RECARGUE
 
-7.INTERCEPTOR: Intercepta una solicituda API, y le mete datos en HEADERS, en la subida
+7.INTERCEPTOR: Escucha un cambio en Navegador (id y vuelta) y cambia Un Observable, Endopoint(Cualquer cosa asociada al interceptor). Intercepta una solicituda API, y le mete datos en HEADERS, en la subida
  7.1 Ejemplo: Colarle a la peticion/solicitud/request el TOKEN
 
 8. PIPES : sirven para transformar los datos
 
+9. OBSERVABLES =====> SON, STORES de almacenamiento
 =============================================================================================================
 
   

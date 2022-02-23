@@ -5,7 +5,7 @@
  @section ==================> que é responsável em definir uma seção de conteúdo (DIFERENTE CONTENIDO)
 
   =============================================================
-   RESUMEN: pasar contenido/variable en @section a @yield
+   RESUMEN: pasar contenido/variable en @section a @yield   =======================>  ( @YIELD contiene @SECTION)
 
      @yield <======= @section
   =============================================================
