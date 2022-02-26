@@ -3,6 +3,7 @@
 
        bluuweb ========>   ***** https://www.youtube.com/watch?v=uvMDKgK2es4&list=RDCMUCH7IANkyEcsVW_y1IlpkamQ&start_radio=1&rv=uvMDKgK2es4&t=1390
                            ***** GUIA ==> https://bluuweb.github.io/nextjs/
+                              ******https://bluuweb.github.io/nextjs/02-mongodb/#github-codigo-final
 
         NET NINJA ====> https://www.youtube.com/watch?v=2zRHlqc0_yw&list=PL4cUxeGkcC9g9gP2onazU5-2M-AzA8eBw&index=13
 

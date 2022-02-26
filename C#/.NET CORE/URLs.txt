@@ -37,12 +37,15 @@ https://stackoverflow.com/questions/35176091/how-should-a-grpc-service-be-hosted
 ******************************************************************************************
   SIGNAR R
 
+  BUENO++ =======> https://damienbod.com/2017/12/05/sending-direct-messages-using-signalr-with-asp-net-core-and-angular/
+
   BUENO =======> https://programmerclick.com/article/65931943111/ (ONE TO ONE )
                  https://github.com/yonghu86/SignalRTestProj
 
                  https://programmerclick.com/article/5598214051/  (CHAT ROOM)
 
    CodeOpinion = https://www.youtube.com/watch?v=5Kqpca3kcsc&ab_channel=CodeOpinion
+                 https://codeopinion.com/practical-asp-net-core-signalr-server-hubs/
 
   SIGNALR CHATROOM
     (hdeleon.net) ======> https://www.youtube.com/watch?v=_J7EG8_KE4Y&ab_channel=hdeleon.net
@@ -51,6 +54,11 @@ https://stackoverflow.com/questions/35176091/how-should-a-grpc-service-be-hosted
   https://www.ecanarys.com/Blogs/ArticleID/163/How-to-build-chat-application-using-SIgnalR
   https://github.com/shivam01990/SignalR-private-one-to-one-chat/blob/master/SignalRPrivateChat/SignalRPrivateChat/ChatHelper/ChatHub.cs
   https://www.aspsnippets.com/questions/124408/Save-private-chat-in-database-using-SignalR-in-ASPNet-MVC/
+
+******************************************************************************************
+  ENV = VARIABLES DE ENTORNO
+  
+   https://medium.com/@adonis.mendoza/crear-variables-de-entornos-en-asp-net-core-b8df06ca9cc4
 
 ******************************************************************************************
 
