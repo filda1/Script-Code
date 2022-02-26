@@ -38,6 +38,21 @@
       const x =[0]['Propiedad']  ==============> LISTA DE OBJ. Acceder a un Objeto
 
 *********************************************************************************************************************************************
+ DEPLOY NEXTJS + CPANEL
+    https://www.youtube.com/watch?v=1ykSXau838c&ab_channel=SaRocky
+
+   00:00 - Creating the project
+01:57 - Opening the project
+02:40 - Running the project on localhost
+03:07 - Create serve.js file
+05:20 - Edit package.json file
+06:20 - Build the project
+07:06 - Zip the project
+08:36 - Login cPanel
+08:50 - Unload zip file
+10:00 - Create nodejs app
+
+*********************************************************************************************************************************************
   VALIDATE INPUT FORM
      >>>npm install react-hook-form
     https://react-hook-form.com/get-started
