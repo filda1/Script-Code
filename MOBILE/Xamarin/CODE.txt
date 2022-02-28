@@ -53,3 +53,10 @@ Application.Current.MainPage.DisplayAlert(
 
         }
 ****************************************************************************************************
+
+ TEMPLTE =======> VIEN EMBUTIDA EN OTRO VIEW
+ DATATEMPLATESELECTOT   ==================> Boton q seleciona Template/otros( Cambia de pagina falsa)
+
+
+*****************************************************************************************************
+

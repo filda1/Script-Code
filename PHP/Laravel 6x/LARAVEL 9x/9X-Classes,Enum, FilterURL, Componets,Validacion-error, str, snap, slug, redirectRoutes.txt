@@ -167,3 +167,73 @@ dd($color->value)
     Route::get('posts','index')->name('posts.index')
     Route::get('posts/{post}','show')->name('posts.show')
   })
+
+-----------------------------------------------------------------------------------------------------------
+
+7- COMPONENTS  =================> (Contenido dinamico) pasar  info del PADRE AL HIJO
+
+
+   * Crear En View =====> components( crear pasta):
+      dentro creamos:
+        alert.blade.php:
+
+         <diV>
+            Alerta
+            {{$title}}  ========================> Contenido Especifico
+
+            {{$slot}}  ==========================> Contenido General
+         </div>
+
+
+      welcome.blade.php (Pasamos info)
+
+     <x-alert>
+        <x-slot:title>
+         Soy un titulo dentro del Slot
+        </x-slot>
+        Hola soy un Slot
+     </x-alerta>
+
+
+--------------------------------------------------------------------------------------------------------------
+
+8. En FORM cando falle las valodacion se mantenga los datos
+
+<form action="{{ route('procesar')}}" method="POST">
+
+  @csfr
+
+ <input type=text name="name" id="name" value="{{ old('name')}}"> </input>
+
+ <textarea name="desciption" name="description" id="description">"{{ old('description')}}" </textarea>
+
+ @dump(old('fruit'))  ==========================================================> PINTA
+
+ <input> type="checkbox" name="fruit[]" id=name="fruit[]" value="1" @cheked(is_array(old('fruit')) && in_array(1,old('fruit')) > banana
+ <input> type="checkbox" name="fruit[]" id=name="fruit[]" value="2" @cheked(is_array(old('fruit')) && in_array(2,old('fruit'))> manzana
+
+ <input type="radio" name="active" value="1"  @cheked(old('active') == 1 )> Yes
+ <input type="radio" name="active" value="2" @cheked(old('active') == 2 > No
+
+
+ <select name="country" id="country" >
+  <option value="1" @selected(old('country') == 1)>Brasil</option>
+  <option value="2" @selected(old('country') == 2>Venezuela</option>
+ </select>
+
+  <button> Send </button>
+
+</form>
+ ........................
+
+ use Illuminate\Http\Request;
+
+  Route::('procesae', function (Request $request){
+   §request->validate([
+   'name'=>'required',
+  
+   ]);
+
+
+    return $$request->all();
+  }->name(procesar);

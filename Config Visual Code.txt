@@ -1,0 +1,22 @@
+ICONS ========> Material Icon theme
+THEMES =======> MATERIAL theme (Todo en uno)
+                dobri next
+f11 ==========> Pantalla completa
+tabnine  ======> Autocpmplete
+COMMENTS =====> Better Comments
+VARIABLE ENTORNO COLORS =======> dotenv
+Fecha /autor de Codigo ========> gitlens
+ ======================> eslint
+formater codigo ======> pretier
+ JAVASCRIPT con resultado  =======> quokka
+
+Angular snippes
+live server   ==========> servidor en puerto
+
+es7+ react/redux/react-native snippes
+
+live share
+ssh remote
+
+
+Para buscar en todo proyect ==========> ctr + p
