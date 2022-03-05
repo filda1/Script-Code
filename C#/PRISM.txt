@@ -1,0 +1,7 @@
+ WIZARD
+   https://marketplace.visualstudio.com/items?itemName=BrianLagunas.PrismTemplatePack
+
+*************************************************************************************************
+
+ DOC OFFICE
+    https://prismlibrary.com/docs/xamarin-forms/creating-your-first-prism-app.html

@@ -19,6 +19,8 @@
 
  DOC OFICIAL = **** https://nextjs.org/docs/basic-features/data-fetching/incremental-static-regeneration
 
+ OFICIAL DOC REACT =====> https://es.reactjs.org/docs/hooks-reference.html
+
 *********************************************************************************************************************************************
 
  NEXT 

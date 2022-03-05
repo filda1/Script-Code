@@ -29,3 +29,10 @@ https://bootsnipp.com/snippets/45EPR
 
  https://onaircode.com/bootstrap-chat-box-examples/
 
+****************************************************************************
+
+PAGE POPUP
+  *************** https://www.rapidtables.com/web/html/html-link.html
+ https://superdevresources.com/open-links-popup/
+
+  <a href="../html-link.htm" target="popup" onclick="window.open('../html-link.htm','name','width=600,height=400')">Open page in new window</a>

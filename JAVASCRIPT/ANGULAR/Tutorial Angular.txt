@@ -23,6 +23,7 @@ ANGULAR
 =============================================================================================================
                                               RESUMEN
 =============================================================================================================
+ dominicode ===> 28 dias ANgular ====> https://www.youtube.com/watch?v=bCkm9uxF4jY&list=RDCMUC3QuZuJr2_EOUak8bWUd74A&index=1&ab_channel=DominiCode
 
  COMPONENTE PRIVADO                            
 /////////////////////                            
@@ -76,6 +77,13 @@ Modulos: son para registrar en exporta/impotar servicios,depedencias... para ser
 12. ViewChild()   ==========> document.getElemenbyId("vvvvv")
 
 13. BehaviorSubject    ===========> https://www.danywalls.com/how-to-share-data-between-components-in-angular
+
+14. SSR =============> ANGULAR UNIVERSAL
+                          https://www.youtube.com/watch?v=2eksE5hlbmQ&ab_channel=DominiCode
+                          deploy = https://www.youtube.com/watch?v=Zshv21H1M2A&ab_channel=DominiCode
+
+15. INSTALL ESLINT   ===========> https://www.youtube.com/watch?v=bCkm9uxF4jY&ab_channel=DominiCode
+                                  https://gist.github.com/bezael/5086db4bf7fd4655969a8da4e5ec1ab8
 =============================================================================================================
 
   

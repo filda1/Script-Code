@@ -53,6 +53,9 @@ WPF
            https://www.youtube.com/watch?v=-DvtGorOfD8&list=RDCMUCC78lt3WRH0bROwiIvw847g&start_radio=1&rv=-DvtGorOfD8&t=3249&ab_channel=BrianLagunas
             https://www.tutorialspoint.com/mvvm/mvvm_first_application.htm
             https://www.c-sharpcorner.com/UploadFile/ptmujeeb/wpf-mvvm-pattern-a-simple-tutorial-for-absolute-beginners/
-
+*****************************************************************************************************************************
         OUTLOOOK CLONE
+      ***  https://www.youtube.com/watch?v=yd_DtUKf3pc&list=PLG8rj6Rr0BU8MaincrMrHuhJrI2Id8RSW&index=2&ab_channel=BrianLagunas
+            https://github.com/brianlagunas/PrismOutlook
+             https://generatedata.com
         https://www.youtube.com/watch?v=X3LpewJbbQM&list=PLG8rj6Rr0BU8MaincrMrHuhJrI2Id8RSW&index=10&ab_channel=BrianLagunas
