@@ -30,6 +30,9 @@
     * Services ======================> n g s carpeta/services
     * Compilar ======================> ng build --prod          (dist, el proyecto dentro es la carpeta compilada y a subir )
 
+    * Actulizar version =============> ng update @angular/cli @angular/core
+                                       ng update @angular/material
+                  
   MODULO (Es igual al Components + Route y MOdule)
 
     >>> ng  g m  carpeta/products -m=app --route products   ========================> CREA TODO

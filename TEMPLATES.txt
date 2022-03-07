@@ -3,6 +3,7 @@ TEMPLATES
    ************** https://www.templateshub.net/templates/education
         *****https://uicookies.com/free-bootstrap-ecommerce-website-template/
              https://html.design/ecommerce-template/page/3/
+    https://bootstrapmade.com/demo/Sailor/
    StartBoostrapt
    https://html5up.net/
    https://freehtml5.co/page/4/

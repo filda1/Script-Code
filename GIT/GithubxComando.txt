@@ -11,6 +11,10 @@
  git remote add origin https://github.com/........git  ( * Ojo: si sale ja existe, saltar este comando)
  git push -u origin master 
 
+
+----------------------------------------------------------------------------------------
+ CREAR RAMA
+>>> git checkout -b NOMBRE
 -----------------------------------------------------------------------------------------
  CREAR REPOSITORIO EN GITHUB YA HECHO
 

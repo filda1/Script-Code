@@ -28,6 +28,7 @@ WPF
  playList ====> https://www.youtube.com/watch?v=aKOJbwD-ySI&list=PLl0ZDeqSI5YncbVGm6VsFuXYQFm_N9xZe&ab_channel=WpfWorld
 
   METRO UI =======> https://www.youtube.com/watch?v=5Ujhmft8I2M&ab_channel=WpfWorld
+                    * https://www.youtube.com/watch?v=nMTkakFVfcg&ab_channel=DotnetAdvance
   FILTER =========>https://www.youtube.com/watch?v=d4yNcF_ByzE&t=16s&ab_channel=WpfWorld  
                    https://wpfcsharpmetroui.blogspot.com/2019/09/how-to-filter-datagrid-and-listview-in.html#gsc.tab=0
   OBSERVERCOLECTION ========> https://www.c-sharpcorner.com/UploadFile/e06010/observablecollection-in-wpf/

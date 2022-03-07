@@ -27,7 +27,8 @@
    VULTR
    https://www.vultr.com/es/docs/how-to-deploy-a-net-core-web-application-on-centos-7
 *****************************************************************************************************************************************
-  VISUAL STUDIO = ANGULAR + ASPNET
+  VISUAL STUDIO = ANGULAR + ASPNET (TEMAPLTE ANGULAR ASPNET)
+
   https://www.youtube.com/watch?v=rzPFEuKlPhM&ab_channel=JamesSchneider
   https://www.youtube.com/watch?v=Dpv6lUKNL9o&ab_channel=ArtofEngineer
 
@@ -42,3 +43,9 @@ https://localhost:7225/api/WeatherForecast
    https://www.youtube.com/watch?v=K7VJ3cl7U1k
    https://www.youtube.com/watch?v=Mpl4IWFob4I
 ******************************************************************************************************************************************
+ASP.NET CORE Cache EXAMPLE
+
+  https://www.youtube.com/watch?v=6pYoBT0k1to&ab_channel=ASP.NETMVC (ASPNET MVC)
+
+******************************************************************************************************************************************
+

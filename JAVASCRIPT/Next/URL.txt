@@ -32,8 +32,16 @@
  WEBTUTORIALES 
     https://www.youtube.com/watch?v=HMKHViNUKZI&list=PL_7HoiqMMaOeJe04VOdwRlrnU2cWjJKG5&index=11&ab_channel=Webtoriales
 
-*********************************************************************************************************************************************
-   CRUD NEXT + MYSQL
+*******************************************************************************************************************************************
+ BOCKCHAIN
+
+https://www.youtube.com/watch?v=w6N4JxqsOFA&ab_channel=CleverProgrammer
+*******************************************************************************************************************************************
+ AUTH GITHUB
+   https://www.youtube.com/watch?v=cOgogGJ6_7M&t=29s&ab_channel=FaztCode (FATZ)
+
+*******************************************************************************************************************************************
+  CRUD NEXT + MYSQL
    Fatz ========> https://www.youtube.com/watch?v=7vBSeFjJCww
                   https://github.com/FaztWeb/nextjs-mysql-crud
 

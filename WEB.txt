@@ -36,3 +36,26 @@ PAGE POPUP
  https://superdevresources.com/open-links-popup/
 
   <a href="../html-link.htm" target="popup" onclick="window.open('../html-link.htm','name','width=600,height=400')">Open page in new window</a>
+
+
+  <a href="../Chat.cshtm" target="popup" onclick="window.open('../Chat.cshtm','name','width=600,height=400')">Open page in new window</a>
+
+
+****************************************************************************
+
+  VIA VERDE / PORTAGEMS
+
+   https://www.viaverde.pt/particulares/ferramentas/calculador-percursos
+
+*****************************************************************************
+
+   VISTA DE LISTA DE PRODUCTOS ORDENADOS X LINEA
+
+  .products {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;  ======================================> IMPORTANTE
+  justify-content: center;
+  margin-top: 6rem;
+}
+
