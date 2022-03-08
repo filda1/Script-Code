@@ -6,6 +6,8 @@ ANGULAR
 
   MICHELLI BRITO ==========> https://www.youtube.com/watch?v=R8xqUHzrOug&list=PL8iIphQOyG-DSLV6qWs8wh37o0R_F9Q_Q&index=14
                              https://github.com/MichelliBrito/agendalive-app
+
+  *******TUTORIAL = https://www.tutorialesprogramacionya.com/angularya/index.php?inicio=0
 ------------------------------------------------------------------------------------------------------------------------------------------
 
    * C/COMPONENTE esta vivo y tiene un mundo dentro (MicroUniverso).

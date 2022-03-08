@@ -1,4 +1,9 @@
-  fatz
+ ************************************************************************************
+  TUTORIAL NODE BLUUE WEB
+    https://bluuweb.github.io/node/07-jwt/#configuracion-inicial
+
+*************************************************************************************
+ fatz
   Microsoft SQL Server & Nodejs REST API CRUD (+babel)
                                      https://www.youtube.com/watch?v=ReK0kscoF8o&t=23s
                                      https://github.com/FaztWeb/node-sqlserver-restapi
