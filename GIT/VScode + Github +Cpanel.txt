@@ -161,11 +161,11 @@ git push ssh://ee29v3og:25088@185.2.4.99/home/ee29v3og/repo master
 
 
 TERMINAL
-cmd : ssh -p 25088 ee29v3og@185.2.4.99
+cmd : ssh -p 25088 ee2og@185.2.4.99
    
-      Portugal 2020
+   
 
-ssh://ee29v3og@185.2.4.99/home/ee29v3og/repo
+ssh://ee29v3og@185.2.4.99/home/ee23og/repo
 
 
 

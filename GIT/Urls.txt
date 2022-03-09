@@ -7,3 +7,11 @@ Urls
   GENERATE GITIGNORE
 
    https://www.toptal.com/developers/gitignore
+
+*****************************************************************
+
+  GIT TEAM ======== ZULU
+
+  https://www.youtube.com/watch?v=rMhrwsLnEv8&ab_channel=JuanZuluaga
+
+****************************************************************

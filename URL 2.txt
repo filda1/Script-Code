@@ -24,7 +24,7 @@ FLUTER
      https://medium.com/@vapurrmaid/getting-started-with-heroku-postgres-and-pgadmin-run-on-part-2-90d9499ed8fb
 ******************************************************************************************************************
   HEROKU
-    filintomeireles@gmail.com
+    
  
 
   Publicar Laravel = https://www.youtube.com/watch?v=R8A3h3y5Z8c&t=111s

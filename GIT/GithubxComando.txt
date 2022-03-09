@@ -23,6 +23,26 @@ CREAR RAMA
 
  MEZCLA RAMA A master
 >>> git merge test
+
+
+ ACTUALIZAR  2 PERSONAS DEL MISMO REPOSITORIO
+ >> git fetch
+
+
+ VER RAMA EN MI PC
+ >> git branch
+
+ VER TODAS RAMAS 
+ >> git branch -a
+
+-----------------------------------------------------------------------------------------
+ CREAR UN RAMA NUEVA SOBRE EL MISMO REPOSITORIO
+
+0- git clone .....   ================================> Sobre la rama Master
+1- git branch test  ============================> Nueva rama
+2- git checkout test ===========================> Cambio la Rama, a Test
+3- git push origin Test =======================> Push a la Nueva Rama 
+
 -----------------------------------------------------------------------------------------
  CREAR REPOSITORIO EN GITHUB YA HECHO
 

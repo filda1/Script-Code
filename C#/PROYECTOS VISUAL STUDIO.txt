@@ -31,7 +31,6 @@
   4.1   Proyecto =====> onsale.Common / Common
 
 --------------------------------------------------------
-Universo@@2021
 
  MIGRACIONES
     >>> add-migration Initial
