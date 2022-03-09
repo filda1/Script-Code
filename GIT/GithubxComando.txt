@@ -13,8 +13,16 @@
 
 
 ----------------------------------------------------------------------------------------
- CREAR RAMA
->>> git checkout -b NOMBRE
+ *https://avato92.blogspot.com/2018/10/git-branch-merge-y-resolucion-de.html
+
+CREAR RAMA
+>> git branch test
+
+ CAMBIAR RAMA
+>>> git checkout test
+
+ MEZCLA RAMA A master
+>>> git merge test
 -----------------------------------------------------------------------------------------
  CREAR REPOSITORIO EN GITHUB YA HECHO
 

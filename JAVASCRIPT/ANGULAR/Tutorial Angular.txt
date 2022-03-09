@@ -86,6 +86,14 @@ Modulos: son para registrar en exporta/impotar servicios,depedencias... para ser
 
 15. INSTALL ESLINT   ===========> https://www.youtube.com/watch?v=bCkm9uxF4jY&ab_channel=DominiCode
                                   https://gist.github.com/bezael/5086db4bf7fd4655969a8da4e5ec1ab8
+
+
+16 CLASS En html =================> [ngClass] = "[ 'CLASE1', ' CLASE2']"   =============================================> LAS VARIABLES VIENE DIRECTAS de  .css
+                                    [ngClass] = "{ CLASE1: variable === 'Barcelona',  CLASE1: variable !== 'LIMA'}"  =========> Con IF
+
+
+17. STYLE En HTML  ===============> [ngStyle] = "{ 'Color': 'white' , 'Background': city === 'Barcelona'? 'red':'blue' } "
+                                   
 =============================================================================================================
 
   
