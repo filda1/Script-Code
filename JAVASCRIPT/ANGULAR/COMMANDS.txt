@@ -17,8 +17,8 @@
   
     * Crear Componente ==============> ng g c nombre (== ng generate component nombre)
 
-                       ==============> ng g c new-component --module app 
-
+                       ==============> ng g c new-component --module app     /     ng g c new-component -m app
+ 
     * Modelos/Interfaces ============>  ng g cl  models/nombre
 
     * Enum ============>  ng g enum  enums/nombre

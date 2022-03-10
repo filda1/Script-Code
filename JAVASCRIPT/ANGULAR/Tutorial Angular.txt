@@ -115,7 +115,60 @@ Modulos: son para registrar en exporta/impotar servicios,depedencias... para ser
                                        <button (click) =" metodo(item.value)" > </button>    ===============> Tomo valor el id de input
 
 
-21 FORM TEMPLATE DRIVER 
+21 FORM TEMPLATE DRIVER   ====================> En HTML,Es meter en una VARIABLE el Form  y pasar al TS la Varible a traves  de evento (click)
+22 FORM REACTIVE   ===========================> En HTML, defines la VARIBLE del Form. EN TS la declararas VARIABLE y la carga con un Objeto(Dela s propiedades del Form). LA VARIABLE (Cargada de objeo) al pasar al Html, puedes despues acceder/llamar cada propiedades
+
+                                               *Parmeter propiedades con datos desde TS     (https://www.youtube.com/watch?v=jJuE7-9T6Ss&ab_channel=DominiCode)
+                                                  onPatchValue() -------------------------------> Mete solo una propiedad llena en formulario
+                                                  onSetValue()  --------------------------------> Mete todas la propiedades
+
+23 RUTAS   =================================> Van en app.route.modules
+                                              * En HTML,  <a  routerLinkActive="active" routerLink="/contact" >.... </a> 
+                                                           <a   routerLink="/" >.... </a> 
+
+24 RUTAS : 
+   queryString ( Pasa datos por URL)    ===============================> En TS.  this.router.navigate(['rutanombre-componente'] ,{ queryParams: {'DOMINICODE'} } )
+
+                                                                         Recibo en: nombre-componete.TS:
+                                                                                    ngOnInit():void{
+                                                                                        this.route.queryParams.Subscribe( (params:Params) => {     (OJO: router:Route)
+                                                                                           this.variable.params['name']
+                                                                                        })}
+                                                                                           
+  * PASAR ID por URL =========>     this.router.navigate(['rutaotro-componente', '580'])
+
+                                    en app.routes.module:
+                                     {path:'rutaotro-componente/.id', component:ContactComponent}
+
+                                   *En TS ContactComponent:
+                                        id!:string;
+
+                                       ngOnInit():void{
+                                           this.route.queryParams.Subscribe( (params:Params) => {     ==============> (OJO: router:ActiveRoute)
+                                               this.id.params['id']
+                                           })}
+
+RUTAS HIJAS (Muestras En VIEW VARIAS VIEW)  ==================>
+                             Componentes dentro de la misma carpeta
+                                    carpeta users
+                                             user1.TS
+                                             user2.TS
+                                             user3.TS
+                              en app.routes.module:
+                                     {path:'user', component:UserComponent, 
+                                        children:[
+                                           {path:'user2', component:User2Component},
+                                           {path:'user3', component:User3Component}
+                                         ]
+                                       }
+
+                            user.HTML
+                                <a   routerLink="/user2" >.... </a> 
+                                <a   routerLink="/user3" >.... </a>      
+                                <router-outlet></router-outlet>     
+
+
+25- LAZY LOADING ======================> COmponentes con propios modulos                                      
 =============================================================================================================
 
   
