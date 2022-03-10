@@ -93,7 +93,29 @@ Modulos: son para registrar en exporta/impotar servicios,depedencias... para ser
 
 
 17. STYLE En HTML  ===============> [ngStyle] = "{ 'Color': 'white' , 'Background': city === 'Barcelona'? 'red':'blue' } "
+
+18 EVENT   =======================> <a  (click) = " metodo()"  />
+
+19 INPUT ==========================> PASA VARIABLE DE PADRE A HIJO
+                                     <app>
+                                      <app-button [color] ="variable" > </app-button>    (EJ para String: "'variable'" )
+                                    </app>
                                    
+
+                                   hijo.ts
+
+                                     @Input() variable!:string;
+
+20 OUTPUT  =========================> PASAR VARIABLE DE HIJO A PADRE (Ver en otra parte...)
+                                       HiJO.html ===> HIJO.ts ======> Padre.html =====> Padre.ts
+
+
+                                       * <input id ="item"  #item/>
+
+                                       <button (click) =" metodo(item.value)" > </button>    ===============> Tomo valor el id de input
+
+
+21 FORM TEMPLATE DRIVER 
 =============================================================================================================
 
   
@@ -121,6 +143,9 @@ Modulos: son para registrar en exporta/impotar servicios,depedencias... para ser
 
     
    * IMPORTAR COMPoNENTES DE ANGULAR MATERIAL  =========> en app.module.ts colocar: ej :
+       ****** https://www.youtube.com/watch?v=e4rNoUQdfQY&ab_channel=DominiCode
+         1 - Ver Web de Angular Material y copiar el componente   ==========> https://material.angular.io/components/categories
+         2- En web de Angular Material en Api, ves ejemplo de import =====> lo colocas app.module o material.model
        import {MatButtonModule} from '@angular/material/button';  ========> para boton, si quieres otros, importas otros
                                                                           (ESTO Esta en la API de web: 
       * En imports =================>  colocar nombre de componente (Ej: MatButtonModule )

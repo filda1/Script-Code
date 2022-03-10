@@ -8,6 +8,7 @@ https://dev.to/thegeoffstevens/50-vs-code-themes-for-2020-45cc
 
  THEME:
   Slim
+  monokai
  *1 Night Owl
   1 Monokai 
    One Dark pro 

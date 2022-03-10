@@ -14,6 +14,7 @@
 
 ----------------------------------------------------------------------------------------
  *https://avato92.blogspot.com/2018/10/git-branch-merge-y-resolucion-de.html
+ * https://www.youtube.com/watch?v=DtltWjEnNQI&ab_channel=OProgramadorW
 
 CREAR RAMA
 >> git branch test
@@ -22,12 +23,20 @@ CREAR RAMA
 >>> git checkout test
 
  MEZCLA RAMA A master
+>>> git checkout master (Primero cambiar de rama )
 >>> git merge test
+>>  git push
 
+Sino funcion : poner luego:  >> git fetch
+                             >>  git checkout master
+                             >> git push
 
- ACTUALIZAR  2 PERSONAS DEL MISMO REPOSITORIO
- >> git fetch
+ ACTUALIZAR  2 PERSONAS DEL MISMO REPOSITORIO 
+ >> git fetch  =============> local
+ >> git pull   =============> remoto
 
+ VER TODOS FILES
+ >> git status
 
  VER RAMA EN MI PC
  >> git branch
@@ -35,13 +44,24 @@ CREAR RAMA
  VER TODAS RAMAS 
  >> git branch -a
 
------------------------------------------------------------------------------------------
+ REMOVE RAMA REMOTE
+ >>  git push --delete <remote name> <branch name>
+         EJ: git push --delete https://gitlab.com/filda1/ok.git Test
+
+ O este Tambien: >> git push origin:RAMA
+
+REMOVE RAMA LOCAL
+ >> git branch -D <branch-name>
+    git branch -d <branch-name>
+- ----------------------------------------------------------------------------------------
  CREAR UN RAMA NUEVA SOBRE EL MISMO REPOSITORIO
 
 0- git clone .....   ================================> Sobre la rama Master
 1- git branch test  ============================> Nueva rama
 2- git checkout test ===========================> Cambio la Rama, a Test
-3- git push origin Test =======================> Push a la Nueva Rama 
+3- git push origin Test =======================> Push a la Nueva Rama
+
+4... Haces cambios normal sobre Nueva Rama 
 
 -----------------------------------------------------------------------------------------
  CREAR REPOSITORIO EN GITHUB YA HECHO

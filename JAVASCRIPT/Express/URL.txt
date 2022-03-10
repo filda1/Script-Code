@@ -9,6 +9,12 @@
                                      https://github.com/FaztWeb/node-sqlserver-restapi
 
 **************************************************************************************
+ DEPLOY NODEjs APP + CPANEL
+
+ https://www.youtube.com/watch?v=qGvteC3dZnk&ab_channel=TechnicalBabaji
+
+**************************************************************************************
+
  STRAPI
 
   STRAPI + MYSQL
