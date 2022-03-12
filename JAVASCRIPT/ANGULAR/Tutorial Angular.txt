@@ -68,7 +68,7 @@ Modulos: son para registrar en exporta/impotar servicios,depedencias... para ser
 
 8. PIPES : sirven para transformar los datos
 
-9. OBSERVABLES =====> SON, STORES de almacenamiento
+9. OBSERVABLES =====> SON, STORES de almacenamiento (https://www.danywalls.com/how-to-share-data-between-components-in-angular#heading-using-service-with-behavior-subject)
 
 10. ng-content =========> Se pone dentro del Hijo Html y recibe desde los Padres Html el contenido desde ahi
 
@@ -116,11 +116,12 @@ Modulos: son para registrar en exporta/impotar servicios,depedencias... para ser
 
 
 21 FORM TEMPLATE DRIVER   ====================> En HTML,Es meter en una VARIABLE el Form  y pasar al TS la Varible a traves  de evento (click)
-22 FORM REACTIVE   ===========================> En HTML, defines la VARIBLE del Form. EN TS la declararas VARIABLE y la carga con un Objeto(Dela s propiedades del Form). LA VARIABLE (Cargada de objeo) al pasar al Html, puedes despues acceder/llamar cada propiedades
+                                  ******* Loiane Grone  ============> https://www.youtube.com/watch?v=SGvZ1O4VLYU&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G&index=104&ab_channel=LoianeGroner
+22 FORM REACTIVE   ===========================> En HTML, defines la VARIBLE del Form. EN TS la declararas VARIABLE form y la carga con un Objeto vacio(Dela s propiedades del Form). LA VARIABLE (Cargada de objeo) al pasar al Html, puedes despues acceder/llamar cada propiedades
 
                                                *Parmeter propiedades con datos desde TS     (https://www.youtube.com/watch?v=jJuE7-9T6Ss&ab_channel=DominiCode)
-                                                  onPatchValue() -------------------------------> Mete solo una propiedad llena en formulario
-                                                  onSetValue()  --------------------------------> Mete todas la propiedades
+                                                  onSetValue() -------------------------------> Mete solo una propiedad llena en formulario
+                                                   onPatchValue()  --------------------------------> Mete todas la propiedades
 
 23 RUTAS   =================================> Van en app.route.modules
                                               * En HTML,  <a  routerLinkActive="active" routerLink="/contact" >.... </a> 
@@ -132,7 +133,7 @@ Modulos: son para registrar en exporta/impotar servicios,depedencias... para ser
                                                                          Recibo en: nombre-componete.TS:
                                                                                     ngOnInit():void{
                                                                                         this.route.queryParams.Subscribe( (params:Params) => {     (OJO: router:Route)
-                                                                                           this.variable.params['name']
+                                                                                           this.variable = params['name']
                                                                                         })}
                                                                                            
   * PASAR ID por URL =========>     this.router.navigate(['rutaotro-componente', '580'])
@@ -145,7 +146,7 @@ Modulos: son para registrar en exporta/impotar servicios,depedencias... para ser
 
                                        ngOnInit():void{
                                            this.route.queryParams.Subscribe( (params:Params) => {     ==============> (OJO: router:ActiveRoute)
-                                               this.id.params['id']
+                                               this.id = params['id']
                                            })}
 
 RUTAS HIJAS (Muestras En VIEW VARIAS VIEW)  ==================>

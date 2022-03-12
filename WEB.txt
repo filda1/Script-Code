@@ -30,6 +30,11 @@ https://bootsnipp.com/snippets/45EPR
  https://onaircode.com/bootstrap-chat-box-examples/
 
 ****************************************************************************
+API FALSA (para TESTE)
+
+ https://httpbin.org/#/Images/get_image_jpeg
+
+****************************************************************************
 
 PAGE POPUP
   *************** https://www.rapidtables.com/web/html/html-link.html

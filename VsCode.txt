@@ -34,7 +34,7 @@ https://dev.to/thegeoffstevens/50-vs-code-themes-for-2020-45cc
  HTML Boilerplate
  HTML to CSS autocompletion
  IntelliSense for CSS class names in HTML
- 
+ Angular Extension Packb (Loiane Groner)
  HTML Snippets
 
  thunder client

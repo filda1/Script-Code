@@ -23,10 +23,24 @@
                          * PALETTE ======> https://material.io/design/color/the-color-system.html#tools-for-picking-colors
                          * ESTRUCTURA (TERADATA)===> https://teradata.github.io/covalent/v3/#/components     
           
+ EXTENSION ANGULA DEV TOOLS ====> Angular DevTools
+
+   TUTORIAL ANGUALR = 
+            *angularya.com
+           *DIMICODe           
+          * Loiane Grone  ============> https://www.youtube.com/watch?v=SGvZ1O4VLYU&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G&index=104&ab_channel=LoianeGroner
+           form = https://academia-binaria.com/formularios-reactivos-con-Angular/
 **********************************************************************************************************************************
   28 DIAS ANGULAR (Domicod) = https://www.youtube.com/watch?v=InZ9GZSTVX4&list=PL_9MDdjVuFjFBed4Eor5qj1T0LLahl4z0&index=20&ab_channel=DominiCode
                                                 https://github.com/domini-code/reto-angular-formularios/tree/main/src
 
+**********************************************************************************************************************************
+ XML + STRING + ANGULAR
+  https://morioh.com/p/1733563be1a4
+**********************************************************************************************************************************
+ xml + json + Angular
+
+https://www.webagesolutions.com/documents/Newsletters/ConsumingRESTinAngular.pdf
 **********************************************************************************************************************************
  CURSO DE ANGULAR
    ****(DOMICODE) =========> https://www.youtube.com/watch?v=i-oYrcNtc2s&ab_channel=DominiCode
