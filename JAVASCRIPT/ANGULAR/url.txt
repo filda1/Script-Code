@@ -35,12 +35,23 @@
                                                 https://github.com/domini-code/reto-angular-formularios/tree/main/src
 
 **********************************************************************************************************************************
+ PLUGIN VALIDATION (ng2-validations)
+
+  https://www.npmjs.com/package/ng2-validation
+
+**********************************************************************************************************************************
+  LIST CHECKBOX
+   https://coryrylan.com/blog/creating-a-dynamic-checkbox-list-in-angular
+
+**********************************************************************************************************************************
  XML + STRING + ANGULAR
   https://morioh.com/p/1733563be1a4
 **********************************************************************************************************************************
  xml + json + Angular
 
 https://www.webagesolutions.com/documents/Newsletters/ConsumingRESTinAngular.pdf
+https://www.c-sharpcorner.com/article/reading-xml-file-in-angular-8/
+
 **********************************************************************************************************************************
  CURSO DE ANGULAR
    ****(DOMICODE) =========> https://www.youtube.com/watch?v=i-oYrcNtc2s&ab_channel=DominiCode

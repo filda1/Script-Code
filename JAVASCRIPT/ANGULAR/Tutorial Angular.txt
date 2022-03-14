@@ -123,6 +123,18 @@ Modulos: son para registrar en exporta/impotar servicios,depedencias... para ser
                                                   onSetValue() -------------------------------> Mete solo una propiedad llena en formulario
                                                    onPatchValue()  --------------------------------> Mete todas la propiedades
 
+
+                                              * ngValue + compareWith
+                                              - En HTML en componente, cuando el Value es string Por Ejemplo: [Value]="objeto.id"
+                                              - Cuando, es un OBjeto  [ngValue]="objeto" y [compareWith]="metodo"    ====================> Esto es para verificar que en la hora de pener otro Objeto nuevo no sea igual
+
+
+                                              *** FormArray ==========>
+                                                   1- Primero en TS, creamos del Obje del Form una propiedad donde metemos las variable con la 
+                                                   lista de array transformada en FormControl (para c/item). en Html Todo conectado de Html Form propiedad a TS. Luego
+                                                   Y depues de Un submit/Evento, en um Metodo  se sustituye el TRUE/FALSE para nombre de item
+
+
 23 RUTAS   =================================> Van en app.route.modules
                                               * En HTML,  <a  routerLinkActive="active" routerLink="/contact" >.... </a> 
                                                            <a   routerLink="/" >.... </a> 

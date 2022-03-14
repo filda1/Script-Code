@@ -65,6 +65,7 @@ release ===> https://docs.microsoft.com/en-us/visualstudio/releasenotes/vs2019-m
 
  Alternativas Firebase
   https://mejorsoftware.info/tools/gun
+  supabase
 
 ******************************************************************************
  microreturn

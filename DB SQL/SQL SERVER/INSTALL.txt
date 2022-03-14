@@ -1,0 +1,8 @@
+INSTALL
+ * https://www.youtube.com/watch?v=QsXWszvjMBM&t=127s&ab_channel=JieJenn
+
+ 1- https://www.microsoft.com/es-es/sql-server/sql-server-downloads (DOWNLOAD ======> DESARROLLADOR)
+   1.1 Basic
+
+ 2- Luego al final de la INSTALL, install SSMS ====================> CLIENTE
+   2.1 DOWNLOAD SSMS (Sql Server Managment Studio)
