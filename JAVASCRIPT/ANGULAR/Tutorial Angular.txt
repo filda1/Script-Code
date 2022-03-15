@@ -123,6 +123,7 @@ Modulos: son para registrar en exporta/impotar servicios,depedencias... para ser
                                                   onSetValue() -------------------------------> Mete solo una propiedad llena en formulario
                                                    onPatchValue()  --------------------------------> Mete todas la propiedades
 
+                                                 * Para OBETETER PROPIEDAD : es con get + Propiedad . O con control
 
                                               * ngValue + compareWith
                                               - En HTML en componente, cuando el Value es string Por Ejemplo: [Value]="objeto.id"
@@ -134,6 +135,9 @@ Modulos: son para registrar en exporta/impotar servicios,depedencias... para ser
                                                    lista de array transformada en FormControl (para c/item). en Html Todo conectado de Html Form propiedad a TS. Luego
                                                    Y depues de Un submit/Evento, en um Metodo  se sustituye el TRUE/FALSE para nombre de item
 
+                                                FORMARRAY : En HTML; cuando queremos una propiedad(Componente) tenga un LIsta De Array.
+                                                            1- En TS. convertimos c/item en formControl
+                                                            2- En HTML; Con un FOR recorremos cada FormControl (Con su index respectivo). Y al seleciona uno estamos introducirndo el VALUE con su Index 
 
 23 RUTAS   =================================> Van en app.route.modules
                                               * En HTML,  <a  routerLinkActive="active" routerLink="/contact" >.... </a> 

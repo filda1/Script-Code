@@ -19,3 +19,11 @@
  Python
 
  The Adventures of Prince Achmed
+
+ ***********************************************************************
+
+LUNES ============> C# / Nodejs
+MARTES =============> JAVACRIPT (Angular/NextJs/React)
+Miercoles ==========> Python / laravel
+JUEVES =============> React Native
+Viernes ============> Xamarin

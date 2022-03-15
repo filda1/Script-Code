@@ -23,6 +23,12 @@ Bibliotecas y Frameworks mencioandos:
    https://github.com/FaztWeb/firebase-crud-javascript/blob/master/index.js
 
 ************************************************************************************************************
+  UPLOAD IMAGE BASE64
+
+  https://www.delftstack.com/howto/javascript/convert-an-image-into-base64-string-using-javascript/
+
+************************************************************************************************************
+
 METEOR JS
 
   https://www.npmjs.com/package/meteor-mysql
