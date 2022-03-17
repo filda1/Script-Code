@@ -9,6 +9,11 @@
                                      https://github.com/FaztWeb/node-sqlserver-restapi
 
 **************************************************************************************
+ NODE + BLOCKCHANGE
+
+ (Carlos Azaustre) https://www.youtube.com/watch?v=RFSZDYszFWQ&ab_channel=CarlosAzaustre-AprendeJavaScript
+
+**************************************************************************************
  DEPLOY NODEjs APP + CPANEL
 
  https://www.youtube.com/watch?v=qGvteC3dZnk&ab_channel=TechnicalBabaji

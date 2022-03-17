@@ -1,0 +1,66 @@
+ watt-app  =================> ( SITIO DEL fRONTEND + bACKEND)
+
+ backup ====================> (BD EN SERVER)
+
+  * PARA SERVIDOR =========> Con REMOTE ACCESS DESKTOP (RDP: ip)
+  * PARA DB SERVER ========> OpenVpn + ip interna
+---------------
+
+COPIAR DB De SERVIDOR A LOCAL
+sql server ==========> Database (boton derecho)  ====> RESTAURAR DB
+
+https://www.mythicsoft.com/agentransack/
+
+***************************************************
+  T 74
+ERRROR EN  RESTAURAR DB:
+ eN Files: activar=========>  Relocated...... (https://www.youtube.com/watch?v=YHBSPl7Uf5w&ab_channel=DeepakPant)
+ * Sino da con lo otro, activar todos privilegios de la Unidad
+
+***************************************************
+
+ OpEN VPN
+  En config: pegar los 3 archivos:
+   - ca
+   - ovpn_clinte1
+   - ovpn_clinte1.key
+
+***************************************************
+PROYECT WATT
+  Node -- version 10.15
+-------------
+  CONTROL DE VERSIONES (Muvhas versiones) NODE:JS
+
+   *( NVM DONWLOAD ===> https://github.com/coreybutler/nvm-windows, https://github.com/coreybutler/nvm-windows/releases)
+   * COMANDOS NVM  =====> https://www.loginradius.com/blog/async/run-multiple-nodejs-version-on-the-same-machine/
+  >> nvm ===================================> Version
+  >> nvm list ==============================> Todas las Version
+  >> nvm install 10.15.0  =====================> Ejemplo Install version 10.15.0
+  >> nvm use 8.11.1  //To enable 8.11.1 ============> CAMBIA PARA ACTIVA
+  
+-------------
+ * https://www.python.org/downloads/release/python-2716/
+ * Colocar variable de entorno (https://dicasdepython.com.br/resolvido-python-nao-e-reconhecido-como-um-comando-interno/)
+  python - 2.7.16
+
+ C:\Python27
+
+-------------------------
+AGENT RANSACK
+  Buscador windows
+-------------------------
+ CLIENT SQL SERVER
+
+  ToadforSQLServer_Freeware_6.1.0.1759
+
+**********************************************************************************************
+
+git hystory
+git flow
+
+***********************************************************************************************
+ BITBUCKET
+ ERROR DE LOGIN CLONE REPOSITORY: 
+ https://exerror.com/remote-bitbucket-cloud-recently-stopped-supporting-account-passwords-for-git-authentication/
+
+***********************************************************************************************

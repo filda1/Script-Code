@@ -69,6 +69,12 @@ Modulos: son para registrar en exporta/impotar servicios,depedencias... para ser
 8. PIPES : sirven para transformar los datos
 
 9. OBSERVABLES =====> SON, STORES de almacenamiento (https://www.danywalls.com/how-to-share-data-between-components-in-angular#heading-using-service-with-behavior-subject)
+                    * VALIDACIONES EN OBSEVABLES
+                     - Dentro de, Subcribe( Se puede hacer Validaciones)
+                     - Poniendo un punto, .pipe ( map(se puede hacer validaciones) )
+                     - y, tap( value => console.log(value)  ===========================> Se pinta lo anterior de la Observable
+
+                      *https://www.youtube.com/watch?v=pAGAtspXnyc&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G&index=116&ab_channel=LoianeGroner
 
 10. ng-content =========> Se pone dentro del Hijo Html y recibe desde los Padres Html el contenido desde ahi
 
@@ -185,7 +191,12 @@ RUTAS HIJAS (Muestras En VIEW VARIAS VIEW)  ==================>
                                 <router-outlet></router-outlet>     
 
 
-25- LAZY LOADING ======================> COmponentes con propios modulos                                      
+25- LAZY LOADING ======================> COmponentes con propios modulos          
+
+26 - TEST
+      >> ng lint, 
+      >> ng test,
+      >> ng e2e                            
 =============================================================================================================
 
   
