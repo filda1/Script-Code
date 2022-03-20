@@ -34,7 +34,14 @@
   28 DIAS ANGULAR (Domicod) = https://www.youtube.com/watch?v=InZ9GZSTVX4&list=PL_9MDdjVuFjFBed4Eor5qj1T0LLahl4z0&index=20&ab_channel=DominiCode
                                                 https://github.com/domini-code/reto-angular-formularios/tree/main/src
 
-**********************************************************************************************************************************
+****************************************************************************************************************
+ DEBUG ANGULAR
+  Loraine =====>   https://www.youtube.com/watch?v=Lczqac3paNM&ab_channel=LoianeGroner
+****************************************************************************************************************
+ UPDATE ANGULAR
+   https://update.angular.io/?l=2&v=5.2-13.0
+
+****************************************************************************************************************
  PLUGIN VALIDATION (ng2-validations)
 
   https://www.npmjs.com/package/ng2-validation
