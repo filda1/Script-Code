@@ -61,6 +61,11 @@ https://stackoverflow.com/questions/35176091/how-should-a-grpc-service-be-hosted
    https://medium.com/@adonis.mendoza/crear-variables-de-entornos-en-asp-net-core-b8df06ca9cc4
 
 ******************************************************************************************
+ API MINIMAL
+
+ https://www.youtube.com/watch?v=aXayqUfSNvw&ab_channel=desenvolvedor.io
+
+******************************************************************************************
 
    RAZOR + SIGNALR
 
