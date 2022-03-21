@@ -47,6 +47,10 @@ ________________________________________________________________________________
    Tipo de Inyeccion de dEPENDENCIA = https://www.youtube.com/watch?v=srPGwwMwAoA
    
 *********************************************************************************************************
+  REPLACE
+     string[]
+        str = str.Replace('X', 'Y').Replace('Y', 'Z').Replace('Z', 'A');
+*********************************************************************************************************
   ASP.NET CORE + MYSQL
  Mysql for Visual Studio = https://dev.mysql.com/downloads/windows/visualstudio/1.2.html
 

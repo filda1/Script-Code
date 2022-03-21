@@ -54,7 +54,16 @@ TEST
    https://github.com/cleuton/demotestangular
 
    ng add @cypress/schematic
-*****************************************************************************************************************
+****************************************************************************************************************
+ LANDING PAGE ANGULAR MATERIAL
+   https://w3hubs.medium.com/angular-material-landing-page-a54a0b8e1ae8
+   https://w3hubs.com/angular-material-landing-page/
+****************************************************************************************************************
+  REDIRECT URL AFTER LOGIN
+
+   https://jasonwatmore.com/post/2016/12/08/angular-2-redirect-to-previous-url-after-login-with-auth-guard
+
+****************************************************************************************************************
 
   LIST CHECKBOX
    https://coryrylan.com/blog/creating-a-dynamic-checkbox-list-in-angular
