@@ -1,0 +1,233 @@
+ //////////////////////////////////// SERVIDOR /////////////////////////////// 
+ https://wattinvoice.com/login
+
+  watt-app  =================> ( SITIO DEL fRONTEND + bACKEND)
+
+  backup ====================> (BD EN SERVER)
+
+  * PARA SERVIDOR =========> Con REMOTE ACCESS DESKTOP (RDP: ip)
+  * PARA DB SERVER ========> OpenVpn + ip interna
+---------------
+///////////////////////////////// SQL SERVER LOCAL ///////////////////////////
+COPIAR DB De SERVIDOR A LOCAL
+sql server ==========> Database (boton derecho)  ====> RESTAURAR DB
+
+https://www.mythicsoft.com/agentransack/
+
+
+ERRROR EN  RESTAURAR DB:
+ eN Files: activar=========>  Relocated...... (https://www.youtube.com/watch?v=YHBSPl7Uf5w&ab_channel=DeepakPant)
+ * Sino da con lo otro, activar todos privilegios de la Unidad
+
+****************** SQL SERVER- CONIG PORT ********************************
+CONNECT BD A NODEJS
+1 Em SQL SERVER CONFIGURATION :
+ 1.1 Ir,  SQL Server Network Configuration ===> Protocols for SQLEXPRESS
+ 1.1 Depois, Em TCP/IP  (ativar ENABLE )<, Botao direito Propiedades:
+   1.1.1  Por em:  IPADDRESS ===> IMAPII ===> TCP/Port  1433
+2. Reiniciar SQL SERVER (Em Sql sql services)
+  
+---------------------------------------------------------------
+ USER (SQL SERVER) SIN AUTENTICATION WINDOWS EN LOCAL (USER EXTERNO LOCAL)
+  *https://www.youtube.com/watch?v=FVUEC_XVM5Y&ab_channel=KEYENetworking
+
+ Local server es : localhost
+
+ Segurity => Login New Login ==>....
+**********************************************************************
+
+ ////////////////////////////////  OpEN VPN /////////////////////////////////
+
+ OPEN VPN PARA =============> SERVIDORES DB SHORTCUT
+  En config: pegar los 3 archivos:
+   - ca
+   - ovpn_clinte1
+   - ovpn_clinte1.key
+
+***************************************************
+ /////////////////////////////// REQUISITOS PROYECT WATT //////////////////////////////
+  Node -- version 10.15
+  Python 2.7.6   ===================> (install python + variable entorno )
+  Y node_modules de Angular
+-------------
+  /////////////////// TOOLS /////////////////////////////
+  CONTROL DE VERSIONES (Muvhas versiones) NODE:JS
+
+   *( NVM DONWLOAD ===> https://github.com/coreybutler/nvm-windows, https://github.com/coreybutler/nvm-windows/releases)
+   * COMANDOS NVM  =====> https://www.loginradius.com/blog/async/run-multiple-nodejs-version-on-the-same-machine/
+  >> nvm ===================================> Version
+  >> nvm list ==============================> Todas las Version
+  >> nvm install 10.15.0  =====================> Ejemplo Install version 10.15.0
+  >> nvm use 8.11.1  //To enable 8.11.1 ============> CAMBIA PARA ACTIVA
+  
+-------------
+ * https://www.python.org/downloads/release/python-2716/
+ * Colocar variable de entorno (https://dicasdepython.com.br/resolvido-python-nao-e-reconhecido-como-um-comando-interno/)
+  python - 2.7.16
+
+ C:\Python27
+
+-------------------------
+AGENT RANSACK
+  Buscador windows
+-------------------------
+ CLIENT SQL SERVER
+
+  ToadforSQLServer_Freeware_6.1.0.1759
+  dbeaver CE ==========> https://www.microsoft.com/pt-pt/p/dbeaver-ce/9pnkdr50694p?rtc=1&activetab=pivot:overviewtab
+
+VPN 
+ OpenVPN
+ FORTINET ======> https://www.fortinet.com/br/support/product-downloads
+
+**********************************************************************************************
+
+git hystory
+git flow
+
+***********************************************************************************************
+///////////////////////////  BITBUCKET ////////////////////////////////
+ ERROR DE LOGIN CLONE REPOSITORY: 
+ https://exerror.com/remote-bitbucket-cloud-recently-stopped-supporting-account-passwords-for-git-authentication/
+
+ >> git clone https://lpauperio2:***********@bitbucket.org/shortcutwatt/watt.git
+
+***********************************************************************************************
+
+  ///////////////////// WHATT LOCAL ///////////////////
+
+ WATT - NODE
+  >> npm run start-www
+
+WATT - NG
+  ng config -g cli ==================> INSTALLAR
+
+  >> npm run start / npm run build
+
+
+TODO (dentro de pasta  node) ==========> >> npm run-script start-www  ( Frontnted tiene que tener dist(>>npm  run build))
+localhost:420
+----------------------
+INSTALAR ANGULAR WATT
+ >> npm i  ====================================================> (Dentro de pasta)
+ -(en package.json====> napa: instalar las dependencias):
+ - Ver path si e igual no punto A* (em angular-cli.json); Sim nao ==========> MUDAR
+ >>> npm i flot
+ >>> npm i jquery.flot.spline
+ >>> npm i ika.jvectormap
+
+ * Si hay Error:
+   - Copiar pasta ======> "/node_modules/jquery.flot.spline",
+ A* Si hay Error (en ANGULAR-CLI.JSON).Ver path:
+
+    "../node_modules/jquery.flot/jquery.flot.js",
+    "../node_modules/jquery.flot/jquery.flot.resize.js",
+    "../node_modules/jquery.flot/jquery.flot.pie.js",
+    "../node_modules/jquery.flot/jquery.flot.time.js",
+    "../node_modules/jquery.flot/jquery.flot.categories.js",
+----------------------
+
+INSTALAR NODE WATT
+  >> npm i  ====================================================> (Dentro de pasta)
+******************************
+
+ DBbeared =======> 192.168.148.237
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+**********************************************************************************
+=============================================    TOOLS WATT/ PROGRAMA IMPORT         =====================================================
+   ////////  WATT_ MONITOR ( PROGRAMAS XML para CLIENTE DB) ///////
+
+ - En, config ===> Mudar mi DB local
+
+ - En WATT_Monitor: ( Sql =====> invoice_la =''  /  clinete_id = 3)
+
+***********************************************************************************
+  ////////  WATT IMPOT UTIL 2102 ( Cargar XML) ////////
+
+ >> npm run-script start-www 
+ - En WATT IMPORT UTILS 2.1.0.2 :
+       Facturas xml
+       cliente:
+       Comercial: EDP
+       :local
+
+************************
+ ELECTRICIDAD  ======> Tarifas Plans ========> Script
+************************
+================== CONFIGURA PARA LOS PROGRAMAS WATT USTIS ( en my PC windows) ===================
+
+WINDOWS ----> ODB DATA drivers (Origem D Dados ODBC (332bits)) ======> ODBC drivers 17Sql ======> Adicionar =========> 
+
+ watt_qa    ==========> En config: tiene este nombre y produccion (watt_prod)
+
+ Watt_Local
+
+localhost  /  ...126
+----------------
+3 Option  (Wth Sql Server autenticate....
+
+external 
+
+external
+
+---------------
+*********************************************
+WATT
+
+Ativar Change the defaultt ( Ver BDS)
+
+================================================================================================================
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ ======================================== INDAGUA ========================================
+ Indawater
+
+  PROGRAMS:
+    Playground ========> Busca Archivos Xml
+    ImportSevices ======> Mete a Xml en BD
+
+ stremReder
+ Program
+
+
+************* PROCESSO AUTOMATICO ---- SIMULAR AMBIENTE para CORREGIR ERRORES ************
+1- BUSCAR EN BD por; exyernal_id
+  contract_count ,  exxtern code 712
+
+ contarct   where  contarct_acout Id  27954
+
+function:
+ sp contract...
+ sp import contract
+----------------------------------------------
+Visual Studio:
+ PROGRAMA 1:
+ PLAYGROUND SERVICES (BUSCADOR)
+  Buscar Con PLayground el CONTADOR. Que esta en tu pasta los archivos Zip de tu PC
+*********************************************
+
+PROGRAMA 2:
+MODO 1 : ************** IMPORT SERVICES (Update BD con datos coregidos)  ********************
+2- Sacar La ROW Completa  ( Excel  2021 contract ) para saber e Importar  
+ 2.1 Guarda (con separador por tabulacion Txt (con UFT8)) y despues convertir a  Zip
+separado por tabulacion TXT
+convert ZIP
+ 2.2 Run import services =========> en Visual Studio
+3. Ir A  BD y ver si esta solucionado
+
+MODO 2: ********** PROCESSO MANUAL (ImportService) ****************
+
+ En DbBeaver:
+ 1- Sql Script ========> Merter Un CALL con datos para llamar SP(Procedure)
+  2- En Sp_contract : poner raise cada metodo para sabar Hasta donde llega
+  3. Enter el CALL y  ves hasta donde llega( con raise), Y ves el siguiente cual es problerma
+
+------------
+ ULTIMO :  ======> RUN ( Cache Contrats) =============> CORRER para UI
+  4 - ACTIVAR CONTRAT ( Cache Contrats )   =============>  PARA ACTUALIZAR UI (INTEFAZ)
+ * cache contract  ======= Sp cache Contrats  ======> UPdate Contrat UI ====> con CALL
+================================================================================
+
+

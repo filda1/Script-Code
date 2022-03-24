@@ -1,0 +1,175 @@
+WATT CODE
+ ******* DASHBOARD *******
+
+ * invoicesWithIssuesData ========> faturas Com problemas Dados
+ * issuesOrigins  ================> questões Origens
+ * invoicesNumber ================> Numeros de Factura
+ * valid Contracts ===============> Contratos Validos
+
+ * totalProcessedInvoices  ========> Total de Facturas Procesadas
+ * totalDocumentsTableData ========> Total de Datos de la tabla de documentos (Obj)
+        billingStart ==========> Inicio de Factuaracion
+        billingEnd  ===========> Fin de la Facturacion
+        consumptionStart ======> Consumo Inicial
+        consumptionEnd ========> Consumo Final
+
+ 
+ * totalProcessedDump =============> Volcado de procesados (Obj)
+
+ * validatedInvoice  ==============> Factura valida
+ * invoicesWithIssuesNumber  =======> Facturas con numero de problemas
+ * issuesTotalImpact     ===========> problemas de Impacto total (Number)
+
+ single ==========================> Unico
+
+
+
+
+ issuesOriginsTable  ==========> TABLA (PROBLEMAS DE ORIGEN) === PROBLEMAS DE CLIENTES
+                                 - 3 Tablas_
+                                   Issues (problema, origin= clientId
+                                   situations (detalle del problema/ incidencias)
+                                   agents  (Preoveedors)
+
+ ServerData       CLI-INVOICES
+                  CLI-CONSUMPTIONS (DETALHE DEL INVOICE) 
+
+
+------------------------------------------------------------------------
+
+ INVOICES VALIDATE ===>
+   (
+	SELECT
+		COUNT(DISTINCT(inv.id)) AS total
+	FROM DBO.WATT_CLI_INVOICES inv
+	INNER JOIN dbo.WATT_INVOICES_STATUS_HST hst ON hst.invoice_id = inv.id AND hst.status = 1000 AND hst.alter_user_id = 0
+	LEFT JOIN dbo.WATT_ISSUES iss ON iss.origin = inv.id AND iss.status in (3,4,100,101)
+	WHERE inv.client_id = @client_id AND inv.status IN (1000, 1001)
+) AS docs_validated_system
+,
+(
+	SELECT
+		COUNT(DISTINCT(inv.id)) AS total
+	FROM DBO.WATT_CLI_INVOICES inv
+	INNER JOIN dbo.WATT_INVOICES_STATUS_HST hst ON hst.invoice_id = inv.id AND hst.status = 1000 AND hst.alter_user_id <> 0
+	LEFT JOIN dbo.WATT_ISSUES iss ON iss.origin = inv.id AND iss.status in (3,4,100,101)
+	WHERE inv.client_id = @client_id AND inv.status IN (1000, 1001)
+) AS docs_validated_users
+, 'docs_issues_validated_summary' as prop
+
+----------------------------------------------------------------------------
+ INVOICE WITH ISSUES DATA(Facturas Validas/No validas)  =====>
+
+      SELECT
+     (
+	  SELECT
+		COUNT(DISTINCT(inv.id)) AS total
+	  FROM DBO.WATT_CLI_INVOICES inv
+	  WHERE inv.client_id = @client_id AND inv.status IN (1000, 1001)
+      ) AS docs_validated
+    ,
+   (
+	SELECT
+		COUNT(DISTINCT(inv.id)) AS total
+	FROM DBO.WATT_CLI_INVOICES inv
+	WHERE inv.client_id = @client_id AND inv.status NOT IN (1000, 1001)
+   ) AS docs_not_validated
+   , 'docs_issues_validated_summary' as prop
+-----------------------------------------------------------------------------------
+   ISSUES ORIGNS OPEN (ORIGENS DAS ISSUES ABERTAS)  ===============================>
+
+SELECT
+	COUNT(1) AS total,
+	a.description,
+	'origin_open_issues' as prop
+FROM WATT_ISSUES i
+INNER JOIN dbo.WATT_AGENTS a ON i.agent_id = a.id
+INNER JOIN dbo.WATT_ISSUES_STATES iss_stat ON iss_stat.id = i.status AND iss_stat.family_id IN (1, 2)
+WHERE client_id = @client_id
+GROUP BY a.description
+ORDER BY total DESC
+
+ ------------------------------------------------------------------------------------
+ INVOICE NUMBER ( NUMEROS DE FATURAS Y NUMEROS DE NOTAS DE CREDITO)
+
+SELECT
+	(
+		SELECT
+			COUNT(1) AS total
+		FROM dbo.WATT_CLI_INVOICES
+		WHERE client_id = @client_id AND doc_type_id = 1
+	) AS total_invoices
+	,
+	(
+		SELECT
+			COUNT(1) AS total
+		FROM dbo.WATT_CLI_INVOICES
+		WHERE client_id = @client_id AND doc_type_id = 2
+	) AS total_credit_notes
+	,
+	MIN(inv.billing_start) AS billing_start,
+	MAX(inv.billing_end) AS billing_end,
+	MIN(inv_cons.[start]) AS consumption_start,
+	MAX(inv_cons.[end]) AS consumption_end,
+	'total_documents' as prop
+FROM WATT_CLI_INVOICES inv
+LEFT JOIN WATT_CLI_INVOICE_CONSUMPTIONS inv_cons ON inv.id = inv_cons.invoice_id
+WHERE inv.client_id = @client_id AND inv.doc_type_id IN (1,2)
+
+-------------------------------------------------------------
+ INVOICE WITH ISSUES NUMBER (Faturas com incidentes abertos)
+
+ -- FATURAS COM ISSUES E VALIDADAS
+  SELECT
+  (
+	SELECT
+		COUNT(DISTINCT(inv.id)) AS total
+	FROM DBO.WATT_CLI_INVOICES inv
+	INNER JOIN dbo.WATT_ISSUES iss ON iss.origin = inv.id
+	INNER JOIN dbo.WATT_ISSUES_STATES iss_stat ON iss_stat.id = iss.status AND iss_stat.family_id IN (1, 2)
+	WHERE inv.client_id = 17
+  ) AS docs_with_open_issues
+
+----------------------------------------------------------
+ VALID CONTRATS (COntratos validos) ========================>
+ 
+ -- Contratos Válidos
+ SELECT
+ (
+	SELECT
+		COUNT(1)
+	FROM WATT_CLI_CONTRACTS
+	WHERE client_id = @client_id AND start_date <= (GETDATE() - 365) AND end_date >= (GETDATE() - 365)
+ ) AS "contracts_year"
+ ,
+ (
+	SELECT
+		COUNT(1)
+	FROM WATT_CLI_CONTRACTS
+	WHERE client_id = @client_id AND start_date <= (GETDATE() - 30) AND end_date >= (GETDATE() - 30)
+ ) AS "contracts_month"
+ ,
+ (
+	SELECT
+		COUNT(1)
+	FROM WATT_CLI_CONTRACTS
+	WHERE client_id = @client_id AND start_date <= GETDATE() AND end_date >= GETDATE()
+ ) AS "contracts_today"
+ , 'valid_contracts_summary' as prop
+
+------------------------------------------------------------
+ TOTAL PROCESSED INVOICE (Total de facturas Procesadas) ================>
+
+ -- VALOR TOTAL DAS FATURAS PROCESSADAS
+SELECT
+	TOP(3)
+	CAST(ROUND(SUM(total_amount), 0, 1) AS INT) as total_value,
+	DATEPART(Year, billing_date) AS year,
+	DATEPART(Month, billing_date) AS month,
+	SUM(CASE WHEN doc_type_id = 1 THEN 1 ELSE 0 END) total_invoices,
+    SUM(CASE WHEN doc_type_id = 2 THEN 1 ELSE 0 END) total_creditnotes,
+	'total_value_docs' as prop
+FROM WATT_CLI_INVOICES
+WHERE client_id = @client_id AND doc_type_id IN (1, 2)
+GROUP BY DATEPART(Year, billing_date), DATEPART(Month, billing_date)
+ORDER BY Year DESC, Month DESC

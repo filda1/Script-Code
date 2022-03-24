@@ -1,0 +1,2 @@
+TUTORIAL SQL SERVER   
+  https://www.sqlservertutorial.net/sql-server-basics/sql-server-inner-join/

@@ -1,0 +1,18 @@
+PROBLEMAS DE FACTURA (Pasar Desarrollo)
+
+ 1- Vamos A Produccion Con WATT_Camara( Cliente que corresponda)
+ 2- EN Buscador ======> Buscamos id del Factura
+ 3- Guardamos XML
+
+ EN LOCAL
+ 4- >> npm run-script start-www   ( Dentro de NODE)
+ 5- >>  npm run-script start-operations ( run servicios) ( Dentro de NODE)
+ 6- EN PC, en el Program WATT UTILS imports:  Importamos la Factura ( Guarda en BD y Carga) y Ejecutar
+ 7- Client BD buscamos la factura. Para Haber si Exite
+     Select * from Watt_Cli_invoice where invoice_label =' numero de Factura'
+ 8- (Si no AParece, Reinicio)  >>  npm run-script start-operations ( run servicios) 
+ 9- Voy al codigo NOde y altero:
+
+    Normalmente en:   src/dialect/ mappers/ parse-inv / parse-invoice.ts
+
+*************************************************************************************************
