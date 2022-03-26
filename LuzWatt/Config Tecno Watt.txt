@@ -105,8 +105,18 @@ WATT - NG
   >> npm run start / npm run build
 
 
-TODO (dentro de pasta  node) ==========> >> npm run-script start-www  ( Frontnted tiene que tener dist(>>npm  run build))
+TODO (dentro de pasta  node) ==========> >> npm run-script start-www  ( Frontnted tiene que tener dist(>>npm  run build))  /  npm run-script start-operations
 localhost:420
+ 
+RUN (Cambios Instataneos con SAVE) :
+     (Dentro Node ) =========  >>> npm run-script start-www   (dejarlo Prendido)
+     (Dentro De Angular) =====> >>> npm build   (dejarlo Prendido)
+
+WEB:
+watt_albufeira
+password: dantos ou .)cOJ?6C
+
+
 ----------------------
 INSTALAR ANGULAR WATT
  >> npm i  ====================================================> (Dentro de pasta)
@@ -231,3 +241,4 @@ MODO 2: ********** PROCESSO MANUAL (ImportService) ****************
 ================================================================================
 
 
+- Services EN Windows =======> Task Manager ====> Services

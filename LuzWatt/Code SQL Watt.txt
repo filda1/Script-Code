@@ -173,3 +173,56 @@ FROM WATT_CLI_INVOICES
 WHERE client_id = @client_id AND doc_type_id IN (1, 2)
 GROUP BY DATEPART(Year, billing_date), DATEPART(Month, billing_date)
 ORDER BY Year DESC, Month DESC
+
+
+-------------------------------------------------------------------
+INCIDENTES
+ INCIDENTES (Estados) ======> WEB:  Todos (203) Em progresso (0) Fechado (0) Novo (203) Resolvido (0)
+                       Componente: issues-lists-componentes
+
+  CREATE VIEW [dbo].[VW_TYPE_FAMILIES_COUNT] AS
+SELECT
+	T.sf_id as 'value',
+	T.sf_description AS 'text',
+	T.client_id,
+	COUNT(WI.issue_id) AS 'count'
+FROM 
+	(
+		SELECT 
+			c.id as client_id,
+			sf.id as sf_id,
+			sf.description as sf_description
+		FROM WATT_CLIENTS c, dbo.WATT_ISSUES_STATES_FAMILIES sf
+	) T
+	INNER JOIN dbo.WATT_ISSUES_STATES WIS ON T.sf_id = WIS.family_id
+	LEFT JOIN dbo.VW_WATT_ISSUES WI ON WI.issue_status = WIS.id and WI.client_id = T.client_id
+GROUP BY T.sf_id, T.sf_description,T.client_id
+
+
+* INCIDENTES (TABLA)
+
+    CREATE VIEW [dbo].[VW_WATT_ISSUES] AS
+SELECT        
+	i.id AS issue_id,
+	i.type as issue_type,
+	u.name as assigned_name,
+	i.summary as issue_summary,
+	i.impact as issue_impact,
+	i.priority as issue_priority,	
+	i.status as issue_status,	
+	i.creation_date as issue_creation_date,
+	i.due_date as issue_due_date,
+	u.id as assigned_id,
+	sf.color as color,
+	s.description as issue_status_description,
+	p.description as issue_priority_description,
+	i.client_id as client_id
+FROM            
+	dbo.WATT_ISSUES i 
+	--INNER JOIN dbo.WATT_ISSUES_TYPES it on i.[type] = it..[id]
+	INNER JOIN dbo.WATT_USERS u on i.[assignedto] = u.[id]
+	INNER JOIN dbo.WATT_ISSUES_STATES s on i.status = s.id
+	INNER JOIN dbo.WATT_ISSUES_STATES_FAMILIES sf ON sf.id = s.family_id
+	INNER JOIN dbo.WATT_ISSUES_PRIORITIES p on p.id = i.priority
+
+
