@@ -2,7 +2,7 @@
  INSTALACION:
    Utilizar ========>  angular cli  (https://cli.angular.io/), https://github.com/angular/angular-cli/wiki
 
-    npm install -g @angular/cli    /  npm install --save-dev @angular/cli@latest
+    npm install -g @angular/cli    /  npm install --save-dev @angular/cli@latest  / npm install -g @angular/cli@version
     ng new my-dream-app
     cd my-dream-app
     ng serve

@@ -1,1 +1,8 @@
 COMMNADS ======> https://www.sqlservertutorial.net/sql-server-basics/sql-server-select/
+
+
+ Where  id in ('123, 566)   ==============>  busca todo incliudo
+
+ Where  id is Null   ====================> Busca NULL
+
+Select count(1)  from...   ===============> Cuenta

@@ -203,7 +203,7 @@ RUTAS HIJAS (Muestras En VIEW VARIAS VIEW)  ==================>
  INSTALACION:
    Utilizar ========>  angular cli  (https://cli.angular.io/), https://github.com/angular/angular-cli/wiki
 
-    npm install -g @angular/cli   / ng --version
+    npm install -g @angular/cli   / ng --version  / npm install -g @angular/cli@12.2.16
     ng new my-dream-app
     cd my-dream-app
     ng serve
