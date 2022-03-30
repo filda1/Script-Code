@@ -15,3 +15,19 @@ TUTORIAL por  Coding Potions
  7- https://codingpotions.com/vue-ciclo-vida
 
  TUTOrial =https://www.youtube.com/watch?v=FPx8JV0wnOY
+
+**************************************************************
+
+COMMANDS
+>>> npm run serve
+>>> npm run build ( Ver build ====>>> server  -s  dist / npm install -g serve)          *https://www.youtube.com/watch?v=WmrawkHYMTg&ab_channel=ThePragmaticStudio
+
+Step 1 Install Globally
+
+npm install http-server -g
+if it does not working use this:
+
+sudo npm install http-server -g
+Step 2 - use the server i did:
+
+http-server ./dist/
