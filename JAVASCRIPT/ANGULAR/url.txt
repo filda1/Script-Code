@@ -58,6 +58,24 @@ TEST
  LANDING PAGE ANGULAR MATERIAL
    https://w3hubs.medium.com/angular-material-landing-page-a54a0b8e1ae8
    https://w3hubs.com/angular-material-landing-page/
+
+* https://templatemo.com/templates/templatemo_510_letter/
+*https://html5up.net/aerial
+*https://www.free-css.com/free-css-templates/page189/stable
+*https://www.free-css.com/free-css-templates/page246/scaffold
+
+https://bootstrapmade.com/bootstrap-landing-page-templates/
+
+**** https://bootstrapmade.com/demo/templates/Arsha/#
+    *** https://bootstrapmade.com/bootstrap-landing-page-templates/
+
+****https://github.com/krzysiekpiasecki/ngNewAge
+** https://www.abtasty.com/blog/bootstrap-landing-page-templates/
+       https://bootstrapmade.com/demo/templates/Sailor/
+ https://bootstrapmade.com/bootstrap-landing-page-templates/
+
+CONVERT BOOSTRAPT A ANGULAR ====> https://www.youtube.com/watch?v=6lUjR51RIJ0&t=767s&ab_channel=Therichpost
+
 ****************************************************************************************************************
   REDIRECT URL AFTER LOGIN
 

@@ -17,6 +17,12 @@ TUTORIAL por  Coding Potions
  TUTOrial =https://www.youtube.com/watch?v=FPx8JV0wnOY
 
 **************************************************************
+ TUTORIAL OFCIAL VUE.JS
+    https://v2.vuejs.org/v2/guide/forms.html
+**************************************************************
+ LIBRERY TABLE
+    https://demos.creative-tim.com/vue-paper-dashboard-pro/documentation/component-docs/inputs.html#custom-form-gorup-inputs
+**************************************************************
 
 COMMANDS
 >>> npm run serve
