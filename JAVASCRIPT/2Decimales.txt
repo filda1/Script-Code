@@ -1,0 +1,7 @@
+var numero = 9.46789; 
+var conDecimal = numero.toFixed(2); 
+// Igual a 9.47 
+var entero = numero.toFixed(); 
+// Igual a 9 (como un entero)
+var con3decimales = numero.toFixed(3);
+// Igual a 9.468
