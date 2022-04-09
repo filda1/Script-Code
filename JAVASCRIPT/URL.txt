@@ -15,8 +15,20 @@ Bibliotecas y Frameworks mencioandos:
 * Hardware: Johnny-five.io, node red, iot.js
 
 
-***********************************************************************************************************
+*********************************************************************************************************
+Javascript Arrays - Metodos (map, filter, reduce, sort, etc.)
+       (FATZ ) ====> https://www.youtube.com/watch?v=qqR1enOceVg
 
+02:58 forEach
+10:31 map
+25:11 filter
+32:32 reduce
+43:01 sort
+49:20 find
+52:01 some
+55:56 every
+58:38 combinar metodos
+*********************************************************************************************************
   Firebase Firestore (Version 9) CRUD con Javascript (Fazt)
 
    https://www.youtube.com/watch?v=ey4k6mW9ds4&ab_channel=FaztCode

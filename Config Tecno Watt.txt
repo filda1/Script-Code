@@ -1,4 +1,6 @@
- //////////////////////////////////// SERVIDOR ///////////////////////////////
+ //////////////////////////////////// SERVIDOR /////////////////////////////// 
+ https://wattinvoice.com/login
+https://quality.wattinvoice.com/login
 
   watt-app  =================> ( SITIO DEL fRONTEND + bACKEND)
 
@@ -18,16 +20,22 @@ ERRROR EN  RESTAURAR DB:
  eN Files: activar=========>  Relocated...... (https://www.youtube.com/watch?v=YHBSPl7Uf5w&ab_channel=DeepakPant)
  * Sino da con lo otro, activar todos privilegios de la Unidad
 
-***************************************************
-
-  USER (SQL SERVER) SIN AUTENTICATION WINDOWS EN LOCAL
+****************** SQL SERVER- CONIG PORT ********************************
+CONNECT BD A NODEJS
+1 Em SQL SERVER CONFIGURATION :
+ 1.1 Ir,  SQL Server Network Configuration ===> Protocols for SQLEXPRESS
+ 1.1 Depois, Em TCP/IP  (ativar ENABLE )<, Botao direito Propiedades:
+   1.1.1  Por em:  IPADDRESS ===> IMAPII ===> TCP/Port  1433
+2. Reiniciar SQL SERVER (Em Sql sql services)
   
+---------------------------------------------------------------
+ USER (SQL SERVER) SIN AUTENTICATION WINDOWS EN LOCAL (USER EXTERNO LOCAL)
   *https://www.youtube.com/watch?v=FVUEC_XVM5Y&ab_channel=KEYENetworking
 
  Local server es : localhost
 
  Segurity => Login New Login ==>....
-
+**********************************************************************
 
  ////////////////////////////////  OpEN VPN /////////////////////////////////
 
@@ -38,13 +46,13 @@ ERRROR EN  RESTAURAR DB:
    - ovpn_clinte1.key
 
 ***************************************************
- /////////////////////////////// PROYECT WATT //////////////////////////////
+ /////////////////////////////// REQUISITOS PROYECT WATT //////////////////////////////
   Node -- version 10.15
   Python 2.7.6   ===================> (install python + variable entorno )
-
+  Y node_modules de Angular
 -------------
   /////////////////// TOOLS /////////////////////////////
-  CONTROL DE VERSIONES (Muvhas versiones) NODE:JS
+  CONTROL DE VERSIONES (Muvhas versiones) NODE:JS  ===========> NVM
 
    *( NVM DONWLOAD ===> https://github.com/coreybutler/nvm-windows, https://github.com/coreybutler/nvm-windows/releases)
    * COMANDOS NVM  =====> https://www.loginradius.com/blog/async/run-multiple-nodejs-version-on-the-same-machine/
@@ -87,7 +95,7 @@ git flow
 
 ***********************************************************************************************
 
-  ************** WHATT LOCAL ******************
+  ///////////////////// WHATT LOCAL ///////////////////
 
  WATT - NODE
   >> npm run start-www
@@ -97,15 +105,34 @@ WATT - NG
 
   >> npm run start / npm run build
 
+
+TODO (dentro de pasta  node) ==========> >> npm run-script start-www  ( Frontnted tiene que tener dist(>>npm  run build))  /  npm run-script start-operations /  npm run start-operations
+                                                   ===========>  npm run-script start-www   ( ES ESTE )
+localhost:420
+ 
+RUN (Cambios Instataneos con SAVE) :
+     (Dentro Node ) =========  >>> npm run-script start-www   (dejarlo Prendido)
+     (Dentro De Angular) =====> >>> npm run build   (dejarlo Prendido)
+
+WEB:
+watt_albufeira
+password: dantos ou .)cOJ?6C
+
+
 ----------------------
-INSTALLAR ANGULAR (en package.json====> napa: instalae las dependencias):
+  >> npm install --global --production windows-build-tools
+INSTALAR ANGULAR WATT
+
+ >> npm i  ====================================================> (Dentro de pasta)
+ -(en package.json====> napa: instalar las dependencias):
+ - Ver path si e igual no punto A* (em angular-cli.json); Sim nao ==========> MUDAR
  >>> npm i flot
  >>> npm i jquery.flot.spline
  >>> npm i ika.jvectormap
 
  * Si hay Error:
-   - Copiar pasta ======> "../node_modules/jquery.flot.spline",
- * Si hay Error (en ANGULAR-CLI.JSON).Ver path:
+   - Copiar pasta ======> "/node_modules/jquery.flot.spline",
+ A* Si hay Error (en ANGULAR-CLI.JSON).Ver path:
 
     "../node_modules/jquery.flot/jquery.flot.js",
     "../node_modules/jquery.flot/jquery.flot.resize.js",
@@ -113,6 +140,212 @@ INSTALLAR ANGULAR (en package.json====> napa: instalae las dependencias):
     "../node_modules/jquery.flot/jquery.flot.time.js",
     "../node_modules/jquery.flot/jquery.flot.categories.js",
 ----------------------
+
+INSTALAR NODE WATT
+  >> npm i  ====================================================> (Dentro de pasta)
 ******************************
 
  DBbeared =======> 192.168.148.237
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+**********************************************************************************
+=============================================    TOOLS WATT/ PROGRAMA IMPORT         =====================================================
+   ////////  WATT_ MONITOR ( PROGRAMAS XML para CLIENTE DB) ///////
+
+ - En, config ===> Mudar mi DB local
+
+ - En WATT_Monitor: ( Sql =====> invoice_la =''  /  clinete_id = 3)
+
+***********************************************************************************
+  ////////  WATT IMPOT UTIL 2102 ( Cargar XML) ////////
+
+ >> npm run-script start-www 
+ - En WATT IMPORT UTILS 2.1.0.2 :
+       Facturas xml
+       cliente:
+       Comercial: EDP
+       :local
+
+************************
+ ELECTRICIDAD  ======> Tarifas Plans ========> Script
+************************
+================== CONFIGURA PARA LOS PROGRAMAS WATT USTIS ( en my PC windows) ===================
+
+WINDOWS ----> ODB DATA drivers (Origem D Dados ODBC (332bits)) ======> ODBC drivers 17Sql ======> Adicionar =========> 
+
+ watt_qa    ==========> En config: tiene este nombre y produccion (watt_prod)
+
+ Watt_Local
+
+localhost  /  ...126
+----------------
+3 Option  (Wth Sql Server autenticate....
+
+external 
+
+external
+
+---------------
+*********************************************
+WATT
+
+Ativar Change the defaultt ( Ver BDS)
+
+================================================================================================================
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ ======================================== INDAGUA ========================================
+ Indawater
+
+  PROGRAMS:
+    Playground ========> Busca Archivos Xml
+    ImportSevices ======> Mete a Xml en BD
+
+ stremReder
+ Program
+
+
+************* PROCESSO AUTOMATICO ---- SIMULAR AMBIENTE para CORREGIR ERRORES ************
+1- BUSCAR EN BD por; exyernal_id
+  contract_count ,  exxtern code 712
+
+ contarct   where  contarct_acout Id  27954
+
+function:
+ sp contract...
+ sp import contract
+----------------------------------------------
+Visual Studio:
+ PROGRAMA 1:
+ PLAYGROUND SERVICES (BUSCADOR)
+  Buscar Con PLayground el CONTADOR. Que esta en tu pasta los archivos Zip de tu PC
+*********************************************
+
+PROGRAMA 2:
+MODO 1 : ************** IMPORT SERVICES (Update BD con datos coregidos)  ********************
+2- Sacar La ROW Completa  ( Excel  2021 contract ) para saber e Importar  
+ 2.1 Guarda (con separador por tabulacion Txt (con UFT8)) y despues convertir a  Zip
+separado por tabulacion TXT
+convert ZIP
+ 2.2 Run import services =========> en Visual Studio
+3. Ir A  BD y ver si esta solucionado
+
+MODO 2: ********** PROCESSO MANUAL (ImportService) ****************
+
+ En DbBeaver:
+ 1- Sql Script ========> Merter Un CALL con datos para llamar SP(Procedure)
+  2- En Sp_contract : poner raise cada metodo para sabar Hasta donde llega
+  3. Enter el CALL y  ves hasta donde llega( con raise), Y ves el siguiente cual es problerma
+   call  cache_contratcts(null, null)
+
+------------
+ ULTIMO :  ======> RUN ( Cache Contrats) =============> CORRER para UI
+  4 - ACTIVAR CONTRAT ( Cache Contrats )   =============>  PARA ACTUALIZAR UI (INTEFAZ)
+ * cache contract  ======= Sp cache Contrats  ======> UPdate Contrat UI ====> con CALL
+================================================================================
+
+
+- Services EN Windows =======> Task Manager ====> Services
+
+
+***********************************************************
+ CONTATOS  NOVOS DE  NAZARE EJEMPLO
+
+ WATT
+ . Con al Aplicacion WATT IMPORT , copiar el excel (En cvs) y pegar en la aplicacion e importar ( botoners ===> Criar contactos e criar CPE). (Y inserta BD automatic)
+
+*******************************************************/****
+ Gliese - R. Veloso Salgado 1001, 4450-801 Leça da Palmeira (próximo mar shopping)
+
+************************************************************
+ NUEVOS DADOS i2WaTERMETERS
+ GUardar en  .txt ( con separcion de de virgulas . txt + UTF8)
+  COn .... ImportSevise  (VisualStudio) ==========>(Correr)
+
+ verificar ======>   select* form  import process_log
+
+**************************************************
+enermet   	
+1100305
+
+6
+1100037
+FSTARMO
+Vila do Conde
+
+*************************************
+vila
+6
+101
+------
+vila
+5
+63
+*************************************
+TRON
+FLODIS
+ ==============1100853
+   ================= > C040MM
+Vila do Conde
+6
+63
+3.2487
+0.1587
+0.254
+0
+10
+12.5
+
+-----------------------------
+5
+1.312
+-----------------------------
+*********************************
+Vila do Conde
+6
+315
+----
+itron
+1100489
+C065MM
+
+********************************
+ Q1 =====> 0.04
+q4 ======> 5
+*************************************
+38
+ABB
+ABB
+1100543
+C100MM
+Vila do Conde
+7
+0
+0
+0
+0
+0
+0
+0
+****************************************
+
+
+Agua_N_Serie_Contador
+*************************************************
+CREAR UN INVOICE / FACTURA
+ UTilizar:
+  * WATT-Utils IM PORT  =======: Cargar el Invoice al NODE BACKEND
+  * >> npm run start-oprations ( en NODE) (Mantener en RUN)   =======> Para Procesar
+
+- ver primeiro en CONFIG.JSON( em Node)  el camino de las carpetas==========> Ver as path
+- abril xml
+- buscar el ID y ponerle un Con ID el invoice
+-luego, com WATT-Utils IM PORT  =======: Cargar el Invoice al NODE
+
+-en DB:
+ select * cli-invpoice
+
+-* Depois RUn >> npm run start-oprations ( en NODE)   =======> Para Procesar
+- en DB:
+  select * from Operations  queue.....
