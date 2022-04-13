@@ -1,0 +1,62 @@
+WPF
+ Load Data to a DataGrid in WPF With MSSQL And EntityFramework in C#
+
+   https://www.youtube.com/watch?v=xNl-af-I0Rc&ab_channel=TacticDevs
+
+   Tuto =============>https://www.youtube.com/c/pildorasinformaticas/search?query=WPF
+   TUTO =====> https://wpf-tutorial.com/es/398/comenzando/visual-studio-community/
+
+******************************************************************************************************
+  MATERIAL DESIGN
+    http://materialdesigninxaml.net
+    https://github.com/MaterialDesignInXAML/MaterialDesignInXamlToolkit/wiki/Projects-using-Material-Design
+    https://help.syncfusion.com/extension/wpf-extension/syncfusion-project-templates-for-wpf
+
+******************************************************************************************************
+ UI ======>https://www.youtube.com/watch?v=PzP8mw7JUzI&ab_channel=Payload
+
+ EXAMPLE UI
+   https://github.com/HenJigg/WPF-UI-Design
+
+   https://github.com/Kinnara/ModernWpf
+*******************************************************************************************************
+  ****PRISM WPF(Wpf World)  =============================> BUENO
+
+  https://www.youtube.com/watch?v=WXnTDncaHKc&ab_channel=WpfWorld
+  https://www.youtube.com/watch?v=iTUy6AlyDgA&ab_channel=WpfWorld
+
+ playList ====> https://www.youtube.com/watch?v=aKOJbwD-ySI&list=PLl0ZDeqSI5YncbVGm6VsFuXYQFm_N9xZe&ab_channel=WpfWorld
+
+  METRO UI =======> https://www.youtube.com/watch?v=5Ujhmft8I2M&ab_channel=WpfWorld
+                    * https://www.youtube.com/watch?v=nMTkakFVfcg&ab_channel=DotnetAdvance
+  FILTER =========>https://www.youtube.com/watch?v=d4yNcF_ByzE&t=16s&ab_channel=WpfWorld  
+                   https://wpfcsharpmetroui.blogspot.com/2019/09/how-to-filter-datagrid-and-listview-in.html#gsc.tab=0
+  OBSERVERCOLECTION ========> https://www.c-sharpcorner.com/UploadFile/e06010/observablecollection-in-wpf/
+  ADO.NET ========> https://www.youtube.com/watch?v=alpN7BYv8Xo&list=PLl0ZDeqSI5YlqLeLuMgY4cGjCHPqD59KR&ab_channel=WpfWorld
+  NAVEGACION ====> https://www.youtube.com/watch?v=yqP9vW06dY0&ab_channel=WpfWorld
+  CHECKBOX (Wpf World)== https://www.youtube.com/watch?v=FuoMfY7QJFQ&ab_channel=WpfWorld
+                         https://wpfcsharpmetroui.blogspot.com/2020/08/multiple-way-to-handle-checkedunchecked.html#gsc.tab=0
+
+*******************************************************************************************************
+
+  PRISM
+   https://www.c-sharpcorner.com/blogs/creating-a-first-wpf-application-using-prism-library-and-mvvm-architectural-patternstep-by-step2
+   https://codinggrammar.com/sample-prism-6-wpf-application/
+
+
+   *https://www.youtube.com/watch?v=M-1eCSl4QB8&ab_channel=WpfWorld
+   https://www.codeproject.com/Articles/5272562/Prism-for-WPF-A-Basic-Primer
+
+   https://www.youtube.com/watch?v=iTUy6AlyDgA&ab_channel=WpfWorld
+
+
+  ******** https://www.youtube.com/watch?v=-AaIaFtQ4Yw&ab_channel=DevReactor
+           https://www.youtube.com/watch?v=-DvtGorOfD8&list=RDCMUCC78lt3WRH0bROwiIvw847g&start_radio=1&rv=-DvtGorOfD8&t=3249&ab_channel=BrianLagunas
+            https://www.tutorialspoint.com/mvvm/mvvm_first_application.htm
+            https://www.c-sharpcorner.com/UploadFile/ptmujeeb/wpf-mvvm-pattern-a-simple-tutorial-for-absolute-beginners/
+*****************************************************************************************************************************
+        OUTLOOOK CLONE
+      ***  https://www.youtube.com/watch?v=yd_DtUKf3pc&list=PLG8rj6Rr0BU8MaincrMrHuhJrI2Id8RSW&index=2&ab_channel=BrianLagunas
+            https://github.com/brianlagunas/PrismOutlook
+             https://generatedata.com
+        https://www.youtube.com/watch?v=X3LpewJbbQM&list=PLG8rj6Rr0BU8MaincrMrHuhJrI2Id8RSW&index=10&ab_channel=BrianLagunas

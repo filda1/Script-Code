@@ -225,4 +225,8 @@ FROM
 	INNER JOIN dbo.WATT_ISSUES_STATES_FAMILIES sf ON sf.id = s.family_id
 	INNER JOIN dbo.WATT_ISSUES_PRIORITIES p on p.id = i.priority
 
-
+*********************************************************************************************
+ INVOICES 
+   
+ -STATUS FAMILES COUNT
+      const families = await wattDb.queryWithBind<StatusFamilyCount>('select * from VW_INVOICE_STATUS_FAMILIES_COUNT where client_id = $client_id order by text',

@@ -1,0 +1,15 @@
+ DESACTIVAR WINDOWS DEFENDER
+ 1-  ICONO bandera de Windows ====> Definiciones( Tuerca)
+ 2- Privacidad y Seguridad
+ 3- Seguridad Windows
+ 4- Proteccion contra virus y amenazas
+ 5- Proteccion contra virus e ameaças/  configuracion de antivirus y proteccion contra amenazas
+   Gerir definiciones
+6- Desabilito las primeras 4 opciones
+
+----------------------------------
+
+>> netsh firewall set opmode disable
+
+************************************
+https://www.youtube.com/watch?v=j9PsEtRniW0&ab_channel=TeloEnseñoYa

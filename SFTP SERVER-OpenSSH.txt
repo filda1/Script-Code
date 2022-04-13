@@ -1,0 +1,52 @@
+1. Add OpenSSH Server feature
+2. Configuring OpenSSH server to start on Windows startup:
+3. Changing the root directory of OpenSSH server (Optional)
+        #ChrootDirectory
+         sftp sftp-server.exe -d E:\FTP
+4. Restart the "OpenSSH SSH Server" service"
+5. Create a local user or domain account to connect SFTP
+6. Test SFTP Connection
+
+-------------------------------------
+https://www.youtube.com/watch?v=BR9qc_1unu8&ab_channel=Mushaaf
+Install SFTP in Windows Server 2019
+https://mushaaf.net/installing-sftp-server-2019/
+
+ SFTP SERVER - Open SSH
+
+1- Ir ICON Windows, botao direito ===> settings ====> Apps ====> Manage Optional Features ====> + Add Features ===> 
+  OpenSSH server (Instalar)
+2- Ir a Services ====> refresh ( Y tener  2 serviços)
+     OpenSSH Autentication ( Click abrir, ===> Startup type :Automatic, Apply y Start)
+     Open SSH server ( Click abrir, ===> Startup type :Automatic, Apply y Start)
+
+3. Criar Pasta:   E:\SFTPRoot
+
+4. Abrir NotePad com Admin, Abrir c:\ProgramData\ssh  ===> All Files ,  ir a===> sshd_config :
+  4.1 Copia el path dentro:
+     ChrootDirectory  "E:\SFTPRoot" ( Remover el # y SAVE)
+
+5. Reiniciar ====> Open SSH serve
+
+6. Criar USER, em Computer Managemet ===>System Tools ===> Local Users and Groups:
+   Clik Pasta USERS ===> sshd ( Crear el usuario y pass
+
+-----
+7. Dowload de Filezilla client (https://filezilla-project.org/download.php?platform=win64)
+8. Criar new Site , Nombre , Host:192..  port:22, Protocol:SFTP, User y pass, OK
+9. Escolhes O Nome de Site ... (Vai Conetar)
+10. Em Remote Site ( botao Direito, criar diretorio , Exemplo: /SFTPFAFE-DATA) ===> Esta Pasta vai ser criado NO servidor
+ 11. Seleciona la pasta Anterior e Envias pra pasta (SFTPFAFE-DATA) ===> arrasta
+
+test1
+Test2022
+
+"C:\SFTPRoot"
+
+#ChrootDirectory none
+--------------------------------------
+
+winscp
+  https://winscp.en.softonic.com
+
+ping  185.17.229.38
