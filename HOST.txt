@@ -86,7 +86,13 @@ CHOMECAST A TV
   4. Nueva venta:Conectar proyeccione , arriba del boton /Coneccion detectada o Dispositivo reconocido(click sobre el)
   5. Nueva venta:Luego abajo nueva ventata, ...proyecta  a este equipo
 
-
+ WINDOWS 11
+    *****https://liukin.es/como-conectarse-a-una-pantalla-inalambrica-en-windows-11/
+ 1. WINDOWS + i
+ 2. Ecra
+ 3. Varios Ecras
+ 4. 2 opcion =====> Ligar ecra sem fios
+  5.Conectar
  ******************************************
   CRON JOB
  https://crontab.guru/

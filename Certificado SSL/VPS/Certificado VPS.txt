@@ -1,0 +1,43 @@
+Como utilizar o Certbot (da Let's Encrypt) para gerar certificados HTTPS: 
+
+  
+
+Tutorial em: https://certbot.eff.org/lets-encrypt/windows-other 
+
+  
+
+É preciso ter o site na porta 80, com endereço aberto ao público, e o web-service deve estar parado. 
+
+  
+
+1. Download do Certbot em https://dl.eff.org/certbot-beta-installer-win32.exe 
+
+2. Instalar o Certbot no servidor 
+
+3. Abrir cmd como admin e executar: certbot certonly --standalone 
+
+4. A certa altura vai pedir para inserir o dominio (exemplo: quality.wattinvoice.com) 
+
+5. Quando terminar vai indicar em que pasta gerou os ficheiros da chave privada e do certificado: privkey1.pem e cert1.pem 
+
+6. Copiar os ficheiros para a pasta adequada (definida na config.json do Watt) (geralmente é a  backend\web-server\assets) 
+
+ 
+
+ 
+
+Para renovar o certificado: 
+
+1. Parar o serviço do web server do watt: watt-www-quality (ou watt-www-prod) 
+
+2. Abrir cmd como admin e executar: certbot renew 
+
+3. No fim vai indicar em que pasta gerou os ficheiros: privkey.pem e cert.pem 
+
+4. Copiar os ficheiros para a pasta adequada (definida na config.json do Watt) (geralmente é a  backend\web-server\assets) 
+
+5. Arrancar novamente o serviço watt-www-quality (ou watt-www-prod) 
+
+ 
+
+ 
