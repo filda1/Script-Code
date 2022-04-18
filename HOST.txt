@@ -37,10 +37,24 @@ THESTRATEGA: https://bit.ly/NS-Stratega
    App Chroma
    Hub Enigma
 *************************************************************************************************************
-VPS =====> vps9.net
+****VPS =====> vps9.net
+        -https://www.youtube.com/watch?v=Jn6qfYmCmFU&ab_channel=RMDetho
+        -https://www.youtube.com/watch?v=VdjF7oI4Dvk&ab_channel=RMDetho
+        -https://www.youtube.com/watch?v=k7jmxThpN3I&ab_channel=RMDetho
+
+Publicar aplicacion ASP.NET Core en servidor Linux CentOS:
+ Cómo Elegir un servidor VPS
+Creación de un superusuario en linux
+Instalación de un servidor de bases de datos
+Instalacion de un FTP
+Instalación de un servidor web
+Instalación de .NET Core y ASP.NET Core en Linux 
+Configurar NGINX como proxy inverso
+Intalación de Certificados para SSL y HTTP en NGINX con Certbot y Let's Encrypt
 
 VPS
   ****CPANEL FREE ===> http://centos-webpanel.com
+          -https://fellowtuts.com/hosting/install-configure-cwp-centos-complete-guide-vps/
   
   Hostinger = https://www.youtube.com/watch?v=giVUkSuIaS0&list=PLZ5JcDS_NJXJioUsuDahMNQ4zWbHZ90Wt&index=6
 

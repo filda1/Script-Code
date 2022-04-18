@@ -30,6 +30,7 @@
            *DIMICODe           
           * Loiane Grone  ============> https://www.youtube.com/watch?v=SGvZ1O4VLYU&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G&index=104&ab_channel=LoianeGroner
            form = https://academia-binaria.com/formularios-reactivos-con-Angular/
+          blog .....https://loiane.com
 **********************************************************************************************************************************
   28 DIAS ANGULAR (Domicod) = https://www.youtube.com/watch?v=InZ9GZSTVX4&list=PL_9MDdjVuFjFBed4Eor5qj1T0LLahl4z0&index=20&ab_channel=DominiCode
                                                 https://github.com/domini-code/reto-angular-formularios/tree/main/src

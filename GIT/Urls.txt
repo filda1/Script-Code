@@ -15,3 +15,7 @@ Urls
   https://www.youtube.com/watch?v=rMhrwsLnEv8&ab_channel=JuanZuluaga
 
 ****************************************************************
+
+BITBUCKET
+
+login+ VSCODE =====> https://support.atlassian.com/bitbucket-cloud/docs/get-started-with-vs-code/
