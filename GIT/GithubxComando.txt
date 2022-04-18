@@ -200,6 +200,6 @@ git push --delete origin version1.26.1
 --------------------
 ADD TAG
 
-git tag  version1.26.1
+git tag  version1.26.1             ========> Crear Tag
 git push origin version1.26.1  =======>  ( Envio solo 1 TAG)
 git push --tags  ==================>( Envia todas TAGS)
