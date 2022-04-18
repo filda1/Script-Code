@@ -6,3 +6,11 @@ INSTALL
 
  2- Luego al final de la INSTALL, install SSMS ====================> CLIENTE
    2.1 DOWNLOAD SSMS (Sql Server Managment Studio)
+
+----------------------------------------------------------------------------------------------------------
+PERMISOS AL NUEVO USER
+   *https://www.youtube.com/watch?v=lkoBGGkUry8&ab_channel=KrishnoDey
+
+SQL Error [262] [S0001]: CREATE DATABASE permission denied in database 'master'.
+CREATE DATABASE permission denied in database 'master'.
+CREATE DATABASE permission denied in database 'master'.
