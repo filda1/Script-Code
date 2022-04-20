@@ -49,3 +49,8 @@ METEOR JS
  https://chrisnethunter94.medium.com/tutorial-meteorjs-i-5d6e4c4586fb
 
 ************************************************************************************************************
+Import y Export en Javascript (ES Modules)  ====> Fatz
+
+ https://www.youtube.com/watch?v=0t-Le4kdaMg&ab_channel=FaztCode
+
+************************************************************************************************************

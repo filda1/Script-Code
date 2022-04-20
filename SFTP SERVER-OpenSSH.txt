@@ -26,7 +26,7 @@ https://mushaaf.net/installing-sftp-server-2019/
 5. Reiniciar ====> Open SSH serve
 
 6. Criar USER, SERVER MANAGER ==> TOOLS ===>em Computer Managemet ===>System Tools ===> Local Users and Groups:
-   Click Derecho en Pasta USERS ===> ( Crear el usuario y pass )
+   Click Derecho en Pasta USERS ===> ( Crear el usuario y pass )  =====> OJO : poner la password no revalidada( Al crear User, Propiedades, activar no revalidad password)
 
 -----
 7. CLIENTE: Dowload de Filezilla client (https://filezilla-project.org/download.php?platform=win64) / o WinSCP

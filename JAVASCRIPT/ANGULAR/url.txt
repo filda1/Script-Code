@@ -48,6 +48,14 @@
   https://www.npmjs.com/package/ng2-validation
 
 **********************************************************************************************************************************
+ DIAGRAMAS DE CARGA
+   https://swimlane.github.io/ngx-charts/#/ngx-charts/timeline-filter-bar-chart-demo
+  https://github.com/swimlane/ngx-charts
+  https://swimlane.gitbook.io/ngx-charts	
+
+  https://www.chartjs.org/docs/latest/samples/animations/progressive-line.html
+  https://github.com/chartjs/Chart.js				
+**********************************************************************************************************************************
 TEST
    https://www.digital55.com/desarrollo-tecnologia/como-usar-testing-angular-jasmine-karma/
 
