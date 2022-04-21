@@ -22,6 +22,12 @@ https://mushaaf.net/installing-sftp-server-2019/
 4. Abrir NotePad com Admin, Abrir c:\ProgramData\ssh  ===> All Files ,  ir a===> sshd_config :
   4.1 Copia el path dentro:
      ChrootDirectory  E:\SFTPRoot ( Remover el # y SAVE)  ======>  Aqui, Accede todo Users, creados
+    O
+    Match User Usuario
+    ChrootDirectory C:\SFTPRoot
+    AllowTCPForwarding no
+    X11Forwarding no
+    ForceCommand internal-sftp
 
 5. Reiniciar ====> Open SSH serve
 

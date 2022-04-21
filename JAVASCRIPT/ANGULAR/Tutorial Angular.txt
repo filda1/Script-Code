@@ -74,7 +74,21 @@ Modulos: son para registrar en exporta/impotar servicios,depedencias... para ser
                      - Poniendo un punto, .pipe ( map(se puede hacer validaciones) )
                      - y, tap( value => console.log(value)  ===========================> Se pinta lo anterior de la Observable
 
-                      *https://www.youtube.com/watch?v=pAGAtspXnyc&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G&index=116&ab_channel=LoianeGroner
+                      *https://www.youtube.com/watch?v=pAGAtspXnyc&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G&index=116&ab_channel=LoianeGroner 
+
+                   2 FORMAS DE OBSERVABLES
+                      1. Las Que se GUarda en VARIBLE que es La Observable
+                       2. Y Otra que es q viene de un metodo de service en Foma de OBSERVABLE, y despue sla guardamos EN ARRRAY
+
+                    ej:  this.formulario.get('endereço.estado').valueChanges
+                            .pipe(
+                               tap()
+                               map()
+                               map()
+                               switchMap()   ===================> Este cambio de OBSERVABLE/ SERVICES
+                               tap( console.log)
+                            )
+                            .subscribe()
 
 10. ng-content =========> Se pone dentro del Hijo Html y recibe desde los Padres Html el contenido desde ahi
 

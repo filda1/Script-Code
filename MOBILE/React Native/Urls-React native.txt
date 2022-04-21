@@ -267,7 +267,13 @@ SEGUIMIENTO DE UBICACIÓN EN TIEMPO REAL CON REACT NATIVE
   *******TAXI- UBICACION TIEMPO REAL
 
    https://www.youtube.com/watch?v=CB_nXOOz_AY&list=PL6hffAJvRwYJTf6kuxrK4PJzjoxTqau9V
-   https://github.com/eman1000/TaxiApp
+   https://github.com/eman1000/TaxiApp 
+
+************************************************************************************************************************
+  MAPS
+    *https://www.youtube.com/watch?v=i8bni7mUqXE&ab_channel=BetoMoedano
+    API MAPS FREE
+         https://www.igismap.com/top-10-map-direction-api-routing-libraries-navigation-free-or-paid/
 ************************************************************************************************************************
 
   TUTO = https://www.youtube.com/watch?v=0-S5a0eXPoc

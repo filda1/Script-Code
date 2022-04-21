@@ -66,6 +66,10 @@ https://stackoverflow.com/questions/35176091/how-should-a-grpc-service-be-hosted
  https://www.youtube.com/watch?v=aXayqUfSNvw&ab_channel=desenvolvedor.io
 
 ******************************************************************************************
+BASE64
+  https://codingcanvas.com/different-ways-of-uploading-files-using-http-based-apis-part-2/
+
+******************************************************************************************
 
    RAZOR + SIGNALR
 
