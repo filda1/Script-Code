@@ -13,6 +13,15 @@ WPF
     https://help.syncfusion.com/extension/wpf-extension/syncfusion-project-templates-for-wpf
 
 ******************************************************************************************************
+    Switching Between Multiple Views in MVVM - EASY WPF (.NET CORE)    de  SingletonSean
+
+      ***https://www.youtube.com/watch?v=1_cUgpWqS0Y&ab_channel=SingletonSean
+            https://github.com/SingletonSean/wpf-tutorials/tree/master/SwitchingViewsMVVM
+****************************************************************************************************** 
+ SQLITE
+  *** https://www.codeguru.com/dotnet/using-sqlite-in-a-c-application/
+
+******************************************************************************************************
  UI ======>https://www.youtube.com/watch?v=PzP8mw7JUzI&ab_channel=Payload
 
  EXAMPLE UI
@@ -59,4 +68,21 @@ WPF
       ***  https://www.youtube.com/watch?v=yd_DtUKf3pc&list=PLG8rj6Rr0BU8MaincrMrHuhJrI2Id8RSW&index=2&ab_channel=BrianLagunas
             https://github.com/brianlagunas/PrismOutlook
              https://generatedata.com
-        https://www.youtube.com/watch?v=X3LpewJbbQM&list=PLG8rj6Rr0BU8MaincrMrHuhJrI2Id8RSW&index=10&ab_channel=BrianLagunas
+        https://www.youtube.com/watch?v=X3LpewJbbQM&list=PLG8rj6Rr0BU8MaincrMrHuhJrI2Id8RSW&index=10&ab_channel=BrianLagunas 
+
+*****************************************************************************************************************************
+
+ directorio ====> https://stackoverflow.com/questions/3736462/getting-the-folder-name-from-a-full-filename-path       
+                               https://www.delftstack.com/howto/csharp/get-all-files-in-a-directory-in-csharp/ 
+                               https://www.codegrepper.com/code-examples/csharp/C%23+get+folder+name 
+
+ WPF  CRUD =======> https://dotnetgenetics.blogspot.com/2021/02/wpf-crud-with-datagrid-mvvm-entity.html
+                                     https://docs.microsoft.com/en-us/dotnet/desktop/wpf/data/how-to-create-and-bind-to-an-observablecollection?view=netframeworkdesktop-4.8
+
+  IIS ==========> https://www.rootusers.com/how-to-install-iis-in-windows-server-2019/
+
+***************************************************************************************************************************
+
+ 
+ICOMMANDS
+https://www.codeproject.com/Tips/813345/Basic-MVVM-and-ICommand-Usage-Example
