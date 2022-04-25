@@ -22,6 +22,26 @@ WPF
   *** https://www.codeguru.com/dotnet/using-sqlite-in-a-c-application/
 
 ******************************************************************************************************
+ NAVIGATE MVVM
+  https://rachel53461.wordpress.com/2011/12/18/navigation-with-mvvm-2/
+
+******************************************************************************************************
+ GET FILES
+  ** https://www.codegrepper.com/code-examples/csharp/C%23+get+all+files+in+directory
+       https://github.com/PrismLibrary/Prism-Samples-Wpf
+
+******************************************************************************************************
+ PRISM  WPF
+   https://prismlibrary.com/docs/wpf/getting-started.html
+   https://github.com/PrismLibrary/Prism-Samples-Wpf
+  examples = https://github.com/microsoft/WPF-Samples
+
+ REGIONES MVVM  WPF
+  https://stackoverflow.com/questions/63133555/how-to-inject-a-view-into-a-region-via-view-model-at-program-start
+
+ 1- https://www.youtube.com/watch?v=iTUy6AlyDgA&t=73s&ab_channel=WpfWorld
+
+******************************************************************************************************
  UI ======>https://www.youtube.com/watch?v=PzP8mw7JUzI&ab_channel=Payload
 
  EXAMPLE UI

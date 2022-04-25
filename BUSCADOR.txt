@@ -2,5 +2,6 @@ BUSCADOR
 
 
   * SONIC   https://www.youtube.com/watch?v=rNCGwggC1RI
+      https://github.com/valeriansaliou/sonic
   * https://github.com/nextapps-de/flexsearch
   * https://www.meilisearch.com/

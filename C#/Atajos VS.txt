@@ -7,3 +7,5 @@ Atajos
  cmd (luego TAB)  ============> Command de ViewModels
 
  ctrl + .
+
+ ctor   +  2 TABS =====================> CONSTRUCTOR
