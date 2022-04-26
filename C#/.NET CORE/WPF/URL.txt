@@ -30,6 +30,7 @@ WPF
   ** https://www.codegrepper.com/code-examples/csharp/C%23+get+all+files+in+directory
        https://github.com/PrismLibrary/Prism-Samples-Wpf
 
+ **** https://www.c-sharpcorner.com/article/c-sharp-write-to-file/
 ******************************************************************************************************
  PRISM  WPF
    https://prismlibrary.com/docs/wpf/getting-started.html
