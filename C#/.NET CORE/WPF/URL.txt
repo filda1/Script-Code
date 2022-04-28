@@ -32,6 +32,9 @@ WPF
 
  **** https://www.c-sharpcorner.com/article/c-sharp-write-to-file/
 ******************************************************************************************************
+ SFTP
+   https://www.c-sharpcorner.com/blogs/sftp-file-upload-with-c-sharp-application
+******************************************************************************************************
  PRISM  WPF
    https://prismlibrary.com/docs/wpf/getting-started.html
    https://github.com/PrismLibrary/Prism-Samples-Wpf
