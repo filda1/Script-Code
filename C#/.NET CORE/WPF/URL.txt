@@ -35,6 +35,10 @@ WPF
  SFTP
    https://www.c-sharpcorner.com/blogs/sftp-file-upload-with-c-sharp-application
 ******************************************************************************************************
+ COPIAR FILES DE SITIO PARA OTRO
+  https://www.c-sharpcorner.com/blogs/copy-files-from-one-directory-to-another1
+** https://stackoverflow.com/questions/15140212/copy-files-from-one-location-to-another
+******************************************************************************************************
  PRISM  WPF
    https://prismlibrary.com/docs/wpf/getting-started.html
    https://github.com/PrismLibrary/Prism-Samples-Wpf

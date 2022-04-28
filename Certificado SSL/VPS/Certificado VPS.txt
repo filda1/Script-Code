@@ -25,17 +25,21 @@ Tutorial em: https://certbot.eff.org/lets-encrypt/windows-other
  ***********************************************************************************************
 https://quality.wattinvoice.com/login  ==========> QTA = RDP   .......38:50389
 https://wattinvoice.com/login   ================> PRO = RDP .....54:50389
- 
+                                                        
 ************************************************************************************************
 Para renovar o certificado: 
 
 1. Parar o serviço do web server do watt: watt-www-quality (ou watt-www-prod) 
+
+ 1.1- Ativar (Enable Rules) la regla Geral80 =========> en Firewall
 
 2. Abrir cmd como admin e executar: certbot renew 
 
 3. No fim vai indicar em que pasta gerou os ficheiros: privkey.pem e cert.pem 
 
 4. Copiar os ficheiros para a pasta adequada (definida na config.json do Watt) (geralmente é a  backend\web-server\assets) 
+
+ 4.1- Desactivar (Disable Rules) la regla Geral80 =========> en Firewall
 
 5. Arrancar novamente o serviço watt-www-quality (ou watt-www-prod) 
 

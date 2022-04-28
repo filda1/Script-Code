@@ -22,14 +22,17 @@ CREAR RAMA
  CAMBIAR RAMA
 >>> git checkout test
 
- MEZCLA RAMA A master
+ MEZCLA RAMA A master     ==========> (MERGE)
 >>> git checkout master (Primero cambiar de rama )
 >>> git merge test
 >>  git push
 
+MERGE:  VISUAL CODE ======> https://www.youtube.com/watch?v=hWKw2N0KdME&ab_channel=myzingonline
+
 Sino funcion : poner luego:  >> git fetch
                              >>  git checkout master
                              >> git push
+
 
  ACTUALIZAR  2 PERSONAS DEL MISMO REPOSITORIO 
  >> git fetch  =============> local
