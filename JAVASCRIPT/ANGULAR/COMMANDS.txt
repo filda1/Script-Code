@@ -52,3 +52,33 @@
     nombre.module.ts     =================> Export/Import Componente, Modules
     app.route.module.ts  =================> Registro De Routes
     app.module.ts ========================> Registro de Componentes
+
+
+***************************************************************************************************** 
+
+ FUNDAMENTO DE LAS OBSERVABLE 
+
+  ***https://www.youtube.com/watch?v=Bg47WHVc020&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G&index=123&ab_channel=LoianeGroner
+  video 120
+
+
+.TS
+ ngOnIniy(){
+     this.services.list()
+     .subscribe( console.log )       =============================> El Subscribe es un escuchador De Observable.  PRINT Data
+}
+
+--
+.SERVICES
+
+
+ lis() {
+    return this.http.get<Curso[]>(this.API)
+     .pipe(
+         tap (consiloe.log)       ===========================> Print DATA .  Al Utilizar HttpCliente, automaticamte se convierte en una Obsevable
+     )
+ }
+
+
+
+*****************************************************************************************************
