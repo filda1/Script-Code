@@ -19,6 +19,12 @@
  https://www.youtube.com/watch?v=qGvteC3dZnk&ab_channel=TechnicalBabaji
 
 **************************************************************************************
+ Sequelize REST API (usando Postgres)
+
+ https://www.youtube.com/watch?v=3xiIOgYdbiE&ab_channel=FaztCode
+ **https://github.com/FaztWeb/nodejs-sequelize-restapi-postgres
+
+**************************************************************************************
 
  STRAPI
 
