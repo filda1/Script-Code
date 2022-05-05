@@ -35,6 +35,12 @@ LARAVEL ZERO _ CONSOLE ====> https://laravel-zero.com/docs/installation
 
         EMPRESA = https://www.sodexobeneficios.pt/rede-de-parceiros/#rede-parceiros_map
 ***************************************************************************************************************
+ LARAVEL LANG
+  
+  ***  Coders Free = https://www.youtube.com/watch?v=gL5oO63sT5I&ab_channel=CodersFree
+         https://laravel-lang.com/installation/
+
+***************************************************************************************************************
   LARAVEL TRASLATE 
 
          https://blog.quickadminpanel.com/how-to-add-multi-language-models-to-laravel-quickadminpanel-2020/

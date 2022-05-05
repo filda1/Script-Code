@@ -1,0 +1,8 @@
+ TUTORIAL PYTHON
+
+ 1-  Rango/Rebanado/ Porcion/Substring   de cadenas
+
+ variable[ inicio: para ] 
+
+  fanta[ :  ]   ======>  fanta ( Indice de 0 a 5, Vacios son : primer indice y ultimo indice)
+  fanta[ 0:  3]   ======>  fan ( Indice de 0 a 3)

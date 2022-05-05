@@ -109,6 +109,14 @@ WPF
 
   IIS ==========> https://www.rootusers.com/how-to-install-iis-in-windows-server-2019/
 
+****************************************************************************************************************************
+   LEER TXT/CVS MATRIZ
+
+  https://es.stackoverflow.com/questions/446064/como-leer-una-matriz-desde-un-txt-c
+ ** https://parzibyte.me/blog/2021/09/18/leer-interpretar-csv-c-sharp/
+
+Al contrario =======> https://code-examples.net/es/q/6d77bd
+
 ***************************************************************************************************************************
 
  

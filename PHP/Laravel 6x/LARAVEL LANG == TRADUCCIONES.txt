@@ -1,0 +1,15 @@
+ LARAVEL LANG == TRADUCCIONES
+  
+  ***  Coders Free = https://www.youtube.com/watch?v=gL5oO63sT5I&ab_channel=CodersFree
+         https://laravel-lang.com/installation/
+
+---
+
+ >> composer require laravel-lang/lang --dev
+
+
+* Dentro de =========> vendor/laravel-lang/lang 
+              1-  Copias las Carpetas del IDIOMA 
+              2- Pegas dentro de Carpeta  ===> lang ( esta afuera)
+              3-   EN app.php  =====> Buscas:
+                    locale = "es "   y  cambias el IDIOMA x DEFECTO
