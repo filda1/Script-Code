@@ -1,0 +1,12 @@
+ INDEXOF == SACA EL INDEX DE UN VALOR
+*********************************************************************************************
+
+1-  cadena.indexOf(valor )   ==============================> Returna el INDEX del valor
+2-  cadena.indexOf(valorBusqueda, indiceDesde )
+    
+
+var priceList = [10, 8, 2, 31, 10, 1, 65];
+var index3 = priceList.indexOf(10, 1);
+console.log(index3); // 4
+
+*********************************************************************************************
