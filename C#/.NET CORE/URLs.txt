@@ -13,6 +13,15 @@
    https://www.thecodebuzz.com/jwt-authorize-swagger-using-ioperationfilter-asp-net-core/
 
 ******************************************************************************************
+ INSERTAR  10 MILLONES EN DB
+
+  https://www.youtube.com/watch?v=sVoYqnGai_I
+  https://www.youtube.com/watch?v=Mq2ioLZMMCo&ab_channel=gavilanch2
+******************************************************************************************
+ HANGFIRE == PRCESSOS DE TAREAS
+   https://www.youtube.com/watch?v=A5TkKShmNO4&ab_channel=gavilanch2
+
+******************************************************************************************
  gRPC
   (hdeleon.net) =====https://www.youtube.com/watch?v=pvBIb1Pfcf8&ab_channel=hdeleon.net
 
