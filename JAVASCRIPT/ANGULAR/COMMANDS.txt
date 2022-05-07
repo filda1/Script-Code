@@ -58,6 +58,8 @@
 
  FUNDAMENTO DE LAS OBSERVABLE 
 
+1- FORMA
+
   ***https://www.youtube.com/watch?v=Bg47WHVc020&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G&index=123&ab_channel=LoianeGroner
   video 120
 
@@ -80,5 +82,21 @@
  }
 
 
+2- FOTMA DE OBSERVABLE + OPTIMIZADA
+   **https://www.youtube.com/watch?v=dKFeXl96nsA&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G&index=125&ab_channel=LoianeGroner
+
+ -Http GET + Pipe Async
+
+
+.TS
+cursos$: Observable<Cursos[]>
+
+ngOnIniy(){
+     this.cursos$ = this.services.list()
+
+.HTML
+
+ *nIf = " cursos$ | async as cursos"
+    
 
 *****************************************************************************************************

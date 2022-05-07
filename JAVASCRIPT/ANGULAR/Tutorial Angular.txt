@@ -43,6 +43,55 @@ COMPONENTE PUBLICO
 //                //
 ////////////////////
 
+ 
+
+***************************************************************************************************** 
+
+ FUNDAMENTO DE LAS OBSERVABLE  - 2 FORMAS
+
+1- FORMA
+
+  ***https://www.youtube.com/watch?v=Bg47WHVc020&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G&index=123&ab_channel=LoianeGroner
+  video 120
+
+
+.TS
+ ngOnIniy(){
+     this.services.list()
+     .subscribe( console.log )       =============================> El Subscribe es un escuchador De Observable.  PRINT Data
+}
+
+--
+.SERVICES
+
+
+ lis() {
+    return this.http.get<Curso[]>(this.API)
+     .pipe(
+         tap (consiloe.log)       ===========================> Print DATA .  Al Utilizar HttpCliente, automaticamte se convierte en una Obsevable
+     )
+ }
+
+
+2- FOTMA DE OBSERVABLE + OPTIMIZADA
+   **https://www.youtube.com/watch?v=dKFeXl96nsA&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G&index=125&ab_channel=LoianeGroner
+
+ -Http GET + Pipe Async
+-----
+
+.TS
+cursos$: Observable<Cursos[]>
+
+ngOnIniy(){
+     this.cursos$ = this.services.list()
+
+.HTML
+
+ *nIf = " cursos$ | async as cursos"
+    
+
+*****************************************************************************************************
+
 
 Modulos: son para registrar en exporta/impotar servicios,depedencias... para ser accesibles
 

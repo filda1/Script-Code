@@ -18,8 +18,9 @@
   https://www.youtube.com/watch?v=sVoYqnGai_I
   https://www.youtube.com/watch?v=Mq2ioLZMMCo&ab_channel=gavilanch2
 ******************************************************************************************
- HANGFIRE == PRCESSOS DE TAREAS
+ HANGFIRE == PRCESSOS DE TAREAS = TAREAS PROGRAMADAS
    https://www.youtube.com/watch?v=A5TkKShmNO4&ab_channel=gavilanch2
+ *** MACORATTI === https://www.youtube.com/watch?v=eBZ3Qpr6S60&t=58s&ab_channel=JoseCarlosMacoratti
 
 ******************************************************************************************
  gRPC
