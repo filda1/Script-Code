@@ -16,6 +16,9 @@ Bibliotecas y Frameworks mencioandos:
 
 
 *********************************************************************************************************
+ PLUGIN MANEJAR OBJETOS ======> DOT-PROP
+ https://www.npmjs.com/package/dot-prop
+*********************************************************************************************************
 Javascript Arrays - Metodos (map, filter, reduce, sort, etc.)
        (FATZ ) ====> https://www.youtube.com/watch?v=qqR1enOceVg
 

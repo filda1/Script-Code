@@ -9,6 +9,9 @@
                                      https://github.com/FaztWeb/node-sqlserver-restapi
 
 **************************************************************************************
+ EXTRAER DATOS DE EXCEL
+   https://steemit.com/hive-193637/@jfdesousa7/tutorial-aprende-a-leer-un-archivo-excel-y-obtener-sus-datos-con-node-js
+**************************************************************************************
  NODE + BLOCKCHANGE
 
  (Carlos Azaustre) https://www.youtube.com/watch?v=RFSZDYszFWQ&ab_channel=CarlosAzaustre-AprendeJavaScript
