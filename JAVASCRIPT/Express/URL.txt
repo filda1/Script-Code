@@ -9,7 +9,8 @@
                                      https://github.com/FaztWeb/node-sqlserver-restapi
 
 **************************************************************************************
- EXTRAER DATOS DE EXCEL
+ EXTRAER DATOS DE EXCEL 
+   >> npm i xlsx       (https://www.npmjs.com/package/xlsx)
    https://steemit.com/hive-193637/@jfdesousa7/tutorial-aprende-a-leer-un-archivo-excel-y-obtener-sus-datos-con-node-js
 **************************************************************************************
  NODE + BLOCKCHANGE

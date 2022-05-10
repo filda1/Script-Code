@@ -22,8 +22,10 @@
                                                                     https://github.com/FaztTech/ReactGallery
 
 ********************************************************************************************************************
+
  REACT BOOKING UI (Lama deV)
   https://www.youtube.com/watch?v=RkWpJ4XUHuw&ab_channel=LamaDev
+ https://www.youtube.com/watch?v=k3Vfj-e1Ma4&ab_channel=LamaDev
  https://github.com/safak/youtube2022/tree/react-booking-ui
 ********************************************************************************************************************
  INSERTAR TEMPLATE BOOSTRAPT EN REACT

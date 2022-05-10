@@ -10,6 +10,9 @@ WEB
    https://app.seg-social.pt/sso/login?service=https%3A%2F%2Fapp.seg-social.pt%2Fptss%2Fcaslogin
 
 ****************************************************************
+XLSZ WEB
+   https://products.conholdate.app/conversion/xlsx-to-xml#supported-formats
+****************************************************************
 
  COPY SITES 
         =====> http://www.httrack.com
