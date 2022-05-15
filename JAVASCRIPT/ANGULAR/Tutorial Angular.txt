@@ -117,7 +117,12 @@ Modulos: son para registrar en exporta/impotar servicios,depedencias... para ser
 
 8. PIPES : sirven para transformar los datos
 
-9. OBSERVABLES =====> SON, STORES de almacenamiento (https://www.danywalls.com/how-to-share-data-between-components-in-angular#heading-using-service-with-behavior-subject)
+9. OBSERVABLES =====> 
+        VARABLE OBSERVABLE  (Ya tiene subscribe dentro. Ej: variable$ / o hay q ponerlo)   < ====================== services HTTP (OBSERVABLE)
+
+         - CUANDO Hacemos Un HTTP se Convierte en ==OBSERVABLE
+         - Y Para escuchar  cada Observable necesitamos un SUBCRIBE
+         SON, STORES de almacenamiento (https://www.danywalls.com/how-to-share-data-between-components-in-angular#heading-using-service-with-behavior-subject)
                     * VALIDACIONES EN OBSEVABLES
                      - Dentro de, Subcribe( Se puede hacer Validaciones)
                      - Poniendo un punto, .pipe ( map(se puede hacer validaciones) )
@@ -126,9 +131,18 @@ Modulos: son para registrar en exporta/impotar servicios,depedencias... para ser
                       *https://www.youtube.com/watch?v=pAGAtspXnyc&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G&index=116&ab_channel=LoianeGroner 
 
                    2 FORMAS DE OBSERVABLES
-                      1. Las Que se GUarda en VARIBLE que es La Observable
-                       2. Y Otra que es q viene de un metodo de service en Foma de OBSERVABLE, y despue sla guardamos EN ARRRAY
+                      1. Las Que se GUarda en VARIBLE$ que es La Observable( Estas son variables Observable: varible$  == Que es una Obsevabls con Suscripcion)
+                      2. Y Otra que es q viene de un metodo de service en Foma de OBSERVABLE, y despue sla guardamos EN ARRRAY
+                                 Es poner el,  .subscribe
+                      3. Tambien tenemos this.sub:subcribe para guardar la subcripcion( Funciona Igual A variable OBSERVABLE)
 
+                      **** Tambien puedes Guardar un Observable SUBJECT, dentro de una Varible OBSERVABLE
+                          EJ. - Hacemos Http y guardamos en Varible OBSERVABLE SUBJECT Y depues esa varible la guardamos en VAriable OBSERVABLE
+
+
+                TAMBIEN HAY QUE ====>    Unsubscribe  =============>  #123: Http + RxJS: Unsubscribe Automático
+                                                          https://www.youtube.com/watch?v=0w2i7h5c9jk&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G&index=126&ab_channel=LoianeGroner
+               ----------------------------------------------
                     ej:  this.formulario.get('endereço.estado').valueChanges
                             .pipe(
                                tap()
@@ -138,6 +152,8 @@ Modulos: son para registrar en exporta/impotar servicios,depedencias... para ser
                                tap( console.log)
                             )
                             .subscribe()
+
+
 
 10. ng-content =========> Se pone dentro del Hijo Html y recibe desde los Padres Html el contenido desde ahi
 
@@ -428,4 +444,8 @@ https://material.angular.io/components/button/api)
 
 
   < *ngFor="let product of products"  >
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
    

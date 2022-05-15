@@ -13,6 +13,24 @@ WPF
     http://materialdesigninxaml.net
     https://github.com/MaterialDesignInXAML/MaterialDesignInXamlToolkit/wiki/Projects-using-Material-Design
     https://help.syncfusion.com/extension/wpf-extension/syncfusion-project-templates-for-wpf
+******************************************************************************************************
+ TEMPLATE UI
+   https://github.com/lepoco/wpfui
+  https://github.com/Kinnara/ModernWpf
+
+ SAMPLE
+**https://www.youtube.com/playlist?list=PLe_Naf3_gfQmP-OL4gzDREMSCPjLIoEgd
+
+  https://github.com/jdscodelab/File-Manager-UI-Wpf
+**JD's Code Lab === https://www.youtube.com/watch?v=LbO_EeYi7zk
+  
+  datagrid === https://www.youtube.com/watch?v=DPbanNt1Ss4
+
+*https://www.youtube.com/watch?v=nAJfB7N-vfY
+ *https://www.youtube.com/watch?v=8Lv1elXm-iE&list=PLvA3V2O0S6Rhyt6KY1pZOl1mS0bdE3sFI&index=5
+ *https://www.youtube.com/watch?v=DLttgEEf6lE
+  *https://www.youtube.com/watch?v=EfXz4C5cSVI
+   https://github.com/terjeio/ioSender
 
 ******************************************************************************************************
     Switching Between Multiple Views in MVVM - EASY WPF (.NET CORE)    de  SingletonSean
