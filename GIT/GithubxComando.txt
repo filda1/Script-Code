@@ -118,7 +118,12 @@ REMOVE RAMA LOCAL
 
   4- Para Certificar y ver, vas Al USER del Repositorio =========> Buscar la NUEVA RAMA y el cambio hecho.
 
-         
+
+
+*******************************************************
+  USER CON TOKEN
+   git remote set-url origin https://USERNAME@github.com/USERNAME/PROJECTNAME.git
+   git push    
 
 ----------------------------------------------------------
 

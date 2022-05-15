@@ -4,7 +4,9 @@ WPF
    https://www.youtube.com/watch?v=xNl-af-I0Rc&ab_channel=TacticDevs
 
    Tuto =============>https://www.youtube.com/c/pildorasinformaticas/search?query=WPF
-   TUTO =====> https://wpf-tutorial.com/es/398/comenzando/visual-studio-community/
+  *** TUTO =====> https://wpf-tutorial.com/es/398/comenzando/visual-studio-community/
+
+ ***DOC MICROSOFT ======> https://docs.microsoft.com/en-us/dotnet/desktop/wpf/controls/styles-templates-overview?view=netdesktop-6.0
 
 ******************************************************************************************************
   MATERIAL DESIGN
@@ -31,6 +33,17 @@ WPF
        https://github.com/PrismLibrary/Prism-Samples-Wpf
 
  **** https://www.c-sharpcorner.com/article/c-sharp-write-to-file/
+******************************************************************************************************
+UPLOAD FILES
+   https://www.c-sharpcorner.com/article/upload-any-file-using-http-post-multipart-form-data/
+******************************************************************************************************
+ SHELL
+ https://proyectoa.com/foros/tema/ejecutar-comando-powershell-desde-net-c/
+ https://programmerclick.com/article/6210593014/
+ https://microsoft.public.es.dotnet.vb.narkive.com/XXW4BSN7/ejecutar-programa-desde-net
+
+  string path = "C:\\Program Files\\WinRAR\\WinRAR.exe";
+ System.Diagnostics.Process.Start(path,"");
 ******************************************************************************************************
  SFTP
    https://www.c-sharpcorner.com/blogs/sftp-file-upload-with-c-sharp-application
@@ -122,3 +135,29 @@ Al contrario =======> https://code-examples.net/es/q/6d77bd
  
 ICOMMANDS
 https://www.codeproject.com/Tips/813345/Basic-MVVM-and-ICommand-Usage-Example
+
+
+****************************************************************************************************************************
+
+winged kraken
+
+ prism.core
+ prism.wpf
+ prism.dryloc
+
+ **********************
+ ADICIONAR PRISM USER CONTROL
+  carpeta VIEW (click derecho = ===>Add item ====> PRISM ===> wpf ====> Prism UserControl
+
+C:\Users\dasil\source\repos
+***** https://www.c-sharpcorner.com/article/request-navigate-in-prism/
+*** https://www.c-sharpcorner.com/UploadFile/87b416/creating-a-wfp-application-using-the-prism/
+https://www.codeproject.com/Articles/5272562/Prism-for-WPF-A-Basic-Primer
+----
+EXAMPLE WPf
+ 17
+ 18
+ UsingCompositeCommnads (tabs)
+ ViewDycovery =======> View Principal
+
+*******************************************************************************************************************************

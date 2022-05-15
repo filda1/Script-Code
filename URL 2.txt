@@ -23,6 +23,12 @@ FLUTER
    PG ADMIN BD postgres
      https://medium.com/@vapurrmaid/getting-started-with-heroku-postgres-and-pgadmin-run-on-part-2-90d9499ed8fb
 ******************************************************************************************************************
+TERMINAL ALACRITTY
+
+  Alacritty - Terminal Emulator - Windows HowTo
+ https://www.youtube.com/watch?v=1aw8IDH826Y&ab_channel=AndreasWunnenberg
+
+******************************************************************************************************************
   HEROKU
     
  

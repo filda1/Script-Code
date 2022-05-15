@@ -1,0 +1,4 @@
+XAMPP
+
+1- ARCHIVO SE GUARDAn ===========> hdocts
+2-   Abrir Control ==========> RUN Apache + Run Mysql

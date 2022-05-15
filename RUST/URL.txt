@@ -1,0 +1,7 @@
+ ROCKET FRAMEWORK (RUST)
+ fazt ====> https://www.youtube.com/watch?v=wmUo4PMs-AY
+ DOC =====> https://rocket.rs
+                      https://api.rocket.rs/v0.5-rc/rocket/
+
+********************************************************
+ INSTALL RUST ======>DOC =  https://www.rust-lang.org/es/learn/get-started
