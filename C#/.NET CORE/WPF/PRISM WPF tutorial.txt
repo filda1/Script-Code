@@ -1,0 +1,51 @@
+
+    winged kraken
+
+ prism.core
+ prism.wpf
+ prism.dryloc
+
+Tutoriais
+   https://prismlibrary.com/docs/wpf/getting-started.html
+   https://github.com/PrismLibrary/Prism-Samples-Wpf
+  examples = https://github.com/microsoft/WPF-Samples
+
+ **********************
+
+CREAR MOULO
+  1-SOLUTION del PROYECTO ====> ADD ===> Prism MOdule (WPF )  =======> OJO:Cuidado con compatibilidad .netNumero
+  2. EN PROYECTO =====> Adicionar referencia(Del module) , ir reference ===> boton derecho===> proyect ===> Y adicionar ModuleNombre
+
+ADICIONAR PRISM USER CONTROL en MODULE
+  carpeta VIEW del MODULE (click derecho = ===>Add item ====> PRISM ===> wpf ====> Prism UserControl
+
+** REGISTRTA 2 COSAS:
+      1- En Modulo ====> ModuleXModule.cs =====> Registrar Vistas:
+               public void RegisterTypes(IContainerRegistry containerRegistry)
+        {
+            containerRegistry.RegisterForNavigation<ViewA>();
+            containerRegistry.RegisterForNavigation<ViewB>();
+        }
+     2- Y em App.cs ====> Registrar Module:
+         protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)
+        {
+            moduleCatalog.AddModule<ModuleMaster.ModuleMasterModule>();
+
+        }
+
+
+ ** Inciar con View Principal:
+       En MainWindows.xmal.cs =====>   regionManager.RegisterViewWithRegion("ContentRegion", typeof(viewA));
+
+**********************************************************************************************
+
+C:\Users\dasil\source\repos
+***** https://www.c-sharpcorner.com/article/request-navigate-in-prism/
+*** https://www.c-sharpcorner.com/UploadFile/87b416/creating-a-wfp-application-using-the-prism/
+https://www.codeproject.com/Articles/5272562/Prism-for-WPF-A-Basic-Primer
+----
+EXAMPLE WPf
+ 17
+ 18
+ UsingCompositeCommnads (tabs)
+ ViewDycovery =======> View Principal

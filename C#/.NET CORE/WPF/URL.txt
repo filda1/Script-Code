@@ -139,25 +139,6 @@ https://www.codeproject.com/Tips/813345/Basic-MVVM-and-ICommand-Usage-Example
 
 ****************************************************************************************************************************
 
-winged kraken
 
- prism.core
- prism.wpf
- prism.dryloc
-
- **********************
- ADICIONAR PRISM USER CONTROL
-  carpeta VIEW (click derecho = ===>Add item ====> PRISM ===> wpf ====> Prism UserControl
-
-C:\Users\dasil\source\repos
-***** https://www.c-sharpcorner.com/article/request-navigate-in-prism/
-*** https://www.c-sharpcorner.com/UploadFile/87b416/creating-a-wfp-application-using-the-prism/
-https://www.codeproject.com/Articles/5272562/Prism-for-WPF-A-Basic-Primer
-----
-EXAMPLE WPf
- 17
- 18
- UsingCompositeCommnads (tabs)
- ViewDycovery =======> View Principal
 
 *******************************************************************************************************************************
