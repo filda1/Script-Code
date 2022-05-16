@@ -43,6 +43,10 @@
    https://update.angular.io/?l=2&v=5.2-13.0
 
 ****************************************************************************************************************
+ SHELLjs
+   https://rafaellaurindo.com.br/como-executar-comandos-unix-com-javascript-e-nodejs/
+
+*********************************************************************************************************
  PLUGIN VALIDATION (ng2-validations)
 
   https://www.npmjs.com/package/ng2-validation

@@ -14,6 +14,9 @@ Bibliotecas y Frameworks mencioandos:
 * Animations: gsap greensock
 * Hardware: Johnny-five.io, node red, iot.js
 
+*********************************************************************************************************
+ SHELLjs
+   https://rafaellaurindo.com.br/como-executar-comandos-unix-com-javascript-e-nodejs/
 
 *********************************************************************************************************
  PLUGIN MANEJAR OBJETOS ======> DOT-PROP
