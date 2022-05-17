@@ -4,14 +4,16 @@
  memo   ======> evita rederenrizacion inecesaria del COMPONENTE
    * https://www.youtube.com/watch?v=sBA_SDhIPqQ
 
- useMemo ======>    NO Renderiza los que tien memo ==========> por Los componentes de Afuera
+ useMemo ======>    NO Renderiza los que tienen memo ==========> por Los componentes de Afuera
                    * LOS COMPONENTES IMPIDE O IGNORA  El componente que usa useMemo
                    * Los Otros Componentes se vuelven mas rapidos e ignoran al de Use Memo
                    * El Componente de useMemo al ser utlizado queda igual, que renderizar todo
 
                    RECARGA/RENDERIZA SOLO EL COMPONENTE Q NECESITA, NO TODA LA APLICACION ===== > RENDERIZACION INDEPENDIENTE de un componente/s
 
- useCallback ======> Son Renderizaciones especificas. Normamente es una FUNCION con una dependencia
+ useCallback ======> Son Renderizaciones especificas. Normamente es una FUNCION con una dependencia 
+
+ useEvent (NUEVO= ======>
 
  useParam =========> Extrae parametros de url
  history ===========> obtiene todas nombres de la routes de la aplicacion
