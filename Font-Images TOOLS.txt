@@ -13,6 +13,10 @@
   https://convert-excel-to-xml.informer.com
 
 **********************************************************************************
+ MY COMPILER
+
+ https://www.mycompiler.io/new/rust
+**********************************************************************************
 
    PAINT ONLINE
 
@@ -25,6 +29,18 @@
 https://devdocs.io
   
 https://www.youtube.com/watch?v=8zZr-2KVb4I&ab_channel=VictorRoblesWEB
+**********************************************************************************
+ GRAVADOR DE COMDS DEL TERMINAL = asciinema
+ fatz = https://www.youtube.com/watch?v=Obnocc2UC6o&ab_channel=FaztCode
+ https://asciinema.org
+
+**********************************************************************************
+ BASE DE DATOS
+  DBeaver CP
+ Heidi
+ Toad sql server
+ MMsqlserver
+
 **********************************************************************************
 
   DIAGRAMAS ONLINE

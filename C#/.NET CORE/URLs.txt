@@ -13,6 +13,9 @@
    https://www.thecodebuzz.com/jwt-authorize-swagger-using-ioperationfilter-asp-net-core/
 
 ******************************************************************************************
+WINDOWS SERVICE
+  https://www.c-sharpcorner.com/article/create-windows-services-in-c-sharp/
+******************************************************************************************
  INSERTAR  10 MILLONES EN DB
 
   https://www.youtube.com/watch?v=sVoYqnGai_I

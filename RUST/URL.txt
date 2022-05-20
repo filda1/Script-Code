@@ -5,3 +5,9 @@
 
 ********************************************************
  INSTALL RUST ======>DOC =  https://www.rust-lang.org/es/learn/get-started
+   FATZ =========> https://www.youtube.com/watch?v=jJ4LxwV6qFY
+
+*******************************************************
+ TAURI (Desktop) ========> fatz
+             https://www.youtube.com/watch?v=j0zLC_sOLAY
+             https://github.com/FaztWeb/tauri-overview

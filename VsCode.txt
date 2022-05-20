@@ -36,6 +36,8 @@ https://dev.to/thegeoffstevens/50-vs-code-themes-for-2020-45cc
  IntelliSense for CSS class names in HTML
  Angular Extension Packb (Loiane Groner)
  HTML Snippets
+ rust-analyzer
+ Better Comments 
 
  thunder client
  BAnner Comment

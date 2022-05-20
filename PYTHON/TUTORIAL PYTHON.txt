@@ -1,5 +1,9 @@
  TUTORIAL PYTHON
 
+ ****** COMPILADOR WEB ========> https://www.programiz.com/python-programming/online-compiler/ 
+tuto = https://www.w3schools.com/python/python_strings_slicing.asp
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
  1-  Rango/Rebanado/ Porcion/Substring   de cadenas
 
  variable[ inicio: para ] 
