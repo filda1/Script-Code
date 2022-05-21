@@ -1,0 +1,32 @@
+
+
+ OBJETOS
+
+ function Person(x, y) {
+   this.name = x
+   this.lasname =y
+   this.myMethod  = function(){
+
+    return this.name
+  }
+}
+
+const pedro = new Person('Pedro', 'Dias')
+pedro.name = "Juan"
+pedro.myMethod()
+
+
+-----------------------------------------------------------
+
+ADICIONAR PROPIEDAD/METODO AL OBJ =================> Prototype
+
+Person.prototype.display = function(){
+   return this.name
+}
+Person.prototype.age = 30
+
+console.log(pedro.age)
+
+
+
+
