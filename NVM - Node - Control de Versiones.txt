@@ -1,0 +1,8 @@
+  CONTROL DE VERSIONES (Muvhas versiones) NODE:JS  ===========> NVM
+
+   *( NVM DONWLOAD ===> https://github.com/coreybutler/nvm-windows, https://github.com/coreybutler/nvm-windows/releases)
+   * COMANDOS NVM  =====> https://www.loginradius.com/blog/async/run-multiple-nodejs-version-on-the-same-machine/
+  >> nvm ===================================> Version
+  >> nvm list ==============================> Todas las Version
+  >> nvm install 10.15.0  =====================> Ejemplo Install version 10.15.0
+  >> nvm use 8.11.1  //To enable 8.11.1 ============> CAMBIA PARA ACTIVA

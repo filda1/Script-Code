@@ -1,6 +1,9 @@
 
-
  OBJETOS
+  Fatz == https://www.youtube.com/watch?v=N_t1A39IB_8&t=3s&ab_channel=Fazt 
+
+
+1 - PRIMERA FORMA :
 
  function Person(x, y) {
    this.name = x
@@ -26,6 +29,63 @@ Person.prototype.display = function(){
 Person.prototype.age = 30
 
 console.log(pedro.age)
+***********************************************************************************
+
+2- SEGUNDA FORMA :
+
+class Person {
+  constructor( name. lastname){
+     this.name = name,
+     this. lastname = name
+  }
+
+  greet(){
+      return this.name + "," + this.lastname
+  }
+}
+
+
+const user = new Person ('' Jauan", "Pasr")
+
+user.greet()
+
+*****************************************************************************************
+
+RELACION = Asociacion
+
+ const maria = new Person ('' Maria", "Pasr")
+const pedro = new Person ('' Pedro", "Pasr")
+
+maria.parent= pedro
+
+console.log(maria)
+
+RESULT:
+Person{
+  name = Maria,
+  lastname = Pasr
+ parent= Person {
+       name = Pedro,
+      lastname = Pasr
+   }
+}
+
+
+ AGREGACION  === Metes varios OBjetos en List de Objetos
+
+ const Company = { name: "VVVV",  empleados : []  }
+
+
+const maria = new Person ('' Maria", "Pasr")
+const pedro = new Person ('' Pedro", "Pasr")
+
+Company.empleados.push(maria)
+Company.empleados.push(pedro)
+
+
+
+
+
 
 
 

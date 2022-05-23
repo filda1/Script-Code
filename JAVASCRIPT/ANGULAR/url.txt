@@ -60,7 +60,45 @@
   https://www.chartjs.org/docs/latest/samples/animations/progressive-line.html
   https://github.com/chartjs/Chart.js	
 
-********* https://echarts.apache.org/examples/en/editor.html?c=bar-large
+********* https://echarts.apache.org/examples/en/editor.html?c=bar-large 
+                  ECHARTS + ANGULAR = https://www.youtube.com/watch?v=pyjiftBb90c
+                   https://www.youtube.com/watch?v=_K7WUYITqJo
+
+
+OJO la install (ECHARTS) borra archivos:  
+   1- copiar proyecto en zip
+   2 - Y copiar a parte  node_modules
+   3- Despues de instalar echarts , sobrescribir node_modules
+
+
+npm install echarts -S@2.3.1
+npm install ngx-echarts -S@2.3.1
+
+npm install echarts -S@v2.3.1
+npm install ngx-echarts -S@v2.3.1
+
+
+ OTROs Demos =========> https://echarts.apache.org/examples/en/editor.html?c=area-simple
+                                              https://echarts.apache.org/examples/en/editor.html?c=area-time-axis
+                                              https://echarts.apache.org/examples/en/editor.html?c=candlestick-large
+                                             ***https://echarts.apache.org/examples/en/editor.html?c=bar-large
+
+EXEMPLOS:  https://echarts.apache.org/examples/en/index.html
+
+DOC OFICIAL =====> https://echarts.apache.org/en/option.html#legend
+
+ EJ:   ANGULAR + ECHARTS =======> https://www.ngdevelop.tech/data-visualization-with-echarts-in-angular-using-ngx-echarts/
+                                                              https://echarts.apache.org/examples/en/editor.html?c=line-stack
+                                                              https://github.com/ngdevelop-tech/covid19-tracker-ngx-echarts-demo/blob/master/src/app/app.component.html
+                                                              https://codesandbox.io/s/81ynml3x42?file=/src/app/app.component.html:94-105
+                                                              https://careydevelopment.us/blog/angular-create-beautiful-charts-with-ngxecharts
+
+                 npm i ngx-echarts
+                 npm i ngx-echarts@2.3.1
+                  v2.3.1 for Angular < 6
+                  https://www.npmjs.com/package/ngx-echarts
+             
+
  ** https://www.youtube.com/watch?v=lGSFqEZzc5A&ab_channel=Genka	
  **    http://krispo.github.io/angular-nvd3/#/	
  **** https://echarts.apache.org/examples/en/index.html	

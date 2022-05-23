@@ -1,0 +1,82 @@
+
+ng --version    =  ng  -v
+Angular: 5.2.9
+Angular CLI: 1.7.3
+Node: 16.15.0
+ 
+ ng config -g cli
+******************************************************************* MIGRACION  de 5.2 a 6 **********************************************************
+0 -  >> ng  -v
+   Si te pide NODE.js actulizado tines que descargar
+   
+TU ANGULAR CLI  es Menor de Lo Q te pide:
+1 -Your global Angular CLI version (12.2.16) is greater than your local version (1.7.3). The local Angular CLI version is used.
+
+2- >> npm install  --save-dev  @angular/cli@latest  --force  (Actulizar ANGULAR CLI)
+3- >>  ng update -d     ( Ver las actulizaciones que falltan)
+4 -  >>  ng update  (Si no funciona, ejecutar cada cmd paso a paso , ng update -d , te da los comandos )
+
+
+ 5-  >> npx rxjs-tslint
+      >>rxjs-5-to-6-migrate -p src/tsconfig.app.json
+
+	  * Caso de Error RXJS ========> Run >>>   rxjs-compat
+ 6 - Sustituir Http a HttpClientModule / HttpClient
+ 
+ 7- ncu ( Ver todas las dependencias q falta para actulizar)
+  8 - ncu -u  ( Actuliza todo)
+  9- npm i
+
+
+**********************************************************************************************************************************************************
+npm uninstall  --save-dev  @angular/cli@1.7.3
+npm install  --save-dev  @angular/cli@1.7.3
+
+npm install save x@latest
+
+
+versionMismatch false"
+
+
+  npm update @angular/core
+  npm update @angular/animations
+  
+  ****************************************************
+  npm i @angular/core
+  
+  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// NUEVA MIGRACION 5 a 6  /////////////////////////////////////////////////////////////
+  Angular CLI: 13.3.6
+Node: 16.15.0
+Package Manager: npm 8.5.5
+
+
+ 0 - npm i --force
+  1 -    ng -v
+  2-     npm i  @angular/cli@13.3.6 ==================> La version que te pide
+  3-   ng update ( Intalar cada/ una )
+  
+  3. 0 copiar node_modules
+   3.1 - npm i rxjs@6.6.7
+    3.2  -     ng update @angular/core@7
+	 3.3	-   ng update @angular/material@6
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+

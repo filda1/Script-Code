@@ -16,7 +16,21 @@
  MY COMPILER
 
  https://www.mycompiler.io/new/rust
+********************************************************************************** 
+ COMPILADOR REACT; ANGULAR ..... ===CODESANDBOX.io
+https://codesandbox.io/dashboard/home?workspace=0a644e01-b503-428f-b02d-dc92c6a764b9
+
+********************************************************************************** 
+
+COMPILADOR  JAVASCRIPT===  JSFIDDLE.NET
+
+https://jsfiddle.net
 **********************************************************************************
+COMPILADOR + TUTORIAL === W3SCHOOlS.COM
+
+https://www.w3schools.com/python/python_intro.asp
+
+*********************************************************************************
 
    PAINT ONLINE
 
