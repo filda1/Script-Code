@@ -1,0 +1,4 @@
+HANGFIRE-CRON JOB
+
+ gavilanch2 ====>  https://www.youtube.com/watch?v=A5TkKShmNO4&ab_channel=gavilanch2
+                                https://github.com/gavilanch/Introduccion-a-Hangfire
