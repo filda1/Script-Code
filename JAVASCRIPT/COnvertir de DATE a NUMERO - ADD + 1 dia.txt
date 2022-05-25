@@ -1,0 +1,18 @@
+//Convertir de dateb a numero
+let time1 = +new Date(2011, 0, 1)
+let time = +new Date('2011-01-01') //1293840000000
+let time30 = +new Date('2022-02-28') // 1646006400000
+let time300 = +new Date('2022-03-01') // 1646092800000
+let time3000 = +new Date('2022-03-01 00:15:00') // 1646093700000
+
+//console.log(time3000)
+
+// Adicionar + 1 dia al ultimo mes. Y convertir en numero
+const endDate = new Date('2022-02-28 00:15:00');
+
+endDate.setDate(endDate.getDate() + 1);
+
+let convert_num= Date.parse(endDate); 
+
+console.log(convert_num)
+//console.log(time3.toUTCString())
