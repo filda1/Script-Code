@@ -211,3 +211,29 @@ ADD TAG
 git tag  version1.26.1             ========> Crear Tag
 git push origin version1.26.1  =======>  ( Envio solo 1 TAG)
 git push --tags  ==================>( Envia todas TAGS)
+
+
+************************************************
+ COMMIT CON USERS DIFERENTES
+
+ git commit --author="Name <email>" -m "whatever"
+ git commit --author="Pedro <pedro@company.pt >" -m "........"
+
+*************************************************
+HISTORICOS = COMPARCIONES de CAMBIOS
+
+ git log
+
+**************************************************
+
+COMMIT INDEPENDIENTES === STAGE
+
+git status
+git add a.html
+git add b.html
+git status
+git commit -m  "......"
+git push
+
+**************************************************
+
