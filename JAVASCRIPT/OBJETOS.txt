@@ -81,8 +81,23 @@ const pedro = new Person ('' Pedro", "Pasr")
 
 Company.empleados.push(maria)
 Company.empleados.push(pedro)
+ 
+ *************************************************************************
+
+ HERENCIA
 
 
+ class Programer extends Person {
+  constructor( name. lastname){
+    super(name, lastname)  ==================> Carga el OBJ padre
+   
+  }
+
+class Person {
+  constructor( name. lastname){
+     this.name = name,
+     this. lastname = name
+  }
 
 
 
