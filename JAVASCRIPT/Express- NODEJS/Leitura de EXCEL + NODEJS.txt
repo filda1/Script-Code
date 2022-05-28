@@ -1,0 +1,209 @@
+    >>>>  npm i xlsx  (INSTALL)
+
+"node-xlsx": "^0.21.0",
+   "read-excel-file": "^5.3.2"
+
+https://steemit.com/hive-193637/@jfdesousa7/tutorial-aprende-a-leer-un-archivo-excel-y-obtener-sus-datos-con-node-js
+*************************************************************
+      //Extract data from xlsx and convert it to json
+      //Directory of the file where it is stored
+      /* const xlsxPath = path.join(config.paths.loadDiagramStorage, nif, filename);
+        const dataExcel = await xlsxFile(xlsxPath);
+        for (var i  in dataExcel) {
+            var row = {
+              date: dataExcel[i][0],
+              edis: dataExcel[i][1],
+      
+            };
+            resultExcelToJson.push(row);     
+        }*/
+
+        /*let resultExcelToJson = [];
+        for (var i  in dataExcel) {
+            var row = {
+              date: dataExcel[i][0],
+              hour: dataExcel[i][1],
+              active_power_kw : dataExcel[i][2],
+              inductive_reactive_power_kvar : dataExcel[i][3],
+              capacitive_reactive_power_kva : dataExcel[i][4],
+            };
+            resultExcelToJson.push(row);     
+        }*/
+
+        //Validate 96 rowns
+        /*if (resultExcelToJson.length != 97){
+          await logService.debug(Loggers.Service, `The doc load diagram ${nif}/${client_id}/${filename} does not have the necessary 96 lines`);
+        }*/
+
+        //Insert data de load diagram in database
+
+        /*for (let i = 1; i < resultExcelToJson.length; i++) {
+          await WattLoadDiagram.create(
+          { 
+            doc_name:nameDocNotExtensionXlsx[0].toString(),
+            nif: nif, 
+            client_id:parseInt(client_id), 
+            cpe: cpe, 
+            year_month:version,
+            interval:"15 min",
+            date_load_diagram:new Date(resultExcelToJson[i]['date']),
+            hour:resultExcelToJson[i]['hour'].toString(),
+            active_power_kw:parseFloat(resultExcelToJson[i]['active_power_kw']),
+            inductive_reactive_power_kvar: parseFloat(resultExcelToJson[i]['inductive_reactive_power_kvar']),
+            capacitive_reactive_power_kvar: parseFloat(resultExcelToJson[i]['capacitive_reactive_power_kva']),
+            date_load_diagram_string:resultExcelToJson[i]['date'].toString(),
+            location:"",
+            location_id:-1,
+            date: new Date() 
+          } as WattLoadDiagramAttributes);
+        }*/
+
+      // if(loadDiagramDocnameDB){
+        //Update
+        //await WattLoadDiagram.destroy({where: { doc_name: nameDocNotExtensionXlsx[0].toString()}});
+        /*await WattLoadDiagram.update(
+          { client_id: 88,
+
+          } as WattLoadDiagramAttributes, 
+          { where: { doc_name: nameDocNotExtensionXlsx[0].toString(), hour:"00:45" }});*/
+
+      // await this.updateLoadDiagramDB(nameDocNotExtensionXlsx[0].toString(), nif, client_id, cpe, version, "15 min", resultExcelToJson, "", -1 );
+      // }else{
+        //Insert
+      // await this.insertLoadDiagramDB(nameDocNotExtensionXlsx[0].toString(), nif, client_id, cpe, version, "15 min", resultExcelToJson, "", -1 );
+      //}
+
+
+
+********************************************************************************
+  private async InsertOrUpdateDataIntoLoadDiagramsTableDB( client_id: string, arrLoadDiagrams:string[]) : Promise<void> {
+           let reading_date: string;
+           let cpe_id: number = parseInt(client_id);
+           let active_power: number;
+           let active_power_status: number;
+           let dateNotFormatted: string;
+           let NotHourFormatted: string;
+
+           for (let i = 0; i < arrLoadDiagrams.length; i++) { 
+            dateNotFormatted = arrLoadDiagrams[i][1].substr(0,4)+"-"+arrLoadDiagrams[i][1].substr(4,2)+"-"+arrLoadDiagrams[i][1].substr(6,8);
+            NotHourFormatted = arrLoadDiagrams[i][2].substr(0,2)+":"+arrLoadDiagrams[i][2].substr(2,2);  
+            reading_date = `${dateNotFormatted}T${NotHourFormatted}:00`;
+            active_power = parseFloat(arrLoadDiagrams[i][3]);
+            active_power_status = parseInt(arrLoadDiagrams[i][4]);
+              try {
+                await wattDb.queryWithBind<any>(`
+                INSERT INTO WATT_LOAD_DIAGRAMS (cpe_id, reading_date, active_power, active_power_status)
+                VALUES ($cpe_id, DATEADD(MINUTE, -15, CONVERT(DATETIME2(0), $reading_date, 126)) AT TIME ZONE 'GMT Standard Time', $active_power, $active_power_status)`,
+                {reading_date: reading_date, cpe_id: cpe_id, active_power:active_power, active_power_status: active_power_status});
+                
+              } catch (error) {
+                //console.log("ERROR =====>", error.message);
+                await wattDb.queryWithBind<any>(`
+                UPDATE WATT_LOAD_DIAGRAMS SET cpe_id = $cpe_id, reading_date = DATEADD(MINUTE, -15, CONVERT(DATETIME2(0), $reading_date, 126)) AT TIME ZONE 'GMT Standard Time',
+                active_power = $active_power, active_power_status= $active_power_status
+                WHERE reading_date = DATEADD(MINUTE, -15, CONVERT(DATETIME2(0), $reading_date, 126)) AT TIME ZONE 'GMT Standard Time';`,
+                {reading_date: reading_date, cpe_id: cpe_id, active_power:active_power, active_power_status: active_power_status});
+              }   
+            }
+            await logService.debug(Loggers.Service, `Finished #${WattSources.ParseImportedLoadDiagramService} (ParseImportedLoadDiagramService) for ${client_id} load diagram were added to DB`);   
+    }
+
+********************************************************************************
+
+
+
+    private async insertLoadDiagramDB(doc_name:string, nif: string, client_id: string, cpe: string, year_month:string, interval:string, resultExcelToJson:string[], location:string, location_id:number) : Promise<void> {
+        try {
+            /*for (let i = 1; i < resultExcelToJson.length; i++) {
+                await WattLoadDiagram.create(
+                { 
+                 doc_name:doc_name,
+                 nif: nif, 
+                 client_id:parseInt(client_id), 
+                 cpe: cpe, 
+                 year_month:year_month,
+                 interval:interval,
+                 date_load_diagram:new Date(resultExcelToJson[i]['date']),
+                 hour:resultExcelToJson[i]['hour'].toString(),
+                 active_power_kw:parseFloat(resultExcelToJson[i]['active_power_kw']),
+                 inductive_reactive_power_kvar: parseFloat(resultExcelToJson[i]['inductive_reactive_power_kvar']),
+                 capacitive_reactive_power_kvar: parseFloat(resultExcelToJson[i]['capacitive_reactive_power_kva']),
+                 date_load_diagram_string:resultExcelToJson[i]['date'].toString(),
+                 location: location,
+                 location_id: location_id,
+                 date: new Date() 
+                } as WattLoadDiagramAttributes);
+              }*/
+
+            await logService.debug(Loggers.Service, `Finished #${WattSources.ParseImportedLoadDiagramService} (ParseImportedLoadDiagramService) for ${nif}/${client_id}/${doc_name} load diagram were added to DB`);
+        } catch (error) {
+            
+            await logService.debug(Loggers.Service, `Error #${WattSources.ParseImportedLoadDiagramService} (ParseImportedLoadDiagramService) for ${nif}/${client_id}/${doc_name} load diagram cannot save to DB. Message: ${error.message}`);
+        }
+    }
+
+    private async updateLoadDiagramDB(doc_name:string, nif: string, client_id: string, cpe: string, year_month:string, interval:string, resultExcelToJson:string[], location:string, location_id:number) : Promise<void> {
+        let numberHours = [
+            "00:00" , "00:15", "00:30", "00:45",
+            "01:00" , "01:15", "01:30", "01:45",
+            "02:00" , "02:15", "02:30", "02:45",
+            "03:00" , "03:15", "03:30", "03:45",
+            "04:00" , "04:15", "04:30", "04:45",
+            "05:00" , "05:15", "05:30", "05:45",
+            "06:00" , "06:15", "06:30", "06:45",
+            "07:00" , "07:15", "07:30", "07:45",
+            "08:00" , "08:15", "08:30", "08:45",
+            "09:00" , "09:15", "09:30", "09:45",
+            "10:00" , "10:15", "10:30", "10:45",
+            "11:00" , "11:15", "11:30", "11:45",
+            "12:00" , "12:15", "12:30", "12:45",
+            "13:00" , "13:15", "13:30", "13:45",
+            "14:00" , "14:15", "14:30", "14:45",
+            "15:00" , "15:15", "15:30", "15:45",
+            "16:00" , "16:15", "16:30", "16:45",
+            "17:00" , "17:15", "17:30", "17:45",
+            "18:00" , "18:15", "18:30", "18:45",
+            "19:00" , "19:15", "19:30", "19:45",
+            "20:00" , "20:15", "20:30", "20:45",
+            "21:00" , "21:15", "21:30", "21:45",
+            "22:00" , "22:15", "22:30", "22:45",
+            "23:00" , "23:15", "23:30", "23:45",
+        ];
+
+        try {
+            for (let i = 0; i < numberHours.length; i++) {
+             try {
+                /* await WattLoadDiagram.update(
+                 { 
+                    doc_name:doc_name,
+                    nif: nif, 
+                    client_id:parseInt(client_id), 
+                    cpe: cpe, 
+                    year_month:year_month,
+                    interval:interval,
+                    date_load_diagram:new Date(resultExcelToJson[i]['date']),
+                    hour:resultExcelToJson[i]['hour'].toString(),
+                    active_power_kw:parseFloat(resultExcelToJson[i]['active_power_kw']),
+                    inductive_reactive_power_kvar: parseFloat(resultExcelToJson[i]['inductive_reactive_power_kvar']),
+                    capacitive_reactive_power_kvar: parseFloat(resultExcelToJson[i]['capacitive_reactive_power_kva']),
+                    date_load_diagram_string:resultExcelToJson[i]['date'].toString(),
+                    location: location,
+                    location_id: location_id,
+                    date: new Date() 
+
+                 } as WattLoadDiagramAttributes, 
+                 { where: { doc_name: doc_name, hour:numberHours[i] }});
+                 */
+             }catch (error) {
+                   continue;
+             }
+            }
+
+        await logService.debug(Loggers.Service, `Finished #${WattSources.ParseImportedLoadDiagramService} (ParseImportedLoadDiagramService) for ${nif}/${client_id}/${doc_name} load diagram was already updated in DB`);
+        } catch (error) {
+            
+            await logService.debug(Loggers.Service, `Error #${WattSources.ParseImportedLoadDiagramService} (ParseImportedLoadDiagramService) for ${nif}/${client_id}/${doc_name} load diagram could not update in DB. Message: ${error.message}`);
+        }
+    }
+
+********************************************************************************

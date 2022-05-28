@@ -36,7 +36,7 @@
 ********************************************************************************************
    MIGRATIONS EF  == Crear BD y Crear Tables
 
-   En, Package Manager Console:
+   En Tools =====>Nuget Package Manager,   ======> Package Manager Console:
 
    >> add-migration Nombre
    >> update-database

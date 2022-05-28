@@ -1,10 +1,22 @@
  * https://bluuweb.github.io/nextjs/
 
 
- >> npx create-next-app nombre-proyecto
+ >> npx create-next-app nombre-proyecto       /     yarn create next-app
 
  >> cd nombre-proyecto
  >> npm run dev / yarn dev
+
+*************************************
+INSTALL ORM
+TypeORM
+    npm i  -g typeorm
+    https://typeorm.io
+
+ >> typeorm init --database postgres    ==========:  JA TE CRREA UNA MIGRACION:  MODELO  USER + CONECCION DB
+**************************************
+ INSTALL TYPESCRIPT (para NODE)
+  npm i  ts-node@latest @types/node@latest typescript@latest  
+
 
 ********************************************************************************************************
  Axios ====> npm i axios

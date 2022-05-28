@@ -1,0 +1,106 @@
+ ************************************************************************************
+  TUTORIAL NODE BLUUE WEB
+    https://bluuweb.github.io/node/07-jwt/#configuracion-inicial
+
+*************************************************************************************
+ fatz
+  Microsoft SQL Server & Nodejs REST API CRUD (+babel)
+                                     https://www.youtube.com/watch?v=ReK0kscoF8o&t=23s
+                                     https://github.com/FaztWeb/node-sqlserver-restapi
+
+**************************************************************************************
+ EXTRAER DATOS DE EXCEL 
+   >> npm i xlsx       (https://www.npmjs.com/package/xlsx)
+   https://steemit.com/hive-193637/@jfdesousa7/tutorial-aprende-a-leer-un-archivo-excel-y-obtener-sus-datos-con-node-js
+**************************************************************************************
+ NODE + BLOCKCHANGE
+
+ (Carlos Azaustre) https://www.youtube.com/watch?v=RFSZDYszFWQ&ab_channel=CarlosAzaustre-AprendeJavaScript
+
+**************************************************************************************
+ DEPLOY NODEjs APP + CPANEL
+
+ https://www.youtube.com/watch?v=qGvteC3dZnk&ab_channel=TechnicalBabaji
+
+**************************************************************************************
+ Sequelize REST API (usando Postgres)
+
+ https://www.youtube.com/watch?v=3xiIOgYdbiE&ab_channel=FaztCode
+ **https://github.com/FaztWeb/nodejs-sequelize-restapi-postgres
+
+**************************************************************************************
+
+ STRAPI
+
+  STRAPI + MYSQL
+   https://www.youtube.com/watch?v=KKWqGQKvwgQ (instalar)
+    https://www.youtube.com/watch?v=8B9r8eOje_k
+
+   *https://www.youtube.com/watch?v=8B9r8eOje_k (Tutorial)
+
+   PLUGING...
+   STORAGE ==> MEDIA LIBRARY ====> https://www.youtube.com/watch?v=gQD24HJP1mc
+   INTERNALIZACION (traduccion de datos) =====> https://www.youtube.com/watch?v=TOixZFCwe2U
+
+   STRAPI + REACT = https://www.youtube.com/watch?v=YuHk9J8Bp_k
+
+***************************************************************************************
+ PAYPAL + NODE (Fatz) = https://www.youtube.com/watch?v=sBenKZqEzpQ
+                        https://github.com/FaztWeb/nodejs-paypal
+
+ 1- Tener una cuenta normal
+ 2- Entrar ===========>  paypal developer.com, con la cuenta
+ 3- Crear un cuenta de VENDEDOR (Bussinnes) falsa, para recibir
+ 4- Crear un cuenta de COMPRADOR (Personal) falsa, para comprar
+
+ 5- Login/Logout, sandbox.paypal.com
+
+   EN google,  docs: 
+      - paypal rest api
+      - paypal create order
+      - paypal capture order
+***************************************************************************************
+ GraphQL & MySQL CRUD con Nodejs, Typescript y TypeORM (FATZ)
+
+   https://www.youtube.com/watch?v=8_DuZHJBB-k
+   https://github.com/FaztWeb/graphql-mysql-crud-typescript
+   typorm(Conecta a cualquier  Bd Sql ) ======> https://typeorm.io/#/
+
+***************************************************************************************
+ STRIPE + REACT + NODE (Fatz) ===============> https://www.youtube.com/watch?v=0Kd0LeAMGf4
+                                               https://github.com/FaztWeb/react-stripe-checkout
+        
+***************************************************************************************
+  Coinbase Commerce y Nodejs - Pagos con Crypto y Javascript (Fazt)
+
+                https://www.youtube.com/watch?v=MmSzVCrP3U8
+                https://github.com/FaztWeb/nodejs-coinbase-commerce
+
+*****************************************************************************************
+
+   AWS Lambda & DynamoDB CRUD | Serverles Framework con Nodejs y AWS
+        https://www.youtube.com/watch?v=wvux4WOU5dc
+        https://github.com/FaztWeb/nodejs-aws-lambda-crud
+
+  AWS Lambda = servicio con codigo que cinfiguro todo el servidor AWS
+
+*******************************************************************************************
+
+  NODE + TYPESCRIPT + SWAGGER (fatz)= https://www.youtube.com/watch?v=9bO0L1rfkvU&t=1s
+                                      https://github.com/FaztWeb/typescript-swagger-lowdb
+
+ NODE + REDIS =  (fatz)  = https://www.youtube.com/watch?v=QUmM8jdviLg
+
+
+
+ API ===> Lento =====> 500 ms
+          Lento =====> 1000 ms / 1s
+
+
+
+*********************************************************************************************
+  
+  DigitalOcean Spaces & Nodejs (con Mongodb) (fatz)
+
+           https://www.youtube.com/watch?v=QLwJn_F84Sg
+           https://github.com/FaztWeb/nodejs-digitalocean-spaces

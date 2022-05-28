@@ -41,7 +41,13 @@ volno
  AUTH GITHUB
    https://www.youtube.com/watch?v=cOgogGJ6_7M&t=29s&ab_channel=FaztCode (FATZ)
 
-*******************************************************************************************************************************************
+***************************************************************************************************************************************
+  NEXTJS + REDDIT
+
+   https://github.com/hidjou/classsed-reddit-clone/tree/class-19
+   https://www.youtube.com/watch?v=pXQtG-U8SQI&list=PLMhAeHCz8S38HfrRtzfzFD5NTbjgQxcpD&index=2&ab_channel=Classsed
+
+********************************************************************************
   CRUD NEXT + MYSQL
    Fatz ========> https://www.youtube.com/watch?v=7vBSeFjJCww
                   https://github.com/FaztWeb/nextjs-mysql-crud

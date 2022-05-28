@@ -226,7 +226,7 @@ HISTORICOS = COMPARCIONES de CAMBIOS
 
 **************************************************
 
-COMMIT INDEPENDIENTES === STAGE
+COMMIT INDEPENDIENTES (GRUPOS)  === STAGE
 
 git status
 git add a.html
