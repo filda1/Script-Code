@@ -28,6 +28,10 @@
  https://www.youtube.com/watch?v=3xiIOgYdbiE&ab_channel=FaztCode
  **https://github.com/FaztWeb/nodejs-sequelize-restapi-postgres
 
+************************************************************************************** 
+  LOWDB === SQLITE
+  https://www.youtube.com/watch?v=bUEDnENTB6o&ab_channel=FaztCode
+  https://github.com/FaztWeb/nodejs-restapi-lowdb
 **************************************************************************************
 
  STRAPI

@@ -1,0 +1,9 @@
+1- CONVERT DE LIST TO IENUMERABLE
+
+List<Book> list = new List<Book>();
+return list.AsEnumerable();
+
+
+2- CONVERT DE IENUMERABLE TO LIST
+
+List<object> list = enumerable.ToList();
