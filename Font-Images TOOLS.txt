@@ -13,6 +13,10 @@
   https://jsoneditoronline.org/#right=local.nihine
 
 **********************************************************************************
+ TOOLS
+  https://tinywow.com/tools/general
+
+*********************************************************************************
   XML
 
   https://convert-excel-to-xml.informer.com
@@ -21,6 +25,8 @@
  MY COMPILER
 
  https://www.mycompiler.io/new/rust
+https://www.programiz.com/python-programming/online-compiler/
+
 ********************************************************************************** 
  COMPILADOR REACT; ANGULAR ..... ===CODESANDBOX.io
 https://codesandbox.io/dashboard/home?workspace=0a644e01-b503-428f-b02d-dc92c6a764b9

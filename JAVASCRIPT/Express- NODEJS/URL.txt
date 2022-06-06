@@ -18,6 +18,10 @@
  (Carlos Azaustre) https://www.youtube.com/watch?v=RFSZDYszFWQ&ab_channel=CarlosAzaustre-AprendeJavaScript
 
 **************************************************************************************
+  Node.JS + VPS (SIM, É BEM FÁCIL)
+
+   https://www.youtube.com/watch?v=MiAiFTQjitc&ab_channel=CódigoFonteTV
+**************************************************************************************
  DEPLOY NODEjs APP + CPANEL
 
  https://www.youtube.com/watch?v=qGvteC3dZnk&ab_channel=TechnicalBabaji
@@ -47,6 +51,10 @@
    INTERNALIZACION (traduccion de datos) =====> https://www.youtube.com/watch?v=TOixZFCwe2U
 
    STRAPI + REACT = https://www.youtube.com/watch?v=YuHk9J8Bp_k
+
+***************************************************************************************
+ PUGjs
+   https://adangarnica.com/introduccion-a-la-maquetacion-con-pugjs/
 
 ***************************************************************************************
  PAYPAL + NODE (Fatz) = https://www.youtube.com/watch?v=sBenKZqEzpQ

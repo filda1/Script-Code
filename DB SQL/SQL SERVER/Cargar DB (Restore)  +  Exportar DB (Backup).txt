@@ -1,0 +1,9 @@
+ MS SQL SERVER
+
+1- Cargar nueva DB (RESTORE)
+
+Database =====> Boton Derecho ====> Device ( Carga la nueva DB y le pones un nombre)
+
+2- Exportar DB (BACKUP))
+
+Nombre de DB existente =====> Boton Derecho ====> Task =====> Backup
