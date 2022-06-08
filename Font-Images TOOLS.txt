@@ -12,6 +12,10 @@
 
   https://jsoneditoronline.org/#right=local.nihine
 
+********************************************************************************** 
+ WEB POST REDES SOCIALES
+Postly =======> https://www.youtube.com/watch?v=kocZSE9dY6s&ab_channel=NegocioStart
+
 **********************************************************************************
  TOOLS
   https://tinywow.com/tools/general
@@ -46,6 +50,15 @@ https://www.w3schools.com/python/python_intro.asp
    PAINT ONLINE
 
     https://jspaint.app/#local:3d191d1afe217
+
+**********************************************************************************
+ COLORS
+
+ https://noeldelgado.github.io/shadowlord/#4562c6
+**********************************************************************************
+FONTS
+ https://fonts.google.com/specimen/IBM+Plex+Sans?preview.text=Almost%20before%20we%20kneww%20it,%20we%20had%20left%20the%20ground.&preview.text_type=custom#standard-styles
+**********************************************************************************
 
 **********************************************************************************
  DOC ALL  ===> DESKTOP

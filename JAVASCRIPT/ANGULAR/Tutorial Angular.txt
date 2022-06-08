@@ -91,6 +91,37 @@ ngOnIniy(){
     
 
 *****************************************************************************************************
+ CAPTURANDO ERRORES
+     https://www.youtube.com/watch?v=ifyKt2a1CVk&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G&index=128&ab_channel=LoianeGroner
+   
+
+    error$ = new Subject<>(boolean);
+
+     FORMA 1
+     this.curso$ = this. services.list()
+     .pipe(
+      catchError( error => {
+          console.log(error):
+          this.error$.next(true);
+          return empty();
+      }
+      )
+      )
+
+    FORMA 2
+      this.services.lis()
+      .pipe(
+       catchError( error => empty())
+      )
+      .subscribe......
+
+   en HTML
+
+   <div <ngIF = error$ | async >
+    Problemas al cargar....
+  </div>
+
+*****************************************************************************************************
 
 
 Modulos: son para registrar en exporta/impotar servicios,depedencias... para ser accesibles
