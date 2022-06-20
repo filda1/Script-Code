@@ -1,0 +1,2 @@
+  php =======>    <?=      ?>
+  php =======>  <?php    echo" <script>   ...... </script>"     ?>

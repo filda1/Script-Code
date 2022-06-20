@@ -1,7 +1,7 @@
  
  @include  ============> Carga VIEW
  @extends ==============> Hereda una pagina VIEW
- @yield    =================> é usada para exibir o conteúdo de uma determinada seção (MUESTRA EL CONTENIDO DE SECTION)
+ @yield    =================> é usada para exibir o conteúdo de uma determinada seção  de una VIEW REUTILIZABLE (MUESTRA EL CONTENIDO DE SECTION)
  @section ==================> que é responsável em definir uma seção de conteúdo (DIFERENTE CONTENIDO)
 
   =============================================================
@@ -9,6 +9,25 @@
 
      @yield <======= @section
   =============================================================
+ RESUMEN:
+
+ - Tienes VIEW REUTILIZABLE ( Ej: layout.blade. php)
+  tiene que tener :
+       @yield('content')   =========> es donde va recibir el contenido de otra paginas
+        @yield('content2')   =========> puedes tener mas  de una que reciba conTenido de una o varias paginas
+
+ - Y tienes X View
+
+     @extends('Layout') =====================> Heredas la VIEW REUTILIZABLE
+
+     @section('content') =====================> Y le mandas  a VIEW REUTILIZABLE el contenido de la PAGINA a traves de section.
+       ......
+     @endsection
+   
+     @section('content2') =====================> Y le mandas a la VIEW REUTILIZABLE el contenido de la PAGINA  a traves de section.
+       ......
+     @endsection
+
 -----------------------------------------------------------------------------------------------------------------------
  	master.blade.php (template):
 

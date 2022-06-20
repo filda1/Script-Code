@@ -3,6 +3,14 @@
 
  palete de color images -----< https://imagecolorpicker.com/en
 **********************************************************************************
+
+PLUGIN SACAR COLORES DE WEB
+ Colorzilla    =================================> Para navegadores
+
+********************************************************************************** 
+ https://vscodium.com
+
+**********************************************************************************
   COODERNADAS
 
   https://www.coordenadas-gps.com

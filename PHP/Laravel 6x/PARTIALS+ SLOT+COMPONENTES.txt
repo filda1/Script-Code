@@ -1,0 +1,34 @@
+
+UTILIZAR PARTIAS == O VISTAS REUTILIZABLES COM COMPONENTES
+
+1 COMPONENTE == 1 PAGINA == 1 VISTA
+
+- Ejemplo:  En layout.blade .php
+
+{{  $title ?? ' Hola ' }}    =========================> tambien recibe propiedades. Los ?? ===> imprime  VALOR POR DEFECTO, encaso que no reciba nada
+{{ sum }}                      =========================> Imprime 4. Porque viene foma de PHP
+
+ <nav/>    ===================================> imprime solo el componete = pagina
+ {{  $slot }}    =========================== Es igua @yield  ==== recibe contenido de OTRAS PAGINAS
+
+
+
+- PAGINA 1.blade.ph
+
+  * Por defecto Laravel entiende que dentro de View Hay carpeta llamada =======> components (tienes que crearla)
+
+ <x-layout                          ===============================> este componete es la pagina layout ( donde se le envia el contenido)
+  title ="Hola 2"                  =======================> mando propiedades
+  :sum = "2+2 "                   =======================> imprime resultado: 4 ( En layout) . Los : es que digo que aplicar PFP
+ > 
+    ........................
+</x-layout>
+
+
+* OJO: si tu pagina tiene una subcapeta dentro componets:
+                    <x-subcarpeta.layout>  </x-subcarpeta.layout>
+
+
+
+
+

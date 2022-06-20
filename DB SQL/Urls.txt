@@ -1,3 +1,8 @@
+DIAGRAMS  
+ **https://dbdiagram.io/home
+ https://www.youtube.com/watch?v=yN1RnjZEosY&ab_channel=Fazt
+
+
 -*********************************************************
 CLIENT SQL PARA MYSQL/POSTGRES
 
