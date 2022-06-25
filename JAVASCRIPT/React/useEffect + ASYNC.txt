@@ -1,0 +1,10 @@
+useEffect(() => {
+    (async () => {
+      try {
+        const { data } = await Axios.get("/posts");
+        setPosts(data);
+      } catch (error) {
+        console.log(error);
+      }
+    })();
+  }, []);
