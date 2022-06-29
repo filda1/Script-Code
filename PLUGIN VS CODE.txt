@@ -1,0 +1,73 @@
+PLUGIN VS CODE
+
+Bracket Pair Colorizer 2
+Angular Extension Pack       (Loiane Groner)
+Angular File Changer
+Angular Files    (Alexander Ivanichev)
+Angular Language Service
+Angular Material 2, Flex layout 1, Covalent 1 & Material 
+Angular Schematics  (Cyrille Tuzi)
+Angular Snippets  (John Papa)
+Angular-cli
+arrr
+Auto Close Tag (Jun Han)
+Auto Import
+Auto Rename Tag
+Beautify  (HookyQR)
+Better Comments
+Bootstrap 4, Font awesome 4, Font Awesome 5 Free & 
+Community Material Theme
+EditorConfig for VS Code
+ES7+ React/Redux/React-Native snippets
+ESLint
+git flow
+Git History
+GitHub Copilot
+GitLens
+HTML Boilerplate
+HTML CSS Support
+HTML Snippets
+HTML to CSS autocompletion
+IntelliSense for CSS class names in HTML
+Jira and Bitbucket (Atlassian Labs)
+Karma Problem Matcher
+Laravel Blade Snippets
+Material Icon Theme
+Material Theme 
+Material Theme cIons
+Move TS - Move TypeScript files and update relative im
+Night Owl
+node-snippets
+Paste JSON as Code
+Path Intellisense
+Prettier - Code formatter
+rust-analyzer
+SimonTest
+Slime Theme
+SQL Beautify
+SQL Formatter
+SQL Lit
+Tabnine AI Autocomplete for Javascript, Python, Typescript, 
+TypeScript Hero
+Vetur
+Vue
+Vue 3 Snippets
+YAML
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

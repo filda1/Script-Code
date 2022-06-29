@@ -1,0 +1,120 @@
+underscoreJS
+web =============> https://codepen.io/Micka33/pen/kOjjMr?editors=1012
+tuto ======> https://www.geeksforgeeks.org/underscore-js-_-map-function/?ref=lbp
+                       https://underscorejs.org/#sortBy
+
+**********************************************************************
+0-  _.each(list, function)   =================> RECORRE A LISTA UNO A UNO, REPITENDO/JUNTANDO LA FUNCION/COMPONENTE ( cada vez que recorre um item pone algo al lado)
+                                          =================> AL ReCORERR LA LIST VA ADICINADO Al Item  la FUNCION/COMPONENTE
+
+     _.each([1, 2, 3], alert);   ========================> Repite 3 veces junto al lado con un ALert  ( 1, 2, 3 son label que acompana c/alert)
+     _.each(["Geeks", "for", "Geeks"], prompt);  ============> Repite 3 veces JUnto com un PROMPT  ( Geeks, fo,r geeks son label q acompna c/promp)
+
+      function func() { console.log("Hi Geeks" +"<br>");}
+        _.each({one: 1, two: 2, three: 3}, func)      =====================> Repite 3 veces con la funcion (esta no tiene label)
+
+*************************************************************
+
+1-   _.filter ==================> Verifica === PROCESSA ===REVISA  c/item de Array Y RETURN un array
+
+   var oddNo = _.filter([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 
+                function(num){ 
+                    return num % 2 != 0;
+                });
+
+   console.log(oddNo);
+
+**************************************************************
+
+2-  _.map(list, function)     ======================> RECORRE C/ITEM + TRANSFORMA Y DA  ======>  NUEVO ARRRAY === NUEVA MATRIZ
+
+      var nova_matriz = _.map([1, 2, 3, 4], function(num){ return num * 2; });
+      console.log(nova_matriz);
+
+
+     _.map( [1, 2, 3], function( num ) {
+                 for(var i=0;i<num;i++) 
+                      var str="This is";
+                      str+=i+1;
+                      str+="list item";
+                      return(str);
+         });
+
+
+    _.map([[1, 2], [3, 4], [5, 6]], _.last);   =============> R: [ 2, 4, 6 ]  ======> Saca el ultimo de cada array
+
+
+    var list = ['Geeks','for', 'Geeks', 'JS'];
+         m = _.map(list, function (l) {
+               return l + ' is mapped from a list.';
+         });
+
+
+****************************************************************
+
+3-     _.find =====================> Busca el primero que consiga y sale
+
+       var oddNo = _.find([5, 6, 7, 8, 9, 10],        =====================> Busca el primero VALOR que consiga y sale
+            function (num) {
+                return num % 2 != 0;
+            });
+        console.log(oddNo);     ===========> R: 5
+
+
+       var words = ['javascript', 'java', 'unix',
+                     'hypertext', 'underscore', 'CSS'];
+  
+        const result = words.find(word => word.length == 9);
+        console.log(result);    ========================================> R: hypertext
+****************************************************************************************
+
+4-    _.where  ==========================> Busca los OBJETOS con un Propiedad especifica
+                                                        =========>  Returna Un Array de Objetos
+
+
+    var people = [
+                {"name": "sakshi", "hasLong": "false"},
+                {"name": "aishwarya", "hasLong": "true"},
+                {"name": "akansha", "hasLong": "true"},
+                {"name": "preeti", "hasLong": "true"}
+            ]
+         console.log(_.where(people, {hasLong: "true"}));    =================> BUscas los OBJ que tenga esta Propiedad  ( Returna ARRAY de OBJs)
+
+
+  RESULTADO : [
+                {"name": "aishwarya", "hasLong": "true"},
+                {"name": "akansha", "hasLong": "true"},
+                {"name": "preeti", "hasLong": "true"}
+            ]
+       
+*********************************************************************************************
+5-   _.findWhere     ===========================> Busca el Primer OBJETO y sale  
+                                    ======================== Return  Array con 1  Objeto
+
+  var goal  = [
+                {
+                    "category" : "other",
+                    "title" : "harry University",
+                    "value" : 50000,
+                    "id":"1"
+                },
+                {
+                    "category" : "traveling",
+                    "title" : "tommy University",
+                    "value" : 50000,
+                    "id":"2"
+                },
+                {
+                    "category" : "education",
+                    "title" : "jerry University",
+                    "value" : 50000,
+                    "id":"3"
+                },
+                {    
+                    "category" : "business",
+                    "title" : "Charlie University",
+                    "value" : 50000,
+                    "id":"4"
+                }
+            ]
+            console.log(_.findWhere(goal, {category: "education"}));

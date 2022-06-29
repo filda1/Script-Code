@@ -1,0 +1,4 @@
+CONVERT DATE
+
+const dateStr = "Fri Apr 20 2020 00:00:00 GMT+0530 (India Standard Time)"
+console.log( new Date(dateStr).toISOString() )

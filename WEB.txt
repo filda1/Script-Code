@@ -1,6 +1,9 @@
 WEB
 
   https://www.up-spain.com/cheque-gourmet/
+****************************************************************
+API AUDIO
+https://docs.microsoft.com/es-es/azure/cognitive-services/speech-service/speaker-recognition-overview
 
 ****************************************************************
  https://www.weatherapi.com/
