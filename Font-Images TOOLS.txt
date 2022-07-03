@@ -10,6 +10,11 @@
  
 
 **********************************************************************************
+ALTERNATIVAS A FIREBASE
+🔗  Supabase: https://supabase.com/
+🔗  Appwrite: https://appwrite.io/
+🔗  Nhost: https://nhost.io/
+**********************************************************************************
 
 PLUGIN SACAR COLORES DE WEB
  Colorzilla    =================================> Para navegadores

@@ -3,6 +3,7 @@
 1- Cargar nueva DB (RESTORE)
 
 Database =====> Boton Derecho ====> Device ( Carga la nueva DB y le pones un nombre)
+ * OJO tiene que selecionar los 2 archivos al mismo tiempo
 
 2- Exportar DB (BACKUP))
 
