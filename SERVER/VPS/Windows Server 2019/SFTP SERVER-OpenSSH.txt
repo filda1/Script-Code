@@ -1,0 +1,87 @@
+ SFTP SERVER - Open SSH - WEB SERSER
+
+********************************************************************
+INSTALAR OPENSHH (en Windows Server)
+   -liberar puerta 22(Normalmente es 22) de firewall 
+
+1- Ir ICON Windows, botao direito ===> settings ====> Apps ====> Manage Optional Features ====> + Add Features ===> 
+  OpenSSH server (Instalar)
+2- Ir a Services ====> refresh ( Y tener  2 serviços)
+     OpenSSH Autentication ( Click abrir, ===> Startup type :Automatic, Apply y Start)
+     Open SSH server ( Click abrir, ===> Startup type :Automatic, Apply y Start)
+
+************************************
+1 USER == TODOS USERS
+  
+https://www.youtube.com/watch?v=BR9qc_1unu8&ab_channel=Mushaaf
+Install SFTP in Windows Server 2019
+https://mushaaf.net/installing-sftp-server-2019/
+
+3. Criar Pasta:   E:\SFTPRoot
+
+4. Abrir NotePad com Admin, Abrir c:\ProgramData\ssh  ===> All Files ,  ir a===> sshd_config :
+  4.1 Copia el path dentro:
+     ChrootDirectory  E:\SFTPRoot ( Remover el # y SAVE)  ======>  Aqui, Accede todo Users, creados
+    O
+    Match User Usuario
+    ChrootDirectory C:\SFTPRoot
+    AllowTCPForwarding no
+    X11Forwarding no
+    ForceCommand internal-sftp
+
+5. Reiniciar ====> Open SSH serve
+
+6. Criar USER, SERVER MANAGER ==> TOOLS ===>em Computer Managemet ===>System Tools ===> Local Users and Groups:
+   Click Derecho en Pasta USERS ===> ( Crear el usuario y pass )  =====> OJO : poner la password no revalidada( Al crear User, Propiedades, activar no revalidad password)
+
+-----
+7. CLIENTE: Dowload de Filezilla client (https://filezilla-project.org/download.php?platform=win64) / o WinSCP
+8. Criar new Site , Nombre , Host:192..  port:22, Protocol:SFTP, User y pass, OK
+9. Escolhes O Nome de Site ... (Vai Conetar)
+10. ===> arrasta ficheiro
+
+test1
+Test2022
+
+"C:\SFTPRoot"
+
+#ChrootDirectory none
+--------------------------------------
+
+winscp
+  https://winscp.en.softonic.com
+
+185.17.229.38:50022
+
+**********************************************************************************
+ GRUPOS == MULTIPLES USERS
+   ***https://serverfault.com/questions/1022432/restricting-user-group-to-specific-folder-in-win2016-server
+
+ 1-  Criar USER, SERVER MANAGER ==> TOOLS ===>em Computer Managemet ===>System Tools ===> Local Users and Groups:
+   Click Derecho en Pasta USERS ===> ( Crear el usuario y pass )
+ 2. Luego Crear GRUPO, el User creado o los Users creados adicionar al grupo:
+   2.1- Boton Derecho Pasta GROUPS ===> Nombre del Grupo( ejemplo:  user1-users-group) 
+                                           ====> ADD (Adicionar User) Poner en la caja 
+                                           ===>click, Checked Name
+                                          ====> Create
+   2.2 - Si quieres Mas USER ===> ADD y todo  eso ...
+
+ 3- Luego ir y Abrir NotePad com Admin, Abrir c:\ProgramData\ssh  ===> All Files ,  ir a===> sshd_config :
+  - Dejar como esta:   #ChrootDirectory none
+  - Y adcionar al casi al final, Todo los grupos que quieras:
+
+  Match Group user1-users-group      (Aqui esta el nombre del Grupo)
+    ChrootDirectory C:\SFTPRoot\User1   (Esta es la Ruta, una pasta principal, com subpasta de usuario 1)
+    AllowTCPForwarding no
+    X11Forwarding no
+    ForceCommand internal-sftp
+
+  
+  Match Group user2-users-group
+    ChrootDirectory C:\SFTPRoot\User2
+    AllowTCPForwarding no
+    X11Forwarding no
+    ForceCommand internal-sftp
+
+4- Luego, En buscador poner:  Services ===> OpenSHH Server ===>  REINICIAR
+

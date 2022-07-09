@@ -1,0 +1,16 @@
+CONFIG WINDOWS SERVER 2019
+
+- Instalación de Active Directory
+- Servidor DNS
+- Servidor DHCP
+- Servidor VPN
+- Servidor FTP
+
+https://www.youtube.com/watch?v=Kmg6M7RTgyg&ab_channel=CódigosZERU   1/2
+
+- Servidor web (IIS)
+- Servicios FTP
+- Página web
+- Usuario VPN
+
+https://www.youtube.com/watch?v=PhSpoKiskkQ&ab_channel=CódigosZERU   2/2

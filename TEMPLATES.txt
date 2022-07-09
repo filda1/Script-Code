@@ -29,6 +29,15 @@ TEMPLATES
  OPENCART
    https://themeglobal.com/opencart-templates.html
    https://www.beautifullife.info/web-design/25-best-free-online-stores-templates/
+**********************************************************************************************
+1.- https://themewagon.com/theme-framewor...
+2.- https://cssauthor.com/free-bootstrap-... 
+3.- https://templatemo.com/ 
+4.- https://www.tooplate.com/ 
+5.- https://untree.co/ 
+6.- https://nicepage.com/es/plantillas-html 
+7.- https://plantillashtmlgratis.com/
+8.- https://www.free-css.com/free-css-tem...
 
 ***********************************************************************************************
     TEMPLATE ECOMMERCE
