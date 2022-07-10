@@ -157,3 +157,24 @@ dotnet --version
     https://github.com/GorvGoyl/Clone-Wars
 
 *********************************************************************
+Plataforma Origital
+Publicado: Hace 17 horas
+Propuestas: 6
+Crear una red social en la que podamos tener comunicación con nuestro clientes bajo un modelo de suscripción. Es necesario que en la plataforma se pueda:
+1. Firmar contratos
+2. Crear perfiles para cada uno de los artistas en los que les vamos a poder compartir toda la información que nosotros administremos en tiempo real.
+3. Crear formularios de registro de nuevos lanzamientos y poder recibir archivos los archivos de los próximos lanzamientos desde la plataforma (WAV, Mp3, jpg, pdf).
+
+*********************************************************************
+Modulo Bitacora de Actividades. Entrega de Mercancías.
+Publicado: Ayer
+Propuestas: 6
+Desarrolar el módulo bitacora de control de actividades para una empresa de entrega de mercancías.  Que será parte de un sitema con módulos ya existentes con los que se deberá relacionar.
+
+Considerando el proceso de entrega de mercancías. Bajo el sistema donde cada viaje tendrá un origen – destino, pudiendo existir varios viajes en un solo día de trabajo.
+
+Estos viajes estará agrupados en bitácoras que a cada usuario se le asignará desde un administrador de bitácoras…
+Crear una bitácora de Actividades que incluya, uno o varios VIAJES  Cada uno de ellos con un origen y un destino.
+
+Cada Viaje a su vez se dividirá en una lista de ACTIVIDADES. Las cuales no son fijas…
+

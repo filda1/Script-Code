@@ -15,6 +15,23 @@ ALTERNATIVAS A FIREBASE
 🔗  Appwrite: https://appwrite.io/
 🔗  Nhost: https://nhost.io/
 **********************************************************************************
+ CREAR SITES CON APP
+
+ https://budibase.com
+ https://github.com/Budibase/budibase
+
+**********************************************************************************
+ TODAS ALTERNATIVAS OPEN SOURCE
+
+ https://opensource.builders
+https://www.btw.so/open-source-alternatives
+
+********************************************************************************** 
+  CONSOLE AWS
+
+  https://opsflow.app
+
+**********************************************************************************
 
 PLUGIN SACAR COLORES DE WEB
  Colorzilla    =================================> Para navegadores
