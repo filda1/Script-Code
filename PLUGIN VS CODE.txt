@@ -53,7 +53,11 @@ Vetur
 Vue
 Vue 3 Snippets
 YAML
+GITlens
+GIT flow
 
+
+MAIS EXTENSION ======> https://tvkoushik.medium.com/vscode-extensions-that-every-developer-should-use-635355426e33
 
 
 
