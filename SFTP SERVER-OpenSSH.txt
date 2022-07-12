@@ -51,7 +51,6 @@ Test2022
 winscp
   https://winscp.en.softonic.com
 
-185.17.229.38:50022
 
 **********************************************************************************
  GRUPOS == MULTIPLES USERS
@@ -84,4 +83,19 @@ winscp
     ForceCommand internal-sftp
 
 4- Luego, En buscador poner:  Services ===> OpenSHH Server ===>  REINICIAR
+
+-----------------
+
+0- Abrir porta: 22 no firewall ( Vai depender do Servidor)
+1- Instalar OpenSHH server em windows
+2- Criar uma Pasta Raiz
+3- Em Server manager, criar usuario
+4- Reiniciar OpenShh server, em serviços
+5-  Em sshd_config:
+    Match User Usuario
+    ChrootDirectory  PathDelDirectorio
+    AllowTCPForwarding no
+    X11Forwarding no
+    ForceCommand internal-sftp
+6- Reiniciar OpenShh server, em serviços
 
