@@ -10,6 +10,9 @@ GOOGLE SHEET (CONSUMIR API)
                    https://developers.google.com/apps-script/quickstart/fundamentals-codelabs
                    https://developers.google.com/apps-script/overview
 ************************************************************************************************************************
+ OCR PASSPORT
+  https://www.programmableweb.com/api/passport-ocr-rest-api-v1
+************************************************************************************************************************
    BUSCADOR DE REDES SOLCIALES POR DOMINIO = EMPRESAS
 
      https://socials.so/contact

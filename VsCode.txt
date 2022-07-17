@@ -86,3 +86,5 @@ https://dev.to/thegeoffstevens/50-vs-code-themes-for-2020-45cc
      https://docs.microsoft.com/en-us/visualstudio/extensibility/ux-guidelines/color-value-reference-for-visual-studio?view=vs-2019
 
 
+  MAIS EXTENSION
+     https://tvkoushik.medium.com/vscode-extensions-that-every-developer-should-use-635355426e33
