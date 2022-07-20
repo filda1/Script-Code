@@ -1,0 +1,22 @@
+
+
+ DOC = https://docs.camunda.io/docs/guides/
+
+ ***********************************************************************
+
+ FORMAS ===> https://www.youtube.com/watch?v=z1QCg-x5AFs
+
+ ***********************************************************************
+
+ DEPLOY PLATAFORM = https://www.youtube.com/watch?v=jhTop7ATQOg
+
+ ***********************************************************************
+
+ CAMUNDA + POSTMAN = https://www.youtube.com/watch?v=dIK30mTczM8
+
+ ***********************************************************************
+
+  INSTALL
+   https://www.youtube.com/watch?v=KW7RDMaU0us
+
+ ***********************************************************************

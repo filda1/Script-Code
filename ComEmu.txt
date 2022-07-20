@@ -1,0 +1,8 @@
+Con EMU
+ * https://www.youtube.com/watch?v=SFAQkkuPQds
+
+ dividir consolas = CTRL + Shift + e  ===== 2 Diviones
+
+ Dentro de la divion , dividir = CTRL + Shift + o
+
+ Elimino las divisiones = CTRL + Win + del
