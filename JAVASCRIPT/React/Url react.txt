@@ -17,6 +17,12 @@
                                      https://github.com/developerpe/frontend-ecommerce-rest-react
 
 ********************************************************************************************************************
+ REACT + SUPABASE + react-router + context api
+
+ https://www.youtube.com/watch?v=I1zzgAfSUBQ
+ https://github.com/FaztWeb/react-supabase-auth-crud
+
+********************************************************************************************************************
  REACT + TYPESCRIPT (Fatz) = https://www.youtube.com/watch?v=IbJFERe9F9w
  REACT + NODE + MONGODB + DIGITAL OCENA SPACE (GALLERY, Fatz =====> https://www.youtube.com/watch?v=bYMT0KFuT1k&t=23s
                                                                     https://github.com/FaztTech/ReactGallery
