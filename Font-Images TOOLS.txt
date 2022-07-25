@@ -14,6 +14,7 @@ ALTERNATIVAS A FIREBASE
 🔗  Supabase: https://supabase.com/
 🔗  Appwrite: https://appwrite.io/
 🔗  Nhost: https://nhost.io/
+~Pocketbase
 **********************************************************************************
  CREAR SITES CON APP
 
@@ -21,12 +22,19 @@ ALTERNATIVAS A FIREBASE
  https://github.com/Budibase/budibase
 
 **********************************************************************************
+  ADD SHORCUT A WIN 10
+  https://www.youtube.com/watch?v=AQNaIgWWByI
+**********************************************************************************
  TODAS ALTERNATIVAS OPEN SOURCE
 
  https://opensource.builders
 https://www.btw.so/open-source-alternatives
 
 ********************************************************************************** 
+ RECIBIR DINERO
+  https://www.bitwage.com
+
+*********************************************************************************
   CONSOLE AWS
 
   https://opsflow.app

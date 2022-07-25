@@ -1,0 +1,48 @@
+
+App.ActiveDrawing.CreateRectangle 0, 0, 20, 10
+
+App.ActiveDrawing.ZoomAll
+.......................................................................
+COLECCIONES
+  ACCESSOS A GEOMETRIA
+  
+   Dim Geos As Paths
+
+	Set Geos = Drw.Geometries
+
+	Dim Geo As Path
+
+	Set Geo = Geos(1) ' gives the first geometry
+
+	Set Geo = Geos(5) ' gives geometry number 5
+
+	Or:
+
+	Dim Geo As Path
+
+	Set Geo = Drw.Geometries(5) ' gives geometry number 5
+
+	If an object has a name, it can also be accessed by name eg:
+	
+
+	Dim Lyr as Layer
+
+	Set Lyr = Drw.Layers("HOLES")
+	
+	
+	Dim Geo As Path
+
+	For Each Geo In Drw.Geometries
+
+	' Do something with Geo 
+
+	Next Geo
+	
+	.............................................................
+
+  ATRIBUTOS
+   Dim X As Double
+
+   X = 10
+
+   P.Attribute(ATTR1) = X

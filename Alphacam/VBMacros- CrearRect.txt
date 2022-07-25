@@ -1,0 +1,26 @@
+Private Sub cmdRun_Click()
+
+Dim Drw As Drawing
+Dim P As Path
+Dim Lay As Layer
+
+
+Set Drw = App.ActiveDrawing
+
+Set Lay = Drw.CreateLayer("Outline")
+Lay.Color = acamDARK_RED
+Drw.SetLayer Lay
+
+Set P = Drw.CreateRectangle(0, 0, txtX.Value, txtY.Value)
+
+
+
+Set Lay = Drw.CreateLayer("Route")
+Lay.Color = acamDARK_BLUE
+Drw.SetLayer Lay
+
+Set P = Drw.CreateRectangle(txtRail.Value, txtRail.Value, txtX.Value - txtRail.Value, txtY.Value - txtRail.Value)
+
+Drw.SetLayer Nothing
+
+End Sub

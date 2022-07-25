@@ -5,6 +5,19 @@ https://kipdf.com/alphacam-introduction-to-vba_5ac9978d1723dde16dbd4fd9.html
 MACROS 
   https://www.youtube.com/watch?v=PLkz5knk-kA&ab_channel=ACAustraliaCADCAMSolutions
 
+  https://pdfslide.net/documents/alphacam-routing-routing-example-page-2-of-13-creating-the-new-project-open-a-new.html?page=11
+
+  C:\Alphacam\LICOMDIR\VBMacros
 ********************************************************************************************
 
 https://docplayer.net/33988327-Alphacam-introduction-to-vba.html
+
+********************************************************************************************
+
+ DICA 6  https://www.youtube.com/watch?v=UnUoFbAYtTo
+
+********************************************************************************************
+
+  TUTORAIL DE VB = https://www.vbtutor.net/lesson1.html
+
+********************************************************************************************
