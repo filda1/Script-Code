@@ -40,7 +40,7 @@ COLECCIONES
 	
 	.............................................................
 
-  ATRIBUTOS
+  ATRIBUTOS   ========================================================== Array 
    Dim X As Double
 
    X = 10
@@ -70,7 +70,7 @@ COLECCIONES
 
 		X = 0 
 
-		For CH = Asc("A") To Asc("E") 
+		For CH = Asc("A") To Asc("E")               ==================> CH = Asc("A") == 65 , Chr(CH) == A,  CH = Asc("B") == 66, Chr(CH) == B
 
 		Set PS = Drw.CreateText(Chr(CH), X, 0, 10)      =============================> (text, x, y , height)
 
@@ -86,6 +86,7 @@ COLECCIONES
 
 		End Sub
 		
+		RESULT  ============> A B C D E
 		
     EXAMPLE 2
 	

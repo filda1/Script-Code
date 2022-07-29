@@ -8,3 +8,12 @@ Database =====> Boton Derecho ====> Device ( Carga la nueva DB y le pones un nom
 2- Exportar DB (BACKUP))
 
 Nombre de DB existente =====> Boton Derecho ====> Task =====> Backup
+
+
+---------------------------------------
+
+ RESTORE una Base de datos Diferente
+
+ 1- Crear una nueva DB
+ 2- Task ====> Restore
+ 3- En Options =====> selecionar Sobrescribir (Override)

@@ -17,6 +17,16 @@
                                      https://github.com/developerpe/frontend-ecommerce-rest-react
 
 ********************************************************************************************************************
+ REACT + REDUX TOOLKIT
+  fatz = https://www.youtube.com/watch?v=w2rAP7d6ndg
+         https://github.com/FaztWeb/react-rtk-crud
+
+********************************************************************************************************************
+ REACT + CUSTOM HOOK
+
+ fatz = https://www.youtube.com/watch?v=xutmKvLsbKM
+
+********************************************************************************************************************
  REACT + SUPABASE + react-router + context api
 
  https://www.youtube.com/watch?v=I1zzgAfSUBQ
