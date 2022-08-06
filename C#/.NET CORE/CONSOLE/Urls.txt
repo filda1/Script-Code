@@ -1,3 +1,53 @@
+*************************************************************
+ TUTORIAL DE CONSOLE
+  ******https://csharp.net-tutorials.com/basics/variables/
+
+
+*************************************************************
+ LOGS x CONSOLA
+* https://www.youtube.com/watch?v=DrXIWwBfUWI
 
 IAmTimCorey = https://www.youtube.com/watch?v=GAOCe-2nXqc
 https://www.youtube.com/watch?v=bIVE7wVkGC8
+ ************************************************************
+
+ SERILOG + FILE
+ https://blog.devgenius.io/logging-with-serilog-f6903b0c176
+ ***https://github.com/dotnet-labs/SerilogFilterDemo
+
+ https://www.youtube.com/watch?v=_LSIaSqB5ZA
+ https://stackoverflow.com/questions/32108148/serilog-rollingfile
+
+*********************************************************
+ GET FILES FROM FOLDER
+ * https://www.codevscolor.com/c-sharp-list-files-in-folder
+ https://tutorialslink.com/Articles/Get-Files-List-From-Directory-In-Csharp/2459
+
+   static void Main(string[] args)  
+        {  
+            DirectoryInfo d = new DirectoryInfo(@"E:\Movies");    
+            FileInfo[] Files = d.GetFiles();  
+            Console.WriteLine("Files in this directory.");  
+            Console.WriteLine("----------------------------------------------");  
+            foreach (FileInfo file in Files)  
+            {                  
+                Console.WriteLine("File Name : {0}" , file.Name);  
+            }  
+            Console.ReadKey();  
+        }  
+
+
+ https://ozanecare.com/how-to-get-information-about-files-folders-and-drive-in-c/
+
+******************************************************
+ LISTEN FILES
+
+ https://www.c-sharpcorner.com/UploadFile/puranindia/filesystemwatcher-in-C-Sharp/
+
+******************************************************
+
+ READ FILE
+ https://docs.microsoft.com/en-us/troubleshoot/developer/visualstudio/csharp/language-compilers/read-write-text-file
+
+
+
