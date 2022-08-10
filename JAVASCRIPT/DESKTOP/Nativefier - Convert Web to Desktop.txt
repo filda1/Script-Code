@@ -1,0 +1,21 @@
+fatz = https://www.youtube.com/watch?v=nH1Fnzp3VYU
+       https://ooshimus.com/convert-your-website-into-a-desktop-application-in-30-seconds
+
+
+ github: https://github.com/nativefier/nativefier
+ doc:https://github.com/nativefier/nativefier/blob/master/API.md
+
+
+ INSTALL
+
+ >> npm install -g nativefier
+
+
+ CREAR DESKTOP
+
+ >> nativefier https://..
+
+
+ CREAR DESKTOP + Opciones
+
+ >> nativefier --name Nombre_DesKtop https://.. (Al lado se puede poner mas opciones, sale la API)
