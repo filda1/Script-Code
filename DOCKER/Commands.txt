@@ -12,3 +12,7 @@
   4. >>> proyecto> docker-compose -f docker-compose.yml -f docker-compose-override.yml up -d ================>(crea IMAGENES y los  CONTENEDORES ==> RUN)
 
 -----------------------------------------
+
+  *DOCKER ====> CONTENEDORES = images + images ...
+
+  *DockerFile = Imagen = De tu COntenedor
