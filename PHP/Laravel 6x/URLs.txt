@@ -58,6 +58,10 @@ LARAVEL ZERO _ CONSOLE ====> https://laravel-zero.com/docs/installation
   https://www.youtube.com/watch?v=2uDWCKGOF8c&ab_channel=Aprendible
 
 ***************************************************************************************************
+ MACROS
+  https://www.youtube.com/watch?v=ZSmVLT3TGhM
+
+***************************************************************************************************
 
  PAYPAL Andre Madarang ===> https://www.youtube.com/watch?v=_7YBIRQfSN0
              https://github.com/drehimself/laravel-paypal-example/blob/master/resources/views/welcome.blade.php
