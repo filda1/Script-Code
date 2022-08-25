@@ -30,6 +30,14 @@ REACT NATIVE (EXPO) ========> https://www.youtube.com/watch?v=hXDMWeD0ERM (Fazt)
 
 
 ***********************************************************************************************************
+ REACT NATIVE + ECHARTS
+  https://github.com/somonus/react-native-echarts
+  https://bestofreactjs.com/repo/tomLadder-react-native-echarts-wrapper-react-react-native-awesome-components
+
+  https://www.uistore.design/items/montra-expense-tracker-free-ui-kit-for-figma/
+  time pad = https://www.uistore.design/items/timepad-time-tracker-free-ui-kit-for-figma/
+
+***********************************************************************************************************
     UPLOAD IMAGE == REACT NATIVE + DJANGO
 
         https://lzomedia.com/blog/uploading-image-in-react-native-backend-django/

@@ -88,6 +88,9 @@ Instalación del Visual Studio Code https://code.visualstudio.com/download
  >> npx create-react-native-app testbare
        -Default template
 
+  1. Bare  Workflow  ==============> Con accesso a carpetas IOS + DROID =============> EXPO  o yarn create...( https://github.com/expo/create-react-native-app)
+  2. Manage Workflow  ============> Sin accesso a carpetas IOS + DROID =======> EXPO
+
  >> cd testbare && code .
  >> expo login (OPCIONAL)
  >> expo start   o  yarn start    ==================> Acceso General al metro PAgina web(Todo los dispositivos/Pataformas, Admin)

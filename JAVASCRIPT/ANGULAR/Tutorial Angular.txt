@@ -46,6 +46,16 @@ COMPONENTE PUBLICO
  
 
 ***************************************************************************************************** 
+~-------------------------------------
+NgMODEL =======================================> variable en Tiempo real
+export class CuadradoComponent {
+  lado = 4;
+}
+
+ <input type="number" [ngModel]="lado" (ngModelChange)="cambiaLado($event)"
+
+-------------------------------------
+
 
  FUNDAMENTO DE LAS OBSERVABLE  - 2 FORMAS
 
@@ -478,5 +488,9 @@ https://material.angular.io/components/button/api)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
+ 1. Pasar FORMCONTROLNAME (formularios reactivos. Inputs en View hijo) a view hijo desde el view Padre
+  Lolaine = https://www.youtube.com/watch?v=tHK-k7GxAAE&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G&index=124 ( leccion 114)
+   * ControlValueAcessor
+   * Interface
+   * Provider
    
