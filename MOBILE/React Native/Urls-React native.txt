@@ -34,8 +34,16 @@ REACT NATIVE (EXPO) ========> https://www.youtube.com/watch?v=hXDMWeD0ERM (Fazt)
   https://github.com/somonus/react-native-echarts
   https://bestofreactjs.com/repo/tomLadder-react-native-echarts-wrapper-react-react-native-awesome-components
 
-  https://www.uistore.design/items/montra-expense-tracker-free-ui-kit-for-figma/
+  WEB = https://www.uistore.design/items/montra-expense-tracker-free-ui-kit-for-figma/
+  Grocery = https://www.uistore.design/items/online-groceries-free-app-ui-kit-for-figma/
   time pad = https://www.uistore.design/items/timepad-time-tracker-free-ui-kit-for-figma/
+
+  Delivery template = https://www.uistore.design/items/meal-monkey-food-delivery-free-ui-kit-for-adobe-xd/
+                      https://www.behance.net/gallery/108639283/Meal-Monkey-Food-delivery-iOS-mobile-application?ref=uistore.design
+
+***********************************************************************************************************
+ XD to RN
+ https://mockitt.wondershare.com/adobe-xd/adobe-xd-to-react-native.html
 
 ***********************************************************************************************************
     UPLOAD IMAGE == REACT NATIVE + DJANGO

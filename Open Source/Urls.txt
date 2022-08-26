@@ -67,3 +67,11 @@ INTRANET
   SIZZE (expor FIGMA TO REACT NATIVE)
   https://www.sizze.io
   https://www.youtube.com/watch?v=PJF2dOcib8Q&ab_channel=BrianDesign
+
+********************************************************************************************************
+ SERVER EBOOKS OPEN SOURCE  == Kavita
+
+  https://github.com/Kareadita/Kavita
+  https://www.kavitareader.com
+
+*********************************************************************************************************

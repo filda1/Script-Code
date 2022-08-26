@@ -1,0 +1,117 @@
+
+INSTALL WINDOWS
+  Fatz = https://www.youtube.com/watch?v=ZO4KWQfUBBc
+
+  https://docs.docker.com/desktop/install/windows-install/
+  0- Ver si tienes Virtualizacion ====> boton derecho en la barra de abajo de icon de windows y task manager/Gestor de Tarefas ===> ir a CPU u abajo sale Virtulization: activa o no
+  1- INSTALR WSL2 =======>   >> wsl --install
+
+  2- Virtualization: =====> features:  ( Aqui tines que ir a Panel de Control ===> Desintalar Progrmas ===> Turn.../ Activar...)
+      ✓ Virtual Machine Plataform
+      ✓ Windows Subsystem for linux
+
+  3- Reiniciar PC
+  4- Aparecera instalar Ubuntu, poner: user y password
+  5- Dowload de Docker Desktop for Windows
+  6- Ojo al instalr va aparecer cerrar cession, saltar eso con un click
+
+
+
+
+>> docker version
+
+>> docker run hello-world  ==================>  docker run == descarga CONTAINER y RUN . (en este caso, 1 CONTAINER CON 1 IMAGE)
+___________________________________________________________________________________________________________*
+  
+https://www.youtube.com/watch?v=SMqdC6g6Y2o
+****************************************************************************************************
+COMANDOS
+
+https://hub.docker.com/search?q=mysql
+
+>> docker pull   =======> DESCARGA IMAGE  (>> docker pull mysql)
+
+>> docker images =======> Ver todas Images descargadas
+
+>> docker run NOMBRE_IMAGEN   =======> RUN
+
+>> docker ps     ================> VER CONATINERS
+
+>> docker exec -it NOMBRE_CONTENEDOR/IMAGE  bash  ======> Dentro de linux, dentro del Container
+
+>> docker rm  CONTAINER ID  =======> Elimina contenedor
+
+>> docker stop CONTAINER ID  =======> Para contenedor
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+EJEMPLO VARIAS BASE DE MYSQL:
+
+>> docker run mysql ========> Te pide config =====> ir =====> https://hub.docker.com/search?q=mysql
+>> docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:tag
+
+OTra CONSOLA + Otra bD mysql
+
+>> docker exec -it NOMBRE_CONTENEDOR/IMAGE  bash ======> Dentro de linux
+>> mysql -u root -p...
+
+OTRA CONSOLA + OTRO MYSQL
+
+>> docker run -name BASEDEDATOS3 -p 7777:3306 -e MYSQL_ROOT_PASSWORD =mypassword mysql ========> 3 Base de Datos Mysql. 7777 es puerto externo. 3306 es puerto interno
+
+>> docker run --name MY_NOMBRE_MONGO -p 9999:2707 mongo  =======> (en este caso, 1 CONTAINER CON 1 IMAGE)
+
+
+========== DOCKERFILE == Instruccion para DESCARGAR IMAGES dentro de un PROYECTO para docker = TU CONTAINER ===========
+
+* lo buscas en internet, docker node:
+FROM node:16
+
+# Create app directory
+WORKDIR /usr/src/app
+
+# Install app dependencies
+# A wildcard is used to ensure both package.json AND package-lock.json are copied
+# where available (npm@5+)
+COPY package*.json ./
+
+RUN npm install
+# If you are building your code for production
+# RUN npm ci --only=production
+
+# Bundle app source
+COPY . .
+
+EXPOSE 8080
+CMD [ "node", "server.js" ]
+
+
+ >> docker build -t NOMBRE_x .    =========> Conviert DockerFile en Container/Image
+ >> docker run -p 7000:3000 --name server2 NOMBRE_x    ======> RUN Conatiner creado. 3000 puerto interno de proyecto NODE y 7000 el puerto externo (Donde se ve). Solo corriendo en purto 3300 o externo ja corre todo los servidores dentro
+ >> docker exec -it NOMBRE_x  bash   ======> dentro de Proyecto    
+    >> node --version... (Prueba)
+
+
+========= DOCKER-COMPOSE === VArios Contenedores ======================
+
+A docker-compose.yml looks like this:
+
+version: "3.9"  # optional since v1.27.0
+services:
+  NOMBRE_x:
+    image: node
+    container_name: NOMBRE_DEL-CONTENEDOR
+    build: .
+    ports:
+      - "8000:3000"
+    command: node server.js
+   db:
+    image: mongo
+    container_name: mymongo
+    ports:
+      - " XXXX:XXXX"
+
+>> docker-compose up --build
+
+
+
+
