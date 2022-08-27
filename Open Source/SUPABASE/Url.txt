@@ -1,0 +1,4 @@
+SELF_HOSTING
+
+  https://supabase.com/docs/guides/hosting/docker
+  https://dev.to/chronsyn/self-hosting-with-supabase-1aii
