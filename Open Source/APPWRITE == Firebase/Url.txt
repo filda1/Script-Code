@@ -1,0 +1,14 @@
+ INSTALL
+  https://www.youtube.com/watch?v=pOqT7yczlj4
+  web ====> https://appwrite.io
+**********************************************************
+ APPWRITE + .NET
+ https://github.com/appwrite/sdk-for-dotnet
+
+**********************************************************
+
+APPWRITE + Reactjs
+
+ https://www.youtube.com/watch?v=jkngyZjRETs
+
+**********************************************************
