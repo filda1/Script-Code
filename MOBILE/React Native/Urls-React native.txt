@@ -16,6 +16,12 @@ REACT NATIVE (EXPO) ========> https://www.youtube.com/watch?v=hXDMWeD0ERM (Fazt)
                                                            https://github.com/itzpradip/react-navigation-v5-mix
 
 ***********************************************************************************************************
+ FLASH LIST (New)
+
+  https://shopify.github.io/flash-list/
+  https://shopify.github.io/flash-list/docs/
+  https://github.com/shopify/flash-list
+**********************************************************************************************************
     PUBLISH .PK + .IPA
 
       Rocketseat ====> https://www.youtube.com/watch?v=wYMvzbfBdYI
