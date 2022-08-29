@@ -185,11 +185,11 @@ Modulos: son para registrar en exporta/impotar servicios,depedencias... para ser
                                                           https://www.youtube.com/watch?v=0w2i7h5c9jk&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G&index=126&ab_channel=LoianeGroner
                ----------------------------------------------
                     ej:  this.formulario.get('endereço.estado').valueChanges
-                            .pipe(
+                            .pipe(   =====================================================> Para procesar datos
                                tap()
                                map()
                                map()
-                               switchMap()   ===================> Este cambio de OBSERVABLE/ SERVICES
+                               switchMap()   ===================> Este cambio de OBSERVABLE/  o poner SERVICES
                                tap( console.log)
                             )
                             .subscribe()
@@ -316,7 +316,10 @@ RUTAS HIJAS (Muestras En VIEW VARIAS VIEW)  ==================>
 26 - TEST
       >> ng lint, 
       >> ng test,
-      >> ng e2e                            
+      >> ng e2e            
+
+
+                
 =============================================================================================================
 
   
@@ -493,4 +496,8 @@ https://material.angular.io/components/button/api)
    * ControlValueAcessor
    * Interface
    * Provider
+
+
+ 2- Curso Angular #116: Formulários reativos: Combobox aninhado: Estado + Cidade
+  https://www.youtube.com/watch?v=caumPDVYZN4&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G&index=120
    
