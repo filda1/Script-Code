@@ -552,6 +552,9 @@ https://www.youtube.com/watch?v=rUeytFzU-ak
 
 ///////////////////////////// PLAY STORE ///////////////////////////////
 
+ WEB ======> https://play.google.com/intl/au/console/about/?gclid=CjwKCAjw6raYBhB7EiwABge5KhwOVc2Bz7agKe4WYZpocWTd8mMGujVJJGuBh663z9d7a0lLcZ9bBBoCJOwQAvD_BwE
+           * play google console
+
   PUBLICAR =====> 0. Cambiar Version. Y nombre de Package (Propiedades DROID)
                   1. Estar en Release y ir Archivos.....Publicacion
                   2. Tener el mismo Certicado/distribucion o crearlo 

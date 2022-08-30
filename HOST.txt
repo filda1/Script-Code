@@ -16,7 +16,8 @@ THESTRATEGA: https://bit.ly/NS-Stratega
   ASP NET
    Somee
    sharkasp ======> https://www.sharkasp.net/freeaspnethosting
-   SmartAspo
+   SmartAsp
+     + Conect MSqlserver ==================> https://www.youtube.com/watch?v=VDQaNmr7FTg
    https://www.myasp.net/hosting_plans
    https://discountasp.net/asp.net-hosting/plan/
    https://www.mywindowshosting.com

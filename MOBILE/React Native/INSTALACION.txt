@@ -80,6 +80,9 @@ Instalación del Visual Studio Code https://code.visualstudio.com/download
 ----------------------------------------------------------------------
 
  ************************ INSTALL REACT NATIVE *******************
+ INSTALAR yarn ========> >> npm i -g yarn
+ ACTULIZAR SDK ========> >> expo upgrade
+
  >> npm i -g expo-cli
 
  *https://blog.rocketseat.com.br/expo-sdk-38-melhorias-que-fazem-do-expo-uma-opcao-ainda-melhor/
@@ -93,7 +96,7 @@ Instalación del Visual Studio Code https://code.visualstudio.com/download
 
  >> cd testbare && code .
  >> expo login (OPCIONAL)
- >> expo start   o  yarn start    ==================> Acceso General al metro PAgina web(Todo los dispositivos/Pataformas, Admin)
+ >> expo start   o  yarn start o npm run start   ==================> Acceso General al metro PAgina web(Todo los dispositivos/Pataformas, Admin)
     *  yarn android  ,  yarn ios ,    yarn web  ============> Acceso especifico a cada/Pataforma
 
     
@@ -159,6 +162,12 @@ Instalación del Visual Studio Code https://code.visualstudio.com/download
    >>   expo install @react-native-async-storage/async-storage   /   npm i react-native-async-storage/async-storage (NO EXPO)                                                                                 
     
    >>   expo install @react-native-community/async-storage
+
+
+  @react-native-community/masked-view@0.1.10
+  react-native-screens@3.4.0
+
+
 
                
   CONSTRUCCION
