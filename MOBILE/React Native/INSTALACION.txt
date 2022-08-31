@@ -98,8 +98,9 @@ Instalación del Visual Studio Code https://code.visualstudio.com/download
  >> expo login (OPCIONAL)
  >> expo start   o  yarn start o npm run start   ==================> Acceso General al metro PAgina web(Todo los dispositivos/Pataformas, Admin)
     *  yarn android  ,  yarn ios ,    yarn web  ============> Acceso especifico a cada/Pataforma
+ >>expo start --web
+     
 
-    
                ----------------------------- COnfig MOBILE FISICA -------------------------------------
                - Descargar Expo Go en mobile
                - Abrir Expo Go
@@ -168,7 +169,14 @@ Instalación del Visual Studio Code https://code.visualstudio.com/download
   react-native-screens@3.4.0
 
 
+~.....................................................
 
+  >> npm i @react-navigation/drawer
+  >> expo install react-native-reanimated (https://docs.expo.dev/versions/latest/sdk/reanimated/#installation)
+
+   npm i react-native-gesture-handler
+   npm i react-native-safe-area-context
+......................................................
                
   CONSTRUCCION
   1. STack navegation
@@ -254,6 +262,9 @@ Instalación del Visual Studio Code https://code.visualstudio.com/download
 
 **********************************************************************************************************
   RESPONSIVE
+     REACT RESPONSIVE
+       https://medium.com/dooboolab/re-implement-website-with-react-native-web-d856a37779b4
+
     >> https://github.com/diego3g/responsive-native
 
     https://www.npmjs.com/package/react-native-responsive-screen

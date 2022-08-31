@@ -252,6 +252,9 @@ tuto 3 ======> https://www.youtube.com/watch?v=DmUUsTC2YkA&list=PL8fIRnD1uUSnRqz
                https://github.com/hakymz/FoodAppUIReactNative
                https://www.youtube.com/watch?v=mSMvVWTu1iM
 ************************************************************************************************************************
+ REACT RESPONSIVE
+   https://medium.com/dooboolab/re-implement-website-with-react-native-web-d856a37779b4
+************************************************************************************************************************
   DELIVERY
 
         PART 1 = https://www.youtube.com/watch?v=NV48FIIWaN0&list=RDCMUC3_z0yLxjNQpgGoc5VWuV2A&start_radio=1&rv=NV48FIIWaN0&t=8
