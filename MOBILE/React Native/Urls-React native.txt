@@ -254,6 +254,7 @@ tuto 3 ======> https://www.youtube.com/watch?v=DmUUsTC2YkA&list=PL8fIRnD1uUSnRqz
 ************************************************************************************************************************
  REACT RESPONSIVE
    https://medium.com/dooboolab/re-implement-website-with-react-native-web-d856a37779b4
+   ***https://github.com/yocontra/react-responsive
 ************************************************************************************************************************
   DELIVERY
 
