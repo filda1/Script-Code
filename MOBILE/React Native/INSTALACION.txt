@@ -100,6 +100,7 @@ Instalación del Visual Studio Code https://code.visualstudio.com/download
     *  yarn android  ,  yarn ios ,    yarn web  ============> Acceso especifico a cada/Pataforma
  >>expo start --web
      
+34:14
 
                ----------------------------- COnfig MOBILE FISICA -------------------------------------
                - Descargar Expo Go en mobile
@@ -176,6 +177,7 @@ Instalación del Visual Studio Code https://code.visualstudio.com/download
 
    npm i react-native-gesture-handler
    npm i react-native-safe-area-context
+   $ npm install react-responsive --save
 ......................................................
                
   CONSTRUCCION
@@ -271,4 +273,4 @@ Instalación del Visual Studio Code https://code.visualstudio.com/download
     >> npm i react-native-responsive-screen
 
 **********************************************************************************************************
- 
+ DRAWER ========> https://snack.expo.dev/?platform=web
