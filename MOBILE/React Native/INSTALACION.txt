@@ -168,16 +168,18 @@ Instalación del Visual Studio Code https://code.visualstudio.com/download
 
   @react-native-community/masked-view@0.1.10
   react-native-screens@3.4.0
-
+  npm install react-native-linear-gradient --save
 
 ~.....................................................
 
   >> npm i @react-navigation/drawer
   >> expo install react-native-reanimated (https://docs.expo.dev/versions/latest/sdk/reanimated/#installation)
 
+   npm i react-native-screens
    npm i react-native-gesture-handler
    npm i react-native-safe-area-context
-   $ npm install react-responsive --save
+   npm install react-responsive --save
+   npm install react-native-linear-gradient --save
 ......................................................
                
   CONSTRUCCION
