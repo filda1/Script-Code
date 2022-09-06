@@ -1,5 +1,6 @@
  HOST FREE ....
 
+ 0- Fly.io === Heroku
  1 - https://googiehost.com/freehosting.html ====  https://www.youtube.com/watch?v=uJtyPCsqA8U
  2- infinityfree...
  3- https://www.heliohost.org/
@@ -14,6 +15,14 @@
 
 MYSQL FREE
  https://www.db4free.net/
+
+**************************************************************************************************************
+ Fly.io === Heroku
+ https://www.youtube.com/watch?v=b5q3Nc2iWCw
+
+**************************************************************************************************************
+ LOCALHOST FREE == StackBlitz
+ https://www.youtube.com/watch?v=tQF-uOAmXDs
 
 ***************************************************************************************************************
   FRAMEWORK
