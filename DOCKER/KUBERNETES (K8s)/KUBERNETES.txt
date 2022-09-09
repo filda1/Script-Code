@@ -1,0 +1,81 @@
+TUTO 
+  peladonerd =====> https://www.youtube.com/watch?v=DCoBcpOA7W4
+                    https://github.com/pablokbs/peladonerd
+
+  Kubectl (Cliente) === LENS =========>: https://www.youtube.com/watch?v=DFMKcR4BqwM&t=0s
+  Helm =============================> https://www.youtube.com/watch?v=CPjfb-I_BKU
+
+
+  MACORATTi ===> https://www.youtube.com/watch?v=fXYKWH70Uoo&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW   (PLAYLIST)
+         minikube = https://www.youtube.com/watch?v=OjwQMwgACJk&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW&index=2
+         replicaset = https://www.youtube.com/watch?v=do7XKKTg0wg&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW&index=3
+
+  Minikube = crea Node/nodos en Local ( Tienes que ter run un container)
+
+-----
+  1- 2 HERRAMIETAS PARA TRABAJAR CON K8s en LOcal == CREAR CLUSTER EN LOCAL
+    *  Crea Node/nodos == Minikube
+    *  Linea de comandos == Kubectl (Accede a los nodos o clusters creados)
+
+  2- TRBAJAR CON K8s emn PRODUCCION
+    - Modo Imperativa: EJ:  ======> kubectl run nginx --image nginx
+      O
+    - Modo Declarativa:  EJ:  =======> kubectl apply -f newpod.yaml  (Utilizada)
+-----
+
+  Cluster = Grupo de Nodes  ( Dos tipos de node: WORKER Y MASTER(es control de k8s))
+  Node = Grupo de Pods
+
+  Pods == SET de CONTAINERS (Es Pods tiene un namespace= ip) = GRUPO DE CONTAINERS/recursos
+  * Deploymens (instrucciones en .yaml) == crear PODS
+  StatefulSet  == Deploymens StatefulSet (Es la Persistencia) = EL volumen( == DISCO) esta atado a un disco q tiene una DATABASE por ejemplo
+
+  ReplicaSet = numero de Replicas/copias del POD ( es un archivo .yaml)
+
+  Daemonset (instrucciones en .yaml) = crear PODS para C/nodo ( Se utiliza para monitoreo, logs...)
+
+ SERVICES == COMUNICACION ENTRE PODS
+  -services Cluster ID = Pods relacionados ( solo con etiqueta lo relacionas ==> role:"nombre") == Crea IP del cluster = es IP interno
+  -services  Node Port = puerto pata c/nodo == Crea IP para c/nodo == Ip externo
+  - service LoadBaçancer = crear un loadBalancer con el Host
+
+  ****Ingress = a traves De un Serivor Instalado, a traves de rutas/url accede a los Pods == CREA RUTAS PARA ACCEDER A PODS
+
+  ConfigMap === text/ valores guardado en archivo dentyro de los POds, === es La configuracion
+  Secrets = text/ valores guardado en archivo dentyro de los POds, === es La configuracion en Base64
+  Kustomize = crear manifiestos( Deploymens)
+  Stern = trae todo logs por ejemplo...
+  
+*************************************************************
+
+  COMANDS Kubectl
+
+  >> kubectl cluster-info  ================================> INFO
+  >> kubectl get all  ================================> VER CLUSTERs RUNs
+
+  >> kubectl get pods  ================================> Info Pods
+  >> kubectl describe pods  ================================> Descripcion Pods
+  >> kubectl delete pod NAME_POD  ================================> Elimina 1 Pod
+  >> kubectl delete pod -all  ================================> Elimina Todos Pod
+  >> kubectl exec -ti NAME_POD  ================================> Accedo dentro de POD
+
+  >> kubectl scale replicaset NOMBRE_POD --replicas=6  ================================> Replicando automaticamente
+  >> kubectl scale deployment NOMBRE_DEPLPYMET --replicas=6  ================================> Replicando automaticamente
+  >> kubectl rollout undo deploy NOMBRE_DEPLOYMENT -n default ==============================> Retorna para los PODS antiguos, depues que fueron actualizados
+
+  >> kubectl get nodes  ================================> Info Nodes
+ * >> kubectl apply -f newpod.yaml   ===================> RUN Manifesto = Deploymens
+  >> kubectl describe deplyment NOMBRE_DEPLOYMET  ================================> Descripcion del Manifiesto Deployment
+  >> type deployment_nombre.yaml   ===============================================> Ver archivo en console
+
+
+* >> kubectl apply -f newservice.yaml   ===================> RUN Manifesto para Services 
+                                                       ====> IGUAL >> kubectl expose deplpoyment meu-deploy -name = apache-service --type=ClusterIP --port=8080 --target-port= 8080
+
+  >> kubectl get deploy  =========> Todos los Deploys
+  >> kubectl get pod -o wide  =====================> Pods con IPs
+
+
+  >> kubectl get svc ===================> Ver servivios
+
+  >> kubectl port-forward service/NOMBRE_SERVICE 7000:8080  =====================> Comando de TEST para enviar de 7000 (Accede a clusterIP en este caso para llegar a Los PODS)
