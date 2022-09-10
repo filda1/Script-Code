@@ -10,6 +10,9 @@ TUTO
          minikube = https://www.youtube.com/watch?v=OjwQMwgACJk&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW&index=2
          replicaset = https://www.youtube.com/watch?v=do7XKKTg0wg&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW&index=3
 
+   ASPNET + K8s = https://www.youtube.com/watch?v=On45IAXFEaI&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW&index=8
+    https://github.com/macoratti/KubernetesDeploy
+
   Minikube = crea Node/nodos en Local ( Tienes que ter run un container)
 
 -----
@@ -48,6 +51,7 @@ TUTO
   
 *************************************************************
 
+
   COMANDS Kubectl
 
   >> kubectl cluster-info  ================================> INFO
@@ -79,3 +83,29 @@ TUTO
   >> kubectl get svc ===================> Ver servivios
 
   >> kubectl port-forward service/NOMBRE_SERVICE 7000:8080  =====================> Comando de TEST para enviar de 7000 (Accede a clusterIP en este caso para llegar a Los PODS)
+
+*****************
+ PASO A PASO
+
+ ASP NET MVC ====> https://www.youtube.com/watch?v=On45IAXFEaI&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW&index=8
+   https://github.com/macoratti/KubernetesDeploy
+
+  Dockerfile =======> docker build frontend\Dockerfile -t pizzafrontend  =====> CREA UNA IMAGEN 
+   * Build, y frontend\Dockerfile es la direciion de Dockefile
+
+  Teste ====> docker container run -d -p 8090:80 --name testemvc pizzafrontend  ====> CREA UN CONATINER
+  
+  ENVIAR PARA DOCKER HUB
+  >> docker login
+  >> docker tag pizzafrontend NOMBRE_LOGIN/pizzafrontend
+  >> docker push NOMBRE_LOGIN/pizzafrontend
+
+  >> kubectl apply -f frontend-deploy.yaml
+  >> kubectl get all
+  >> kubectl describe deploy pizzafrontend
+
+  >> kubectl apply -f frontend-service.yaml
+  >> kubectl get all
+  >> kubectl describe svc pizzafrontend
+
+  >> kubectl port-forward service/pizzafrontend 7080/8080 ==========> ACCCESO SOLO PARA TESTE
