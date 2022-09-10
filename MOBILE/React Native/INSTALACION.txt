@@ -180,6 +180,9 @@ Instalación del Visual Studio Code https://code.visualstudio.com/download
    npm i react-native-safe-area-context
    npm install react-responsive --save
    npm install react-native-linear-gradient --save
+   npm i @react-navigation/bottom-tabs
+   npm install @react-navigation/material-top-tabs react-native-tab-view
+   npm install react-native-pager-view
 ......................................................
                
   CONSTRUCCION
