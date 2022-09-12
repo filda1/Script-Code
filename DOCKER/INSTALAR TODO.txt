@@ -1,0 +1,28 @@
+
+
+  # 3 TECNOLOGIA
+    Minikube == Kubernetes
+    kubectl ===> client
+    Helm ======> Emapquetador Cluster
+    Hacer cuenta Docker HUB
+
+  kubectl == https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/
+
+   1. Crear un Carpeta en C: (C:\kubectl) y meter el kubectl.exe
+   2. Add Path ====> en buscador: escribir PC ====> click derecho PRPIEDADES ======> Advances System  Settings =====> Enviromente Variables
+   3. En 2 Cuadro ====> click PATH =====> C:Pasta  (C:\kubectl)
+   4. >> kubectl version --short
+
+
+  Minikube ====> Donwload Release = https://minikube.sigs.k8s.io/docs/start/ ( Solo es INSTALAR)
+   >> minikube start
+   >> minikube --help
+
+
+  Helm ====> https://github.com/helm/helm/releases  (https://www.youtube.com/watch?v=L3iNhrjQILM)
+       ====> Windows amd64
+       ====> Copiar la pasta en C: (C:\windows-amd64)
+
+      - ADD PATH=====> Enviromente Variables =====> path  ( 2 cuadro) =====> C:\windows-amd64
+      >> helm
+

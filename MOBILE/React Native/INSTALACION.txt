@@ -98,7 +98,7 @@ Instalación del Visual Studio Code https://code.visualstudio.com/download
  >> expo login (OPCIONAL)
  >> expo start   o  yarn start o npm run start   ==================> Acceso General al metro PAgina web(Todo los dispositivos/Pataformas, Admin)
     *  yarn android  ,  yarn ios ,    yarn web  ============> Acceso especifico a cada/Pataforma
- >>expo start --web
+ >> expo start --web
      
 34:14
 
