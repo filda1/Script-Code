@@ -10,6 +10,8 @@ TUTO
          minikube = https://www.youtube.com/watch?v=OjwQMwgACJk&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW&index=2
          replicaset = https://www.youtube.com/watch?v=do7XKKTg0wg&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW&index=3
          ingress = https://www.youtube.com/watch?v=6rbLsnsy1Gc&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW&index=10
+                 ****(pelado nerd ) == https://www.youtube.com/watch?v=pzFirwIpMag
+                                       https://github.com/pablokbs/peladonerd
          volumen = https://www.youtube.com/watch?v=L1Te4U-yWKE&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW&index=10 
                    https://www.youtube.com/watch?v=L1Te4U-yWKE&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW&index=12 (EmptyDir == Los datos del Volumen solo se Pierde si matas el Pod)
                    https://www.youtube.com/watch?v=7ImUf_qWW2Y&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW&index=11 ( Volumes Persistentes)
