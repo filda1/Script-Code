@@ -2,7 +2,7 @@ TUTO
   peladonerd =====> https://www.youtube.com/watch?v=DCoBcpOA7W4
                     https://github.com/pablokbs/peladonerd
 
-  Kubectl (Cliente) === LENS =========>: https://www.youtube.com/watch?v=DFMKcR4BqwM&t=0s
+  Kubectl (Cliente) === LENS =========>: https://www.youtube.com/watch?v=DFMKcR4BqwM&t=0s === Interfaz para Kubernetes
   Helm =============================> https://www.youtube.com/watch?v=CPjfb-I_BKU
 
 
@@ -10,7 +10,10 @@ TUTO
          minikube = https://www.youtube.com/watch?v=OjwQMwgACJk&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW&index=2
          replicaset = https://www.youtube.com/watch?v=do7XKKTg0wg&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW&index=3
          ingress = https://www.youtube.com/watch?v=6rbLsnsy1Gc&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW&index=10
-         volumen = https://www.youtube.com/watch?v=L1Te4U-yWKE&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW&index=10
+         volumen = https://www.youtube.com/watch?v=L1Te4U-yWKE&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW&index=10 
+                   https://www.youtube.com/watch?v=L1Te4U-yWKE&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW&index=12 (EmptyDir == Los datos del Volumen solo se Pierde si matas el Pod)
+                   https://www.youtube.com/watch?v=7ImUf_qWW2Y&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW&index=11 ( Volumes Persistentes)
+         ASPNET MVC + SQL SERVER = https://www.youtube.com/watch?v=beA9nKlrBM4&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW&index=12
 
    ASPNET + K8s = https://www.youtube.com/watch?v=On45IAXFEaI&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW&index=8
     https://github.com/macoratti/KubernetesDeploy
@@ -59,12 +62,34 @@ TUTO
   Kustomize = crear manifiestos( Deploymens)
   Stern = trae todo logs por ejemplo...
   
-  Volumenes ===> Pesistencia para todos los conatiners del POD
+  Volumenes ===> Pesistencia para todos los conatiners del POD === Manifiesto de Volumen
+    >> kubectl describe pod NOMBRE_POD  =======> Busca el volumen si esta
+
+    Volumens Efimero:
+     EmptyDir  === Los datos del Volumen solo se Pierde si matas el Pod)
+    Volumes Persistentes (idea es que tiene que adicionar PV a PVC, las 3 cosas estan CONECTADAS):
+     Persistent Volumes(PV) === Manifiesto YAML
+     Persistent Volumen CLaim (PVC) === Manifiesto YAML
+     StorageClass === 
+     * Para Manifiesto son 3:
+           POD.yaml
+           volumen-PVC.YAML
+           volumen_PV.YAML
+   
 *************************************************************
+  OJO: DOCKER siempre en RUN
+       MINIKUBE siempre en RUN
 
   COMANDS minikube
   >> minikube start
   >> minikube --help
+  >> minikube status
+
+  >> minikube dashboard
+    minikube dashboard --url
+
+  >> minikube addons enable ingress =========> Ingress para TESTE minikube
+
 
   COMANDS Kubectl
 
@@ -77,6 +102,17 @@ TUTO
   >> kubectl delete pod NAME_POD  ================================> Elimina 1 Pod
   >> kubectl delete pod -all  ================================> Elimina Todos Pod
   >> kubectl exec -it NAME_POD -- sh  ================================> Accedo dentro de POD
+  >> kubectl exec -it NAME_POD -- /bin/bash ==========================> DENTRO DE  CONAINER ( Ver Volumen por Ejemplo)
+    >> ls -l
+    >> cd NOMBRE_VOLUMEN
+    >> ls -l
+    >> echo 'Teste de volumen EmptyDir' > text.txt  ============> Escrivo y Guardo en .txt
+    >> ls
+    >> tail text.txt   ==============================> Ves lo guardado temporal (es EmptyDir)  O  >> cat text.txt
+    >> exit
+
+  >> kubectl exec NAME_POD -c NOMBRE_CONAINER -- /bin/bash -c "kill 1" ==========================> Matar Container del Pod ( El COnatiner y Volumen se crea sin perder datos)
+  >> kubectl delete pod NAME_POD  ================================> Elimina 1 Pod ( Al elimanr el Pod se pierde datos del VOlumen)
 
   >> kubectl scale replicaset NOMBRE_POD --replicas=6  ================================> Replicando automaticamente
   >> kubectl scale deployment NOMBRE_DEPLPYMET --replicas=6  ================================> Replicando automaticamente
@@ -107,8 +143,7 @@ TUTO
   >> kubectl logs NOMBRE_POD  =========> Logs
   >> kubectl logs NOMBRE_POD -c NOMBRE_CONTENEDOR =========> Logs para Contenedor especifico
 
-  >> minikube dashboard
-    minikube dashboard --url
+
 
   >> minikube addons enable ingress =========> Ingress para TESTE minikube
   >> kubectl apply -f NOMBRE_INGRESS.yaml ========> Manifiesto INGRESS
@@ -169,6 +204,8 @@ ________________________________________________________________________________
 
  HELM (chart, repository, release) === GESTOT DE PAQUETES de KUBERNTES
     Macoratti === https://www.youtube.com/watch?v=aOQZihEn5fA&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW&index=14
+    KebuApp = Helm Hubs == https://kubeapps.dev/resources/ = https://www.youtube.com/watch?v=kURggugffoQ
+    prometheus junto con Splunk para monitoreo todo desde docker
 
  >> docker images
  >> helm version
@@ -215,6 +252,7 @@ ________________________________________________________________________________
     >>kubectl gel all
     helm uninstall NOMBRE_INSTALCION
 
+--
  ENVIANDO Paquete Helm a REPOSITORIO GITHUB ===https://www.youtube.com/watch?v=jScW2XaS8uI
  HERRAMIENTAS === https://www.youtube.com/watch?v=ZjnMpMXmKZQ&list=RDCMUCrBzBOMcUVV8ryyAU_c6P5g&index=3
 
@@ -222,3 +260,30 @@ ________________________________________________________________________________
                               https://www.albertcoronado.com/2021/08/31/tutorial-kubernetes-de-0-a-100-segunda-parte/
  -INGRESS === ALBERTO CRONADO = https://www.youtube.com/watch?v=gPALJhVYMz0
     VOLUMENE ==== https://www.gluster.org
+
+
+--
+
+
+ ASPNET MVC + SQL SERVER (Macoratti )= https://www.youtube.com/watch?v=beA9nKlrBM4&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW&index=12
+   2 NODOS , c/uno POD
+
+  En visual Studio
+   . Ena appSetting ====> DB poner como service
+   . Un Controlar hace las MIgarciones A Contaner =====> ENDPOINT
+   . Dockerfile   =======> Add =====> Docker Support
+      encima Dockerfile =====> Build Docker Image
+
+  SQL SERVER
+  1- DEployment General
+  2 - Deployment PVC
+  3- Service ( Conecta APP con BD)
+
+
+ ASPNETMVC = APP
+  1- Deployment
+  2- Service (acceso exterior === desde Web )
+
+  >> minikube service NOMBRE_SERVICE =====================> Acceso EXTERNO ( FALLA)
+  >> kubectl port-forward service/NOMBRE_SERVICE 7400/8080   ============> Modo TEST 
+   localhost:7400/home/runmigrate  =================> y hace MIGRATION al CONTROLLER en la APP(ASPNET MVC) definido

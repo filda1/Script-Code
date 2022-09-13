@@ -26,3 +26,9 @@
       - ADD PATH=====> Enviromente Variables =====> path  ( 2 cuadro) =====> C:\windows-amd64
       >> helm
 
+
+  LENS = INTERFAZ PARA K8s
+
+
+  Docker HUB === Subir tu Imagen/ o Descargar
+ diadema
