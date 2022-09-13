@@ -319,6 +319,7 @@ RUTAS HIJAS (Muestras En VIEW VARIAS VIEW)  ==================>
       >> ng e2e            
 
 
+27 -  DIRECTIVAS CUSTOM ===> Funciones  Globales en Componente Personalizadas REUTILIZABLE(Componente con funcion standart que actua en HTML y es ReutiliZable) = https://www.youtube.com/watch?v=DIXqfEO48MQ
                 
 =============================================================================================================
 

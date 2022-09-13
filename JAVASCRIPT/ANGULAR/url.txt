@@ -41,6 +41,8 @@
 ****************************************************************************************************************
   ESCONDER USER - Como mostrar/esconder componentes dependendo do login do usuário
  https://medium.com/@marcelo.vismari/angular-directive-como-mostrar-esconder-componentes-dependendo-do-login-do-usuário-7b0d93ac8b21
+
+ DIRECTIVAS CUSTOM ===> Funciones  Globales en Componente Personalizadas REUTILIZABLE(Componente con funcion standart que actua en HTML y es ReutiliZable) = https://www.youtube.com/watch?v=DIXqfEO48MQ
 ****************************************************************************************************************
  UPDATE ANGULAR
    https://update.angular.io/?l=2&v=5.2-13.0
