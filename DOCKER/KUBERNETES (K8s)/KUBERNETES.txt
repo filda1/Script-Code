@@ -12,6 +12,25 @@ TUTO
          ingress = https://www.youtube.com/watch?v=6rbLsnsy1Gc&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW&index=10
                  ****(pelado nerd ) == https://www.youtube.com/watch?v=pzFirwIpMag
                                        https://github.com/pablokbs/peladonerd
+                                       >> carpeta_Ingress/ kubectl apply -f .  ==========================================> CREA todo el DIrectorio
+                                       >> kubectl get ns        ===================================> Ver namesapce Corriendo
+                                       >> kubectl -n nginx-ingress get all  =======================> Ver Todo de INGRESS
+
+                                       >>  kubectl apply -f 01-.....yaml  =========> Correr Los Ejemplos...
+
+                                       >> kubectl apply -f 03-hello-svc-v1.yaml ==================================> Servicio de Acceso a los POD1
+                                       >> kubectl apply -f 04-hello-svc-v1.yaml ==================================> Servicion de Acceso a los POD2
+                                       >> kubectl decribe service/NOMBRE_SERVICE  ================================> Ves adentro los ENDPOINTS
+
+                                       >> kubectl apply -f 05-ingress.yaml   ======================================> ReGLAS de INGRESS (A dentro estan los Subdominios a c/servicio y  C/POD
+
+                                       >> kubectl get all
+                                       >> kubectl get ing  ========================================================> Ver los INGRESS ( ves los subdominios...)
+                                       >> kubectl describe ing ingress ============================================> TODOS los INGRESS
+
+                                       >> curl v1.peladonerd.local:3000  ===========================================> Sálida
+                                       >> curl v1.peladonerd.local:3000  ===========================================> Sálida
+
          volumen = https://www.youtube.com/watch?v=L1Te4U-yWKE&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW&index=10 
                    https://www.youtube.com/watch?v=L1Te4U-yWKE&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW&index=12 (EmptyDir == Los datos del Volumen solo se Pierde si matas el Pod)
                    https://www.youtube.com/watch?v=7ImUf_qWW2Y&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW&index=11 ( Volumes Persistentes)
@@ -93,10 +112,10 @@ TUTO
   >> minikube addons enable ingress =========> Ingress para TESTE minikube
 
 
-  COMANDS Kubectl
+  COMANDS Kubectl  == https://www.bluematador.com/learn/kubectl-cheatsheet
 
   >> kubectl version --client
-  >> kubectl cluster-info  ================================> INFO
+  >> kubectl cluster-info  ================================> INFO CLUSTERS
   >> kubectl get all  ================================> VER CLUSTERs RUNs
 
   >>   ================================> Info Pods
@@ -145,8 +164,10 @@ TUTO
   >> kubectl logs NOMBRE_POD  =========> Logs
   >> kubectl logs NOMBRE_POD -c NOMBRE_CONTENEDOR =========> Logs para Contenedor especifico
 
+  >> kubectl get node        ================================> todos loa NODOS
+  >>kubectl describe nodes my-node  ========================> NODO esoecifico
 
-
+  INGRESS (macoratti) === INGRESS va Conectado a 1 SERVICE/o varios Services por label
   >> minikube addons enable ingress =========> Ingress para TESTE minikube
   >> kubectl apply -f NOMBRE_INGRESS.yaml ========> Manifiesto INGRESS
   >> kubectl get ingress 
