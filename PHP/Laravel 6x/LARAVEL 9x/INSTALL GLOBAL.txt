@@ -1,0 +1,16 @@
+INSTALL
+
+ aprendible -----------------------------> https://www.youtube.com/watch?v=rQZmhqah0PQ   11:27
+
+
+ >> composer global require laravel/installler  ===================> LAravel GLOBAL
+
+ >> laravel new  nombre_app
+
+
+  * Luego recargar laragon......
+
+
+ >> laravel new -h
+
+  * En las opciones puedes ver y crear otras cosa >========== EJ: >> laravel new myGit --git

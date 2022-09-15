@@ -79,7 +79,44 @@ TUTO
   
 
   ConfigMap === text/ valores guardado en archivo dentyro de los POds, === es La configuracion
-  Secrets = text/ valores guardado en archivo dentyro de los POds, === es La configuracion en Base64
+  Secrets = text/ valores guardado en archivo dentyro de los POds, === es La configuracion en Base64 (Se guardan DB de K8s == etcd)
+          = son almacenados en el volumen
+          = (macoratti) https://www.youtube.com/watch?v=myJCg1f0kQI&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW&index=17
+
+    * 2 formas de crerar Secret . 1 comando y 2 Con Kustomize
+
+    tipos: Integrados y Custimizados
+      >> echo -n 'MY_USER' > username.txt   =============> Escrivo y guardo
+      >> echo -n 'MY_PASS' > password.txt   =============> Escrivo y guardo
+      >> echo -n 'MY_USER' > username.txt | base64   =============> Escrivo y guardo (Otra forma, Tienes que hacer YAML a mano y convertilo en BASE64): Otra forma es dejar las variables abierta sin  base64 y  con'' y el comando no lleva | base64,  solo lo aplicas
+      >> dir
+      >> kubectl create secret generic user-cred --from=./username.txt --from=./password.txt  ======> CREO
+      * user-cred = Nombre del Secret
+
+      >> kubectl create secret generic test-cred --from-literal=username=... --from-literal=password=..... ========================> Comando Directo
+
+      >> kubectl get secrets  ===========================> Todos Secrets
+      >> kubectl describe secrets/user-cred  ============> Descripcion de Secret
+      >> kubectl edit secret/user-cred      =============> Edit Secret
+
+      >> kubectl get secret user-cred -o yaml    ====================> Exibe el Contenido
+      >> kubectl get secret user-cred -o jsonpath='{.data}' ====================> Exibe el Contenido
+
+      * kubectl apply -f secret1.yaml  =========================> CREA el SECRET
+
+
+       CREAR SECRET CON KUZTOMIZE
+       * hacer Deployment/ o POD YAML
+       >> kubectl apply -k .
+       >> kubectl get secrets
+       >> kubectl apply -f pod1.YML
+
+       >> kubectl exec -i NOMBRE_POD --/bin/bash    >========> DEntro del POD
+       >> cd /etc/mysecret     ==================> voy a la direcion que .YAML (mountPath)
+       >> ls
+       >> cat password
+       >> cat username
+
   Kustomize = crear manifiestos( Deploymens)
   Stern = trae todo logs por ejemplo...
   

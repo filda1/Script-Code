@@ -6,3 +6,7 @@ Con EMU
  Dentro de la divion , dividir = CTRL + Shift + o
 
  Elimino las divisiones = CTRL + Win + del
+
+*************************************************
+
+>> wsl     =============================> entras a terminal de LINUX
