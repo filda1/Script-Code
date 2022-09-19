@@ -11,6 +11,9 @@
   3. >>> proyecto >  docker ps   ====================> VES TUS CONTAINER CON IMAG CORRIENDO
   4. >>> proyecto> docker-compose -f docker-compose.yml -f docker-compose-override.yml up -d ================>(crea IMAGENES y los  CONTENEDORES ==> RUN)
 
+  >> docker pull.... ( Descarga imagen)
+  >> docker run... ( COrre Imagenb)
+
 -----------------------------------------
 
   *DOCKER ====> CONTENEDORES = images + images ...
