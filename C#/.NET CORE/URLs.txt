@@ -16,6 +16,17 @@
 WINDOWS SERVICE
   https://www.c-sharpcorner.com/article/create-windows-services-in-c-sharp/
 ******************************************************************************************
+
+   WORKER + SERVICE
+    (iamtimcorey) ========> https://www.youtube.com/watch?v=PzrTiz_NRKA
+
+
+ PONER SERVICIO EN WINDOWS (con poweshell)
+ 
+ >> sc.exe create NOMBRE_SERVICE binpath=c:\temp\nombre_service.exe start= auto
+ >> sc.exe delete NOMBRE_SERVICE
+
+******************************************************************************************
  INSERTAR  10 MILLONES EN DB
 
   https://www.youtube.com/watch?v=sVoYqnGai_I

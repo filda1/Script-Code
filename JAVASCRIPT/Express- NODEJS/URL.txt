@@ -9,6 +9,12 @@
                                      https://github.com/FaztWeb/node-sqlserver-restapi
 
 **************************************************************************************
+ 
+  NODEJS + MYSQL + (RAILWAY == host free)
+  fatz = https://www.youtube.com/watch?v=C3NhmT__Mn4
+   https://github.com/FaztWeb/nodejs-mysql-railway
+
+**************************************************************************************
  EXTRAER DATOS DE EXCEL 
    >> npm i xlsx       (https://www.npmjs.com/package/xlsx)
    https://steemit.com/hive-193637/@jfdesousa7/tutorial-aprende-a-leer-un-archivo-excel-y-obtener-sus-datos-con-node-js

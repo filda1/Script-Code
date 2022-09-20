@@ -32,6 +32,14 @@ TUTO
                                        >> curl v1.peladonerd.local:3000  ===========================================> Sálida
                                        >> curl v1.peladonerd.local:3000  ===========================================> Sálida
 
+         Ingress + SSL  =Kubernetes con CERT-MANAGER ( NECESARIO EN HOST LOAD BALANCER)
+                       (peladonerd) = https://www.youtube.com/watch?v=ZKrC261Rxqo&t=200s
+                       (That DevOps Guy) = https://www.youtube.com/watch?v=hoLUigg4V18
+                                           ***https://github.com/marcel-dempers/docker-development-youtube-series
+    
+
+
+
          volumen = https://www.youtube.com/watch?v=L1Te4U-yWKE&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW&index=10 
                    https://www.youtube.com/watch?v=L1Te4U-yWKE&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW&index=12 (EmptyDir == Los datos del Volumen solo se Pierde si matas el Pod)
                    https://www.youtube.com/watch?v=7ImUf_qWW2Y&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW&index=11 ( Volumes Persistentes)
