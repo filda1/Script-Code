@@ -77,7 +77,8 @@ TUTO
  SERVICES == COMUNICACION ENTRE PODS
   -services Cluster ID = Pods relacionados ( solo con etiqueta lo relacionas ==> role:"nombre") == Crea IP del cluster = es IP interno
   -services  Node Port = puerto pata c/nodo == Crea IP para c/nodo == Ip externo
-  - service LoadBaçancer = crear un loadBalancer con el Host
+  - service LoadBalancer = crear un loadBalancer con el Host (Load balancer te lo da tu HOST) (va cada NODO es fica la IP)
+         ***peladonerd = https://www.youtube.com/watch?v=0iMEcrcfG5A&list=WL&index=64&t=270s
 
   ****Ingress = a traves De un Serivor Instalado, a traves de rutas/url accede a los Pods == CREA RUTAS URL PARA ACCEDER A PODS a traves de services
             Es necesarios un Ingres Controller = ingress-nginx (Ejemplo), === servidor    
@@ -212,6 +213,7 @@ TUTO
 
   >> kubectl get node        ================================> todos loa NODOS
   >>kubectl describe nodes my-node  ========================> NODO esoecifico
+  >> kubectl get nodes -o wide     ==========================> Para NODEPORT , te trae la IP url...
 
   INGRESS (macoratti) === INGRESS va Conectado a 1 SERVICE/o varios Services por label
   >> minikube addons enable ingress =========> Ingress para TESTE minikube

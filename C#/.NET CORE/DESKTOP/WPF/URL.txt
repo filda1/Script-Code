@@ -51,6 +51,13 @@ WPF
        https://github.com/PrismLibrary/Prism-Samples-Wpf
 
  **** https://www.c-sharpcorner.com/article/c-sharp-write-to-file/
+
+
+https://www.codespeedy.com/convert-csv-file-to-txt-file-in-dot-net-using-vb-windows-form/
+https://stackoverflow.com/questions/22365957/how-do-i-automate-saving-of-csv-files-to-delimited-txt-files-using-c
+
+****  CSV to JSON ======> https://qawithexperts.com/article/c-sharp/convert-csv-to-json-in-c/465
+       CREATE FILE + WRITELINE =  https://stackoverflow.com/questions/42869618/create-a-textfile-from-winform-and-write-and-read-from-the-textfile
 ******************************************************************************************************
 UPLOAD FILES
    https://www.c-sharpcorner.com/article/upload-any-file-using-http-post-multipart-form-data/

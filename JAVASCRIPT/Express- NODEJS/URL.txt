@@ -15,6 +15,11 @@
    https://github.com/FaztWeb/nodejs-mysql-railway
 
 **************************************************************************************
+ ***SWAGGGER
+     ***** https://www.youtube.com/watch?v=RayDPBYou4I
+           https://github.com/filda1/crossfit-wod-api
+
+**************************************************************************************
  EXTRAER DATOS DE EXCEL 
    >> npm i xlsx       (https://www.npmjs.com/package/xlsx)
    https://steemit.com/hive-193637/@jfdesousa7/tutorial-aprende-a-leer-un-archivo-excel-y-obtener-sus-datos-con-node-js

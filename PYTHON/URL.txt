@@ -17,6 +17,11 @@
   ****https://anaconda.cloud/pyscript-python-in-the-browser
 
 ************************************************************************************************************************
+ DJANGO REST SIMPLE + render.com
+
+  (fatz) = https://www.youtube.com/watch?v=GE0Q8YNKNgs&list=WL&index=62
+
+************************************************************************************************************************
   CONECTAR  2 APLICACIONES
   https://www.youtube.com/watch?v=QoEbNGC0OYk
 

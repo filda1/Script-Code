@@ -2,3 +2,8 @@
 
    EXPRESS + SWAGGER =========> https://www.youtube.com/watch?v=apouPYPh_as
    PASO A PASO SWAGER ========> https://www.youtube.com/watch?v=MnC-XJkg6MQ
+
+
+
+  ***** https://www.youtube.com/watch?v=RayDPBYou4I
+        https://github.com/filda1/crossfit-wod-api
