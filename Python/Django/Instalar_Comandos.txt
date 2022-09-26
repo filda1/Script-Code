@@ -6,13 +6,64 @@
 
 
 
+   >> python --version
+
+   En VCODE =====> instalar Python Intelligent...
+
+
+
+********************************************************************************************************************************************
+
+    VENV  -----------------------------------------------------> Virtual env
+
+      1- Download Python
+
+    2. >> python python_info.py    ----------------------------------------------------------------------------> paquetes
+
+    3. >> c:\djangoproject >> pip install virtualenv
+       >> c:\djangoproject >> virtualenv --version
+
+    - Crear un carpeta dentro del proyecto >======= venv
+
+    3.0 -  c:\djangoproject >>   python<version> -m venv <virtual-environment-name>     -------------------------------------------> Cambiar versiones
+                                                                  *https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/
+
+    3.1 - c:\djangoproject >>.\venv\Scripts\activate  -----------------------------> activar el entorno
+
+
+
+    3.2- (venv) c:\djangoproject >> python --version   ==========================> Esta activado
+
+
+     INSTALL DJANGO  ===================> 2 carpetas:
+                                          1ª es Sistem/admin y 2ª MI proyecto/s 
+
+
+    1- c:\djangoproject >> pip install django    =======================================================> DENTRO DE LA CARPETA GENERAL == INSTALL django
+    2-  c:\djangoproject >> django-admin --version   /   >> python -m django --version
+
+    3- c:\djangoproject >> django-admin startproject nombreAdmin  =================================================> Esta esla de Admin o System (1ª carpeta)
+                        >> >> django-admin startproject nombreAdmin .                        ====================> Crea algunos archivos afuera de la carpeta
+
+    4-  c:\djangoproject>>  python manage.py runserver           ==============================================> RUN 
+                            >>  python manage.py runserver 300   ===============================================> RUN nuevo puerto
+
+    5 - c:\djangoproject>>  django-admin startapp nombre_app      ==========================================>  Proyect/s o apps ( 2ª carpeta)
+
+35:57
+
+
+********************************************************************************************************************************************
    PIPENV     -------------------------------> nuevo entorno virtual (para saltar versiones, en caso hubise un problema)
 
 
    
    >> python --version
 
-   >> pip3 install pipenv  ------------------------------------------->   ( Crear Carpeta para meter pipenv). Dentro Clone Repositorio vacio. Mas Dentro el creo proyectoDjango
+   >> Crear a mano primero un carpeta geneneral ==========> EJ: djangoproject
+
+
+   >> c:\djangoproject>> pip3 install pipenv  ------------------------------------------->   ( Crear Carpeta para meter pipenv). Dentro Clone Repositorio vacio. Mas Dentro el creo proyectoDjango
 
    >> pipenv shell         -------------------------------------------> crea entorno/activar, tambien aprece un archivo Pipfile
 
@@ -34,6 +85,8 @@
 
 *******************************************************************************************************************************************************************
     CREAR PROYECTO  Y  APPS
+
+    >> Crear a mano primero un carpeta geneneral ==========> EJ: djangoproject
 
     >> Dentro de pipenv >>    django-admin startproject nombreAdmin    =============================================> Proyecto General
        

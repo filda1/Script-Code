@@ -2,6 +2,10 @@ TUTO
   peladonerd =====> https://www.youtube.com/watch?v=DCoBcpOA7W4
                     https://github.com/pablokbs/peladonerd
 
+  albertocoronado => https://www.youtube.com/watch?v=gmFSmzAWcig&list=RDCMUCLek8zeRbg3gm5usDe6YFzw&start_radio=1&t=2108s (Parte 1)
+                  =>https://www.youtube.com/watch?v=gPALJhVYMz0&t=484s (Parte 2)
+
+
   Kubectl (Cliente) === LENS =========>: https://www.youtube.com/watch?v=DFMKcR4BqwM&t=0s === Interfaz para Kubernetes
   Helm =============================> https://www.youtube.com/watch?v=CPjfb-I_BKU
 
@@ -68,7 +72,9 @@ TUTO
 
   Pods == SET de CONTAINERS (Es Pods tiene un namespace= ip) = GRUPO DE CONTAINERS/recursos
   * Deploymens (instrucciones en .yaml) == crear PODS
-  StatefulSet  == Deploymens StatefulSet (Es la Persistencia) = EL volumen( == DISCO) esta atado a un disco q tiene una DATABASE por ejemplo == Otro MANIFIESTO (Es parecido a un Service)
+  StatefulSet  == Ordena los Pods con NOMBRES (con status) ( StatefulSet = Deplpyment + Service
+                == Deploymens StatefulSet (Es la Persistencia) = EL volumen( == DISCO) esta atado a un disco q tiene una DATABASE por ejemplo == Otro MANIFIESTO (Es parecido a un Service)
+             
 
   ReplicaSet = numero de Replicas/copias del POD ( es un archivo .yaml)
 
@@ -202,7 +208,7 @@ TUTO
   >> type config ==================> Ver config
   >> kubectl config current-context ==> Info
   >> kubectl config get-context ==> Info
-  >> kubectl config get-closter ==> Info
+  >> kubectl config get-cluster ==> Info
   >> kubectl config --help
 
   >> kubectl get svc ===================> Ver servivios
@@ -214,6 +220,7 @@ TUTO
   >> kubectl get node        ================================> todos loa NODOS
   >>kubectl describe nodes my-node  ========================> NODO esoecifico
   >> kubectl get nodes -o wide     ==========================> Para NODEPORT , te trae la IP url...
+  >> kubectl top NOMBRE_NODE       ===========================> Tarae info Memoria, CPU...
 
   INGRESS (macoratti) === INGRESS va Conectado a 1 SERVICE/o varios Services por label
   >> minikube addons enable ingress =========> Ingress para TESTE minikube
@@ -273,7 +280,7 @@ PASO A PASO  =======>  FRONTEND  + BACKEND en 2 NODES diferentes
 
 __________________________________________________________________________________________________________________
 
- HELM (chart, repository, release) === GESTOT DE PAQUETES de KUBERNTES
+ HELM (chart, repository, release) === GESTOT DE PAQUETES de KUBERNTES === EMpaqueta todo junto 
     Macoratti === https://www.youtube.com/watch?v=aOQZihEn5fA&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW&index=14
     KebuApp = Helm Hubs == https://kubeapps.dev/resources/ = https://www.youtube.com/watch?v=kURggugffoQ
     prometheus junto con Splunk para monitoreo todo desde docker
@@ -330,9 +337,15 @@ ________________________________________________________________________________
  -INSTALAR K8s en SERVER (Alberto coronado) === https://www.youtube.com/watch?v=gmFSmzAWcig&list=RDCMUCLek8zeRbg3gm5usDe6YFzw&start_radio=1&rv=gmFSmzAWcig&t=2108
                               https://www.albertcoronado.com/2021/08/31/tutorial-kubernetes-de-0-a-100-segunda-parte/
  -INGRESS === ALBERTO CRONADO = https://www.youtube.com/watch?v=gPALJhVYMz0
+
+ -JOBS === Activa un PODS para procese una Tarea (https://www.youtube.com/watch?v=gPALJhVYMz0&t=484s)
+
+ -CRONJOBS ==== ACTIVA pods con TIME (https://www.youtube.com/watch?v=gPALJhVYMz0&t=484s)
+
     VOLUMENE ==== https://www.gluster.org
 
-
+ SERVER ============================> https://www.hetzner.com/cloud
+  doc ==============================> https://docs.hetzner.com/cloud/servers/getting-started/creating-a-server
 --
 
 
@@ -358,3 +371,53 @@ ________________________________________________________________________________
   >> minikube service NOMBRE_SERVICE =====================> Acceso EXTERNO ( FALLA)
   >> kubectl port-forward service/NOMBRE_SERVICE 7400/8080   ============> Modo TEST 
    localhost:7400/home/runmigrate  =================> y hace MIGRATION al CONTROLLER en la APP(ASPNET MVC) definido
+
+
+
+***************************************************** COMANDOS *************************************************************
+
+ =================================================== MINICUBE ===================================================
+ OJO: DOCKER siempre en RUN
+       MINIKUBE siempre en RUN
+
+  COMANDS minikube
+  >> minikube start
+  >> minikube --help
+  >> minikube status
+
+  >> minikube dashboard
+    minikube dashboard --url
+
+  >> minikube addons enable ingress =========> Ingress para TESTE minikube
+
+=================================================== CLUSTER ===================================================
+  >> kubectl version --client
+  >> kubectl cluster-info  ================================> INFO CLUSTERS
+  >> kubectl get all  ================================> VER CLUSTERs RUNs
+
+  >> kubectl config current-context ==> Info
+  >> kubectl config get-context ==> Info
+  >> kubectl config get-cluster ==> Info
+
+=================================================== NODES ===================================================
+
+
+=================================================== VOLUMEN ===================================================
+
+
+=================================================== INGRESS ===================================================
+
+
+=================================================== SECRECT ===================================================
+
+
+
+=================================================== HELM ===================================================
+
+
+
+=================================================== DEPLOYMENT ===================================================
+
+
+
+=================================================== SERVICES ===================================================

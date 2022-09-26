@@ -22,6 +22,9 @@ ALTERNATIVAS A FIREBASE
  https://github.com/Budibase/budibase
 
 **********************************************************************************
+ PENPOP === FIGMA
+ https://penpot.app
+**********************************************************************************
   ADD SHORCUT A WIN 10
   https://www.youtube.com/watch?v=AQNaIgWWByI
 **********************************************************************************
@@ -83,7 +86,7 @@ Postly =======> https://www.youtube.com/watch?v=kocZSE9dY6s&ab_channel=NegocioSt
  MY COMPILER
 
  https://www.mycompiler.io/new/rust
-https://www.programiz.com/python-programming/online-compiler/
+ https://www.programiz.com/python-programming/online-compiler/
 
 ********************************************************************************** 
  COMPILADOR REACT; ANGULAR ..... ===CODESANDBOX.io

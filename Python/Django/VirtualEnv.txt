@@ -8,7 +8,23 @@
 
     2. >> python python_info.py    ----------------------------------------------------------------------------> paquetes
 
-    3. >> pip install virtualenv
+    3. >> c:\djangoproject >> pip install virtualenv
+       >> c:\djangoproject >> virtualenv --version
+
+    - Crear un carpeta dentro del proyecto >======= venv
+
+
+    3.0 -  python<version> -m venv <virtual-environment-name>     -------------------------------------------> Cambiar versiones
+                                                                  *https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/
+
+    3.1 - c:\djangoproject >>.\venv\Scripts\activate  -----------------------------> activar el entorno
+
+
+
+    3.2- (venv) c:\djangoproject >> python --version   ==========================> Esta activado
+
+**************************************************************************************************************************************************************
+    OTRA FORMA
 
     4. >> virtualenv env27          ----------------------------------------------------------------------------> va al entorno python 2.7
                                                                                                                   *Ja tenemos el entorno global por defecto
