@@ -52,6 +52,10 @@
    https://rafaellaurindo.com.br/como-executar-comandos-unix-com-javascript-e-nodejs/
 
 *********************************************************************************************************
+ ANGUALAR MATERIAL
+
+  https://material.angular.io/components/table/examples
+*********************************************************************************************************
  PLUGIN VALIDATION (ng2-validations)
 
   https://www.npmjs.com/package/ng2-validation
