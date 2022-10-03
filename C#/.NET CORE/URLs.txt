@@ -1,4 +1,10 @@
 
+ -1 - SQLserver
+ 0- Swagger
+ 1- jwt
+ 2- roles  ( Users Addmin y Users Web)
+
+*****************************************************************************************
 * https://devblogs.microsoft.com/dotnet/
 *https://docs.microsoft.com/en-us/
 
