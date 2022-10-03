@@ -20,6 +20,13 @@
    https://www.youtube.com/watch?v=pRMPpGaERCM&ab_channel=No1225
 
 ******************************************************************************************************************************************
+  STORE PROCEDURE in ENTITY FRAMEWORK
+    https://www.youtube.com/watch?v=DpLQYVErKm8
+
+  API + Store Procedure
+  https://www.youtube.com/watch?v=nHv9jCPtwT0
+  https://github.com/patrickgod/EfCoreStoredProcedureTutorial
+******************************************************************************************************************************************
   UPLOAD FILES ASPNET CORE
    https://www.c-sharpcorner.com/article/upload-and-display-image-in-asp-net-core-3-1/
 

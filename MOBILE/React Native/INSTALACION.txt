@@ -100,7 +100,7 @@ Instalación del Visual Studio Code https://code.visualstudio.com/download
     *  yarn android  ,  yarn ios ,    yarn web  ============> Acceso especifico a cada/Pataforma
  >> expo start --web
      
-1:28
+1:36
 
                ----------------------------- COnfig MOBILE FISICA -------------------------------------
                - Descargar Expo Go en mobile

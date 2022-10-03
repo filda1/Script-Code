@@ -13,11 +13,45 @@
    https://www.thecodebuzz.com/jwt-authorize-swagger-using-ioperationfilter-asp-net-core/
 
 ******************************************************************************************
+ JWT
+  https://www.macoratti.net/18/05/mvc5_swebapi1.htm
+  https://www.c-sharpcorner.com/UploadFile/raj1979/authorization-using-web-api/
+******************************************************************************************
+ ROLES 
+
+  *** https://dev.to/moe23/asp-net-core-rest-api-authorization-with-jwt-roles-vs-claims-vs-policy-step-by-step-5bgn
+
+    kudvenkat:
+
+ create ROLES === https://www.youtube.com/watch?v=TuJd2Ez9i3I
+ Get roles === https://www.youtube.com/watch?v=KGIT8P29jf4
+ Edit roles == https://www.youtube.com/watch?v=7ikyZk5fGzk
+ ADD or DELETE USERS = https://www.youtube.com/watch?v=TzhqymQm5kw
+ https://www.youtube.com/watch?v=Uw2ujXvN3i4
+ https://www.youtube.com/watch?v=LJQBBvJ6tL0
+
+ tutorial = https://csharp-video-tutorials.blogspot.com/2019/01/aspnet-core-tutorial-for-beginners.html
+ https://csharp-video-tutorials.blogspot.com/2019/08/claims-based-authorization-in-aspnet.html
+ roles = https://csharp-video-tutorials.blogspot.com/2019/01/aspnet-core-tutorial-for-beginners.html
+
+  ROLES MVC
+  ****Macoratty =======> http://www.macoratti.net/18/02/aspcore_roles1.htm
+
+ PERSONALIZAR Identity
+
+  ****http://www.macoratti.net/18/11/aspn_idt2.htm
+******************************************************************************************
 WINDOWS SERVICE
   https://www.c-sharpcorner.com/article/create-windows-services-in-c-sharp/
 ******************************************************************************************
 
  VPN  = https://www.youtube.com/watch?v=zcJayEW6nX8
+
+******************************************************************************************
+ API + SQL SERVER + Store Procedure + EF  ( Metodo Rapido, de DB a Proyecto)
+
+  Curious Drive  = https://www.youtube.com/watch?v=DoYmpAPoixI&t=457s
+  https://github.com/CuriousDrive/EFCore.AllDatabasesConsidered
 
 ******************************************************************************************
 

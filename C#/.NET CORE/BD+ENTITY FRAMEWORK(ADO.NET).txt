@@ -19,6 +19,12 @@ Adding ADO .NET entity data model ===========>https://www.youtube.com/watch?v=m7
  INSTALL SQL SERVER =======> https://www.youtube.com/watch?v=QsXWszvjMBM
  connection string = Server=localhost;Database=master;Trusted_Connection=True;
 
+
+ *API + SQL SERVER + Store Procedure + EF  ( Metodo Rapido, de DB a Proyecto)
+
+  ********Curious Drive  = https://www.youtube.com/watch?v=DoYmpAPoixI&t=457s
+  https://github.com/CuriousDrive/EFCore.AllDatabasesConsidered
+
 *************************************************************************************************
 
   ASP.NET WEB CORE Aplication  ==========================> Run TODOS OS
