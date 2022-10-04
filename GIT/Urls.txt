@@ -23,8 +23,13 @@ login+ VSCODE =====> https://support.atlassian.com/bitbucket-cloud/docs/get-star
 
 ****************************************************************
 
- GITHUB ACTIONS
+ GITHUB ACTIONS ( Despliegues a servidores a traves GITHUB)
 
  https://www.youtube.com/watch?v=gBEi79LQBSU&ab_channel=CódigoFonteTV
+ 
+ fatz ==0> https://www.youtube.com/watch?v=azzRDem_p5k&t=5s
+
+ creas workflow, en tu projeto ===> un instructivo para Github ( lo tiene un github)
+ instalar un runner == escuchador, el servidor ( lo tiene un github)
 
 ****************************************************************

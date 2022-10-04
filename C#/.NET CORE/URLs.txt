@@ -17,6 +17,16 @@
  SWAGGER + BEARER
    https://www.youtube.com/watch?v=P0VkY1tv6n8&ab_channel=TheCodeBuzz
    https://www.thecodebuzz.com/jwt-authorize-swagger-using-ioperationfilter-asp-net-core/
+******************************************************************************************
+
+  WEB API
+    - ROLES + JWT ====>(patric god) ======> https://www.youtube.com/watch?v=TDY_DtTEkes
+                                             https://github.com/patrickgod/JwtWebApiTutorial
+      (patric god) ====> https://www.youtube.com/watch?v=v7q3pEK1EA0&list=RDCMUCq8LldVrjqe61KQttZlLW8g&start_radio=1&rv=v7q3pEK1EA0&t=26  (PLAYLIST)
+                         https://www.youtube.com/watch?v=2Q9Uh-5O8Sk&list=RDCMUCq8LldVrjqe61KQttZlLW8g&start_radio=1&rv=2Q9Uh-5O8Sk&t=0   (PLAYLIST)
+
+       Reset pasword =====> https://www.youtube.com/watch?v=2Q9Uh-5O8Sk
+       includes ==========> https://www.youtube.com/watch?v=7HuOivcr6Mg
 
 ******************************************************************************************
  JWT
