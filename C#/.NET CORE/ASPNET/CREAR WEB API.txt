@@ -1,0 +1,78 @@
+
+ CREAR PROYECTO
+  (zulu) === https://www.youtube.com/watch?v=AsM5Iit3Y3g&list=PLuEZQoW9bRnTKcse75pub6T3-pi5M7NGy&index=1
+             https://www.youtube.com/watch?v=uB5FnV0xQg4&list=PLuEZQoW9bRnTKcse75pub6T3-pi5M7NGy&index=2
+
+ 0 - Visual Studio 2022 ==> clone Repository 
+  Repo =====> ........ /onsale.git   ====================> Viene de GITHUB y no tines nada en local creado
+  Proyecto ==>  c:/Proyecto/onsale   =======> OJO ,AQUI TIENES QUE PONER EL NOMBRE DEL Q quieres darle PROYECTO, Pero la carpeta no pueda estar hecha
+
+ 1 -  DENTRO Visual Studio 2022 --> New ===> Proyect ====> Blank Solution
+   Location:
+   c:/Proyecto   =======> OJO AQUI NO TIENES QUE PONER EL NOMBRE DE CARPETA
+
+  .gitignore
+  .VisualStudio
+
+ 2 - Dentro Nombre de Proyecto(Blank Solution)  ===> click derecho ===> new ===> proyecto ===> APi
+
+--
+ DATABASE
+  (Patrick God) =https://www.youtube.com/watch?v=2bsRQIhtTxs
+
+  0- INSTALL
+     * MicrosoftEntityFrameworkCore.Tools
+     * MicrosoftEntityFrameworkCore.SqlServer
+
+  1- CREAr DB a mano en SQLserver
+
+  2 - PACKAGE MANAGER CONSOLE
+   PM> Scaffold-DbContext "Server=.\SQLExpress;Database=NOMBRE_DB;Trusted_Connection=true;"Microsoft.EntityFrameworkCore.SqlServer -Output Models  (CREA DB CONTEXT) (puedes poner --force en lo ultimo)
+
+  3- Program.cs:
+  builder.Services.AddDbContext<NOMBRE_DB_CONTEXT>();
+
+  var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+  builder.Services.AddDbContext<ApplicationDbContext>(options =>
+  options.UseSqlServer(connectionString));
+  builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+--
+  4- ADD CONTROLLER
+    EN controller (Pasta) ====> boto dereccho ===> ADD ===> APi.
+
+--
+  5- MIGRATION EF
+    
+   >> add-migration Nombre
+   >> update-database
+
+
+__ D:\Proyectos\WEB\furniture-workflow
+user
+ Avatar
+ Role
+ Notvisible
+
+ furniture-workflow
+ fworkflow-0_0_0
+
+MicrosoftEntityFrameworkCore.SqlServer
+ 
+Scaffold-DbContext "Server=.\SQLEXPRESS;Database=fworkflow-0_0_0;Trusted_Connection=true;" Microsoft.EntityFrameworkCore.SqlServer -Output Models
+
+
+Data Source=DESKTOP-SVCV9LR\SQLEXPRESS;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False
+
+
+
+
+
+
+
+
+
+
+
+
+
+

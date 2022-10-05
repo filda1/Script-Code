@@ -1,0 +1,234 @@
+
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
+using System.Security.Principal;
+using System.Text;
+using System.Text.Json.Serialization;
+using Web.Data;
+using Web.Data.Entites.Account;
+using Web.Data.Entites.Online;
+using Web.Data.Entities.Online;
+using Web.Helpers;
+using Web.Hubs;
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(connectionString));
+builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+
+builder.Services.AddScoped<ICombosHelper, CombosHelper>();
+builder.Services.AddScoped<IUserHelper, UserHelper>();
+builder.Services.AddScoped<IMailHelper, MailHelper>();
+
+builder.Services.AddHttpContextAccessor();
+
+/*builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddEntityFrameworkStores<ApplicationDbContext>();*/
+
+builder.Services.AddTransient<SeedDb>();
+
+//builder.Services.AddSingleton<IDictionary<string, UserConnection>>(opts => new Dictionary<string, UserConnection>());
+//builder.Services.AddSingleton<IDictionary<string, SignalUser>>(opts => new Dictionary<string, SignalUser>());
+
+builder.Services.AddControllers().AddJsonOptions(x =>
+                x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
+
+
+builder.Services.AddSession();
+
+// Inject Hub
+builder.Services.AddScoped<ChatHub>();
+
+// This disables HTTPS for gRPC
+AppContext.SetSwitch("System.Net.Http.SocketsHttpHandler.Http2UnencryptedSupport", true);
+
+/*builder.Services.AddGrpcClient<Greeter.GreeterClient>(opt =>
+{
+    opt.Address = new Uri("https://localhost:7178");
+});*/
+
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "/Account/NotAuthorized";
+    options.AccessDeniedPath = "/Account/NotAuthorized";
+});
+
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddTransient<IPrincipal>(provider => provider.GetService<IHttpContextAccessor>().HttpContext.User);
+
+builder.Services.Configure<CookiePolicyOptions>(options =>
+{
+    options.CheckConsentNeeded = context => true;
+    options.MinimumSameSitePolicy = SameSiteMode.None;
+});
+
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "/Account/NotAuthorized";
+    options.AccessDeniedPath = "/Account/NotAuthorized";
+});
+
+builder.Services.AddIdentity<User, IdentityRole>(cfg =>
+ {
+     cfg.Tokens.AuthenticatorTokenProvider = TokenOptions.DefaultAuthenticatorProvider;
+     cfg.SignIn.RequireConfirmedEmail = false;
+     cfg.User.RequireUniqueEmail = true;
+     cfg.Password.RequireDigit = false;
+     cfg.Password.RequiredUniqueChars = 0;
+     cfg.Password.RequireLowercase = false;
+     cfg.Password.RequireNonAlphanumeric = false;
+     cfg.Password.RequireUppercase = false;
+ })
+    .AddDefaultTokenProviders()
+    .AddRoles<IdentityRole>()
+    .AddEntityFrameworkStores<ApplicationDbContext>();
+
+builder.Services.AddAuthentication()
+             .AddCookie()
+             .AddJwtBearer(cfg =>
+             {
+                 cfg.TokenValidationParameters = new TokenValidationParameters
+                 {
+                     ValidIssuer = builder.Configuration["Tokens:Issuer"],
+                     ValidAudience = builder.Configuration["Tokens:Audience"],
+                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Tokens:Key"]))
+                 };
+             });
+
+builder.Services.AddControllersWithViews();
+
+
+builder.Services.AddSignalR(hubOptions =>
+{
+    hubOptions.EnableDetailedErrors = true;
+   // hubOptions.KeepAliveInterval = TimeSpan.FromMinutes(1);
+});
+
+//builder.Services.AddGrpc();
+
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1",
+    new OpenApiInfo
+    {
+        Title = "Delivery - V1",
+        Version = "v1",
+        Description = "A sample API to demo Swashbuckle",
+        TermsOfService = new Uri("http://tempuri.org/terms"),
+        Contact = new OpenApiContact
+        {
+            Name = "Joe Doe Developer",
+            Email = "joeDoe.developer@tempuri.org"
+        },
+        License = new OpenApiLicense
+        {
+            Name = "Apache 2.0",
+            Url = new Uri("http://www.apache.org/licenses/LICENSE-2.0.html")
+        }
+    });
+
+    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        Name = "Authorization",
+        Type = SecuritySchemeType.Http,
+        Scheme = "bearer",
+        BearerFormat = "JWT",
+        In = ParameterLocation.Header,
+        Description = "JWT Authorization header using the Bearer scheme.",
+    });
+
+    c.AddSecurityRequirement( new OpenApiSecurityRequirement{
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            new string[]{}
+        }
+    });
+});
+
+var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseMigrationsEndPoint();
+}
+else
+{
+    app.UseExceptionHandler("/Home/Error");
+    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+    app.UseHsts();
+}
+
+app.UseHttpsRedirection();
+app.UseStaticFiles();
+app.UseSession();
+
+app.UseCors(options => options
+          .AllowAnyOrigin()
+          .AllowAnyHeader()
+          .AllowAnyMethod());
+
+app.UseRouting();
+
+app.UseAuthentication();
+app.UseAuthorization();
+app.UseCookiePolicy();
+
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
+//app.MapRazorPages();
+
+app.MapHub<CommonHub>("/CommonHub");
+app.MapHub<ChatHub>("/ChatHub");
+
+app.UseSwagger();
+
+app.UseSwaggerUI( c =>
+{
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Delivery API V1");
+});
+
+app.Run();
+
+
+//**************************************************************************************************************************//
+//                                             REMOVE HTTPS                                                                 //
+//**************************************************************************************************************************//
+/*
+ 1. Proyecto (click derecho) ====> Properties =====> Debug  ====> Open debug launch profile UI ====> App Url (Cambiar)
+    https://localhost:7292;
+    http://localhost:5292
+ 2. Proyecto ===> Properties ===> launchSettings.json
+ 
+ */
+
+
+//**************************************************************************************************************************//
+//                                             INSTALL NUGET:                                                               //
+//**************************************************************************************************************************//
+/* 
+  - Newtonsoft.Json
+  - Microsoft.AspNetCore.Authentication.JwtBearer
+  - MailKit.Net.Smtp 2.15.0
+  - Swashbuckle.AspNetCore (Doc == https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
+  - Microsoft.AspNetCore.SignalR.Core
+  - Microsoft.AspNetCore.SignalR
+  - Gprc.AspNetCore
+  - Install-Package Microsoft.AspNetCore.SignalR.Client -Version 6.0.0
+  - PM > Install-Package moment.net(https://github.com/bolorundurowb/moment.net)
+  - PM > Install-Package LocalStorage(https://github.com/hanssens/localstorage)
+*/
+

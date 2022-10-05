@@ -2,12 +2,12 @@
    * Ojo Para tener, Blank Solution =====> Tienes que ter Instalado: Desktop development with C++
 
 
- 1.Clone Repositorio 
+ 1.VISUAL STUDIO =====>Clone Repositorio 
   
   * Ojo el nombre tiene que ser siempre igual
  
 
- Repo=====> ........ /onsale.git
+ Repo =====> ........ /onsale.git
  Proyecto ==>  c:/Proyecto/onsale   =======> OJO ,AQUI TIENES QUE PONER EL NOMBRE DEL Q quieres darle PROYECTO, Pero la carpeta no pueda estar hecha
 
  .gitignore
@@ -17,6 +17,7 @@
   New ===> Proyect ====> Blank Solution
 
    Solution Name : onsale
+    Location:
    c:/Proyecto   =======> OJO AQUI NO TIENES QUE PONER EL NOMBRE DE CARPETA
 
 ---------------------
