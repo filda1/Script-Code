@@ -1,0 +1,48 @@
+ Relationships
+
+  ********** https://www.entityframeworktutorial.net/code-first/configure-one-to-many-relationship-in-code-first.aspx
+
+  (patric god) ====> https://www.youtube.com/watch?v=FHx6AGVF_IE
+  https://github.com/patrickgod/EFCoreRelationshipsTutorial
+
+
+
+   1:1     =======================================> 1 a 1
+   CHARACTER
+   properties User Users {get; set;}
+   properties int UserID {get; set;}
+
+
+
+   n:n    =========================================> Muchos a muchos ====> Crea en DB nueva Tabla que relaciona las 2 tablas
+
+   public class Character
+    {
+        public int Id { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public string RpgClass { get; set; } = "Knight";
+        [JsonIgnore]
+        public User User { get; set; }
+        public int UserId { get; set; }
+        public Weapon Weapon { get; set; }
+        public List<Skill> Skills { get; set; }  -----------------> Aqui
+    }
+
+
+    public class Skill
+    {
+        public int Id { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public int Damage { get; set; }
+        [JsonIgnore]
+        public List<Character> Characters { get; set; } -----------------> Aqui
+    }
+
+
+
+
+
+  RUN MIGRATE
+
+  _context.Database.Migrate()
+

@@ -41,7 +41,11 @@ https://www.btw.so/open-source-alternatives
   CONSOLE AWS
 
   https://opsflow.app
+**********************************************************************************
 
+  EDITOR
+
+  https://lapce.dev
 **********************************************************************************
 
 PLUGIN SACAR COLORES DE WEB

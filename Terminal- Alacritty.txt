@@ -1,0 +1,16 @@
+
+
+https://www.youtube.com/watch?v=1aw8IDH826Y
+https://alacritty.org
+https://technixleo.com/install-and-configure-alacritty-terminal-on-windows/
+https://github.com/romkatv/powerlevel10k#fonts
+https://wiki.node-data-media.de/de/config/alacritty
+tmux  == https://alehatsman.com/posts/developer_environment.html#alacritty
+         https://medium.com/@kumarharsh/modernizing-my-windows-development-environment-418b7f710aad
+         https://dev.to/hlappa/my-web-development-environment-alacritty-tmux-neovim-4pd2
+         ***https://codeandkeep.com/Tmux-on-Windows/
+tabbed
+
+::::::::::::::::::::::::::::::::::::::::::
+WSL
+https://www.aleksandrhovhannisyan.com/blog/limiting-memory-usage-in-wsl-2/

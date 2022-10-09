@@ -275,7 +275,7 @@ TUTO
 
 PASO A PASO  =======>  FRONTEND  + BACKEND en 2 NODES diferentes
 
-  *********https://www.youtube.com/watch?v=yVnyDiqYMWg&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW&index=8
+  *********MACoartty =https://www.youtube.com/watch?v=yVnyDiqYMWg&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW&index=8
 
 
 __________________________________________________________________________________________________________________

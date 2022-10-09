@@ -26,7 +26,7 @@
 
   1- CREAr DB a mano en SQLserver
 
-  2 - PACKAGE MANAGER CONSOLE
+  2 - PACKAGE MANAGER CONSOLE ( DE database  =====> a VisualStudio 2022 )
    PM> Scaffold-DbContext "Server=.\SQLExpress;Database=NOMBRE_DB;Trusted_Connection=true;"Microsoft.EntityFrameworkCore.SqlServer -Output Models  (CREA DB CONTEXT) (puedes poner --force en lo ultimo)
 
   3- Program.cs:
