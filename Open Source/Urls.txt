@@ -1,3 +1,10 @@
+BACKEND OPEN SOURDE
+
+ medusajs
+ app-write
+ PayloadCms == Strapi  ========>(fatz) ====> https://www.youtube.com/watch?v=FouZBIFSwSc
+
+
 ***************************************************************************************************************************************
 ALRTERNATIVA SHOPiFY OPEN SOURCE === MEDUSA
 🔗 Site oficial Medusa: https://medusajs.com/

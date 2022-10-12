@@ -22,6 +22,11 @@ https://dev.to/thegeoffstevens/50-vs-code-themes-for-2020-45cc
   1 Dark
    Syntax
 
+ Dobri next
+ codesanbox
+ After Dark
+ Github Dark
+ Ayu
 
   Theme-Muukii
   Theme-RealBlackBoard

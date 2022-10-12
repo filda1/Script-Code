@@ -20,3 +20,11 @@ ssh remote
 
 
 Para buscar en todo proyect ==========> ctr + p
+
+
+themes
+ Dobri next
+ codesanbox
+ After Dark
+ Github Dark
+ Ayu

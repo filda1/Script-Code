@@ -10,6 +10,7 @@ TEMPLATES
    StartBoostrapt
    https://html5up.net/
    https://freehtml5.co/page/4/
+   **** https://freehtml5.co/booster-free-html5-bootstrap-template/
    https://www.zerotheme.com/free-website-templates
    https://www.html5xcss3.com
    https://getbootstrap.com/docs/4.5/examples/
@@ -19,9 +20,22 @@ TEMPLATES
    https://themes.gohugo.io/
    https://bootswatch.com/
    https://bootstrapmade.com/demo/themes/EstateAgency/index.html
+     https://bootstrapmade.com/bootstrap-landing-page-templates/
+     *** https://bootstrapmade.com/bizland-bootstrap-business-template/
    https://mdbootstrap.com/freebies/
-   https://all-free-download.com/
-   https://www.free-css.com/template-categories´
+   https://all-free-download.com/  =====================================================================> VECTORES
+   https://www.free-css.com/template-categories
+    *** https://www.free-css.com/free-css-templates/page276/diigo
+    *********** https://www.free-css.com/free-css-templates/page274/zombiz
+                https://www.free-css.com/free-css-templates/page274/zombiz
+
+   ***https://www.free-css.com/free-css-templates/page272/tivo
+      https://www.free-css.com/free-css-templates/page272/tivo
+
+  ***** https://bootstrapmade.com/demo/Logis/
+  ***** https://plantillashtmlgratis.com/en/todas-las-plantillas/plantilla/html-css-templates-for-free-newbiz/
+  ***** https://plantillashtmlgratis.com/en/todas-las-plantillas/plantilla/download-html-css-templates-for-free-evolo/
+  ***** https://plantillashtmlgratis.com/en/todas-las-plantillas/plantilla/free-simple-web-template-reveal/
 
    https://webflow.com/templates/free-website-templates
 
