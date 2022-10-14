@@ -36,6 +36,17 @@
                                                 https://github.com/domini-code/reto-angular-formularios/tree/main/src
 
 ****************************************************************************************************************
+ LANDIG PAGE
+  https://github.com/kiskinvlad/klanding-angular-5
+  https://klanding-angular5.herokuapp.com/
+
+****************************************************************************************************************
+
+ CARROUSEL CSS - A CSS-ONLY CAROUSEL SLIDER
+
+  https://webdevpuneet.com/css-only-slider/#gsc.tab=0
+
+****************************************************************************************************************
  DEBUG ANGULAR
   Loraine =====>   https://www.youtube.com/watch?v=Lczqac3paNM&ab_channel=LoianeGroner
 ****************************************************************************************************************
