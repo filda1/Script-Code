@@ -1,0 +1,172 @@
+LOGOS SLIDER
+
+ OTROS slider ===> https://www.divinectorweb.com/search?q=Client+Slider+using+only+HTML+and+CSS+%7C+Logo+slider+HTML+CSS
+                   https://www.youtube.com/watch?v=NlFLuynxWFA
+
+ *****https://stackoverflow.com/questions/71623125/show-logo-slider-images-endlessly (Codigo de abajo)
+
+***************************************************************************************
+CSS.
+
+.slider2 {
+  background: white;
+  /* box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);  */
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: auto;
+}
+
+.slider2::before,
+.slider2::after {
+  background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+
+.slider2::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+
+.slider2::before {
+  left: 0;
+  top: 0;
+}
+
+.slider2 .slide-track2 {
+  -webkit-animation: scroll 20s linear infinite;
+  animation: scroll 20s linear infinite;
+  display: flex;
+  width: fit-content;
+}
+
+.slider2 .slide2 {
+  height: 100px;
+  width: 250px;
+  display: flex;
+}
+
+@-webkit-keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    /* scroll only 50% */
+    transform: translateX(-50%);
+  }
+}
+
+
+
+****************************************************************************************
+HTML:
+
+<div class="slider2">
+  <div class="slide-track2">
+    <div class="slide2" style="margin-left:0px">
+      <img src="https://thumbs.dreamstime.com/b/t%C4%99czy-mi%C5%82o%C5%9Bci-serca-t%C5%82o-60045149.jpg" style="padding:0 5% 0 5%;width: 100%!important;margin: auto!important;height: auto!important;" height="100" width="250" alt="" />
+    </div>
+    <div class="slide2">
+
+      <img src="https://thumbs.dreamstime.com/b/t%C4%99czy-mi%C5%82o%C5%9Bci-serca-t%C5%82o-60045149.jpg" style="padding:0 5% 0 5%;width: 100%!important;margin: auto!important;height: auto!important;" height="100" width="250" alt="" />
+
+    </div>
+    <div class="slide2">
+
+      <img src="https://thumbs.dreamstime.com/b/t%C4%99czy-mi%C5%82o%C5%9Bci-serca-t%C5%82o-60045149.jpg" style="padding:0 5% 0 5%;width: 100%!important;margin: auto!important;height: auto!important;" height="100" width="250" alt="" />
+
+    </div>
+
+    <div class="slide2">
+      <img src="https://thumbs.dreamstime.com/b/t%C4%99czy-mi%C5%82o%C5%9Bci-serca-t%C5%82o-60045149.jpg" style="padding:0 5% 0 5%;width: 83%!important;margin: auto!important;height: auto!important;" height="100" width="250" alt="" />
+
+
+    </div>
+    <div class="slide2">
+
+      <img src="https://thumbs.dreamstime.com/b/t%C4%99czy-mi%C5%82o%C5%9Bci-serca-t%C5%82o-60045149.jpg" class="customzoom2" style="padding:0 5% 0 5%;width: 100%!important;margin: auto!important;height: auto!important;" height="100" width="250" alt="" />
+
+    </div>
+    <div class="slide2" style="width:200px">
+
+      <img src="https://thumbs.dreamstime.com/b/t%C4%99czy-mi%C5%82o%C5%9Bci-serca-t%C5%82o-60045149.jpg" style="width: 95%!important;margin: auto!important;height: auto!important;" height="100" width="250" alt="" />
+
+    </div>
+    <div class="slide2">
+
+      <img src="https://thumbs.dreamstime.com/b/t%C4%99czy-mi%C5%82o%C5%9Bci-serca-t%C5%82o-60045149.jpg" style="padding:0 5% 0 5%;width: 100%!important;margin: auto!important;height: auto!important;" height="100" width="250" alt="" />
+
+    </div>
+    <div class="slide2" style="width:150px">
+
+      <img src="https://thumbs.dreamstime.com/b/t%C4%99czy-mi%C5%82o%C5%9Bci-serca-t%C5%82o-60045149.jpg" style="width: 71%!important;margin: auto!important;height: auto!important;" height="100" width="250" alt="" />
+
+    </div>
+    <div class="slide2">
+
+      <img src="https://thumbs.dreamstime.com/b/t%C4%99czy-mi%C5%82o%C5%9Bci-serca-t%C5%82o-60045149.jpg" style="padding:0 5% 0 5%;width: 72%!important;height: auto!important;" height="100" width="250" alt="" />
+
+    </div>
+
+    <!-- repeat -->
+
+    <div class="slide2" style="margin-left:0px">
+      <img src="https://thumbs.dreamstime.com/b/t%C4%99czy-mi%C5%82o%C5%9Bci-serca-t%C5%82o-60045149.jpg" style="padding:0 5% 0 5%;width: 100%!important;margin: auto!important;height: auto!important;" height="100" width="250" alt="" />
+    </div>
+    <div class="slide2">
+
+      <img src="https://thumbs.dreamstime.com/b/t%C4%99czy-mi%C5%82o%C5%9Bci-serca-t%C5%82o-60045149.jpg" style="padding:0 5% 0 5%;width: 100%!important;margin: auto!important;height: auto!important;" height="100" width="250" alt="" />
+
+    </div>
+    <div class="slide2">
+
+      <img src="https://thumbs.dreamstime.com/b/t%C4%99czy-mi%C5%82o%C5%9Bci-serca-t%C5%82o-60045149.jpg" style="padding:0 5% 0 5%;width: 100%!important;margin: auto!important;height: auto!important;" height="100" width="250" alt="" />
+
+    </div>
+
+    <div class="slide2">
+      <img src="https://thumbs.dreamstime.com/b/t%C4%99czy-mi%C5%82o%C5%9Bci-serca-t%C5%82o-60045149.jpg" style="padding:0 5% 0 5%;width: 83%!important;margin: auto!important;height: auto!important;" height="100" width="250" alt="" />
+
+
+    </div>
+    <div class="slide2">
+
+      <img src="https://thumbs.dreamstime.com/b/t%C4%99czy-mi%C5%82o%C5%9Bci-serca-t%C5%82o-60045149.jpg" class="customzoom2" style="padding:0 5% 0 5%;width: 100%!important;margin: auto!important;height: auto!important;" height="100" width="250" alt="" />
+
+    </div>
+    <div class="slide2" style="width:200px">
+
+      <img src="https://thumbs.dreamstime.com/b/t%C4%99czy-mi%C5%82o%C5%9Bci-serca-t%C5%82o-60045149.jpg" style="width: 95%!important;margin: auto!important;height: auto!important;" height="100" width="250" alt="" />
+
+    </div>
+    <div class="slide2">
+
+      <img src="https://thumbs.dreamstime.com/b/t%C4%99czy-mi%C5%82o%C5%9Bci-serca-t%C5%82o-60045149.jpg" style="padding:0 5% 0 5%;width: 100%!important;margin: auto!important;height: auto!important;" height="100" width="250" alt="" />
+
+    </div>
+    <div class="slide2" style="width:150px">
+
+      <img src="https://thumbs.dreamstime.com/b/t%C4%99czy-mi%C5%82o%C5%9Bci-serca-t%C5%82o-60045149.jpg" style="width: 71%!important;margin: auto!important;height: auto!important;" height="100" width="250" alt="" />
+
+    </div>
+    <div class="slide2">
+
+      <img src="https://thumbs.dreamstime.com/b/t%C4%99czy-mi%C5%82o%C5%9Bci-serca-t%C5%82o-60045149.jpg" style="padding:0 5% 0 5%;width: 72%!important;height: auto!important;" height="100" width="250" alt="" />
+
+    </div>
+

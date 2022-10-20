@@ -9,6 +9,11 @@
                                      https://github.com/FaztWeb/node-sqlserver-restapi
 
 **************************************************************************************
+ Nextjs y Github Actions CI/CD, Mas Dominio, PM2, Nginx y Más
+
+  https://www.youtube.com/watch?v=pgoZFKgoiDk&t=1488s
+
+**************************************************************************************
  
   NODEJS + MYSQL + (RAILWAY == host free)
   fatz = https://www.youtube.com/watch?v=C3NhmT__Mn4

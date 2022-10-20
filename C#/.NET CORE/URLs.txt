@@ -63,6 +63,11 @@ WINDOWS SERVICE
   https://www.c-sharpcorner.com/article/create-windows-services-in-c-sharp/
 ******************************************************************************************
 
+ ENUMS
+   (Macoratty) ===> https://www.macoratti.net/17/09/c_itenum1.htm
+
+******************************************************************************************
+
  VPN  = https://www.youtube.com/watch?v=zcJayEW6nX8
 
 ******************************************************************************************
