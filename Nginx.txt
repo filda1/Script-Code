@@ -1,0 +1,8 @@
+
+ AspNet Core + Nginx: Disponibilizando sua aplicação para ser acessado pelo seu domínio
+
+ https://pt.linkedin.com/pulse/aspnet-core-nginx-disponibilizando-sua-aplicação-para-rodrigo?trk=pulse-article_more-articles_related-content-card
+**********************************************************************************************************************************************************
+ ASP.NET.core  + PM2
+
+ https://www.cnblogs.com/stulzq/p/9775973.html

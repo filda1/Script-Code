@@ -1,0 +1,36 @@
+
+ CONSOLE WINDOW
+ >> ssh-keygen
+ >> notepad .\.ssh\id_rsa.pub
+   - Se genera un llave ----> copias ---> Y la pegas en Tu  HOST
+
+
+ CONECT TO HOST LINUX
+
+ >> ssh root@123.3.4.5
+
+ >> sudo apt update && sudo apt upgrade -y   ============> (Actualiza todo)
+
+ >> -----> Limpiar Ctrl + l
+
+ >> adduser NOMBRE    ================================> (Cambiar de User)
+
+ >> usermod -aG sudo NOMBRE    ========================> (PERMISOS)
+
+ >> su - NOMBRE          ============================> (CAMBIAR de USER)
+
+ >> pwd                 ==============================> (Muestra el HOME)  
+
+
+ >> ls                  ===============================> (DIRECTORIOS)
+
+ >> ls    -1             ===============================> (DIRECTORIOS en Vertical)
+
+ >> cat Example.js       ====================================> (Ves el archivo dentro)
+
+ >> nano ARCHIVO        ====================================> ( Crea ARCHIVO)
+
+
+  >> sudo nano ARCHIVO         ====================================> ( Entra para editar  ARCHIVO)
+
+                ----> Guardar == CTRL + o --> Enter
