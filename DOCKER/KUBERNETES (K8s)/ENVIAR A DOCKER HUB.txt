@@ -1,0 +1,28 @@
+ ***https://medium.com/trainingcenter/docker-dockerhub-pull-e-push-nas-suas-imagens-57dffa0232ad
+   https://www.youtube.com/watch?v=EIHY_CY5J0k
+
+
+>> docker images
+
+ >> docker tag 19f923400e77 meire/demomvcsqlserver:latest   ( Nombre randow : demomvcsqlserver == crear repositorio, 19f923400e77: sale con docker images)
+
+>> docker images
+
+>> docker login
+
+>> docker push meire/demomvcsqlserver
+
+
+
+
+RUN
+
+>>docker run SEU_USUARIO_DOCKER/demomvcsqlserver
+
+>> docker pull meire/demomvcsqlserver:latest ( DOWLOAD)
+>>docker run  -p 7000:80 meire/demomvcsqlserver
+
+docker run -p 7000:80  meire/demomvcsqlserver    ==================> RUN
+
+ELIMINAR
+>> docker rmi -f 8d9495d05463

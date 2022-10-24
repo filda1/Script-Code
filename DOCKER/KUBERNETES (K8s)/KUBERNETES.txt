@@ -9,7 +9,10 @@ TUTO
   Kubectl (Cliente) === LENS =========>: https://www.youtube.com/watch?v=DFMKcR4BqwM&t=0s === Interfaz para Kubernetes
   Helm =============================> https://www.youtube.com/watch?v=CPjfb-I_BKU
 
-
+ GENERADOR YAML
+           https://8gwifi.org/kube.jsp
+           ******https://k8syaml.com/
+--
   MACORATTi ===> https://www.youtube.com/watch?v=fXYKWH70Uoo&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW   (PLAYLIST)
                   https://github.com/macoratti/KubernetesDeploy
          minikube = https://www.youtube.com/watch?v=OjwQMwgACJk&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW&index=2
@@ -352,6 +355,18 @@ ________________________________________________________________________________
  ASPNET MVC + SQL SERVER (Macoratti )= https://www.youtube.com/watch?v=beA9nKlrBM4&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW&index=12
    2 NODOS , c/uno POD
 
+  1-  1 PVC
+  2-  1 PV
+  3-  1 Deployment SQL SERVER
+  4-  1 Service para SQL SERVER
+                                      *=======>"DefaultConnection": "Server=NOMBRE_SERVICE, PUERTO_SERVICIO;Database=demo;Trusted_Connection=True;MultipleActiveResultSets=true, User ID=SA;Password=mysenha"
+
+  MVC
+  5- visual Studio => Docker Suport ==> Genera DOCKERFILE ====> Clieck DOCKER IMAGE
+   5.1 Enviar para DOcker HUB
+  6- Deployment de ASPNET.MVC
+  7- Service de ASPNET.MVC                      
+--
   En visual Studio
    . Ena appSetting ====> DB poner como service
    . Un Controlar hace las MIgarciones A Contaner =====> ENDPOINT
@@ -421,3 +436,10 @@ ________________________________________________________________________________
 
 
 =================================================== SERVICES ===================================================
+
+
+
+
+
+
+Ej: Projectos : https://github.com/ValdirFerreira/PROJETO_CRUD_MVC_SQL
