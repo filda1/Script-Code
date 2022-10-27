@@ -97,8 +97,16 @@ TEMPLATES
 
   *******ADMIN ======> http://themehunt.com/item/1527584-atlantis-lite-bootstrap-4-admin-dashboard/preview
                       
+  ************ https://demo.dashboardpack.com/user-management-html/index_2.html
+ https://colorlib.com/wp/free-admin-templates/
 
    ***https://cssauthor.com/bootstrap-admin-templates/
+
+  ++++++++++++++++++++++++++++https://colorlib.com/polygon/gentelella/index2.html
+  https://colorlib.com/polygon/notika/inbox.html
+
+
+ https://demo.dashboardpack.com/admindek-html/index.html
 
    template Admin = starangular
    Arquitectura material design = https://material.io/design/material-studies/shrine.html

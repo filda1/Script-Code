@@ -1,0 +1,5 @@
+
+
+ SELECT * FROM sys.dm_db_log_space_usage
+
+ * https://docs.druva.com/Knowledge_Base/Phoenix/Troubleshooting/SQL_Transaction_Log_backup_succeeds_with_errors
