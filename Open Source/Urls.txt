@@ -13,6 +13,15 @@ ALRTERNATIVA SHOPiFY OPEN SOURCE === MEDUSA
 *https://www.youtube.com/watch?v=Vl947ryThmg&ab_channel=TekZoom
 
 **************************************************************************************************************************************
+
+ CONECT NAVEGADOR CON LENGAGE
+
+ Chrome dev tools
+**************************************************************************************************************************************
+ CHARTS
+  echartjs
+  https://apexcharts.com
+**************************************************************************************************************************************
  ALTERNATIVAS A NOTION
   
 🔗 Site oficial Super Productivity: https://super-productivity.com/
