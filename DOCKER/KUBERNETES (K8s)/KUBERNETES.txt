@@ -367,6 +367,8 @@ ________________________________________________________________________________
   6- Deployment de ASPNET.MVC
   7- Service de ASPNET.MVC                      
 --
+
+
   En visual Studio
    . Ena appSetting ====> DB poner como service
    . Un Controlar hace las MIgarciones A Contaner =====> ENDPOINT
@@ -399,6 +401,8 @@ ________________________________________________________________________________
   >> minikube start
   >> minikube --help
   >> minikube status
+
+  >> minikube stop
 
   >> minikube dashboard
     minikube dashboard --url

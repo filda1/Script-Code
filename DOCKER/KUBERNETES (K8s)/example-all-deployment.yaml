@@ -1,0 +1,97 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: mssql-pvc
+spec:
+  accessModes:
+  - ReadWriteMany
+  resources:
+    requests:
+      storage: 1Mi
+---
+apiVersion: v1
+kind: Deployment
+metadata:
+  name: mssql-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mssql
+  template:
+    metadata:
+      labels:
+        app: mssql
+    spec:
+      containers:
+      - name: mssql
+        image: mcr.microsoft.com/mssql/server:2019-latest
+        ports:
+        - containerPort: 1433
+        env:
+        - name: MSSQL_PID
+          value: "Developer"
+        - name: ACCEPT_EULA
+          value: "Y"
+        - name: SA
+          value: "mysenha"
+        volumeMounts:
+          name:  mssqldb
+        - mountPath: /var/opt/mssql/data
+      volumes:
+      - name: mssqldb
+        persistentVolumeClaim:
+          claimName: mssql-pvc
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mssql-service
+spec: 
+  selector:
+    app: mssql
+  type: NodePort
+  ports:
+    - protocol: TCP
+      port: 1433
+      targetPort: 1433
+---
+apiVersion: v1
+kind: Deployment
+metadata:
+  name: crud-deployment    
+  labels: 
+    app: crud-app
+spec:   
+  replicas: 1
+  selector:
+    matchLabels:
+      app: crud  
+  template:
+    metadata:
+      labels:
+        app: crud
+    spec:
+      containers:
+        - name: crudcontainer
+          image: meire/demomvcsqlserver:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: crudapp-service
+spec: 
+  selector:
+    app: crud
+  type: NodePort
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 80        
+        
+        
+        
+
