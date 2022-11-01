@@ -12,6 +12,15 @@ TUTO
  GENERADOR YAML
            https://8gwifi.org/kube.jsp
            ******https://k8syaml.com/
+
+
+***************************************************************DOCKER******************************************************************************
+   *****              >>docker build -f frontend\Dockerfile -t pizzafrontend  (Despues de tener Dockerfile)
+
+                      >>docker login
+                      >>docker tag pizzafrontend macoratti/pizzafrontend    ==================================> Enviar Docker HUB
+                      >>docker push macoratti/pizzafrontend       ==================================> Enviar Docker HUB
+***************************************************************DOCKER******************************************************************************
 --
   MACORATTi ===> https://www.youtube.com/watch?v=fXYKWH70Uoo&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW   (PLAYLIST)
                   https://github.com/macoratti/KubernetesDeploy
@@ -170,6 +179,7 @@ TUTO
 
   COMANDS Kubectl  == https://www.bluematador.com/learn/kubectl-cheatsheet
 
+ 
   >> kubectl version --client
   >> kubectl cluster-info  ================================> INFO CLUSTERS
   >> kubectl get all  ================================> VER CLUSTERs RUNs
@@ -177,7 +187,7 @@ TUTO
   >>   ================================> Info Pods
   >> kubectl describe pods  ================================> Descripcion Pods
   >> kubectl delete pod NAME_POD  ================================> Elimina 1 Pod
-  >> kubectl delete pod -all  ================================> Elimina Todos Pod
+  >> kubectl delete pod --all  ================================> Elimina Todos Pod
   >> kubectl exec -it NAME_POD -- sh  ================================> Accedo dentro de POD
   >> kubectl exec -it NAME_POD -- /bin/bash ==========================> DENTRO DE  CONAINER ( Ver Volumen por Ejemplo)
     >> ls -l
@@ -243,6 +253,7 @@ TUTO
 
  *******ASP NET MVC (FRONTEND) ====> https://www.youtube.com/watch?v=On45IAXFEaI&list=PLJ4k1IC8GhW3vTpsfKl1gw2f5TlPugkVW&index=8
    https://github.com/macoratti/KubernetesDeploy
+   https://macoratti.net/22/05/kubern_aspndeplo1.htm
 
   OJO. Tienes que ter encendido DOCKER
 

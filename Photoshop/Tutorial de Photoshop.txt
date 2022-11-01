@@ -1,8 +1,9 @@
 TUTORIAL PHOTOSHOP
 
-  CTRL + t
+  CTRL + t              
   CTRL +  click MOUSE
 
+ CTRL + del ================================================> Text cambia de color
  https://www.youtube.com/watch?v=oVnQoMOWmjk
 
 **************************************************************************************************
@@ -12,6 +13,9 @@ TUTORIAL PHOTOSHOP
   2. selecionar varita magica
   3. tecla, DELETE
 
+**************************************************************************************************
+ CAMBIAR DE COLOR TEXT
+https://www.youtube.com/watch?v=FeT0CUiTZ20&ab_channel=TripiyonTutoriales-Photoshopenespa%C3%B1ol
 **************************************************************************************************
 
   MODIFICAR UNA IMAGEN
