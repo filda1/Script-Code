@@ -15,7 +15,9 @@ TUTO
 
 
 ***************************************************************DOCKER******************************************************************************
-   *****              >>docker build -f frontend\Dockerfile -t pizzafrontend  (Despues de tener Dockerfile)
+             
+   *****  >>docker build -f Dockerfile -t pizzafrontend .    CREAR IMAGEN(Despues de tener Dockerfile) ====> ESTA FUNCIONA (Poner el Punto separado) y estar dentro de la carpeta
+                      >>docker build -f frontend\Dockerfile -t pizzafrontend  (Despues de tener Dockerfile)  ====> CREAR IMAGEN
 
                       >>docker login
                       >>docker tag pizzafrontend macoratti/pizzafrontend    ==================================> Enviar Docker HUB
@@ -257,7 +259,7 @@ TUTO
 
   OJO. Tienes que ter encendido DOCKER
 
-  Dockerfile =======> docker build frontend\Dockerfile -t pizzafrontend  =====> CREA UNA IMAGEN 
+  Dockerfile =======> docker build frontend\Dockerfile -t pizzafrontend . =====> CREA UNA IMAGEN 
    * Build, y frontend\Dockerfile es la direciion de Dockefile
 
   Teste ====> docker container run -d -p 8090:80 --name testemvc pizzafrontend  ====> CREA UN CONATINER
