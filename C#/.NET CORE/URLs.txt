@@ -63,6 +63,11 @@ WINDOWS SERVICE
   https://www.c-sharpcorner.com/article/create-windows-services-in-c-sharp/
 ******************************************************************************************
 
+ Minimal APIs
+  https://www.youtube.com/watch?v=A4BQSmdUM9A
+  https://www.youtube.com/watch?v=_dz3tTvPmC8 (Macoratty) 
+******************************************************************************************
+
  ENUMS
    (Macoratty) ===> https://www.macoratti.net/17/09/c_itenum1.htm
 

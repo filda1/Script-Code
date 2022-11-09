@@ -1,0 +1,29 @@
+const d = new Date('2022-10-30T01:00:00');
+let text = d.toTimeString();
+//"02:00:00 GMT+0000 (Western European Standard Time)"
+
+
+--
+
+//Example SUMMER
+let READING_DATE5 ='Sun Mar 28 2021 08:00:00 GMT+0100 (Western European Summer Time)'//7:00
+
+//Example WINTER
+let READING_DATE6 ='Tue Feb 16 2021 20:00:00 GMT+0000 (Western European Standard Time)'//20:00
+
+const convert_date = new Date((READING_DATE5)).toISOString();
+
+
+console.log(convert_date);  //2021-03-28T08:00:00.000Z
+
+--
+
+const day ='Sun Mar 28 2021 08:00:00 GMT+0100 (Western European Summer Time)'
+//const day = 'Sun Mar 28 2021 00:45:00 GMT+0000 (Western European Standard Time)' //00:45
+
+//changeGMTSummer = day.toString().replace("+0100","+0000")
+changeGMTSummer = day.toString().replace("+0100","+0000")
+//console.log(changeGMT)
+const convert_date2 = new Date((changeGMTSummer)).toISOString();
+
+console.log(convert_date2);

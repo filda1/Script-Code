@@ -16,7 +16,8 @@ TUTO
 
 ***************************************************************DOCKER******************************************************************************
              
-   *****  >>docker build -f Dockerfile -t pizzafrontend .    CREAR IMAGEN(Despues de tener Dockerfile) ====> ESTA FUNCIONA (Poner el Punto separado) y estar dentro de la carpeta
+   *****  >>docker build -f Dockerfile -t pizzafrontend .    CREAR IMAGEN(Despues de tener Dockerfile) ====> ESTA FUNCIONA (Poner el Punto separado) y estar dentro de la carpeta y Toda em minusculas
+
                       >>docker build -f frontend\Dockerfile -t pizzafrontend  (Despues de tener Dockerfile)  ====> CREAR IMAGEN
 
                       >>docker login
