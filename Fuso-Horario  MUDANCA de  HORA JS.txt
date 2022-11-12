@@ -27,3 +27,260 @@ changeGMTSummer = day.toString().replace("+0100","+0000")
 const convert_date2 = new Date((changeGMTSummer)).toISOString();
 
 console.log(convert_date2);
+
+*************************************************************************************************
+
+ https://exploringjs.com/impatient-js/ch_dates.html
+
+
+ 
+ 12:00:00 GMT+0000 (GMT) == Invierno
+ 05:00:00 GMT+0100 (GMT+01:00) == Verano
+
+--------
+
+ 
+        const d = new Date('2022-09-12T05:00:00');
+        let text = d.toTimeString(); //05:00:00 GMT+0100 (GMT+01:00)
+       
+        console.log(text);
+
+
+ 
+//  toString() = toDateString() + toTimeString();
+const d = new Date('2022-09-12T05:00:00');
+ let summerTimeGMT = d.toTimeString(); //05:00:00 GMT+0100 (GMT+01:00)
+       
+
+let str3 = new Date("2022-10-30 02:00:00")
+let dateFormatDay = str3.toDateString()  //"Sun Oct 30 2022"
+
+
+let str20 = new Date("2022-10-30 02:00:00")
+let formatDayTimeGMT = str20.toString()   // "Sun Oct 30 2022 02:00:00 GMT+0000 (Western European Standard Time)"
+
+
+
+let str = new Date("Sun Oct 30 2022 02:00:00 GMT+0100 (Western European Standard Time)")
+let timeGMT = str.toISOString()       // "2022-10-30T01:00:00.000Z"
+
+
+console.log( timeGMT);
+//console.log(text);
+
+
+
+---
+ 
+//  toString() = toDateString() + toTimeString();   ToISOSTRING() == normal format = datetime
+const d = new Date('2022-09-12T05:00:00');
+ let summerTimeGMT = d.toTimeString(); //05:00:00 GMT+0100 (GMT+01:00)
+       
+
+let str3 = new Date("2022-10-30 02:00:00")
+let dateFormatDay = str3.toDateString()  //"Sun Oct 30 2022"
+
+
+let str20 = new Date("2022-10-30 02:00:00")
+let formatDayTimeGMT = str20.toString()   // "Sun Oct 30 2022 02:00:00 GMT+0000 (Western European Standard Time)"
+
+//Replace
+let replaceHour = formatDayTimeGMT.replace("+0000","+0100").toString();
+let converToDatetime = new Date(replaceHour).toString()
+
+
+let str = new Date(converToDatetime) //Sun Oct 30 2022 01:00:00 GMT+0000 (Western European Standard Time
+let datetimeISO = str.toISOString()  // "2022-10-30T01:00:00.000Z"
+
+let cutDatetime = datetimeISO.toString().split(".")
+let datetimeResult = cutDatetime[0]
+
+console.log("formatDayTimeGMT ==>", formatDayTimeGMT);
+console.log("Replace ==>", replaceHour);
+console.log("converToDatetime ==>", converToDatetime);
+console.log("datetimeISO ==>", datetimeISO);
+console.log("datetimeResult  ==>", datetimeResult );
+//console.log(text);
+
+---
+ 
+//  toString() = toDateString() + toTimeString();   ToISOSTRING() == normal format = datetime
+const d = new Date('2022-09-12T05:00:00');
+ let summerTimeGMT = d.toTimeString(); //05:00:00 GMT+0100 (GMT+01:00)
+       
+
+let str3 = new Date("2022-10-30 02:00:00")
+let dateFormatDay = str3.toDateString()  //"Sun Oct 30 2022"
+
+
+let str20 = new Date("2022-10-30 02:00:00")
+let formatDayTimeGMT = str20.toString()   // "Sun Oct 30 2022 02:00:00 GMT+0000 (Western European Standard Time)"
+
+//Replace
+let replaceHour = formatDayTimeGMT.replace("+0000","+0100").toString();
+let converToDatetime = new Date(replaceHour).toString()
+
+
+let str = new Date(converToDatetime) //Sun Oct 30 2022 01:00:00 GMT+0000 (Western European Standard Time
+let datetimeISO = str.toISOString()  // "2022-10-30T01:00:00.000Z"
+
+let cutDatetime = datetimeISO.toString().split(".")
+let datetimeResult = cutDatetime[0]
+
+/*console.log("formatDayTimeGMT ==>", formatDayTimeGMT);
+console.log("Replace ==>", replaceHour);
+console.log("converToDatetime ==>", converToDatetime);
+console.log("datetimeISO ==>", datetimeISO);
+console.log("datetimeResult  ==>", datetimeResult );*/
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+let arrDate =['2022-10-30T00:00:00', '2022-10-30T01:00:00', '2022-10-30T05:00:00', '2022-10-30T08:00:00']
+
+let arrTempWinterHour =[]
+
+for (let i = 0; i < arrDate.length; i++) { 
+   let convertToGMT = new Date(arrDate[i])
+   let formatDayTimeToGMT = convertToGMT.toString() 
+  // console.log("Resul ==>", formatDayTimeToGMT);
+  
+    let existWinterChange = formatDayTimeToGMT.includes("+0000")
+    if (existWinterChange ===null){ continue}  
+    
+    if(existWinterChange){
+      //Replace
+      let replaceHour = formatDayTimeToGMT.replace("+0000","+0100").toString();
+      let converToDatetime = new Date(replaceHour).toString()
+      
+      let str = new Date(converToDatetime) //Sun Oct 30 2022 01:00:00 GMT+0000 (Western European Standard Time
+      let datetimeISO = str.toISOString()
+      
+      let cutDatetime = datetimeISO.toString().split(".")
+      let datetimeResult = cutDatetime[0]
+      
+      //console.log("Resul ==>",  datetimeResult );
+      arrTempWinterHour.push(datetimeResult);
+      
+    }else{
+      
+    }
+  
+
+}
+
+
+----
+
+ 
+//  toString() = toDateString() + toTimeString();   ToISOSTRING() == normal format = datetime
+const d = new Date('2022-09-12T05:00:00');
+ let summerTimeGMT = d.toTimeString(); //05:00:00 GMT+0100 (GMT+01:00)
+       
+
+let str3 = new Date("2022-10-30 02:00:00")
+let dateFormatDay = str3.toDateString()  //"Sun Oct 30 2022"
+
+
+let str20 = new Date("2022-10-30 02:00:00")
+let formatDayTimeGMT = str20.toString()   // "Sun Oct 30 2022 02:00:00 GMT+0000 (Western European Standard Time)"
+
+//Replace
+let replaceHour = formatDayTimeGMT.replace("+0000","+0100").toString();
+let converToDatetime = new Date(replaceHour).toString()
+
+
+let str = new Date(converToDatetime) //Sun Oct 30 2022 01:00:00 GMT+0000 (Western European Standard Time
+let datetimeISO = str.toISOString()  // "2022-10-30T01:00:00.000Z"
+
+let cutDatetime = datetimeISO.toString().split(".")
+let datetimeResult = cutDatetime[0]
+
+/*console.log("formatDayTimeGMT ==>", formatDayTimeGMT);
+console.log("Replace ==>", replaceHour);
+console.log("converToDatetime ==>", converToDatetime);
+console.log("datetimeISO ==>", datetimeISO);
+console.log("datetimeResult  ==>", datetimeResult );*/
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+let arrDate =['2022-10-30T00:00:00', '2022-10-30T01:00:00', '2022-10-30T05:00:00', '2022-10-30T08:00:00']
+
+let arrTempWinterHour =[]
+
+for (let i = 0; i < arrDate.length; i++) { 
+   let convertToGMT = new Date(arrDate[i])
+   let formatDayTimeToGMT = convertToGMT.toString() 
+  // console.log("Resul ==>", formatDayTimeToGMT);
+  
+    let existWinterChange = formatDayTimeToGMT.includes("+0000")
+    if (existWinterChange ===null){ continue}  
+    
+    if(existWinterChange){
+      //Replace
+      let replaceHour = formatDayTimeToGMT.replace("+0000","+0100").toString();
+      let converToDatetime = new Date(replaceHour).toString()
+      
+      let str = new Date(converToDatetime) //Sun Oct 30 2022 01:00:00 GMT+0000 (Western European Standard Time
+      let datetimeISO = str.toISOString()
+      
+      let cutDatetime = datetimeISO.toString().split(".")
+      let datetimeResult = cutDatetime[0]
+      
+      //console.log("Resul ==>",  datetimeResult );
+      arrTempWinterHour.push(datetimeResult);
+      
+    }else{}
+}
+
+console.log(arrTempWinterHour)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
