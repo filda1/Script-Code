@@ -266,7 +266,7 @@ TUTO
   Teste ====> docker container run -d -p 8090:80 --name testemvc pizzafrontend  ====> CREA UN CONATINER
   
   ENVIAR PARA DOCKER HUB
-  >> docker login
+  >> docker login    =================================================================> meire y senaha...
   >> docker tag pizzafrontend NOMBRE_LOGIN/pizzafrontend
   >> docker push NOMBRE_LOGIN/pizzafrontend
 

@@ -1,0 +1,43 @@
+ 
+ * Encender Docker Deckstop
+ * Encender minikube
+
+ 
+--
+ docker build -f Dockerfile -t pizzafrontend .    CREAR IMAGEN(Despues de tener Dockerfile) ====> ESTA FUNCIONA (Poner el Punto separado) y estar dentro de la carpeta y Toda em minusculas
+--
+ docker images
+
+ docker tag superheroapi meire/superheroapi
+ docker login   ==========================================> meire y pass...
+ docker push meire/superheroapi
+
+--
+ example-all-deployment
+
+ kubectl apply -f example-all-deployment.yaml     (Estar dentro de la carpeta de example-all-deployment)
+
+ >> kubectl get all
+ >> kubectl get svc
+
+ kubectl delete -f example-all-deployment.yaml 
+
+
+
+ >> minikube stop
+ * Parar Docker Desktop
+
+
+ ImagePullBackOff
+ ErrImagePull
+ mcr.microsoft.com/mssql/server:2019-latest
+ phillipssoftwareco/sql-server-2019-latest
+ phillipssoftwareco/sql-server-2019-latest:latest
+ phillipssoftwareco/sql-server-2019-latest:latest
+
+
+ * https://www.tutorialworks.com/kubernetes-imagepullbackoff/
+ * https://coding-stream-of-consciousness.com/2019/12/23/minikube-imagepullbackoff-local-docker-image/
+ * https://www.containiq.com/post/kubernetes-imagepullbackoff
+
+

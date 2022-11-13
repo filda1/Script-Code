@@ -25,7 +25,8 @@ spec:
     spec:
       containers:
       - name: mssql
-        image: mcr.microsoft.com/mssql/server:2019-latest
+        image: phillipssoftwareco/sql-server-2019-latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 1433
         env:
@@ -74,7 +75,7 @@ spec:
     spec:
       containers:
         - name: crudcontainer
-          image: meire/demomvcsqlserver:latest
+          image: meire/superheroapi:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80
