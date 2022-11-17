@@ -1,4 +1,6 @@
 
+  System.Console.WriteLine("Hello world");
+
   * Automappers (Pasar datos de OBJ a OTRO 
     hdeleon.net =https://www.youtube.com/watch?v=8GbkIP2uC6o
     macoratti = https://www.youtube.com/watch?v=_ekvCMGuywg (http://www.macoratti.net/15/07/net_amap1.htm)

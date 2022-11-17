@@ -6,3 +6,7 @@ var errors = ModelState.Values.SelectMany(v => v.Errors);
              {
                  return View(hourObj);
              }
+
+
+
+System.Console.WriteLine("Hello world");

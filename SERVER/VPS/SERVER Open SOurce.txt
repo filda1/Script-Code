@@ -1,0 +1,16 @@
+ 
+ Hetzner ======> VPS
+--
+
+  capRover === Heroku (Instalar en tu VPS)
+   https://www.youtube.com/watch?v=MNKBJXiD1Ls
+--
+  appwrite == firebase
+--
+  pocketbase == firebase
+--
+  HeaderCMS == firebase
+
+---
+ medusajs ===ecommerce Admin
+

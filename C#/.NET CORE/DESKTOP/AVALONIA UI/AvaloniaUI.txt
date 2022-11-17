@@ -4,9 +4,13 @@ https://avaloniaui.net
 https://github.com/AvaloniaUI/Avalonia
 
 --------
+  INSTALL EXTENSION IN VISUAL STUDIO 2022
+   https://marketplace.visualstudio.com/items?itemName=AvaloniaTeam.AvaloniaVS
+--------
+ TUTORIAL
 
  https://www.youtube.com/watch?v=TA0VSIrCFw4
 https://www.youtube.com/watch?v=HSnN8-UDB_M
 
 
-(AngelSix=     ***** https://www.youtube.com/watch?v=YhKuZImznEE&list=PLrW43fNmjaQWMhFHxS1jpQ34TkHroHJLb  (PlayList)
+(AngelSix=     ***** https://www.youtube.com/watch?v=YhKuZImznEE&list=PLrW43fNmjaQWMhFHxS1jpQ34TkHroHJLb  (PlayList) 3

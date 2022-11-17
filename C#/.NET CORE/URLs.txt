@@ -8,6 +8,8 @@
 * https://devblogs.microsoft.com/dotnet/
 *https://docs.microsoft.com/en-us/
 
+ System.Console.WriteLine("Hello world");
+
 ******************************************************************************************
  SMART ASP.NET.com
 

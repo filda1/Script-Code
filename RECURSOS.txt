@@ -1,11 +1,6 @@
-**** https://faztweb.com/contenido/recursos-desarrolladores
-En este video comparto una lista de herramientas, servicios, y sitios web utiles para todos aquellos desarrolladores de aplicaciones y programadores
 
-¡Hey Coders! Hace Mucho tiempo publique un video acerca de recursos para desarrolladores y programadores, basicamente el video consistia en compartirles una serie de sitios web que proveen colores, imagenes, comprimen archivos, convierten codigo, y asi, es decir sitios que son muy utiles al momento de desarrollar. El día de hoy les traigo una nueva version de este video solo que con muchos más recusos.
-************************************************************************
-Generadores de Texto
-Los generadores de texto son muy utiles cuando creas un sitio web o aplicacion, supongamos que estas creando un blog y necesitas probar como se veria con textos extensos. si usas un editor de codigo seguro que tienes emmet, pero para aquellos caso en los que no funcione tienes los siguientes sitios web.
-
+ DARK MODE =====> DARK READER
+*********************************************************************************************
 lorem ipsum
 https://loremipsum.io/
 GetLorem.com
