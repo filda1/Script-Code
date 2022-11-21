@@ -15,7 +15,8 @@
 --
  example-all-deployment
 
- kubectl apply -f example-all-deployment.yaml     (Estar dentro de la carpeta de example-all-deployment)
+ >> cd D:\Proyectos\DEMO-K8s
+ >> kubectl apply -f example-all-deployment.yaml     (Estar dentro de la carpeta de example-all-deployment)
 
  >> kubectl get all
  >> kubectl get svc
@@ -41,3 +42,4 @@
  * https://www.containiq.com/post/kubernetes-imagepullbackoff
 
 
+ imagePullPolicy: Always

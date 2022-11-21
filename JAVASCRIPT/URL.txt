@@ -15,6 +15,11 @@ Bibliotecas y Frameworks mencioandos:
 * Hardware: Johnny-five.io, node red, iot.js
 
 *********************************************************************************************************
+ REACT QUERY
+
+  https://www.youtube.com/watch?v=srMBmtVeS00 (fatz)
+
+*********************************************************************************************************
  SHELLjs
    https://rafaellaurindo.com.br/como-executar-comandos-unix-com-javascript-e-nodejs/
 

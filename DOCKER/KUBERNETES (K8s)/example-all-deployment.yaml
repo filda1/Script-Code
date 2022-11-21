@@ -26,7 +26,7 @@ spec:
       containers:
       - name: mssql
         image: phillipssoftwareco/sql-server-2019-latest
-        imagePullPolicy: Always
+        imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 1433
         env:

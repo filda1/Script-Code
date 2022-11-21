@@ -1,0 +1,10 @@
+
+ >> npm i decimal.js
+
+ https://github.com/MikeMcl/decimal.js-light/
+
+ https://www.youtube.com/watch?v=pQOUHzkMdn4
+
+ let a = new Decimal(3.3)
+
+ let b = a.mul(3).toNumber() //9.9
