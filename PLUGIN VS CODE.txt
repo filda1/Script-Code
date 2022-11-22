@@ -57,6 +57,18 @@ GITlens
 GIT flow
 
 
+Quokka.js
+Peackooc
+Material Theme
+
+https://vscodethemes.com/?page=3
+
+One Dark Pro Monokai Darker Theme
+
+Horizon Theme
+
+Dark+ Black
+
 MAIS EXTENSION ======> https://tvkoushik.medium.com/vscode-extensions-that-every-developer-should-use-635355426e33
 
 
