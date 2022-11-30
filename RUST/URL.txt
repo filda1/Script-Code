@@ -11,3 +11,8 @@
  TAURI (Desktop) ========> fatz
              https://www.youtube.com/watch?v=j0zLC_sOLAY
              https://github.com/FaztWeb/tauri-overview
+
+*****************************************************
+
+ ROCKET == BACKEND = https://www.youtube.com/watch?v=wmUo4PMs-AY&t=0s
+ SALVO == BACKEND = https://www.youtube.com/watch?v=HlVf4mE8V9s

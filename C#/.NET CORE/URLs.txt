@@ -11,6 +11,20 @@
  System.Console.WriteLine("Hello world");
 
 ******************************************************************************************
+  EF7 (Sql server) == SuperRapido
+   https://www.youtube.com/watch?v=RXNEjDEwzHI (hdeleon.net)
+
+******************************************************************************************
+ BALTA.io
+
+  WEBSOCKET
+  https://www.youtube.com/watch?v=TZoav69FJ7I
+  https://balta.io/blog/aspnet-websockets?utm_source=YouTube&utm_campaign=social-to-blog&utm_content=video-websockets&utm_medium=video-description
+
+
+  SIGNAR R MINIMAL
+  https://balta.io/blog/aspnet-minimal-signalr?utm_source=YouTube&utm_campaign=social-to-blog&utm_content=video-websockets&utm_medium=video-description
+********************************************************************************************
  ASPNET RELACIONES
   https://learn.microsoft.com/es-es/aspnet/core/data/ef-mvc/complex-data-model?view=aspnetcore-7.0
 

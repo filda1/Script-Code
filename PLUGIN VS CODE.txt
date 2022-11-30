@@ -55,7 +55,7 @@ Vue 3 Snippets
 YAML
 GITlens
 GIT flow
-
+Turbo console.log === Poner cursor encima Variable, CONTROL + ALT + L
 
 Quokka.js
 Peackooc
@@ -79,6 +79,12 @@ MAIS EXTENSION ======> https://tvkoushik.medium.com/vscode-extensions-that-every
  After Dark
  Github Dark
  Ayu
+
+Firefox Theme
+MacOS Modern Theme
+Dracula Refined
+CodeSandbox Theme
+OneDark-Dark+
 
 
 
