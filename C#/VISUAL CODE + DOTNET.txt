@@ -1,0 +1,35 @@
+
+ INSTALL
+.DOWLAOD  de .NET =====> https://dotnet.microsoft.com/en-us/download/dotnet
+ https://www.youtube.com/watch?v=04bankdb-f4
+
+.Extenxions =====> InstalL C#
+
+**************************************************************************************************************
+ >>  dotnet --version
+ >>  dotnet -h    =========================================> Todos Comandos
+
+ >> dotnet new  ==========================================> Proyectos    ( EJ: dotnet new console)
+
+ >> dotnet run
+
+
+_____________________
+
+ EF (--> https://learn.microsoft.com/en-us/ef/core/get-started/overview/install)
+  
+ INSTALL =====>   >> dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+                  >>dotnet tool install --global dotnet-ef
+                  >> dotnet add package Microsoft.EntityFrameworkCore.Design
+
+  >> dotnet ef migrations add yourMigrationName
+
+  >> dotnet ef database update
+
+
+
+
+-------------------------------------
+  // WEB
+  //https://localhost:7105/swagger/index.html
+  //http://localhost:5105/swagger/index.html

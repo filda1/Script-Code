@@ -1,0 +1,8 @@
+
+  OCR = https://ocr.space/ocrapi
+
+  #npm i ocr-space-api-wrapper
+  https://ocr.space/ocrapi/freekey
+
+  npm i ocr-space-api-wrapper
+  >> npm i ocr-space-api-wrapper
