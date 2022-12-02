@@ -1,0 +1,10 @@
+
+ JetBRain Rider
+
+**************************************
+ :NEt
+ https://plugins.jetbrains.com/plugin/17951--net-watch-run-configuration/versions
+
+**************************************
+
+ AVALONIAUI ====> https://docs.avaloniaui.net/docs/getting-started/ide-support/jetbrains-rider-setup

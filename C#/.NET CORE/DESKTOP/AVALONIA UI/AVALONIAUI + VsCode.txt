@@ -1,0 +1,7 @@
+https://github.com/AvaloniaUI/Avalonia.AxamlAutoCompletion
+DOWLONAD ====> https://github.com/AvaloniaUI/Avalonia.AxamlAutoCompletion/releases  (avalonia-axamlautocompletion-v16.vsix
+)
+____ 
+ https://www.youtube.com/watch?v=NWGYNYfBH20
+ CLONE ==> https://github.com/AvaloniaUI/Avalonia.VSCodeExtension#readme
+ RAIZ del PROYECTO ====> D:\Proyectos\AVALONIA UI\Avalonia.VSCodeExtension

@@ -10,3 +10,8 @@ PRISM TEMPLATE
 *****************************************************************************************
  CONFERENCE APP
  James MOntemagno = https://www.youtube.com/watch?v=SAcv4nGDU_I
+
+*****************************************************************************************
+ MVVM NEW
+https://www.youtube.com/watch?v=9vvm_-YveTs
+ https://github.com/filda1/MVVMSourceGenerators
