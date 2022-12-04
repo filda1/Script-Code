@@ -1,0 +1,17 @@
+Migration Xamrin to NET MAUI
+ 
+ j Montemagno:
+
+ https://www.youtube.com/watch?v=EXmSmv5ifkk
+
+ https://dotnet.microsoft.com/en-us/platform/upgrade-assistant
+
+ **https://github.com/dotnet/maui/wiki/Migrating-from-Xamarin.Forms-(Preview)
+
+  >> dotnet tool update --global upgrade-assistant
+  >> upgrade-assistant upgrade <path to sln or csproj> --non-interactive --entry-point *
+
+
+ REUSULTADO ====> https://github.com/jamesmontemagno/MyCoffeeApp/tree/dotnet-maui
+
+******************************************************************************************************

@@ -33,3 +33,12 @@ _____________________
   // WEB
   //https://localhost:7105/swagger/index.html
   //http://localhost:5105/swagger/index.html
+
+
+
+
+
+ *************************************************
+ JetBRains Rider
+   -- instalar PLUGIN entity core UI ( Para las migaciones)
+      https://stackoverflow.com/questions/48086047/rider-ef-code-first-migrations
