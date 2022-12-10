@@ -1,0 +1,75 @@
+
+  *****https://github.com/Stuk/jszip
+       https://stuk.github.io/jszip/
+       >> npm install jszip
+
+          EJ ===>  https://codepen.io/muhimasri/pen/gOxRdEx?editors=1111
+                   https://muhimasri.com/blogs/how-to-save-files-in-javascript/#zip-and-download-multiple-files
+
+         https://www.npmjs.com/package/create-object-url
+
+
+
+ 1- Crear Zip y Descargar Zip son a 2 tiempos (porque al mismo tiempo no funciona)
+
+******************************************
+
+ CREAR ZIP
+
+        const zip = new JSZip();
+
+        try {
+           /* const pdfData = fs.readFileSync('D:/SHORTCUT/WATT/watt/watt-node/src/sample.pdf');
+            zip.file("PDFFile.pdf", pdfData);
+
+            zip.file("Textfile.txt", "Hello NodeJS\n");
+
+            //const images = ["coding-science.jpg", "programming-languages.jpg"];
+            const img = zip.folder("images");
+            */
+            /*for (const image of images) {
+                const imageData = fs.readFileSync(image);
+                img.file(image, imageData);
+            }*/
+
+           /* zip.generateNodeStream({ type: 'nodebuffer', streamFiles: true })
+                .pipe(fs.createWriteStream('D:/SHORTCUT/WATT/watt/watt-node/src/sampleX.zip'))
+                .on('finish', function () {
+
+                    console.log("sample.zip written.");
+                });
+             */
+
+
+/*
+                zip.file("Hello.txt", "Hello world\n");
+
+                zip.generateAsync({type:"base64"}).then(function (base64) {
+                    location.host = "data:application/zip;base64," + base64;
+                 
+                }, function (err) {
+                
+                });
+   */
+
+        } catch (err) {
+            console.error(err)
+        }
+
+/*
+
+
+
+
+****************************************
+
+DESCARGAR ZIP
+
+ 1- Es Hacer CLICK a endpoint =======> que en Backend devuelva LA DIRECCION INTERNA DE ARCHIVO ( la url va al direccion interna y lo descarga). Y la url lo decarga.
+//Zip
+        public async downloadReportZip(req: Request, res: Response, next: NextFunction) {
+            res.sendFile(path.resolve('D:/SHORTCUT/WATT/watt/watt-node/files/reports/sampleX.zip'));
+        }
+
+
+

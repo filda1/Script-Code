@@ -1,0 +1,70 @@
+
+https://tesseract.projectnaptha.com
+https://www.npmjs.com/package/tesseract.js/v/2.1.1
+https://github.com/naptha/tesseract.js
+ejemplos ===> https://github.com/naptha/tesseract.js/blob/master/docs/examples.md
+
+>> npm i tesseract.js@2.1.1
+
+>>  npm install tesseract.js@4.1.1  ====================> Node 10
+
+-------------------------------------------------------------------------
+ 1- INSTALAR MOTOR OCR EN WINDOWS
+   https://github.com/UB-Mannheim/tesseract/wiki
+
+   ºººUna vez instalado, se debe configurar la variable de entorno "Path" para incluir la ruta donde se encuentra el ejecutable de Tesseract 
+  variable de entorno "Path" =====> (por ejemplo, "C:\Program Files (x86)\Tesseract-OCR").
+
+ C:\Program Files\Tesseract-OCR
+C:\Program Files (x86)
+
+ 2- INSTALR IDIOMAS
+  2.1 -> En https://github.com/naptha/tesseract.js#tesseract-js-and-languages.
+          https://tesseract-ocr.github.io/tessdoc/Data-Files#data-files-for-version-400-november-29-2016
+           * Descarga y metes dentro de la Carpeta Tesseract
+
+  ALTERNATIVA
+  >> tesseract-ocr-setup  ( TODO LOS IDIOMAS)
+  >> tesseract-ocr-setup -l spa+fra    ( Ejemplo: espanol y frances )
+
+ ejemplo:
+   worker.recognize(pdf, { lang: 'spa' })
+  .then(({ text }) => {
+    // Mostrar el texto reconocido en español
+    console.log(text);
+  });
+
+
+  VERSION
+
+  >> tesseract -v
+
+
+
+ Ejemplo:
+
+  const { TesseractWorker } = require('tesseract.js');
+const worker = new TesseractWorker();
+
+worker.getVersion()
+  .then(version => {
+    // Mostrar la versión de Tesseract-OCR
+    console.log(version);
+  });
+
+-------------------------------------------------------------------------
+
+NODEJS
+
+const { TesseractWorker } = require('tesseract.js');
+const worker = new TesseractWorker();
+
+// Cargar el archivo PDF
+const pdf = fs.readFileSync('./mi-archivo.pdf');
+
+// Realizar el reconocimiento de texto en el PDF utilizando OCR
+worker.recognize(pdf, { tessjs_create_pdf: '1' })
+  .then(({ text }) => {
+    // Mostrar el texto reconocido
+    console.log(text);
+  });

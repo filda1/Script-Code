@@ -1,5 +1,11 @@
+****** MANUAL === https://github.com/AvaloniaUI/avalonia-dotnet-templates
+                  >> dotnet new install Avalonia.Templates
+                  >> dotnet new avalonia.mvvm -o MyApp
+                  >> dotnet new avalonia.xplat   ===========> AQUI
 
-
+            Rider = https://github.com/AvaloniaUI/Documentation/blob/master/docs/getting-started/ide-support/jetbrains-rider-setup.md
+                    >>dotnet new -i Avalonia.Templates
+-------------------------------------
 https://avaloniaui.net
 https://github.com/AvaloniaUI/Avalonia
 
