@@ -16,6 +16,11 @@ REACT NATIVE (EXPO) ========> https://www.youtube.com/watch?v=hXDMWeD0ERM (Fazt)
                                                            https://github.com/itzpradip/react-navigation-v5-mix
 
 ***********************************************************************************************************
+
+  CHATGTP + NEXTjs + REACT NATIVE
+   https://www.notjust.dev/blog/2022-12-09-chat-gpt-with-react-native-and-nextjs
+
+***********************************************************************************************************
  FLASH LIST (New)
 
   https://shopify.github.io/flash-list/

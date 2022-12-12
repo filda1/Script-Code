@@ -26,11 +26,7 @@
 
             //const images = ["coding-science.jpg", "programming-languages.jpg"];
             const img = zip.folder("images");
-            */
-            /*for (const image of images) {
-                const imageData = fs.readFileSync(image);
-                img.file(image, imageData);
-            }*/
+         
 
            /* zip.generateNodeStream({ type: 'nodebuffer', streamFiles: true })
                 .pipe(fs.createWriteStream('D:/SHORTCUT/WATT/watt/watt-node/src/sampleX.zip'))
@@ -59,9 +55,22 @@
 /*
 
 
+--------------------------------------------------
 
+
+           // const myFolder = zip.folder(defaultFilenameFolder);
+           // myFolder.file('file1.pdf', fs.readFileSync('D:/SHORTCUT/WATT/watt/watt-node/src/sample.pdf'))
+           // myFolder.file('file2.pdf', fs.readFileSync('D:/SHORTCUT/WATT/watt/watt-node/src/sample.pdf'))
+             // myFolder.file('report_' + formatDate + '.pdf', "Desculpe, mas não há relatórios atuais neste momento.\n")
+         
+            /*zip.folder(defaultFilenameFolder)
+                .file('file1.pdf', fs.readFileSync('D:/SHORTCUT/WATT/watt/watt-node/src/sample.pdf'))
+                .file('file2.pdf', fs.readFileSync('D:/SHORTCUT/WATT/watt/watt-node/src/sample.pdf'))*/
 
 ****************************************
+
+
+
 
 DESCARGAR ZIP
 

@@ -15,3 +15,7 @@ Migration Xamrin to NET MAUI
  REUSULTADO ====> https://github.com/jamesmontemagno/MyCoffeeApp/tree/dotnet-maui
 
 ******************************************************************************************************
+
+   MOBILE = MAUI Blazor
+    https://www.youtube.com/watch?v=2dllz4NZC0I
+    https://github.com/jfversluis/MauiMixBlazorSample

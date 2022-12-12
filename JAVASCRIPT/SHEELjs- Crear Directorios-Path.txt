@@ -1,0 +1,10 @@
+CRAER DIRECCION CARPETAS
+
+    //Crea Directorio si no existe. Si exite no hace nada
+        const newFilesPath = path.resolve(path.join(config.paths.reportsStorage, nif, "invoice-validation-aggregate"));
+        console.log("🚀 ~ ====> newFilesPath", newFilesPath)
+        shelljs.mkdir('-p', newFilesPath);
+
+
+   //Protection of cpe routes in load diagrams
+                  if (fs.existsSync(originalSourcePath) && fs.existsSync(sourcePath)) {

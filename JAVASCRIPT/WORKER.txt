@@ -1,0 +1,20 @@
+// Primero, creamos un archivo de script llamado "my_worker.js" que contiene el código que queremos ejecutar en segundo plano.
+
+// En nuestro archivo de script, creamos un worker que realiza una tarea larga y compleja
+// en segundo plano, sin bloquear la interfaz de usuario de nuestra aplicación.
+self.addEventListener('message', function(e) {
+  // Realizamos la tarea compleja aquí...
+  self.postMessage('La tarea se ha completado');
+});
+
+// Luego, en nuestro código principal, creamos una instancia del worker y especificamos
+// el archivo de script que queremos ejecutar.
+var myWorker = new Worker('my_worker.js');
+
+// Podemos escuchar los mensajes que envía el worker y realizar alguna acción cuando se complete la tarea.
+myWorker.addEventListener('message', function(e) {
+  console.log(e.data);
+});
+
+// Finalmente, podemos enviar un mensaje al worker para iniciar la tarea en segundo plano.
+myWorker.postMessage('Iniciar tarea');

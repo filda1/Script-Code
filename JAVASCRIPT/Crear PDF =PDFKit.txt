@@ -1,0 +1,31 @@
+
+
+ --------------------
+
+ npm install pdfkit@0.11.0  =======> NOde  10
+
+
+ const PDFDocument = require('pdfkit');
+
+// Crea un nuevo documento PDF
+const doc = new PDFDocument();
+
+// Agrega contenido al documento
+doc.text('Hello World!');
+
+// Guarda el documento en disco
+doc.pipe(fs.createWriteStream('output.pdf'));
+doc.end();
+
+
+
+___________________________________
+
+
+
+
+
+
+
+
+
