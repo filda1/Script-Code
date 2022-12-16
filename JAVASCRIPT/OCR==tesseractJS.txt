@@ -4,9 +4,9 @@ https://www.npmjs.com/package/tesseract.js/v/2.1.1
 https://github.com/naptha/tesseract.js
 ejemplos ===> https://github.com/naptha/tesseract.js/blob/master/docs/examples.md
 
->> npm i tesseract.js@2.1.1
+>> npm i tesseract.js@2.1.5 ====================> Node 10
 
->>  npm install tesseract.js@4.1.1  ====================> Node 10
+
 
 -------------------------------------------------------------------------
  1- INSTALAR MOTOR OCR EN WINDOWS
@@ -41,17 +41,17 @@ C:\Program Files (x86)
 
 
 
- Ejemplo:
+ Ejemplo FUNCIONA:
 
-  const { TesseractWorker } = require('tesseract.js');
-const worker = new TesseractWorker();
+  import Tesseract = require('tesseract.js');
 
-worker.getVersion()
-  .then(version => {
-    // Mostrar la versión de Tesseract-OCR
-    console.log(version);
-  });
-
+   Tesseract.recognize(
+            'https://tesseract.projectnaptha.com/img/eng_bw.png',
+            'eng',
+            { logger: m => console.log(m) }
+          ).then(({ data: { text } }) => {
+            console.log(text);
+          })
 -------------------------------------------------------------------------
 
 NODEJS

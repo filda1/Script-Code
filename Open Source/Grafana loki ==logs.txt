@@ -1,0 +1,45 @@
+
+
+INSTAL GRAFANA LOKI
+   
+ ** https://www.youtube.com/watch?v=qE6hEHNH9dE
+       https://github.com/grafana/loki#loki-like-prometheus-but-for-logs
+       https://grafana.com/oss/loki/
+
+    1 Descargue el archivo de instalación de Grafana Loki desde el sitio web oficial de Grafana.
+
+    2 Abra el archivo de instalación y siga las instrucciones del asistente de instalación. Seleccione la opción "Grafana Loki" en el menú de opciones de instalación.
+
+    3 Una vez que la instalación haya finalizado, inicie Grafana Loki haciendo clic en el icono del menú Inicio o escribiendo "grafana-server" en la ventana de comandos.
+
+    4 Abra un navegador web y vaya a la dirección "http://localhost:3000" para acceder a la interfaz de usuario de Grafana Loki.
+
+    5 Inicie sesión en Grafana Loki utilizando las credenciales predeterminadas "admin" y "admin". Se recomienda cambiar la contraseña predeterminada para aumentar la seguridad de su instalación de Grafana Loki.
+
+    6 Ahora puede comenzar a utilizar Grafana Loki para visualizar y monitorear sus datos de registro. Puede agregar fuentes de datos, crear paneles y alertas, y mucho más.
+
+
+*****************************************************************************
++++++Nodejs,  configuar  Fluentd y Grafana loki en mi proyecto
+
+ >> npm install fluentd
+ >> npm install fluent-plugin-loki
+
+
+ const Fluentd = require('fluentd');
+ const fluentd = new Fluentd();
+
+
+ fluentd.configure({
+  plugins: [
+    {
+      type: 'loki',
+      url: 'http://your-grafana-loki-server:3100/api/prom/push',
+      username: 'your-username',
+      password: 'your-password'
+    }
+  ]
+});
+
+
+ fluentd.emit('log', { message: 'This is a log message' });

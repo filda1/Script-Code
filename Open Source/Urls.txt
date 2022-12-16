@@ -13,6 +13,31 @@ ALRTERNATIVA SHOPiFY OPEN SOURCE === MEDUSA
 *https://www.youtube.com/watch?v=Vl947ryThmg&ab_channel=TekZoom
 
 **************************************************************************************************************************************
+  IMAGE MAGICK
+
+   * imagemagick  windows    
+    https://imagemagick.org/script/download.php#windows
+ * Ghostscript
+    https://www.ghostscript.com/releases/gsdnld.html
+
+-------
+*******https://www.youtube.com/watch?v=-Gx667ECkNU
+
+ https://codingshiksha.com/javascript/..
+
+  >> magick convert sample.pdf -quality 100 output-%3d.jpg
+
+  >> magick convert invoicePetrogal.pdf -quality 100 -density 300 salida.jpg
+
+
+---
+
+ const {exec} = require('child_process')
+
+ exec(`magick convert ${} -quality 100 output-%3d.jpg`,(err, stdout, stderr))
+
+
+**************************************************************************************************************************************
 
  CONECT NAVEGADOR CON LENGAGE
 

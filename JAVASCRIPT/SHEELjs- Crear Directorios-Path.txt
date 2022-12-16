@@ -8,3 +8,31 @@ CRAER DIRECCION CARPETAS
 
    //Protection of cpe routes in load diagrams
                   if (fs.existsSync(originalSourcePath) && fs.existsSync(sourcePath)) {
+
+
+
+-------
+
+  RUTA DESDE LA RAIZ (Disco)
+  
+  //D:\SHORTCUT\WATT\wattCopyRecent\watt-node\files\invoices\506724530\petrogal\FT9920_14548
+  
+   const outputFile = path.resolve(path.join(config.paths.toolsStorage, 'output.txt'));
+
+
+
+ RUTA DESDE CARPETA files:
+
+    const outputFile = path.join(config.paths.toolsStorage, 'output.txt');
+
+
+------
+ ELIMINAR
+  
+ const shell = require('shelljs');
+
+shell.rm('archivo.txt');
+
+
+
+
