@@ -15,6 +15,17 @@ Bibliotecas y Frameworks mencioandos:
 * Hardware: Johnny-five.io, node red, iot.js
 
 *********************************************************************************************************
+ FUNCION DENTRO DE OTRA FUNCION + return
+   https://www.youtube.com/watch?v=frm0CHyeSbE
+
+  funcion dentro + de otra funcion + return == Callback (Antiguo)
+
+  funcion dentro + de otra funcion + return ==  Promesas (Nuevo)
+   * Para llamar a la funcion, se pone .then
+   o
+    * O Para llamar a la funcion, se pone  await delante
+
+*********************************************************************************************************
  REACT QUERY
 
   https://www.youtube.com/watch?v=srMBmtVeS00 (fatz)

@@ -20,6 +20,15 @@
   https://www.youtube.com/watch?v=kNalC8jZvxg (macorraty)
 
 ******************************************************************************************
+  REPISITORIO PATRON == The Repository Pattern
+
+  https://www.youtube.com/watch?v=Wiy54682d1w  (Patrick God)
+  https://github.com/patrickgod/RepositoryPatternExample
+
+*****************************************************************************************
+ RATE LIMIT
+  https://www.youtube.com/watch?v=JBwAo4aVTCc
+*****************************************************************************************
  BALTA.io
 
   WEBSOCKET

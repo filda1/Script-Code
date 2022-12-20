@@ -1,0 +1,9 @@
+
+MauiREACTOR
+https://www.youtube.com/watch?v=TSh9PL-ziY0
+
+ https://adospace.gitbook.io/mauireactor/
+
+ https://github.com/adospace/reactorui-maui
+
+ https://github.com/adospace/reactorui-xamarin
