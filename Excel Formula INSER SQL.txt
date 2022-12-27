@@ -1,0 +1,14 @@
+="INSERT INTO tabla (columna1, columna2, columna3) VALUES (" & A1 & ", " & B1 & ", " & C1 & ")"
+
+
+
+="INSERT INTO tabla (columna1, columna2, columna3) VALUES (" & A1 & ", " & B1 & ", " & C1 & ", " & D1 & ")"
+
+
+
+="INSERT INTO Countries (Name, Capital, Cod3, Cod2) VALUES (" & A1 & ", " & B1 & ", " & C1 & ", " & D1 & ")"   ========>  ( SIN COMILLAS)
+
+
+="INSERT INTO Countries (Name, Capital, Cod3, Cod2) VALUES (""" & A1 & """, """ & B1 & """, """ & C1 & """, """ & D1 & """)"  ========>  ( CON COMILLAS)
+
+

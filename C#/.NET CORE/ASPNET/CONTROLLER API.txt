@@ -1,0 +1,788 @@
+using furniture_workflow.Data;
+using furniture_workflow.Models.Products;
+using furniture_workflow.Models.Products.HomeAppliances;
+using furniture_workflow.Models.Products.IronWorks;
+using furniture_workflow.Models.Products.Materials;
+using furniture_workflow.Models.Products.ProductImages;
+using furniture_workflow.Responses;
+using furniture_workflow.Services;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+//using System.Data.Linq;
+
+namespace furniture_workflow.Controllers;
+
+[Route("api/products")]
+[ApiController]
+public class ProductController : ControllerBase
+{
+    public static Product product = new Product();
+    private readonly IConfiguration _configuration;
+    private readonly IUserService _userService;
+    private readonly DataContext _context;
+    
+    public ProductController(IConfiguration configuration, IUserService userService, DataContext context)
+    {
+        _configuration = configuration;
+        _userService = userService;
+        _context = context;
+    }
+
+    #region Products
+    
+    // =================================================== Product ================================================= //
+    
+    // GET: All Products
+    [HttpGet]
+    //[ApiExplorerSettings(GroupName = "Products")]
+    public async Task<IActionResult> Get()
+    {
+        List<Product> products;
+        List<Product> product2;
+ 
+        try
+        { 
+            products = await _context.Products
+                .AsNoTracking()
+                .AsQueryable() // Convertir a IQueryable<Producto>
+                .Include(f =>f.ProductImages ?? Enumerable.Empty<ProductImage>())
+                .Include(m =>m.Material ?? Enumerable.Empty<Material>())
+                .Include(f => f.IronWork ?? Enumerable.Empty<IronWork>())
+                .Include(f =>f.HomeAppliance ?? Enumerable.Empty<HomeAppliance>())
+                
+                 /* .Include(f => f.IronWork)
+                      .ThenInclude(tfs => tfs.SizeIronWork)
+                .Include(f1 => f1.IronWork)
+                     .ThenInclude(tfg1 => tfg1.Grill)
+              .Include(f2 => f2.IronWork)
+                      .ThenInclude(tfv2 => tfv2.View)
+                 .Include(f2 => f2.IronWork)
+                      .ThenInclude(tfz2 => tfz2.Lid)
+                 .Include(f3 => f3.IronWork)
+                      .ThenInclude(tf3 => tf3.Shim)
+                //.Include(f => f.IronWork)
+                       // .ThenInclude(tfs => tfs.Subcategory)
+               .Include(f => f.IronWork)
+                    .ThenInclude(tfs => tfs.Feet)
+                           .ThenInclude(tfs => tfs.Base)
+               .Include(f => f.IronWork)
+                    .ThenInclude( fee => fee.Feet)
+                          .ThenInclude( feec => feec.Clip)
+               .Include(f => f.IronWork)
+                    .ThenInclude( fee => fee.Feet)
+                         .ThenInclude( feec => feec.Corner)
+               .Include(f => f.IronWork)
+                    .ThenInclude( fee => fee.Feet)
+                         .ThenInclude( feec => feec.FeetSize)
+                .Include(f => f.HomeAppliance)
+                         .ThenInclude(x34 =>x34.SubTypeHA)
+                .Include(f =>f.HomeAppliance)
+                        .ThenInclude(zx4=>zx4.ModeloHA)*/
+
+                .ToListAsync();
+
+            
+                 /*products = await (from pro in _context.Products
+                           join ma in _context.Materials on pro.MaterialId equals ma.Id
+                           select  pro
+                    ).ToListAsync();*/
+                 
+                 
+                 /*materials = await (from ma in _context.Materials
+                         join pro in _context.Products on ma.ProductId equals pro.Id
+                         select ma
+                     )
+                     //.Include(pro => pro.Product)
+                     .ToListAsync();*/
+                 
+                /* materials = await  _context.Materials
+                     .Include(pro => pro.Product)
+                     .ToListAsync();*/
+                 
+                     
+                 /*product2 = await  _context.Products
+                    .Include(pro => pro.Material)
+                    .ToListAsync(); */
+
+            
+        }
+        catch (Exception ex)
+        {
+            return Ok(ex);
+        }
+        
+        /*var materials2 = await  _context.Materials
+            .Include(pro => pro.Product)
+            .ToListAsync(); */
+        //return Ok(" OK :)");
+
+
+ 
+        return Ok(products);
+    }
+    
+    // GET: Id Product
+    [HttpGet("{id}")]
+    //[ApiExplorerSettings(GroupName = "Products")]
+    public async Task<ActionResult<Product>> GetProduct(int id)
+    {
+        var onlyProduct = await _context.Products
+            .Include(f =>f.ProductImages ?? Enumerable.Empty<ProductImage>())
+            .Include(m =>m.Material ?? Enumerable.Empty<Material>())
+            .Include(f => f.IronWork ?? Enumerable.Empty<IronWork>())
+            .Include(e1 => e1.HomeAppliance ?? Enumerable.Empty<HomeAppliance>())
+            .Where(p => p.Id == id)
+            .FirstOrDefaultAsync(); 
+
+        if (onlyProduct == null)
+        {
+            return NotFound();
+        }
+
+        return onlyProduct;
+    }
+    
+    //POST: Product
+    [HttpPost]
+    //[ApiExplorerSettings(GroupName = "Products")]
+    public async Task<ActionResult<Product>> PostProduct(Product product)
+    {
+        try
+        {
+            
+            _context.Database.ExecuteSqlInterpolated($"SET IDENTITY_INSERT PRODUCTS ON");
+            
+            _context.Products.Add(product);
+            await _context.SaveChangesAsync();
+
+            _context.Database.ExecuteSqlInterpolated($"SET IDENTITY_INSERT PRODUCTS OFF");
+            
+            
+            return Ok(200);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            throw;
+            
+            return Ok(404);
+        }
+    }
+ 
+    // PUT: Product
+    [HttpPut("{id}")]
+    //[ApiExplorerSettings(GroupName = "Products")]
+    public async Task<IActionResult> PutProduct(int id, Product product)
+    {
+        if (id != product.Id)
+        {
+            return BadRequest();
+        }
+        
+       try
+       {
+               _context.Update(product);
+               await _context.SaveChangesAsync();
+               
+               return Ok(200);
+       }
+       catch (DbUpdateConcurrencyException)
+       {
+               if (!ProductExists(id))
+               {
+                   return NotFound();
+               }
+               else
+               {
+                   throw;
+               }
+               
+               return Ok(400);
+        }
+       
+    }
+    
+    
+    // DELETE: Id Product
+    [HttpDelete("{id}")]
+    //[ApiExplorerSettings(GroupName = "Products")]
+    public async Task<IActionResult> DeleteProduct(int id)
+    {
+        var onlyProduct = await _context.Products.FindAsync(id);
+        if (onlyProduct  == null)
+        {
+            return NotFound();
+        }
+
+        try
+        {
+            _context.Products.Remove(onlyProduct );
+            await _context.SaveChangesAsync();
+            
+            return Ok(200);
+        }
+        catch (Exception e)
+        {
+            return Ok(400);
+        }
+        
+        //return NoContent();
+    }
+    
+    // Product Exist
+    private bool ProductExists(int id)
+    {
+        return _context.Products.Any(e => e.Id == id);
+    }
+    
+    #endregion
+    
+    #region Product Details
+    
+    
+    // ============================================== IronWorks Details ============================================= //
+    
+    // GET: All IronWorks Details
+    [HttpGet ("ironworks-details")]
+    //[ApiExplorerSettings(GroupName = "Ironworks-detail")]
+    public async Task<IActionResult> GetIronWorksDetails()
+    {
+        List<IronWork> ironWorks;
+        
+        try
+        { 
+            ironWorks = await _context.IronWorks
+                .AsNoTracking()
+                //.AsQueryable()
+                .Include(ir => ir.SizeIronWork)
+                .Include(ir => ir.Grill)
+                .Include(ir => ir.View)
+                .Include(ir => ir.Lid)
+                .Include(ir => ir.Shim)
+                .Include(ir => ir.Subcategory)
+                .Include(irf => irf.Feet)
+                  .ThenInclude(irf => irf.Base)
+               .Include(irf1 => irf1.Feet)
+                  .ThenInclude( fe1 => fe1.Clip)
+                .Include(irf2 => irf2.Feet)
+                  .ThenInclude( fe2 => fe2.Corner)
+                .Include(irf3 => irf3.Feet)!
+                  .ThenInclude( fe3 => fe3.FeetSize)
+                .ToListAsync();
+        }
+        catch (Exception ex)
+        {
+            return Ok(ex);
+        }
+        
+        return Ok(ironWorks);
+    }
+
+    // GET: Product Id IronWork Details
+    [HttpGet("ironwork-details-productid/{id}")]
+    //[ApiExplorerSettings(GroupName = "Ironworks-detail")]
+    public async Task<ActionResult<IronWork>> GeIronWorksDetailsProductId(int id)
+    {
+        List<IronWork> onlyIronWork ;
+        //var onlyIronWork = await _context.IronWorks.FindAsync(id);
+        try
+        { 
+         onlyIronWork = await _context.IronWorks
+                            .AsNoTracking()
+                            //.AsQueryable()
+                            .Include(ir => ir.SizeIronWork)
+                            .Include(ir => ir.Grill)
+                            .Include(ir => ir.View)
+                            .Include(ir => ir.Lid)
+                            .Include(ir => ir.Shim)
+                            .Include(ir => ir.Subcategory)
+                            .Include(irf => irf.Feet)
+                             .ThenInclude(irf => irf.Base)
+                            .Include(irf1 => irf1.Feet)
+                             .ThenInclude( fe1 => fe1.Clip)
+                            .Include(irf2 => irf2.Feet)
+                             .ThenInclude( fe2 => fe2.Corner)
+                            .Include(irf3 => irf3.Feet)!
+                             .ThenInclude( fe3 => fe3.FeetSize)
+                            .Where(p => p.ProductId == id)
+                            .ToListAsync(); 
+        }
+        catch (Exception ex)
+        {
+            return Ok(ex);
+        }
+
+        /*if (onlyIronWork == null)
+        {
+            return NotFound();
+        }*/
+
+        //return onlyIronWork;
+        return Ok(onlyIronWork);
+    }
+    
+    // GET: Id IronWork Details
+    [HttpGet("ironwork-details/{id}")]
+    //[ApiExplorerSettings(GroupName = "Ironworks-detail")]
+    public async Task<ActionResult<IronWork>> GeIronWorksDetailsId(int id)
+    {
+        //var onlyIronWork = await _context.IronWorks.FindAsync(id);
+        var onlyIronWork = await _context.IronWorks
+            .AsNoTracking()
+            //.AsQueryable()
+            .Include(ir => ir.SizeIronWork)
+            .Include(ir => ir.Grill)
+            .Include(ir => ir.View)
+            .Include(ir => ir.Lid)
+            .Include(ir => ir.Shim)
+            .Include(ir => ir.Subcategory)
+            .Include(irf => irf.Feet)
+             .ThenInclude(irf => irf.Base)
+            .Include(irf1 => irf1.Feet)
+             .ThenInclude( fe1 => fe1.Clip)
+            .Include(irf2 => irf2.Feet)
+             .ThenInclude( fe2 => fe2.Corner)
+            .Include(irf3 => irf3.Feet)!
+             .ThenInclude( fe3 => fe3.FeetSize)
+            .FirstAsync(i =>i.Id == id); 
+
+        if (onlyIronWork == null)
+        {
+            return NotFound();
+        }
+
+        return onlyIronWork;
+    }
+    
+    //POST: IronWork Details
+   [HttpPost("ironwork-details")]
+   //[ApiExplorerSettings(GroupName = "Ironworks-detail")]
+    public async Task<ActionResult<IronWork>> PostIronWorksDetails(IronWork ironWork)
+    {
+        try
+        {
+            _context.Database.ExecuteSqlInterpolated($"SET IDENTITY_INSERT IronWorks ON");
+            
+            _context.IronWorks.Add(ironWork);
+            await _context.SaveChangesAsync();
+            
+            _context.Database.ExecuteSqlInterpolated($"SET IDENTITY_INSERT IronWorks OFF");
+                
+            return Ok(200);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            throw;
+            
+            return Ok(404);
+        }
+    }
+    
+    // PUT: IronWork Details
+    [HttpPut("ironwork-details")]
+    //[ApiExplorerSettings(GroupName = "Ironworks-detail")]
+    public async Task<IActionResult> PutIronworkDetails(int id, IronWork ironWork)
+    {
+        if (id != ironWork.Id)
+        {
+            return BadRequest();
+        }
+
+        
+        try
+        {
+            _context.Update(ironWork);
+            await _context.SaveChangesAsync();
+               
+            return Ok(200);
+        }
+        catch (DbUpdateConcurrencyException)
+        {
+            if (!IronWorksDetailsExists(id))
+            {
+                return NotFound();
+            }
+            else
+            {
+                throw;
+            }
+               
+            return Ok(400);
+        }
+    }
+    
+    // IronWork Details Exist
+    private bool IronWorksDetailsExists(int id)
+    {
+        return _context.IronWorks.Any(e => e.Id == id);
+    }
+    
+    
+    // DELETE: Id Delete IronWork Details
+    [HttpDelete("ironwork-details/{id}")]
+    //[ApiExplorerSettings(GroupName = "Ironworks-detail")]
+    public async Task<IActionResult> DeleteIronWorksDetails(int id)
+    {
+        var onlyIronWork = await _context.IronWorks.FindAsync(id);
+        if (onlyIronWork  == null)
+        {
+            return NotFound();
+        }
+
+        
+        try
+        {
+            _context.IronWorks.Remove(onlyIronWork);
+            await _context.SaveChangesAsync();
+            
+            return Ok(200);
+        }
+        catch (Exception e)
+        {
+            return Ok(400);
+        }
+
+        //return NoContent();
+    }
+    
+    // ============================================ HomeAppliances Details ========================================== //
+    
+    // GET: All HomeAppliances Details
+    [HttpGet("homeappliances-details")]
+    //[ApiExplorerSettings(GroupName = "Homeappliances-details")]
+    public async Task<IActionResult> GetHomeAppliancesDetails()
+    {
+        List<HomeAppliance> homeappliances;
+        
+        try
+        {
+            homeappliances = await _context.HomeAppliances
+                          .Include(e1 => e1.ModeloHA)
+                           .ThenInclude( fe3 => fe3.Type)
+                          .Include(e1 => e1.SubTypeHA)
+                          .ToListAsync();
+        }    
+        catch (Exception ex)
+        {
+            return Ok(ex);
+        }
+        
+        return Ok(homeappliances);
+    }
+
+    // GET: Product Id HomeAppliance Details
+    [HttpGet("homeappliance-details-productid/{id}")]
+    //[ApiExplorerSettings(GroupName = "Homeappliances-details")]
+    public async Task<ActionResult<HomeAppliance>> GetHomeApplianceDetailsProductId(int id)
+    {
+       // var onlyHomeAppliance = await _context.HomeAppliances.FindAsync(id);
+       List<HomeAppliance> onlyHomeAppliance;
+        
+        try
+        {
+         onlyHomeAppliance = await _context.HomeAppliances
+                                   .Include(e1 => e1.ModeloHA)
+                                    .ThenInclude( fe3 => fe3.Type)
+                                   .Include(e1 => e1.SubTypeHA)
+                                   .Where(p => p.ProductId == id)
+                                   .ToListAsync(); 
+        }    
+        catch (Exception ex)
+        {
+            return Ok(ex);
+        }
+        
+
+       /* if (onlyHomeAppliance == null)
+        {
+            return NotFound();
+        }
+
+        return onlyHomeAppliance;*/
+       
+       return Ok(onlyHomeAppliance);
+    }
+    
+    // GET: Id HomeAppliance Details
+    [HttpGet("homeappliance-details/{id}")]
+    //[ApiExplorerSettings(GroupName = "Homeappliances-details")]
+    public async Task<ActionResult<HomeAppliance>> GetHomeApplianceDetailsId(int id)
+    {
+        // var onlyHomeAppliance = await _context.HomeAppliances.FindAsync(id);
+        var onlyHomeAppliance = await _context.HomeAppliances
+            .Include(e1 => e1.ModeloHA)
+             .ThenInclude( fe3 => fe3.Type)
+            .Include(e1 => e1.SubTypeHA)
+            .FirstAsync(i =>i.Id == id); 
+
+        if (onlyHomeAppliance == null)
+        {
+            return NotFound();
+        }
+
+        return onlyHomeAppliance;
+    }
+    
+    
+    // POST: HomeAppliance Details
+    [HttpPost("homeappliance-details")]
+    //[ApiExplorerSettings(GroupName = "Homeappliances-details")]
+    public async Task<ActionResult<HomeAppliance>> PostHomeApplianceDetails(HomeAppliance homeAppliance)
+    {
+        try
+        {
+            _context.HomeAppliances.Add(homeAppliance);
+            await _context.SaveChangesAsync();
+
+            return Ok(200);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            throw;
+            
+            return Ok(404);
+        }
+    }
+    
+   
+    // PUT : HomeAppliance Details
+    [HttpPut("homeappliance-details/id")]
+    //[ApiExplorerSettings(GroupName = "Homeappliances-details")]
+    public async Task<IActionResult> PutHomeApplienceDetails(int id, HomeAppliance homeAppliance)
+    {
+        if (id != homeAppliance.Id)
+        {
+            return BadRequest();
+        }
+
+        _context.Entry(homeAppliance).State = EntityState.Modified;
+
+        try
+        {
+            await _context.SaveChangesAsync();
+        }
+        catch (DbUpdateConcurrencyException)
+        {
+            if (!HomeApplianceExists(id))
+            {
+                return NotFound();
+            }
+            else
+            {
+                throw;
+            }
+        }
+
+        return NoContent();
+    }
+    
+    // DELETE: Id Delete HomeAppliance
+    [HttpDelete("homeappliance-details/{id}")]
+    //[ApiExplorerSettings(GroupName = "Homeappliances-details")]
+    public async Task<IActionResult> DeleteHomeApplianceDetails(int id)
+    {
+        var onlyHomeAppliance = await _context.HomeAppliances.FindAsync(id);
+        if (onlyHomeAppliance  == null)
+        {
+            return NotFound();
+        }
+
+        _context.HomeAppliances.Remove(onlyHomeAppliance);
+        await _context.SaveChangesAsync();
+
+        return NoContent();
+    }
+    
+    // HomeAppliance Exist
+    private bool HomeApplianceExists(int id)
+    {
+        return _context.HomeAppliances.Any(e => e.Id == id);
+    }
+    
+    
+    // =============================================== Product last id ============================================= //
+    
+    // GET: Last Id 
+    [HttpGet("last-id")]
+    public async Task<ActionResult<ProductLasIdResponse>> GetPrudctLastId()
+    {
+        int subcategory;
+        int product;
+        int productImage;
+        int homeAppliance;
+        int ironWork;
+        int material;
+        int sizeIronWork;
+        int grill;
+        int view;
+        int lid;
+        int shim;
+        int feet;
+        int bases;
+        int clip;
+        int corner;
+        int feetsize;
+        int modeloha;
+        int subtypesha;
+        int type;
+        
+            
+        try
+        {
+           
+            if (_context.Products.Any())
+            {
+                product =  _context.Products.OrderByDescending(x => x.Id).FirstOrDefault().Id;
+            }
+            else { product = 0; }
+            
+            if (_context.ProductImages.Any())
+            {
+                productImage = _context.ProductImages.OrderByDescending(x => x.Id).FirstOrDefault().Id;
+            }
+            else { productImage = 0; }
+            
+            
+            if (_context.Subcategories.Any())
+            {
+                subcategory= _context.Subcategories.OrderByDescending(x => x.Id).FirstOrDefault().Id;
+            }
+            else { subcategory = 0; }
+            
+            if (_context.HomeAppliances.Any())
+            {
+               homeAppliance =  _context.HomeAppliances.OrderByDescending(x => x.Id).FirstOrDefault().Id;
+            }
+            else { homeAppliance  = 0; }
+            
+            if (_context.Materials.Any())
+            {
+                material =  _context.Materials.OrderByDescending(x => x.Id).FirstOrDefault().Id;
+            }
+            else { material = 0; }
+            
+            if (_context.IronWorks.Any())
+            {
+                 ironWork =  _context.IronWorks.OrderByDescending(x => x.Id).FirstOrDefault().Id;
+            }
+            else { ironWork = 0; }
+            
+            if (_context.SizeIronWorks.Any())
+            {
+                sizeIronWork = _context.SizeIronWorks.OrderByDescending(x => x.Id).FirstOrDefault().Id;
+            }
+            else { sizeIronWork = 0; }
+            
+            if (_context.Grills.Any())
+            {
+                grill = _context.Grills.OrderByDescending(x => x.Id).FirstOrDefault().Id;
+            }
+            else { grill = 0; }
+            
+            if (_context.Views.Any())
+            {
+                 view = _context.Views.OrderByDescending(x => x.Id).FirstOrDefault().Id;
+            }
+            else { view = 0; }
+            
+            if (_context.Lids.Any())
+            {
+                 lid =  _context.Lids.OrderByDescending(x => x.Id).FirstOrDefault().Id;
+            }
+            else { lid = 0; }
+            
+            if (_context.Shims.Any())
+            {
+                shim =  _context.Shims.OrderByDescending(x => x.Id).FirstOrDefault().Id;
+            }
+            else { shim = 0; }
+            
+            if (_context.Feets.Any())
+            {
+                 feet = _context.Feets.OrderByDescending(x => x.Id).FirstOrDefault().Id;
+            }
+            else { feet = 0; }
+            
+            if (_context.Bases.Any())
+            {
+               bases = _context.Bases.OrderByDescending(x => x.Id).FirstOrDefault().Id;
+            }
+            else { bases = 0; }
+            
+            if (_context.Clips.Any())
+            { 
+                clip =  _context.Clips.OrderByDescending(x => x.Id).FirstOrDefault().Id;
+            }
+            else { clip = 0; }
+            
+            if (_context.Corners.Any())
+            {
+                corner =  _context.Corners.OrderByDescending(x => x.Id).FirstOrDefault().Id;
+            }
+            else { corner  = 0; }
+            
+            if (_context.FeetSizes.Any())
+            { 
+                feetsize =  _context.FeetSizes.OrderByDescending(x => x.Id).FirstOrDefault().Id;
+            }
+            else { feetsize  = 0; }
+            
+            if (_context.ModeloHAs.Any())
+            { 
+                 modeloha = _context.ModeloHAs.OrderByDescending(x => x.Id).FirstOrDefault().Id;
+            }
+            else { modeloha   = 0; }
+            
+            if (_context.SubTypeHAs.Any())
+            {
+                subtypesha =  _context.SubTypeHAs.OrderByDescending(x => x.Id).FirstOrDefault().Id;
+            }
+            else { subtypesha   = 0; }
+            
+            if (_context.SubModeloHAs.Any())
+            {
+                 type = _context.SubModeloHAs.OrderByDescending(x => x.Id).FirstOrDefault().Id; 
+            }
+            else {  type   = 0; }
+
+            
+            ProductLasIdResponse lasIdObj = new ProductLasIdResponse()
+                {
+                    product = product,
+                    productImage = productImage,
+                    subcategory = subcategory,
+                    material = material,
+                    homeAppliance = homeAppliance,
+                    ironWork = ironWork,
+                    sizeIronWork = sizeIronWork,
+                    grill = grill,
+                    view = view,
+                    lid = lid,
+                    shim = shim,
+                    feet = feet,
+                    bases = bases,
+                    clip = clip,
+                    corner = corner,
+                    feetsize = feetsize,
+                    modeloha = modeloha,
+                    subtypesha = subtypesha,
+                    type = type
+                };
+              
+              return Ok(lasIdObj);
+              //return lasIdObj;
+        }     
+        catch (Exception ex)
+        {
+            return Ok(ex);
+        }
+
+       //return lasIdObj;
+  
+    }
+    
+        
+    #endregion
+}
