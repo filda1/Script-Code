@@ -1,0 +1,26 @@
+En Net MAUI, en ListObservable como ver items de 20 en 20 al hacer scrolview
+
+---
+int page = 1;
+int pageSize = 20;
+
+
+
+---
+async Task LoadMore()
+{
+  page++;
+  var items = await GetItemsAsync(page, pageSize);
+  foreach (var item in items)
+  {
+    MyList.Add(item);
+  }
+}
+
+
+---
+<ScrolView Scrolled="LoadMore">
+  <ItemsView Items="{Binding MyList}">
+    <!-- Plantilla de elemento -->
+  </ItemsView>
+</ScrolView>

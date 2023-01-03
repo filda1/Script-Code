@@ -26,6 +26,10 @@ Bibliotecas y Frameworks mencioandos:
     * O Para llamar a la funcion, se pone  await delante
 
 *********************************************************************************************************
+ CLIENT REST CON PROXY (Servidor Intermedio)
+ https://www.youtube.com/watch?v=Ppos09yFpzA
+
+*********************************************************************************************************
  REACT QUERY
 
   https://www.youtube.com/watch?v=srMBmtVeS00 (fatz)
