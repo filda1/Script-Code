@@ -17,3 +17,10 @@ Nombre de DB existente =====> Boton Derecho ====> Task =====> Backup
  1- Crear una nueva DB
  2- Task ====> Restore
  3- En Options =====> selecionar Sobrescribir (Override)
+
+
+
+
+
+
+C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\Backup
