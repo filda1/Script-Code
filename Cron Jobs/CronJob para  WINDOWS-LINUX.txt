@@ -1,0 +1,10 @@
+ task scheduler  (WINDOWS)
+
+
+ https://www.howtogeek.com/201930/how-to-automatically-delete-files-in-your-download-folder-on-a-schedule/
+ https://www.genbeta.com/paso-a-paso/como-programar-tareas-en-windows-10
+
+--------------------
+  CRONTAB (Linux)
+
+ https://www.redeszone.net/tutoriales/servidores/cron-crontab-linux-programar-tareas/

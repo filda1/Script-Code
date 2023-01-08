@@ -1,0 +1,18 @@
+let x, y;
+[x, y] = function() { 
+  x = 1;
+  y = 2;
+  return x, y;
+}
+console.log(x);  // imprime 1
+console.log(y);  // imprime 2
+
+
+-----------------------------
+
+
+
+ Pasar FUNCION dentro de otra
+
+
+ x = Func( NombreDeFuncion, x, y)

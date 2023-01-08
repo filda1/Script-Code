@@ -1,0 +1,39 @@
+NEXT 13
+
+
+ Install
+    https://www.youtube.com/watch?v=tA-_vAz9y78&list=WL&index=112&t=8s
+                    ***https://nextjs.org/docs
+                         https://beta.nextjs.org/docs/installation
+
+ >> pnpm create next-app  ==========================================> CREATE
+
+   >> pnpm next-dev  ===============================>RUN
+
+
+
+ INSTAl Boostrapt
+
+   >> pnpm install bootstrap
+ 
+  * en _app.js ======> import 'bootstrap/dist/css/bootstrap.css'
+
+
+MUI
+ >> pnpm i mui
+
+ >>  pnpm i react-admin ra-data-json-server
+
+
+  Base = https://github.com/filda1/next-amazona/blob/main/components/Layout.js
+
+  template React ecommerce ====> https://github.com/marmelab/react-admin?ref=morioh.com&utm_source=morioh.com
+                           **** https://github.com/marmelab/react-admin/tree/master/examples/demo
+                            ***** Tuto ====> https://marmelab.com/react-admin/NextJs.html  (Integrate con Next)
+_____________________________________________________
+
+ admin ====> https://github.com/primefaces/sakai-react
+
+ https://github.com/kitloong/nextjs-dashboard
+
+ Varios ADMIN =======> https://morioh.com/p/2253a4076c91

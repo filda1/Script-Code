@@ -17,6 +17,13 @@
                                      https://github.com/developerpe/frontend-ecommerce-rest-react
 
 ********************************************************************************************************************
+  ECOSISTEMA REACT ======> https://www.youtube.com/watch?v=QsN9vlkB6MU
+
+*******************************************************************************************************************
+ DPCOMENTACION 
+
+  https://docusaurus.io
+*******************************************************************************************************************
  REACT + REDUX TOOLKIT
   fatz = https://www.youtube.com/watch?v=w2rAP7d6ndg
          https://github.com/FaztWeb/react-rtk-crud

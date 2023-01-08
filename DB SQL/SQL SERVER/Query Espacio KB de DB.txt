@@ -1,0 +1,16 @@
+
+ 
+ --TODO
+
+  SELECT
+    SUM(dp.row_count) AS 'Total Rows',
+    SUM(dp.used_page_count) * 8 AS 'Total Space (KB)',
+    SUM(dp.in_row_reserved_page_count) * 8 AS 'Total Space Allocated (KB)'
+FROM sys.dm_db_partition_stats dp;
+
+
+
+ -- TOTAL DBs
+
+ SELECT SUM(size) AS 'Total Size (KB)'
+ FROM sys.database_files;
