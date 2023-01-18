@@ -21,6 +21,8 @@ NEXT 13
 
 MUI
  >> pnpm i mui
+   pnpm add @mui/material
+   pnpm add @mui/icons-material
 
  >>  pnpm i react-admin ra-data-json-server
 

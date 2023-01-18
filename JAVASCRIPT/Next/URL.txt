@@ -26,9 +26,11 @@
   NEXT 13
 
   TUTORIAL ======>  
-                    https://www.youtube.com/watch?v=tA-_vAz9y78&list=WL&index=112&t=8s
+                    (midudev) ==> https://www.youtube.com/watch?v=tA-_vAz9y78&list=WL&index=112&t=8s
                     ***https://nextjs.org/docs
                      https://beta.nextjs.org/docs/installation
+
+                    (sonny sangha) ======>https://www.youtube.com/watch?v=6aP9nyTcd44&list=WL&index=111&t=1031s
 
    AUTH (con Middelworks) 
          =======> FATZ=== https://www.youtube.com/watch?v=zBbqrcvdJjQ

@@ -58,6 +58,15 @@ ALRTERNATIVA SHOPiFY OPEN SOURCE === MEDUSA
  https://sendpulse.com/prices/webpush
 
 *************************************************************************************************************************************
+  Apache Solr == Elasticsearcht
+
+     **** https://www.youtube.com/watch?v=JlaMuawriso
+    https://www.youtube.com/watch?v=uj9VfNtKhgI
+
+   + Mysql ====> https://www.inmensys.com/blog/optimizando-busquedas-con-apache-solr/
+                 https://www.youtube.com/watch?v=BuSCfi7AsLU
+
+*************************************************************************************************************************************
  CHAT EN LINEA == https://www.tawk.to
 
  **https://www.youtube.com/watch?v=tfrOfmBdAGo
@@ -148,6 +157,6 @@ INTRANET
 
 *********************************************************************************************************
  WORKFLOW
-  Camunda
+  Camunda 
 
 *********************************************************************************************************
