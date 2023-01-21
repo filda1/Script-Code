@@ -2,6 +2,13 @@ APP TIEMPO
  https://github.com/davidortinau/WeatherTwentyOne?WT.mc_id=friends-0000-jamont
 
 *****************************************************************************************
+ MAUI APP ACELERATOR
+  https://www.youtube.com/watch?v=JrT-iIk3fwU
+   https://github.com/mrlacey/MauiAppAccelerator
+   https://marketplace.visualstudio.com/items?itemName=MattLaceyLtd.MauiAppAccelerator
+   https://marketplace.visualstudio.com/items?itemName=MattLaceyLtd.MauiEssentials
+
+*****************************************************************************************
 PRISM TEMPLATE
  dotnet new --install Prism.Templates::8.1.97
 

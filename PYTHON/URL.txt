@@ -6,6 +6,11 @@
   *****TUTORIAL (FREECODECAMP) = https://www.youtube.com/watch?v=DLikpfc64cA
 
 *************************************************************************************************************************
+  PYTHON + PANDAS *+ EXCEL + WHATSAPP
+   https://www.youtube.com/watch?v=PXMJ6FS7llk&list=WL&index=157&t=8372s  (FREECODECAMP)
+     https://github.com/ifrankandrade/automation
+
+*************************************************************************************************************************
 
   WEBSCRAPING + PYTHON = https://medium.com/@marlessonsantana/utilizando-o-scrapy-do-python-para-monitoramento-em-sites-de-notícias-web-crawler-ebdf7f1e4966
 
