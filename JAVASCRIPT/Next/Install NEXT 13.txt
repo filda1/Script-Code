@@ -23,6 +23,22 @@ MUI
  >> pnpm i mui
    pnpm add @mui/material
    pnpm add @mui/icons-material
+      @mui/x-data-grid
+      @emotion/react
+      @emotion/styled
+      react-pro-sidebar
+      formik
+      yup
+      @fullcalendar/core
+      @fullcalendar/daygrid
+      @fullcalendar/timegrid
+      @fullcalendar/list
+      @nivo/core
+      @nivo/pie
+      @nivo/line
+      @nivo/bar
+      @nivo/geo
+
 
  >>  pnpm i react-admin ra-data-json-server
 
@@ -32,10 +48,58 @@ MUI
   template React ecommerce ====> https://github.com/marmelab/react-admin?ref=morioh.com&utm_source=morioh.com
                            **** https://github.com/marmelab/react-admin/tree/master/examples/demo
                             ***** Tuto ====> https://marmelab.com/react-admin/NextJs.html  (Integrate con Next)
-_____________________________________________________
+
+
+
+
+_____ ____________________________________
 
  admin ====> https://github.com/primefaces/sakai-react
 
  https://github.com/kitloong/nextjs-dashboard
 
  Varios ADMIN =======> https://morioh.com/p/2253a4076c91
+
+
+
+
+
+--------------------------ADMIN -----------------
+--
+>> pnpm i mui
+   pnpm add @mui/material
+   pnpm add @mui/icons-material
+      @mui/x-data-grid
+      @emotion/react
+      @emotion/styled
+      react-pro-sidebar
+      formik
+      yup
+      @fullcalendar/core
+      @fullcalendar/daygrid
+      @fullcalendar/timegrid
+      @fullcalendar/list
+      @nivo/core
+      @nivo/pie
+      @nivo/line
+      @nivo/bar
+      @nivo/geo
+
+ *****fonts = https://fonts.google.com/specimen/Source+Sans+Pro?query=SOurce+Sans+Pro
+         source sans pro
+           Regular 400 
+           SemiBold 600  
+           Bold 700 
+
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+  </style>
+
+--
+
+
+Admin
+ https://www.youtube.com/watch?v=wYpCWwD1oz0&list=WL&index=179&t=191s
+  https://github.com/ed-roh/react-admin-dashboard
+
+____________________________________________-

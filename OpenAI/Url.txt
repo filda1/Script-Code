@@ -1,6 +1,9 @@
 MARKETING AI ---->https://www.youtube.com/watch?v=iUfW-D7ZaJk
 
 
+AlphaTensor (DeeptMind)
+  https://github.com/deepmind/alphatensor
+AlphaZero   (DeeptMind)
 
 
 https://www.youtube.com/watch?v=I7zrAyrFgz4

@@ -13,7 +13,12 @@ ALRTERNATIVA SHOPiFY OPEN SOURCE === MEDUSA
 *https://www.youtube.com/watch?v=Vl947ryThmg&ab_channel=TekZoom
 
 **************************************************************************************************************************************
-  IMAGE MAGICK
+ 
+ LAPCE == VS CODE
+  https://lapce.dev
+**************************************************************************************************************************************
+
+ IMAGE MAGICK
 
    * imagemagick  windows    
     https://imagemagick.org/script/download.php#windows
