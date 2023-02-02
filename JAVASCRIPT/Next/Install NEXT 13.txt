@@ -10,7 +10,7 @@ NEXT 13
 
    >> pnpm next-dev  ===============================>RUN
 
-
+    pnpm next dev 
 
  INSTAl Boostrapt
 

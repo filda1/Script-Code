@@ -1,0 +1,32 @@
+Machine Learning con Python
+
+ * https://www.youtube.com/watch?v=zvB0cshd0TM&list=PLJjOveEiVE4Dk48EI7I-67PEleEC5nxc3&index=24
+  
+
+ Tools-
+  1- Spider / jupyter Notebook
+
+ Libreria-
+  Numpy
+  pandas
+  Matlabplot
+  sckylearn ===========> Machine Learnen
+
+ Modelos.
+
+ 1- Regresion lineal
+    Regresion Multiple
+    Regresion Polinomial
+
+ 2- Clasificacion
+
+ 3- Vectores de Soporte de Regresion
+    https://aprendeia.com/maquina-de-vectores-de-soporte-regresion-practica-con-python/
+
+ 4- ÁRBOLES DE DECISIÓN REGRESIÓN
+   https://aprendeia.com/arboles-de-decision-regresion-practica-con-python-machine-learning/
+
+ 5- MÉTODO DE ENSAMBLE DE MODELOS (ENSEMBLE METHODS)
+     BOSQUES ALEATORIOS REGRESIÓN 
+
+   https://aprendeia.com/bosques-aleatorios-regresion-practica-con-python-machine-learning/

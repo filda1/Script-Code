@@ -1,11 +1,20 @@
+
+
+ https://www.kaggle.com = REPOSITORIO de MACHING LEARNING
+
+**********************************************************************
 MARKETING AI ---->https://www.youtube.com/watch?v=iUfW-D7ZaJk
 
-
+************************************************************************
 AlphaTensor (DeeptMind)
   https://github.com/deepmind/alphatensor
 AlphaZero   (DeeptMind)
 
+ *****https://medium.com/applied-data-science/how-to-build-your-own-alphazero-ai-using-python-and-keras-7f664945c188~
+      http://tim.hibal.org/blog/alpha-zero-how-and-why-it-works/
+ https://towardsdatascience.com/alphazero-implementation-and-tutorial-f4324d65fdfc
 
+*************************************************************************
 https://www.youtube.com/watch?v=I7zrAyrFgz4
 
 👉Copy AI: https://www.copy.ai/?via=freedemo
