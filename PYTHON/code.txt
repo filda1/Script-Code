@@ -1,0 +1,85 @@
+
+ https://chromedriver.chromium.org/downloads
+
+  -Ver CHROME navegador version ==Chromedriver version
+
+  - Descargue la última versión de Chromedriver desde el sitio web oficial en https://sites.google.com/a/chromium.org/chromedriver/downloads
+
+  - Descomprima el archivo descargado en una carpeta en el sistema.
+
+  - Abra el Símbolo del sistema o la línea de comandos de Windows.
+
+  - Navegue hasta la carpeta donde se descomprimió Chromedriver.
+
+  - Ejecute el siguiente comando: "set PATH=%PATH%;C:\Ruta\a\Chromedriver" (Reemplazando "C:\Ruta\a\Chromedriver" con la ruta a la carpeta donde se descomprimió Chromedriver)
+
+  - Verifique la instalación ejecutando el siguiente comando: "chromedriver -version"
+
+--
+ >> set PATH=%PATH%;C:\chromedriver_win32\Chromedriver
+ >> chromedriver -version
+
+--
+
+ https://github.com/mozilla/geckodriver/releases (ALTERNATIVA)
+
+********************************************************************************
+
+ >> pip install selenium
+
+ >> pip install pyinstaller
+
+     >> pyinstaller --onefile  archivo.py =====================>(.exe)
+        pyinstaller --onefile  home.py
+***************************************************************************************
+
+
+SCRAPING
+++ https://www.youtube.com/watch?v=kPNHKrOqedI
+   ******* https://j2logo.com/python/web-scraping-con-python-guia-inicio-beautifulsoup/
+ https://github.com/ifrankandrade/data-collection
+
+ SUBMIT DAT
+ Submit data via web form and extract the results
+ https://stackoverflow.com/questions/8377055/submit-data-via-web-form-and-extract-the-results
+
+>> pip install requests
+>> pip install beautifulsoup4
+>> pip install lxml
+
+/html/body/div[1]/div/div[2]/div/div/div/div/div[1]/div[3]
+
+ combination numbers of 2,9,12,13,16,18,32,31,47,48  by 5
+ https://www.wolframalpha.com/input?i=combination+numbers+of+2%2C9%2C12%2C13%2C16%2C18%2C32%2C31%2C47%2C48++by+5
+
+ https://www.wolframalpha.com/input?i=combination+numbers+of+50%2C9%2C12%2C13%2C16%2C18%2C32%2C31%2C47%2C48++by+5
+ combination numbers of 50,9,12,13,16,18,32,31,47,48  by 5
+
+ CUENTA GRATIS = WOLFRAMALPHA
+   https://gist.github.com/Redict/f6aa178890ef2e4f0f1e821d04d88773
+    https://martinheinz.dev/blog/36
+
+
+ https://api.wolframalpha.com/v2/query?input=solve%203x-7%3D11&format=plaintext,image&output=json&appid=vFdeaRwBTVqdc5CL
+
+
+
+
+  https://api.wolframalpha.com/v2/query.jsp??input=solve%203x-7%3D11&format=plaintext,image&output=json&appid=vFdeaRwBTVqdc5CL
+
+   https://api.wolframalpha.com/v2/query.jsp??input=solve%203x-7%3D11&format=plaintext,image&output=json&appid='vFdeaRwBTVqdc5CL'
+
+
+ [32, 1, 2, 4, 6, 11, 31]
+ 32%2C 1%2C 2%2C 4%2C 6%2C 11%2C 31%2C
+ 32%2C 1%2C 2%2C 4%2C 6%2C 11%2C 31
+
+(venv) meire  euro-lotery  11:16  python main.py
+[8, 2, 7]
+
+
+
+
+
+
+

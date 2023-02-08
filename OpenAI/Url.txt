@@ -14,6 +14,10 @@ AlphaZero   (DeeptMind)
       http://tim.hibal.org/blog/alpha-zero-how-and-why-it-works/
  https://towardsdatascience.com/alphazero-implementation-and-tutorial-f4324d65fdfc
 
+
+  1- https://github.com/tkhkaeio/AlphaZero
+  2- https://towardsdatascience.com/training-alphazero-in-google-colab-cc2f1d6bd0ba
+
 *************************************************************************
 https://www.youtube.com/watch?v=I7zrAyrFgz4
 
@@ -38,3 +42,9 @@ https://runwayml.com
 👉 CopyAI: https://www.copy.ai/?via=freedemo
 👉 WriteSonic: https://writesonic.com?via=leoscaglione
 👉 Rytr: https://rytr.me/?via=leo-scaglione
+
+
+!git clone https://github.com/AppliedDataSciencePartners/DeepReinforcementLearning.git
+https://medium.com/@ashwindesilva/how-to-use-google-colaboratory-to-clone-a-github-repository-e07cf8d3d22b
+
+!python <run.py>

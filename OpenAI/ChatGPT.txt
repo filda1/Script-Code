@@ -2,3 +2,27 @@
  CHATGPT
 
  https://chat.openai.com/chat
+---------------------
+
+► Perplexity.ai - (Buscador IA)
+https://www.perplexity.ai/
+
+► BLIP 2 - (Repositorio en Github)
+https://github.com/salesforce/LAVIS/t...
+
+►  DeepMind - (RETRO y Flamingo)
+https://www.deepmind.com/publications...
+https://www.deepmind.com/blog/tacklin...
+
+► BLIP 2 - (Demo en Gradio)
+https://huggingface.co/spaces/taesiri...
+
+► Comparador de Chatbots - (Hugging Face)
+https://huggingface.co/blog/dialog-ag.
+
+
+ WolframAlpha ===========> MAtematica AI
+
+ Glass AI  =============> Medico
+
+ Deepmaind RETRO ===> CHATGPT + MYDB
