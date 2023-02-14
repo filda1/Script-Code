@@ -360,6 +360,11 @@ https://es.wikipedia.org/wiki/Alfanuméricos_cerrados
   https://www.linqpad.net/#db
 
 ***********************************************************
+ CORREOS Temporal
+   https://www.xataka.com/basics/7-webs-para-crear-cuenta-email-desechable-uso-temporal
+    yopmail
+    https://temp-number.org
+***********************************************************
 
   OFFICe web ======> ONEDRIVE
 

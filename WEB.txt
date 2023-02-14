@@ -63,6 +63,9 @@ API FALSA (para TESTE)
  https://httpbin.org/#/Images/get_image_jpeg
 
 ****************************************************************************
+ GITHUB IDENTICON
+ http://identicon.net/
+****************************************************************************
 
 PAGE POPUP
   *************** https://www.rapidtables.com/web/html/html-link.html

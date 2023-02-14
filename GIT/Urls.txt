@@ -9,6 +9,9 @@ Urls
    https://www.toptal.com/developers/gitignore
 
 *****************************************************************
+  IDENTICON GITHUB
+ http://identicon.net/
+****************************************************************
 
   GIT TEAM ======== ZULU
 

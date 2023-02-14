@@ -15,7 +15,7 @@ AlphaZero   (DeeptMind)
  https://towardsdatascience.com/alphazero-implementation-and-tutorial-f4324d65fdfc
 
 
-  1- https://github.com/tkhkaeio/AlphaZero
+ =====================> ****************************  1- https://github.com/tkhkaeio/AlphaZero
   2- https://towardsdatascience.com/training-alphazero-in-google-colab-cc2f1d6bd0ba
 
 *************************************************************************
