@@ -6,6 +6,41 @@
 MARKETING AI ---->https://www.youtube.com/watch?v=iUfW-D7ZaJk
 
 ************************************************************************
+ 
+ TUTO AI 
+    ********https://youtu.be/iX_on3VxZzk   (Ringa Tech)
+     https://colab.research.google.com/drive/1ehETBOVtCqe7G6HOvm84hfXba8Gd9ILW?usp=sharing
+
+    Clasificador de Imagenes = https://www.youtube.com/watch?v=j6eGHROLKP8
+                              https://colab.research.google.com/drive/1EjxAt_OFrdpNgCNmV15XMCE8RI3PF3sD?usp=sharing
+
+    TENSORFLOW en PAGINAS WEB ====> https://www.youtube.com/watch?v=JpE4bYyRADI
+
+    DATASET = https://www.tensorflow.org/datasets/catalog/robomimic_ph
+    https://www.kaggle.com
+    *****TENSORFLOW HUB =========> https://tfhub.dev/s?subtype=module,placeholder
+
+   DATASET MANUAL = https://www.youtube.com/watch?v=9Dur_oUMGG8
+    https://colab.research.google.com/drive/1kijMzfl1Mk3WytCWt7Yc4DGOAvWirwF9?usp=sharing
+
+  EUROMILLIONES
+  EJEMPLOS: https://www.kaggle.com/code/emfhal/euromillion-lotto-prediction-using-lstm
+
+  COLAB
+   /content/euro-millions-ireland.csv
+   df = pd.read_csv('/content/'+filename+'.csv')
+
+  CODIGO:
+   filename = 'euro-millions' 
+
+   df = pd.read_csv('/content/'+filename+'.csv')
+
+  df2 = df['Winning Numbers'].astype(str).str.split(",", expand=True)
+  df = df2.join(df)
+  df.columns = ['Bonus', 'Extra']
+
+
+************************************************************************
 AlphaTensor (DeeptMind)
   https://github.com/deepmind/alphatensor
 AlphaZero   (DeeptMind)
@@ -17,6 +52,17 @@ AlphaZero   (DeeptMind)
 
  =====================> ****************************  1- https://github.com/tkhkaeio/AlphaZero
   2- https://towardsdatascience.com/training-alphazero-in-google-colab-cc2f1d6bd0ba
+
+*************************************************************************
+  BLIP 2 (Leer Imagenes ) =====> https://www.youtube.com/watch?v=VZQJuY-cL8w
+  https://huggingface.co/spaces/Salesforce/BLIP2
+  https://arxiv.org/abs/2301.12597
+  https://github.com/salesforce/LAVIS
+  https://www.deepmind.com/blog/tackling-multiple-tasks-with-a-single-visual-language-model
+*************************************************************************
+  CHATGPT en Terminal
+    https://www.youtube.com/watch?v=nzLHwhJ_R1A
+    https://github.com/m1guelpf/plz-cli
 
 *************************************************************************
 https://www.youtube.com/watch?v=I7zrAyrFgz4

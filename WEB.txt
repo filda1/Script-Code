@@ -95,3 +95,19 @@ PAGE POPUP
   margin-top: 6rem;
 }
 
+------------------------------------------------------------------------------------
+
+ COMANDOS .BAT
+
+
+  del /Q /F "C:\ruta\hacia\la\carpeta\*.txt"
+
+  % Dir Watt 2
+    start "Watt2" "D:\SHORTCUT\WATT\Recursos-Watt" 
+
+
+  En WINDOWS  ==> Buscar TASK suchudeler ===> 
+   # Create Task
+   # EN triggers ========> Poner la hora
+   # EN actions =========> Cargar el script BAT
+

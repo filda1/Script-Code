@@ -502,3 +502,7 @@ https://material.angular.io/components/button/api)
  2- Curso Angular #116: Formulários reativos: Combobox aninhado: Estado + Cidade
   https://www.youtube.com/watch?v=caumPDVYZN4&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G&index=120
    
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+  BUSCAR ANGULAR + HTML :::: 
+      *ngIf="(selfChanged$ | async).user.indexOf('@') !== -1 || !(selfChanged$ | async).user.toLowerCase().includes('watt'); 

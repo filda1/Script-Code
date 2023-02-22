@@ -11,6 +11,11 @@
  System.Console.WriteLine("Hello world");
 
 ******************************************************************************************
+ API + REDIS ====> https://www.youtube.com/watch?v=9z3vHqrbuM0
+                   https://github.com/luisdeol/aspnetcore-redis-yt
+
+ INSTALR REDIS ===> https://www.youtube.com/watch?v=5VZpzwJeMDo
+*****************************************************************************************
   EF7 (Sql server) == SuperRapido
    https://www.youtube.com/watch?v=RXNEjDEwzHI (hdeleon.net)
 
