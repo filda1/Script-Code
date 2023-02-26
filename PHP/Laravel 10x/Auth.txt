@@ -1,0 +1,16 @@
+LARAVEL 10
+
+ https://www.youtube.com/watch?v=cN0R8KxCAxo&list=WL&index=212
+
+
+
+ AUTH 
+
+  >> composer require laravel/breeze --dev
+  >> php artisan breeze:install
+
+
+
+  Ver request en WEB:
+  >> composer require barryvdh/laravel-debugbar --dev
+  

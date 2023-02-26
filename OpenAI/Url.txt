@@ -40,6 +40,47 @@ MARKETING AI ---->https://www.youtube.com/watch?v=iUfW-D7ZaJk
   df.columns = ['Bonus', 'Extra']
 
 
+ print(df.iloc[0]) =======> Inprimi DATAFRAME
+
+ print(df.dtypes) =======> Columnas
+
+ print(df.head(5)) =======> 5 filas
+
+
+
+OK
+
+----
+filename = 'euro-millions' 
+
+df = pd.read_csv('/content/'+filename+'.csv', header=None)
+
+#Dimensiones dataframe
+#df2 = df[1].astype(str).str.split(",",expand=True,)
+#print(df2.shape)
+
+
+# dividir la columna 1 en varias columnas
+df2 = df[1].astype(str).str.split(",", expand=True)
+
+#Defino nombre de columna. esta en una
+df2.columns = ['a']
+df[['a']] = df2
+#Elimino columnas sobrantes
+df.drop(columns=[0,'a'], inplace=True)
+
+#Sustituyo las nombres columnas
+df.columns = ['A', 'B', 'C', 'D', 'E', 'Bonus', 'Extra']
+
+
+
+print(df.head())
+
+
+
+
+---
+
 ************************************************************************
 AlphaTensor (DeeptMind)
   https://github.com/deepmind/alphatensor
