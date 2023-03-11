@@ -40,6 +40,11 @@ Bibliotecas y Frameworks mencioandos:
 
 *********************************************************************************************************
 
+ AJEDRES ===> https://codepen.io/omarjadalla/pen/nPWPaw
+ DAMAS =====> https://codepen.io/calincojo/pen/wBQqYm
+
+*********************************************************************************************************
+
   REPLACE en Todo la oracion
 
  var sentence = "Energia a va simples";

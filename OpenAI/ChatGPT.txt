@@ -26,3 +26,15 @@ https://huggingface.co/blog/dialog-ag.
  Glass AI  =============> Medico
 
  Deepmaind RETRO ===> CHATGPT + MYDB
+
+
+**************************************************
+  IMAGENES
+   https://scribblediffusion.com
+clipdrop
+https://picfinder.ai
+logoai
+https://images.ai
+
+
+***************************************************

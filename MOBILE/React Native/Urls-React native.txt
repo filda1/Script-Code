@@ -16,11 +16,44 @@ REACT NATIVE (EXPO) ========> https://www.youtube.com/watch?v=hXDMWeD0ERM (Fazt)
                                                            https://github.com/itzpradip/react-navigation-v5-mix
 
 ***********************************************************************************************************
+ Stripe
+
+ https://www.youtube.com/watch?v=50bIefoMo3c
+   https://github.com/notJust-dev/Nike  (react native)
+   https://github.com/notJust-dev/NikeAPI  ( Api Nodejs)
+
+***********************************************************************************************************
+ GAME FLAPPY BIRD
+
+    https://www.youtube.com/watch?v=zK2xYD4Nytw&t=37s
+    https://github.com/bberak/react-game-engine
+      https://www.npmjs.com/package/react-native-game-engine
+      https://github.com/bberak/react-game-engine (WEB)
+***********************************************************************************************************
+
+  NOtifee == Notifications locais
+   https://www.youtube.com/watch?v=7LOHW0phU1c&list=WL&index=219&t=1s
+
+***********************************************************************************************************
 
   CHATGTP + NEXTjs + REACT NATIVE
    https://www.notjust.dev/blog/2022-12-09-chat-gpt-with-react-native-and-nextjs
 
 ***********************************************************************************************************
+  REACT NATIVE WEB
+  https://arry.medium.com/how-to-add-react-native-web-to-an-existing-react-native-project-eb98c952c12f
+  *********https://necolas.github.io/react-native-web/docs/?path=/docs/overview-getting-started--page
+  *******https://necolas.github.io/react-native-web/
+  https://github.com/necolas/react-native-web
+ https://www.c-sharpcorner.com/article/convert-your-website-into-a-mobile-app-with-react-native/
+  https://javascript.plainenglish.io/how-to-integrate-react-native-web-existing-react-native-apps-8e4964ad2f0b
+  
+***********************************************************************************************************
+ JUEGO DAMAS
+  https://www.youtube.com/watch?v=JulJJxbP_T0&list=WL&index=246
+   https://github.com/wcandillon/can-it-be-done-in-react-native/tree/master/season4/src/Chess
+
+************************************************************************************************************
  FLASH LIST (New)
 
   https://shopify.github.io/flash-list/

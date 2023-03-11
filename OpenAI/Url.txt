@@ -81,8 +81,22 @@ print(df.head())
 
 ---
 
+
+***********************************************************************
+
+  MODELO AI = ANALIZADOR POKER
+   https://www.kaggle.com/code/murilogmamaral/performance-analysis-of-online-poker-games
+
+   https://www.kaggle.com/code/valeriisielikhov/100-pokerface/notebook
+   https://www.kaggle.com/code/prakharrathi25/iterative-proker-hand-prediction
+
 ************************************************************************
+  
 AlphaTensor (DeeptMind)
+
+ TUTORIAL ==============================>  ***** https://www.youtube.com/watch?v=wuSQpLinRB4&t=3224s
+
+
   https://github.com/deepmind/alphatensor
 AlphaZero   (DeeptMind)
 

@@ -2,6 +2,16 @@ WEB
 
   https://www.up-spain.com/cheque-gourmet/
 ****************************************************************
+ JUEGOS DE MESA
+    https://arescronida.wordpress.com/tag/el-zorro-y-las-gallinas/
+
+ el asalto
+  https://mates.aomatos.com/juegos-de-estrategia-el-asalto/
+http://misobjetospreciados.blogspot.com/2008/09/el-asalto-un-juego-del-siglo-xix-casi.html
+https://www.slideshare.net/sirxion/juego-tablero-en-cruz
+https://arescronida.wordpress.com/tag/el-zorro-y-las-gallinas/
+
+****************************************************************
 API AUDIO
 https://docs.microsoft.com/es-es/azure/cognitive-services/speech-service/speaker-recognition-overview
 
