@@ -1,0 +1,2 @@
+https://surrealdb.dev/docs/start
+https://surrealdb.dev/docs/integration/libraries/javascript

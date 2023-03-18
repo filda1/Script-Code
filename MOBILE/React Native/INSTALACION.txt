@@ -7,7 +7,7 @@
  INSTALACION:
   Opcion 1:
 
-  1. CREAR REAVCT NATIVE cLI + EXPO  (react native , Bare Workflow + Expo)
+  1. CREAR REAVCT NATIVE cLI + EXPO  (react native , Bare Workflow + Expo) =====> Bare Workflow
 
   Opcion 2:(Viejo)
 
@@ -15,8 +15,67 @@
 
 
  * https://blog.rocketseat.com.br/expo-sdk-38-melhorias-que-fazem-do-expo-uma-opcao-ainda-melhor/
-----------------------------------------------------------
 
+
+ *************** INSTALL Bare Workflow (accesso a todo capetas) ***************
+  >> npm i -g expo-cli
+  >> pnpm expo
+  >> expo update
+  >> expo --version
+  >> expo --help
+  >> expo go ( instalar en DROID) ====> https://expo.dev/client
+  >> rmdir /s <nombre_del_proyecto> (Eliminar proyecto)
+
+ RUN
+  - expo start
+  - yarn android
+  - yarn ios # you need to use macOS to build the iOS project - use managed workflow if you need to do iOS development without a Mac
+  - yarn web
+
+ ------------- REACT NATIVE CON EXPO -----------------
+ >> expo init --template bare-minimum-typescript <nombre_del_proyecto>
+
+
+ >> expo init myproject 
+   >> mimimal ==========================> Escoger (Este es BARE W = minimal)
+ >> cd myproyect
+
+ >> type nul > tsconfig.json ( linux: touch tsconfig.json)  ============> instalar typescript (opcionaL. no funciona)
+ >> pnpm install typescript @types/react -D (opcionaL. no funciona)
+ >> expo start
+   yes
+ >> expo start --web
+ >> move App.js App.tsx  (opcionaL. no funciona)
+
+
+ info: https://www.youtube.com/watch?v=Q8KbN5v67Eo
+       https://docs.expo.dev/bare/installing-expo-modules/
+
+ ------------- REACT NATIVE CON EXPO -----------------
+
+ ------------- REACT NATIVE CLI-----------------------
+  >> npx create-react-native-app testbare 
+      typescript =====> npx create-react-native-app myprojecto  --template typescript
+  >> cd testbare 
+  >> pnpm install (Si sale error)
+    >> pnpm init  
+    >> pnpm install
+ expo
+  >> expo eject
+
+
+  >> expo start --web  (>> expo start)
+ ------------- REACT NATIVE CLI-----------------------
+
+ *************** INSTALL Bare Workflow (accesso a todo capetas) ***************
+  
+----------------------------------------------------------~
+
+
+EJEMPLO:
+  expo init --template bare-minimum-typescript asalto-game-v0.0.0-rn
+
+  npx create-react-native-app asalto-game-v0.0.0-rn  --template typescript
 
 
  INSTALL  Bare  Workflow
@@ -84,12 +143,13 @@ Instalación del Visual Studio Code https://code.visualstudio.com/download
  ACTULIZAR SDK ========> >> expo upgrade
 
  >> npm i -g expo-cli
+ >> expo update
 
  *https://blog.rocketseat.com.br/expo-sdk-38-melhorias-que-fazem-do-expo-uma-opcao-ainda-melhor/
 
  >> cd/ Proyect
  >> npx create-react-native-app testbare
-       -Default template
+       -Default template (minimal)
 
   1. Bare  Workflow  ==============> Con accesso a carpetas IOS + DROID =============> EXPO  o yarn create...( https://github.com/expo/create-react-native-app)
   2. Manage Workflow  ============> Sin accesso a carpetas IOS + DROID =======> EXPO

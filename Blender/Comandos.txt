@@ -1,0 +1,39 @@
+BLENDER
+ tuto ===> https://www.youtube.com/watch?v=LJ3rT3t7uy0
+
+ vista -y = Global
+
+ SHIFT + A = Rerefence  (IMPORTA ARCHIVOS)
+
+ G = Mover
+ Z = Mover Z
+
+
+ SHIFT + D = Duplicado
+ E = Extruir
+
+___
+ X = Borrar
+ SHIFT + A  = Crear...
+
+  RUEDA = MOVIMIENTO
+  SHIT + rueda = MOVIENTO
+
+  CRT + ruena  = ZOOM
+
+  MOVER OBJ = g  
+  ESCALR Obj = s
+  ROTAR Obj = r
+   e = extrude
+
+ Modos = CRT + tab
+
+ EDIT mode = Modificar
+  tecla 1 = vertice
+  tecla 2 = esquinas
+  tecla 3 = cara
+
+
+-----------------------
+  2d a 3d ===> https://www.youtube.com/watch?v=VOyxTAhx594
+  
