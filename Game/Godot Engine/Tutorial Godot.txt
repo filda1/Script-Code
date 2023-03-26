@@ -1,0 +1,90 @@
+ JUEGO ASALTO
+  https://mates.aomatos.com/juegos-de-estrategia-el-asalto/
+  https://arescronida.wordpress.com/tag/el-zorro-y-las-gallinas/
+  http://reglasdejuegosimples.blogspot.com/2013/06/halatafl-juegos-de-zorros.html
+ 
+ Godot engine === GAME
+ https://www.youtube.com/watch?v=RXVIlzbih78&list=PL-oJEh-N3A3TsLK-whzKXwqTK0Mn0Gz6G
+ https://www.youtube.com/watch?v=SR7mdh0_i6Q&list=PLNEAWvYbJJ9nNOpe6fun7m6L_M8xslYnT&index=2
+
+ DOC ===>https://docs.godotengine.org/es/stable/tutorials/export/exporting_for_ios.html
+
+ ANDROID ===>https://www.youtube.com/watch?v=B0fq_hC3hM4
+ REST API ===> https://docs.godotengine.org/en/stable/tutorials/networking/http_request_class.html
+                https://www.youtube.com/watch?v=0E0IhTppaso
+
+  Programas utilizados:
+- Game Maker Studio 2
+- Photoshop CC
+- Adobe Audition CC
+- LMMS
+- FL Studio
+
+
+
+ ****** Dev Bandeira 2d ====> https://www.youtube.com/watch?v=FGFstdNiy44&list=WL&index=281&ab_channel=DevBandeira
+                     3d ====> https://www.youtube.com/watch?v=J30BXVGcY4k&ab_channel=DevBandeira
+                              https://www.youtube.com/watch?v=J30BXVGcY4k&ab_channel=DevBandeira
+        https://github.com/Bandeiraa?tab=repositories
+        https://quaternius.itch.io/ultimate-platformer-pack
+----------------------------------------------------------------------------------------------
+ Clécio Espindola GameDev == https://www.youtube.com/watch?v=svUp2KmekTw&list=PL-oJEh-N3A3Qis2H0Mi-_jaq1c5oFd2Ty&index=4
+
+ Fondo ====> https://grafxkid.itch.io/seasonal-tilesets
+
+ 1-
+  Scena
+   Nodo Player
+    Nodo de textura ( Kimactc 2D)
+    Nodo de Animacion
+
+ 2- ANIMAR TExTURA ( Nodo textura con Nodo Animacion)
+
+ 3- Sobre o Nodo Player ___> Crear Script
+
+ 4- MAPEAR SCENA-MUNDO
+   Sobre Scena, adicionar ====> Nodo TileMap para c/png
+
+ 5- EN TileMAP (Colision)
+      En TileMap ====> para c/png (Seleccionar y poner opcion COLISION)
+
+ 6- EN Nodo Player : crear un Scena
+
+ 7- Mais Animacion Y Juntar
+    EN Node PLayer ======> despues ir Script para Juntar animaciones
+
+ 4- Adicionar Camera NODO Scena/Players
+     Adicionar Camera a Player
+
+
+ 5-Fondo =
+
+  En Scenal
+   Node PAralaxxBackground
+    Node PAralaxxLabel 
+     Sprite
+   ********************************************************************************
+
+ 
+ ZOMBIES ====> https://2dgameartguru.com/top-down-view-zombies/
+                https://www.youtube.com/watch?v=tMkvgE_t0fg
+
+  https://www.youtube.com/watch?v=3sp6cJUDAvo
+
+ GRID
+   https://www.youtube.com/watch?v=m_hIIznWQZI
+   https://www.youtube.com/watch?v=m_hIIznWQZI
+
+
+ DevBandeira  (GRID ======> https://www.youtube.com/watch?v=2AGICI9gZjw
+                             https://github.com/Bandeiraa
+
+              360 º ====> https://www.youtube.com/watch?v=YmG25oNXIOY
+
+
+ AJEDREZ =====> https://www.youtube.com/watch?v=KzWhe7lfs6k&list=PL-EPeghw5sXhEZlxilLHxCQRLyMCxJy6Q
+
+
+
+
+    

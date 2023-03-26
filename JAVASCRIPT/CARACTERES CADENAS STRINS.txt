@@ -1,0 +1,58 @@
+CORTAR NUMERO
+
+let str ="Energia Consumida Redes Estimada -41";
+let substrings = str.split(/\s+-?\d+$/);  // dividir la cadena en un arreglo de subcadenas usando un número con signo opcional como separador
+let result = substrings[0];  // tomar la primera subcadena del arreglo resultante
+console.log(result);   // salida: "Energia Consumida Redes Estimada"
+
+
+
+let str ="Energia Consumida Redes Estimada -41,34";
+let substrings = str.split(/\s+-?\d+(?:,\d+|\.\d+)?$/);  // dividir la cadena en un arreglo de subcadenas usando un número con signo opcional y decimales con coma o punto como separador
+let result = substrings[0];  // tomar la primera subcadena del arreglo resultante
+console.log(result);   // sal
+
+
+let str ="Energia Consumida Redes Estimada -41,";
+let substrings = str.split(/\s+-?\d+(?:,\d+|\.\d+)?\b/);  // dividir la cadena en un arreglo de subcadenas usando un número con signo opcional y decimales con coma o punto como separador
+let result = substrings[0];  // tomar la primera subcadena del arreglo resultante
+console.log(result);  
+
+
+let str ="Energia Consumida Redes Estimada (41,3 kVA)";
+let substrings = str.split(/\s+\(?-?\d+(?:,\d+|\.\d+)?(?:\s+[^\s)]+\))?\s*$/);  // dividir la cadena en un arreglo de subcadenas usando un número con signo opcional y decimales con coma o punto como separador, y también números entre paréntesis
+let result = substrings[0];  // tomar la primera subcadena del arreglo resultante
+console.log(result);   // s
+
+
+TODO JUNTO
+ let str = "Energia Consumida Redes Estimada 41,";
+let substrings = str.split(/\s+\(?-?\d+(?:,\d+|\.\d+)?(?:\s+[^\s)]+\)|,)?\s*$/);
+let result = substrings[0];
+console.log(result);  //
+
+
+Remover Signo
+  let str = "Energia-2Consumida Redes Estimada -";
+   str = str.replace(/-$/, '');
+
+
+ FUNCIONA MEJOR AMOUNT
+
+let srt="Energia consumida Redes 574,59 kWh x -0,0019 /kWh (1,09) €"
+
+rawAmount =srt.match(/-?\d{1,3}(?:\.\d{3})*(?:,\d+)?(?=\s+dias)/)[0].replace(/\./g, '').replace(',', '.');
+
+result: 574,59
+
+************************************************************************************************************
+
+ FORMATO DATAS
+
+ let regex2Datas = /^\(\d{2}\/\d{2}\/\d{4}-\d{2}\/\d{2}\/\d{4}\)$/;
+      const regex = /\d{2}\/\d{2}\/\d{4}/;  //dd/mm/yyyy
+ 
+       const regex = /\d{2}\/\d{2}\/\d{4}/;  //dd/mm/yyyy
+    
+       const regex3 = /^\(\d{2}\/\d{2}\/\d{4}-\d{2}\/\d{2}\/\d{4}\)$/;
+       const regex4 = /^\(\d{2}\/\d{2}\/\d{4}-\d{2}\/\d{2}\/\d{4}\)\s/;

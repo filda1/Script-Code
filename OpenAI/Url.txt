@@ -6,6 +6,18 @@
 MARKETING AI ---->https://www.youtube.com/watch?v=iUfW-D7ZaJk
 
 ************************************************************************
+ WARP AI ====> Terminal AI
+ https://www.warp.dev/warp-ai
+************************************************************************
+ IMAGESNES AI == fireply
+ https://www.adobe.com/sensei/generative-ai/firefly.html
+************************************************************************
+ API OPENAI
+  https://platform.openai.com/account/api-keys
+  https://www.youtube.com/watch?v=nzLHwhJ_R1A
+  https://github.com/m1guelpf/plz-cli
+  TUTORIAL : https://chatgpt4.ai/chatgpt-api-key/
+************************************************************************
  
  TUTO AI 
     ********https://youtu.be/iX_on3VxZzk   (Ringa Tech)
@@ -19,6 +31,7 @@ MARKETING AI ---->https://www.youtube.com/watch?v=iUfW-D7ZaJk
     DATASET = https://www.tensorflow.org/datasets/catalog/robomimic_ph
     https://www.kaggle.com
     *****TENSORFLOW HUB =========> https://tfhub.dev/s?subtype=module,placeholder
+ 
 
    DATASET MANUAL = https://www.youtube.com/watch?v=9Dur_oUMGG8
     https://colab.research.google.com/drive/1kijMzfl1Mk3WytCWt7Yc4DGOAvWirwF9?usp=sharing
