@@ -22,6 +22,10 @@ IMAGENES ====> leonard.ai
  https://www.youtube.com/watch?v=BpKsmTgCbxM
 
 ************************************************************************
+ESCRIBIR NOVELA AI
+ Sudowrite, Wordtune, Writier y ShortlyAI son algunos ejemplos. 
+
+************************************************************************
  
  TUTO AI 
     ********https://youtu.be/iX_on3VxZzk   (Ringa Tech)
@@ -173,3 +177,34 @@ https://runwayml.com
 https://medium.com/@ashwindesilva/how-to-use-google-colaboratory-to-clone-a-github-repository-e07cf8d3d22b
 
 !python <run.py>
+
+
+*****************************************************************
+ CHAT GPT OPENSOURCE
+ web===> https://chat.lmsys.org/
+
+
+ Baize
+codigo: https://github.com/project-baize/baize
+web: https://huggingface.co/spaces/project...
+Koala
+codigo: https://github.com/young-geng/EasyLM/...
+web: https://bair.berkeley.edu/blog/2023/0...
+demo: https://chat.lmsys.org/?model=koala-13b
+Vicuna
+codigo: https://github.com/lm-sys/FastChat
+demo: https://vicuna.lmsys.org/
+Databricks
+web: https://www.databricks.com/blog/2023/...
+codigo: https://github.com/databrickslabs/dolly
+ Dolly
+ GPT4All =========================================> Desde terminal
+
+
+fatz ===> https://www.youtube.com/watch?v=4QIThkteCUE
+
+ https://github.com/nomic-ai/gpt4all
+ https://www.neoteo.com/gpt4all-como-instalar-chatgpt-en-tu-pc/
+ ***https://www.youtube.com/watch?v=HzShmmu5eGI
+
+https://www.youtube.com/watch?v=fN2EE_4AMIg
