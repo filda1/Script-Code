@@ -1,0 +1,39 @@
+LIFERAY
+
+ 3 Rutas (1 Controller):
+   RenderURL  =============================> Dentro de CONTROLLER va RENDER  (pasar a vista JSP)
+   ActionUrl  =============================> Dentro de CONTROLLER va ACTION  (Recivir Formularios)
+   ResourceUrls =============================> Dentro de CONTROLLER va Resource (Descargas, Json, pdf.....)
+
+********************************************
+
+ INSTALL:
+
+ https://www.liferay.com/pt/
+ https://www.youtube.com/watch?v=0ndlv9ivo5w&list=PLwH0tlWs8nkT0ZaGqlR3AFVFpCykV1Hp0&index=6
+ https://sourceforge.net/projects/lportal/files/Liferay%20Portal/
+
+
+ >> Life Portal >> ...GA1   >> liferay-ce-portal-tomcat-7.3.5-ga6-20200930172312275.7z
+
+ GA1 ====> para Produccion
+
+DENTRO DE PASTAS
+ >> liferay-ce-portal-tomcat-7.3.5-ga6/bin >> ./catalina.sh run
+
+ localhost:8080
+
+
+- Instalar EL IDE : Eclipse
+- Y conectar Con LifeRay
+
+------------------------------------------------------
+
+TUTORIALES ===> https://www.albertcoronado.com/search/content
+
+
+Formación Liferay 7 DXP: Desarrollo de Portlets I:
+https://www.youtube.com/watch?v=dY5MXiYVWvg&list=PLwH0tlWs8nkT0ZaGqlR3AFVFpCykV1Hp0&index=3
+
+Portlets II:
+https://www.youtube.com/watch?v=2LCl5hSfkcc&list=PLwH0tlWs8nkT0ZaGqlR3AFVFpCykV1Hp0&index=2

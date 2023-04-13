@@ -16,6 +16,10 @@
 
 
 ************************************************************************************************************************ 
+  APP RAPIDAS GRAFICAS == STREAMLIT
+  https://streamlit.io/
+  https://www.youtube.com/watch?v=JwSS70SZdyM&list=WL&index=136&t=26s
+************************************************************************************************************************
  Py-SCRIPT - PYTHON EN NAVEGADOR
  https://www.youtube.com/watch?v=Ox8OiwJFKMM&ab_channel=FaztCode
   ****https://www.pyscript.net
