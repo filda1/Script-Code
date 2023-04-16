@@ -26,11 +26,17 @@
 
 *********************************************************************************************************************************************
 
+OJO: en NEXT 13:   * LOs Componentes son en MAYUSCULAS y las Paginas en minisculas
+
  NEXT 13
  
  -Nextjs13 CRUD con Localstorage, API Context y TailwindCSS
    Fatz ======>  https://www.youtube.com/watch?v=Ac9J_yyQqOI
        https://github.com/fazt/nextjs-context-crud
+*********************************************************************************************************************************************
+ NEXT 13 Primer proyecto
+  Fatz =====> https://www.youtube.com/watch?v=H_s-xM6Ii1g&t=16s
+
 *********************************************************************************************************************************************
   NEXT 13
 

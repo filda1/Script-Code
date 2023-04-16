@@ -37,3 +37,14 @@ https://www.youtube.com/watch?v=dY5MXiYVWvg&list=PLwH0tlWs8nkT0ZaGqlR3AFVFpCykV1
 
 Portlets II:
 https://www.youtube.com/watch?v=2LCl5hSfkcc&list=PLwH0tlWs8nkT0ZaGqlR3AFVFpCykV1Hp0&index=2
+
+
+API Persistencia y API Rest con Service Builder
+https://www.youtube.com/watch?v=aC46qk-gqis&list=PLwH0tlWs8nkT0ZaGqlR3AFVFpCykV1Hp0&index=5
+
+
+**** https://www.youtube.com/watch?v=a4q84R4YkwE (Simplify Liferay)
+
+ INSTALL ==>https://www.youtube.com/watch?v=ar1GwGnRIRY (Simplify Liferay)
+ REST API ===> https://www.youtube.com/watch?v=a4q84R4YkwE
+  https://gist.github.com/marcosblandim/c7ef5a903f1bfbed76073870db686655
