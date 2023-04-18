@@ -1,4 +1,9 @@
-    
+
+ SENALES en AGNGULAR >=16 ( Renderizacion rapida y Varible Global
+  https://www.youtube.com/watch?v=jqGjE6iqkvg&list=WL&index=315
+  https://github.com/Klerith/angular-signals-reqres/tree/fin-video-youtube
+
+*****************************************************************************************************************************************    
    Javascript=== https://www.youtube.com/watch?v=023Psne_-_4
    NODE + STRIPE === https://www.youtube.com/watch?v=QT3_zT97_1g
 

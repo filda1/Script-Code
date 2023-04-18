@@ -48,3 +48,9 @@ https://www.youtube.com/watch?v=aC46qk-gqis&list=PLwH0tlWs8nkT0ZaGqlR3AFVFpCykV1
  INSTALL ==>https://www.youtube.com/watch?v=ar1GwGnRIRY (Simplify Liferay)
  REST API ===> https://www.youtube.com/watch?v=a4q84R4YkwE
   https://gist.github.com/marcosblandim/c7ef5a903f1bfbed76073870db686655
+
+
+
+ REACT * LIFERAY
+  https://www.youtube.com/watch?v=dlwX9G9ahGY
+  https://gist.github.com/marcosblandim/2640be90b9c583a9097f3f5f2e741def
