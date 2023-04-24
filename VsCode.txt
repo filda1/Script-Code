@@ -64,6 +64,16 @@ https://dev.to/thegeoffstevens/50-vs-code-themes-for-2020-45cc
 
  Html to Jsx ============>(Convertidor para REACT)
    https://www.youtube.com/watch?v=VtCXo4tzjU8
+
+
+AWS CodeWhisperer,
+https://www.youtube.com/watch?v=fy5UUQ0aeq0
+
+Github CodeSpaces, Visual Studio Code en la nube 
+ https://www.youtube.com/watch?v=pmVx7Ic3ITE
+ https://github.com/features/codespaces
+
+https://www.pinterest.pt/pin/600175087861195000/
 ******************************************************************************************************
 
  Conectar Vscode a Github = https://www.youtube.com/watch?v=Fk12ELJ9Bww

@@ -1,4 +1,10 @@
 
+ REACT + ( DJNAGO + DJANGO REST)
+  https://www.youtube.com/watch?v=38XWpyEK8IY  (Fatz)
+   https://github.com/fazt/django-react-crud
+
+ servidor free ===> https://railway.app/pricing
+-----------------------------------------------------------------------------------------------------
 
 TUTOrial   **************** freecodecamp ==========>https://www.youtube.com/watch?v=DLikpfc64cA&t=12182s
 

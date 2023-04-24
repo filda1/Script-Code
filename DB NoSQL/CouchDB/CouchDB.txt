@@ -1,0 +1,4 @@
+CouchDB
+
+https://www.youtube.com/watch?v=UQh-EXEY498&list=WL&index=169&t=10s  (NullSafe Architect)
+ https://www.albertcoronado.com/2023/02/03/tutorial-couchdb/

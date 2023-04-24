@@ -137,3 +137,72 @@ ASLATO AL CASTILLO
 
 **********https://pawn-games.itch.io/fantasy-chess
           https://pawn-games.itch.io/chess-assets
+
+assets Battle Chess
+AJEDRES DINO LEGO ======> https://tortor-collective.itch.io/lizards
+
+PERSONAJES =====> https://nulltale.itch.io/heroes-chess
+                  https://protoriastudios.itch.io/photogrammetry-chess-figures-ue4
+
+****************  > https://p3dm.ru/files/
+                    https://p3dm.ru/files/page/2/
+
+++++++++++++https://store.epicgames.com/en-US/p/battle-chess-83c4f8
+https://taigame.org/en/game/battle-chess-game-of-kings
+
+TABLEROS ======> https://gamesupply.itch.io/great-chess-asset
+https://komoverse.io/
+
+-----------------------------------------------------------------
+
+TUTORIAL 3D
+
+TERRENO
+1- Crer 3D scene
+ 1.1 Spatial 
+  SatticBody    =========================> BTN +
+   Collission   =========================> BTN +
+   MeshInstance =========================> BTN +    (Texture)    
+    * En Propiedades de MeshInstance: mesh ---> meshQued....  
+                                      size: 100 x 100
+                                      Rotataion Degress: -90 0 0
+                                      Material: SpatialMaterial ( Abrir textuture y pasar Material)
+    * En propiedades de Collision( Colision para eç suelo) : shape: Boxshape
+         * Ponerlo en debajo del suelo, Extents : 50 1 50
+                                        traslation 0 -1 0
+
+
+PERSONA JE Ventana, new tab =========================> +
+1- KinematicBody =========================> BTN +
+   1.1 Arrastar de asset ==================================> Personaje 
+     * Boton derecho (Personaje ) ======> Make Local
+     * En propiedades: scale 0.5  0.5  0.5
+   1.2 CollisionShape (Para camera)
+       * En propiedades: shape: CapsuleShape
+                          rotate: 90 
+
+
+
+UNIR TERRENO CON PERSONAJE
+1- Ir a Tab de 1 Scena (terreno)
+2- En incon de Instance chid (Parece un Infinito)
+   2. 1 Buscar tu scenna de personaje (.tscn)
+
+3- Se cren tab nueva, todo unido
+  3.1 - SpringArmy =========================> BTN +  (Camera de Brazo)
+    3.1.1 Camera 3D =========================> BTN 
+     * En Propiedades : current: check
+                      : rotation: -15 -180 0
+                      : spring lenght: 7
+                      :Margin:  2 
+  3.2 - NOde (states) =========================> BTN +
+   3.2.1 Node (move)  =========================> BTN +
+
+* En Punto 3, selecionar script (Icon para DB) u guardar =========> Para movimientos del personaje
+  ....
+* En Punto 3.2.1, selecionar script (Icon para DB) u guardar =========> Para movimientos del personaje
+  ....
+  * En propiedades : Assign : seleciona el personaje ( para llamar al personaje no solo por codigo si no tambien por propiedades)
+
+
+

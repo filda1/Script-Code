@@ -95,7 +95,14 @@ Dainty **********
 
 
 
+AWS CodeWhisperer,
+https://www.youtube.com/watch?v=fy5UUQ0aeq0
 
+Github CodeSpaces, Visual Studio Code en la nube 
+ https://www.youtube.com/watch?v=pmVx7Ic3ITE
+ https://github.com/features/codespaces
+
+https://www.pinterest.pt/pin/600175087861195000/
 
 
 
