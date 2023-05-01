@@ -204,5 +204,27 @@ UNIR TERRENO CON PERSONAJE
   ....
   * En propiedades : Assign : seleciona el personaje ( para llamar al personaje no solo por codigo si no tambien por propiedades)
 
+  3.2.2 Node (Roldplay)  =========================> BTN +
+   Script...
 
 
+ * PARA crear action (acciones = llaman a diferentes animaciones ) ======> ir Proyect Settings
+
+
+-----
+
+JUEGOS =====> https://www.pinterest.pt/pin/140806231171847/
+   https://www.pinterest.pt/pin/638737159657857562/
+TODOS JUEGOS
+ ***************++++++++++++++++++https://www.whatdowedoallday.com/traditional-games/
+          https://sites.google.com/site/boardandpieces/list-of-games/adugo?pli=1
+https://www.etsy.com/listing/1364015263/morris-game-nine-mens-morris-twelve-mens?click_key=31a249eff63d54fbc8d6f7b6432716cc5b64e585%3A1364015263&click_sum=2170ce59&external=1&rec_type=ss&ref=landingpage_similar_listing_top-8&pro=1&sts=1
+
+https://yajohn.itch.io/victorianagestrategy-tileset
+https://mibli.itch.io/74-pixel-art-full-body-yellow-and-blue-gladiators
+ https://itch.io/queue/c/402650/tactical-strategy-game-assets?game_id=307298
+https://www.kenney.nl/assets
+
+****https://hermiit.itch.io/pixelasset-practice
+    https://balloon-cart.itch.io/puzzle-pals-asset-pack
+-----

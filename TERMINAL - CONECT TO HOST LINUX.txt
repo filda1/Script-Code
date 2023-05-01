@@ -34,3 +34,10 @@
   >> sudo nano ARCHIVO         ====================================> ( Entra para editar  ARCHIVO)
 
                 ----> Guardar == CTRL + o --> Enter
+
+
+
+------------------------------------
+
+DE WINOWS A WINDOWS
+ https://www.youtube.com/watch?v=pFTC4Rt-EDQ

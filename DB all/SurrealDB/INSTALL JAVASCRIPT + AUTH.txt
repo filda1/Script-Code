@@ -1,2 +1,7 @@
 https://surrealdb.dev/docs/start
 https://surrealdb.dev/docs/integration/libraries/javascript
+
+
+-----------------------------
+TUTORIAL
+ https://morioh.com/p/caf079abc974

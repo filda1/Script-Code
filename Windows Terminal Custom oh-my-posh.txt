@@ -35,3 +35,27 @@
 
   ALT + las flechas ==========================> Mover entre paneles
 
+
+-------------------------------------------------------
+INSTALL (BUENO)
+
+>> winget install JanDeDobbeleer.OhMyPosh -s winget
+
+INSTALAR  fonts (https://www.youtube.com/watch?v=ovQ7V7VbjL0) :
+    - Caskaydia Cove Nerd Font Complete Windows Compatible Regular
+    - Fira Code Regular Nerd Font Complete Windows Compatible
+    -Meslo LG M Regular Nerd Font Complete Mono Windows Compatible
+
+
+Crear fiechero ====> >>  New-Item -Path $PROFILE -Type File -Force
+
+>> notepad $PROFILE
+
+ Dentro poner en NOTEPAD ==========>       oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-                posh/main/themes/remk.omp.json' | Invoke-Expression
+
+ERRO en SHELL_
+>> Get-ExecutionPolicy
+>> Set-ExecutionPolicy Unrestricted
+
+
+TEMAS ====> https://ohmyposh.dev/docs/themes/

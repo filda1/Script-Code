@@ -52,6 +52,9 @@ OJO: en NEXT 13:   * LOs Componentes son en MAYUSCULAS y las Paginas en miniscul
                          https://github.com/FaztWeb/nextjs-jwt-cookie
 
 *********************************************************************************************************************************************
+ UPLOAD NEXT 13
+  https://www.youtube.com/watch?v=b691Iqh87jY&t=24s
+*********************************************************************************************************************************************
 
  NEXT 
    https://www.youtube.com/watch?v=2jxc8DMzt0I&t=764s&ab_channel=midudev
