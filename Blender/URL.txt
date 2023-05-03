@@ -9,3 +9,7 @@ URL
  ** https://monstermash.zone
 ********************************************************
 
+BLENDER GPT
+https://github.com/gd3kr/BlenderGPT
+ https://www.youtube.com/watch?v=ZpLffMAxB_s
+
