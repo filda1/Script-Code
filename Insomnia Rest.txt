@@ -1,0 +1,36 @@
+PENTAHO : https://sourceforge.net/projects/pent...
+Java JDK 8: https://www.oracle.com/java/technolog...
+JDBC Driver 4.2 for SQL Server: https://go.microsoft.com/fwlink/?link...
+
+
+Java JDK 8
+https://gist.github.com/wavezhang/ba8425f24a968ec9b2a8619d7c2d86a6
+ ===> https://javadl.oracle.com/webapps/download/GetFile/1.8.0_331-b09/165374ff4ea84ef0bbd821706e29b123/windows-i586/jdk-8u331-windows-x64.exe
+https://www.oracle.com/pt/java/technologies/javase/javase8-archive-downloads.html
+
+Microsfot JDBC Driver 4.2 for SQL Server
+https://www.microsoft.com/en-us/download/details.aspx?id=54671
+
+
+INSOMNIA REST:  ======> COOKIES
+CLASSPATH  (KEY)
+C:\JDBC-4- SQL-SERVER\sqljdbc_4.2\enu\jre8.jar (VALUE)
+
+
+DESKTOP-UEK6CO9\SQLEXPRESS
+
+watt-local_2_0_1
+
+jdbc:sqlserver://${server};databaseName=${database}
+
+POST
+jdbc:sqlserver://DESKTOP-UEK6CO9\SQLEXPRESS;databaseName=watt-local_2_0_1
+
+jdbc:sqlserver://localhost:1433;databaseName=watt-local_2_0_1;user=external;password=external
+
+127.0.0.1
+
+jdbc:sqlserver://127.0.0.1:1433;databaseName=watt-local_2_0_1;user=external;password=external
+
+
+Apache Hop e Pentaho

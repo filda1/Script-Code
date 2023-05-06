@@ -1,0 +1,12 @@
+Aplicación de Desktop con Tauri, React y Typescript (FAZT)
+
+https://www.youtube.com/watch?v=XYH6_GV5KQ0&t=1s
+https://github.com/fazt/tauri-react-app
+_____________________________________________________________________
+DOC
+ https://tauri.app/v1/guides/getting-started/prerequisites
+ https://tauri.app/v1/guides/getting-started/setup
+ https://onmind.co/doc/code/es/Tauri.md
+
+
+_____________________________________________________________________
