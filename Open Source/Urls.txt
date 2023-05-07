@@ -177,3 +177,27 @@ ranway
   Camunda 
 
 *********************************************************************************************************
+LIST 
+
+https://wiki.opensourceisawesome.com/books/what-i-use-day-to-day/page/the-software-i-use-in-2023
+https://www.youtube.com/watch?v=HaLKciYfVfE
+
+01:50 X-Lights
+03:58 Trilium Notes
+06:39 NextCloud - Document, Photo, Calendar, and Office Suite
+08:35 Jellyfin
+10:25 Navidrome
+11:36 Quant-UX
+14:05 Bookstack - Incredible Wiki Platform
+15:17 Databag - E2E Encrypted Chat and Communication
+16:25 Crater Invoices
+16:59 Netmaker - Wireguard VPN
+19:27 Traggo - Time Tracking
+20:07 Shotcut Video Editor
+21:23 RustDesk - Remote Support
+22:23 Wireguird - Wireguard Client for Linux
+23:08 Tabby - Terminal Emulator
+23:44 LibreOffice
+25:43 OBS - Open Broadcast System
+27:40 Closing Thoughts
+28:37 Veloren - MMORPG

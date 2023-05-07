@@ -1,0 +1,12 @@
+INSTALL RUST
+ https://www.youtube.com/watch?v=jJ4LxwV6qFY
+
+ 1- https://www.rust-lang.org/es/tools/install
+
+ >> rustc --version
+ >> cargo --version
+
+
+
+CREAR CONSOLA
+ >> cargo new proyecto

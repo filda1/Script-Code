@@ -1,4 +1,7 @@
-Aplicación de Desktop con Tauri, React y Typescript (FAZT)
+FRONTRND + BACKEND (RUST)
+https://www.youtube.com/watch?v=j0zLC_sOLAY
+_____________________________________________________________________
+Aplicación de Desktop con Tauri, React y Typescript (FAZT) == FRONTEND
 
 https://www.youtube.com/watch?v=XYH6_GV5KQ0&t=1s
 https://github.com/fazt/tauri-react-app
