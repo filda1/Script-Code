@@ -1,0 +1,7 @@
+>> npm create tauri-app@latest
+
+
+  >>cd PROYECTO-app
+   >> npm install
+   >>npm run tauri dev
+
