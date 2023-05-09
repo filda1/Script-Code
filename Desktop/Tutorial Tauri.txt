@@ -2,6 +2,8 @@
 
 
   >>cd PROYECTO-app
-   >> npm install
-   >>npm run tauri dev
-
+   >> npm install  =========================> (SOLO UNA 1 VEZ)
+   >>npm run tauri dev  =========================> RUN
+-------------------
+TEMPLATE ADMIN
+  https://github.com/wrappixel/xtreme-react-lite
