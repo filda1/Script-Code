@@ -13,4 +13,9 @@ LARAVEL 10
 
   Ver request en WEB:
   >> composer require barryvdh/laravel-debugbar --dev
+
+
+-------
+ PARA AUTH =====> BREEZE O JETSTREAM ( las dos tienen Auth)
+  https://www.youtube.com/watch?v=v-R5FLGAB58&list=RDCMUCWuyqD6Pm70GwjWtENF5XJA&start_radio=1&rv=v-R5FLGAB58&t=1
   
