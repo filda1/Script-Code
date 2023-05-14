@@ -11,3 +11,18 @@ TEMPLATE ADMIN
 ++++++++++++++https://github.com/agmmnn/tauri-ui
 
 REACT =====> https://mui.com/store/collections/free-react-dashboard/
+
+https://github.com/horizon-ui/horizon-tailwind-react
+
+
+FLOWBITE
+ https://flowbite.com/docs/components/sidebar/
+ https://flowbite.com/blocks/marketing/header/
+
+
+CONECT SQL SERVER
+https://www.youtube.com/watch?v=VuVOyUbFSI0
+https://gist.github.com/jeremychone/34d1e3daffc38eb602b1a9ab21298d10
+
+https://crates.io/search?q=sqlx
+https://crates.io/crates/odbc

@@ -201,3 +201,22 @@ https://www.youtube.com/watch?v=HaLKciYfVfE
 25:43 OBS - Open Broadcast System
 27:40 Closing Thoughts
 28:37 Veloren - MMORPG
+
+
+04:33 Dashy - Browser Dash and Shortcuts
+05:58 Metabase - No Code Data Analytics
+07:30 Portainer
+11:01 Proxmox - Virtualiation Orchestrator
+13:02 NGinX Proxy Manager    =================================> admin SSL
+14:31 MeshCentral - Remote Machine Management
+16:23 TrueNAS Scale
+19:09 Vaultwarden - Password Manager
+20:35 Remotely - Remote Support Tool
+21:54 Guacamole - Remote Desktop in the Browser  ===============================> parecido AnyDesk
+24:12 Pi-hole - Ad-blockingDNS
+25:07 Pi-Alert - Notification of New Network Devices  ==========================> admin Notificaciones
+26:05 Speedtest Tracker
+27:35 Uptime Kuma - Status / Uptime Monitor
+29:06 Home Assistant ==================================================> Camaras de Casas
+31:11 Mail-in-a-box - Self Hosted Email  ========================================= SERVER WEB EMAIL
+32:33 OpenSprinkler ============================================================> Rirgo de Jardines automitizado RASBERRY PI

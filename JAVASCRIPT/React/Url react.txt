@@ -9,6 +9,9 @@
    *******ZuluaGA   https://www.youtube.com/watch?v=fWsfvZD_abI&list=PLuEZQoW9bRnSZUVV93R1N9_xpqoiK-xhE&index=19
     ******* MARIO  Diez , Redux    
    ********Rocketseat
+
+
+ **********************TUTORIAL =================> https://www.w3schools.com/react/react_router.asp
                  
 ********************************************************************************************************************
   AUTH
