@@ -1,9 +1,25 @@
+TUTORIAL =====> https://www.w3schools.io/languages/rust-tutorials/
+----------------------------------
 >> npm create tauri-app@latest
 
 
   >>cd PROYECTO-app
    >> npm install  =========================> (SOLO UNA 1 VEZ)
    >>npm run tauri dev  =========================> RUN
+
+----------
+
+ OJO instalr dependencia:
+ >> Proyecto/src-tauri
+
+SQL SERVER =====> https://crates.io/crates/sqlx
+ cargo add sqlx
+
+>> cargo clean
+>> cargo build
+
+
+sqlx = "0.6.3"
 -------------------
 TEMPLATE ADMIN
   https://github.com/wrappixel/xtreme-react-lite
