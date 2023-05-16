@@ -37,8 +37,12 @@ FLOWBITE
 
 
 CONECT SQL SERVER
+************* CONECT A DATABSE ===> https://github.com/tauri-apps/tauri-plugin-sql
+
 https://www.youtube.com/watch?v=VuVOyUbFSI0
 https://gist.github.com/jeremychone/34d1e3daffc38eb602b1a9ab21298d10
 
 https://crates.io/search?q=sqlx
 https://crates.io/crates/odbc
+
+

@@ -1,0 +1,51 @@
+INSTALL
+
+https://www.youtube.com/watch?v=oAaS9ix8pes&list=WL&index=366
+
+>> npm install -g concurrently =========================> Tener instaldo GLOBAL esto.
+>> concurrently --version
+
+>> yarn upgrade   =================================> Actulizar Dependencias del proyecto
+
+--
+
+>> npx create-react-app proyecto-electron-0_0_0
+>> cd proyecto
+>> yarn install
+>> yarn add cross-env
+>> yarn add wait-on
+
+
+* en pacakage.json:
+  "scripts": {
+ ..
+    "electron:serve": "concurrently -k \"cross-env BROWSER=none yarn start\" \"yarn electron:start\"",
+    "electron:build": "yarn build && electron-builder -c.extraMetadata.main=build/main.js",
+    "electron:start": "wait-on tcp:3000 && electron ."
+
+>> yarn add @electron/remote   ====================> Adicionar Puente
+
+>> yarn electron:serve   ========================> RUN
+
+
+>> yarn build   =======================> EXE
+
+>> yarn upgrade react-scripts  =================================> Actulizar Dependencias del proyecto
+
+>> yarn start --reset-cache     ==================================>  CACHE
+
+----
+Webpack
+D:\Proyectos\Electron\guatt-electron-0_0_0\node_modules\react-scripts\config\webpackDevServer.config.js
+ERROR : https://bobbyhadz.com/blog/deprecationwarning-onaftersetupmiddleware-option-is-deprecated
+------------------------------
+INSTALL TALWIND en React
+ https://tailwindcss.com/docs/guides/create-react-app
+------------------------------
+__________________________________________________________________________________________________________________________________
+Ejemplo:
+
+git clone --depth 1 --branch main https://github.com/electron-react-boilerplate/electron-react-boilerplate.git your-project-name
+cd your-project-name
+npm install
+__________________________________________________________________________________________________________________________________
