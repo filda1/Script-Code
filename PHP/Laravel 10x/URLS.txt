@@ -1,0 +1,4 @@
+URLS
+  proyecto ===> https://www.youtube.com/watch?v=A_q9oWEyi3Q
+                 *** https://bootcamp.laravel.com/blade/installation
+                 https://www.cursosdesarrolloweb.es/blog/novedades-laravel-10

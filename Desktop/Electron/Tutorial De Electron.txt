@@ -49,3 +49,22 @@ git clone --depth 1 --branch main https://github.com/electron-react-boilerplate/
 cd your-project-name
 npm install
 __________________________________________________________________________________________________________________________________
+
+
+
+INSTALAR:
+
+ yarn add axios
+ yarn add express
+
+ yarn add typeorm mssql
+
+ yarn add react-router-dom
+ yarn add react-hot-toast    ====> https://react-hot-toast.com/docs Y https://github.com/timolins/react-hot-toast
+
+ yarn add zustand   =======> https://www.npmjs.com/package/zustand
+
+ yarn add react-hook-form =====>  https://www.npmjs.com/package/react-hook-form Y https://react-hook-form.com/
+
+
+
