@@ -1,4 +1,29 @@
+
+__________________________________________________________________________________________________________________________________
 INSTALL
+
+TEMPLATE ================> https://electron-react-boilerplate.js.org/docs/building
+
+git clone --depth 1 --branch main https://github.com/electron-react-boilerplate/electron-react-boilerplate.git your-project-name
+cd your-project-name
+npm install
+
+>> npm start
+__________________________________________________________________________________________________________________________________
+
+INSTAL TALWINDS ===> https://blog.saeloun.com/2023/02/24/integrate-tailwind-css-with-electron/
+                     >> yarn add autoprefixer
+                     >> yarn add tailwindcss
+                     >> yarn add postcss-loader --save-dev
+
+
+VERIFAR TAILWIND ===>     <div className="bg-blue-500 text-white p-4">Hola, mundo!</div>
+
+__________________________________________________________________________________________________________________________________
+
+
+
+OTRA INSTALL
 
 https://www.youtube.com/watch?v=oAaS9ix8pes&list=WL&index=366
 
@@ -42,8 +67,12 @@ ERROR : https://bobbyhadz.com/blog/deprecationwarning-onaftersetupmiddleware-opt
 INSTALL TALWIND en React
  https://tailwindcss.com/docs/guides/create-react-app
 ------------------------------
+
+FLOWBITE ==>https://flowbite.com/docs/getting-started/introduction/
+ICONS ==> https://heroicons.dev/
 __________________________________________________________________________________________________________________________________
 Ejemplo:
+TEMPLATE ================> https://electron-react-boilerplate.js.org/docs/building
 
 git clone --depth 1 --branch main https://github.com/electron-react-boilerplate/electron-react-boilerplate.git your-project-name
 cd your-project-name
@@ -66,5 +95,9 @@ INSTALAR:
 
  yarn add react-hook-form =====>  https://www.npmjs.com/package/react-hook-form Y https://react-hook-form.com/
 
+ yarn add -dev tailwindcss postcss-loader autoprefixer
+
+yarn add path-browserify
+yarn add browserfs
 
 
