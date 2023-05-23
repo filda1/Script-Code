@@ -1,0 +1,44 @@
+// SQL SERVER : yarn add typeorm mssql
+
+async function connectToDatabase() {
+  try {
+    const connection = await createConnection({
+      type: 'mssql',
+      host: 'localhost',
+      port: 1433,
+      username: '',
+      password: '',
+      database: '',
+      entities: [Table],
+      synchronize: false,
+      logging: true,
+      options: {
+        trustServerCertificate: true,
+      },
+    });
+
+    
+
+    console.log('Conexión exitosa a SQL Server');
+
+    const scopes: Watt_Scopes[] = await connection.manager.find(Watt_Scopes);
+    console.log(scopes);
+
+    scopes.forEach(scope=> {
+      console.log(`ID: ${scope.id}`);
+      console.log(`Name: ${scope.name}`);
+      console.log('-------------------------');
+    });
+
+    console.log('scopes :::::::::>', scopes)
+    const result = scopes.map((scope) => ({ id: scope.id, name: scope.name }));
+    console.log("ARRAY NORMAL------->", result);
+
+
+
+  } catch (error) {
+    console.log('Error al conectar a SQL Server:', error);
+  }
+}
+
+connectToDatabase();
