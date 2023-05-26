@@ -88,6 +88,10 @@ INSTALAR:
 
  yarn add typeorm mssql
 
+ yarn add dotenv
+
+ yarn add electron-store
+
  yarn add react-router-dom
  yarn add react-hot-toast    ====> https://react-hot-toast.com/docs Y https://github.com/timolins/react-hot-toast
 
@@ -100,4 +104,61 @@ INSTALAR:
 yarn add path-browserify
 yarn add browserfs
 
+
+
+
+
+
+
+
+
+
+-------------------------INSTALL SQL LITE -------------------
+>> cd ./release/app
+
+>>npm install sqlite3 typeorm
+
+$ npm run rebuild && npm run link-modules
+>> yarn run rebuild && yarn run link-modules
+
+
+crear ===> mydatabase.sqlite
+
+* en >> cd ./release/app
+-crear ormconfig.json ===>colocar:
+
+{
+  "type": "sqlite",
+  "database": "path/to/your/sqlite/database.sqlite",
+  "entities": [
+    "src/entities/**/*.js"
+  ],
+  "synchronize": true
+}
+----------------------------------------------------------
+
+
+
+
+------------------- -- STORAGE LOCAL -------------------
+>> yarn add electron-store
+
+
+const { app } = require('electron');
+const Store = require('electron-store');
+
+// Inicializar el almacenamiento con una configuración opcional
+const store = new Store();
+
+// Guardar un valor en el almacenamiento
+store.set('clave', 'valor');
+
+// Recuperar un valor del almacenamiento
+const valor = store.get('clave');
+
+// Eliminar un valor del almacenamiento
+store.delete('clave');
+
+// Eliminar todos los valores del almacenamiento
+store.clear();
 
