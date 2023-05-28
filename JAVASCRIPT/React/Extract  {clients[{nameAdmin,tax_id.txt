@@ -1,0 +1,39 @@
+//Extract : "{\"clients\":[{\"name\":\"Admin\",\"tax_id\":\"123456789\"}
+
+const data = [clients];
+const jsonString = data[0];
+
+// Eliminar las comillas dobles que rodean la cadena de texto
+const trimmedString = jsonString.slice(1, -1);
+
+// Acceder a los datos como cadena de texto
+//console.log(trimmedString);
+
+const dataArray = trimmedString.split(/[{}]+[,]+/);
+
+// Iterar sobre los elementos del array y mostrar cada uno
+for (let i = 0; i < dataArray.length; i++) {
+  const item = dataArray[i];
+
+  // Solo imprimir los elementos que contienen "name" y "tax_id"
+  /*if (item.includes("name") && item.includes("tax_id")) {
+    console.log(item);
+  }*/
+
+// Iterar sobre los elementos del array y mostrar el valor de "name" y "tax_id"
+for (let i = 0; i < dataArray.length; i++) {
+    const item = dataArray[i];
+  
+    // Buscar la propiedad "name" en el elemento
+    const nameStartIndex = item.indexOf("name") + 7; // Sumar 7 para saltar los caracteres ":\"" antes del valor
+    const nameEndIndex = item.indexOf("\",\"", nameStartIndex); // Buscar la siguiente aparición de "\",\"" para obtener el final del valor
+    const name = item.slice(nameStartIndex, nameEndIndex);
+  
+    // Buscar la propiedad "tax_id" en el elemento
+    const taxIdStartIndex = item.indexOf("tax_id") + 9; // Sumar 9 para saltar los caracteres ":\"" antes del valor
+    const taxIdEndIndex = item.indexOf("\"}", taxIdStartIndex); // Buscar la siguiente aparición de "\"}" para obtener el final del valor
+    const taxId = item.slice(taxIdStartIndex, taxIdEndIndex);
+  
+    console.log("Name:", name);
+    console.log("Tax ID:", taxId);
+  }

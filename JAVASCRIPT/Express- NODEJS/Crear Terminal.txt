@@ -1,0 +1,33 @@
+const readline = require('readline');
+const { exec } = require('child_process');
+
+// Crear interfaz para leer y escribir en la consola
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+// Función para ejecutar un comando y mostrar la salida
+function ejecutarComando(comando) {
+  exec(comando, (error, stdout, stderr) => {
+    if (error) {
+      console.error(`Error al ejecutar el comando: ${error.message}`);
+      return;
+    }
+    if (stderr) {
+      console.error(`Error en la salida del comando: ${stderr}`);
+      return;
+    }
+    console.log(`Salida del comando:\n${stdout}`);
+  });
+}
+
+// Escuchar eventos de entrada de la consola
+rl.on('line', (input) => {
+  // Ejecutar comando ingresado por el usuario
+  ejecutarComando(input);
+});
+
+// Mostrar mensaje de bienvenida
+console.log('Bienvenido al terminal interactivo.');
+console.log('Ingrese un comando para ejecutar:');
