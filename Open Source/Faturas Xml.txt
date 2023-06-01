@@ -1,0 +1,28 @@
+Existen varios editores de XML que son compatibles con UBL 2.1 y te permiten crear facturas en este formato. Aquí hay algunos ejemplos de editores de XML que podrías utilizar:
+
+1. XMLSpy: Es un editor XML y un entorno de desarrollo integrado (IDE) desarrollado por Altova. XMLSpy ofrece características específicas para trabajar con estándares como UBL, incluyendo asistentes de creación, validación y generación de documentos UBL 2.1.
+
+2. Oxygen XML Editor: Es una herramienta de edición XML completa y ampliamente utilizada. Oxygen XML Editor soporta múltiples estándares y proporciona funciones avanzadas para la creación y validación de documentos UBL 2.1.
+
+3. Notepad++: Es un editor de texto con resaltado de sintaxis y otras funcionalidades útiles para trabajar con XML. Aunque no es específico para UBL, puedes utilizar Notepad++ para crear y editar documentos XML en formato UBL 2.1 manualmente.
+
+4. Visual Studio Code con extensiones XML: Visual Studio Code es un editor de código fuente ampliamente utilizado y puedes agregar extensiones específicas para trabajar con XML, como "XML Tools", que te proporciona funcionalidades adicionales para trabajar con UBL 2.1.
+
+Estos son solo algunos ejemplos de editores de XML que puedes utilizar para crear facturas en formato UBL 2.1. Recuerda que la elección del editor dependerá de tus preferencias y necesidades específicas. Asegúrate de investigar y probar diferentes opciones para encontrar la que mejor se adapte a tus requerimientos.
+
+
+---------
+
+Sí, existen varios programas de código abierto para la conversión de facturas en papel a formato electrónico. Estos programas suelen utilizar tecnologías de reconocimiento óptico de caracteres (OCR, por sus siglas en inglés) para extraer los datos relevantes de las facturas escaneadas.
+
+Aquí hay algunos ejemplos de programas de código abierto que podrían ser útiles para esta tarea:
+
+1. InvoicePlane: Es un software de código abierto diseñado específicamente para la gestión de facturas. Puedes escanear tus facturas en papel y utilizar la función de OCR para extraer la información necesaria y crear facturas electrónicas.
+
+2. Papermerge: Es un sistema de gestión de documentos de código abierto que también incluye funciones de OCR. Puedes escanear tus facturas y utilizar el OCR para convertirlas en documentos electrónicos con texto editable.
+
+3. OpenKM: Es un sistema de gestión de documentos de código abierto que ofrece capacidades de OCR. Puedes utilizarlo para escanear facturas en papel y convertirlas en documentos electrónicos que puedan ser buscados y editados.
+
+4. GScan2PDF: Aunque no es específicamente un programa de facturación, GScan2PDF es una herramienta de código abierto que facilita la digitalización de documentos y la conversión a formato PDF. Puedes escanear tus facturas en papel y guardarlas como archivos PDF, lo que te permitirá organizarlas y enviarlas electrónicamente si es necesario.
+
+Recuerda que al utilizar estos programas de código abierto, es posible que necesites configurarlos y personalizarlos para adaptarlos a tus necesidades específicas. Además, asegúrate de revisar las licencias y términos de uso de cada software para comprender las limitaciones y restricciones asociadas.

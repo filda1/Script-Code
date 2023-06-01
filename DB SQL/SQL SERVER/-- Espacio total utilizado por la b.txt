@@ -1,0 +1,56 @@
+-- Espacio total utilizado por la base de datos
+EXEC sp_spaceused;
+
+-- Espacio utilizado por tablas
+SELECT 
+    SCHEMA_NAME(t.schema_id) AS 'Esquema',
+    t.name AS 'Tabla',
+    SUM(p.reserved_page_count) * 8 AS 'Espacio Reservado (KB)',
+    SUM(p.used_page_count) * 8 AS 'Espacio Utilizado (KB)',
+    (SUM(p.reserved_page_count) - SUM(p.used_page_count)) * 8 AS 'Espacio No Utilizado (KB)'
+FROM 
+    sys.tables t
+INNER JOIN 
+    sys.dm_db_partition_stats p ON t.object_id = p.object_id
+WHERE 
+    p.index_id < 2
+GROUP BY 
+    t.schema_id, t.name
+ORDER BY 
+    SUM(p.reserved_page_count) DESC;
+
+-- Espacio utilizado por vistas
+SELECT 
+    SCHEMA_NAME(v.schema_id) AS 'Esquema',
+    v.name AS 'Vista',
+    SUM(p.reserved_page_count) * 8 AS 'Espacio Reservado (KB)',
+    SUM(p.used_page_count) * 8 AS 'Espacio Utilizado (KB)',
+    (SUM(p.reserved_page_count) - SUM(p.used_page_count)) * 8 AS 'Espacio No Utilizado (KB)'
+FROM 
+    sys.views v
+INNER JOIN 
+    sys.dm_db_partition_stats p ON v.object_id = p.object_id
+WHERE 
+    p.index_id < 2
+GROUP BY 
+    v.schema_id, v.name
+ORDER BY 
+    SUM(p.reserved_page_count) DESC;
+
+-- Espacio utilizado por procedimientos almacenados
+SELECT 
+    SCHEMA_NAME(o.schema_id) AS 'Esquema',
+    o.name AS 'Procedimiento',
+    SUM(p.reserved_page_count) * 8 AS 'Espacio Reservado (KB)',
+    SUM(p.used_page_count) * 8 AS 'Espacio Utilizado (KB)',
+    (SUM(p.reserved_page_count) - SUM(p.used_page_count)) * 8 AS 'Espacio No Utilizado (KB)'
+FROM 
+    sys.objects o
+INNER JOIN 
+    sys.dm_db_partition_stats p ON o.object_id = p.object_id
+WHERE 
+    p.index_id < 2 AND o.type = 'P'
+GROUP BY 
+    o.schema_id, o.name
+ORDER BY 
+    SUM(p.reserved_page_count) DESC;

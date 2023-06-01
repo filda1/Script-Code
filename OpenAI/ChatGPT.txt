@@ -38,3 +38,11 @@ https://images.ai
 
 
 ***************************************************
+PYTHON EXTRACT DATA CHATGPT
+How I Made A FREE ChatGPT API
+
+https://www.youtube.com/watch?v=8C2o7vQRY5g&ab_channel=segtwo
+https://github.com/mache102/SlymeGPT/
+------------------------------------------------------
+ ALTERNATIVA A CHATGPT
+https://huggingface.co/spaces/yuntian-deng/ChatGPT

@@ -1,0 +1,27 @@
+import { Injectable } from '@angular/core';
+import { JwtHelperService } from '@auth0/angular-jwt';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class AuthService {
+  private userId: string;
+
+  constructor(private jwtHelper: JwtHelperService) {
+    const token = localStorage.getItem('jwt-token');
+    if (token) {
+      this.userId = this.extractUserId(token);
+    }
+  }
+
+  private extractUserId(token: string): string {
+    const decodedToken = this.jwtHelper.decodeToken(token);
+    // Aquí asumimos que el ID del usuario se encuentra en el campo 'userId' del token
+    const userId = decodedToken.userId as string;
+    return userId;
+  }
+
+  public getUserId(): string {
+    return this.userId;
+  }
+}
