@@ -23,6 +23,12 @@
   ECOSISTEMA REACT ======> https://www.youtube.com/watch?v=QsN9vlkB6MU
 
 *******************************************************************************************************************
+TURBOREPO (VARIOS PROYECTOS EN UNO) = monorepo
+
+https://www.youtube.com/watch?v=GzjN-MHFsmw (Fatz)  
+ https://github.com/fazt/nestjs-react-monorepo
+
+********************************************************************************************************************
  DPCOMENTACION 
 
   https://docusaurus.io
