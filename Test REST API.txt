@@ -1,0 +1,15 @@
+https://restful-api.dev/
+
+https://reqres.in/
+
+https://httpbin.org/#/
+
+https://beeceptor.com/
+
+https://jsonplaceholder.typicode.com/
+
+https://reqbin.com/ =================================> CLiente ONline
+
+
+
+TUTO ====> https://lizenshakya.medium.com/node-js-sending-multipart-form-data-from-server-side-backend-4a91b51fd67f
