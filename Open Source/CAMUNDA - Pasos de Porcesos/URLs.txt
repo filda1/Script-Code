@@ -2,6 +2,11 @@
 
  DOC = https://docs.camunda.io/docs/guides/
 
+
+ tutorial ==> https://www.youtube.com/watch?v=l-sCUKQZ44s&list=PLJG25HlmvsOUnCziyJBWzcNh7RM5quTmv PARTE 1
+
+https://www.youtube.com/watch?v=TlFojzQNopA&list=PLJG25HlmvsOX8TiIGUZcVW-ez053YsOX0 PARTE 2
+
  ***********************************************************************
 
  FORMAS ===> https://www.youtube.com/watch?v=z1QCg-x5AFs

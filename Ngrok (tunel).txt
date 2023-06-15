@@ -5,8 +5,32 @@
  1.1 RUN proyecto
  2. Abrir consola de Ngrok que esta dentro del proyecto y poner:
  RUN 
- >> ngrok http puerto  (puerto: es el puerto del proyecto en localhost que esta corriendo. Ej: localhost:8000. El puerto es 8000)
+ >> ngrok http <puerto>  (puerto: es el puerto del proyecto en localhost que esta corriendo. Ej: localhost:8000. El puerto es 8000)
  3. esperar por URL 
 
 
  Error ===========> tskill /A ngrok
+ 
+ 
+ ngrok-skip-browser-warning
+ 
+ 
+ 
+ -----------------------
+ 
+ OTRA MANERA:
+ ------------------------
+ ngrok http https://localhost:port --host-header=rewrite
+ 
+  doc ==>https://stackoverflow.com/questions/68459491/how-do-i-fix-ngrok-invalid-http-response-error
+  
+  
+  EXEMPLO: NO WATT:
+  
+  - Colocar exec na raiz, parte principal
+  - RUN del proyecto
+  - Abrir exec de Ngrok:
+    >> ngrok http https://localhost:420 --host-header=rewrite
+  - Copiar a url
+  
+   ------------------------
