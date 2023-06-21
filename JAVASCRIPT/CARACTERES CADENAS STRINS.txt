@@ -1,5 +1,11 @@
 CORTAR NUMERO
 
+--EL MEJOR
+let str = "Agua verde 19.459";    ===============================>"Agua verde 19,459" o  "Agua verde 1945"
+let result = str.match(/(.*)\s\d+/)[1];
+console.log(result); // "Agua verde"
+---
+
 let str ="Energia Consumida Redes Estimada -41";
 let substrings = str.split(/\s+-?\d+$/);  // dividir la cadena en un arreglo de subcadenas usando un número con signo opcional como separador
 let result = substrings[0];  // tomar la primera subcadena del arreglo resultante
@@ -45,14 +51,213 @@ rawAmount =srt.match(/-?\d{1,3}(?:\.\d{3})*(?:,\d+)?(?=\s+dias)/)[0].replace(/\.
 
 result: 574,59
 
+
+
+----
+FUNCIONA DATAS _ AJUSTE del FORMATO
+ let str = "Ajuste MIBEL - Consumo real (20230227-20230131)";
+
+let regex = /\((\d{8})-(\d{8})\)/;
+let match = regex.exec(str);
+let startDateString = match[1];
+let endDateString = match[2];
+
+let startYear = startDateString.substr(0, 4);
+let startMonth = startDateString.substr(4, 2) - 1; // los meses comienzan en 0
+let startDay = startDateString.substr(6, 2);
+
+let endYear = endDateString.substr(0, 4);
+let endMonth = endDateString.substr(4, 2) - 1; // los meses comienzan en 0
+let endDay = endDateString.substr(6, 2);
+
+let startDate = new Date(startYear, startMonth, startDay);
+let endDate = new Date(endYear, endMonth, endDay);
+
+console.log(startDate);
+console.log(endDate);
+
+
+
+if(regex.test(str)){
+    console.log("Tiene FORMATO");
+    
+}else{
+    console.log("NOOOO Tiene FORMATO");
+}
+
+----
+
 ************************************************************************************************************
 
- FORMATO DATAS
+ FORMATO DATAS - PARA detecta string con datas
 
  let regex2Datas = /^\(\d{2}\/\d{2}\/\d{4}-\d{2}\/\d{2}\/\d{4}\)$/;
-      const regex = /\d{2}\/\d{2}\/\d{4}/;  //dd/mm/yyyy
+      ****const regex = /\d{2}\/\d{2}\/\d{4}/;  //dd/mm/yyyy
  
        const regex = /\d{2}\/\d{2}\/\d{4}/;  //dd/mm/yyyy
     
        const regex3 = /^\(\d{2}\/\d{2}\/\d{4}-\d{2}\/\d{2}\/\d{4}\)$/;
        const regex4 = /^\(\d{2}\/\d{2}\/\d{4}-\d{2}\/\d{2}\/\d{4}\)\s/;
+
+***********************************************************************************************************
+
+ DATE para Dialect:
+
+// Create a string representation of a date
+let dateString = "2022-12-15";
+
+// Convert the string into a Date object
+let date = new Date(dateString);
+
+// Use the toISOString() method to convert the Date object into an ISO format string
+let isoString = date.toISOString().split("T")[0];
+
+console.log(isoString); // Output: "2022-12-15"
+
+*********************************************************************************************************
+
+
+ CORTE AL MENOS 5 ESPACIOS
+
+ var sentence = "Esta      es una oración de ejemplo.";
+ var chunks = sentence.split(/\s{5,}/);
+ console.log(chunks);
+
+*********************************************************************************************************
+ REPLACE
+
+ var sentence = "Energia a va simples";
+var newSentence = sentence.replace(/a va/g, "a.");
+console.log(newSentence);
+**********************************************************************************************************
+
+ DETECTAR NUmero/String
+
+  const str = '098766';
+if (/^0\d+$/.test(str)) {
+  console.log('El string es un número y empieza por cero.');
+} else {
+  console.log('El string no cumple con los requisitos.');
+}
+
+**********************************************************************************************************
+ DETECTAR NUmero/String
+  const str = '098766';
+if (/\d+$/.test(str)) {
+**********************************************************************************************************
+ STRING A DATE
+
+         pdfStartDate = new Date(pdfStartDate);
+                pdfStartDate = new Date(pdfStartDate.setDate(pdfStartDate.getDate() + 1))  
+
+
+***********************************************************************************************************
+
+ SACA DESCRIPCION
+
+ let pdfDesc="Potência Contratada (31/12/2022-27/01/2023) 41,41 kW x 4 dias x 0,0197 /kW 3,26 € * CO2 - Dióxido de carbono";
+let descripcion = pdfDesc.match(/[^\d\/*€-]+[\s]+/);
+//console.log(descripcion[0].trim()); // output: "Potência Contratada"
+
+
+***********************************************************************************************************
+ELIMINAR LINEA EN BLANCO
+
+      
+
+const blankLineRegex = /^\s*$/; 
+
+      //Clean Lines
+      for (let h = 0; h < arrHorizontalLines0.length; h++) {
+        if(arrHorizontalLines0[h] == '' || arrHorizontalLines0[h].length==0 || blankLineRegex.test(arrHorizontalLines0[h])){ continue;}
+        arrHorizontalLines.push(arrHorizontalLines0[h]);
+      }
+
+
+************************************************************************************************************
+STOP TIME
+
+ for (let a = 0; a < 1000000; a++) {  console.log(a)}
+
+************************************************************************************************************
+ INDICE DE INICIO Y DE FIN EN ARRAY
+      let indexBegin;
+      let indexEnd;
+      for (let a = 0; a < arrHorizontalLines.length; a++) {
+       if(arrHorizontalLines[a].includes('DETALHES DE FATURAÇÃO')){
+        indexBegin = a;
+        break;
+       }
+      }
+
+      for (let b = 0; b < arrHorizontalLines.length; b++) {
+        if(arrHorizontalLines[b].includes('programa') || arrHorizontalLines[b].includes("Processado por programa")){
+          indexEnd = b;
+          break;
+         }
+      }
+
+************************************************************************************************************
+QUITAR ACENTOS
+let result = texto.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+************************************************************************************************************
+
+DATAS  convertir de string a Date
+
+  public transformDateSimple(str: string) : Date  {
+        let date1 = new Date(str.trim());
+        return date1;
+    }
+************************************************************************************************************
+
+NO CONTIENE NUMERO EN STRING
+
+let srtRegex = /^[^0-9]*$/;
+
+console.log(srtRegex.test('Hola')); // true
+console.log(srtRegex.test('123')); // false
+console.log(srtRegex.test('Hola123')); // false
+console.log(srtRegex.test('¡Hola!')); // true
+
+************************************************************************************************************
+--- Contiene solo string sin números Y EXTAE NUEMRO
+
+let cadena = "instalações clie1ntes";
+let numero = cadena.match(/\d+/);  //Extarer numero 
+
+if (numero) {
+  console.log(numero[0]); // "1"
+} else {
+  console.log("No se encontró ningún número en la cadena.");
+}
+
+************************************************************************************************************
+-- EN STRING EXTRAER NUMERO de PARENTESIS
+
+let cadena = ' (2)';
+let numero = cadena.match(/\d+/);
+
+if (numero) {
+  console.log(numero[0]); // "2"
+} else {
+  console.log("No se encontró ningún número en la cadena.");
+}
+
+************************************************************************************************************
+
+NO DULICADOS ARRAY
+const arr = [ 'XN22MP49312.xml', 'XN22MP67244.xml', 'XN22MP49312.xml', 'XN22MP67244.xml' ];
+const uniqueArr = [...new Set(arr)];
+
+console.log(uniqueArr);
+
+************************************************************************************************************
+
+ELIMINAR DOBLE ARRAY == ARRAY PLANO
+
+const arr = [ [ 'XN22MP49312.xml', 'XN22MP67244.xml', 'XN22MP49312.xml' ] ];
+const flattenedArr = [...new Set(arr.flat())];
+
+//[ 'XN22MP49312.xml', 'XN22MP67244.xml' ]
+
+************************************************************************************************************

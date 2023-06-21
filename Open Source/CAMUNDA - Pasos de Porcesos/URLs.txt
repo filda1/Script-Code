@@ -1,5 +1,5 @@
-
-
+ TUTO ==> https://medium.com/nerd-for-tech/getting-started-with-camunda-82b65df31f8c
+----------------------------------------------------------------------------
  DOC = https://docs.camunda.io/docs/guides/
 
 
@@ -26,3 +26,18 @@ https://www.youtube.com/watch?v=TlFojzQNopA&list=PLJG25HlmvsOX8TiIGUZcVW-ez053Ys
    Comunity = https://camunda.com/download/?__hstc=12929896.c1df7e876e1a6993c110692533547d85.1658354693076.1658354693076.1658354693076.1&__hssc=12929896.17.1658354693078&__hsfp=2003173016
    INSTAL =====> https://www.youtube.com/watch?v=V0pGkiODQ8g
  ***********************************************************************
+ 
+ 
+ ___________________________________________________________________________________________________________________________________________
+ 
+  SPRING BOOT + CAMUNDA
+   https://www.youtube.com/watch?v=sgcSm7YneTs
+   https://www.youtube.com/watch?v=sHgf_EsQzfc&list=RDCMUCTYG6fjGgHg5p47PqsiaI2w&index=7
+
+    install ===https://www.youtube.com/watch?v=l-sCUKQZ44s&list=RDCMUCTYG6fjGgHg5p47PqsiaI2w&index=9
+	
+    https://start.camunda.com/
+	
+	
+	FORM==>https://www.youtube.com/watch?v=QXt5FzW4eMA
+ ___________________________________________________________________________________________________________________________________________
