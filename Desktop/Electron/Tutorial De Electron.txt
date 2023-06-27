@@ -9,6 +9,11 @@ cd your-project-name
 npm install
 
 >> npm start
+
+>> npm run package   =====>  exe
+
+* Ir probando con estos 2 comandos por la aplicacion puede no abrir el ejecutable (exe)
+* Utilizar npm
 __________________________________________________________________________________________________________________________________
 
 INSTAL TALWINDS ===> https://blog.saeloun.com/2023/02/24/integrate-tailwind-css-with-electron/
@@ -162,3 +167,22 @@ store.delete('clave');
 // Eliminar todos los valores del almacenamiento
 store.clear();
 
+
+
+
+
+EXE
+
+>> yarn build
+
+
+npm install electron-packager --save-dev
+
+npx electron-packager . Guatt_importer-v0.0.0 --platform=win32 --arch=x64 --out="D:\Programas Watt\Guatt_importer"
+
+
+
+
+npm install -g electron-builder
+
+electron-builder --win

@@ -1,0 +1,54 @@
+//1 Solo = Multipart/form-data
+/*
+ try {
+
+  //msgResponseEndpoint =infoEnpoint;
+    // Crear una instancia de FormData
+    const formData = new FormData();
+
+    // Obtener los nombres de los archivos
+    const fileNames = ['XN22MP67244.xml', 'XN22MP49312.xml'];
+
+    // Leer los archivos y agregarlos a FormData
+    fileNames.forEach(fileName => {
+      const filePath = `${baseDir}/${fileName}`;
+
+      const fileStream = fs.createReadStream(filePath);
+      formData.append('file', fileStream, { filename: fileName });
+    });
+
+    // Enviar FormData a través de una solicitud POST usando Axios
+    axios.post(baseUrl, formData, {
+      headers: formData.getHeaders(),
+      timeout: 10000, // 10 segundos 
+    })
+    .then((response: AxiosResponse) => {
+      console.log("Data URL", response.data);
+      //console.log("Data URL MESSAGE ==>", response.data['message']);
+
+      /*
+      Data URL {
+        message: '506886964/endesa/XN22MP67244/invoice.xml file already exists and is identical to the attached file. Skipped import ',
+        type: 350,
+        data: {
+          imported_date: '2023-06-18T12:04:46.551Z',
+          client_error_message: 'Ficheiro j├í existente',
+          internalReplyCode: 350
+        }
+      }
+      */
+
+      //msgResponseEndpoint = response.data['message'];
+      
+      //event.reply('ipc-passVarAllDirImportAndFiles', msgTemplate(`${removeInvoices}, ${removeWaterInvoices}, ${removeUploads}, ${removeTools }, ${msgDeleteDb}, ${ msgResponseEndpoint }`)); //Envio
+
+    //})
+    /*.catch((error: AxiosError) => {
+      console.error("ERROR URL ==>", error);
+
+    });
+  
+  
+  } catch (error) {
+  //msgResponseEndpoint = error;
+  }

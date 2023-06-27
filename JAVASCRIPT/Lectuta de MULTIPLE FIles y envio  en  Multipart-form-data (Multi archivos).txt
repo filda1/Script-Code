@@ -1,0 +1,80 @@
+//Lectuta de FIles y envio  en  Multipart-form-data (Multi archivos)
+
+//3- READ FILES AND SEND TO ENDPOINT.. ✈️
+let msgResponseEndpoint: any = '';
+
+let baseUrl = path.join(srtNameHost, 'api', 'v1', 'import', 'xml', srtNifClient, srtNameSupplier); //OK
+let baseDir = path.join(store.get('dirmain'), nameEndClientMinus,  srtNameSupplier); //OK
+const fileNames = arrFilesFT //OK
+
+// Escribir datos en el archivo de log
+/*
+const logData = `Base URL of endpoint: ${today.toString()}\n${baseUrl}\n`;
+fs.writeFileSync(logFilePath, logData);
+
+const logData2 = `Base Dir of invoices: ${today.toString()}\n${baseDir}\n`;
+fs.writeFileSync(logFilePath, logData2); */
+
+const processFiles = async (): Promise<void> => {
+  try {
+    const promises: Promise<string | undefined>[] = fileNames.map(async (fileName) => {
+      if (fileName === '') {
+        return; // Omitir la iteración actual
+      }
+
+      const cutXmlFilename = fileName.split('.')[0];
+      const url = `${baseUrl}/${cutXmlFilename}`; // Sin XML
+      const filePath = `${baseDir}/${fileName}`;
+
+      //console.log("url -->", url);
+      //console.log("filePath -->", filePath);
+
+      /*
+      const logData3 = `Url c/invoices for send to endpoint: ${today.toString()}\n${url}\n`;
+      fs.writeFileSync(logFilePath, logData3);
+
+      const logData4 = `FilePath c/invoices for send to endpoint: ${today.toString()}\n${url}\n`;
+      fs.writeFileSync(logFilePath, logData4); */
+
+
+      const fileStream = fs.createReadStream(filePath);
+
+      const formData = new FormData();
+      formData.append('file', fileStream, { filename: fileName });
+
+      try {
+        const response = await axios.post(url, formData, {
+          headers: formData.getHeaders(),
+          timeout: 10000 // 10 segundos
+        });
+
+        //console.log("Data URL", response.data);
+        // Resto de tu código
+        const message = response.data['message'];
+
+        /*const logData5 = `Response send to endpoint: ${today.toString()}\n${response.data['message']}\n`;
+        fs.writeFileSync(logFilePath, logData5);*/
+
+        if (message) {
+          return message;
+        }
+      } catch (error) {
+        //console.error("Error:", error);
+        /*const logData6 = `Error send to endpoint: ${today.toString()}\n${error}\n`;
+        fs.writeFileSync(logFilePath, logData6);*/
+      }
+    });
+
+
+    const results = await Promise.all(promises);
+    msgResponseEndpoint = results.filter((message) => message !== undefined).join('\n');
+
+    //console.log("msgResponseEndpoint ===>", msgResponseEndpoint);
+    event.reply('ipc-passVarAllDirImportAndFiles', msgTemplate(`${removeInvoices}, ${removeWaterInvoices}, ${removeUploads}, ${removeTools }, ${msgDeleteDb}, ${ msgResponseEndpoint }`)); //Envio
+
+  } catch (error) {
+    console.error("Error en el bloque try-catch:", error);
+  }
+};
+
+processFiles();

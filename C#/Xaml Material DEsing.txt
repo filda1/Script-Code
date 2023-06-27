@@ -1,0 +1,9 @@
+
+http://materialdesigninxaml.net/home#home
+
+TUTO ==>https://github.com/MaterialDesignInXAML/MaterialDesignInXamlToolkit/wiki
+
+
+https://intellitect.com/blog/getting-started-material-design-in-xaml/
+
+https://intellitect.com/blog/material-design-in-xaml-dialog-host/
