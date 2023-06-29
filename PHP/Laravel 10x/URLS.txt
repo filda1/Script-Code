@@ -1,4 +1,9 @@
 URLS
   proyecto ===> https://www.youtube.com/watch?v=A_q9oWEyi3Q
                  *** https://bootcamp.laravel.com/blade/installation
-                 https://www.cursosdesarrolloweb.es/blog/novedades-laravel-10
+                 https://www.cursosdesarrolloweb.es/blog/novedades-laravel-1
+				 0
+				 
+				 
+				 
+   Tutorial ==========> https://www.youtube.com/watch?v=4QgDS5nSy9o&list=PLVSNL1PHDWvQ1N6fqhQ5HQzFtN-xrkjNU&index=2
