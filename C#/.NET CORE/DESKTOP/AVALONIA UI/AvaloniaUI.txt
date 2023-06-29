@@ -5,6 +5,9 @@
 
             Rider = https://github.com/AvaloniaUI/Documentation/blob/master/docs/getting-started/ide-support/jetbrains-rider-setup.md
                     >>dotnet new -i Avalonia.Templates
+					
+					
+					https://wpf-tutorial.com/common-interface-controls/menu-control/
 -------------------------------------
 https://avaloniaui.net
 https://github.com/AvaloniaUI/Avalonia
