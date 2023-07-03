@@ -1,6 +1,13 @@
 
 .NET MAUI : Usando o MVVM Community Toolkit
  https://www.youtube.com/watch?v=RJJSup3rjmc&t=28s
+ 
+ 
+ ****************************************************************************************
+  TUTORILA MAU + MVVM Toolkit + Shell
+  
+   https://www.youtube.com/watch?v=nMOVu6lr6SI (Macoratti)
+    https://github.com/macoratti/MauiTarefas
 
 *****************************************************************************************
 APP TIEMPO
