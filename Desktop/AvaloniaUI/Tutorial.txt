@@ -1,0 +1,4 @@
+
+ROUTER
+https://github.com/AvaloniaUI/Avalonia.Samples/tree/main/src/Avalonia.Samples/Routing/BasicViewLocatorSample
+______________________________________________________________________________________________________________________________________

@@ -17,6 +17,14 @@ MARKETING AI ---->https://www.youtube.com/watch?v=iUfW-D7ZaJk
  WARP AI ====> Terminal AI
  https://www.warp.dev/warp-ai
 ************************************************************************
+ GORILLA llm
+  https://github.com/ShishirPatil/gorilla
+
+************************************************************************
+ FALCON llm
+  https://github.com/Sentdex/Falcon-LLM
+  
+*************************************************************************
  IMAGESNES AI == fireply
  https://www.adobe.com/sensei/generative-ai/firefly.html
 ************************************************************************

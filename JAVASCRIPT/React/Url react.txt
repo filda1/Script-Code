@@ -202,3 +202,11 @@ https://pusher.com/tutorials/food-ordering-app-react-native-part-1
   https://www.youtube.com/watch?v=IATOicvih5A
 
 ****************************************************************************
+ USELLM
+
+ useLLM, un hook para React y Modelos de Inteligencia artificial
+ https://www.youtube.com/watch?v=1Oi2UwHDG3k (Fatz)
+ 
+ https://faztweb.com/contenido/usellm-un-hook-de-react-para-crear-chatbots
+ 
+ ****************************************************************************
