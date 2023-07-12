@@ -1,7 +1,12 @@
-
+  
+  ***************************************************************************************************************************************
+ SIGNALS
  SENALES en AGNGULAR >=16 ( Renderizacion rapida y Varible Global
   https://www.youtube.com/watch?v=jqGjE6iqkvg&list=WL&index=315
   https://github.com/Klerith/angular-signals-reqres/tree/fin-video-youtube
+  
+  
+  ******** https://www.youtube.com/watch?v=saCOnprxrcM&t=2s (nicobyte)
   
   ***************************************************************************************************************************************
   
