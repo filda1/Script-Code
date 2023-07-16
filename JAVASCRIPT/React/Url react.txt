@@ -23,6 +23,12 @@
   ECOSISTEMA REACT ======> https://www.youtube.com/watch?v=QsN9vlkB6MU
 
 *******************************************************************************************************************
+  REDUX TOOLKIT
+  
+   https://www.youtube.com/watch?v=bEEjuwujbbU   (midudev)
+    https://github.com/midudev/aprendiendo-react
+	
+*******************************************************************************************************************
 TURBOREPO (VARIOS PROYECTOS EN UNO) = monorepo
 
 https://www.youtube.com/watch?v=GzjN-MHFsmw (Fatz)  

@@ -30,6 +30,10 @@ Bibliotecas y Frameworks mencioandos:
  https://www.youtube.com/watch?v=Ppos09yFpzA
 
 *********************************************************************************************************
+ VER COMPATIBILIDAD
+  https://caniuse.com/
+
+*********************************************************************************************************
 
   CORTE AL MENOS 5 ESPACIOS (Split)
 
