@@ -8,6 +8,12 @@
 https://www.youtube.com/watch?v=TlFojzQNopA&list=PLJG25HlmvsOX8TiIGUZcVW-ez053YsOX0 PARTE 2
 
  ***********************************************************************
+  SPRING + CAMUNDA 8
+  
+  https://www.youtube.com/watch?v=0JEkQUqp1Ws
+  https://start.spring.io/
+ 
+ **********************************************************************
 
  FORMAS ===> https://www.youtube.com/watch?v=z1QCg-x5AFs
 
