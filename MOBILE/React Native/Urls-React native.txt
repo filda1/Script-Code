@@ -16,6 +16,12 @@ REACT NATIVE (EXPO) ========> https://www.youtube.com/watch?v=hXDMWeD0ERM (Fazt)
                                                            https://github.com/itzpradip/react-navigation-v5-mix
 
 ***********************************************************************************************************
+ RESTYLE = TRHMES, stilos..
+ 
+ https://www.youtube.com/watch?v=uOlqKTv_Z8E&list=WL&index=2
+ https://shopify.github.io/restyle/
+
+***********************************************************************************************************
  Stripe
 
  https://www.youtube.com/watch?v=50bIefoMo3c
