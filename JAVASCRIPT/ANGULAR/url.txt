@@ -56,6 +56,11 @@
   https://klanding-angular5.herokuapp.com/
 
 ****************************************************************************************************************
+ Select dependiente de otro ANGULAR 16 (DROPDOWN) 
+ https://www.youtube.com/watch?v=wfwr4H9NHL0&list=WL&index=3
+  https://github.com/bezael/dropdown-dependientes-ng16
+  
+****************************************************************************************************************
   FRAGMENTOS = SECTION NAV
 
    https://www.youtube.com/watch?v=Yg7YsoW3QVk

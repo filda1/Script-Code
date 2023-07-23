@@ -2,3 +2,6 @@
 ROUTER
 https://github.com/AvaloniaUI/Avalonia.Samples/tree/main/src/Avalonia.Samples/Routing/BasicViewLocatorSample
 ______________________________________________________________________________________________________________________________________
+
+INSTALAR MESSAGEBOX
+https://github.com/AvaloniaCommunity/MessageBox.Avalonia
