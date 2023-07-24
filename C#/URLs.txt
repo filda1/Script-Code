@@ -28,6 +28,10 @@
             return user!;
         }
 *****************************************************************************************
+ REDUX Simple
+ https://medium.com/@dbottiau/a-simple-redux-library-for-c-developers-using-reactive-extensions-453413a2b911
+ https://github.com/Odonno/ReduxSimple
+*****************************************************************************************
   EF7 (Sql server) == SuperRapido
    https://www.youtube.com/watch?v=RXNEjDEwzHI (hdeleon.net)
 
