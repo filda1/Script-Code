@@ -1,0 +1,6 @@
+
+
+https://help.solidworks.com/2021/english/api/epdmapi/csharpaddins.htm
+https://help.solidworks.com/2021/english/api/epdmapi/Using_NET_Framework_in_Addins.htm
+
+https://www.codestack.net/solidworks-api/getting-started/add-ins/

@@ -5,3 +5,8 @@ ________________________________________________________________________________
 
 INSTALAR MESSAGEBOX
 https://github.com/AvaloniaCommunity/MessageBox.Avalonia
+
+______________________________________________________________________________________________________________________________________
+
+LISTBOX
+  https://docs.avaloniaui.net/docs/controls/listbox

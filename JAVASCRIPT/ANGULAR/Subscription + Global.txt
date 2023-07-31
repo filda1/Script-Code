@@ -1,0 +1,80 @@
+import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Subscription } from 'rxjs';
+import { GlobalService } from 'ruta-al-global-service';
+
+@Component({
+  selector: 'app-tu-componente',
+  templateUrl: './tu-componente.component.html',
+  styleUrls: ['./tu-componente.component.css']
+})
+export class TuComponente implements OnInit, OnDestroy {
+  labelTitleHeader: any;
+  private subscription: Subscription;
+
+  constructor(private globalService: GlobalService) {}
+
+  ngOnInit() {
+    // Primero, refresca los datos antes de suscribirte
+    this.globalService.refreshData();
+
+    // Luego, suscríbete al Observable globalValue$
+    this.subscription = this.globalService.globalValue$.subscribe(data => {
+      this.labelTitleHeader = data;
+    });
+  }
+
+  ngOnDestroy() {
+    // Desuscribirse para evitar fugas de memoria
+    this.subscription.unsubscribe();
+  }
+}
+
+
+
+------------------------------------------------------------
+// GOLBAL----
+
+
+const httpOptions = {
+  headers: new HttpHeaders({
+    'Cache-Control': 'no-cache'
+  })
+};
+
+@Injectable()
+export class GlobalService {
+
+  private globalValue = new BehaviorSubject<any>(null);
+
+  public globalValue$ = this.globalValue.asObservable();
+
+constructor(private http: HttpClient, private userSessionService: UserSessionService) {
+  this.loadData();
+  }
+
+ loadData(): void {
+  this.getClientOptionsBit().subscribe(data => {
+    this.globalValue.next(data);
+  });
+ }
+
+ //Hide customer name
+ public getClientOptionsBit(): Observable<any> {
+  let service_id = this.userSessionService.getServiceId(); //Service Id
+  return this.http.get<any>('/api/v1/options/get-client-options-bit/' + service_id, httpOptions);
+ }
+
+  // Método para limpiar el BehaviorSubject
+  clearGlobalValue(): void {
+    this.globalValue.next(null);
+  }
+
+  // Método para llamar a loadData() nuevamente y obtener nuevos datos
+  refreshData(): void {
+    this.clearGlobalValue();
+    this.loadData();
+  }
+
+}
+
+

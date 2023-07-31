@@ -1,0 +1,47 @@
+--EXCEL CONECTADO a SOLIDAWORKS
+https://www.youtube.com/watch?v=K0R6eNA9eCs&list=PLlnc49tu3PG6L38PHgtvymh93EftbnbIx&index=1
+https://www.youtube.com/watch?v=syKoHbE3aF4&list=PLlnc49tu3PG6L38PHgtvymh93EftbnbIx&index=2
+
+
+ DOC OFFICIAL ===>
+                   https://help.solidworks.com/2020/Spanish/SolidWorks/sldworks/t_add_ins.htm
+                    https://help.solidworks.com/2020/English/SolidWorks/sldworks/t_add_ins.htm
+					
+					https://help.solidworks.com/2019/Spanish/EnterprisePDM/FileExplorer/c_Microsoft_office_add-in_Help.htm?id=49e2d96e81e349dcb6dbffc11d79c472#Pg0
+
+--- ADDONS DE EXCEL CONECTADO a SOLIDAWORKS
+Si ya tienes una macro en Excel que está conectada con SolidWorks y deseas empaquetarla para distribuirla o usarla en otro equipo, puedes seguir estos pasos para crear un archivo de complemento (Add-In) de Excel:
+
+1. Abre el libro de Excel que contiene la macro conectada con SolidWorks.
+
+2. Ve a la pestaña "Desarrollador" en Excel (si no ves esta pestaña, habilítala desde las opciones de Excel).
+
+3. Haz clic en "Visual Basic" para abrir el Editor de Visual Basic (VBA) de Excel.
+
+4. En el Editor de VBA, asegúrate de que la macro esté guardada en un Módulo de VBA. Si la macro está en una hoja de cálculo específica, cópiala a un nuevo Módulo (o crea uno nuevo) para asegurarte de que esté separada del libro de Excel.
+
+5. Ve al menú "Archivo" en el Editor de VBA y selecciona "Exportar archivo".
+
+6. Guarda el Módulo de VBA como un archivo ".bas" en una ubicación de tu elección.
+
+7. Cierra el Editor de VBA.
+
+8. Ahora, crea un archivo de complemento (.xlam) que haga referencia al archivo ".bas" que acabas de exportar. Para hacerlo, sigue estos pasos:
+
+   a. Abre una nueva instancia de Excel.
+
+   b. Ve a la pestaña "Desarrollador" y selecciona "Complementos".
+
+   c. En la ventana que se abre, haz clic en "Examinar" y selecciona el archivo ".bas" que exportaste previamente.
+
+   d. Haz clic en "Aceptar" para cargar el complemento.
+
+   e. Una vez cargado el complemento, ve nuevamente a la pestaña "Desarrollador" y selecciona "Agregar-Ins".
+
+   f. En la ventana de "Complementos disponibles", asegúrate de que el complemento que creaste esté marcado.
+
+   g. Haz clic en "Aceptar" para activar el complemento.
+
+9. Ahora tu macro conectada con SolidWorks se ha convertido en un archivo de complemento (.xlam). Puedes distribuir este archivo a otros usuarios o utilizarlo en otros equipos para que tengan acceso a la funcionalidad de la macro desde Excel.
+
+Espero que esta información te sea útil y te ayude a empaquetar tu macro conectada con SolidWorks como un complemento de Excel. Si tienes alguna otra pregunta, no dudes en hacerla.
