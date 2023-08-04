@@ -1,0 +1,10 @@
+
+ RxJS
+ 
+  1. dentro de pipe esta:
+     map
+	 filter
+     switchMap ---------------> Procesa 2 endpint o +  la mismo tiempo
+	 
+ 2- Concat -----> Une 2 observales en secuencia
+ 3- Merge  -----> Une todo de una vez

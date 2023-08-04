@@ -12,6 +12,11 @@ BACKEND OPEN SOURDE
  Condominio
    Lideco
    https://github.com/eapo/LiDeCo
+   
+***************************************************************************************************************************************
+ MONITOREO
+   UpTimeRobot
+   ***OpenStatus
 ***************************************************************************************************************************************
 ALRTERNATIVA SHOPiFY OPEN SOURCE === MEDUSA
 🔗 Site oficial Medusa: https://medusajs.com/
