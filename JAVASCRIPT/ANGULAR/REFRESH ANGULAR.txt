@@ -1,0 +1,16 @@
+import { Component } from '@angular/core';
+import { Location } from '@angular/common';
+
+@Component({
+  selector: 'app-refresh-button',
+  template: '<button (click)="refreshPage()">Refresh</button>'
+})
+export class RefreshButtonComponent {
+
+  constructor(private location: Location) { }
+
+  refreshPage() {
+    this.location.go(this.location.path());
+    window.location.reload();
+  }
+}

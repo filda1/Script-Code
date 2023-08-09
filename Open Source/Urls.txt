@@ -9,6 +9,12 @@ BACKEND OPEN SOURDE
    Portal
    
 ***************************************************************************************************************************************
+ PUSH NOTIFICATION MOBILE free
+  https://docs.ntfy.sh/
+  https://github.com/binwiederhier/ntfy
+  https://www.youtube.com/watch?v=WJgwWXt79pE
+
+*******************************************************************************************************************************
  Condominio
    Lideco
    https://github.com/eapo/LiDeCo
