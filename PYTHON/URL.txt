@@ -11,6 +11,11 @@
      https://github.com/ifrankandrade/automation
 
 *************************************************************************************************************************
+  CHATGP WEBSCRAPING
+  
+  https://www.youtube.com/watch?v=LiVAoPVlF9o
+
+*************************************************************************************************************************
 
   WEBSCRAPING + PYTHON = https://medium.com/@marlessonsantana/utilizando-o-scrapy-do-python-para-monitoramento-em-sites-de-notícias-web-crawler-ebdf7f1e4966
 
