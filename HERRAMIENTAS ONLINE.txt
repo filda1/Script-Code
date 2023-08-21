@@ -4,13 +4,15 @@ ________________________________________________________________________________
   https://dotnetfiddle.net/
   programiz
 
- https://onecompiler.com/csharp
+ ***** https://onecompiler.com/csharp
 ____________________________________________________________________________________________________________________________________________
 CONVERT DE EXCEL A SQL
 https://tableconvert.com/excel-to-sql
 
 ____________________________________________________________________________________________________________________________________________
-
+  GENERADOR DE GITIGNORE
+https://mrkandreev.name/snippets/gitignore-generator/
+____________________________________________________________________________________________________________________________________________
 COMPARADOR DE CODIGO
  https://url-decode.com/tool/code-compare
  

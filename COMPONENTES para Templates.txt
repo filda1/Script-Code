@@ -6,7 +6,7 @@
  
  ***** https://ui.shadcn.com/examples/tasks
  
- NextUI
+ NextUI  https://nextui.org/blog/nextui-v2
  
  https://m3.material.io/components/chips/overview
  
