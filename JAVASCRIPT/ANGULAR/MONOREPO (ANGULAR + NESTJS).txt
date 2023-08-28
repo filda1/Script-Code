@@ -9,7 +9,7 @@ https://www.youtube.com/watch?v=O7j-xpfK8lo&ab_channel=GuilhermeSiquinelli
 
  ****FUNCIONA
  
->> npx create-nx-workspace  my-proyect               (furniture-budget)
+>> npx create-nx-workspace  my-proyect               (furniture-budget)    fun-budget-v0_0_0
 
 None:          Configures a TypeScript/JavaScript project with minimal structure.
 
@@ -34,8 +34,22 @@ Integrated Monorepo:        Nx creates a monorepo that contains multiple project
 
 >> npx nx run-many -t serve --parallel   ------> TODO junto RUN
 
+ colocar en package.json:
+  "scripts": {
+    "start": "npx nx run-many -t serve --parallel"
+  },
+  
+ >> npm run start    -------------> Ahora RUN todos
 
  http://localhost:4200
+ 
+ 
+ 
+ >> npx nx run-many -t build    -------> Build todos
+ 
+ 
+ ---
+ ver comandos : https://nx.dev/core-features/run-tasks
  
  
  *** Ulizar ahora para crear Nx
