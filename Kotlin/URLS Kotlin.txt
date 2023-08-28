@@ -1,0 +1,6 @@
+URLS Kotlin
+
+KOTLIN_MULTIPLATAFORM
+ https://www.youtube.com/watch?v=G4D8S3j5LcA&list=PL8ie04dqq7_ORKWIwiaSTcyBKtasZtNUD&index=15
+
+Template --> https://github.com/JetBrains/compose-multiplatform-ios-android-template

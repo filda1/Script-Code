@@ -1,0 +1,92 @@
+
+ KOTLIN
+ https://www.youtube.com/watch?v=vJapzH_46a8&list=PL8ie04dqq7_OcBYDpvHrcSFVoggLi3cm_
+ 
+  val --> constante
+  var ---> variable
+  
+  
+  fun main(){
+  
+   print()
+   println()
+   
+   estaSimple( vari: "OLA")
+    conReturn (10, 20)
+  }
+  
+  
+  
+  ---
+  FUNCIONES:
+  
+   fun simepreAsi(){
+   
+   }
+   
+   fun estaSimple( vari: String){
+   
+      println( "Esto $vari")
+   }
+   
+   
+   fun conReturn (num1: Int, num2: Int): Int{
+     return num1 -num2
+   }
+   
+   
+  ---
+  VARIOS IF...
+  
+  when(numMonth){
+   1 -> print("enero")
+   2 -> { print ("Febrero")}
+   3 -> print("Marzo")
+   else -> println("NO existe")
+  
+  }
+  
+  ----
+  
+  arrayOf("", "")
+  
+  ---
+  BUCLES:
+  
+  
+   for( i in weeksDays.indices){
+     weeksDays[i]
+   }
+   
+   for( i, value in weeksDays.withIndex()){
+    
+   }
+   
+   for( value in weeksDays){
+ 
+   }
+   
+   
+   ---
+   LISTAS:
+   
+   val nameListMutable:List<String> = listOf("a", "b", "c";)
+   
+   nameListMutable.first()
+   nameListMutable[0]
+   
+   
+      val nameListINMutable:MutableList<String> = mutableListOf("a", "b", "c";)
+	  
+	  nameListINMutable.add("3")
+	  
+	  nameListINMutable.add(0,"3")
+	  
+	  ______________________________________________________________________________________________________________
+	  
+	  SPRING BOOT
+	  https://www.youtube.com/watch?v=SL6jjvC-G7I
+	  
+	  
+	  https://github.com/filda1/kotlin-api-skeleton
+	  ______________________________________________________________________________________________________________

@@ -1,3 +1,16 @@
 
+ 
+ 
+ 
  TUTORIAL 
+ 
+ *************https://www.youtube.com/watch?v=7fOjuCGE_jk&t=42s (FATZ)
+ 
+ ************ https://www.youtube.com/watch?v=W4_oH3anYHU&t=93s  (Fatz) == conectar a mysql
+ 
+ *** https://www.youtube.com/watch?v=lonpW-0EybY&list=PL_WGMLcL4jzWCFea1NUVOfaf4IqIMFN4P
+ 
+ Doc-->https://docs.nestjs.com/techniques/database
+ 
+ 
  https://www.youtube.com/watch?v=7fOjuCGE_jk&list=WL&index=251&t=33s (FATZ)

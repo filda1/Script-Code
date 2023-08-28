@@ -15,6 +15,21 @@ Bibliotecas y Frameworks mencioandos:
 * Hardware: Johnny-five.io, node red, iot.js
 
 *********************************************************************************************************
+ SVGNest
+   https://www.youtube.com/watch?v=TrwvgSwUT3o
+   http://svgeditoronline.com/editor/
+   
+   https://www.cadforum.cz/cz/2dsvgnest.asp
+
+*********************************************************************************************************
+ SERVIDO JS
+  1- npm install -g http-server
+
+  2- http-server
+
+  http://localhost:PUERTO
+
+*********************************************************************************************************
  FUNCION DENTRO DE OTRA FUNCION + return
    https://www.youtube.com/watch?v=frm0CHyeSbE
 

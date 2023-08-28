@@ -1,0 +1,19 @@
+Cargar Imagen
+
+
+1-  input type= FIle
+
+2. Dentro de e ( event esta file) =====> e.target.File[0]
+
+3- Adiciona a um Objeto FormData.   formData.append(File[0])
+
+ 4- Poner en post ---> multipart/formData
+----------------
+
+BACKEND
+
+ 4- Recibo el FormData .   .get("Nombredel File")
+ 
+ Viene un Objeto File{}
+ 
+ 5. Luego lo convierytes a arrayDeBytes / arraBuffers(por defecto Javascript)
