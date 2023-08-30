@@ -19,7 +19,7 @@ Integrated Monorepo:        Nx creates a monorepo that contains multiple project
 >> npm i -D @nx/angular @nx/nest
 
 
->> nx generate @nx/angular:application angular-app --routing --e2eTestRunner=none --style=sass
+>> nx generate @nx/angular:application angular-app --routing --e2eTestRunner=none --style=css
 
   Would you like to use Standalone Components? (y/N) · false
 
@@ -55,6 +55,37 @@ Integrated Monorepo:        Nx creates a monorepo that contains multiple project
  *** Ulizar ahora para crear Nx
     https://nx.dev/getting-started/intro?utm_source=nx-project
 
+
+
+ comandos:
+ 
+ BUILD ANGULA:
+ npx nx build angular-app
+
+ 
+ Angular CLI (npm i -g @angular/cli)
+ Nx CLI (npm i -g @nrwl/cli)
+ 
+  
+  ---
+  npm cache clean --force
+  
+  ANGULAR MATERIAL:
+  npm install @angular/material
+  npx nx generate @angular/material:ng-add --project=angular-app
+
+  EJEMPLO
+  npx nx generate @angular/material:navigation app-shell --project=angular-app
+  
+  COMPONENTE
+    npx nx generate @nx/angular:component NOMBRE --project=angular-app --displayBlock --flat
+	
+	Ejemplo: ---> layout/header/header  (carpeta/carpeta/nombre_de_componente)
+	npx nx generate @nx/angular:component layout/header/header --project=angular-app --displayBlock --flat
+  
+  
+  MODULO
+  npx nx generate @nx/angular:module layout --project=angular-app 
 _________________________________________________________________________________________
 
 
@@ -184,3 +215,12 @@ export class FrontendMiddleware implements NestMiddleware {
   - angular.json:
   
       "proxyConfig": "apps/frontend/proxy.conf.json"
+	  
+	  
+	  
+	  
+	  
+	  ------------
+	  
+	  
+	  Angular Dark Mode -----> https://www.youtube.com/watch?v=a06V_hpIaY8
