@@ -1,0 +1,24 @@
+URLS Kotlin
+
+
+----------------------------
+KOTLIN_MULTIPLATAFORM
+ https://www.youtube.com/watch?v=G4D8S3j5LcA&list=PL8ie04dqq7_ORKWIwiaSTcyBKtasZtNUD&index=15
+
+Template --> https://github.com/JetBrains/compose-multiplatform-ios-android-template
+
+
+-------------------------
+
+MOBILE
+
+ https://www.youtube.com/watch?v=EmUx8wgRxJw&t=244s  ---> MVVM
+ https://github.com/ArisGuimera/JetpackComposeMVVM
+ 
+
+ -----
+ 
+ KOTLIN
+
+https://www.youtube.com/watch?v=T3ugOYTRF7c&list=WL&index=399
+https://github.com/mouredev/one-day-one-language

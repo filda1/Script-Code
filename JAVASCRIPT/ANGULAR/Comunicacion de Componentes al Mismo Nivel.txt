@@ -1,0 +1,65 @@
+Mis disculpas por la confusión anterior. Si deseas establecer una comunicación directa entre los componentes A y B al mismo nivel utilizando `@Output`, necesitas utilizar un componente padre o un componente contenedor para gestionar la comunicación entre ellos. Aquí tienes un ejemplo:
+
+**componente-padre.component.html** (Componente Padre):
+```html
+<app-componente-a (mensajeEnviado)="mensajeRecibido($event)"></app-componente-a>
+<app-componente-b [mensaje]="mensaje"></app-componente-b>
+```
+
+**componente-padre.component.ts** (Componente Padre):
+```typescript
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-componente-padre',
+  template: `
+    <app-componente-a (mensajeEnviado)="mensajeRecibido($event)"></app-componente-a>
+    <app-componente-b [mensaje]="mensaje"></app-componente-b>
+  `,
+})
+export class ComponentePadre {
+  mensaje: string = '';
+
+  mensajeRecibido(mensaje: string) {
+    this.mensaje = mensaje;
+  }
+}
+```
+
+**componente-a.component.ts** (Componente A):
+```typescript
+import { Component, Output, EventEmitter } from '@angular/core';
+
+@Component({
+  selector: 'app-componente-a',
+  template: `
+    <button (click)="enviarMensaje()">Enviar Mensaje</button>
+  `,
+})
+export class ComponenteA {
+  @Output() mensajeEnviado = new EventEmitter<string>();
+
+  enviarMensaje() {
+    this.mensajeEnviado.emit('Hola desde Componente A');
+  }
+}
+```
+
+**componente-b.component.ts** (Componente B):
+```typescript
+import { Component, Input } from '@angular/core';
+
+@Component({
+  selector: 'app-componente-b',
+  template: `
+    <p>{{ mensaje }}</p>
+  `,
+})
+export class ComponenteB {
+  @Input() mensaje: string = '';
+}
+```
+
+En este ejemplo, el componente padre (`ComponentePadre`) actúa como intermediario para comunicar los componentes A y B. Cuando se hace clic en el botón en el componente A, se emite un evento `mensajeEnviado` que es escuchado por el componente padre. Luego, el componente padre pasa el mensaje al componente B a través de la propiedad `mensaje`.
+
+Es importante tener en cuenta que, en Angular, la comunicación directa entre componentes hermanos al mismo nivel suele ser más eficiente utilizando un servicio compartido o una administración de estado global.

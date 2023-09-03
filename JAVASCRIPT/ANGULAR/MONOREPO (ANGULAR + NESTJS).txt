@@ -36,7 +36,8 @@ Integrated Monorepo:        Nx creates a monorepo that contains multiple project
 
  colocar en package.json:
   "scripts": {
-    "start": "npx nx run-many -t serve --parallel"
+    "start": "npx nx run-many -t serve --parallel",
+    "build": "npx nx run-many -t build"
   },
   
  >> npm run start    -------------> Ahora RUN todos
@@ -74,7 +75,7 @@ Integrated Monorepo:        Nx creates a monorepo that contains multiple project
   npm install @angular/material
   npx nx generate @angular/material:ng-add --project=angular-app
 
-  EJEMPLO
+  EJEMPLO -->navigation
   npx nx generate @angular/material:navigation app-shell --project=angular-app
   
   COMPONENTE
@@ -89,138 +90,8 @@ Integrated Monorepo:        Nx creates a monorepo that contains multiple project
 _________________________________________________________________________________________
 
 
-
-OTRA FORMA VIEJA... no funciona bien
-
-https://www.youtube.com/watch?v=eO_4iN1u21g
-https://github.com/kedevked/angular-nest/
-
-Monorepo with Angular and NestJs using Nx
-
-
->> npx create-nx-workspace --present=angular
-
- -- Workspase name: my-proyect
- -- Apication name: frontend
- 
->> cd my-proyect
-
->> npm install -D @nrwl/nest
-
-
->> nx generate  @nrwl/nest:application backend
-
->> ng add @nguniversal/express-engine
-
-
->> code .
-
-
->> npm install -s @nestjs/ng-universal
-
-
-
----
-CONGIG:
-
-app.module:
- 
-  import { AngularUniversalModule} from '@nestjs/ng-universal'
-  import { join} from 'path'
-  import {AppServerModule} from  '../../../frontend/server'
-
- imports:[
- 
-  AngularUniversalModule.forRoot({
-   boostrapt: AppServerModule,
-   viewsPath: join(process.cwd(), 'dist/frontend/browser' )
-  })
----
-
->> nx build frontend
-
->> nx serve frontend  y    >> nx server backend
-
-
-
----------------
-Dentro de backend
-
-1. Crear una carpeta y archivo:
-     /backend/src/app/middlewares/frontend.middleware.ts
-	 
-	 
- COlocar code:
- 
- 
- *****
- import { Injectable, NestMiddleware } from '@nestjs/common';
-import { NextFunction, Request, Response } from 'express';
-import * as path from 'path';
-import { extname } from 'path';
-
-@Injectable()
-export class FrontendMiddleware implements NestMiddleware {
-
-    // tslint:disable-next-line: ban-types
-    use(req: Request, res: Response, next: NextFunction): void {
-        const { baseUrl } = req;
-
-        if (baseUrl.includes('api')) {
-            return next();
-        }
-
-        const accept = req.accepts('html', 'json', 'xml');
-        if (accept !== 'html') {
-            return next();
-        }
-
-        const ext = extname(req.originalUrl);
-        if (ext !== '') {
-            return next();
-        }
-
-        // res.sendFile(join(__dirname, '../../browser', 'index.html'));
-        res.sendFile(path.resolve('dist/frontend/browser/index.html'));
-    }
-}
- 
- *****
- 
- Ahora en frontend:
- 
-  en app.module:
+  Navbar ==>https://www.youtube.com/watch?v=ADEZTrIxj1k
+  https://www.youtube.com/watch?v=IRzGphrefsY
   
   
-  export class AppModule { 
-    configure(consumer: MiddlewareConsumer):void{
-	 consumer.apply(FrontendMiddleware).forRoutes({
-	   path: '/**',
-	   method: RequestMethod.All,
-	})
-  }
-  
-  
-  
-  -Crear afuera el archivo: proxy.conf.json
-   {
-     "/api":{
-	     "target": "http//localhost:3333",
-		 "secure": fasle
-	 }
-   }
-  
-  * http//localhost:3333 --> es el backend
-  
-  - angular.json:
-  
-      "proxyConfig": "apps/frontend/proxy.conf.json"
-	  
-	  
-	  
-	  
-	  
-	  ------------
-	  
-	  
-	  Angular Dark Mode -----> https://www.youtube.com/watch?v=a06V_hpIaY8
+  TODO : https://www.youtube.com/watch?v=IU0SU4lbAwY
