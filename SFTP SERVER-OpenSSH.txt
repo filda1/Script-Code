@@ -15,7 +15,7 @@ INSTALAR OPENSHH (en Windows Server)
   
 https://www.youtube.com/watch?v=BR9qc_1unu8&ab_channel=Mushaaf
 Install SFTP in Windows Server 2019
-https://mushaaf.net/installing-sftp-server-2019/
+**************************** https://mushaaf.net/installing-sftp-server-2019/
 
 3. Criar Pasta:   E:\SFTPRoot
 

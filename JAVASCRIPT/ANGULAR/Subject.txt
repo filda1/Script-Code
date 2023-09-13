@@ -1,0 +1,35 @@
+
+
+ SUBJECT
+ 
+ ----------
+ 
+ SERVICE:
+ 
+  export class LocalStorageService {
+   dataEmiter = new Subject();
+
+
+
+  sendDataEmiter( data: string){
+    this.dataEmiter.next(data);
+  }
+
+}
+
+
+---------
+
+ COMPONENTE 1:
+ //Envio
+         this.localStoreService.sendDataEmiter( 'dark') //Send dashboard 
+		 
+		 
+-----
+COMPONENTE 2:
+ //RECIBO
+    
+    this.localStorageService.dataEmiter.subscribe((data) => {
+      //console.log('data --->', data);
+
+    });
