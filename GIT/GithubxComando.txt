@@ -33,6 +33,14 @@ Sino funcion : poner luego:  >> git fetch
                              >>  git checkout master
                              >> git push
 
+ ADICIONAR STAGE
+ >> git add .  -----------> Adicionar todo a STAGE
+ >> git add "ficheiro" -------------> Adicionar 1 ficheiro a STAGE
+ 
+ 
+ CLONE
+ >> git clone ...
+ 
 
  ACTUALIZAR  2 PERSONAS DEL MISMO REPOSITORIO 
  >> git fetch  =============> local
@@ -56,6 +64,15 @@ Sino funcion : poner luego:  >> git fetch
 REMOVE RAMA LOCAL
  >> git branch -D <branch-name>
     git branch -d <branch-name>
+	
+	
+ CAMBIAR USER DE GIT REPOSITORIO
+  >> git config user.name "nombre de usuario"   ------> Cambiar User
+  >> git config user.email usuario@gmail.com    -----> Cambiar Email
+  
+  >> git config user.name ----> Ver Usuario Activo
+  >> git config user.email ----> Ver Email Activo
+  
 - ----------------------------------------------------------------------------------------
  CREAR UN RAMA NUEVA SOBRE EL MISMO REPOSITORIO
 

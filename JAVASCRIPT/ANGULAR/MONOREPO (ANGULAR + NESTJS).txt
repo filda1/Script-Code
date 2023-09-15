@@ -87,6 +87,13 @@ Integrated Monorepo:        Nx creates a monorepo that contains multiple project
   
   MODULO
   npx nx generate @nx/angular:module layout --project=angular-app 
+  
+  
+  nx generate @nrwl/angular:library translation  ---> TRaslate
+
+  
+
+
 _________________________________________________________________________________________
 
 
