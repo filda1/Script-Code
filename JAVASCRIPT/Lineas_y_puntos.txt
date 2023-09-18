@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plano Cartesiano con Líneas</title>
+    <style>
+        #plano {
+            width: 400px;
+            height: 400px;
+            border: 1px solid black;
+            position: relative;
+        }
+
+        .punto {
+            width: 10px;
+            height: 10px;
+            background-color: red;
+            border-radius: 50%;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div id="plano"></div>
+
+    <script>
+        const plano = document.getElementById('plano');
+        const puntos = [];
+
+        let puntoAnterior = null;
+
+        plano.addEventListener('click', (e) => {
+            const punto = document.createElement('div');
+            punto.className = 'punto';
+            punto.style.left = (e.clientX - plano.getBoundingClientRect().left - 5) + 'px';
+            punto.style.top = (e.clientY - plano.getBoundingClientRect().top - 5) + 'px';
+            plano.appendChild(punto);
+
+            puntos.push({ x: e.clientX, y: e.clientY });
+
+            if (puntos.length > 1) {
+                const linea = document.createElement('div');
+                linea.style.position = 'absolute';
+                linea.style.backgroundColor = 'blue';
+                const puntoAnterior = puntos[puntos.length - 2];
+                const puntoActual = puntos[puntos.length - 1];
+                linea.style.width = Math.sqrt((puntoActual.x - puntoAnterior.x)**2 + (puntoActual.y - puntoAnterior.y)**2) + 'px';
+                linea.style.height = '2px';
+                linea.style.transformOrigin = 'top left';
+                linea.style.transform = `rotate(${Math.atan2(puntoActual.y - puntoAnterior.y, puntoActual.x - puntoAnterior.x)}rad)`;
+                linea.style.left = (puntoAnterior.x - plano.getBoundingClientRect().left) + 'px';
+                linea.style.top = (puntoAnterior.y - plano.getBoundingClientRect().top) + 'px';
+                plano.appendChild(linea);
+            }
+        });
+    </script>
+</body>
+</html>
