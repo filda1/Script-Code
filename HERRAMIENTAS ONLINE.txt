@@ -105,3 +105,35 @@ AI imagenes
  COMPARADOR DE CODIGO
    https://url-decode.com/tool/code-compare
 ------------------------------------------
+
+
+  ANGULAR DEBUG
+  
+  Angular state inspect (ves el html) ==>https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode
+  
+  Angular ddev tools  > 12+   ==> https://chrome.google.com/webstore/detail/angular-devtools/ienfalfjdbdpebioblfackkekamfmbnh/related
+  
+  Augury para Crome y Firefox
+    https://www.youtube.com/watch?v=5-87Gd9PfOI
+  https://augury.rangle.io/
+  
+  
+  -----------------------------------------
+  
+  VS CODE log en codigo
+  QUOKKA
+  https://quokkajs.com/docs/#getting-started
+  https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode
+
+
+---------------------------------------------------------------------------------
+
+ PLUGIN DE DIMENSIONES
+ 
+   https://chrome.google.com/webstore/detail/dimensions/baocaagndhipibgklemoalmkljaimfdj
+   
+***********************************************************************************
+ tools DEV
+ https://free-for.dev/#/
+  
+  

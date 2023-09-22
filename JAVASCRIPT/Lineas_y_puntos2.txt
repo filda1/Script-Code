@@ -439,3 +439,45 @@
     </script>
 </body>
 </html>
+
+2 Size Properties — width and height —
+8 Position Properties— left, top, right, bottom, x, y.
+-----
+  plano.getBoundingClientRect().right
+  
+ plano.getBoundingClientRect().bottom
+  
+  
+  -------------------
+  ptoCentroElemetoX = ((right - x)/2) + x
+  
+  ptoCentroElemetoY = ((bottom - y)/2) + y
+  
+  .................................CALCULO ..................................
+  // Pto de Referencia ventana de Windows
+  // x = left 
+  // y = botoom
+  
+  //Pto centro del plano
+  canvasCenterX = ((right - x)/2) + x
+  canvasCenterY = ((bottom - y)/2) + y
+  
+  //Pto del mouse
+  mouseX = e.clientX
+  mouseY = e. clientY
+  
+  //Area restringida = plano, para crear ptos
+  IF ( ( mouseX => x  &&  mouseX <= right)  && (mouseY => y  && mouseY <= bottom) )
+  
+  
+  
+  .................................CALCULO ..................................
+  -------------------
+  
+  
+  POSICION DEL MOUSE X ===> e.clientX
+  
+  POSICION DEL MOUSE Y ===> e.clientY
+  
+  https://www.freecodecamp.org/news/how-to-make-a-custom-mouse-cursor-with-css-and-javascript/
+  https://icons8.com/icons/set/crosshair-center-cursors

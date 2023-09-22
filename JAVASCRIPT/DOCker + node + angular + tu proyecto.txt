@@ -1,0 +1,48 @@
+Por supuesto, puedes definir la versión específica de Node.js en tu archivo `docker-compose.yml` usando variables de entorno para configurar el servicio Node.js. Aquí tienes un ejemplo en YAML:
+
+```yaml
+version: '3'
+services:
+  angular-app:
+    build:
+      context: ./frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - node-app
+    volumes:
+      - ./frontend:/app
+
+  node-app:
+    build:
+      context: ./backend
+    environment:
+      - NODE_VERSION=10.15
+    ports:
+      - "3000:3000"
+    depends_on:
+      - sql-server
+    volumes:
+      - ./backend:/app
+
+  sql-server:
+    image: mcr.microsoft.com/mssql/server:latest
+    environment:
+      SA_PASSWORD: YourStrongPassword
+      ACCEPT_EULA: Y
+    ports:
+      - "1433:1433"
+```
+
+En este archivo `docker-compose.yml`:
+
+- Hemos añadido una variable de entorno llamada `NODE_VERSION` en el servicio `node-app` y la hemos establecido en `10.15`. Esto le indicará a Docker que use Node.js versión 10.15 para ese servicio específico.
+
+- Los módulos `node_modules` todavía no se copiarán al contenedor; en su lugar, el código fuente se montará mediante volúmenes. Los volúmenes aseguran que el código fuente esté sincronizado entre tu sistema local y el contenedor, permitiéndote mantener `node_modules` fuera del contenedor.
+
+Cuando ejecutes `docker-compose up -d`, los contenedores utilizarán la versión de Node.js 10.15 especificada en el servicio `node-app`. Los módulos `node_modules` deben estar instalados en tu máquina local y no dentro de los contenedores.
+
+---
+>> docker-compose up -d
+```
+
