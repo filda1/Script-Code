@@ -87,7 +87,7 @@ CMD [ "node", "server.js" ]
 
  >> docker build -t NOMBRE_x .    =========> Conviert DockerFile en Container/Image
  >> docker run -p 7000:3000 --name server2 NOMBRE_x    ======> RUN Conatiner creado. 3000 puerto interno de proyecto NODE y 7000 el puerto externo (Donde se ve). Solo corriendo en purto 3300 o externo ja corre todo los servidores dentro
- >> docker exec -it NOMBRE_x  bash   ======> dentro de Proyecto    
+ >> docker exec -it NOMBRE_x  bash   ======> dentro de Proyecto ******************   
     >> node --version... (Prueba)
 
 

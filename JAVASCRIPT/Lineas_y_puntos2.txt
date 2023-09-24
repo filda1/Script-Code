@@ -481,3 +481,1560 @@
   
   https://www.freecodecamp.org/news/how-to-make-a-custom-mouse-cursor-with-css-and-javascript/
   https://icons8.com/icons/set/crosshair-center-cursors
+  
+  
+  
+  -------------------
+  
+  -<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Líneas Rectas en Canvas</title>
+    <style>
+        canvas {
+            border: 1px solid #000;
+        }
+        
+        /* Establece el cursor personalizado */
+        body {
+            cursor: url('ruta/a/la/imagen/cursor.png') 10 10, crosshair;
+            /* Cambia 'ruta/a/la/imagen/cursor.png' por la ruta real de tu imagen */
+        }
+    </style>
+</head>
+<body>
+    <canvas id="myCanvas" width="400" height="400"></canvas>
+    <script>
+        const canvas = document.getElementById('myCanvas');
+        const ctx = canvas.getContext('2d');
+        let puntos = []; // Array para almacenar los puntos clicados
+
+        canvas.addEventListener('mousemove', (e) => {
+            const mouseX = e.clientX - canvas.getBoundingClientRect().left;
+            const mouseY = e.clientY - canvas.getBoundingClientRect().top;
+
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            // Dibujar los puntos
+            ctx.fillStyle = 'red'; // Color de los puntos
+            puntos.forEach((p) => {
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, 5, 0, 2 * Math.PI);
+                ctx.fill();
+            });
+
+            // Dibujar la línea imaginaria desde el centro del último punto hasta la posición del cursor
+            if (puntos.length > 0) {
+                const ultimoPunto = puntos[puntos.length - 1];
+                const centroUltimoPunto = { x: ultimoPunto.x, y: ultimoPunto.y };
+                ctx.strokeStyle = 'gray'; // Color de la línea imaginaria
+                ctx.lineWidth = 2; // Grosor de la línea imaginaria
+                ctx.setLineDash([5, 5]); // Establecer el patrón de línea punteada
+                ctx.beginPath();
+                ctx.moveTo(centroUltimoPunto.x, centroUltimoPunto.y);
+                ctx.lineTo(mouseX, mouseY);
+                ctx.stroke();
+
+                // Dibujar las rectas que conectan los puntos
+                ctx.strokeStyle = 'blue'; // Color de las rectas
+                ctx.lineWidth = 2; // Grosor de las rectas
+                ctx.setLineDash([]); // Restablecer el patrón de línea (sólida)
+                ctx.beginPath();
+                ctx.moveTo(puntos[0].x, puntos[0].y);
+                puntos.forEach((p) => {
+                    ctx.lineTo(p.x, p.y);
+                });
+                ctx.stroke();
+            }
+        });
+
+        canvas.addEventListener('click', (e) => {
+            const mouseX = e.clientX - canvas.getBoundingClientRect().left;
+            const mouseY = e.clientY - canvas.getBoundingClientRect().top;
+
+            // Al hacer clic, se agrega un punto
+            puntos.push({ x: mouseX, y: mouseY });
+        });
+    </script>
+</body>
+</html>
+
+--------------------
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Líneas Rectas en Canvas</title>
+    <style>
+        canvas {
+            border: 1px solid #000;
+        }
+        
+        /* Establece el cursor personalizado */
+        body {
+            cursor: none;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="myCanvas" width="400" height="400"></canvas>
+    <script>
+        const canvas = document.getElementById('myCanvas');
+        const ctx = canvas.getContext('2d');
+        let puntos = []; // Array para almacenar los puntos clicados
+
+        // Tamaño de la cruz amarilla
+        const cruzSize = 20;
+        const cruzColor = 'yellow';
+        let cursorX = 0;
+        let cursorY = 0;
+
+        canvas.addEventListener('mousemove', (e) => {
+            const mouseX = e.clientX - canvas.getBoundingClientRect().left;
+            const mouseY = e.clientY - canvas.getBoundingClientRect().top;
+
+            cursorX = mouseX;
+            cursorY = mouseY;
+
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            // Dibujar los puntos
+            ctx.fillStyle = 'red'; // Color de los puntos
+            puntos.forEach((p) => {
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, 5, 0, 2 * Math.PI);
+                ctx.fill();
+            });
+
+            // Dibujar la línea imaginaria desde el centro del último punto hasta la posición del cursor
+            if (puntos.length > 0) {
+                const ultimoPunto = puntos[puntos.length - 1];
+                const centroUltimoPunto = { x: ultimoPunto.x, y: ultimoPunto.y };
+                ctx.strokeStyle = 'gray'; // Color de la línea imaginaria
+                ctx.lineWidth = 2; // Grosor de la línea imaginaria
+                ctx.setLineDash([5, 5]); // Establecer el patrón de línea punteada
+                ctx.beginPath();
+                ctx.moveTo(centroUltimoPunto.x, centroUltimoPunto.y);
+                ctx.lineTo(cursorX, cursorY);
+                ctx.stroke();
+
+                // Dibujar las rectas que conectan los puntos
+                ctx.strokeStyle = 'blue'; // Color de las rectas
+                ctx.lineWidth = 2; // Grosor de las rectas
+                ctx.setLineDash([]); // Restablecer el patrón de línea (sólida)
+                ctx.beginPath();
+                ctx.moveTo(puntos[0].x, puntos[0].y);
+                puntos.forEach((p) => {
+                    ctx.lineTo(p.x, p.y);
+                });
+                ctx.stroke();
+            }
+
+            // Dibujar el cursor del mouse
+            ctx.strokeStyle = 'black'; // Color del cursor
+            ctx.beginPath();
+            ctx.moveTo(cursorX - cruzSize, cursorY);
+            ctx.lineTo(cursorX + cruzSize, cursorY);
+            ctx.moveTo(cursorX, cursorY - cruzSize);
+            ctx.lineTo(cursorX, cursorY + cruzSize);
+            ctx.stroke();
+
+            // Dibujar la cruz amarilla alrededor del cursor
+            ctx.strokeStyle = cruzColor;
+            ctx.beginPath();
+            ctx.moveTo(cursorX - cruzSize, cursorY);
+            ctx.lineTo(cursorX + cruzSize, cursorY);
+            ctx.moveTo(cursorX, cursorY - cruzSize);
+            ctx.lineTo(cursorX, cursorY + cruzSize);
+            ctx.stroke();
+        });
+
+        canvas.addEventListener('click', (e) => {
+            const mouseX = e.clientX - canvas.getBoundingClientRect().left;
+            const mouseY = e.clientY - canvas.getBoundingClientRect().top;
+
+            // Al hacer clic, se agrega un punto
+            puntos.push({ x: mouseX, y: mouseY });
+        });
+    </script>
+</body>
+</html>
+
+
+
+------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Líneas Rectas en Canvas</title>
+    <style>
+        canvas {
+            border: 1px solid #000;
+        }
+        
+        /* Establece el cursor personalizado */
+        body {
+            cursor: none;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="myCanvas" width="400" height="400"></canvas>
+    <script>
+        const canvas = document.getElementById('myCanvas');
+        const ctx = canvas.getContext('2d');
+        let puntos = []; // Array para almacenar los puntos clicados
+
+        // Hacer que la cruz amarilla cubra todo el canvas
+        const cruzSizeX = canvas.width;
+        const cruzSizeY = canvas.height;
+        const cruzColor = 'yellow';
+        let cursorX = 0;
+        let cursorY = 0;
+
+        canvas.addEventListener('mousemove', (e) => {
+            const mouseX = e.clientX - canvas.getBoundingClientRect().left;
+            const mouseY = e.clientY - canvas.getBoundingClientRect().top;
+
+            cursorX = mouseX;
+            cursorY = mouseY;
+
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            // Dibujar los puntos
+            ctx.fillStyle = 'red'; // Color de los puntos
+            puntos.forEach((p) => {
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, 5, 0, 2 * Math.PI);
+                ctx.fill();
+            });
+
+            // Dibujar la línea imaginaria desde el centro del último punto hasta la posición del cursor
+            if (puntos.length > 0) {
+                const ultimoPunto = puntos[puntos.length - 1];
+                const centroUltimoPunto = { x: ultimoPunto.x, y: ultimoPunto.y };
+                ctx.strokeStyle = 'gray'; // Color de la línea imaginaria
+                ctx.lineWidth = 2; // Grosor de la línea imaginaria
+                ctx.setLineDash([5, 5]); // Establecer el patrón de línea punteada
+                ctx.beginPath();
+                ctx.moveTo(centroUltimoPunto.x, centroUltimoPunto.y);
+                ctx.lineTo(cursorX, cursorY);
+                ctx.stroke();
+
+                // Dibujar las rectas que conectan los puntos
+                ctx.strokeStyle = 'blue'; // Color de las rectas
+                ctx.lineWidth = 2; // Grosor de las rectas
+                ctx.setLineDash([]); // Restablecer el patrón de línea (sólida)
+                ctx.beginPath();
+                ctx.moveTo(puntos[0].x, puntos[0].y);
+                puntos.forEach((p) => {
+                    ctx.lineTo(p.x, p.y);
+                });
+                ctx.stroke();
+            }
+
+            // Dibujar la cruz amarilla que cubre todo el canvas
+            ctx.strokeStyle = cruzColor;
+            ctx.lineWidth = 2;
+            ctx.beginPath();
+            ctx.moveTo(0, cursorY);
+            ctx.lineTo(cruzSizeX, cursorY);
+            ctx.moveTo(cursorX, 0);
+            ctx.lineTo(cursorX, cruzSizeY);
+            ctx.stroke();
+        });
+
+        canvas.addEventListener('click', (e) => {
+            const mouseX = e.clientX - canvas.getBoundingClientRect().left;
+            const mouseY = e.clientY - canvas.getBoundingClientRect().top;
+
+            // Al hacer clic, se agrega un punto
+            puntos.push({ x: mouseX, y: mouseY });
+        });
+    </script>
+</body>
+</html>
+
+
+-----------------  Cruz grande
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Líneas Rectas en Canvas</title>
+    <style>
+        canvas {
+            border: 1px solid #000;
+        }
+        
+        /* Establece el cursor personalizado */
+        body {
+            cursor: none;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="myCanvas" width="400" height="400"></canvas>
+    <script>
+        const canvas = document.getElementById('myCanvas');
+        const ctx = canvas.getContext('2d');
+        let puntos = []; // Array para almacenar los puntos clicados
+
+        // Hacer que la cruz amarilla cubra todo el canvas
+        const cruzSizeX = canvas.width;
+        const cruzSizeY = canvas.height;
+        const cruzColor = 'yellow';
+        let cursorX = 0;
+        let cursorY = 0;
+
+        canvas.addEventListener('mousemove', (e) => {
+            const mouseX = e.clientX - canvas.getBoundingClientRect().left;
+            const mouseY = e.clientY - canvas.getBoundingClientRect().top;
+
+            cursorX = mouseX;
+            cursorY = mouseY;
+
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            // Dibujar los puntos
+            ctx.fillStyle = 'red'; // Color de los puntos
+            puntos.forEach((p) => {
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, 5, 0, 2 * Math.PI);
+                ctx.fill();
+            });
+
+            // Dibujar la línea imaginaria desde el centro del último punto hasta la posición del cursor
+            if (puntos.length > 0) {
+                const ultimoPunto = puntos[puntos.length - 1];
+                const centroUltimoPunto = { x: ultimoPunto.x, y: ultimoPunto.y };
+                ctx.strokeStyle = 'gray'; // Color de la línea imaginaria
+                ctx.lineWidth = 2; // Grosor de la línea imaginaria
+                ctx.setLineDash([5, 5]); // Establecer el patrón de línea punteada
+                ctx.beginPath();
+                ctx.moveTo(centroUltimoPunto.x, centroUltimoPunto.y);
+                ctx.lineTo(cursorX, cursorY);
+                ctx.stroke();
+
+                // Dibujar las rectas que conectan los puntos
+                ctx.strokeStyle = 'blue'; // Color de las rectas
+                ctx.lineWidth = 2; // Grosor de las rectas
+                ctx.setLineDash([]); // Restablecer el patrón de línea (sólida)
+                ctx.beginPath();
+                ctx.moveTo(puntos[0].x, puntos[0].y);
+                puntos.forEach((p) => {
+                    ctx.lineTo(p.x, p.y);
+                });
+                ctx.stroke();
+            }
+
+            // Dibujar la cruz amarilla que cubre todo el canvas
+            ctx.strokeStyle = cruzColor;
+            ctx.lineWidth = 2;
+            ctx.beginPath();
+            ctx.moveTo(0, cursorY);
+            ctx.lineTo(cruzSizeX, cursorY);
+            ctx.moveTo(cursorX, 0);
+            ctx.lineTo(cursorX, cruzSizeY);
+            ctx.stroke();
+
+            // Dibujar la cruz negra del mouse
+            ctx.strokeStyle = 'black'; // Color del cursor
+            ctx.beginPath();
+            ctx.moveTo(cursorX - 10, cursorY);
+            ctx.lineTo(cursorX + 10, cursorY);
+            ctx.moveTo(cursorX, cursorY - 10);
+            ctx.lineTo(cursorX, cursorY + 10);
+            ctx.stroke();
+        });
+
+        canvas.addEventListener('click', (e) => {
+            const mouseX = e.clientX - canvas.getBoundingClientRect().left;
+            const mouseY = e.clientY - canvas.getBoundingClientRect().top;
+
+            // Al hacer clic, se agrega un punto
+            puntos.push({ x: mouseX, y: mouseY });
+        });
+    </script>
+</body>
+</html>
+
+
+--- esc
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Líneas Rectas en Canvas</title>
+    <style>
+        canvas {
+            border: 1px solid #000;
+        }
+        
+        /* Establece el cursor personalizado */
+        body {
+            cursor: none;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="myCanvas" width="400" height="400"></canvas>
+    <script>
+        const canvas = document.getElementById('myCanvas');
+        const ctx = canvas.getContext('2d');
+        let puntos = []; // Array para almacenar los puntos clicados
+
+        // Hacer que la cruz amarilla cubra todo el canvas
+        const cruzSizeX = canvas.width;
+        const cruzSizeY = canvas.height;
+        const cruzColor = 'yellow';
+        let cursorX = 0;
+        let cursorY = 0;
+        let mostrarCruzAmarilla = true; // Variable para controlar la visibilidad de la cruz amarilla
+        let dibujando = true; // Variable para controlar si se permite dibujar
+
+        canvas.addEventListener('mousemove', (e) => {
+            const mouseX = e.clientX - canvas.getBoundingClientRect().left;
+            const mouseY = e.clientY - canvas.getBoundingClientRect().top;
+
+            cursorX = mouseX;
+            cursorY = mouseY;
+
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            // Dibujar los puntos
+            ctx.fillStyle = 'red'; // Color de los puntos
+            puntos.forEach((p) => {
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, 5, 0, 2 * Math.PI);
+                ctx.fill();
+            });
+
+            // Dibujar la línea imaginaria desde el centro del último punto hasta la posición del cursor
+            if (puntos.length > 0 && dibujando) {
+                const ultimoPunto = puntos[puntos.length - 1];
+                const centroUltimoPunto = { x: ultimoPunto.x, y: ultimoPunto.y };
+                ctx.strokeStyle = 'gray'; // Color de la línea imaginaria
+                ctx.lineWidth = 2; // Grosor de la línea imaginaria
+                ctx.setLineDash([5, 5]); // Establecer el patrón de línea punteada
+                ctx.beginPath();
+                ctx.moveTo(centroUltimoPunto.x, centroUltimoPunto.y);
+                ctx.lineTo(cursorX, cursorY);
+                ctx.stroke();
+            }
+
+            // Dibujar las rectas que conectan los puntos (siempre visibles)
+            ctx.strokeStyle = 'blue'; // Color de las rectas
+            ctx.lineWidth = 2; // Grosor de las rectas
+            ctx.setLineDash([]); // Restablecer el patrón de línea (sólida)
+            ctx.beginPath();
+            ctx.moveTo(puntos[0].x, puntos[0].y);
+            puntos.forEach((p) => {
+                ctx.lineTo(p.x, p.y);
+            });
+            ctx.stroke();
+
+            if (mostrarCruzAmarilla) {
+                // Dibujar la cruz amarilla que cubre todo el canvas
+                ctx.strokeStyle = cruzColor;
+                ctx.lineWidth = 2;
+                ctx.beginPath();
+                ctx.moveTo(0, cursorY);
+                ctx.lineTo(cruzSizeX, cursorY);
+                ctx.moveTo(cursorX, 0);
+                ctx.lineTo(cursorX, cruzSizeY);
+                ctx.stroke();
+            }
+
+            // Dibujar la cruz negra del mouse
+            ctx.strokeStyle = 'black'; // Color del cursor
+            ctx.beginPath();
+            ctx.moveTo(cursorX - 10, cursorY);
+            ctx.lineTo(cursorX + 10, cursorY);
+            ctx.moveTo(cursorX, cursorY - 10);
+            ctx.lineTo(cursorX, cursorY + 10);
+            ctx.stroke();
+        });
+
+        canvas.addEventListener('click', (e) => {
+            if (dibujando) {
+                const mouseX = e.clientX - canvas.getBoundingClientRect().left;
+                const mouseY = e.clientY - canvas.getBoundingClientRect().top;
+
+                // Al hacer clic, se agrega un punto
+                puntos.push({ x: mouseX, y: mouseY });
+            }
+        });
+
+        // Agregar evento para detectar la tecla "Esc"
+        window.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                dibujando = !dibujando; // Cambiar el estado de dibujado
+                mostrarCruzAmarilla = !mostrarCruzAmarilla; // Cambiar la visibilidad de la cruz amarilla
+            }
+        });
+    </script>
+</body>
+</html>
+
+----- con Botton de  Restablecer
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Líneas Rectas en Canvas</title>
+    <style>
+        canvas {
+            border: 1px solid #000;
+        }
+        
+        /* Establece el cursor personalizado */
+        body {
+            cursor: none;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="myCanvas" width="400" height="400"></canvas>
+    <button id="resetButton">Restablecer</button>
+    <script>
+        const canvas = document.getElementById('myCanvas');
+        const ctx = canvas.getContext('2d');
+        let puntos = []; // Array para almacenar los puntos clicados 
+
+        // Hacer que la cruz amarilla cubra todo el canvas
+        const cruzSizeX = canvas.width;
+        const cruzSizeY = canvas.height;
+        const cruzColor = 'yellow';
+        let cursorX = 0;
+        let cursorY = 0;
+        let mostrarCruzAmarilla = true; // Variable para controlar la visibilidad de la cruz amarilla
+        let dibujando = true; // Variable para controlar si se permite dibujar
+
+        function limpiarCanvas() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+        }
+
+        function restablecer() {
+            limpiarCanvas();
+            puntos = [];
+            mostrarCruzAmarilla = true;
+            dibujando = true;
+        }
+
+        document.getElementById('resetButton').addEventListener('click', restablecer);
+
+        canvas.addEventListener('mousemove', (e) => {
+            const mouseX = e.clientX - canvas.getBoundingClientRect().left;
+            const mouseY = e.clientY - canvas.getBoundingClientRect().top;
+
+            cursorX = mouseX;
+            cursorY = mouseY;
+
+            limpiarCanvas();
+
+            // Dibujar los puntos
+            ctx.fillStyle = 'red'; // Color de los puntos
+            puntos.forEach((p) => {
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, 5, 0, 2 * Math.PI);
+                ctx.fill();
+            });
+
+            // Verificar que haya al menos un punto antes de dibujar la línea imaginaria
+            if (puntos.length > 0 && dibujando) {
+                // Dibujar la línea imaginaria desde el centro del último punto hasta la posición del cursor
+                const ultimoPunto = puntos[puntos.length - 1];
+                const centroUltimoPunto = { x: ultimoPunto.x, y: ultimoPunto.y };
+                ctx.strokeStyle = 'gray'; // Color de la línea imaginaria
+                ctx.lineWidth = 2; // Grosor de la línea imaginaria
+                ctx.setLineDash([5, 5]); // Establecer el patrón de línea punteada
+                ctx.beginPath();
+                ctx.moveTo(centroUltimoPunto.x, centroUltimoPunto.y);
+                ctx.lineTo(cursorX, cursorY);
+                ctx.stroke();
+            }
+
+            if (puntos.length > 0) {
+                // Dibujar las rectas que conectan los puntos (siempre visibles)
+                ctx.strokeStyle = 'blue'; // Color de las rectas
+                ctx.lineWidth = 2; // Grosor de las rectas
+                ctx.setLineDash([]); // Restablecer el patrón de línea (sólida)
+                ctx.beginPath();
+                ctx.moveTo(puntos[0].x, puntos[0].y);
+                puntos.forEach((p) => {
+                    ctx.lineTo(p.x, p.y);
+                });
+                ctx.stroke();
+            }
+
+            if (mostrarCruzAmarilla) {
+                // Dibujar la cruz amarilla que cubre todo el canvas
+                ctx.strokeStyle = cruzColor;
+                ctx.lineWidth = 2;
+                ctx.beginPath();
+                ctx.moveTo(0, cursorY);
+                ctx.lineTo(cruzSizeX, cursorY);
+                ctx.moveTo(cursorX, 0);
+                ctx.lineTo(cursorX, cruzSizeY);
+                ctx.stroke();
+            }
+
+            // Dibujar la cruz negra del mouse
+            ctx.strokeStyle = 'black'; // Color del cursor
+            ctx.beginPath();
+            ctx.moveTo(cursorX - 10, cursorY);
+            ctx.lineTo(cursorX + 10, cursorY);
+            ctx.moveTo(cursorX, cursorY - 10);
+            ctx.lineTo(cursorX, cursorY + 10);
+            ctx.stroke();
+        });
+
+        canvas.addEventListener('click', (e) => {
+            if (dibujando) {
+                const mouseX = e.clientX - canvas.getBoundingClientRect().left;
+                const mouseY = e.clientY - canvas.getBoundingClientRect().top;
+
+                // Al hacer clic, se agrega un punto
+                puntos.push({ x: mouseX, y: mouseY });
+            }
+        });
+
+        // Agregar evento para detectar la tecla "Esc"
+        window.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                dibujando = !dibujando; // Cambiar el estado de dibujado 
+                mostrarCruzAmarilla = !mostrarCruzAmarilla; // Cambiar la visibilidad de la cruz amarilla
+            }
+        });
+    </script>
+</body>
+</html>
+
+FONDO NEGRO
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Líneas Rectas en Canvas</title>
+    <style>
+        canvas {
+            border: 1px solid #000;
+            background-color: black; /* Cambia el fondo del canvas a negro */
+        }
+        
+        /* Establece el cursor personalizado en gris */
+        body {
+            cursor: crosshair; /* Cambia el cursor a una cruz gris */
+        }
+    </style>
+</head>
+<body>
+    <canvas id="myCanvas" width="400" height="400"></canvas>
+    <button id="resetButton" style="font-size: 20px; color: gray;">✕</button>
+    <script>
+        const canvas = document.getElementById('myCanvas');
+        const ctx = canvas.getContext('2d');
+        let puntos = []; // Array para almacenar los puntos clicados 
+
+        // Hacer que la cruz amarilla cubra todo el canvas
+        const cruzSizeX = canvas.width;
+        const cruzSizeY = canvas.height;
+        const cruzColor = 'white'; // Cambia el color de la cruz amarilla a blanco
+        let cursorX = 0;
+        let cursorY = 0;
+        let mostrarCruzAmarilla = true; // Variable para controlar la visibilidad de la cruz amarilla
+        let dibujando = true; // Variable para controlar si se permite dibujar
+
+        function limpiarCanvas() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+        }
+
+        function restablecer() {
+            limpiarCanvas();
+            puntos = [];
+            mostrarCruzAmarilla = true;
+            dibujando = true;
+        }
+
+        document.getElementById('resetButton').addEventListener('click', restablecer);
+
+        canvas.addEventListener('mousemove', (e) => {
+            const mouseX = e.clientX - canvas.getBoundingClientRect().left;
+            const mouseY = e.clientY - canvas.getBoundingClientRect().top;
+
+            cursorX = mouseX;
+            cursorY = mouseY;
+
+            limpiarCanvas();
+
+            // Dibujar los puntos como "x" de color gris
+            ctx.strokeStyle = 'gray'; // Color de los puntos
+            ctx.lineWidth = 1; // Cambia el grosor de las líneas de puntos a 1
+            puntos.forEach((p) => {
+                ctx.beginPath();
+                ctx.moveTo(p.x - 5, p.y - 5); // Mueve al punto superior izquierdo
+                ctx.lineTo(p.x + 5, p.y + 5); // Línea hacia el punto inferior derecho
+                ctx.moveTo(p.x - 5, p.y + 5); // Mueve al punto inferior izquierdo
+                ctx.lineTo(p.x + 5, p.y - 5); // Línea hacia el punto superior derecho
+                ctx.stroke();
+            });
+
+            // Verificar que haya al menos un punto antes de dibujar la línea imaginaria
+            if (puntos.length > 0 && dibujando) {
+                // Dibujar la línea imaginaria desde el centro del último punto hasta la posición del cursor
+                const ultimoPunto = puntos[puntos.length - 1];
+                const centroUltimoPunto = { x: ultimoPunto.x, y: ultimoPunto.y };
+                ctx.strokeStyle = 'rgba(255, 255, 0, 0.5)'; // Cambia el color de la línea azul a amarillo suave
+                ctx.lineWidth = 1; // Cambia el grosor de la línea imaginaria a 1
+                ctx.setLineDash([5, 5]); // Establecer el patrón de línea punteada
+                ctx.beginPath();
+                ctx.moveTo(centroUltimoPunto.x, centroUltimoPunto.y);
+                ctx.lineTo(cursorX, cursorY);
+                ctx.stroke();
+            }
+
+            if (puntos.length > 0) {
+                // Dibujar las rectas que conectan los puntos (siempre visibles)
+                ctx.strokeStyle = 'rgba(255, 255, 0, 0.5)'; // Cambia el color de las rectas a amarillo suave
+                ctx.lineWidth = 1; // Cambia el grosor de las rectas a 1
+                ctx.setLineDash([]); // Restablecer el patrón de línea (sólida)
+                ctx.beginPath();
+                ctx.moveTo(puntos[0].x, puntos[0].y);
+                puntos.forEach((p) => {
+                    ctx.lineTo(p.x, p.y);
+                });
+                ctx.stroke();
+            }
+
+            if (mostrarCruzAmarilla) {
+                // Dibujar la cruz amarilla que cubre todo el canvas
+                ctx.strokeStyle = cruzColor;
+                ctx.lineWidth = 1; // Cambia el grosor de la cruz amarilla a 1
+                ctx.beginPath();
+                ctx.moveTo(0, cursorY);
+                ctx.lineTo(cruzSizeX, cursorY);
+                ctx.moveTo(cursorX, 0);
+                ctx.lineTo(cursorX, cruzSizeY);
+                ctx.stroke();
+            }
+
+            // Dibujar la cruz negra del mouse
+            ctx.strokeStyle = 'black'; // Color del cursor
+            ctx.beginPath();
+            ctx.moveTo(cursorX - 10, cursorY);
+            ctx.lineTo(cursorX + 10, cursorY);
+            ctx.moveTo(cursorX, cursorY - 10);
+            ctx.lineTo(cursorX, cursorY + 10);
+            ctx.stroke();
+        });
+
+        canvas.addEventListener('click', (e) => {
+            if (dibujando) {
+                const mouseX = e.clientX - canvas.getBoundingClientRect().left;
+                const mouseY = e.clientY - canvas.getBoundingClientRect().top;
+
+                // Al hacer clic, se agrega un punto
+                puntos.push({ x: mouseX, y: mouseY });
+            }
+        });
+
+        // Agregar evento para detectar la tecla "Esc"
+        window.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                dibujando = !dibujando; // Cambiar el estado de dibujado 
+                mostrarCruzAmarilla = !mostrarCruzAmarilla; // Cambiar la visibilidad de la cruz amarilla
+            }
+        });
+    </script>
+</body>
+</html>
+
+
+Cajas x y
+------------
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Líneas Rectas en Canvas</title>
+    <style>
+        canvas {
+            border: 1px solid #000;
+            background-color: black;
+        }
+
+        body {
+            cursor: crosshair;
+        }
+
+        #coordX,
+        #coordY {
+            font-size: 16px;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="myCanvas" width="400" height="400"></canvas>
+    <div>
+        <label for="coordX" style="color: white;">X:</label>
+        <input type="text" id="coordX" placeholder="Coordenada X">
+        <label for="coordY" style="color: white;">Y:</label>
+        <input type="text" id="coordY" placeholder="Coordenada Y">
+        <button id="agregarPunto">OK</button>
+    </div>
+    <button id="resetButton" style="font-size: 20px; color: gray;">✕</button>
+    <script>
+        const canvas = document.getElementById('myCanvas');
+        const ctx = canvas.getContext('2d');
+        let puntos = [];
+        const cruzSizeX = canvas.width;
+        const cruzSizeY = canvas.height;
+        const cruzColor = 'white';
+        let cursorX = 0;
+        let cursorY = 0;
+        let mostrarCruzAmarilla = true;
+        let dibujando = true;
+
+        function limpiarCanvas() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+        }
+
+        function restablecer() {
+            limpiarCanvas();
+            puntos = [];
+            mostrarCruzAmarilla = true;
+            dibujando = true;
+        }
+
+        document.getElementById('resetButton').addEventListener('click', restablecer);
+
+        canvas.addEventListener('mousemove', (e) => {
+            const mouseX = e.clientX - canvas.getBoundingClientRect().left;
+            const mouseY = e.clientY - canvas.getBoundingClientRect().top;
+
+            cursorX = mouseX;
+            cursorY = mouseY;
+
+            limpiarCanvas();
+            dibujarPuntos();
+            dibujarLineas();
+            dibujarCruzGrande();
+            dibujarLineaImaginaria();
+        });
+
+        canvas.addEventListener('click', (e) => {
+            if (dibujando) {
+                const mouseX = e.clientX - canvas.getBoundingClientRect().left;
+                const mouseY = e.clientY - canvas.getBoundingClientRect().top;
+
+                puntos.push({ x: mouseX, y: mouseY });
+
+                limpiarCanvas();
+                dibujarPuntos();
+                dibujarLineas();
+                dibujarCruzGrande();
+                dibujarLineaImaginaria();
+            }
+        });
+
+        document.getElementById('agregarPunto').addEventListener('click', () => {
+            const coordX = parseFloat(document.getElementById('coordX').value);
+            const coordY = parseFloat(document.getElementById('coordY').value);
+
+            if (!isNaN(coordX) && !isNaN(coordY)) {
+                puntos.push({ x: coordX, y: coordY });
+
+                limpiarCanvas();
+                dibujarPuntos();
+                dibujarLineas();
+                dibujarCruzGrande();
+                dibujarLineaImaginaria();
+            } else {
+                alert('Por favor, ingrese coordenadas válidas.');
+            }
+        });
+
+        function dibujarPuntos() {
+            ctx.strokeStyle = 'gray';
+            puntos.forEach((p) => {
+                ctx.beginPath();
+                ctx.moveTo(p.x - 5, p.y - 5);
+                ctx.lineTo(p.x + 5, p.y + 5);
+                ctx.moveTo(p.x - 5, p.y + 5);
+                ctx.lineTo(p.x + 5, p.y - 5);
+                ctx.stroke();
+            });
+        }
+
+        function dibujarLineas() {
+            if (puntos.length > 0) {
+                const ultimoPunto = puntos[puntos.length - 1];
+                const centroUltimoPunto = { x: ultimoPunto.x, y: ultimoPunto.y };
+                ctx.strokeStyle = 'rgba(255, 255, 0, 0.5)';
+                ctx.lineWidth = 1;
+                ctx.setLineDash([5, 5]);
+                ctx.beginPath();
+                ctx.moveTo(centroUltimoPunto.x, centroUltimoPunto.y);
+                ctx.lineTo(cursorX, cursorY);
+                ctx.stroke();
+            }
+
+            if (puntos.length > 0) {
+                ctx.strokeStyle = 'rgba(255, 255, 0, 0.5)';
+                ctx.lineWidth = 1;
+                ctx.setLineDash([]);
+                ctx.beginPath();
+                ctx.moveTo(puntos[0].x, puntos[0].y);
+                puntos.forEach((p) => {
+                    ctx.lineTo(p.x, p.y);
+                });
+                ctx.stroke();
+            }
+        }
+
+        function dibujarCruzGrande() {
+            ctx.strokeStyle = 'white';
+            ctx.lineWidth = 1;
+            ctx.beginPath();
+            ctx.moveTo(cursorX, cursorY - 10);
+            ctx.lineTo(cursorX, cursorY + 10);
+            ctx.moveTo(cursorX - 10, cursorY);
+            ctx.lineTo(cursorX + 10, cursorY);
+            ctx.stroke();
+        }
+
+        function dibujarLineaImaginaria() {
+            if (puntos.length > 0 && dibujando) {
+                const ultimoPunto = puntos[puntos.length - 1];
+                const centroUltimoPunto = { x: ultimoPunto.x, y: ultimoPunto.y };
+                ctx.strokeStyle = 'rgba(255, 255, 0, 0.5)';
+                ctx.lineWidth = 1;
+                ctx.setLineDash([5, 5]);
+                ctx.beginPath();
+                ctx.moveTo(centroUltimoPunto.x, centroUltimoPunto.y);
+                ctx.lineTo(cursorX, cursorY);
+                ctx.stroke();
+            }
+        }
+
+        window.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                dibujando = !dibujando;
+                mostrarCruzAmarilla = !mostrarCruzAmarilla;
+            }
+        });
+    </script>
+</body>
+
+</html>
+
+
+------------- Codigo OOk, esc, cajas
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Líneas Rectas en Canvas</title>
+    <style>
+        canvas {
+            border: 1px solid #000;
+            background-color: black;
+        }
+
+        body {
+            cursor: crosshair;
+        }
+
+        #coordX,
+        #coordY {
+            font-size: 16px;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="myCanvas" width="400" height="400"></canvas>
+    <div>
+        <label for="coordX" style="color: white;">X:</label>
+        <input type="text" id="coordX" placeholder="Coordenada X">
+        <label for="coordY" style="color: white;">Y:</label>
+        <input type="text" id="coordY" placeholder="Coordenada Y">
+        <button id="agregarPunto">OK</button>
+    </div>
+    <button id="resetButton" style="font-size: 20px; color: gray;">✕</button>
+       <div>
+        <label for="cursorX" style="color: white;">Cursor X:</label>
+        <input type="text" id="cursorX" readonly>
+        <label for="cursorY" style="color: white;">Cursor Y:</label>
+        <input type="text" id="cursorY" readonly>
+    </div>
+    <script>
+        const canvas = document.getElementById('myCanvas');
+        const ctx = canvas.getContext('2d');
+        let puntos = [];
+        const cruzSizeX = canvas.width;
+        const cruzSizeY = canvas.height;
+        const cruzColor = 'white';
+        let cursorX = 0;
+        let cursorY = 0;
+        let mostrarCruzAmarilla = true;
+        let dibujando = true;
+        
+              // Elementos de las coordenadas del cursor
+        const cursorXInput = document.getElementById('cursorX');
+        const cursorYInput = document.getElementById('cursorY');
+
+        function limpiarCanvas() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+        }
+
+        function restablecer() {
+            limpiarCanvas();
+            puntos = [];
+            mostrarCruzAmarilla = true;
+            dibujando = true;
+        }
+
+        document.getElementById('resetButton').addEventListener('click', restablecer);
+
+        canvas.addEventListener('mousemove', (e) => {
+            const mouseX = e.clientX - canvas.getBoundingClientRect().left;
+            const mouseY = e.clientY - canvas.getBoundingClientRect().top;
+
+            cursorX = mouseX;
+            cursorY = mouseY;
+            
+     
+            // Actualizar las coordenadas del cursor en los inputs
+            cursorXInput.value = mouseX;
+            cursorYInput.value = mouseY;
+
+            limpiarCanvas();
+            dibujarPuntos();
+            dibujarLineas();
+            dibujarCruzGrande();
+            dibujarLineaImaginaria();
+        });
+
+        canvas.addEventListener('click', (e) => {
+            if (dibujando) {
+                const mouseX = e.clientX - canvas.getBoundingClientRect().left;
+                const mouseY = e.clientY - canvas.getBoundingClientRect().top;
+
+                puntos.push({ x: mouseX, y: mouseY });
+
+                limpiarCanvas();
+                dibujarPuntos();
+                dibujarLineas();
+                dibujarCruzGrande();
+                dibujarLineaImaginaria();
+            }
+        });
+
+        document.getElementById('agregarPunto').addEventListener('click', () => {
+            const coordX = parseFloat(document.getElementById('coordX').value);
+            const coordY = parseFloat(document.getElementById('coordY').value);
+
+            if (!isNaN(coordX) && !isNaN(coordY)) {
+                puntos.push({ x: coordX, y: coordY });
+
+                limpiarCanvas();
+                dibujarPuntos();
+                dibujarLineas();
+                dibujarCruzGrande();
+                dibujarLineaImaginaria();
+            } else {
+                alert('Por favor, ingrese coordenadas válidas.');
+            }
+        });
+
+        function dibujarPuntos() {
+            ctx.strokeStyle = 'gray';
+            puntos.forEach((p) => {
+                ctx.beginPath();
+                ctx.moveTo(p.x - 5, p.y - 5);
+                ctx.lineTo(p.x + 5, p.y + 5);
+                ctx.moveTo(p.x - 5, p.y + 5);
+                ctx.lineTo(p.x + 5, p.y - 5);
+                ctx.stroke();
+            });
+        }
+
+        function dibujarLineas() {
+            if (puntos.length > 0) {
+                const ultimoPunto = puntos[puntos.length - 1];
+                const centroUltimoPunto = { x: ultimoPunto.x, y: ultimoPunto.y };
+                ctx.strokeStyle = 'rgba(255, 255, 0, 0.5)';
+                ctx.lineWidth = 1;
+                ctx.setLineDash([5, 5]);
+                ctx.beginPath();
+                ctx.moveTo(centroUltimoPunto.x, centroUltimoPunto.y);
+                ctx.lineTo(cursorX, cursorY);
+                ctx.stroke();
+            }
+
+            if (puntos.length > 0) {
+                ctx.strokeStyle = 'rgba(255, 255, 0, 0.5)';
+                ctx.lineWidth = 1;
+                ctx.setLineDash([]);
+                ctx.beginPath();
+                ctx.moveTo(puntos[0].x, puntos[0].y);
+                puntos.forEach((p) => {
+                    ctx.lineTo(p.x, p.y);
+                });
+                ctx.stroke();
+            }
+        }
+
+         function dibujarCruzGrande() {
+            ctx.strokeStyle = 'rgb(255,255,255)';
+            ctx.lineWidth = 1;
+            ctx.beginPath();
+            ctx.moveTo(0, cursorY);
+            ctx.lineTo(cruzSizeX, cursorY);
+            ctx.moveTo(cursorX, 0);
+            ctx.lineTo(cursorX, cruzSizeY);
+            ctx.stroke();
+        }
+        
+        function dibujarLineaImaginaria() {
+            if (puntos.length > 0 && dibujando) {
+                const ultimoPunto = puntos[puntos.length - 1];
+                const centroUltimoPunto = { x: ultimoPunto.x, y: ultimoPunto.y };
+                ctx.strokeStyle = 'rgba(255, 255, 0, 0.5)';
+                ctx.lineWidth = 1;
+                ctx.setLineDash([5, 5]);
+                ctx.beginPath();
+                ctx.moveTo(centroUltimoPunto.x, centroUltimoPunto.y);
+                ctx.lineTo(cursorX, cursorY);
+                ctx.stroke();
+            }
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                restablecer();
+            }
+        })
+    </script>
+</body>
+
+</html>
+
+---------------- OK
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Líneas Rectas en Canvas</title>
+    <style>
+        canvas {
+            border: 1px solid #000;
+            background-color: black;
+        }
+        
+        body {
+            cursor: crosshair;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="myCanvas" width="400" height="400"></canvas>
+    <button id="resetButton">Restablecer</button>
+    <div>
+        <label for="coordX" style="color: white;">X:</label>
+        <input type="text" id="coordX" placeholder="Coordenada X">
+        <label for="coordY" style="color: white;">Y:</label>
+        <input type="text" id="coordY" placeholder="Coordenada Y">
+        <button id="okButton">OK</button>
+    </div>
+    <div>
+        <label for="cursorX" style="color: white;">Cursor X:</label>
+        <input type="text" id="cursorX" readonly>
+        <label for="cursorY" style="color: white;">Cursor Y:</label>
+        <input type="text" id="cursorY" readonly>
+    </div>
+    <script>
+        const canvas = document.getElementById('myCanvas');
+        const ctx = canvas.getContext('2d');
+        let puntos = [];
+        const cruzSizeX = canvas.width;
+        const cruzSizeY = canvas.height;
+        const cruzColor = 'white';
+        let cursorX = 0;
+        let cursorY = 0;
+
+        // Elementos de las coordenadas del cursor
+        const cursorXInput = document.getElementById('cursorX');
+        const cursorYInput = document.getElementById('cursorY');
+
+        function limpiarCanvas() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+        }
+
+        function restablecer() {
+            limpiarCanvas();
+            puntos = [];
+        }
+
+        document.getElementById('resetButton').addEventListener('click', restablecer);
+
+        canvas.addEventListener('mousemove', (e) => {
+            const mouseX = e.clientX - canvas.getBoundingClientRect().left;
+            const mouseY = e.clientY - canvas.getBoundingClientRect().top;
+
+            cursorX = mouseX;
+            cursorY = mouseY;
+
+            // Actualizar las coordenadas del cursor en los inputs
+            cursorXInput.value = mouseX;
+            cursorYInput.value = mouseY;
+
+            limpiarCanvas();
+            dibujarPuntos();
+            dibujarLineas();
+            dibujarCruzGrande();
+            dibujarCursorNegro();
+            dibujarLineaImaginaria();
+        });
+
+        canvas.addEventListener('click', (e) => {
+            const mouseX = e.clientX - canvas.getBoundingClientRect().left;
+            const mouseY = e.clientY - canvas.getBoundingClientRect().top;
+
+            puntos.push({ x: mouseX, y: mouseY });
+
+            limpiarCanvas();
+            dibujarPuntos();
+            dibujarLineas();
+            dibujarCruzGrande();
+            dibujarCursorNegro();
+            dibujarLineaImaginaria();
+        });
+
+        document.getElementById('okButton').addEventListener('click', () => {
+            const coordX = parseFloat(document.getElementById('coordX').value);
+            const coordY = parseFloat(document.getElementById('coordY').value);
+
+            if (!isNaN(coordX) && !isNaN(coordY)) {
+                puntos.push({ x: coordX, y: coordY });
+
+                limpiarCanvas();
+                dibujarPuntos();
+                dibujarLineas();
+                dibujarCruzGrande();
+                dibujarCursorNegro();
+                dibujarLineaImaginaria();
+            } else {
+                alert('Por favor, ingrese coordenadas válidas.');
+            }
+        });
+
+        function dibujarPuntos() {
+            ctx.strokeStyle = 'gray';
+            puntos.forEach((p) => {
+                ctx.beginPath();
+                ctx.moveTo(p.x - 5, p.y - 5);
+                ctx.lineTo(p.x + 5, p.y + 5);
+                ctx.moveTo(p.x - 5, p.y + 5);
+                ctx.lineTo(p.x + 5, p.y - 5);
+                ctx.stroke();
+            });
+        }
+
+        function dibujarLineas() {
+            if (puntos.length > 0) {
+                const ultimoPunto = puntos[puntos.length - 1];
+                const centroUltimoPunto = { x: ultimoPunto.x, y: ultimoPunto.y };
+                ctx.strokeStyle = 'rgba(255, 255, 0, 0.5)';
+                ctx.lineWidth = 2;
+                ctx.setLineDash([5, 5]);
+                ctx.beginPath();
+                ctx.moveTo(centroUltimoPunto.x, centroUltimoPunto.y);
+                ctx.lineTo(cursorX, cursorY);
+                ctx.stroke();
+            }
+
+            if (puntos.length > 0) {
+                ctx.strokeStyle = 'rgba(255, 255, 0, 0.5)';
+                ctx.lineWidth = 2;
+                ctx.setLineDash([]);
+                ctx.beginPath();
+                ctx.moveTo(puntos[0].x, puntos[0].y);
+                puntos.forEach((p) => {
+                    ctx.lineTo(p.x, p.y);
+                });
+                ctx.stroke();
+            }
+        }
+
+        function dibujarCruzGrande() {
+            ctx.strokeStyle = cruzColor;
+            ctx.lineWidth = 1;
+            ctx.beginPath();
+            ctx.moveTo(0, cursorY);
+            ctx.lineTo(cruzSizeX, cursorY);
+            ctx.moveTo(cursorX, 0);
+            ctx.lineTo(cursorX, cruzSizeY);
+            ctx.stroke();
+        }
+
+        function dibujarCursorNegro() {
+            ctx.strokeStyle = 'black';
+            ctx.beginPath();
+            ctx.moveTo(cursorX - 10, cursorY);
+            ctx.lineTo(cursorX + 10, cursorY);
+            ctx.moveTo(cursorX, cursorY - 10);
+            ctx.lineTo(cursorX, cursorY + 10);
+            ctx.stroke();
+        }
+
+        function dibujarLineaImaginaria() {
+            if (puntos.length > 0) {
+                const ultimoPunto = puntos[puntos.length - 1];
+                const centroUltimoPunto = { x: ultimoPunto.x, y: ultimoPunto.y };
+                ctx.strokeStyle = 'rgba(255, 255, 0, 0.5)';
+                ctx.lineWidth = 2;
+                ctx.setLineDash([5, 5]);
+                ctx.beginPath();
+                ctx.moveTo(centroUltimoPunto.x, centroUltimoPunto.y);
+                ctx.lineTo(cursorX, cursorY);
+                ctx.stroke();
+            }
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                restablecer();
+            }
+        });
+    </script>
+</body>
+</html>
+
+--------------
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Líneas Rectas en Canvas</title>
+    <style>
+        canvas {
+            border: 1px solid #000;
+            background-color: black;
+        }
+
+        body {
+            cursor: crosshair;
+        }
+
+        #coordX,
+        #coordY {
+            font-size: 16px;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="myCanvas" width="400" height="400"></canvas>
+    <div>
+        <label for="coordX" style="color: white;">X:</label>
+        <input type="text" id="coordX" placeholder="Coordenada X">
+        <label for="coordY" style="color: white;">Y:</label>
+        <input type="text" id="coordY" placeholder="Coordenada Y">
+        <button id="agregarPunto">OK</button>
+    </div>
+    <button id="resetButton" style="font-size: 20px; color: gray;">✕</button>
+    <div>
+        <label for="cursorX" style="color: white;">Cursor X:</label>
+        <input type="text" id="cursorX" readonly>
+        <label for="cursorY" style="color: white;">Cursor Y:</label>
+        <input type="text" id="cursorY" readonly>
+    </div>
+    <script>
+        const canvas = document.getElementById('myCanvas');
+        const ctx = canvas.getContext('2d');
+        let puntos = [];
+        const cruzSizeX = canvas.width;
+        const cruzSizeY = canvas.height;
+        const cruzColor = 'white'; // Cambia aquí el color de la cruz grande a 'white'
+        let cursorX = 0;
+        let cursorY = 0;
+        let mostrarCruzAmarilla = true;
+        let dibujando = true;
+
+        // Elementos de las coordenadas del cursor
+        const cursorXInput = document.getElementById('cursorX');
+        const cursorYInput = document.getElementById('cursorY');
+
+        function limpiarCanvas() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+        }
+
+        function restablecer() {
+            limpiarCanvas();
+            puntos = [];
+            mostrarCruzAmarilla = true;
+            dibujando = true;
+        }
+
+        document.getElementById('resetButton').addEventListener('click', restablecer);
+
+        canvas.addEventListener('mousemove', (e) => {
+            const mouseX = e.clientX - canvas.getBoundingClientRect().left;
+            const mouseY = e.clientY - canvas.getBoundingClientRect().top;
+
+            cursorX = mouseX;
+            cursorY = mouseY;
+
+            // Actualizar las coordenadas del cursor en los inputs
+            cursorXInput.value = mouseX;
+            cursorYInput.value = mouseY;
+
+            limpiarCanvas();
+            dibujarPuntos();
+            dibujarLineas();
+            dibujarCruzGrande();
+            dibujarLineaImaginaria();
+        });
+
+        canvas.addEventListener('click', (e) => {
+            if (dibujando) {
+                const mouseX = e.clientX - canvas.getBoundingClientRect().left;
+                const mouseY = e.clientY - canvas.getBoundingClientRect().top;
+
+                puntos.push({ x: mouseX, y: mouseY });
+
+                limpiarCanvas();
+                dibujarPuntos();
+                dibujarLineas();
+                dibujarCruzGrande();
+                dibujarLineaImaginaria();
+            }
+        });
+
+        document.getElementById('agregarPunto').addEventListener('click', () => {
+            const coordX = parseFloat(document.getElementById('coordX').value);
+            const coordY = parseFloat(document.getElementById('coordY').value);
+
+            if (!isNaN(coordX) && !isNaN(coordY)) {
+                puntos.push({ x: coordX, y: coordY });
+
+                limpiarCanvas();
+                dibujarPuntos();
+                dibujarLineas();
+                dibujarCruzGrande();
+                dibujarLineaImaginaria();
+            } else {
+                alert('Por favor, ingrese coordenadas válidas.');
+            }
+        });
+
+        function dibujarPuntos() {
+            ctx.strokeStyle = 'white'; // Cambia el color de los puntos a 'white'
+            puntos.forEach((p) => {
+                ctx.beginPath();
+                ctx.moveTo(p.x - 5, p.y - 5);
+                ctx.lineTo(p.x + 5, p.y + 5);
+                ctx.moveTo(p.x - 5, p.y + 5);
+                ctx.lineTo(p.x + 5, p.y - 5);
+                ctx.stroke();
+            });
+        }
+
+        function dibujarLineas() {
+            if (puntos.length > 0) {
+                const ultimoPunto = puntos[puntos.length - 1];
+                const centroUltimoPunto = { x: ultimoPunto.x, y: ultimoPunto.y };
+                ctx.strokeStyle = 'white'; // Cambia el color de las líneas a 'white'
+                ctx.lineWidth = 1;
+                ctx.setLineDash([5, 5]);
+                ctx.beginPath();
+                ctx.moveTo(centroUltimoPunto.x, centroUltimoPunto.y);
+                ctx.lineTo(cursorX, cursorY);
+                ctx.stroke();
+            }
+
+            if (puntos.length > 0) {
+                ctx.strokeStyle = 'white'; // Cambia el color de las líneas a 'white'
+                ctx.lineWidth = 1;
+                ctx.setLineDash([]);
+                ctx.beginPath();
+                ctx.moveTo(puntos[0].x, puntos[0].y);
+                puntos.forEach((p) => {
+                    ctx.lineTo(p.x, p.y);
+                });
+                ctx.stroke();
+            }
+        }
+
+        function dibujarCruzGrande() {
+            ctx.strokeStyle = cruzColor;
+            ctx.lineWidth = 1;
+            ctx.beginPath();
+            ctx.moveTo(0, cursorY);
+            ctx.lineTo(cruzSizeX, cursorY);
+            ctx.moveTo(cursorX, 0);
+            ctx.lineTo(cursorX, cruzSizeY);
+            ctx.stroke();
+        }
+
+        function dibujarLineaImaginaria() {
+            if (puntos.length > 0 && dibujando) {
+                const ultimoPunto = puntos[puntos.length - 1];
+                const centroUltimoPunto = { x: ultimoPunto.x, y: ultimoPunto.y };
+                ctx.strokeStyle = 'rgba(255, 255, 0, 0.5)';
+                ctx.lineWidth = 1;
+                ctx.setLineDash([5, 5]);
+                ctx.beginPath();
+                ctx.moveTo(centroUltimoPunto.x, centroUltimoPunto.y);
+                ctx.lineTo(cursorX, cursorY);
+                ctx.stroke();
+            }
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                restablecer();
+            }
+        })
+    </script>
+</body>
+
+</html>
+
+
+

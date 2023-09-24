@@ -135,5 +135,15 @@ AI imagenes
 ***********************************************************************************
  tools DEV
  https://free-for.dev/#/
+ 
+ 
+ ----------------------------------------------------------------------------------
+  
+ Codeium  == copilot
+ 
+ codeium chat === https://codeium.com/vscode_tutorial == https://codeium.com/chat
+ 
+ token:
+ f1 --> codium: Provide....token
   
   
