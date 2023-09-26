@@ -17,3 +17,18 @@
  m3
  
  https://ui.shadcn.com/docs/
+ 
+ 
+ https://gitness.com/
+ https://www.dark.design/
+ 
+ https://lunarui.dev/
+ https://magicuikit.com/
+ https://nextui.org/
+ https://www.beskar.co/
+ 
+ https://mui.com/material-ui/
+ https://react.semantic-ui.com/
+ https://chakra-ui.com/
+ 
+ https://bentogrids.com/ ************* EJEMPLOS

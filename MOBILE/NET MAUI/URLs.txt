@@ -4,6 +4,9 @@
  
  
  ****************************************************************************************
+  COMANDOS PARA GENERAR APK Y ABB
+ https://www.youtube.com/watch?v=SuQFuACsytc
+ *****************************************************************************************
   TUTORILA MAU + MVVM Toolkit + Shell
   
    https://www.youtube.com/watch?v=nMOVu6lr6SI (Macoratti)
