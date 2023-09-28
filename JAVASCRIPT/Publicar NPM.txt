@@ -1,0 +1,13 @@
+
+
+**************************************************************************************
+  npm | publicar primer modulo en NODE js
+  
+  https://www.youtube.com/watch?v=grOjfJpqwyw
+
+**************************************************************************************
+ ************************************************************
+  PUBLICAR EN REACT
+  https://www.youtube.com/watch?v=trFQEVrgTAc&list=RDCMUCcMcmtNSSQECjKsJA1XH5MQ&start_radio=1&rv=trFQEVrgTAc&t=950
+ 
+ ************************************************************

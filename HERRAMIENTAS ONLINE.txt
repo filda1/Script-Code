@@ -145,5 +145,11 @@ AI imagenes
  
  token:
  f1 --> codium: Provide....token
+ 
+ ---------------------------------------------------------------------------------------
+ 
+ 
+  imagen a palete colords
+   https://color.adobe.com/es/create/image
   
   

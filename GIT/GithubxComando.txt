@@ -15,6 +15,10 @@
 ----------------------------------------------------------------------------------------
  *https://avato92.blogspot.com/2018/10/git-branch-merge-y-resolucion-de.html
  * https://www.youtube.com/watch?v=DtltWjEnNQI&ab_channel=OProgramadorW
+ 
+  RAMA ACTUAL
+ >> git branch
+
 
 CREAR RAMA
 >> git branch test
@@ -22,9 +26,15 @@ CREAR RAMA
  CAMBIAR RAMA
 >>> git checkout test
 
+
+ MERGE CON USER Temporal
+  git merge nombre_de_la_rama_fuente
+  git commit --author="Nombre del Usuario <correo@example.com>" -m "Mensaje del commit"
+
+
  MEZCLA RAMA A master     ==========> (MERGE)
->>> git checkout master (Primero cambiar de rama )
->>> git merge test
+>>> git checkout master (Primero cambiar de rama )  ---------------> ESTA Rama, es donde es a recibir cambios
+>>> git merge test  -------------------------------------------> test es la rama fuente, donde estan los cambios
 >>  git push
 
 MERGE:  VISUAL CODE ======> https://www.youtube.com/watch?v=hWKw2N0KdME&ab_channel=myzingonline
@@ -253,4 +263,45 @@ git commit -m  "......"
 git push
 
 **************************************************
+
+
+------------------------------------
+
+
+Para realizar un merge en Git utilizando comandos, sigue estos pasos básicos:
+
+1. **Asegúrate de estar en la rama de destino:** Antes de realizar el merge, asegúrate de estar en la rama de destino en la que deseas fusionar los cambios. Puedes cambiar a la rama de destino utilizando el comando `git checkout`.
+
+   ```bash
+   git checkout nombre_de_la_rama_destino
+   ```
+
+2. **Fusiona la rama fuente en la rama de destino:** Utiliza el comando `git merge` para fusionar la rama fuente en la rama de destino. La rama fuente es aquella desde la que deseas traer los cambios.
+
+   ```bash
+   git merge nombre_de_la_rama_fuente
+   ```
+
+   Por ejemplo, si deseas fusionar los cambios de una rama llamada "feature/branch1" en la rama "main", puedes hacerlo de la siguiente manera:
+
+   ```bash
+   git checkout main
+   git merge feature/branch1
+   ```
+
+3. **Resuelve conflictos (si los hay):** Si Git detecta conflictos entre los cambios en ambas ramas, tendrás que resolverlos manualmente. Abre los archivos con conflictos, resuelve las diferencias y luego agrega los archivos modificados con `git add`. Finalmente, realiza un commit para confirmar las resoluciones.
+
+4. **Confirma el merge:** Una vez que hayas resuelto cualquier conflicto y estés satisfecho con los cambios, realiza un commit para confirmar el merge.
+
+   ```bash
+   git commit -m "Mensaje del commit que describe el merge"
+   ```
+
+5. **Publica el merge (si es necesario):** Si estás trabajando en un repositorio remoto, es posible que desees publicar los cambios para que otros puedan acceder a ellos. Utiliza el comando `git push` para enviar los cambios fusionados al repositorio remoto.
+
+   ```bash
+   git push origin nombre_de_la_rama_destino
+   ```
+
+Estos son los pasos básicos para realizar un merge en Git utilizando comandos. Asegúrate de estar trabajando en la rama correcta y de entender cómo resolver conflictos si es necesario.
 

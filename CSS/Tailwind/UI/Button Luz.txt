@@ -1,0 +1,641 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+html,body{
+  display: grid;
+  height: 100%;
+  place-items: center;
+  background: #000;
+}
+.wrapper{
+  height: 100px;
+  width: 360px;
+  position: relative;
+  background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+  border-radius: 10px;
+  cursor: default;
+  animation: animate 1.5s linear infinite;
+}
+.wrapper .display,
+.wrapper span{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrapper .display{
+  z-index: 999;
+  height: 85px;
+  width: 345px;
+  background: #1b1b1b;
+  border-radius: 6px;
+  text-align: center;
+}
+.display #time{
+  line-height: 85px;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animate 1.5s linear infinite;
+}
+@keyframes animate {
+  100%{
+    filter: hue-rotate(360deg);
+  }
+}
+.wrapper span{
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  background: inherit;
+}
+.wrapper span:first-child{
+  filter: blur(7px);
+}
+.wrapper span:last-child{
+  filter: blur(20px);
+}
+
+
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Digital Clock with Glowing Effect | CodingNepal</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="wrapper">
+         <div class="display">
+            <div id="time"></div>
+         </div>
+         <span></span>
+         <span></span>
+      </div>
+      <script>
+         setInterval(()=>{
+           const time = document.querySelector(".display #time");
+           let date = new Date();
+           let hours = date.getHours();
+           let minutes = date.getMinutes();
+           let seconds = date.getSeconds();
+           let day_night = "AM";
+           if(hours > 12){
+             day_night = "PM";
+             hours = hours - 12;
+           }
+           if(seconds < 10){
+             seconds = "0" + seconds;
+           }
+           if(minutes < 10){
+             minutes = "0" + minutes;
+           }
+           if(hours < 10){
+             hours = "0" + hours;
+           }
+           time.textContent = hours + ":" + minutes + ":" + seconds + " "+ day_night;
+         });
+      </script>
+   </body>
+</html>
+
+
+
+------------------------------ OK
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Digital Clock with Glowing Effect</title>
+      <style>
+         body {
+            background-color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+         }
+
+         .wrapper {
+            height: 100px;
+            width: 360px;
+            background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+            border-radius: 10px;
+            position: relative;
+            cursor: default;
+            animation: animate 1.5s linear infinite;
+         }
+
+         .display {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 85px;
+            width: 345px;
+            background: #1b1b1b;
+            border-radius: 6px;
+            text-align: center;
+            z-index: 1;
+         }
+
+         #time {
+            line-height: 85px;
+            color: #fff;
+            font-size: 50px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: animate 1.5s linear infinite;
+         }
+
+         @keyframes animate {
+            100% {
+               filter: hue-rotate(360deg);
+            }
+         }
+      </style>
+   </head>
+   <body>
+      <div class="wrapper">
+         <div class="display">
+            <div id="time">12:00:00 AM</div>
+         </div>
+      </div>
+      <script>
+         setInterval(() => {
+            const time = document.querySelector("#time");
+            let date = new Date();
+            let hours = date.getHours();
+            let minutes = date.getMinutes();
+            let seconds = date.getSeconds();
+            let day_night = "AM";
+            if (hours > 12) {
+               day_night = "PM";
+               hours = hours - 12;
+            }
+            if (seconds < 10) {
+               seconds = "0" + seconds;
+            }
+            if (minutes < 10) {
+               minutes = "0" + minutes;
+            }
+            if (hours < 10) {
+               hours = "0" + hours;
+            }
+            time.textContent = hours + ":" + minutes + ":" + seconds + " " + day_night;
+         });
+      </script>
+   </body>
+</html>
+
+
+
+------------------ Boton el talwind
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Botón con Gradiente en el Borde y Redondeo Personalizado</title>
+  <!-- Incluir el archivo de Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    /* CSS personalizado */
+    .border-gradient {
+      border-width: 3px; /* Ancho del borde */
+      border-image: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+      border-image-slice: 1;
+      animation: animate 1.5s linear infinite; /* Animación */
+    }
+
+    @keyframes animate {
+      100% {
+         filter: hue-rotate(360deg);
+      }
+    }
+  </style>
+</head>
+<body class="bg-gray-200 flex justify-center items-center h-screen">
+  <button class="border-gradient rounded-full border-dashed text-white font-bold py-2 px-4">
+    Mi botón con gradiente en el borde y redondeo personalizado
+  </button>
+</body>
+</html>
+
+--------------------
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Botón con Gradiente en el Borde y Redondeo Personalizado</title>
+  <!-- Incluir el archivo de Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    /* CSS personalizado */
+    .border-gradient {
+      border-width: 3px; /* Ancho del borde */
+      border-image: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+      border-image-slice: 1;
+      animation: animate 1.5s linear infinite; /* Animación */
+    }
+
+    @keyframes animate {
+      100% {
+         filter: hue-rotate(360deg);
+      }
+    }
+
+    /* Estilo adicional para centrar verticalmente el texto */
+    .center-vertically {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      background: #1b1b1b;
+
+    }
+  </style>
+</head>
+<body class="bg-gray-200 flex justify-center items-center h-screen">
+  <button class="border-gradient  border-solid border-2rounded-full  text-white font-bold py-2 px-4 ">
+    <span class="center-vertically">Mi botón con gradiente en el borde y redondeo personalizado</span>
+  </button>
+</body>
+</html>
+
+
+ COLOR VERCEL:
+   NEGRO: #000000
+              #01040C
+			  #01060F
+			  #020A1B
+			  #020B1E
+			  #020E28
+			  #020E27
+			  #021334
+			  #031338
+			  #03153B
+			  #04153F
+			  #0A2052
+			  #04194E
+			  #041A50
+			  #041A51
+			  #03184E
+			  #02174B
+			  #021549
+			  #011444
+			  #011446
+			  #01123E
+			  #01113F
+			  #000E34
+			  #000D32
+			  #000822
+   BLANCO: #FFFFFF
+   
+    FONT --> inter regular
+	
+	----------------------------------------------------------
+	
+	
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Digital Clock with Glowing Effect</title>
+      <style>
+         body {
+            background-color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* 100% alto*/
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+         }
+
+         .wrapper { /* contenedor de estilos */
+            height: 100px;
+            width: 360px;
+            background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+           
+            /* 
+             linear-gradient(dirección, color1, color2, ...) ==  fondos con gradientes,
+           
+             dirección: Especifica la dirección en la que se aplicará el gradiente lineal. Puede ser un ángulo (en grados) o palabras clave como "to top", "to bottom", "to left", "to right", "to top left", "to top right", "to bottom left" y "to bottom right".
+           
+           
+          -- Un gradiente lineal de izquierda a derecha con dos colores 
+            background: linear-gradient(to right, red, blue);
+
+          -- Un gradiente lineal en diagonal de abajo a arriba con tres colores 
+           background: linear-gradient(45deg, red, yellow, green);
+
+
+           */
+            border-radius: 10px;
+            position: relative;
+            cursor: default;
+            animation: animate 1.5s linear infinite;
+         }
+
+         .display {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 85px;
+            width: 345px;
+            background: #1b1b1b;
+            border-radius: 6px;
+            text-align: center;
+            z-index: 1;
+         }
+
+         #time {
+            line-height: 85px;
+            color: #fff;
+            font-size: 50px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: animate 1.5s linear infinite;  /* animate llama KeyFrame, duracion, velocidad Constante, Repetiones */
+         }
+
+         @keyframes animate {
+            100% {
+               filter: hue-rotate(360deg);
+            }
+         }
+        
+        /*
+        @keyframes animate: Esto define un conjunto de reglas de animación llamado "animate". Este nombre se utiliza para vincular esta animación a través de la propiedad animation en elementos HTML.
+
+100%: En una animación definida con @keyframes, el porcentaje representa el progreso de la animación. Aquí, estamos especificando que al alcanzar el 100% de la animación (es decir, al final), se aplicará la regla de animación que sigue.
+
+filter: hue-rotate(360deg);: Esta es la regla de animación que se aplicará al 100% de la animación. Utiliza la propiedad filter para aplicar el efecto de cambio de tono de color. hue-rotate(360deg) gira todos los colores en un círculo completo de 360 grados, lo que esencialmente restaura el color original del elemento. Esto significa que el elemento cambiará su tono de color durante la animación y volverá a su color original al final.
+        
+        
+        */
+      </style>
+   </head>
+   <body>
+      <div class="wrapper">
+         <div class="display">
+            <div id="time">12:00:00 AM</div>
+         </div>
+      </div>
+      <script>
+         setInterval(() => {
+            const time = document.querySelector("#time");
+            let date = new Date();
+            let hours = date.getHours();
+            let minutes = date.getMinutes();
+            let seconds = date.getSeconds();
+            let day_night = "AM";
+            if (hours > 12) {
+               day_night = "PM";
+               hours = hours - 12;
+            }
+            if (seconds < 10) {
+               seconds = "0" + seconds;
+            }
+            if (minutes < 10) {
+               minutes = "0" + minutes;
+            }
+            if (hours < 10) {
+               hours = "0" + hours;
+            }
+            time.textContent = hours + ":" + minutes + ":" + seconds + " " + day_night;
+         });
+      </script>
+   </body>
+</html>
+
+
+------------------------------------------ EJMPLO PERFECTO
+
+HOOVER =====> https://dev.to/mysticza/beautiful-chase-rgb-glow-effect-css-1h2p
+https://codepen.io/leandrosimoes/pen/VqZxaG
+https://css-tricks.com/slide-to-unlock/
+https://www.cssscript.com/ios-style-loading-spinner-with-pure-css-ispinner/
+
+https://codepen.io/davebrogan/pen/OJJKXpy
+https://codepen.io/kevinmiranda/pen/XwaopR
+https://codepen.io/jackrugile/pen/nZMBMA
+https://codepen.io/Stockin/pen/XPvpoB
+https://codepen.io/zFunx/pen/VXmwbO
+https://codepen.io/ChemBioScripting/pen/KBBMLM
+https://codepen.io/lonekorean/pen/rNOwVy
+https://codepen.io/lonekorean/pen/ExVXjv
+
+TEXT ANIMATION
+ https://codepen.io/azrikahar/pen/NWNEByV
+ https://codepen.io/designcourse/pen/vYQQKBW  == https://www.youtube.com/watch?v=VeTwNnZUPlw
+ 
+ 
+ COLORS ===> https://www.cssscript.com/text-fading-scroll-iphone/
+
+
+  <button class="btn">
+   <p class="words">Hover me</p>
+ </button>
+ 
+ 
+ @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+   * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: "Poppins", sans-serif;
+   }
+
+   body {
+     width: 100%;
+     height: 100vh;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     background-color: #1c1524;
+   }
+
+   .btn {
+     width: 240px;
+     font-size: 20px;
+     height: 60px;
+     border: none;
+     outline: none;
+     background: black;
+     cursor: pointer;
+     position: relative;
+     border-radius: 10px;
+   }
+
+   .words {
+     color: white;
+     font-size: 1.4em;
+     background-image: none;
+     font-weight: bold;
+   }
+
+   .btn:hover .words {
+     background: linear-gradient(124deg,
+         #dd00f3 1%,
+         #ff2400,
+         #e81d1d,
+         #e8b71d,
+         #e3e81d,
+         #1de840,
+         #1ddde8,
+         #2b1de8,
+         #dd00f3,
+         #dd00f3,
+
+         #ff2400,
+         #e81d1d,
+         #e8b71d,
+         #e3e81d,
+         #1de840,
+         #1ddde8,
+         #2b1de8,
+         #dd00f3,
+         #dd00f3);
+
+     -webkit-background-clip: text;
+     -webkit-text-stroke: 2px transparent;
+     color: #000;
+
+     animation: glowing 20s linear infinite;
+     background-size: 200%;
+
+     opacity: 0;
+     transition: opacity 0.3s ease-in-out, color 0.3s ease-in-out;
+   }
+
+   .btn:hover .words {
+     opacity: 1;
+   }
+
+   .btn:before {
+     content: "";
+     background: linear-gradient(90deg,
+         #ff2400,
+         #e81d1d,
+         #e8b71d,
+         #e3e81d,
+         #1de840,
+         #1ddde8,
+         #2b1de8,
+         #dd00f3,
+         #dd00f3,
+
+         #ff2400,
+         #e81d1d,
+         #e8b71d,
+         #e3e81d,
+         #1de840,
+         #1ddde8,
+         #2b1de8,
+         #dd00f3,
+         #dd00f3);
+     position: absolute;
+     top: -2px;
+     left: -2px;
+     background-size: 200%;
+     z-index: -1;
+     filter: blur(5px);
+     width: calc(100% + 4px);
+     height: calc(50% + 4px);
+     animation: glowing 20s linear infinite;
+     opacity: 0;
+     transition: opacity 0.3s ease-in-out;
+     border-top-right-radius: 10px;
+     border-top-left-radius: 10px;
+   }
+
+   .btn:hover:before {
+     opacity: 1;
+   }
+
+   .btn:hover.btn:after {
+     opacity: 1;
+   }
+
+   .btn:after {
+     content: "";
+     background: linear-gradient(90deg,
+         #dd00f3,
+         #dd00f3,
+         #2b1de8,
+         #1ddde8,
+         #1de840,
+         #e3e81d,
+         #e8b71d,
+         #e81d1d,
+         #ff2400,
+
+         #dd00f3,
+         #dd00f3,
+         #2b1de8,
+         #1ddde8,
+         #1de840,
+         #e3e81d,
+         #e8b71d,
+         #e81d1d,
+         #ff2400);
+     position: absolute;
+     top: calc(50% - 2px);
+     left: -2px;
+     background-size: 200%;
+     z-index: -1;
+     filter: blur(5px);
+     width: calc(100% + 4px);
+     height: calc(50% + 4px);
+     animation: glowing-reverse 20s linear infinite;
+     opacity: 0;
+     transition: opacity 0.3s ease-in-out;
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+   }
+
+   @keyframes glowing {
+     0% {
+       background-position: 0 0;
+     }
+
+     100% {
+       background-position: 400% 0;
+     }
+   }
+
+   @keyframes glowing-reverse {
+     0% {
+       background-position: 400% 0;
+     }
+
+     100% {
+       background-position: 0 0;
+     }
+   }
+   
+   ------------------------------------------ EJMPLO PERFECTO
+   
+   
+   COLOR NEGRO ===> #F2F2F2  #A6A6A6 #595959 #262626 #0D0D0D

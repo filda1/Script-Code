@@ -17,6 +17,7 @@
  m3
  
  https://ui.shadcn.com/docs/
+ https://www.radix-ui.com/
  
  
  https://gitness.com/
@@ -31,4 +32,35 @@
  https://react.semantic-ui.com/
  https://chakra-ui.com/
  
+ 
+ https://preline.co/docs/navbar.html
+ 
  https://bentogrids.com/ ************* EJEMPLOS
+ 
+ 
+ npm init -y
+ 
+ ----------------
+  NAVBAR
+  
+  --Sticky Floating Header using Tailwind CSS
+   https://github.com/htmlstreamofficial/preline/tree/main/examples
+   https://preline.co/examples/html/sticky-floating-header.html#
+   
+   
+   
+   ---
+   https://tailwindcomponents.com/component/navigation-component
+   
+   https://codesandbox.io/
+   https://www.youtube.com/watch?v=xnltEHWWjiM === Online Tutorials
+   https://www.youtube.com/watch?v=Txr6mkqNjGc
+   
+   https://www.youtube.com/@CodingNepal*************
+   ****************************************** CSS **************************************************
+   
+   -Colorful Glowing Effect on Hover using HTML & CSS
+    https://www.codingnepalweb.com/colorful-glowing-effect-on-hover/
+	
+	-Digital Clock with Colorful Glowing Effect using HTML CSS & JavaScript
+	https://www.codingnepalweb.com/digital-clock-using-javascript/
