@@ -438,16 +438,16 @@ https://www.cssscript.com/ios-style-loading-spinner-with-pure-css-ispinner/
 
 https://codepen.io/davebrogan/pen/OJJKXpy
 https://codepen.io/kevinmiranda/pen/XwaopR
-https://codepen.io/jackrugile/pen/nZMBMA
+https://codepen.io/jackrugile/pen/nZMBMA   ------------------> Search
 https://codepen.io/Stockin/pen/XPvpoB
-https://codepen.io/zFunx/pen/VXmwbO
-https://codepen.io/ChemBioScripting/pen/KBBMLM
+https://codepen.io/zFunx/pen/VXmwbO    -------------------------> Loader
+https://codepen.io/ChemBioScripting/pen/KBBMLM   --------------> Cambaio de Text al tocar
 https://codepen.io/lonekorean/pen/rNOwVy
 https://codepen.io/lonekorean/pen/ExVXjv
 
 TEXT ANIMATION
- https://codepen.io/azrikahar/pen/NWNEByV
- https://codepen.io/designcourse/pen/vYQQKBW  == https://www.youtube.com/watch?v=VeTwNnZUPlw
+ https://codepen.io/azrikahar/pen/NWNEByV   -------------------> Text CAMBIANDO
+ https://codepen.io/designcourse/pen/vYQQKBW  == https://www.youtube.com/watch?v=VeTwNnZUPlw  -------------> Scrool Animado
  
  
  COLORS ===> https://www.cssscript.com/text-fading-scroll-iphone/

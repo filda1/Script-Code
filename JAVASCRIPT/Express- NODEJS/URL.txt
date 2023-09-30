@@ -14,6 +14,11 @@
   https://www.youtube.com/watch?v=pgoZFKgoiDk&t=1488s
 
 **************************************************************************************
+  PRISMA
+  
+   https://www.youtube.com/watch?v=N5dkg28jRF0&t=3476s
+   
+**************************************************************************************
   npm | publicar primer modulo
   
   https://www.youtube.com/watch?v=grOjfJpqwyw
