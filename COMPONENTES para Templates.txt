@@ -19,6 +19,8 @@
  https://ui.shadcn.com/docs/
  https://www.radix-ui.com/
  
+ https://m2.material.io/components/tabs
+ 
  
  https://gitness.com/
  https://www.dark.design/

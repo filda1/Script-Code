@@ -16,6 +16,12 @@ REACT NATIVE (EXPO) ========> https://www.youtube.com/watch?v=hXDMWeD0ERM (Fazt)
                                                            https://github.com/itzpradip/react-navigation-v5-mix
 
 ***********************************************************************************************************
+
+  REACT NAYTIVE + Tailwind (NativeWind)
+  
+  https://www.youtube.com/watch?v=KvM30zIJVyA&t=38s
+
+____________________________________________________________________________________________________________
  RESTYLE = TRHMES, stilos..
  
  https://www.youtube.com/watch?v=uOlqKTv_Z8E&list=WL&index=2

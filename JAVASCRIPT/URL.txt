@@ -41,6 +41,10 @@ Bibliotecas y Frameworks mencioandos:
     * O Para llamar a la funcion, se pone  await delante
 
 *********************************************************************************************************
+  MUSIC
+    https://wavesurfer.xyz/
+
+*********************************************************************************************************
  CLIENT REST CON PROXY (Servidor Intermedio)
  https://www.youtube.com/watch?v=Ppos09yFpzA
 

@@ -446,11 +446,21 @@ https://codepen.io/lonekorean/pen/rNOwVy
 https://codepen.io/lonekorean/pen/ExVXjv
 
 TEXT ANIMATION
- https://codepen.io/azrikahar/pen/NWNEByV   -------------------> Text CAMBIANDO
+ https://codepen.io/azrikahar/pen/NWNEByV   -------------------> Text CAMBIANDO  CSS Rotating Words , Vertically Rotating Text With CSS
+ https://codepen.io/JacobStone420/pen/Jjjpaa
+ https://webartdevelopers.com/blog/vertically-rotating-text/
+ 
  https://codepen.io/designcourse/pen/vYQQKBW  == https://www.youtube.com/watch?v=VeTwNnZUPlw  -------------> Scrool Animado
  
  
  COLORS ===> https://www.cssscript.com/text-fading-scroll-iphone/
+ 
+ Menu =====> https://www.youtube.com/watch?v=aswRKAjjWuE
+ 
+ WEB URL
+ https://www.youtube.com/watch?v=844dgNjr3AA ---------> csPoint
+ https://freefrontend.com/css-text-animations/
+ https://freebiesupply.com/blog/css-text-effects-from-codepen/  ----------------> Bueno
 
 
   <button class="btn">
