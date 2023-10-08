@@ -151,5 +151,7 @@ AI imagenes
  
   imagen a palete colords
    https://color.adobe.com/es/create/image
+   ____________________________________________________________________________________________________________________________________________
   
-  
+   DIAGRAMAS
+     https://excalidraw.com/

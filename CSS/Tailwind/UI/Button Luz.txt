@@ -447,11 +447,59 @@ https://codepen.io/lonekorean/pen/ExVXjv
 
 TEXT ANIMATION
  https://codepen.io/azrikahar/pen/NWNEByV   -------------------> Text CAMBIANDO  CSS Rotating Words , Vertically Rotating Text With CSS
- https://codepen.io/JacobStone420/pen/Jjjpaa
- https://webartdevelopers.com/blog/vertically-rotating-text/
+ https://codepen.io/hendrysadrak/pen/VLMOMJ --------------------> Text color
+ https://codepen.io/dghez/pen/abRVQL--------------------> Text color
+ https://codepen.io/ariona/pen/LEEadb ------------------> Text 
+ https://codepen.io/ClaireLarsen/pen/XmVyVX -------------> Text
+ https://codepen.io/primaapriansyah/pen/ExxGyj -----------> Text
+ https://codepen.io/yoksel/pen/yNJYyE --------------------> Text
+ 
+ https://codepen.io/JacobStone420/pen/Jjjpaa -----------> Text
+ https://webartdevelopers.com/blog/vertically-rotating-text/ -----------> Text
+ 
+ 
+ https://codingartistweb.com/2022/01/underline-and-overline-menu-hover-effect-css-tutorial/ ------------> menu
+ https://www.youtube.com/watch?v=KwoSm0E8MOE ------------> menu
+ https://codingartistweb.com/2021/01/draw-underline-link-hover-effect-css/ ------------> menu
+ https://getdevdone.com/blog/our-favorite-navigation-menu-effects.html ------------> menu
+ https://www.youtube.com/watch?v=EXzotQV4tDM -----------------------------------------< mneu  *********
+ https://www.csscodelab.com/lavalamp-css-menu-hover-animation-snippet/ -----------------> menu *******************
+ https://codepen.io/Mark_Bell00/pen/vYELmNM
+ 
+ https://codepen.io/KPCodes/pen/PbPzrP ----------------- < menu responivo
+ https://codepen.io/fadzrinmadu/pen/bGqrJjB?editors=1100 ----------------- < menu responivo
+ https://codepen.io/mutedblues/pen/MmPNPG?editors=1100
+ 
+ https://freefrontend.com/css-menu/  =====================================> MENUS
+ https://devsnap.me/css-menu
+ 
+ https://morioh.com/a/ddfc8b9d4766/advanced-drop-down-menu-animation-like-facebook-using-html-css-and-javascript =====> SELECT
+ https://www.codingnepalweb.com/advanced-drop-down-menu-javascript/
+ 
+ https://codepen.io/nikhil8krishnan/pen/WvYPvv --------------------------------------> Tabla
+ 
+ https://codepen.io/kevinpowell/pen/GRBdLEv ------------------------------------------> Card
+ https://www.youtube.com/watch?v=Z-3tPXf9a7M
+ 
+ https://codepen.io/alexkleinubing/pen/abBzMKe --------------------------------------------< card
+ 
+ https://foolishdeveloper.com/how-to-create-text-typing-animation-using-html-css/
+ https://codepen.io/fghty/pen/eYRejRL?editors=1010
  
  https://codepen.io/designcourse/pen/vYQQKBW  == https://www.youtube.com/watch?v=VeTwNnZUPlw  -------------> Scrool Animado
  
+ CARD
+ https://freefrontend.com/css-card-hover-effects/
+ https://devsnap.me/css-card-hover-effects
+ https://codepen.io/elcan-kerimov/pen/EdMdXx ------------------------------
+ https://devsnap.me/css-flip-cards
+ 
+ BG PATTERNS
+ https://devsnap.me/css-background-patterns
+ 
+ BUTTON
+ https://codepen.io/alphardex/pen/vYEYGzp
+ https://devsnap.me/css-border-animations
  
  COLORS ===> https://www.cssscript.com/text-fading-scroll-iphone/
  
