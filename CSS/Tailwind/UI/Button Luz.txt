@@ -482,6 +482,8 @@ TEXT ANIMATION
  https://www.youtube.com/watch?v=Z-3tPXf9a7M
  
  https://codepen.io/alexkleinubing/pen/abBzMKe --------------------------------------------< card
+ https://www.creative-tim.com/product/rotating-css-card
+ https://freefrontend.com/css-cards/ ****************
  
  https://foolishdeveloper.com/how-to-create-text-typing-animation-using-html-css/
  https://codepen.io/fghty/pen/eYRejRL?editors=1010
