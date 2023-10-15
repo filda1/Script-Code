@@ -22,3 +22,15 @@
 
   Unicron
   iunicron
+  
+  
+  ---------------------
+  
+  React
+  Next
+  Vue
+  Remix
+  Svelte
+  Astro
+  Quwi
+  Angular

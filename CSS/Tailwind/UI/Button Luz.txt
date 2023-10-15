@@ -490,6 +490,39 @@ TEXT ANIMATION
  
  https://codepen.io/designcourse/pen/vYQQKBW  == https://www.youtube.com/watch?v=VeTwNnZUPlw  -------------> Scrool Animado
  
+ https://www.youtube.com/watch?v=yvqSioowCRc -------------------> scroll cambio de texto == Text Line Animation on Scroll
+ 
+ 
+ scroll cambio de texto == Text Line Animation on Scroll
+ **************************************************************************** https://codepen.io/stevenlei/pen/vYJyJyR
+ https://codepen.io/mvaneijgen/pen/qBLjLQp~********************************************************************
+ https://codemyui.com/tag/scroll-animation/ ********************************************************************
+ https://codepen.io/jh3y/pen/pozmoPN
+ https://codepen.io/jh3y/pen/vzqVWa
+ https://codepen.io/nailaahmad/pen/MyZXVE
+ 
+ https://webflow.com/made-in-webflow/website/Text-Reveal-Animations-on-Scroll
+ https://codesandbox.io/s/highlight-text-on-scroll-ih1x5y?from-embed
+ https://www.letsbuildui.dev/articles/highlighting-text-on-scroll/
+ 
+ https://codepen.io/electricgarden/pen/PooLxGJ
+ https://codepen.io/shshaw/pen/YOPqLb
+ 
+ https://codepen.io/phantomesse/pen/kPKGYy
+ 
+ PARALAX
+ https://codepen.io/ravid7000/pen/LREEzv
+ 
+ 
+ Search
+ https://codepen.io/sebastianpopp/pen/myYmmy
+ 
+ 
+ LOGOS
+ https://speckyboy.com/logos-css-js-svg/
+ 
+ https://devicon.dev/
+ 
  CARD
  https://freefrontend.com/css-card-hover-effects/
  https://devsnap.me/css-card-hover-effects

@@ -155,3 +155,23 @@ AI imagenes
   
    DIAGRAMAS
      https://excalidraw.com/
+	 
+	 
+	 
+	 ____________________________________________________________________________________________________________________________________________
+	 
+	 GRAFICOS
+	  https://www.tradingview.com/lightweight-charts/
+	  
+	  
+	  -------------------------------------------------------------------------------------------------------------------------
+	  TEMP
+	  
+	  C:\Users\meire\AppData\Local\Temp
+	  
+	  Windows + R   ----> %temp%
+	  
+	  Windows + R   ----> Prefetch  (Solo archivos)
+	  
+	  
+	  https://www.youtube.com/watch?v=yNKXOXqprzw
