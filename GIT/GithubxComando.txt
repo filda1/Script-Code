@@ -28,8 +28,10 @@ CREAR RAMA
 
 
  MERGE CON USER Temporal
+  git branch  -----> estart rama destino
   git merge nombre_de_la_rama_fuente
   git commit --author="Nombre del Usuario <correo@example.com>" -m "Mensaje del commit"
+  git push origin nombre_de_la_rama_destino
 
 
  MEZCLA RAMA A master     ==========> (MERGE)
