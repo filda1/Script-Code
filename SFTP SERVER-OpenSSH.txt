@@ -20,6 +20,7 @@ Install SFTP in Windows Server 2019
 3. Criar Pasta:   E:\SFTPRoot
 
 4. Abrir NotePad com Admin, Abrir c:\ProgramData\ssh  ===> All Files ,  ir a===> sshd_config :
+ (   DIR ==>C:\ProgramData\ssh   o buscar por ====> %PROGRAMDATA%\SSH\ )
   4.1 Copia el path dentro:
      ChrootDirectory  E:\SFTPRoot ( Remover el # y SAVE)  ======>  Aqui, Accede todo Users, creados
     O
