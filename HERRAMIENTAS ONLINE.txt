@@ -175,3 +175,7 @@ AI imagenes
 	  
 	  
 	  https://www.youtube.com/watch?v=yNKXOXqprzw
+	  ____________________________________________________________________________________________________________________________________________
+	  
+	  Pulumi =================================> Despliege a cloud Conocidos
+	  https://tangelov.me/posts/pulumi.html
