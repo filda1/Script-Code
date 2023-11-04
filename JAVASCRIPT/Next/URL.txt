@@ -43,8 +43,15 @@ OJO: en NEXT 13:   * LOs Componentes son en MAYUSCULAS y las Paginas en miniscul
   Fatz =====> https://www.youtube.com/watch?v=H_s-xM6Ii1g&t=16s
 
 *********************************************************************************************************************************************
+ 
+ Nextjs NextAuth Prisma Login y Registro
+ 
+ 
  AUTH + JWT
-  https://www.youtube.com/watch?v=Ynkf2ZueKJU
+  https://www.youtube.com/watch?v=Ynkf2ZueKJU   ----> Fazt
+  
+  https://www.youtube.com/watch?v=iZDK42F2cTc
+  https://github.com/fazt/nextauth-prisma-credentials
 
 
 
