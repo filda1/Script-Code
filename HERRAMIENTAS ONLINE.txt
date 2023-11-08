@@ -212,3 +212,18 @@ AI imagenes
 	 
 	 PLUGIN TABLAS REACT
 	 https://tanstack.com/table/v8/docs/examples/solid/basic
+	 
+	 
+	 ____________________________________________________________________________________________________________________________________________
+	 
+	 NAVEGADORES
+	 
+	 Lapce
+	 Cursor
+	 vscode.dev
+	 ptoyect idx
+	 
+	 ____________________________________________________________________________________________________________________________________________
+	 
+	 TRANSFERIR TABLAS SQL PARA OTRA DATABSE
+	 ESF Database Migration Toolkit - Pro

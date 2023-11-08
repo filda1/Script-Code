@@ -1,0 +1,25 @@
+
+//FECHAS EN ANGULAR EN TS Y HTML
+
+  Tue Sep 29 2020 01:00:00 GMT+0100 (Hora de verão da Europa Ocidental)
+     this.billing_period_start.setValue( this.datePipe.transform('Tue Sep 29 2020 01:00:00 GMT+0100 (Hora de verão da Europa Ocidental)', 'yyyy-MM-dd'));
+	 
+	 ejemplo:
+	 
+	 ----
+	 OJO:
+	  Poner en module.ts:
+	   providers: [
+         DatePipe // Agrega el proveedor DatePipe aquí
+       ],
+	 ----
+	 import { DatePipe } from '@angular/common';
+	 
+	 
+	   const currentDate = new Date();
+    console.log('newDate,: ', currentDate);
+    const subtractDays = currentDate.setDate(currentDate.getDate() - 1134);
+    this.billing_period_start.setValue(this.datePipe.transform(subtractDays, 'yyyy-MM-dd'));
+	
+	en HTML:
+	  <input disabled matInput placeholder="Data Último Estado" value="{{data.invoice.status_date | date:'yyyy-MM-dd HH:mm:ss'}}">
