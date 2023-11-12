@@ -15,6 +15,12 @@ Bibliotecas y Frameworks mencioandos:
 * Hardware: Johnny-five.io, node red, iot.js
 
 *********************************************************************************************************
+ MACHINE LEARNING
+  https://huggingface.co/docs/transformers.js/api/models
+  https://xenova.github.io/transformers.js/
+  https://github.com/xenova/transformers.js
+
+*********************************************************************************************************
  SVGNest
    https://www.youtube.com/watch?v=TrwvgSwUT3o
    http://svgeditoronline.com/editor/
@@ -28,6 +34,11 @@ Bibliotecas y Frameworks mencioandos:
   2- http-server
 
   http://localhost:PUERTO
+
+*********************************************************************************************************
+   Nativefier
+   Convierte sitios web en Aplicaciones de Escritorio con Nativefier
+		  https://www.youtube.com/watch?v=nH1Fnzp3VYU&t=1s
 
 *********************************************************************************************************
  FUNCION DENTRO DE OTRA FUNCION + return

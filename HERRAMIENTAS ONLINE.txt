@@ -227,3 +227,11 @@ AI imagenes
 	 
 	 TRANSFERIR TABLAS SQL PARA OTRA DATABSE
 	 ESF Database Migration Toolkit - Pro
+	 
+	 ____________________________________________________________________________________________________________________________________________
+	 T
+	 Transformei meu Notebook ANTIGO em um Servidor PROXMOX
+	 
+	 https://www.youtube.com/watch?v=Dpj0RU6tvk4
+	 
+	 ____________________________________________________________________________________________________________________________________________
