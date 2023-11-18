@@ -102,3 +102,71 @@ ________________________________________________________________________________
   
   
   TODO : https://www.youtube.com/watch?v=IU0SU4lbAwY
+  
+  _________________________________________________________________________________________
+  
+  ACTUALIZAR angular
+    >> ng version
+	
+	https://update.angular.io/
+	
+	de 16 a 17
+	
+	>> proyect >> angular>> npm uninstall @angular/cli
+	>> proyect >> angular>>npm cache clean --force
+	>> proyect >> angular>>npm install @angular/cli
+	>> proyect >> angular>> nx migrate ----------------------------------------> Actualiza TODO
+	
+	
+	>> proyecto >>
+					nx migrate latest
+					nx migrate @nrwl/nx-cloud
+					nx migrate @angular-devkit/build-angular
+					nx migrate @angular/animations
+					nx migrate @angular/cdk
+					nx migrate @angular/cli
+					nx migrate @angular/common
+					nx migrate @angular/compiler
+					nx migrate @angular/compiler-cli
+					nx migrate @angular/core
+					nx migrate @angular/flex-layout
+					nx migrate @angular/forms
+					nx migrate @angular/language-service
+					nx migrate @angular/material
+					nx migrate @angular/platform-browser
+					nx migrate @angular/platform-browser-dynamic
+					nx migrate @angular/router
+					nx migrate @angular/service-worker
+					nx migrate @angular/animations
+					nx migrate @angular/common
+					nx migrate @angular/compiler
+					nx migrate @angular/core
+					nx migrate @angular/forms
+					nx migrate @angular/localize
+					nx migrate @angular/platform-browser
+					nx migrate @angular/platform-browser-dynamic
+					nx migrate @angular/router
+
+					 -- ELIMINAR node_modules
+					 --ELIMINAR package-lock.json
+					 
+					 >> npm install
+					 >> npx nx migrate --run-migrations
+	 
+       >> ng version
+	   
+ NOTA:
+   - Make sure package.json changes make sense and then run 'npm install',
+   - Run 'npx nx migrate --run-migrations'
+   - To learn more go to https://nx.dev/core-features/automate-updating-dependencies
+   
+   *https://lightrun.com/answers/nrwl-nx-nx-migrate-angularcore-doesnt-update-all-packages
+   
+   
+   ALTERNIVA:
+   nx migrate @angular-devkit/build-angular @angular/animations @angular/cdk @angular/cli @angular/common @angular/compiler @angular/compiler-cli @angular/core @angular/flex-layout @angular/forms @angular/language-service @angular/material @angular/platform-browser @angular/platform-browser-dynamic @angular/router @angular/service-worker @angular/animations @angular/common @angular/compiler @angular/core @angular/forms @angular/localize @angular/platform-browser @angular/platform-browser-dynamic @angular/router @nrwl/nx-cloud 
+   
+   
+   VERSION de nestJS
+   >> npm show @nestjs/core version
+
