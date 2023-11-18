@@ -239,3 +239,10 @@ AI imagenes
 	 
 	 REALIDAD AUMENTADA == ADOBE AERO
 	 https://www.youtube.com/watch?v=nlUkNVmm8NY
+	 
+	____________________________________________________________________________________________________________________________________________
+	
+	MANTENER PC ACTIVO
+	Keep Awake (Display | System)-----> extension for Navegador
+
+	Mouse MOVE ---> software
