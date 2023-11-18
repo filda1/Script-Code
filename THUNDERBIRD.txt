@@ -1,9 +1,9 @@
 THUNDERBIRD
 
- ADICIONAR CUENTAS
-
+ ADICIONAR CUENTAS.
 
     0-  En icone del MENU ====> + NEW
     1-  Get EXisting Email Account
     2-  Email / Password
     3-  IMAP
+	
