@@ -23,6 +23,17 @@
 
 
  TUTORIAL NEXTJS 13 =====> https://www.youtube.com/@CodingGarden/search?query=Learning%20Next.js  (Code garden) 1:07
+ 
+ 
+ ********************************************************************************************************************************************
+  NEXT 14 : tutorial oficial ----> midudev
+ 
+https://nextjs.org/learn
+https://www.youtube.com/watch?v=jMy4pVZMyLM     1
+https://www.youtube.com/watch?v=m6KESRxAdK4&t=1s   2
+
+
+https://skeletonreact.com/
 
 *********************************************************************************************************************************************
  Nextjs Mongodb Autenticacion (Login y Registro con JWT y NextAuthjs)
@@ -31,6 +42,13 @@
   https://github.com/fazt/next-auth-credentials-mongodb
 
 *************************************************************************************************************************************
+ STORAGE == digital spaces
+ 
+ Nextjs y Digitalocean Spaces - Subir archivos en aplicaciones reales
+ https://www.youtube.com/watch?v=Kyu7KDboRJw
+
+*************************************************************************************************************************************
+
 OJO: en NEXT 13:   * LOs Componentes son en MAYUSCULAS y las Paginas en minisculas
 
  NEXT 13

@@ -15,6 +15,20 @@
 
  https://www.youtube.com/watch?v=YGGg9ecy0K4
  
+*********************************************************************************************
+
+ AVALONIA
+ 
+ 
+  CHARS
+    https://livecharts.dev/docs/avalonia/2.0.0-rc1/gallery
+	
+*********************************************************************************************
+.NET 8 Web API & Entity Framework 🚀 Full CRUD Course (with Code-First Migrations & SQL Server)
+
+ https://www.youtube.com/watch?v=b8fFRX0T38M&t=48s     (P God)
+
+
 *******************************************************************************************
  API + REDIS ====> https://www.youtube.com/watch?v=9z3vHqrbuM0
                    https://github.com/luisdeol/aspnetcore-redis-yt

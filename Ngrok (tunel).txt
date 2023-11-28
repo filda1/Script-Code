@@ -28,7 +28,7 @@
   EXEMPLO: NO WATT:
   
   - Colocar exec na raiz, parte principal
-  - RUN del proyecto
+  - RUN del proyecto ----------------------------> otra terminal
   - Abrir exec de Ngrok:
     >> ngrok http https://localhost:420 --host-header=rewrite
   - Copiar a url
