@@ -30,6 +30,13 @@
 
 
 *******************************************************************************************
+  .NET 8 Authentication with Identity in a Web API with Bearer Tokens & Cookies ==> API + JWT
+  
+  https://devblogs.microsoft.com/dotnet/asp-net-core-updates-in-dotnet-8-preview-4/
+  
+  https://www.youtube.com/watch?v=8J3nuUegtL4&t=13s
+  
+********************************************************************************************
  API + REDIS ====> https://www.youtube.com/watch?v=9z3vHqrbuM0
                    https://github.com/luisdeol/aspnetcore-redis-yt
 
@@ -41,6 +48,15 @@
  https://www.youtube.com/
 
 *****************************************************************************************
+ QUITAR LOS WARNING DE C#
+ archivo .csproj:
+
+<PropertyGroup>
+  ...
+  <Nullable>disable</Nullable>
+  ...
+</PropertyGroup>
+******************************************************************************************
  QUITAR WARNING C#
   public async Task<User> GetUserAsync(string email)
         {

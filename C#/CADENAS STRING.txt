@@ -1,0 +1,63 @@
+
+CADENAS STRING
+
+
+___________________________________________________________________________________________________________________________________________
+
+ FEHCAS - VALIDAR DATETIME Y RESTAR FECHAS
+ 
+      //string fechaHoraActualTem = "03/12/2023 01:30:00";
+     //string fechaHoraPosteriorTem = "02/12/2023 23:30:00";
+
+
+     DateTime fechaHoraActual = DateTime.Now;
+     string fechaHoraPosteriorTem = dataItems[20]?.ToString();  //LastImportDatetime
+
+     // Verificar que la cadena no sea null
+     if (fechaHoraPosteriorTem != null)
+     {
+         // Intentar convertir la cadena a un objeto DateTime
+         if (DateTime.TryParseExact(fechaHoraPosteriorTem, "dd/MM/yyyy HH:mm:ss", null, DateTimeStyles.None, out DateTime fechaHoraPosterior))
+         {
+             // Calcular la diferencia de horas utilizando Subtract
+             TimeSpan diferencia = fechaHoraActual.Subtract(fechaHoraPosterior);
+
+             if (diferencia.TotalHours >= 12)
+             {
+                 // Remove Datetime Import
+                 dataSqlLiteService.UpdateData("", "LastImportDatetime");
+             }
+             else
+             {
+                 // La diferencia es menor a 12 horas
+                 // Console.WriteLine("menor");
+             }
+         }
+         else
+         {
+             // La conversión de la cadena a DateTime no fue exitosa
+             Console.WriteLine("La cadena no tiene un formato de fecha y hora válido.");
+         }
+     }
+     else
+     {
+         // La cadena es null
+         Console.WriteLine("La cadena es null.");
+     }
+
+
+___________________________________________________________________________________________________________________________________________
+
+  FECHAS - CONVERTIR AS STRING Y PONER FORMATO DESEADO
+  
+  		       //string fechaHoraActualTem = "03/12/2023 01:30:00";
+      string srtDatetimeImportSqllite = "02/12/2023 23:30:00";
+      
+      
+      //DateTime fechaHoraActual = DateTime.Now;
+        DateTime datetimeImportSqllite = DateTime.Parse(srtDatetimeImportSqllite.ToString());
+        string formatoDeseado = "yyyy-MM-dd HH:mm:ss";
+        string srtDatetimeImport = datetimeImportSqllite.ToString(formatoDeseado);
+
+
+___________________________________________________________________________________________________________________________________________
