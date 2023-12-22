@@ -48,6 +48,18 @@
  https://www.youtube.com/
 
 *****************************************************************************************
+ REDUX.NET
+ https://www.luisllamas.es/redux-net-un-contendor-de-estado-para-aplicaciones-net/
+ 
+ https://github.com/GuillaumeSalles/redux.NET
+ 
+ 
+ ReduxSharp
+ https://github.com/tnakamura/ReduxSharp
+ 
+ Redux Simple
+
+******************************************************************************************
  QUITAR LOS WARNING DE C#
  archivo .csproj:
 
