@@ -1,0 +1,28 @@
+    
+	INSTALR 
+	
+	1- Instalar docker-compose
+	2- Arrancar el desktop docker (Windows)
+	
+	
+	>> docker-compose -f C:\DockerYAML\docker-compose-mysql.yml up -d
+	>> docker ps
+	>> docker-compose -f C:\DockerYAML\docker-compose-mysql.yml  down
+	
+	
+	---_________________________________________________________________________________________
+	version: '3.8'
+services:
+  mariadb-liferay:
+    image: mariadb:latest
+    container_name: 'mariadb-liferay'
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      TZ: Europe/Lisbon  # Se ajustó la zona horaria a Portugal
+      MYSQL_USER: lportal
+      MYSQL_PASSWORD: liferaydb
+      MYSQL_DATABASE: liferaydb
+    ports:
+      - '3366:3306'
+    volumes:
+      - ./mariadb-volumes:/var/lib/mysql

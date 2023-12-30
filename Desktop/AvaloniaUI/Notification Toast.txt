@@ -1,0 +1,42 @@
+
+	Toast =====> dotnet add package Notification.Avalonia 
+	https://github.com/AvaloniaCommunity/Notification.Avalonia/tree/master/Avalonia.Notification.Samples
+	
+
+    //Notification
+    public INotificationMessageManager Manager { get; } = new NotificationMessageManager();
+	
+       //Notification
+       this.Manager
+       .CreateMessage()
+       .Accent("#1751C3")
+       .Animates(true)
+       .Background("#1751C3")
+       .HasBadge("Info")
+       .HasMessage(
+           "Update  application restart.")
+       //.Dismiss().WithButton("Update now", button => { })
+       //.Dismiss().WithButton("Release notes", button => { })
+       .Dismiss().WithDelay(TimeSpan.FromSeconds(5))
+       .Queue();
+	   
+	   
+	   
+	   
+            //Notification
+            this.Manager
+            .CreateMessage()
+            .Accent("#CC0202")
+            .Animates(true)
+            .Background("#CC0202")
+            .HasBadge("Error")
+            .HasMessage(
+                "You have to fill in the required fields: Name client, Name user, Username and Nif, Service Id.")
+            //.Dismiss().WithButton("Update now", button => { })
+            //.Dismiss().WithButton("Release notes", button => { })
+            .Dismiss().WithDelay(TimeSpan.FromSeconds(5))
+            .Queue();
+			
+			  xmlns:controls="clr-namespace:Avalonia.Notification.Controls;assembly=Notification.Avalonia"
+			<!-- Notification-->
+<controls:NotificationMessageContainer Manager="{Binding Manager}" />

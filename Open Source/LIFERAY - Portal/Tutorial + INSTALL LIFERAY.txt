@@ -1,3 +1,273 @@
+
+*******************************************************************************************************************************
+*******************************************************************************************************************************
+ INSTALAT LIFERAY + INTELLJ IDE  -------------------> ( MEJOR FORMA)
+ 
+ >> java -version
+ //https://www.openlogic.com/openjdk-downloads (Instalar)
+ 
+ En Variables de Entorno
+
+ #Cuadro 1:  JAVA_HOME   y  C:\Program Files\OpenLogic\jdk-11.0.21.9-hotspot
+ #Cuadro 2:  Path   y  C:\Program Files\OpenLogic\jdk-11.0.21.9-hotspot\bin
+ 
+ 
+ >> java -version
+ >> echo $JAVA_HOME  
+
+
+	>> Luego Instala INTELLIJ IDE y instalaS EL PLUGIN liferay
+	>> Creas un proyecto con plugin liferay ---> selecionas gradle
+	>> Despues, en el proyecto , boton dertecho , liferay --> initialBundle( solo una vez es para descargar tomcat)
+	>> RUN
+  
+  ------
+Apuntes de Java
+https://www.youtube.com/watch?v=ochsdKQf9no
+
+https://www.liferay.com/documents/10182/246659966/Liferay+DXP+7.4+Compatibility+Matrix.pdf/52024b8e-20e8-ecf5-c911-0291ffda9dea?t=1635460593737
+
+https://www.youtube.com/watch?v=oQoCrS6zGWU  ( + Mysql)
+
+  ------
+
+ #3 forma de trabajar:
+  - Con liferay cli -----> Utlizada
+  - Con Blade (solo linux y mac)
+  - O con generator-liferay-js y Yeoman 
+ 
+  ------
+  
+  
+*********************************** liferay cli ***************************************
+
+ * Con liferay cli tiene ahora depedencias compartidas del liferay portal
+ * Cuando se install dependencias indepedientes de cada modulo, hacer algo partecido *Shared Budlet ==node_modules compartido (esta abajo)
+ https://learn.liferay.com/w/dxp/building-applications/tooling/other-tools/liferay-cli-tool
+ 
+ CSS comaptivel:
+ react boostract
+ https://mui.com/
+ https://styled-components.com/
+ 
+ https://www.youtube.com/watch?v=m-pSuoZUrNY
+ 
+ 
+
+Liferay CLI
+ >> npm install -g @liferay/cli
+
+
+>> cd C:\liferay-workspaces\modules>
+
+>> liferay new test-portlet
+
+OJO poner la cvategoria que va salir en la Web:
+? Under which category should your widget be listed? teste
+
+ $ cd test-portlet ↩
+    $ npm install ↩
+    $ npm run build ↩
+	
+	>>liferay deploy
+
+   >> liferay clean
+
+https://liferay.dev/blogs/-/blogs/how-to-use-shared-library-javascript-with-react-in-liferay
+https://github.com/RoselaineMarquesMontero/liferay-workspace-shared-library/tree/main/modules/common-js-bundle
+SHARE ---> https://www.youtube.com/watch?v=_KuMTJbts4s
+
+https://ianguuima.medium.com/creating-a-liferay-portlet-using-typescript-react-ccc941b610f
+https://learn.liferay.com/web/guest
+https://github.com/liferay/liferay-js-toolkit/wiki
+
+*********************************** liferay cli ***************************************
+  
+
+
+
+*********************************** O con generator-liferay-js y Yeoman ***************************************
+ *SHARED BUDLET === Solo Javascript con Node_modules compartido
+  ## Practicamente es importar las dependecias  a Commom y excluir lo que react tiene de node-modules por ejemplo
+  
+  
+    ------
+ COMPATIBILIDAD liferay 7.4
+ https://learn.liferay.com/w/dxp/building-applications/tooling/reference/node-version-information
+ 
+ NOde 16.13.0
+ Yeoman 4.x
+ 
+ npm install -g generator-liferay-js
+
+ npm install -g yo@4
+ yo liferay-js --version
+ ------
+  
+  
+ ------
+ --RUN ( >> modules >> yo liferay-js )
+ 1- Primero crear node_module compartido (Shared budlet)
+ 2- Y depues por ejemplo crear un portlet de REACT
+ 3- COnfigurar (https://liferay.dev/blogs/-/blogs/how-to-use-shared-library-javascript-with-react-in-liferay)
+    https://www.youtube.com/watch?v=_KuMTJbts4s
+	https://github.com/RoselaineMarquesMontero/liferay-workspace-shared-library/blob/main/modules/react-consumer-application/.npmbundlerrc
+  
+  ## Practicamente es importar las dependecias  a Commom y excluir lo que react tiene de node-modules por ejemplo
+ 
+ 
+ 1-
+ >> modules >> yo liferay-js  ( escoger primero, Shared budlet) -------> Donde va node_modules ( llamda commom-js-bundlet)
+ 
+ ? Where is your local installation of Liferay placed? C:\liferay-workspaces\bundles    (..\..\bundles)
+  
+ ? Does your shared bundle need an initializer?  YES
+ 
+
+ 
+ 2- >> modules >> yo liferay-js  ( React..)
+ 
+ ? Where is your local installation of Liferay placed? C:\liferay-workspaces\bundles
+ 
+ ? Do you want to generate sample code? (y/N) YES
+ 
+ 
+  
+  
+ 
+ 3- NOde modules compartido
+ 
+  -en React copy
+   "react": "16.8.6",
+		"react-dom": "16.8.6"
+ 
+  -Paste en commom-js-bundlet ;
+   "react": "16.8.6",
+		"react-dom": "16.8.6"
+ ------
+ 
+  Dentro commom-js-bundlet:    >> npm install
+  
+  En react , .npmbundlerrc : colocar:
+	"exclude":{
+			"*":true
+		},
+		"config":{
+			"imports":{
+				"common-js-bundle":{
+					"react": "16.8.6",
+					"react-dom": "16.8.6"
+				},
+				"":{
+					"common-js-bundle" : "^1.0.0"
+				}
+			}
+		}
+		
+	En react, Open the src/index.js a
+	
+	import React from 'react';
+    import ReactDOM from 'react-dom';
+	import 'common-js-bundle';
+	
+
+
+	>> npm run deploy, Ambos proyectos
+ 
+ 
+  * Despues de generar .jar ( npm run build ) em ambos proyectos -----> puedes ver los MB
+  * Y Despues delas modificacion .jar ( npm run build ) em ambos proyectos  -----> puedes ver los MB , el que no es commom tiene menos MB
+  * el, .jar esta en dist, de cada proyecto
+ 
+ 3K  4M
+ 4M
+ 
+ FIN
+ *********************************** O con generator-liferay-js y Yeoman ***************************************
+ 
+ 
+ ------ OPCIONAL ------
+ 
+
+ ------ OPCIONAL ------
+
+ npm install -g yo 
+
+
+  TUTORIALES:
+  
+   https://help.liferay.com/hc/en-us/articles/360029028051-Developing-a-React-Application
+   
+*******************************************************************************************************************************
+*******************************************************************************************************************************
+INSTALAR LIFERAY
+>> java -version
+ //https://www.openlogic.com/openjdk-downloads (Instalar)
+ 
+ En Variables de Entorno
+
+ #Cuadro 1:  JAVA_HOME   y  C:\Program Files\OpenLogic\jdk-11.0.21.9-hotspot
+ #Cuadro 2:  Path   y  C:\Program Files\OpenLogic\jdk-11.0.21.9-hotspot\bin
+ 
+ 
+ >> java -version
+ 
+ 
+ >> echo $JAVA_HOME  (TESTE)
+ 
+ # INSTALAR GRADLE
+ https://gradle.org/install/
+ 
+ #Copiar el bin en C:
+ # en  Variables de Entorno #Cuadro 2: poner en  Path  C:\gradle\bin
+
+ >> gradle -v
+ 
+
+ # INSTALAR BLADE CLI
+ https://www.youtube.com/watch?v=KOu0vwroQ18&ab_channel=T.H.E.TechSavvy
+  https://www.youtube.com/watch?v=KOu0vwroQ18&ab_channel=T.H.E.TechSavvy (Download Zip)
+ 
+ #Dentro de dis/ ----> ejecutar .exe
+  >> jpm install -f https://releases.liferay.com/tools/blade-cli/latest/blade.jar
+ >>
+ 
+ >> C:\CARPETA\blade
+    C:\Blade\blade
+	
+	Blade === @java -jar C:\Blade\blade.jar %* 
+
+    @java -jar C:\Blade\blade.jar %* init -v liferay-workspace
+ 
+ >> echo %PATH%
+
+'blade' is not recognized as an internal or external command,
+operable program or batch file.
+
+ 
+  PROYECTO
+ >> blade init -v liferay-workspace
+
+
+ liferay cli
+ https://learn.liferay.com/w/dxp/building-applications/tooling/other-tools/liferay-cli-tool
+ 
+ 
+ https://sourceforge.net/projects/lportal/files/Liferay%20Workspace/1.5.0.1/
+ 
+ C:\Users\dasil\liferay-workspace
+ 
+ #Descargar : 
+  Bundled de Liferay, con Tomcat ya incluido: https://sourceforge.net/projects/lportal/files/Liferay%20Portal/7.2.0%20GA1/liferay-ce-portal-tomcat-7.2.0-ga1-20190531153709761.7z/download
+ 
+*******************************************************************************************************************************
+ CLIENT EXTENSION
+ 
+  https://www.youtube.com/watch?v=ll3g2GYH-54
+  https://github.com/nNilton/lug-client-extensions-sample/tree/main
+  
+*******************************************************************************************************************************
+
 LIFERAY
 
  3 Rutas (1 Controller):

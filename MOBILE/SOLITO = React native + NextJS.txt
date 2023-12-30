@@ -1,7 +1,0 @@
-Solito = React Native + NextJS
-
-https://solito.dev
-
-https://www.youtube.com/watch?v=q8TEepLc7QE
-
-https://www.g2i.co/blog/getting-started-with-solito-next-js-react-native-apps-with-a-single-code-base

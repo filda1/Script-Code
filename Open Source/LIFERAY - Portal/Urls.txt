@@ -1,5 +1,73 @@
+
+
+INSTALAR  LIFERAY + INTELIJ IDE *************************************** OK
+Apuntes de Java
+https://www.youtube.com/watch?v=ochsdKQf9no
+
+https://www.liferay.com/documents/10182/246659966/Liferay+DXP+7.4+Compatibility+Matrix.pdf/52024b8e-20e8-ecf5-c911-0291ffda9dea?t=1635460593737
+
+https://www.youtube.com/watch?v=oQoCrS6zGWU  ( + Mysql)
+https://gist.github.com/diegosilval/ee7397d69010399c9a96b83be9d8c812
+https://gist.github.com/diegosilval/dbd7fa7e3bab778f6a1835045231d6d1
+
+liferay.workspace.product=portal-7.4-ga37
+
+
+
+OTRA forma 
+https://www.youtube.com/watch?v=IHhelU8PZ8E
+https://www.youtube.com/watch?v=WqFmmpdEDK4
+https://www.youtube.com/watch?v=WPw9VjDgyDw
+
+https://www.opensource-techblog.com/liferay-7-installation.html
+https://liferay.dev/blogs/-/blogs/easy-liferay-installation-and-setup
+https://openwebinars.net/blog/instalar-liferay-entorno-local-de-desarrollo/
+https://learn.liferay.com/w/liferay-cloud/reference/command-line-tool
+
+Simplify Tecnologia
+REACT ---> https://www.youtube.com/watch?v=dlwX9G9ahGY&t=1s
+
+1- https://www.youtube.com/watch?v=2XTyKCWapT0&list=PLBKCIaWGW7Mdoxo8_6cX355A7g-9qoc31
+2- https://www.youtube.com/watch?v=2cSITLf2-rc&list=PLBKCIaWGW7MfOOTW6Y1tWc3mBHtYzeKeg
+3- https://www.youtube.com/watch?v=a4q84R4YkwE&list=PLBKCIaWGW7MeFTiiUTWjTJ0fUJsxvpuXk
+
+
+
+INSTALAR***********************************
+
+ BIT Technology
+https://www.youtube.com/watch?v=iw9u9QdOkmg
+
+https://openwebinars.net/blog/instalar-liferay-entorno-local-de-desarrollo/
+
+https://www.youtube.com/watch?v=xVsqNCkzByM ( + Mysql)
+
+
+🔥 Java JDK: https://www.oracle.com/java/technologies/downloads/#java8
+🔥 Eclipse, que ya contiene Liferay IDE preinstalado: https://sourceforge.net/projects/lportal/files/Liferay%20IDE/3.6.1/LiferayProjectSDKwithDevStudioCommunityEdition-201906242233-windows-installer.exe/download
+🔥 Bundled de Liferay, con Tomcat ya incluido: https://sourceforge.net/projects/lportal/files/Liferay%20Portal/7.2.0%20GA1/liferay-ce-portal-tomcat-7.2.0-ga1-20190531153709761.7z/download
+🔥 Servidor de Base de Datos MySQL y Workbench: https://dev.mysql.com/downloads/windows/installer/5.7.html
+
+
+Simplify Tecnologia
+https://www.youtube.com/watch?v=ar1GwGnRIRY
+
+
+CON DOCKER
+
+https://www.youtube.com/watch?v=OV44VrXUOs4
+
+
+>> docker pull liferay/portal:7.4.3.89-ga89
+>> docker run -it --name primeiroLiferay -m 8g -p 8080:8080 liferay/portal:7.4.3.89-ga89
+
+https://www.apuntesdejava.com/2022/01/openjdk-liferay-mysql-en-contenedores.html
+
+********************************************************
+
 INSTALL
 https://www.youtube.com/watch?v=hkupt1WJXCo~
 https://openwebinars.net/blog/instalar-liferay-entorno-local-de-desarrollo/?utm_source=youtube&utm_medium=descripcion&utm_campaign=instalar-liferay-entorno-local
 
 https://www.youtube.com/watch?v=JboavhUQkEU
+

@@ -1,0 +1,6 @@
+
+CAMBIAR TODOS
+
+<TargetFramework>net8.0</TargetFramework>
+
+>> dotnet restore
