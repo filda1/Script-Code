@@ -1,0 +1,80 @@
+
+GPT4ALL
+https://gpt4all.io/index.html
+
+ --https://github.com/henrytanner52/all-MiniLM-L6-v2
+   -- https://www.sbert.net/docs/training/overview.html#creating-networks-from-scratch
+      -- https://hackernoon.com/es/bases-de-datos-vectoriales-conceptos-basicos-de-busqueda-vectorial-y-paquete-langchain-en-python
+	  
+	  -- https://www.youtube.com/watch?v=GRvQ5u63GBk  (La Hora Maker)
+	     https://www.youtube.com/watch?v=Flz2oy8D5Uw
+		 https://www.youtube.com/watch?v=5-fa9r7QVdI
+		 https://www.youtube.com/watch?v=fqQv9Kaw_3g
+		 
+		 https://docs.gpt4all.io/gpt4all_python.html#quickstart
+		 https://docs.gpt4all.io/gpt4all_chat.html#server-mode
+		 ***** https://docs.gpt4all.io/gpt4all_python.html#gpt4all.gpt4all.GPT4All.retrieve_model
+	  
+
+DOCs
+https://docs.gpt4all.io/gpt4all_chat.html
+https://docs.gpt4all.io/gpt4all_typescript.html
+
+https://www.youtube.com/watch?v=peC2UAmZbKo
+
+https://www.makeuseof.com/windows-gpt4all-guide/
+
+INSTALL CON DOCKER
+https://drbh.medium.com/how-to-run-gpt4all-in-a-private-cloud-d37d86afec86
+
+ con GRPC
+ https://github.com/pujariaditya/gpt4all-grpc
+
+ Gpt4All-webui 
+ https://github.com/ParisNeo/Gpt4All-webui
+ 
+ ------------------------
+
+OLLAMA
+
+
+---------------------------------------------------
+
+ Aprende sobre Embeddings de OpenAI
+ https://www.youtube.com/watch?v=-XVkdIdli0I&list=RDCMUCG4H4Qf-ZU9Ycr_PQ4egqDQ&index=4
+ https://github.com/puigalex/GPT3
+ 
+  LANGCHAIN ---> https://python.langchain.com/docs/get_started/introduction.html
+   (AMP Tech)
+   Langchain 1: Modelos y Prompts
+    https://www.youtube.com/watch?v=qx3adFfbJRs
+	https://github.com/puigalex/LangChain
+	
+	LangChain 2 : GPT4 ahora no olvidará nada ( MEMORIA)
+	 https://www.youtube.com/watch?v=7xpykL0jAEA
+	 https://github.com/puigalex/LangChain
+	
+	LangChain 3: Cadenas con GPT4
+    	https://www.youtube.com/watch?v=m1O6PJjEWnY&list=RDCMUCG4H4Qf-ZU9Ycr_PQ4egqDQ&index=3
+	
+	SERIE == https://www.youtube.com/watch?v=qx3adFfbJRs&list=RDCMUCG4H4Qf-ZU9Ycr_PQ4egqDQ&start_radio=1&rv=qx3adFfbJRs&t=1946
+	
+	
+	LangChain Tutorial Parte 2 - Interactúa con tu propia Base de Datos (Plus React) -- 
+     (rmblockcode)
+	 https://www.youtube.com/watch?v=XfWII5eqXis
+	 BACK -->https://github.com/rmblockcode/langchain-demo
+	 FRONT --> https://github.com/rmblockcode/langchain-ui
+	 
+	 LangChain Tutorial Parte 1 - Interactúa con tus propios datos
+	 https://www.youtube.com/watch?v=y2I638fqqU0
+	 https://github.com/rmblockcode/langchain-demo
+	 
+	 
+	 https://python.langchain.com/docs/integrations/providers/gpt4all
+	 https://medium.com/@vikastiwari708409/how-to-use-gpt4all-llms-with-langchain-to-work-with-pdf-files-f0f0becadcb6
+	 https://cismography.medium.com/how-to-integrate-custom-llm-using-langchain-a-gpt4all-example-cfcb6d26fc3
+	 
+	 -------------------------
+	 
+	 jan.a

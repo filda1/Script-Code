@@ -1,0 +1,62 @@
+
+
+ TENSOR +  NODE
+https://wiki.yowu.dev/es/Knowledge-base/TensorFlow-js/Learning/068-integrating-tensorflow-js-with-databases-in-node-js
+
+_____________________________________________________________________________________________________________________________________
+
+RINGA TECH
+
+ https://www.youtube.com/watch?v=JpE4bYyRADI&list=PLZ8REt5zt2Pn0vfJjTAPaDVSACDvnuGiG&index=3
+ 
+_____________________________________________________________________________________________________________________________________
+ 
+ CODENAUTAS
+ 
+ https://www.youtube.com/watch?v=tTWj6fWmfNY
+ https://github.com/CodenautaJorge/red_neuronal_tf
+ _____________________________________________________________________________________________________________________________________
+ IDEAS
+  
+  
+Trabajar con inteligencia artificial (IA) en el ámbito de facturas y finanzas puede ofrecer diversas oportunidades de negocio. Aquí tienes algunas ideas que podrías considerar:
+
+Extracción Automática de Datos:
+
+Desarrolla un sistema de IA que pueda extraer automáticamente información clave de las facturas, como fechas, cantidades, nombres de empresas y números de factura. Esto facilitaría la entrada de datos y reduciría errores humanos.
+Automatización de Procesos Contables:
+
+Crea una plataforma que utilice IA para automatizar procesos contables. Esto podría incluir la clasificación automática de gastos, conciliación de cuentas y generación de informes financieros.
+Detección de Fraudes:
+
+Desarrolla un sistema de IA que analice patrones y detecte posibles fraudes o irregularidades en las facturas. Esto podría ser útil para empresas que deseen mejorar la seguridad en sus transacciones financieras.
+Gestión de Gastos Empresariales:
+
+Crea una aplicación o plataforma que utilice IA para ayudar a las empresas a gestionar y controlar mejor sus gastos. Esto podría incluir la creación de informes automáticos, seguimiento de gastos y alertas para evitar gastos innecesarios.
+Integración con Sistemas ERP:
+
+Ofrece servicios de integración de tu solución de IA con sistemas de planificación de recursos empresariales (ERP) existentes. Esto facilitaría a las empresas la adopción de tu tecnología sin interrumpir sus procesos existentes.
+Desarrollo de Chatbots Financieros:
+
+Crea chatbots impulsados por IA que puedan responder preguntas relacionadas con facturas, pagos y aspectos financieros. Esto podría ser útil para brindar soporte instantáneo a clientes y empleados.
+Análisis Predictivo de Gastos:
+
+Implementa modelos de análisis predictivo que utilicen datos históricos para prever futuros gastos y ayudar a las empresas a planificar de manera más efectiva.
+Plataforma de Facturación Electrónica:
+
+Desarrolla una plataforma que utilice IA para facilitar la transición a la facturación electrónica, asegurando la conformidad con las regulaciones y simplificando los procesos para las empresas.
+
+_____________________________________________________________________________________________________________________________________
+
+PREDIICIONES DE KASAS
+https://www.kaggle.com/code/laeclover/predicci-n-de-venta-de-casa
+https://www.kaggle.com/code/bryanandersondiaz/proyecto-de-aed-y-modelado-predictivo-inmuebles
+
+
+PREDICCION DE CONSUMOS ELECTRICIDAD
+https://www.kaggle.com/code/nageshsingh/predict-electricity-consumption/notebook
+https://www.kaggle.com/code/jesucristo/starter-great-energy-predictor
+
+https://www.kaggle.com/datasets/thedevastator/240000-household-electricity-consumption-records/data
+
+_____________________________________________________________________________________________________________________________________

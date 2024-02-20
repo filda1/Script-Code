@@ -6,6 +6,34 @@
   *****TUTORIAL (FREECODECAMP) = https://www.youtube.com/watch?v=DLikpfc64cA
 
 *************************************************************************************************************************
+ SERVIDORES
+  
+PASS
+ Railway
+ Render
+ platform.sh
+ Deta space
+ pythonanywhere
+ 
+ IASS
+ DigitalOcean
+ Akamai
+ aws
+ 
+ replit
+ features
+
+*************************************************************************************************************************
+ CHATBOT
+ https://www.youtube.com/watch?v=Je7M_K3IANI
+ 
+ https://www.youtube.com/watch?v=EXxBZtL_sCQ&t=2s
+
+*************************************************************************************************************************
+ PREDICTION STOCK
+ https://www.youtube.com/watch?v=1O_BenficgE
+
+*************************************************************************************************************************
   PYTHON + PANDAS *+ EXCEL + WHATSAPP
    https://www.youtube.com/watch?v=PXMJ6FS7llk&list=WL&index=157&t=8372s  (FREECODECAMP)
      https://github.com/ifrankandrade/automation

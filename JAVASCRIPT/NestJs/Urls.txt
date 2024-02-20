@@ -1,0 +1,9 @@
+
+ NESTJS
+ 
+ ___________________________________________________________________________________________________________________________________________
+ NESTJS * WEBSOCKET
+ https://www.youtube.com/watch?v=-ahCssisfwQ
+ https://faztweb.com/contenido/nestjs-websockets
+ https://github.com/FaztWeb/nestjs-websockets-tutorial
+ ___________________________________________________________________________________________________________________________________________

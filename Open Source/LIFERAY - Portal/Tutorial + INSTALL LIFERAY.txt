@@ -81,6 +81,9 @@ https://ianguuima.medium.com/creating-a-liferay-portlet-using-typescript-react-c
 https://learn.liferay.com/web/guest
 https://github.com/liferay/liferay-js-toolkit/wiki
 
+
+PWA ---> https://www.hiberus.com/crecemos-contigo/como-crear-una-aplicacion-web-progresiva-pwa-con-liferay/
+
 *********************************** liferay cli ***************************************
   
 

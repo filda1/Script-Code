@@ -1,0 +1,5 @@
+VARIBLE GLOBAL Subject
+
+# Usa EventEmitter para comunicación entre componentes padre-hijo.
+# Usa Subject para comunicación entre componentes sin relación específica.
+# Usa BehaviorSubject cuando necesitas un valor inicial o quieres conocer el último valor emitido de inmediato al suscribirte.

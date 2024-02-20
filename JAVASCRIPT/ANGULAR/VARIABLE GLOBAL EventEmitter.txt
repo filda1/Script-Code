@@ -1,0 +1,72 @@
+
+
+# Usa EventEmitter para comunicación entre componentes padre-hijo.
+# Usa Subject para comunicación entre componentes sin relación específica.
+# Usa BehaviorSubject cuando necesitas un valor inicial o quieres conocer el último valor emitido de inmediato al suscribirte.
+
+---------------------------------------------
+ CounterService:
+ 
+ 
+ import { Injectable, EventEmitter } from '@angular/core';
+
+@Injectable({
+  providedIn: 'root',
+})
+export class CounterService {
+  private counter: number = 0;
+  counterUpdated = new EventEmitter<number>();
+
+  getCounter(): number {
+    return this.counter;
+  }
+
+  updateCounter(newValue: number): void {
+    this.counter = newValue;
+    this.counterUpdated.emit(this.counter);
+  }
+
+  // Puedes agregar más métodos según tus necesidades
+}
+
+
+
+
+____
+
+ TS:
+ 
+ import { Component, OnDestroy, OnInit } from '@angular/core';
+import { CounterService } from './ruta-al-servicio/counter.service'; 
+
+@Component({
+  selector: 'app-tu-componente',
+  template: '<p>{{ contador }}</p>',
+})
+export class TuComponente implements OnInit, OnDestroy {
+  contador: number;
+  private counterSubscription: any;
+
+  constructor(private counterService: CounterService) {
+    // No suscribas aquí, hazlo en ngOnInit
+  }
+
+  ngOnInit(): void {
+    this.contador = this.counterService.getCounter();
+    this.counterSubscription = this.counterService.counterUpdated.subscribe(
+      (updatedCounter: number) => {
+        this.contador = updatedCounter;
+      }
+    );
+  }
+
+  actualizarContador(nuevoValor: number): void {
+    this.counterService.updateCounter(nuevoValor);
+  }
+
+  ngOnDestroy(): void {
+    this.counterSubscription.unsubscribe();
+  }
+}
+
+ 

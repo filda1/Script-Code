@@ -41,6 +41,10 @@ Bibliotecas y Frameworks mencioandos:
   https://github.com/xenova/transformers.js
 
 *********************************************************************************************************
+ GRABADOR DE PANTALLAS
+ https://codi.link/PGJ1dHRvbj4KICDij7rvuI8gR3JhYmFyIHBhbnRhbGxhCjwvYnV0dG9uPg==%7CYm9keSB7CgloZWlnaHQ6IDEwMHZoOwoJYmFja2dyb3VuZDogIzExMTsKCWRpc3BsYXk6IGdyaWQ7CglwbGFjZS1jb250ZW50OiBjZW50ZXI7Cn0KCmJ1dHRvbiB7Cglmb250LXNpemU6IDI0cHg7Cn0=%7CY29uc3QgJGJ1dHRvbiA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJ2J1dHRvbicpCgokYnV0dG9uLmFkZEV2ZW50TGlzdGVuZXIoJ2NsaWNrJywgYXN5bmMgKCkgPT4gewogIGNvbnN0IG1lZGlhID0gYXdhaXQgbmF2aWdhdG9yLm1lZGlhRGV2aWNlcy5nZXREaXNwbGF5TWVkaWEoewogICAgdmlkZW86IHsgZnJhbWVSYXRlOiB7IGlkZWFsOiAzMCB9IH0KICB9KQogIGNvbnN0IG1lZGlhcmVjb3JkZXIgPSBuZXcgTWVkaWFSZWNvcmRlcihtZWRpYSwgewogICAgbWltZVR5cGU6ICd2aWRlby93ZWJtO2NvZGVjcz12cDgsb3B1cycKICB9KQogIG1lZGlhcmVjb3JkZXIuc3RhcnQoKQoKICBjb25zdCBbdmlkZW9dID0gbWVkaWEuZ2V0VmlkZW9UcmFja3MoKQogIHZpZGVvLmFkZEV2ZW50TGlzdGVuZXIoImVuZGVkIiwgKCkgPT4gewogICAgbWVkaWFyZWNvcmRlci5zdG9wKCkKICB9KQoKICBtZWRpYXJlY29yZGVyLmFkZEV2ZW50TGlzdGVuZXIoImRhdGFhdmFpbGFibGUiLCAoZSkgPT4gewogICAgY29uc3QgbGluayA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoImEiKQogICAgbGluay5ocmVmID0gVVJMLmNyZWF0ZU9iamVjdFVSTChlLmRhdGEpCiAgICBsaW5rLmRvd25sb2FkID0gImNhcHR1cmEud2VibSIKICAgIGxpbmsuY2xpY2soKQogIH0pCn0p
+
+*********************************************************************************************************
  SVGNest
    https://www.youtube.com/watch?v=TrwvgSwUT3o
    http://svgeditoronline.com/editor/
@@ -179,5 +183,10 @@ METEOR JS
 Import y Export en Javascript (ES Modules)  ====> Fatz
 
  https://www.youtube.com/watch?v=0t-Le4kdaMg&ab_channel=FaztCode
+
+************************************************************************************************************
+ 
+ PATRONES DE TYPESCRIPT
+ https://www.youtube.com/watch?v=qYpQWESAPRQ
 
 ************************************************************************************************************

@@ -5,6 +5,17 @@
  2- roles  ( Users Addmin y Users Web)
 
 *****************************************************************************************
+  ESTRUCTURA DE PROYECTO (Clean Architecture)
+  
+   https://www.youtube.com/watch?v=xnbLwL_OzNE (macorrati) 
+   https://www.youtube.com/watch?v=rAq5_9OG6YQ
+   
+   https://github.com/macoratti/CleanArch_CQRS_MediatR/tree/master
+   
+   
+  ASP.NET Core -  CQRS com MediatR - II
+   
+*****************************************************************************************
 * https://devblogs.microsoft.com/dotnet/
 *https://docs.microsoft.com/en-us/
 
@@ -16,7 +27,7 @@
  https://www.youtube.com/watch?v=YGGg9ecy0K4
  
 *********************************************************************************************
- Task
+ Task == void, pero async
  
  https://www.youtube.com/watch?v=Ch2HtAcCxF0
 
@@ -29,6 +40,29 @@
     https://livecharts.dev/docs/avalonia/2.0.0-rc1/gallery
 	
 *********************************************************************************************
+ UraniumUI
+ https://enisn-projects.io/docs/en/uranium/latest/themes/material/Containers
+ https://github.com/enisn/UraniumUI
+ 
+ 
+ https://webassembly.sh
+ https://www.youtube.com/watch?v=97yJtD5FKe4
+ WAGI ---> entorno de ejecucion de webassembly
+ 
+*********************************************************************************************
+ WASI (Webassembly fuerna del navegador)
+ https://wasmtime.dev
+ 
+ https://www.youtube.com/watch?v=AwdvFLxIek0 (macoratti)
+
+*********************************************************************************************
+ TIZEN ( SO de samsung)
+ 
+ https://developer.samsung.com/tizen/About-Tizen.NET/Tizen.NET.html
+ https://github.com/Samsung/TizenRT
+ 
+*********************************************************************************************
+
 .NET 8 Web API & Entity Framework 🚀 Full CRUD Course (with Code-First Migrations & SQL Server)
 
  https://www.youtube.com/watch?v=b8fFRX0T38M&t=48s     (P God)

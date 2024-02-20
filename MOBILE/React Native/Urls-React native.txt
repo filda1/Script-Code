@@ -22,6 +22,12 @@ REACT NATIVE (EXPO) ========> https://www.youtube.com/watch?v=hXDMWeD0ERM (Fazt)
   https://www.youtube.com/watch?v=KvM30zIJVyA&t=38s
 
 ____________________________________________________________________________________________________________
+  
+   REACT NATIVE VISION  ---> Manipular camara
+   
+ https://react-native-vision-camera.com
+____________________________________________________________________________________________________________
+
  RESTYLE = TRHMES, stilos..
  
  https://www.youtube.com/watch?v=uOlqKTv_Z8E&list=WL&index=2

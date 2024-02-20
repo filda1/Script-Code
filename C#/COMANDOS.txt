@@ -3,3 +3,15 @@
  
  
   >> Update-Package
+
+
+-----------------------------------------
+ INTERPOLACION NET8
+  
+         Console.WriteLine( $"""
+		 
+		                    esta es {variable 1),
+							esta es {variable 2) ,
+							
+		                    """)
+-----------------------------------------

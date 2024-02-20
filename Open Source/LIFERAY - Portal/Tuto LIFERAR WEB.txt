@@ -1,57 +1,137 @@
 
  LIFERAR WEB (Admin)
  
+ 
+ MODELO == Diseno de Pagina
+ 
  1- Crear SIte
  
+  LISTA UNICA metiendo Noticias juntas 
+  PUBLICAR UNA A UNA NOTICIA
+  
   2- Crear/Selecionar COntenido
    2.1 COntenido WEB
-    2.1.1 Crear El contenido
 	2.1.2 Crear la Estructura -----------------------------------------> Crear compnentes ( titlo, text,...)  ARRASTRAR y Llenar
 	2.1.3 Creaar el Modelo -----------------------------------------> Seleccion la Escrucura creada y ARRASTRAR y se puede colcocar en HTML
-	
+	* en Html seleciona c/variable de Html y depues cambiar por la varble de la Esctructura( FIELDS em icon tres barras menu)
+	2.1.4 En contenido Web (Son diferentes datos q se ponen)--> en + ja sale , LA estructura creada
 	
  3- Incio--> Editar---> Poner COntainer ---> Widget ---> 
-   Arrastart, Publicador de COntenido---> en tres punto---> configuarioc----> Selecciona el COntenido WE-- Y Publicar
+   Arrastart, Publicador de COntenido (Web Content Display)---> en tres punto---> configuarioc----> Selecciona el COntenido WE 
+   y luego el Modelo (Use a specific template.)-- Y Publicar
    
+   Estructura -------> Crear el COmopentes
+   Modelo (Html) -----> sito donde va la Estructura
+   COntenido Web -----> N datos (info), para cargar en Estructura
    
+   https://www.youtube.com/watch?v=2cSITLf2-rc
+   
+   ---------------------------------------
+   LISTA detallada == Modelo
+   PUBLICAR VARIAS NOTICIA A LA VEZ
+   
+  3- Crear nueva Pagina
+   -  en Fragmnet ----> Conatiner (Arrastrar)
+   - Selecionar Asset Publisher
+   - ... ----> config
+   -- ASSET SELECTION ----> Manual
+   -- en ASSET ENTRIES ---> seleciona nuestra info (Contenido Web)
+   
+  4- Crael nueva Pagina
+   -  en Fragmnet ----> Conatiner (Arrastrar)
+   - Sleccionar Asset Publisher
+   - ... ----> config
+   -- ASSET SELECTION ----> Dinamico
+   -- SOURCE ---> Web content article y depues NUestras Estructuras
+   
+   5- Crael nueva Pagina
+   -  en Fragmnet ----> Conatiner (Arrastrar)
+   - Sleccionar Asset Publisher
+   - ... ----> config
+   -- Diysplay SELECTION 
+   -- Display Template ----> Tabla
+ ---------------------------------------------------
    ____________________________________________________________________________________________________________________________________
-   
-   Constructor SIte
-     Paginas Site ------> +  (Adicionar pagina en Blanco)
-	 
-	 --Contaner
-	 --  + Superior a derecha
-	 -- Selecionar Widget
-	 -- Publicadoe de COntenido y Midias
-	 
-	 -- tres puntos
-	 --Configuaracion
-	 
-	 ____________________________________________________________________________________________________________________________________
+   _______________________________________________________________________________________________________________________________
 	 
 	 
-	 
+	 CREAR UM MODELO CUSTOM--> con For
 	 Estilizando Publicador de Conteudos y  Midias (Método 1 - DDMFormFieldValuesMap)
 	 
 	 1- Ir a Pagina
 	 2- Ir Design --> Modelos ---> Modelos de Widget -----> + -----> Selecionar Modelo de Publicar de Contenudo y Midia
+	 - DInamico
 	 3- Html--> arrastrar Entradas de conteudo*
 	 https://gist.github.com/pedroblandim/8abe13d6453d33534821539ca35176be
 	 
 	 4- Ir a la Pagina ---> Click lapiz (Editar) ----> configuarcion ----> seleccion del modelo creado en pto 3
 	 5- Publicar
 	 
-	 
+	 	 CREAR UM MODELO CUSTOM---> con For
 	 Esdtilizndo de otro pagina buscando el id de esa pagina( Igual al procedimineto anterior)
 	 https://gist.github.com/pedroblandim/fa8bf3b6ad1118ba5949dd5595e32658
 	 
 	 
+	 ------------------------
+	 COLECCIONES
+	 https://www.youtube.com/watch?v=1B7-KECsjiY&list=PLBKCIaWGW7MfOOTW6Y1tWc3mBHtYzeKeg&index=6
+	 
+	 -Manual
+	  - Site --> Coleccopnes
+	  - Site --> Coleccopnes
+	  - + --> Manual --> Aticulos..
+	  - Selecionar a Esstructura que fue creada
+	  - Selcionar -- > Los Datos o info creado
+	  
+	 -Dinamico
+	 
+	 ------------------------
+	 
+	 ------------------------
+	 Modelo de Publicador de Conteúdos e Mídias | Parser XML
+	    LISTA detallada == Modelo
+       PUBLICAR VARIAS NOTICIA A LA Vez ===============> extraer del XML la Info
+	   
+	 https://www.youtube.com/watch?v=HmgUYHBfwOw&list=PLBKCIaWGW7MfOOTW6Y1tWc3mBHtYzeKeg&index=5
+	 https://gist.github.com/pedroblandim/316cd5ee93f88353d8813e1c1c0fb57b
+	 
+	 ------------------------
+	 
+	 ASSET PUBLISHER -----> https://liferay.dev/blogs/-/blogs/divide-and-conquer-rendering-structured-web-content-with-the-asset-publisher
+	 
+	 https://www.youtube.com/watch?v=4lDLv7-GcTg
 	 
 	 
 	 
+	 REACT
+	 https://learn.liferay.com/w/dxp/building-applications/developing-a-javascript-application/using-react
+	 https://liferay.dev/blogs/-/blogs/liferay-react-portlets
+	 https://help.liferay.com/hc/en-us/articles/360017888032-Using-React-in-Your-Portlets#configuring-metadata
+	 https://www.ignek.com/blog/liferay-react-portlet/
+	 
+	 CLIENT EXTENSION
+	 https://www.surekhatech.com/blog/boost-your-liferay-portal-migrate-react-portlets-to-client-extensions
+	 
+	 ***https://www.inexture.com/react-application-using-liferay/
 	 
 	 
-	 	 ____________________________________________________________________________________________________________________________________
+	 API
+	 https://www.youtube.com/watch?v=Atz3f3rMHKA
+	 
+	 localhost:8080/api
+	 localhost:8080/api/jsonws
+	 
+	 
+	 https://www.youtube.com/watch?v=a4q84R4YkwE
+	 
+	 
+	 REMOTE APP
+	 https://www.ignek.com/blog/react-remote-app-with-liferay/
+	 https://liferay.dev/blogs/-/blogs/remote-apps-how-to-use-liferay-7-4-new-feature-
+	 ****https://liferay.dev/blogs/-/blogs/liferay-objects-and-remote-apps-how-can-we-connect-them-
+	 
+	 
+	 ____________________________________________________________________________________________________________________________________
 	 
 	 
 	 
@@ -171,7 +251,24 @@ https://vendomia.com/como-crear-intranet/
  https://marketplace.liferay.com/p/sugarcrm-customer-portal  SugarCRM
  https://marketplace.liferay.com/solutions?delta=15&start=1
  https://marketplace.liferay.com/p/code-engine-studio-loan-and-credit-portal
- ~
+ 
+ https://bootstrapmade.com/
+ https://github.com/robin-dc/Facebook-UI-Clone
+ https://github.com/kumarnu/Facebook-Clone
+ https://github.com/b31ngd3v/DevMedia-Facebook-Clone ******
+ https://github.com/ayushiee/fb-clone
+ https://github.com/saifulshihab/facebook-clone
+ https://github.com/shobulive/notebook
+ 
+ SOCIAL NETWORK
+ https://github.com/topics/social-media-template ?************************************
+ https://colorlib.com/wp/bootstrap-social-network-templates/
+ 
+ https://www.youtube.com/watch?v=nrdDKwWr_5o
+ https://www.youtube.com/watch?v=2PUeACEV77o
+ 
+ https://www.youtube.com/watch?v=1EuNnZEp2sQ**************************************************
+ https://github.com/safak/youtube2022/tree/social-app
  
  ____________________________________________________________________________________________________________________________________
  
@@ -180,3 +277,12 @@ https://vendomia.com/como-crear-intranet/
   
   Portuguese (Portugal) - pt_PT
  
+ 
+  OBJETOS ---> crear tablas
+  APi es la conexion a DB
+  Remote APP --> carga un aplicacion dentro de LiferayPool
+  CLient extension ----> pequenos cambios:  https://github.com/nNilton/lug-client-extensions-sample/tree/main
+                                            https://www.youtube.com/watch?v=ll3g2GYH-54
+											https://learn-liferay-com.translate.goog/w/dxp/building-applications/client-extensions?_x_tr_sl=auto&_x_tr_tl=es&_x_tr_hl=es
+  Liferay.Service ---> Dentro de react por ejemplo-----> conecta a la api de liferay
+   #Ejemplo de api para inplementar---> localhost:8080/api/jsonws

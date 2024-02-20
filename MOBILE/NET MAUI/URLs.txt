@@ -7,6 +7,10 @@
   COMANDOS PARA GENERAR APK Y ABB
  https://www.youtube.com/watch?v=SuQFuACsytc
  *****************************************************************************************
+  GENERAR APP con VSCODE
+  https://www.youtube.com/watch?v=i4l9NQEJueI
+ 
+ *****************************************************************************************
   TUTORILA MAU + MVVM Toolkit + Shell
   
    https://www.youtube.com/watch?v=nMOVu6lr6SI (Macoratti)

@@ -34,3 +34,43 @@
   Astro
   Quwi
   Angular
+  
+  *****************************************************************************
+  
+   IDEAS NEGOCIO
+ https://getlatka.com/?ref=theopenprojects.io
+ https://betalist.com/?ref=theopenprojects.io
+ https://www.indiehackers.com/explore
+ 
+ 
+ -----------------------------------------------------------------
+ Extracción de Información:
+
+Utiliza técnicas de procesamiento de lenguaje natural (NLP) para extraer información clave de los detalles de las facturas, como nombres de productos, cantidades, precios, fechas y números de factura.
+Clasificación de Facturas:
+
+Crea un modelo que clasifique automáticamente las facturas en categorías específicas, como facturas de servicios, facturas de productos, etc.
+Detección de Anomalías:
+
+Implementa un modelo de detección de anomalías para identificar facturas que pueden ser atípicas o contener errores.
+Automatización de Datos Contables:
+
+Desarrolla un sistema que pueda automatizar la entrada de datos contables a partir de las facturas, ahorrando tiempo y reduciendo errores.
+Generación de Resúmenes:
+
+Implementa un modelo para generar resúmenes automáticos de los detalles de las facturas, facilitando la revisión rápida de la información.
+Predicción de Pagos:
+
+Utiliza el historial de facturas para predecir los plazos de pago y ayudar en la gestión del flujo de efectivo.
+Comparación de Precios:
+
+Desarrolla un sistema que compare los precios de productos o servicios a lo largo de varias facturas para identificar tendencias o posibles oportunidades de negociación.
+Reconocimiento Óptico de Caracteres (OCR):
+
+Integra un sistema de OCR para extraer texto de las facturas escaneadas o imágenes, lo que facilita la entrada de datos.
+Seguimiento de Gastos:
+
+Crea un sistema que rastree y categorice automáticamente los gastos a partir de las facturas, proporcionando informes detallados.
+Cumplimiento Normativo:
+
+Implementa un modelo que asegure el cumplimiento normativo verificando que las facturas cumplan con los requisitos legales y fiscales.
