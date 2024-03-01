@@ -1,5 +1,10 @@
   TUTORIAL VUE:JS
 
+ VUejs 3
+https://www.youtube.com/watch?v=QXNNyV2N_C4
+VUE ===> https://www.youtube.com/@DevTalles/search?query=vue
+
+----------------------------------------------------------------------------------------
  BluuWeb =======> GUIA ========>  https://bluuweb.github.io/vue-udemy/
 
 ***************************************************

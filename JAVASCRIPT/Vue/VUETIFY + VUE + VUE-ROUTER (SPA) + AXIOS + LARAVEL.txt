@@ -1,4 +1,8 @@
-  
+
+VUETIFY 2023
+ https://www.youtube.com/watch?v=3jhgafioiFA&list=PLcoYAcR89n-qZmFmfc0UGBqpN1RPn8S2m&index=9
+
+_____________________________________________________________________________________________________  
    INSTALAR VUETIFY + VUE + VUE-ROUTER (SPA) + AXIOS + LARAVEL
 
  https://qiita.com/nobu-maple/items/43c1228b8f04837d753b
