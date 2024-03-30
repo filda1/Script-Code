@@ -77,4 +77,21 @@ OLLAMA
 	 
 	 -------------------------
 	 
-	 jan.a
+	 jan.ai
+	 
+	 -------------------------
+	 
+	 https://spacy.io/api/doc
+	 
+	 
+	 
+	 -------------------------
+	 
+	 https://www.nltk.org/howto/bleu.html
+	 
+	 
+	 -------------------------
+	 
+	 https://stanfordnlp.github.io/CoreNLP/demo.html
+	 
+	 -------------------------

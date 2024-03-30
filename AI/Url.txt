@@ -5,6 +5,17 @@
  https://www.kaggle.com = REPOSITORIO de MACHING LEARNING
 
 **********************************************************************
+ CAHTBOT SCRAPING
+
+ https://github.com/WongSaang/chatgpt-ui
+ https://github.com/WongSaang/chatgpt-ui-server
+ https://wongsaang.github.io/chatgpt-ui/
+ 
+ https://github.com/mckaywrigley/chatbot-ui
+ 
+ https://github.com/kudoai/chatgpt.js/
+
+***********************************************************************
 MARKETING AI ---->https://www.youtube.com/watch?v=iUfW-D7ZaJk
 
 ************************************************************************

@@ -55,5 +55,26 @@
     14 >> Todo igual al anterior
 
     15. >> python main.py                 ----------------------------------------------------------------------------------> RUN
+	
+	
+	-----------------------------------------------------------------
+	
+	VERSIONES
+	
+	
+	
+	FUNCIONA------------------------------------------------------------------------------------------
+---	virtualenv --help
+	
+
+ --virtualenv -p "C:Python27\Python.exe" venv27
+	
+ - c:\djangoproject >>.\venv27\Scripts\activate  -----------------------------> activar el entorno
+
+
+   c:\djangoproject >>.\venv27\Scripts\deactivate
+
+  - (venv) c:\djangoproject >> python --version   ==========================> Esta activado
+	 
 
  

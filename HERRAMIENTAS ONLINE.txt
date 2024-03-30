@@ -42,7 +42,7 @@ www.Remove.bg
 
 https://tinypng.com/
 
-adove express
+adove express ---> https://www.adobe.com/express/feature/image/remove-background
 ____________________________________________________________________________________________________________________________________________
 
 SVG
@@ -297,3 +297,51 @@ AI imagenes
 	 
 	 MOVE Mouse
 	 ____________________________________________________________________________________________________________________________________________
+	 
+	 SquareX, Mi Extensión favorita de Seguridad en el Navegador
+	 
+	 _____________________________________________________________________________________________________________________
+	 
+	 AI TOOLS
+	 
+	 mubert: https://mubert.com/  (Tiene plan gratuito)
+	Wavtool: https://wavtool.com/ (Tiene plan gratuito)
+	Elevenlabs https://beta.elevenlabs.io/ (Tiene plan gratuito)
+	Luma labs https://lumalabs.ai/ (Tiene plan gratuito)
+	Compose ai https://www.compose.ai/ (Tiene plan gratuito)
+	Usechatgpt AI https://www.usechatgpt.ai/ (Gratuito)
+	Leia Pix https://convert.leiapix.com/ (Gratuito)
+	Blocklade labs https://www.blockadelabs.com/ (Gratuito)
+	Tome https://tome.app/ (Tiene plan gratuito)
+	Wisecut https://www.wisecut.video/ (Tiene plan gratuito)
+	Clipchamp https://clipchamp.com/es/ (Tiene plan gratuito)
+	Flawlees https://www.flawlessai.com/ (Aún no ha salido)
+	Humata: https://www.humata.ai/ (Tiene plan gratuito)
+	ChatPDF AI  https://www.chatpdf.com/ (Tiene plan gratuito)
+	
+	
+	CIVITAI: https://civitai.com/ (GRATIS)
+	VOICIFY:https://www.voicify.ai/es (DE PAGO)
+	SUNO: https://www.suno.ai/ (GRATIS)
+	CASSETTE AI https://cassetteai.com/ (PRUEBA GRATIS, PERO ES DE PAGO)
+	MAGNIFIC AI https://magnific.ai/ (DE PAGO)
+	HOTPOT AI https://hotpot.ai/ (GRATIS)
+	PROMPTBOX https://www.promptbox.ai/ (GRATIS CON OPCIÓN DE PAGO)
+	PERPLEXITY: https://www.perplexity.ai/  (GRATIS)
+	PIKZELS: https://www.pikzels.com/ (DE PAGO)
+	KREA https://www.krea.ai/home (GRATIS)
+	ADOBE FIREFLY https://firefly.adobe.com/ (GRATIS)
+	GAMMA https://gamma.app/?lng=es-ES (CON VERSIÓN GRATUITA Y DE PAGO)
+	HEYGEN https://www.heygen.com/ (DE PAGO)
+	COMIC FACTORY https://huggingface.co/spaces/jbilcke... (GRATIS)
+	ZOEDEPTH https://huggingface.co/spaces/shariqf... (GRATIS)
+	MOTION BRUSH RUNWAY: https://runwayml.com/ (CON OPCIÓN GRATUITA Y LUEGO DE PAGO)
+	BORED HUMANS: https://boredhumans.com/ (GRATIS)
+	MOVE AI: https://www.move.ai/ (SE PUEDE PROBAR GRATIS PERO ES DE PAGO)
+	UPSCALER MEDIA: https://www.upscale.media/es/upload (GRATIS)
+	UPSCAYLS: https://www.upscayl.org/ (GRATIS)
+	
+	
+	Upscaler
+	
+	____________________________________________________________________________________________________________________________________________

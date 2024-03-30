@@ -57,7 +57,10 @@
    PIPENV     -------------------------------> nuevo entorno virtual (para saltar versiones, en caso hubise un problema)
 
 
-   
+  
+https://switowski.com/blog/pyenv/#:~:text=A%20quick%20troubleshooting%20tip,terminal%20or%20run%20pyenv%20rehash%20.
+    1- instalar pyenv -->https://github.com/pyenv-win/pyenv-win
+	
    >> python --version
 
    >> Crear a mano primero un carpeta geneneral ==========> EJ: djangoproject

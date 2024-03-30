@@ -18,6 +18,9 @@ ________________________________________________________________________________
  https://www.nuget.org/packages/Material.Icons.Avalonia
  https://pictogrammers.com/library/mdi/
  
+ 
+ *** https://avaloniaui.github.io/icons.html
+ https://www.youtube.com/watch?v=xdy9YxuBS5E
  ______________________________________________________________________________________________________________________________________
  
  CHARTS

@@ -1,0 +1,22 @@
+
+Tutorial de bases de datos Vectoriales, LangChain y ChatGPT
+https://www.youtube.com/watch?v=CeCmgxAjyYs&t=12s
+https://www.reddit.com/r/programacion/comments/153xd5l/tutorial_de_bases_de_datos_vectoriales_langchain/?rdt=50113
+
+-------------
+https://www.youtube.com/watch?v=vvLzNEiBkIM
+
+
+------------------
+ChromaDB y ChatGPT | Primeros Pasos y Despliegue en Local con Docker
+https://www.youtube.com/watch?v=udexkMXDX2U  (Nechu)
+https://github.com/NechuBM/ChatChromaDB
+
+https://www.trychroma.com
+
+
+DEPLOY AWS
+https://www.youtube.com/watch?v=vuYpqJrqCaQ
+
+
+------------------
