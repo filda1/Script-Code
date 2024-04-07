@@ -20,3 +20,12 @@ https://www.youtube.com/watch?v=vuYpqJrqCaQ
 
 
 ------------------
+
+METER DOCS en LLMS = CONECTORES = RAG = LLAM INDEX
+
+LLama index RAG = modelo embeddings + ChromaDB + Modelo LLM
+
+https://www.youtube.com/watch?v=lvBIuL2ByCk
+ https://colab.research.google.com/github/alarcon7a/RAG-101-Llama-index/blob/main/Llama_index_RAG.ipynb
+ https://github.com/alarcon7a/RAG-101-Llama-index
+ https://docs.llamaindex.ai/en/stable/

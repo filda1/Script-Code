@@ -95,3 +95,17 @@ OLLAMA
 	 https://stanfordnlp.github.io/CoreNLP/demo.html
 	 
 	 -------------------------
+	 
+	 
+	 SOLAR - LLM
+	 https://www.upstage.ai/solar-llm
+	 
+	 
+	 ----------------
+	 
+	 PLUGINS
+	 
+	  LLama index
+	  LLama Reader
+	  LLama hub
+	    https://llamahub.ai

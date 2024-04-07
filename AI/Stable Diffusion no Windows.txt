@@ -1,0 +1,85 @@
+Como instalar Stable Diffusion no Windows - Grátis e Ilimitado
+https://www.youtube.com/watch?v=x2VWIwKW580
+https://github.com/AUTOMATIC1111/stable-diffusion-webui
+
+MODELOS
+https://www.youtube.com/watch?v=OgXd-r1b1XE
+ https://civitai.com/models/4823/delib...
+https://civitai.com/models/4201/reali...
+https://civitai.com/models/4384/dream...
+https://civitai.com/models/7371/rev-a...
+
+
+https://www.youtube.com/watch?v=JjHNJCLKfns (Stylos)
+
+
+https://www.youtube.com/watch?v=8VW4DIr2jgc
+
+Como usar Img2Img e Inpainting no Stable Diffusion
+https://www.youtube.com/watch?v=p0lvys1rg7Y
+
+
+
+
+-------------------------------------------------------------------------------
+INSTALAR con PINOQUIO Stable Diffusion (Facil)
+https://www.youtube.com/watch?v=zZvZB4iW8iI&list=PLiIT-qtLvfeY1wWFH2aL3zHBhpXG_K2EU&index=12  (Hoje na IA)
+
+
+--------------------------------------------------------------------------------
+
+ MODEL LLM LOCAL
+ https://www.youtube.com/watch?v=12nw9NuRzPA
+ 
+ https://github.com/oobabooga/text-generation-webui
+ 
+ ---------------------------------
+ 
+ CLONAR VOCES
+ 
+ https://www.youtube.com/watch?v=0f8xpeOooPI
+ 
+ 
+ ---------------------------------------------------------------------------------
+ 
+  EN COLAB
+  https://colab.research.google.com/github/lllyasviel/Fooocus/blob/main/fooocus_colab.ipynb
+  https://www.youtube.com/watch?v=O_lY3p_G_m0
+
+
+
+--------------------------------------------------------------------------------------
+
+ MODELOS
+  CAMBIAR ROSTRO ----> https://www.youtube.com/watch?v=eBkBdIr9gVM  = Como trocar o rosto de uma foto com poucos cliques - Roop Deep Fake para Stable Diffusion
+
+
+VIDEOS - AnimateDiff e Stable Diffusion
+https://www.youtube.com/watch?v=Mp74mjmtUik
+ https://civitai.com/articles/2379
+ 
+ 
+ https://www.youtube.com/watch?v=JL8GoeMN2fI
+ 
+ ----------------------
+  VIDEOS
+  ARTE pro --> Stable Diffusion + Deforum
+  https://www.youtube.com/watch?v=32Q0_oF4sOU
+  
+  
+  https://www.youtube.com/watch?v=QuR1AhOIoow&list=PLpt0VjF-ecxKQa5yw1wr23Gb4zY_SZL88 (LIST)
+  https://fliki.ai/?via=inicio
+  Genmo
+  https://www.genmo.ai/?caption=anibuis
+  Kaiber
+  
+  
+  INSTALR STABLE DIFUCTIONS
+   https://www.youtube.com/watch?v=GGTm-H_ePgc
+   
+   
+   VIDEOS GARTIS
+   https://www.youtube.com/watch?v=AbcR9mEvfpY
+   
+   HAiper
+   Pixelverse

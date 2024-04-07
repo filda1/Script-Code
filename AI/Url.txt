@@ -16,6 +16,12 @@
  https://github.com/kudoai/chatgpt.js/
 
 ***********************************************************************
+ BUSCADOR LLM LOCAL
+ Buscador con IA local - Combinando resultados con modelos LLM usando LLocalSearch  (La Hora Maker)
+  https://github.com/nilsherzig/LLocalSearch
+  https://www.youtube.com/watch?v=eoWz7hLb-gA
+  
+***********************************************************************
 MARKETING AI ---->https://www.youtube.com/watch?v=iUfW-D7ZaJk
 
 ************************************************************************
