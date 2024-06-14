@@ -16,6 +16,10 @@
   ASP.NET Core -  CQRS com MediatR - II
    
 *****************************************************************************************
+
+ Entity Framework Code-First Migration 
+ 
+*****************************************************************************************
 * https://devblogs.microsoft.com/dotnet/
 *https://docs.microsoft.com/en-us/
 

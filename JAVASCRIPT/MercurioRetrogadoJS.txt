@@ -1,0 +1,56 @@
+Mercurio retrogado js
+
+ https://horoscopes.astro-seek.com/retrograde-planets-astrology-calendar-2024
+ https://www.nationalgeographic.es/espacio/2023/08/mercurio-retrogrado-significado-que-ocurre
+ 
+ https://www.npmjs.com/package/ephemeris
+ 
+ ----------------------------------------------
+ 
+ var ephemeris = require('ephemeris-moshier');
+
+//var result = ephemeris.getAllPlanets("24.02.2024 17:09:01", 10.0014, 53.5653, 0);
+var result = ephemeris.getAllPlanets("24.01.2024 17:09:01", 10.0014, 53.5653, 0);
+
+//console.log('RESULT ----------' , result.observed.mercury.raw)  
+//console.log('RESULT ----------' , result.observed.mercury)  
+
+
+function esMercurioRetrógrado(mercurioActual, mercurioAnterior) {
+  // Obtener la longitud eclíptica actual y anterior de Mercurio
+  const longitudActual = mercurioActual.raw.longitude;
+  const longitudAnterior = mercurioAnterior.raw.longitude;
+
+  // Si la longitud actual es menor que la anterior, Mercurio está retrógrado
+  return longitudActual < longitudAnterior;
+}
+
+// Objeto de Mercurio en el momento actual y anterior
+const mercurioActual = {
+  raw: {
+     // longitude: 4.2036004075498425
+     longitude:   5.801558382437137
+  }
+};
+
+const mercurioAnterior = {
+  raw: {
+      //longitude: 5.665827134322659
+      longitude:   4.053695893690032
+  }
+};
+
+// Verificar si Mercurio está retrógrado en este momento
+const estáRetrógrado = esMercurioRetrógrado(mercurioActual, mercurioAnterior);
+console.log('¿Mercurio está retrógrado?', estáRetrógrado ? 'Sí' : 'No');
+
+-----
+Renaissance man with a telescope at night watching the stars and planets.
+This scene reflects the beauty of the outside world and the light within her, conveying her cheerful spirit to the viewer. (anatomy-based character design), insanely detailed, ((masterpiece)), top quality, 8K, ultra high resolution, high contrast, low saturation, by BoochaN
+
+
+--- velocidad orbital:  orbital speed
+--- velocidad de rotacion angular:  angular rotation velocity
+
+
+-- https://es.astro-seek.com/planetas-retrogrados-calendario-astrologico-2024

@@ -1,3 +1,10 @@
+ 
+ ************************************************************************************
+  Aprende Autenticación de Usuario, Sesión, Cookies y JWT con Node.js (midudev)
+  
+   https://www.youtube.com/watch?v=UqnnhAZxRac
+ 
+ 
  ************************************************************************************
   TUTORIAL NODE BLUUE WEB
     https://bluuweb.github.io/node/07-jwt/#configuracion-inicial

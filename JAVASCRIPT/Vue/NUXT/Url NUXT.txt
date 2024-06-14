@@ -1,0 +1,22 @@
+
+
+ NUXT tutoral
+ 
+ https://www.youtube.com/watch?v=eSdPvLymUbA&list=PLxd1RHU8YgYmTKohDs2lTqGvy0eaZJFfK&index=21
+_______________________________________________________________________________________________________
+
+ Build & Deploy: Full Stack Ecommerce AliExpress. Nuxt 3 Vue js Tailwind CSS Supabase Prisma Netlify
+ https://www.youtube.com/watch?v=dVcCRFVhz74
+ 
+ ---------------------------------------------------------------------------------------
+ 
+ AUTH
+ 
+  NUXT-AUTH = https://github.com/sidebase/nuxt-auth
+           
+  https://sidebase.io/nuxt-auth/server-side/jwt-access
+  https://auth.nuxtjs.org/schemes/local
+  
+  
+  LUCIA-AUTH
+  

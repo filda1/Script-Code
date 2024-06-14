@@ -21,3 +21,9 @@
  XCODE
   - Abrir Xcode y en XCODE ===> Open Developer Tools ========> Silmulator
 *******************************************************************************
+
+ TIENDA DROID OPEN SOURCE
+ 
+  https://f-droid.org/es/packages/
+  
+********************************************************************************

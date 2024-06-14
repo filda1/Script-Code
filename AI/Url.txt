@@ -21,6 +21,12 @@
   https://github.com/nilsherzig/LLocalSearch
   https://www.youtube.com/watch?v=eoWz7hLb-gA
   
+************************************************************************
+
+ VERCEL AI SDK
+ 
+  https://github.com/vercel/ai/tree/main
+  
 ***********************************************************************
 MARKETING AI ---->https://www.youtube.com/watch?v=iUfW-D7ZaJk
 

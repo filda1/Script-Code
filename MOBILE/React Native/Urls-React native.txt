@@ -10,6 +10,19 @@ REACT NATIVE (EXPO) ========> https://www.youtube.com/watch?v=hXDMWeD0ERM (Fazt)
 
 
 ***********************************************************************************************************
+ DARK MODE ---> (rodrigo)
+ 
+ Unistyles v2 + Dark e Light Mode + adaptive themes
+ https://www.youtube.com/watch?v=YpTcYhuxpas
+
+***********************************************************************************************************
+ REACT NATIVE ID ( COn emuladores)
+ 
+ https://www.youtube.com/watch?v=dbEAnlYZf18
+ https://ide.swmansion.com
+
+
+*************************************************************************************************************
   ***** BUENO
 
   REACT NATIVE + AUTH (Pradip Debnath)====>************** https://www.youtube.com/watch?v=gvF6sFIPfsQ

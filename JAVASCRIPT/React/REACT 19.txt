@@ -1,0 +1,6 @@
+
+ REACT 19
+ 
+ https://www.youtube.com/watch?v=OG6YGMF0UPM
+ 
+ https://react.dev/blog/2024/04/25/react-19

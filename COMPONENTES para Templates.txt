@@ -39,8 +39,9 @@
  
  https://bentogrids.com/ ************* EJEMPLOS
  
- 
- npm init -y
+ ----------------------------------------------------------
+ NODE:
+ >> npm init -y
  
  ----------------
   NAVBAR
@@ -68,11 +69,16 @@
 	https://www.codingnepalweb.com/digital-clock-using-javascript/
 	
 	
-	
-	
+---------------------------------------------------------------------
+ CREAR WEB
 	https://v0.dev/
+	
+	https://www.tldraw.com/
 
-
+--------------------------------------------------------------------
+ VERCEL AI SDK
+ https://github.com/vercel/ai/tree/main
+---------------------------------------------------------------------
    https://www.radix-ui.com/
 
    https://www.react-magic-motion.com/
@@ -128,7 +134,7 @@
 	 
 _____________________________________________________________________________________________________________________________________
 
-squoosh.app ---> editor de imagenes
+  squoosh.app ---> editor de imagenes
   
   transition -----> Movimiento de imagenes
   absolute  ------> pone encima la imagen
@@ -184,9 +190,14 @@ ________________________________________________________________________________
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 
- AUTH
+ AUTH  general JS 
  
+ =======> lucia-auth
  https://lucia-auth.com/tutorials/username-and-password/astro
+ 
+ 
+  =======> nuxt-auth  (basado en next-auth)
+  =======> astro-auth  (basado en next-auth)
  
  _____________________________________________________________________________________________________________________________________
  
@@ -212,7 +223,7 @@ ________________________________________________________________________________
  
  ------------------------------------------------------------------------------------------------------------------------------------
  
- TOP TECNO
+ TOP TECNO JS
  https://risingstars.js.org/2023/es
  _____________________________________________________________________________________________________________________________________
  
@@ -260,3 +271,125 @@ ________________________________________________________________________________
   https://flowgpt.com/chat
   
   https://www.llama2.space/
+  
+  
+  _____________________________________________________________________________________________________________________________________
+  COMPARADOR de FRAMEWORKS JS
+  
+  https://component-party.dev
+  
+  _____________________________________________________________________________________________________________________________________
+  
+  CPNVERTIDOR DE LENGUAJE
+  
+   ide.onelang.io
+    _____________________________________________________________________________________________________________________________________
+  
+   GOOGLE ANALITIC FREE
+   
+   counterscale.dev
+    _____________________________________________________________________________________________________________________________________
+  
+   BUTTONS Varierdad TalwindCSS
+
+    buttons.ibelick.com
+  
+  
+  _____________________________________________________________________________________________________________________________________
+  TEMPLATE AI TODO EN UNO
+  https://codecanyon.net/item/openai-davinci-ai-writing-assistant-and-content-creator-as-saas/43564164
+  
+  _____________________________________________________________________________________________________________________________________
+  
+  PUZZLE AI
+  
+  https://www.youtube.com/watch?v=b8Ir2vRfHSM
+  
+  _____________________________________________________________________________________________________________________________________
+  
+  LOCALHOST
+  
+  https://stackblitz.com/
+  https://stackblitz.com/~/
+  _____________________________________________________________________________________________________________________________________
+  
+  
+  codepen
+    universe: https://codepen.io/gstefler/pen/WNXyeqq
+	          https://codepen.io/gilson-santos-the-typescripter/pen/eYKyNMv
+			  https://codepen.io/anastasijaprogramer/pen/KKVOxwK
+			  https://codepen.io/kirathedeveloper/pen/MZRjja
+			  https://codepen.io/nicholas-fernandes-de-almeida/pen/oJoRGY
+			  https://codepen.io/LUMENS/pen/jzMvWp
+			  https://codepen.io/planetXD/pen/XdVWVv
+			  https://codepen.io/unmeshpro/pen/nMLxPr
+			  
+			  
+_____________________________________________________________________________________________________________________________________
+
+ Redis
+  https://www.reddit.com/r/LocalLLaMA/comments/15af0la/es_posible_ejecutar_llama_2_sin_gpu/es/?rdt=55359
+  
+  _____________________________________________________________________________________________________________________________________
+  
+  OLLAMA
+   Web --> OPEN WEBAI --> https://docs.openwebui.com/getting-started/#project-components
+           https://www.youtube.com/watch?v=BnL-XrzxSZE
+		   
+		   
+  WEB  -->  AnythingLLM--> https://useanything.com
+		   
+_____________________________________________________________________________________________________________________________________
+
+ LLAMA.cpp ---> https://www.youtube.com/watch?v=1dkmKt1PDoI
+ _____________________________________________________________________________________________________________________________________
+ 
+ Astronomia NOde
+ 
+ https://www.npmjs.com/package/astronomy-engine
+ 
+ _____________________________________________________________________________________________________________________________________
+ 
+ 
+ React 19
+ 
+ https://react.dev/blog/2024/04/25/react-19
+ 
+_____________________________________________________________________________________________________________________________________
+ RETRO GAMES 80
+
+ https://usborne.com/row/books/computer-and-coding-books
+ 
+ _____________________________________________________________________________________________________________________________________
+ 
+ 
+ IDES WEB
+ 
+ https://idx.google.com/
+ https://stackblitz.com/
+ 
+ _____________________________________________________________________________________________________________________________________
+ 
+ 
+ https://oss.gallery
+
+ Plane == jira
+ scalar API Swagger 
+  https://docs.scalar.com/project-default/version-default/reference-b_6OhgxW08DC7sDjNBcoh?ref=ossgallery#tag/authentication
+  
+  morphic = search AI
+   openSIgn == documentos firmados
+   
+   
+  _____________________________________________________________________________________________________________________________________
+  
+  FLUENT UI + react = MS office
+  
+  https://react.fluentui.dev/?path=/docs/concepts-introduction--page
+  https://github.com/microsoft/fluentui
+  
+  
+  
+  -------------------------------------------------------------------------------------------------------------------------------------
+  
+  uBlock Origin  ----------------> Bloquea youtube
